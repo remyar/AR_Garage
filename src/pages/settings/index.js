@@ -213,11 +213,19 @@ function SettingsPage(props) {
                     <Grid item xs={8} sx={{ textAlign: 'center' }}>
                         <Stack direction="row" spacing={2} sx={{ display: 'block' }}>
                             <Button variant="contained" onClick={async () => {
-                                setDisplayLoader(true);
-                                const filename = (await props.dispatch(actions.electron.getFilenameForOpen('.png')))?.getFilenameForOpen;
-                                let fileData = (await props.dispatch(actions.electron.readPng(filename.filePath)))?.fileData;
-                                await props.dispatch(actions.set.saveEntrepriseLogo(new Buffer(fileData).toString('base64')));
-                                setDisplayLoader(false);
+
+                                try {
+                                    setDisplayLoader(true);
+                                    const filename = (await props.dispatch(actions.electron.getFilenameForOpen('.png')))?.getFilenameForOpen;
+                                    if (filename.canceled == false) {
+                                        let fileData = (await props.dispatch(actions.electron.readPng(filename.filePath)))?.fileData;
+                                        await props.dispatch(actions.set.saveEntrepriseLogo(new Buffer(fileData).toString('base64')));
+                                    }
+                                } catch (err) {
+
+                                } finally {
+                                    setDisplayLoader(false);
+                                }
                             }}>
                                 {intl.formatMessage({ id: 'settings.logo.select' })}
                             </Button>
@@ -237,22 +245,24 @@ function SettingsPage(props) {
                     <Grid item xs={8} sx={{ textAlign: 'center' }}>
                         <Stack direction="row" spacing={2} sx={{ display: 'block' }}>
                             <Button variant="contained" onClick={async () => {
-                                setDisplayLoader(true);
+
                                 try {
+                                    setDisplayLoader(true);
                                     const filename = (await props.dispatch(actions.electron.getFilenameForSave('.json')))?.getFilenameForSave;
                                     if (filename.canceled == false) {
                                         await props.dispatch(actions.electron.writeFile(filename.filePath, JSON.stringify(globalState)));
                                     }
                                 } catch (err) {
                                     props.snackbar.error(err.message);
+                                } finally {
+                                    setDisplayLoader(false);
                                 }
-                                setDisplayLoader(false);
                             }}>
                                 {intl.formatMessage({ id: 'settings.database.export' })}
                             </Button>
                             <Button variant="contained" onClick={async () => {
-                                setDisplayLoader(true);
                                 try {
+                                    setDisplayLoader(true);
                                     const filename = (await props.dispatch(actions.electron.getFilenameForOpen('.json')))?.getFilenameForOpen;
                                     if (filename.canceled == false) {
                                         let fileData = (await props.dispatch(actions.electron.readFile(filename.filePath)))?.fileData;
@@ -260,8 +270,9 @@ function SettingsPage(props) {
                                     }
                                 } catch (err) {
                                     props.snackbar.error(err.message);
+                                } finally {
+                                    setDisplayLoader(false);
                                 }
-                                setDisplayLoader(false);
                             }}>
                                 {intl.formatMessage({ id: 'settings.database.import' })}
                             </Button>
