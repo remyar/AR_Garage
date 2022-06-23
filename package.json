@@ -1,0 +1,110 @@
+{
+    "name": "ar_garage",
+    "description": "Simple Biling software for micro entreprise",
+    "version": "0.0.0",
+    "private": true,
+    "author": "ARNAUDIN Rémy",
+    "proxy": "http://localhost:4000",
+    "homepage": ".",
+    "build": {
+        "asar": true,
+        "directories": {
+            "output": "out"
+        },
+        "publish": [
+            {
+                "owner": "WesterosCraftCode",
+                "repo": "ElectronLauncher",
+                "provider": "github"
+            }
+        ],
+        "extraMetadata": {
+            "main": "main.js"
+        },
+        "win": {
+            "icon": "public/favicon.ico",
+            "publish": [
+                {
+                    "provider": "github",
+                    "repo": "AR_Garage",
+                    "owner": "remyar"
+                }
+            ],
+            "artifactName": "AR_Garage-Setup-${version}.${ext}",
+            "files": [
+                "!out/*",
+                "!webpack*",
+                "!src/*",
+                "!*.log",
+                "!node_modules/*",
+                "!dev-app-update.yml",
+                "!.vscode/*",
+                "!.github/*",
+                "!*.md",
+                "!public/*"
+            ]
+        }
+    },
+    "dependencies": {
+        "@craco/craco": "^6.4.3",
+        "@electron/remote": "^2.0.1",
+        "@emotion/react": "^11.7.1",
+        "@emotion/styled": "^11.6.0",
+        "@mui/icons-material": "^5.2.4",
+        "@mui/lab": "^5.0.0-alpha.74",
+        "@mui/material": "^5.2.4",
+        "@testing-library/jest-dom": "^5.16.2",
+        "@testing-library/react": "^12.1.4",
+        "@testing-library/user-event": "^13.5.0",
+        "electron-fetch": "^1.7.4",
+        "electron-is-dev": "^2.0.0",
+        "electron-log": "^4.4.3",
+        "electron-logger": "0.0.3",
+        "electron-store": "^8.0.1",
+        "electron-updater": "^4.6.1",
+        "formik": "^2.2.9",
+        "isomorphic-fetch": "^3.0.0",
+        "jspdf": "^2.5.1",
+        "jspdf-autotable": "^3.5.23",
+        "lodash": "^4.17.21",
+        "notistack": "^2.0.3",
+        "puppeteer-core": "^14.4.1",
+        "react": "^17.0.2",
+        "react-datepicker": "^4.1.1",
+        "react-dom": "^17.0.2",
+        "react-input-mask": "^2.0.4",
+        "react-intl": "^5.22.0",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "^5.0.0",
+        "yup": "^0.32.11"
+    },
+    "devDependencies": {
+        "electron": "^16.0.5",
+        "electron-builder": "^22.14.5"
+    },
+    "scripts": {
+        "start:electron": "electron main.js",
+        "start": "craco  start",
+        "build": "craco  build",
+        "dist": "electron-builder",
+        "test": "craco  test"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

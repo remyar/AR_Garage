@@ -1,2 +1,2 @@
 # AR_Garage
-Logiciel de devis est facturation pour garage en micro entreprise
+Un petit utilitaire de generation de devis et de facture pour micro entreprise
