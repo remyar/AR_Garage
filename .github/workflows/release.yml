@@ -49,5 +49,5 @@ jobs:
           release: true
           github_token: ${{ secrets.github_token }}
         env:
-          CI: true
+          CI: false
           GENERATE_SOURCEMAP: false
