@@ -1,7 +1,7 @@
 {
     "name": "ar_garage",
     "description": "Simple Biling software for micro entreprise",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "private": true,
     "author": "ARNAUDIN Rémy",
     "proxy": "http://localhost:4000",
@@ -88,7 +88,7 @@
         "build": "craco  build",
         "dist": "electron-builder",
         "test": "craco  test",
-        "generate:categories" : "node ./tools/extra.oscaro.categories.js"
+        "generate:categories": "node ./tools/extra.oscaro.categories.js"
     },
     "eslintConfig": {
         "extends": [
