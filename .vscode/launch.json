@@ -21,6 +21,9 @@
             "windows": {
                 "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron.cmd"
             },
+            "runtimeArgs": [
+                "${workspaceRoot}/main.js"
+            ],
             "args" : ["."],
             "outputCapture": "std"
         },
