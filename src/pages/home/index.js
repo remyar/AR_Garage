@@ -51,7 +51,9 @@ function HomePage(props) {
                     props.snackbar.error(err.message);
                 }
                 setDisplayLoader(false);
-            }} />
+            }} onError={(value)=>{
+                props.snackbar.error(value);
+            }}/>
         </Box>
     </Box >
 

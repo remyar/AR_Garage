@@ -29,7 +29,8 @@ const persistConfig = {
         "devis",
         "products",
         "services",
-        "factures"
+        "factures",
+        "marques"
     ]
 };
 
@@ -58,10 +59,12 @@ ReactDOM.render(
             settings: { locale: "fr" },
             clients: [],
             vehicules: [],
+            categories:[],
             devis:[],
             products:[],
             services:[],
-            factures:[]
+            factures:[],
+            marques:[]
         }}>
             <MemoryRouter>
                 <NavigationProvider>

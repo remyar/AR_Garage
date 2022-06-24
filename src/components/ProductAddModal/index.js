@@ -143,7 +143,7 @@ function ProductAddModal(props) {
                                             setSelectedCategorie(_c);
                                             ////handleChange(event)
                                         }}
-                                        value={selectedCategorie.id}
+                                        value={selectedCategorie?.id}
                                     >
                                         {categories && categories.map((_v, idx) => {
                                             return <MenuItem key={"categories_" + idx} value={_v.name}>{_v.name}</MenuItem>

@@ -1,8 +1,9 @@
 import createAction from '../../middleware/actions';
-import marques from '../../data/marque.json';
 
 export async function getAllMarques({ extra, getState }) {
     try {
+        const state = getState();
+        let marques = state.marques;
         return { marques : marques};
     } catch (err) {
         throw { message: err.message };

@@ -1,18 +1,59 @@
-[
-    {
-        "name" : "Pièces moteur",
-        "sub" : [
-            {
-                "name" : "Courroies et Distribution"
-            }
-        ]
-    },
-    {
-        "name" : "Filtres et huile",
-        "sub" : [
-            {
-                "name" : "Filtres"
-            }
-        ]
-    }
-]
+{
+    "categories": [
+        {
+            "name": "Pièces moteur",
+            "sub": [
+                {
+                    "name": "Courroies et Distribution"
+                },
+                {
+                    "name": "Refroidissement moteur"
+                },
+                {
+                    "name": "Injection carburation"
+                },
+                {
+                    "name": "Bougies et Pièces d'allumage"
+                },
+                {
+                    "name": "Moteur et Culasse"
+                },
+                {
+                    "name": "Turbo"
+                },
+                {
+                    "name": "Capteurs et câbles moteur"
+                },
+                {
+                    "name": "Pompes"
+                },
+                {
+                    "name": "Supports moteur"
+                },
+                {
+                    "name": "Bougies et Pièces de préchauffage"
+                },
+                {
+                    "name": "Lubrification"
+                },
+                {
+                    "name": "Soupapes du moteur"
+                },
+                {
+                    "name": "Guides d'entretien auto"
+                },
+                {
+                    "name": "Alimentation carburant"
+                }
+            ]
+        },
+        {
+            "name": "Filtres et huile",
+            "sub": [
+                {
+                    "name": "Filtres"
+                }
+            ]
+        }
+    ]
+}

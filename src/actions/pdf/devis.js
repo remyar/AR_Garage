@@ -29,8 +29,8 @@ export async function devis(devis, printAndSave, { extra, getState }) {
             lineOffset += pdf.getLineHeight();
         }
 
-        pdf.addImage('data:image/png;base64,' + settings.logo, 'PNG', 30, lineOffset / 2 + 5 , 305/2, 140/2);
-        
+        settings.logo && pdf.addImage('data:image/png;base64,' + settings.logo, 'PNG', 30, lineOffset / 2 + 5, 305 / 2, 140 / 2);
+
         pdf.setFontSize(16);
         pdf.setTextColor("#97a3b5");
         pdf.setFont("roboto", "bold");
@@ -56,42 +56,42 @@ export async function devis(devis, printAndSave, { extra, getState }) {
         _addLine();
         pdf.setTextColor("#000000");
         pdf.setFont("roboto", "bold");
-        _pushText(entrepriseSettings.nom);
+        _pushText(entrepriseSettings?.nom || "");
         _pushText((devis?.client?.nom?.toUpperCase() || "") + " " + (devis?.client?.prenom || ""), (pdf.internal.pageSize.getWidth() / 2));
         _addLine();
         pdf.setFont("roboto", "normal");
 
-        _pushText(entrepriseSettings.adresse1);
+        _pushText(entrepriseSettings?.adresse1 || "");
         _addLine();
-        if ( entrepriseSettings.adresse2 && entrepriseSettings.adresse2 != ''){
-            _pushText(entrepriseSettings.adresse2);
+
+        _pushText(entrepriseSettings?.adresse2 || "");
+        _addLine();
+
+        _pushText((entrepriseSettings?.code_postal || "") + " " + (entrepriseSettings?.ville || ""));
+        _addLine();
+        _pushText("Télèphone : " + (entrepriseSettings?.telephone || ""));
+        _addLine();
+        if (entrepriseSettings?.mail && entrepriseSettings?.mail != '') {
+            _pushText("mail : " + entrepriseSettings?.mail);
             _addLine();
         }
-        _pushText(entrepriseSettings.code_postal + " " + entrepriseSettings.ville);
+        _pushText("Siret : " + (entrepriseSettings?.siret || ""));
         _addLine();
-        _pushText("Télèphone : " + entrepriseSettings.telephone);
-        _addLine();
-        if ( entrepriseSettings.mail && entrepriseSettings.mail != ''){
-            _pushText("mail : " + entrepriseSettings.mail);
-            _addLine();
-        }
-        _pushText("Siret : " + entrepriseSettings.siret);
-        _addLine();
-        _pushText("Enregistrer au RCS de : " + entrepriseSettings.rcs);
+        _pushText("Enregistrer au RCS de : " + (entrepriseSettings?.rcs || ""));
 
         lineOffset -= pdf.getLineHeight() * 5;
 
         _pushText((devis?.client?.adresse1 || ""), (pdf.internal.pageSize.getWidth() / 2));
-        if (devis?.client?.adresse2?.length > 0) {
-            _addLine();
-            _pushText(devis?.client?.adresse2, (pdf.internal.pageSize.getWidth() / 2));
-        }
+
         _addLine();
-        _pushText((devis?.client?.postal || "") + " " + (devis?.client?.commune || ""), (pdf.internal.pageSize.getWidth() / 2));
+        _pushText(devis?.client?.adresse2|| "", (pdf.internal.pageSize.getWidth() / 2));
+
+        _addLine();
+        _pushText((devis?.client?.code_postal || "") + " " + (devis?.client?.ville || ""), (pdf.internal.pageSize.getWidth() / 2));
         _addLine();
         _pushText("Télèphone : " + (devis?.client?.telephone || ""), (pdf.internal.pageSize.getWidth() / 2));
         _addLine();
-        _pushText("mail : " + (devis?.client?.email || ""), (pdf.internal.pageSize.getWidth() / 2));
+        _pushText(devis?.client?.email && ("mail : " + (devis?.client?.email || "")), (pdf.internal.pageSize.getWidth() / 2));
 
 
         lineOffset += pdf.getLineHeight() * 5;
@@ -104,18 +104,18 @@ export async function devis(devis, printAndSave, { extra, getState }) {
 
         lineOffset -= pdf.getLineHeight();
         lineOffset -= 1;
-        pdf.setTextColor(128,128,128);
+        pdf.setTextColor(128, 128, 128);
         _pushText("Date du devis", 30 + 10);
-        _pushText("Date de livraison", (pdf.internal.pageSize.getWidth() / 4));
-        _pushText("Condition de paiement", (pdf.internal.pageSize.getWidth() / 4) * 2);
-        _pushText("Validité de l'offre", (pdf.internal.pageSize.getWidth() / 4) * 3);
+        // _pushText("Date de livraison", (pdf.internal.pageSize.getWidth() / 4));
+        _pushText("Condition de paiement", (pdf.internal.pageSize.getWidth() / 3));
+        _pushText("Validité de l'offre", (pdf.internal.pageSize.getWidth() / 3) * 2);
         pdf.setFontSize(12);
-        pdf.setTextColor(0,0,0);
+        pdf.setTextColor(0, 0, 0);
         _addLine();
-        _pushText(devis.emission || new Date().toLocaleDateString() , 30 + 10);
-        _pushText(devis.expiration || "", (pdf.internal.pageSize.getWidth() / 4));
-        _pushText("30 jours", (pdf.internal.pageSize.getWidth() / 4) * 2);
-        _pushText(devis.expiration || "30 Jours", (pdf.internal.pageSize.getWidth() / 4) * 3);
+        _pushText(devis.date ? new Date(devis.date).toLocaleDateString() : new Date().toLocaleDateString(), 30 + 10);
+        // _pushText(devis.expiration || "", (pdf.internal.pageSize.getWidth() / 4));
+        _pushText("30 jours", (pdf.internal.pageSize.getWidth() / 3));
+        _pushText(devis.expiration ? new Date(devis.expiration).toLocaleDateString() : new Date().toLocaleDateString(), (pdf.internal.pageSize.getWidth() / 3) * 2);
 
         lineOffset += pdf.getLineHeight() * 4;
 
@@ -134,7 +134,7 @@ export async function devis(devis, printAndSave, { extra, getState }) {
         let totalMontant = 0;
         rows = devis.products.map((el, idx) => {
             totalMontant += (parseFloat(el.prix_vente) * parseFloat(el.quantity));
-            return { ...el, num_line: idx + 1, brand_name: ((el.brand ? el.brand : '') + ' ' + (el.name ? el.name : el.commentaire ? el.commentaire : ' ')).trim(), prix_vente : el.prix_vente + " €", prix_total: (parseFloat(el.prix_vente) * parseFloat(el.quantity)).toFixed(2) + ' €' };
+            return { ...el, num_line: idx + 1, brand_name: ((el.brand ? el.brand : '') + ' ' + (el.name ? el.name : el.commentaire ? el.commentaire : ' ')).trim(), prix_vente: el.prix_vente + " €", prix_total: (parseFloat(el.prix_vente) * parseFloat(el.quantity)).toFixed(2) + ' €' };
         });
 
         pdf.autoTable(_getColumns(), rows, {
@@ -145,29 +145,6 @@ export async function devis(devis, printAndSave, { extra, getState }) {
             showHeader: 'firstPage',
             margin: { top: 10, left: 30, right: 30 },
             startY: lineOffset,
-           /* drawRow: function (row, data) {
-
-                // let row = data.row;
-
-                pdf.setFont("roboto");
-                pdf.setFontStyle('bold');
-                pdf.setFontSize(10);
-
-                if (row.raw.length > 0) {
-                    // Colspan
-                    pdf.setTextColor(200, 0, 0);
-                    //pdf.rect(data.settings.margin.left, row.y, data.table.width, 20, 'S');
-                    pdf.autoTableText(row.raw[0], data.settings.margin.left, row.y + (row.height / 2), {
-                        halign: 'left',
-                        valign: 'middle',
-                    });
-                    data.cursor.y += row.height;
-                    return false;
-                }
-            },
-            drawCell: function (cell, data) {
-
-            }*/
         });
 
 
@@ -175,9 +152,9 @@ export async function devis(devis, printAndSave, { extra, getState }) {
 
         pdf.setFontSize(12);
         pdf.setFont("roboto", "bold");
-        pdf.line((pdf.internal.pageSize.getWidth() / 2), lineOffset + 12, pdf.internal.pageSize.getWidth() - 30, lineOffset+12); // vertical line
-        _pushText("Montant Total : ", (pdf.internal.pageSize.getWidth() / 4) *2);
-        _pushText(totalMontant.toFixed(2) + ' €', ((pdf.internal.pageSize.getWidth() / 4) *3) + 30);
+        pdf.line((pdf.internal.pageSize.getWidth() / 2), lineOffset + 12, pdf.internal.pageSize.getWidth() - 30, lineOffset + 12); // vertical line
+        _pushText("Montant Total : ", (pdf.internal.pageSize.getWidth() / 4) * 2);
+        _pushText(totalMontant.toFixed(2) + ' €', ((pdf.internal.pageSize.getWidth() / 4) * 3) + 30);
 
         lineOffset = pdf.internal.pageSize.getHeight() - (13 * pdf.getLineHeight());
 
@@ -185,42 +162,42 @@ export async function devis(devis, printAndSave, { extra, getState }) {
         pdf.roundedRect(30, lineOffset, pdf.internal.pageSize.getWidth() - 30 - 30, (pdf.getLineHeight() * 10), 4, 4, 'F');
 
         pdf.setFontSize(10);
-        lineOffset -=  pdf.getLineHeight() ;
-        pdf.setTextColor(128,128,128);
+        lineOffset -= pdf.getLineHeight();
+        pdf.setTextColor(128, 128, 128);
         _pushText("Paiement souhaité par virement bancaire", 30 + 10);
-        _pushText("Chéque a l'ordre de", (pdf.internal.pageSize.getWidth() / 2 ));
+        _pushText("Chéque a l'ordre de", (pdf.internal.pageSize.getWidth() / 2));
         _addLine();
-        pdf.setTextColor(0,0,0);
+        pdf.setTextColor(0, 0, 0);
         pdf.setFontSize(10);
-        _pushText(paiementSettings.order, (pdf.internal.pageSize.getWidth() / 2 )); 
+        _pushText(paiementSettings?.order || "", (pdf.internal.pageSize.getWidth() / 2));
         _addLine();
         pdf.setFontSize(10);
-        pdf.setTextColor(0,0,0);
+        pdf.setTextColor(0, 0, 0);
         pdf.setFont("roboto", "bold");
         _pushText("Nom associé au compte bancaire", 30 + 10);
         _addLine();
         pdf.setFont("roboto", "normal");
-        _pushText(paiementSettings.nom, 30 + 10);
+        _pushText(paiementSettings?.nom || "", 30 + 10);
         _addLine();
         _addLine();
         pdf.setFontSize(10);
-        pdf.setTextColor(0,0,0);
+        pdf.setTextColor(0, 0, 0);
         pdf.setFont("roboto", "bold");
         _pushText("IBAN", 30 + 10);
         _addLine();
         pdf.setFont("roboto", "normal");
-        _pushText(paiementSettings.iban, 30 + 10);
+        _pushText(paiementSettings?.iban || "", 30 + 10);
         _addLine();
         _addLine();
         _addLine();
-        pdf.setTextColor(128,128,128);
+        pdf.setTextColor(128, 128, 128);
         _pushText("Paiement acceptés par carte bancaire , espéces", 30 + 10);
         _addLine();
         _addLine();
 
         pdf.setFontSize(6);
         _addLine();
-        pdf.setTextColor(0,0,0);
+        pdf.setTextColor(0, 0, 0);
         _pushText("En cas de retard, une pénalité au taux de 5% sera appliqué - TVA non applicable, art. 293B du CGI", 30);
 
 
@@ -228,12 +205,12 @@ export async function devis(devis, printAndSave, { extra, getState }) {
         _pushText("Page 1 / 1", pdf.internal.pageSize.getWidth() - 80);
 
 
-       // if (printAndSave == true) {
-            //   pdf.autoPrint({ variant: 'non-conform' });  // <<--------------------- !!
-       //     pdf.output("dataurlnewwindow");
-       // } else {
-            await pdf.save('Test.pdf', { returnPromise: true });
-       // }
+        // if (printAndSave == true) {
+        //   pdf.autoPrint({ variant: 'non-conform' });  // <<--------------------- !!
+        //     pdf.output("dataurlnewwindow");
+        // } else {
+        await pdf.save('Test.pdf', { returnPromise: true });
+        // }
 
         return {};
     } catch (err) {

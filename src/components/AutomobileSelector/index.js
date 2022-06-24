@@ -28,7 +28,11 @@ function AutomobileSelector(props) {
         <Grid container spacing={2}>
             <Grid item xs={12}>
                 <Button variant="contained" sx={{ width: '100%' }} onClick={() => {
-                    props.onClick && props.onClick({ plate: plaque});
+                    if ( plaque.includes("*") == false ){
+                        props.onClick && props.onClick({ plate: plaque});
+                    } else {
+                        props.onError && props.onError("Pas d'imatriculation renseigné");
+                    }
                 }}>{intl.formatMessage({ id: 'button.validate' })}</Button>
             </Grid>
         </Grid>

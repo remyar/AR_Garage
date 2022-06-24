@@ -49,11 +49,7 @@ function App(props) {
 
 
     useEffect(() => {
-        
-        async function fetchData() {
-            await props.dispatch(actions.get.allCategories());
-        }
-
+  
         electron.ipcRenderer.on('update-available', (event, message) => {
             props.snackbar.warning(intl.formatMessage({ id: 'update.available' }));
         });
@@ -74,11 +70,10 @@ function App(props) {
             props.snackbar.error(intl.formatMessage({ id: 'update.error' }));
         });
 
-        fetchData();
     }, []);
 
     return <Box>
-        <AppBar onClick={() => { setDrawerState(true) }} title={selectedVehicule ? (selectedVehicule?.plate + ' : ' + selectedVehicule?.commercial_name) : undefined}/>
+        <AppBar onClick={() => { setDrawerState(true) }} title={selectedVehicule?.plate && selectedVehicule?.commercial_name ? (selectedVehicule?.plate + ' : ' + selectedVehicule?.commercial_name) : undefined}/>
         <Box sx={{paddingTop:'64px'}}>
             <Container maxWidth="xl" sx={{ /*height: 'calc(100vh - 64px)',*/ paddingTop: "25px"}} >
                 <Drawer

@@ -1,9 +1,10 @@
 import createAction from '../../middleware/actions';
-import categories from '../../data/categorie.json';
+
 
 export async function getAllCategories({ extra, getState }) {
     try {
-        return { categories : categories};
+        const state = getState();
+        return { categories : state.categories};
     } catch (err) {
         throw { message: err.message };
     }

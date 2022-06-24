@@ -25,7 +25,7 @@ function VehiculeInformationModal(props) {
 
     let _vehiculeTab = [];
     Object.keys(vehicule).forEach((key) => {
-        if (key !== 'commercial_name' && key !== 'id') {
+        if (key !== 'commercial_name' && key !== 'id' && key !== 'deleted') {
             _vehiculeTab.push({ name: key, value: vehicule[key] });
         }
     });

@@ -1,7 +1,7 @@
 import createAction from '../../middleware/actions';
 var html2json = require('html2json').html2json;
 
-export async function getAutoFromPlate(plate = "BB-456-CC", { extra, getState }) {
+export async function getAutoFromPlate(plate = "AA-456-BB", { extra, getState }) {
 
     const api = extra.api;
     try {
