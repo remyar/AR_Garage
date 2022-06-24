@@ -54,7 +54,7 @@ function Billingspage(props) {
 
         return {
             facture_number: el.facture_number,
-            plate: el.vehicule.plate,
+            plate: el?.vehicule?.plate || "",
             kilometrage: el.kilometrage,
             total: total.toFixed(2) + ' €',
             client: el.client.nom + ' ' + el.client.prenom,

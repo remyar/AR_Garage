@@ -34,7 +34,7 @@ const ValidationSchema = Yup.object().shape({
     adresse2: Yup.string(),
     code_postal: Yup.string().required(),
     ville: Yup.string().required(),
-    email: Yup.string().email('Invalid email'),
+    email: Yup.string().email(),
     siret: Yup.string().required(),
     telephone: Yup.string().required(),
     rcs: Yup.string().required(),
@@ -53,34 +53,22 @@ function SettingsPage(props) {
     const [displayLoader, setDisplayLoader] = useState(false);
 
     let initialValues = {
-        nom: '',
-        adresse1: '',
-        adresse2: '',
-        code_postal: '',
-        ville: '',
-        telephone: '',
-        email: '',
-        rcs: ''
+        nom: globalState?.settings?.entreprise?.nom || "",
+        adresse1: globalState?.settings?.entreprise?.adresse1 || "",
+        adresse2: globalState?.settings?.entreprise?.adresse2 || "",
+        code_postal: globalState?.settings?.entreprise?.code_postal || "",
+        ville: globalState?.settings?.entreprise?.ville || "",
+        telephone: globalState?.settings?.entreprise?.telephone || "",
+        email: globalState?.settings?.entreprise?.email || "",
+        siret: globalState?.settings?.entreprise?.siret || "",
+        rcs: globalState?.settings?.entreprise?.rcs || "",
     }
 
     let initialValuesPaiement = {
-        nom: '',
-        iban: '',
-        order: '',
+        nom: globalState?.settings?.paiement?.nom || '',
+        iban: globalState?.settings?.paiement?.iban || '',
+        order: globalState?.settings?.paiement?.order || '',
     }
-
-    async function fetchData() {
-        try {
-            let result = await props.dispatch(actions.get.settings());
-            console.log(result.settings);
-        } catch (err) {
-
-        }
-    }
-
-    useEffect(() => {
-        fetchData();
-    }, []);
 
     return <Box>
 
@@ -93,6 +81,7 @@ function SettingsPage(props) {
                 onSubmit={async (values, { setSubmitting }) => {
                     setDisplayLoader(true);
                     await props.dispatch(actions.set.saveEntrepriseSettings(values));
+                    props.snackbar.success(intl.formatMessage({ id: 'settings.societe.saved' }));
                     setDisplayLoader(false);
                 }}
             >
@@ -116,7 +105,7 @@ function SettingsPage(props) {
                         </ListItem>
                         <ListItem>
                             <ListItemText primary="Code Postal" />
-                            <InputMask value={values.code_postal} mask="99999" maskChar=" " name="code_postal" alwaysShowMask={false} onChange={handleChange}>
+                            <InputMask error={(errors.code_postal && touched.code_postal) ? true : false} value={values.code_postal} mask="99999" maskChar=" " name="code_postal" alwaysShowMask={false} onChange={handleChange}>
                                 {(inputProps) => <TextField {...inputProps} variant="standard" sx={{ textAlign: "center" }} disableUnderline />}
                             </InputMask>
                         </ListItem>
@@ -126,7 +115,7 @@ function SettingsPage(props) {
                         </ListItem>
                         <ListItem>
                             <ListItemText primary="Telephone" />
-                            <InputMask value={values.telephone} mask="99.99.99.99.99" maskChar=" " name="telephone" alwaysShowMask={false} onChange={handleChange}>
+                            <InputMask error={(errors.telephone && touched.telephone) ? true : false} value={values.telephone} mask="99.99.99.99.99" maskChar=" " name="telephone" alwaysShowMask={false} onChange={handleChange}>
                                 {(inputProps) => <TextField {...inputProps} variant="standard" sx={{ textAlign: "center" }} disableUnderline />}
                             </InputMask>
                         </ListItem>
@@ -165,6 +154,7 @@ function SettingsPage(props) {
                 onSubmit={async (values, { setSubmitting }) => {
                     setDisplayLoader(true);
                     await props.dispatch(actions.set.savePaiementSettings(values));
+                    props.snackbar.success(intl.formatMessage({ id: 'settings.paiement.saved' }));
                     setDisplayLoader(false);
                 }}
             >
@@ -211,9 +201,18 @@ function SettingsPage(props) {
                 <Grid container spacing={2}>
                     <Grid item xs={2} />
                     <Grid item xs={8} sx={{ textAlign: 'center' }}>
+                        {globalState?.settings?.logo && <img src={'data:image/png;base64,' + globalState?.settings?.logo} width={305 / 2} height={140 / 2} />}
+                        {!globalState?.settings?.logo && <Typography variant="h8" gutterBottom component="div">{intl.formatMessage({ id: 'settings.logo.no' })}</Typography>}
+                    </Grid>
+                    <Grid item xs={2} />
+                </Grid>
+            </ListItem>
+            <ListItem>
+                <Grid container spacing={2}>
+                    <Grid item xs={2} />
+                    <Grid item xs={8} sx={{ textAlign: 'center' }}>
                         <Stack direction="row" spacing={2} sx={{ display: 'block' }}>
                             <Button variant="contained" onClick={async () => {
-
                                 try {
                                     setDisplayLoader(true);
                                     const filename = (await props.dispatch(actions.electron.getFilenameForOpen('.png')))?.getFilenameForOpen;
@@ -222,7 +221,7 @@ function SettingsPage(props) {
                                         await props.dispatch(actions.set.saveEntrepriseLogo(new Buffer(fileData).toString('base64')));
                                     }
                                 } catch (err) {
-
+                                    props.snackbar.error(err.message);
                                 } finally {
                                     setDisplayLoader(false);
                                 }
@@ -251,6 +250,7 @@ function SettingsPage(props) {
                                     const filename = (await props.dispatch(actions.electron.getFilenameForSave('.json')))?.getFilenameForSave;
                                     if (filename.canceled == false) {
                                         await props.dispatch(actions.electron.writeFile(filename.filePath, JSON.stringify(globalState)));
+                                        props.snackbar.success(intl.formatMessage({ id: 'settings.database.export.success' }));
                                     }
                                 } catch (err) {
                                     props.snackbar.error(err.message);
@@ -267,6 +267,7 @@ function SettingsPage(props) {
                                     if (filename.canceled == false) {
                                         let fileData = (await props.dispatch(actions.electron.readFile(filename.filePath)))?.fileData;
                                         await props.dispatch(actions.database.restore(JSON.parse(fileData)));
+                                        props.snackbar.success(intl.formatMessage({ id: 'settings.database.import.success' }));
                                     }
                                 } catch (err) {
                                     props.snackbar.error(err.message);

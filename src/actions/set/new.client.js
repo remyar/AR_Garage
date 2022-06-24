@@ -4,11 +4,13 @@ export async function setNewCLient(client = {}, { extra, getState }) {
 
     try {
         let state = getState();
-        state.clients.push({...client , id : state.clients.length});
+
+        let _c = {...client , id : state.clients.length};
+        state.clients.push(_c);
 
         return { 
             clients : state.clients ,
-            selectedVehicule: {} 
+            client : _c
         };
     } catch (err) {
         throw { message: err.message };

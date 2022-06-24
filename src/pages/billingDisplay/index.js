@@ -69,8 +69,6 @@ function BillingsDisplayPage(props) {
         devis_total += tarif_total;
         let tarif_vente = parseFloat(line.prix_vente.toString()).toFixed(2) + ' €';
         return { ...line, name: ((line.brand ? line.brand : '') + ' ' + (line.name ? line.name : line.commentaire ? line.commentaire : ' ')).trim(), info: '', qty: line.quantity, tarif_vente, tarif_total: tarif_total.toFixed(2) + ' €' };
-
-      //  return { ...line, name: line.brand + ' ' + line.name, info: '', qty: line.quantity, tarif_vente, tarif_total: tarif_total.toFixed(2) + ' €' };
     });
 
     rows && rows.push({
@@ -108,7 +106,7 @@ function BillingsDisplayPage(props) {
                 <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
                     <Grid item xs={12}>
                         <TextField disabled label="Adresse" variant="outlined" sx={{ width: "100%", textAlign: "left" }} multiline maxRows='3' minRows='3'
-                            value={(facture?.client?.adresse1 || facture?.client?.adresse2) && (facture?.client?.adresse1 + (facture?.client?.adresse2?.length ? ('\n' + facture?.client?.adresse2 + '\n') : '\n') + facture?.client?.postal + ' ' + facture?.client?.commune)}
+                            value={(facture?.client?.adresse1 || facture?.client?.adresse2) && (facture?.client?.adresse1 + (facture?.client?.adresse2?.length ? ('\n' + facture?.client?.adresse2 + '\n') : '\n') + facture?.client?.code_postal + ' ' + facture?.client?.ville)}
                         />
                     </Grid>
                 </Grid>

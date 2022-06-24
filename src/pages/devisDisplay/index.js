@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { injectIntl } from 'react-intl';
 import { withStoreProvider } from '../../providers/StoreProvider';
+import { withSnackBar } from '../../providers/snackBar';
 
 import actions from '../../actions';
 
@@ -164,7 +165,14 @@ function DevisDisplayPage(props) {
                 icon={<PrintIcon />}
                 tooltipTitle={intl.formatMessage({ id: 'devis.print' })}
                 onClick={async () => {
-                    props.dispatch(actions.pdf.devis(devis, true))
+                    setDisplayLoader(true);
+                    try {
+                        await props.dispatch(actions.pdf.devis(devis, true));
+                    } catch (err) {
+                        props.snackbar.success(err.message);
+                    } finally {
+                        setDisplayLoader(false);
+                    }
                 }}
             />
             <SpeedDialAction
@@ -172,7 +180,8 @@ function DevisDisplayPage(props) {
                 icon={<CreditScoreIcon />}
                 tooltipTitle={intl.formatMessage({ id: 'devis.convert.to.billing' })}
                 onClick={async () => {
-                    props.dispatch(actions.put.devis(devis))
+                    await props.dispatch(actions.put.devis(devis));
+                    props.snackbar.success(intl.formatMessage({ id: 'devis.convert.to.billing.success' }));
                 }}
             />
         </SpeedDial>
@@ -180,4 +189,4 @@ function DevisDisplayPage(props) {
     </Box >;
 }
 
-export default withStoreProvider(injectIntl(DevisDisplayPage));
+export default withStoreProvider(withSnackBar(injectIntl(DevisDisplayPage)));

@@ -59,8 +59,8 @@ function DevisCreatePage(props) {
         setProduits(result.products.filter((el) => el.deleted !== 1));
         result = await props.dispatch(actions.get.allServices());
         setServices(result.services.filter((el) => el.deleted !== 1));
-        result = await props.dispatch(actions.get.lastDevisNumber());
-        setDevisNumber(result.lastDevisNumber + 1);
+       /* result = await props.dispatch(actions.get.lastDevisNumber());
+        setDevisNumber(result.lastDevisNumber + 1);*/
     }
 
     useEffect(() => {
@@ -112,8 +112,13 @@ function DevisCreatePage(props) {
                                 setDisplayClientAddModal(false);
                             }}
                             onValidate={async (client, edit) => {
-                                await props.dispatch(actions.set.newClient(client));
-                                await fetchData();
+                                try{
+                                    let result = await props.dispatch(actions.set.newClient(client));
+                                    await fetchData();
+                                    setSelectedClient(result.client);
+                                }catch(err){
+                                    console.error(err)
+                                }
                                 setDisplayClientAddModal(false);
                             }}
                         />}
@@ -123,7 +128,14 @@ function DevisCreatePage(props) {
                             disablePortal
                             id="combo-box-demo"
                             options={clients}
-                            getOptionLabel={(option) => option.nom.toUpperCase() + ' ' + option.prenom}
+                            value={selectedClient}
+                            getOptionLabel={(option) => {
+                                if ( option?.nom || option?.prenom ){
+                                    return (option?.nom?.toUpperCase() + ' ' + option?.prenom);
+                                } else {
+                                    return "";
+                                }
+                            }}
                             sx={{ width: '100%' }}
                             onChange={(event, value) => { setSelectedClient(value) }}
                             renderInput={(params, option) => <TextField {...params} label="Client" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="Client" />}
@@ -138,7 +150,7 @@ function DevisCreatePage(props) {
                 <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
                     <Grid item xs={12}>
                         <TextField label="Adresse" focused variant="outlined" sx={{ width: "100%", textAlign: "left" }} name="Adresse" multiline maxRows='3' minRows='3'
-                            value={(selectedClient.adresse1 || selectedClient.adresse2) && (selectedClient.adresse1 + (selectedClient?.adresse2?.length ? ('\n' + selectedClient.adresse2 + '\n') : '\n') + selectedClient.code_postal + ' ' + selectedClient.ville)}
+                            value={(selectedClient?.adresse1 || selectedClient?.adresse2) && (selectedClient?.adresse1 + (selectedClient?.adresse2?.length ? ('\n' + selectedClient?.adresse2 + '\n') : '\n') + (selectedClient?.code_postal||"") + ' ' + (selectedClient?.ville || ""))}
                         />
                     </Grid>
                 </Grid>
@@ -167,7 +179,9 @@ function DevisCreatePage(props) {
                                             let result = await props.dispatch(actions.get.autoFromPlate(value));
                                             setSelectedVehicule(result.vehicule);
                                         } catch (err) {
-
+                                            await props.dispatch(actions.set.selectedVehicule(undefined));
+                                            setSelectedVehicule(undefined);
+                                            props.snackbar.error(err.message);
                                         } finally {
                                             setDisplayLoader(false);
                                         }
@@ -186,7 +200,7 @@ function DevisCreatePage(props) {
                 <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
                     <Grid item xs={12}>
                         <TextField label="Vehicule" focused variant="outlined" sx={{ width: "100%", textAlign: "left" }} name="Vehicule" multiline maxRows='3' minRows='3'
-                            value={(selectedVehicule?.commercial_name) && (selectedVehicule?.commercial_name)}
+                            value={selectedVehicule?.commercial_name ? selectedVehicule?.commercial_name : ""}
                         />
                     </Grid>
                 </Grid>
