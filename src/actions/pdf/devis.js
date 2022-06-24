@@ -71,15 +71,15 @@ export async function devis(devis, printAndSave, { extra, getState }) {
         _addLine();
         _pushText("Télèphone : " + (entrepriseSettings?.telephone || ""));
         _addLine();
-        if (entrepriseSettings?.mail && entrepriseSettings?.mail != '') {
-            _pushText("mail : " + entrepriseSettings?.mail);
+        if (entrepriseSettings?.email && entrepriseSettings?.email != '') {
+            _pushText("mail : " + entrepriseSettings?.email);
             _addLine();
         }
         _pushText("Siret : " + (entrepriseSettings?.siret || ""));
         _addLine();
         _pushText("Enregistrer au RCS de : " + (entrepriseSettings?.rcs || ""));
 
-        lineOffset -= pdf.getLineHeight() * 5;
+        lineOffset -= pdf.getLineHeight() * 6;
 
         _pushText((devis?.client?.adresse1 || ""), (pdf.internal.pageSize.getWidth() / 2));
 
@@ -94,7 +94,7 @@ export async function devis(devis, printAndSave, { extra, getState }) {
         _pushText(devis?.client?.email && ("mail : " + (devis?.client?.email || "")), (pdf.internal.pageSize.getWidth() / 2));
 
 
-        lineOffset += pdf.getLineHeight() * 5;
+        lineOffset += pdf.getLineHeight() * 6;
         _addLine();
 
         pdf.setFillColor(240, 240, 240);

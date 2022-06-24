@@ -54,6 +54,31 @@
                     "name": "Filtres"
                 }
             ]
+        },
+		{
+            "name": "Embrayage et Boîte de vitesse",
+            "sub": [
+                {
+                    "name": "Embrayage et Volant-moteur"
+                }
+            ]
+        },
+		{
+            "name": "Direction / Suspension / Train",
+            "sub": [
+                {
+                    "name": "Transmission"
+                }
+            ]
+        }
+		,
+		{
+            "name": "Freinage",
+            "sub": [
+                {
+                    "name": "Hydraulique"
+                }
+            ]
         }
     ]
 }
