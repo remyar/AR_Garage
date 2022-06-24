@@ -277,16 +277,9 @@ function DevisCreatePage(props) {
                         kilometrage: selectedVehicule?.kilometrage,
                         date: new Date().getTime(),
                         expiration: expiration,
-                        products: [],
+                        products: [...lines],
                     }
-                    lines.forEach((line) => {
-                        if (line.isService && line.isService == true) {
-                            devis.products.push({ service_id: line.id, quantity: line.quantity });
-                        } else {
-                            devis.products.push({ product_id: line.id, quantity: line.quantity });
-                        }
-                    });
-
+                    
                     await props.dispatch(actions.set.saveDevis(devis));
                     props.snackbar.success(intl.formatMessage({ id: 'devis.save.success' }));
                     props.navigation.goBack();
