@@ -1,14 +1,15 @@
-import fetch from 'isomorphic-fetch';
+import fetch from 'electron-fetch';
 
-export default function post(url, data, config) {
+export default function post(url, data, config = {}) {
     return new Promise(async (resolve, reject) => {
         try {
 
             let _c = {
                 method: 'POST',
                 body: typeof data == 'string' ? data : JSON.stringify(data),
-                cache: "no-cache",
                 useElectronNet: false,
+                credentials: "same-origin",
+                useSessionCookies : true
             };
 
             if (config) {
@@ -16,7 +17,11 @@ export default function post(url, data, config) {
                     _c.headers = config.headers;
                 }
             }
+
+            _c.headers = {..._c.headers, "cookie" : global.cookieString };
+
             const response = await fetch(url, _c);
+            
             let r = await response.text();
             resolve(r);
         } catch (err) {

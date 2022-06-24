@@ -8,7 +8,6 @@
     "homepage": ".",
     "build": {
         "asar": true,
-        "asarUnpack": "node_modules/puppeteer/.local-chromium/**/*",
         "directories": {
             "output": "out"
         },
@@ -64,13 +63,12 @@
         "electron-store": "^8.0.1",
         "electron-updater": "^4.6.1",
         "formik": "^2.2.9",
+        "html2json": "^1.0.2",
         "isomorphic-fetch": "^3.0.0",
         "jspdf": "^2.5.1",
         "jspdf-autotable": "^3.5.23",
         "lodash": "^4.17.21",
         "notistack": "^2.0.3",
-        "puppeteer-core": "^14.4.1",
-        "puppeteer-in-electron": "^3.0.5",
         "react": "^17.0.2",
         "react-datepicker": "^4.1.1",
         "react-dom": "^17.0.2",
