@@ -36,7 +36,7 @@ function VehiculesPage(props) {
     const [selectedVehicule, setSelectedVehicule] = useState(undefined);
     const [displayConfirmModal, setDisplayConfirmModal] = useState(undefined);
     const [displaVehiculeAddModal, setDisplayVehiculeAddModal] = useState(false);
-    const [displaVehiculeTechnicModal, setDisplayVehiculeTechnicModal] = useState(undefined);
+    const [displayVehiculeTechnicModal, setDisplayVehiculeTechnicModal] = useState(undefined);
     const [displayVehiculeModal, setDisplayVehiculeModal] = useState(undefined);
     const [filter, setFilter] = useState("");
 
@@ -73,9 +73,9 @@ function VehiculesPage(props) {
             label: '', maxWidth: 50, minWidth: 50, textAlign: "end", render: (row) => {
                 return <span >
 
-                    <BuildIcon sx={{ /*color: 'red',*/ cursor: 'pointer' }} onClick={() => {
+                    {/*<BuildIcon sx={{ cursor: 'pointer' }} onClick={() => {
                         setDisplayVehiculeTechnicModal(row);
-                    }} />
+                    }} />*/}
 
                     <InfoIcon sx={{ cursor: 'pointer', marginLeft: '15px' }} onClick={() => {
                         let vehicule = {
@@ -163,9 +163,9 @@ function VehiculesPage(props) {
             }}
         />}
 
-        {displaVehiculeTechnicModal && <VehiculeTechnicListModal
-            display={displaVehiculeTechnicModal ? true : false}
-            vehicule={displayVehiculeModal}
+        {displayVehiculeTechnicModal && <VehiculeTechnicListModal
+            display={displayVehiculeTechnicModal ? true : false}
+            vehicule={displayVehiculeTechnicModal}
         />}
 
         <SearchComponent onChange={(value) => {

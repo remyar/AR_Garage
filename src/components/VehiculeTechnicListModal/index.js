@@ -7,6 +7,10 @@ import Paper from '@mui/material/Paper';
 function VehiculeTechnicListModal(props) {
 
     const vehicule = props.vehicule;
+
+    useEffect(()=>{
+
+    },[]);
     
     return <Modal display={props.display || false}>
         <Paper elevation={0}>
