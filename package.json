@@ -11,13 +11,6 @@
         "directories": {
             "output": "out"
         },
-        "publish": [
-            {
-                "owner": "WesterosCraftCode",
-                "repo": "ElectronLauncher",
-                "provider": "github"
-            }
-        ],
         "extraMetadata": {
             "main": "main.js"
         },
@@ -27,7 +20,8 @@
                 {
                     "provider": "github",
                     "repo": "AR_Garage",
-                    "owner": "remyar"
+                    "owner": "remyar",
+                    "releaseType" : "release"
                 }
             ],
             "artifactName": "AR_Garage-Setup-${version}.${ext}",
