@@ -1,38 +1,73 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { injectIntl } from 'react-intl';
 import { withNavigation } from '../../providers/navigation';
 import { withStoreProvider } from '../../providers/StoreProvider';
 import { withSnackBar } from '../../providers/snackBar';
-import Box from '@mui/material/Box';
 
-import AutomobileSelector from "../../components/AutomobileSelector";
-import VehiculeInformationModal from '../../components/VehiculeInformationsModal';
+import Box from '@mui/material/Box';
+import Grid from '@mui/material/Grid';
+
 import Loader from '../../components/Loader';
 
 import actions from '../../actions';
 
+import CAChart from '../../components/CAChart';
+
 function HomePage(props) {
 
-    const vehicule = props.globalState.vehicule || {};
+    const intl = props.intl;
 
+    const vehicule = props.globalState.vehicule || {};
     const [displayLoader, setDisplayLoader] = useState(false);
-    const [displayVehiculeModal, setDisplayVehiculeModal] = useState(false);
+    const [factures, setFactures] = useState([]);
+
+    async function fetchData() {
+        setDisplayLoader(true);
+        try {
+            let result = await props.dispatch(actions.get.allFactures());
+            setFactures(result.factures);
+        } catch (err) {
+            props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
+        } finally {
+            setDisplayLoader(false);
+        }
+    }
+
+    useEffect(() => {
+        fetchData();
+    }, []);
+
+    let ca = {};
+    let caTotal = 0;
+
+    factures.forEach((_f) => {
+        let year = new Date(_f.date).getFullYear();
+        let month = new Date(_f.date).getMonth();
+
+        if (year == new Date().getFullYear()) {
+
+            if (ca[year] == undefined) {
+                ca[year] = {
+                    service: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                    product: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                }
+            }
+
+            _f.products.forEach((_p) => {
+                caTotal += (parseFloat(_p.prix_vente) * parseFloat(_p.quantity));
+
+                if (_p.isService) {
+                    ca[year].service[month] += (parseFloat(_p.prix_vente) * parseFloat(_p.quantity));
+                } else {
+                    ca[year].product[month] += (parseFloat(_p.prix_vente) * parseFloat(_p.quantity));
+                }
+            });
+        }
+    });
 
     return <Box>
 
         <Loader display={displayLoader} />
-
-        <VehiculeInformationModal
-            display={displayVehiculeModal}
-            vehicule={vehicule}
-            onClose={() => {
-                setDisplayVehiculeModal(false);
-            }}
-            onValidate={async (_v)=>{
-                await props.dispatch(actions.set.selectedVehicule(_v));
-                setDisplayVehiculeModal(false);
-            }}
-        />
 
         <Box sx={{
             position: 'absolute',
@@ -42,18 +77,13 @@ function HomePage(props) {
             transform: 'translate(-50%, -50%)',
             textAlign: 'center'
         }}>
-            <AutomobileSelector onClick={async (value) => {
-                setDisplayLoader(true);
-                try {
-                    await props.dispatch(actions.get.autoFromPlate(value.plate));
-                    setDisplayVehiculeModal(true);
-                } catch (err) {
-                    props.snackbar.error(err.message);
-                }
-                setDisplayLoader(false);
-            }} onError={(value)=>{
-                props.snackbar.error(value);
-            }}/>
+
+            <Grid container spacing={2}>
+                <Grid item xs={12} sx={{ textAlign: 'center' }}>
+                    <CAChart data={ca[new Date().getFullYear()]} title={"CA " + new Date().getFullYear() + " - " + caTotal + "€"} />
+                </Grid>
+            </Grid>
+
         </Box>
     </Box >
 
