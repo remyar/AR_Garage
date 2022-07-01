@@ -1,7 +1,7 @@
 {
     "name": "ar_garage",
     "description": "Simple Biling software for micro entreprise",
-    "version": "0.0.7",
+    "version": "0.0.9",
     "private": true,
     "author": "ARNAUDIN Rémy",
     "proxy": "http://localhost:4000",
@@ -11,13 +11,6 @@
         "directories": {
             "output": "out"
         },
-        "publish": [
-            {
-                "owner": "WesterosCraftCode",
-                "repo": "ElectronLauncher",
-                "provider": "github"
-            }
-        ],
         "extraMetadata": {
             "main": "main.js"
         },
@@ -27,7 +20,8 @@
                 {
                     "provider": "github",
                     "repo": "AR_Garage",
-                    "owner": "remyar"
+                    "owner": "remyar",
+                    "releaseType": "release"
                 }
             ],
             "artifactName": "AR_Garage-Setup-${version}.${ext}",
