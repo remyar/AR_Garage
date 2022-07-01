@@ -57,8 +57,8 @@ function DataTable(props) {
                 <TableBody>
                     {rows.map((row, rowIdx) => {
                         if ((row.isCustom == undefined || row.isCustom == false)) {
-                            return <TableRow onClick={() => {
-                                row.onClick && row.onClick();
+                            return <TableRow onClick={(event) => {
+                                row.onClick && row.onClick(row, rowIdx , event);
                             }} sx={{ ...row.sx }} hover key={"row_" + rowIdx}>
                                 {headers.map((header, headerIdx) => {
                                     return <TableCell key={"cell_" + rowIdx + "_" + headerIdx}>

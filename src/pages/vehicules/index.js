@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, MouseEvent } from 'react';
 import { injectIntl } from 'react-intl';
 import { withStoreProvider } from '../../providers/StoreProvider';
 import { withSnackBar } from '../../providers/snackBar';
@@ -9,6 +9,11 @@ import Box from '@mui/material/Box';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 import AddIcon from '@mui/icons-material/Add';
 import BuildIcon from '@mui/icons-material/Build';
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
+
+import MenuIcon from '@mui/icons-material/Menu';
+import InfoIcon from '@mui/icons-material/Info';
 
 import ConfirmModal from '../../components/ConfirmModal';
 import SearchComponent from '../../components/Search';
@@ -16,7 +21,8 @@ import DataTable from '../../components/DataTable';
 import Loader from '../../components/Loader';
 
 import VehiculeInformationModal from '../../components/VehiculeInformationsModal';
-
+import VehiculeAddModal from '../../components/VehiculeAddModal';
+import VehiculeTechnicListModal from '../../components/VehiculeTechnicListModal';
 
 import SpeedDialIcon from '@mui/material/SpeedDialIcon';
 import SpeedDialAction from '@mui/material/SpeedDialAction';
@@ -27,10 +33,20 @@ function VehiculesPage(props) {
 
     const [displayLoader, setDisplayLoader] = useState(false);
     const [vehicules, setVehicules] = useState([]);
+    const [selectedVehicule, setSelectedVehicule] = useState(undefined);
     const [displayConfirmModal, setDisplayConfirmModal] = useState(undefined);
     const [displaVehiculeAddModal, setDisplayVehiculeAddModal] = useState(false);
+    const [displaVehiculeTechnicModal, setDisplayVehiculeTechnicModal] = useState(undefined);
     const [displayVehiculeModal, setDisplayVehiculeModal] = useState(undefined);
     const [filter, setFilter] = useState("");
+
+    const [anchorEl, setAnchorEl] = useState(null);
+    const handleClick = (event) => {
+        setAnchorEl(event.currentTarget);
+    };
+    const handleClose = () => {
+        setAnchorEl(undefined);
+    };
 
     async function fetchData() {
         setDisplayLoader(true);
@@ -54,32 +70,44 @@ function VehiculesPage(props) {
         { id: 'energie', label: 'Energie', minWidth: 100 },
         { id: 'engine_code', label: 'Code Moteur', minWidth: 100 },
         {
-            label: '', maxWidth: 50, minWidth: 50, render: (row) => {
-                return <span>
-                    <BuildIcon sx={{ cursor: 'pointer' }} onClick={() => {
-                        let vehicule = { 
-                            id : row.id,
-                            brand : row.brand ,
-                            energie : row.energie,
-                            engine_code : row.engine_code,
-                            first_batch : row.first_batch,
-                            last_batch : row.last_batch,
-                            model : row.model,
-                            plate : row.plate,
-                            puissance : row.puissance,
-                            commercial_name : row.commercial_name
+            label: '', maxWidth: 50, minWidth: 50, textAlign: "end", render: (row) => {
+                return <span >
+
+                    <BuildIcon sx={{ /*color: 'red',*/ cursor: 'pointer' }} onClick={() => {
+                        setDisplayVehiculeTechnicModal(row);
+                    }} />
+
+                    <InfoIcon sx={{ cursor: 'pointer', marginLeft: '15px' }} onClick={() => {
+                        let vehicule = {
+                            id: row.id,
+                            brand: row.brand,
+                            energie: row.energie,
+                            engine_code: row.engine_code,
+                            first_batch: row.first_batch,
+                            last_batch: row.last_batch,
+                            model: row.model,
+                            plate: row.plate,
+                            puissance: row.puissance,
+                            commercial_name: row.commercial_name
                         }
                         setDisplayVehiculeModal(vehicule);
                     }} />
-                    <DeleteForeverIcon sx={{ color: 'red', cursor: 'pointer', marginLeft: '15px' }} onClick={() => {
-                        setDisplayConfirmModal(row);
+
+                    <MenuIcon sx={{ cursor: 'pointer', marginLeft: '15px' }} onClick={(event) => {
+                        setSelectedVehicule(row);
+                        handleClick(event);
                     }} />
+
                 </span>
             }
         }
     ];
 
-    let rows = [...vehicules];
+    let rows = vehicules.map((_v) => {
+        return {
+            ..._v
+        }
+    })
 
     rows = rows.sort((a, b) => a.plate.toLowerCase() > b.plate.toLowerCase() ? 1 : -1);
 
@@ -117,6 +145,29 @@ function VehiculesPage(props) {
             }}
         />}
 
+        {displaVehiculeAddModal && <VehiculeAddModal
+            display={displaVehiculeAddModal ? true : false}
+            onClose={() => {
+                setDisplayVehiculeAddModal(undefined);
+            }}
+            onValidate={async (_v) => {
+                setDisplayVehiculeAddModal(false);
+                setDisplayLoader(true);
+                try {
+                    let result = await props.dispatch(actions.get.autoFromPlate(_v.plate));
+                    setDisplayVehiculeModal(result.vehicule);
+                } catch (err) {
+                    props.snackbar.error(err.message);
+                }
+                setDisplayLoader(false);
+            }}
+        />}
+
+        {displaVehiculeTechnicModal && <VehiculeTechnicListModal
+            display={displaVehiculeTechnicModal ? true : false}
+            vehicule={displayVehiculeModal}
+        />}
+
         <SearchComponent onChange={(value) => {
             setFilter(value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""));
         }} />
@@ -140,6 +191,20 @@ function VehiculesPage(props) {
             />
         </SpeedDial>
 
+        <Menu
+            id="basic-menu"
+            anchorEl={anchorEl}
+            open={anchorEl ? true : false}
+            onClose={handleClose}
+            MenuListProps={{
+                'aria-labelledby': 'basic-button',
+            }}
+        >
+            <MenuItem onClick={(event) => {
+                setDisplayConfirmModal(selectedVehicule);
+                handleClose(event);
+            }}>{intl.formatMessage({ id: 'vehicules.delete' })}</MenuItem>
+        </Menu>
     </Box>
 }
 export default withSnackBar(withStoreProvider(injectIntl(VehiculesPage)));
