@@ -80,7 +80,7 @@ function HomePage(props) {
 
             <Grid container spacing={2}>
                 <Grid item xs={12} sx={{ textAlign: 'center' }}>
-                    <CAChart data={ca[new Date().getFullYear()]} title={"CA " + new Date().getFullYear() + " - " + caTotal + "€"} />
+                    <CAChart data={ca[new Date().getFullYear()]} title={"CA " + new Date().getFullYear() + " - " + caTotal.toFixed(2) + "€"} />
                 </Grid>
             </Grid>
 
