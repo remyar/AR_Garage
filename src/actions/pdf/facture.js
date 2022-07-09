@@ -89,7 +89,7 @@ export async function facture(devis, printAndSave, { extra, getState }) {
         _addLine();
         _pushText((devis?.client?.code_postal || "") + " " + (devis?.client?.ville || ""), (pdf.internal.pageSize.getWidth() / 2));
         _addLine();
-        _pushText("Télèphone : " + (devis?.client?.telephone || ""), (pdf.internal.pageSize.getWidth() / 2));
+        _pushText(devis?.client?.telephone &&  "Télèphone : " + (devis?.client?.telephone || ""), (pdf.internal.pageSize.getWidth() / 2));
         _addLine();
         _pushText(devis?.client?.email && ("mail : " + (devis?.client?.email || "")), (pdf.internal.pageSize.getWidth() / 2));
 
