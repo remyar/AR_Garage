@@ -106,7 +106,7 @@ function BillingsDisplayPage(props) {
                 <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
                     <Grid item xs={12}>
                         <TextField disabled label="Adresse" variant="outlined" sx={{ width: "100%", textAlign: "left" }} multiline maxRows='3' minRows='3'
-                            value={(facture?.client?.adresse1 || facture?.client?.adresse2) && (facture?.client?.adresse1 + (facture?.client?.adresse2?.length ? ('\n' + facture?.client?.adresse2 + '\n') : '\n') + facture?.client?.code_postal + ' ' + facture?.client?.ville)}
+                            value={(facture?.client?.adresse1 || "" + (facture?.client?.adresse2?.length ? ('\n' + facture?.client?.adresse2 + '\n') : '\n') + facture?.client?.code_postal + ' ' + facture?.client?.ville)}
                         />
                     </Grid>
                 </Grid>

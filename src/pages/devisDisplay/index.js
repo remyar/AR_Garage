@@ -104,7 +104,7 @@ function DevisDisplayPage(props) {
                 <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
                     <Grid item xs={12}>
                         <TextField disabled label="Adresse" variant="outlined" sx={{ width: "100%", textAlign: "left" }} multiline maxRows='3' minRows='3'
-                            value={(devis?.client?.adresse1 || devis?.client?.adresse2) && (devis?.client?.adresse1 + (devis?.client?.adresse2?.length ? ('\n' + devis?.client?.adresse2 + '\n') : '\n') + devis?.client?.code_postal + ' ' + devis?.client?.ville)}
+                            value={((devis?.client?.adresse1 || "") + (devis?.client?.adresse2?.length ? ('\n' + devis?.client?.adresse2 + '\n') : '\n') + devis?.client?.code_postal + ' ' + devis?.client?.ville)}
                         />
                     </Grid>
                 </Grid>

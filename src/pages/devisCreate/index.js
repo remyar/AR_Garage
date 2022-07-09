@@ -59,8 +59,8 @@ function DevisCreatePage(props) {
         setProduits(result.products.filter((el) => el.deleted !== 1));
         result = await props.dispatch(actions.get.allServices());
         setServices(result.services.filter((el) => el.deleted !== 1));
-       /* result = await props.dispatch(actions.get.lastDevisNumber());
-        setDevisNumber(result.lastDevisNumber + 1);*/
+        /* result = await props.dispatch(actions.get.lastDevisNumber());
+         setDevisNumber(result.lastDevisNumber + 1);*/
     }
 
     useEffect(() => {
@@ -112,11 +112,11 @@ function DevisCreatePage(props) {
                                 setDisplayClientAddModal(false);
                             }}
                             onValidate={async (client, edit) => {
-                                try{
+                                try {
                                     let result = await props.dispatch(actions.set.newClient(client));
                                     await fetchData();
                                     setSelectedClient(result.client);
-                                }catch(err){
+                                } catch (err) {
                                     console.error(err)
                                 }
                                 setDisplayClientAddModal(false);
@@ -130,7 +130,7 @@ function DevisCreatePage(props) {
                             options={clients}
                             value={selectedClient}
                             getOptionLabel={(option) => {
-                                if ( option?.nom || option?.prenom ){
+                                if (option?.nom || option?.prenom) {
                                     return (option?.nom?.toUpperCase() + ' ' + option?.prenom);
                                 } else {
                                     return "";
@@ -150,7 +150,7 @@ function DevisCreatePage(props) {
                 <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
                     <Grid item xs={12}>
                         <TextField label="Adresse" focused variant="outlined" sx={{ width: "100%", textAlign: "left" }} name="Adresse" multiline maxRows='3' minRows='3'
-                            value={(selectedClient?.adresse1 || selectedClient?.adresse2) && (selectedClient?.adresse1 + (selectedClient?.adresse2?.length ? ('\n' + selectedClient?.adresse2 + '\n') : '\n') + (selectedClient?.code_postal||"") + ' ' + (selectedClient?.ville || ""))}
+                            value={((selectedClient?.adresse1 || "") + (selectedClient?.adresse2?.length ? ('\n' + selectedClient?.adresse2 + '\n') : '\n') + (selectedClient?.code_postal || "") + ' ' + (selectedClient?.ville || ""))}
                         />
                     </Grid>
                 </Grid>
@@ -279,7 +279,7 @@ function DevisCreatePage(props) {
                         expiration: expiration,
                         products: [...lines],
                     }
-                    
+
                     await props.dispatch(actions.set.saveDevis(devis));
                     props.snackbar.success(intl.formatMessage({ id: 'devis.save.success' }));
                     props.navigation.goBack();
