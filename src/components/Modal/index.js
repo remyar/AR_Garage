@@ -3,7 +3,7 @@ import React from 'react';
 import Backdrop from '@mui/material/Backdrop';
 import Box from '@mui/material/Box';
 
-const style = {
+let style = {
     position: 'absolute',
     top: '50%',
     left: '50%',
@@ -14,9 +14,14 @@ const style = {
     borderRadius: '4px',
     boxShadow: 24,
     p: 4,
-  };
+};
 
 function Modal(props) {
+
+    if (props.sx) {
+        style = { ...style, ...props.sx };
+    }
+    
     return <Backdrop
         sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
         open={props.display}

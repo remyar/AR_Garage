@@ -73,9 +73,9 @@ function VehiculesPage(props) {
             label: '', maxWidth: 50, minWidth: 50, textAlign: "end", render: (row) => {
                 return <span >
 
-                    {/*<BuildIcon sx={{ cursor: 'pointer' }} onClick={() => {
+                    <BuildIcon sx={{ cursor: 'pointer' }} onClick={() => {
                         setDisplayVehiculeTechnicModal(row);
-                    }} />*/}
+                    }} />
 
                     <InfoIcon sx={{ cursor: 'pointer', marginLeft: '15px' }} onClick={() => {
                         let vehicule = {
