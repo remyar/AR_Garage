@@ -61,7 +61,7 @@ function DataTable(props) {
                                 row.onClick && row.onClick(row, rowIdx , event);
                             }} sx={{ ...row.sx }} hover key={"row_" + rowIdx}>
                                 {headers.map((header, headerIdx) => {
-                                    return <TableCell key={"cell_" + rowIdx + "_" + headerIdx}>
+                                    return <TableCell key={"cell_" + rowIdx + "_" + headerIdx} align={header.align}>
                                         {(() => {
                                             let value = header.id ? row[header.id] : '';
                                             if (header.render) {

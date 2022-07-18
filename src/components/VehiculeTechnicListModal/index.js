@@ -1,22 +1,57 @@
-import React, { useState , useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { injectIntl } from 'react-intl';
+import { withStoreProvider } from '../../providers/StoreProvider';
+import { withSnackBar } from '../../providers/snackBar';
 import Modal from '../Modal';
+import ImageViewer from 'react-simple-image-viewer';
 
 import Paper from '@mui/material/Paper';
 
+import actions from '../../actions';
+import Grid from '@mui/material/Grid';
+import Button from '@mui/material/Button';
+
+import Loader from '../../components/Loader';
+import PictureModal from '../../components/DisplayPictureModal';
+
+import ImageListItem from '@mui/material/ImageListItem';
+import ImageListItemBar from '@mui/material/ImageListItemBar';
+import IconButton from '@mui/material/IconButton';
+import StarBorderIcon from '@mui/icons-material/StarBorder';
+
 function VehiculeTechnicListModal(props) {
 
+    const intl = props.intl;
     const vehicule = props.vehicule;
 
-    useEffect(()=>{
+    const [technics, setTechnics] = useState({});
 
-    },[]);
-    
-    return <Modal display={props.display || false}>
+    async function fetchData() {
+        try {
+            let result = await props.dispatch(actions.get.allTechnicsByBrandAndEndigineCode(vehicule.brand, vehicule.engine_code));
+            setTechnics(result.technics);
+        } catch (err) {
+            props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
+        }
+    }
+
+    useEffect(() => {
+        fetchData();
+    }, []);
+
+    return <Modal display={props.display} onClose={()=>{
+        props.onClose && props.onClose();
+    }}>
         <Paper elevation={0}>
-
+            <Grid container spacing={2}>
+                <Grid item xs={12} sx={{ textAlign: 'center' }}>
+                    {technics.TimingBelt && <Button variant="contained" sx={{ width: '100%' }} onClick={() => {
+                        props.onDisplayPicture && props.onDisplayPicture("data/tb/" + technics.TimingBelt);
+                    }}>{intl.formatMessage({ id: 'technicList.TimingBelt' })}</Button>}
+                </Grid>
+            </Grid>
         </Paper>
     </Modal>
 }
 
-export default injectIntl(VehiculeTechnicListModal);
+export default withSnackBar(withStoreProvider(injectIntl(VehiculeTechnicListModal)));

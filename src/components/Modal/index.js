@@ -14,16 +14,22 @@ const style = {
     borderRadius: '4px',
     boxShadow: 24,
     p: 4,
-  };
+};
 
 function Modal(props) {
+
+    let _style = {...style};
+
+    if (props.sx) {
+        _style = { ...style, ...props.sx };
+    }
+    
     return <Backdrop
         sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
         open={props.display}
         onClick={() => { props.onClose && props.onClose(); }}
-
     >
-        <Box sx={style}>
+        <Box sx={_style}>
             {props.children}
         </Box>
     </Backdrop>

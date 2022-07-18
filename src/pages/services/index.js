@@ -61,7 +61,7 @@ function ServicesPage(props) {
             }
         },*/
         {
-            label: '', maxWidth: 100, minWidth: 100, render: (row) => {
+            label: '', maxWidth: 100, minWidth: 100, align: "right" , render: (row) => {
                 return <span>
                     <DeleteForeverIcon sx={{ color: 'red', cursor: 'pointer', marginLeft: '15px' }} onClick={() => {
                         setDisplayConfirmModal(row);
