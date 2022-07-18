@@ -57,7 +57,7 @@ function ClientsPage(props) {
         { id: 'code_postal', label: 'Code Postal', minWidth: 100 },
         { id: 'ville', label: 'Ville', minWidth: 100 },
         {
-            label: '', maxWidth: 100, minWidth: 100, render: (row) => {
+            label: '', maxWidth: 100, minWidth: 100, align: "right" , render: (row) => {
                 return <span>
                     <EditIcon sx={{ cursor: 'pointer' }} onClick={() => {
                         setDisplayClientEditModal(row);

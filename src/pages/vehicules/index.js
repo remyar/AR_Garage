@@ -24,6 +24,8 @@ import VehiculeInformationModal from '../../components/VehiculeInformationsModal
 import VehiculeAddModal from '../../components/VehiculeAddModal';
 import VehiculeTechnicListModal from '../../components/VehiculeTechnicListModal';
 
+import ImageViewer from '../../components/ImageViewer';
+
 import SpeedDialIcon from '@mui/material/SpeedDialIcon';
 import SpeedDialAction from '@mui/material/SpeedDialAction';
 import SpeedDial from '@mui/material/SpeedDial';
@@ -38,6 +40,7 @@ function VehiculesPage(props) {
     const [displaVehiculeAddModal, setDisplayVehiculeAddModal] = useState(false);
     const [displayVehiculeTechnicModal, setDisplayVehiculeTechnicModal] = useState(undefined);
     const [displayVehiculeModal, setDisplayVehiculeModal] = useState(undefined);
+    const [displayImageModal, setDisplayImageModal] = useState(undefined);
     const [filter, setFilter] = useState("");
 
     const [anchorEl, setAnchorEl] = useState(null);
@@ -70,12 +73,12 @@ function VehiculesPage(props) {
         { id: 'energie', label: 'Energie', minWidth: 100 },
         { id: 'engine_code', label: 'Code Moteur', minWidth: 100 },
         {
-            label: '', maxWidth: 50, minWidth: 50, textAlign: "end", render: (row) => {
-                return <span >
+            label: '', maxWidth: 50, minWidth: 50, align: "right", render: (row) => {
+                return <span>
 
-                    <BuildIcon sx={{ cursor: 'pointer' }} onClick={() => {
+                    {row.hasTechnics && <BuildIcon sx={{ cursor: 'pointer' }} onClick={() => {
                         setDisplayVehiculeTechnicModal(row);
-                    }} />
+                    }} />}
 
                     <InfoIcon sx={{ cursor: 'pointer', marginLeft: '15px' }} onClick={() => {
                         let vehicule = {
@@ -164,8 +167,24 @@ function VehiculesPage(props) {
         />}
 
         {displayVehiculeTechnicModal && <VehiculeTechnicListModal
+            onClose={() => {
+                setDisplayVehiculeTechnicModal(undefined);
+            }}
             display={displayVehiculeTechnicModal ? true : false}
             vehicule={displayVehiculeTechnicModal}
+            onDisplayPicture={(link) => {
+                setDisplayVehiculeTechnicModal(undefined);
+                setDisplayImageModal(link);
+                console.log(link);
+            }}
+        />}
+
+        {displayImageModal && <ImageViewer
+            display={displayImageModal ? true : false}
+            src={displayImageModal}
+            onClose={() => {
+                setDisplayImageModal(undefined);
+            }}
         />}
 
         <SearchComponent onChange={(value) => {
