@@ -3,21 +3,12 @@ import { injectIntl } from 'react-intl';
 import { withStoreProvider } from '../../providers/StoreProvider';
 import { withSnackBar } from '../../providers/snackBar';
 import Modal from '../Modal';
-import ImageViewer from 'react-simple-image-viewer';
 
 import Paper from '@mui/material/Paper';
 
 import actions from '../../actions';
 import Grid from '@mui/material/Grid';
 import Button from '@mui/material/Button';
-
-import Loader from '../../components/Loader';
-import PictureModal from '../../components/DisplayPictureModal';
-
-import ImageListItem from '@mui/material/ImageListItem';
-import ImageListItemBar from '@mui/material/ImageListItemBar';
-import IconButton from '@mui/material/IconButton';
-import StarBorderIcon from '@mui/icons-material/StarBorder';
 
 function VehiculeTechnicListModal(props) {
 
