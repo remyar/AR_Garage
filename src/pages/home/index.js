@@ -12,6 +12,15 @@ import Loader from '../../components/Loader';
 import actions from '../../actions';
 
 import CAChart from '../../components/CAChart';
+import { Calendar, momentLocalizer } from 'react-big-calendar'
+import moment from 'moment'
+
+// Setup the localizer by providing the moment (or globalize, or Luxon) Object
+// to the correct localizer.
+const localizer = momentLocalizer(moment) // or globalizeLocalizer
+
+require("react-big-calendar/lib/css/react-big-calendar.css")
+
 
 function HomePage(props) {
 
@@ -65,6 +74,7 @@ function HomePage(props) {
         }
     });
 
+
     return <Box>
 
         <Loader display={displayLoader} />
@@ -73,14 +83,22 @@ function HomePage(props) {
             position: 'absolute',
             left: '50%',
             top: '50%',
-            width: "50%",
+            width: "80%",
             transform: 'translate(-50%, -50%)',
             textAlign: 'center'
         }}>
 
             <Grid container spacing={2}>
-                <Grid item xs={12} sx={{ textAlign: 'center' }}>
+                <Grid item xs={6} sx={{ textAlign: 'center' }}>
                     <CAChart data={ca[new Date().getFullYear()]} title={"CA " + new Date().getFullYear() + " - " + caTotal.toFixed(2) + "€"} />
+                </Grid>
+                <Grid item xs={6} sx={{ textAlign: 'center' }}>
+                    <Calendar
+                        localizer={localizer}
+                        startAccessor="start"
+                        endAccessor="end"
+                        showMultiDayTimes
+                    />
                 </Grid>
             </Grid>
 
