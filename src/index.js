@@ -16,7 +16,6 @@ import localeData from './locales';
 
 const electron = require('@electron/remote')
 
-
 // WHITELIST
 const persistConfig = {
     key: 'AutomotiveDatabase',
@@ -55,7 +54,7 @@ const messages = localeData[languageWithoutRegionCode] || localeData[language] |
 ReactDOM.render(
     <React.StrictMode>
         <CssBaseline />
-        <StoreProvider extra={{ api , electron }} persistConfig={persistConfig} globalState={{
+        <StoreProvider extra={{ api , electron  }} persistConfig={persistConfig} globalState={{
             settings: { locale: "fr" },
             clients: [],
             vehicules: [],

@@ -5,6 +5,7 @@ import put from './put';
 import pdf from './pdf';
 import electron from './electron';
 import database from './database';
+import tecdoc from './tecdoc';
 
 export default {
     get,
@@ -13,5 +14,6 @@ export default {
     put,
     pdf,
     electron,
-    database
+    database,
+    tecdoc
 }
