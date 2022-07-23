@@ -89,17 +89,19 @@ function HomePage(props) {
         }}>
 
             <Grid container spacing={2}>
+                <Grid item xs={3} sx={{ textAlign: 'center' }} />
                 <Grid item xs={6} sx={{ textAlign: 'center' }}>
                     <CAChart data={ca[new Date().getFullYear()]} title={"CA " + new Date().getFullYear() + " - " + caTotal.toFixed(2) + "€"} />
                 </Grid>
-                <Grid item xs={6} sx={{ textAlign: 'center' }}>
+                <Grid item xs={3} sx={{ textAlign: 'center' }} />
+                {/*<Grid item xs={6} sx={{ textAlign: 'center' }}>
                     <Calendar
                         localizer={localizer}
                         startAccessor="start"
                         endAccessor="end"
                         showMultiDayTimes
                     />
-                </Grid>
+    </Grid>*/}
             </Grid>
 
         </Box>

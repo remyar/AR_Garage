@@ -19,7 +19,7 @@ function VehiculeTechnicListModal(props) {
 
     async function fetchData() {
         try {
-            let result = await props.dispatch(actions.get.allTechnicsByBrandAndEndigineCode(vehicule.brand, vehicule.engine_code));
+            let result = await props.dispatch(actions.get.allTechnicsByBrandAndEngineCode(vehicule.brand, vehicule.engine_code));
             setTechnics(result.technics);
         } catch (err) {
             props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));

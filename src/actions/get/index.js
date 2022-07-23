@@ -13,7 +13,7 @@ import devisFromNumber from './devis.from.number';
 import lastDevisNumber from './last.devis.number';
 import factureFromNumber from './facture.from.number';
 import settings from './get.settings';
-import allTechnicsByBrandAndEndigineCode from "./all.technics.by.brand.and.endigine.code";
+import allTechnicsByBrandAndEngineCode from "./all.technics.by.brand.and.engine.code";
 
 export default {
     autoFromPlate,
@@ -31,5 +31,5 @@ export default {
     lastDevisNumber,
     allServices,
     settings,
-    allTechnicsByBrandAndEndigineCode
+    allTechnicsByBrandAndEngineCode
 }

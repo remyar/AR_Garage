@@ -123,7 +123,7 @@ function DevisDisplayPage(props) {
                 <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
                     <Grid item xs={12}>
                         <TextField label="Véhicule" disabled variant="outlined" sx={{ width: "100%", textAlign: "left" }} multiline maxRows='3' minRows='3'
-                            value={(devis?.vehicule?.commercial_name) && (devis?.vehicule?.commercial_name)}
+                            value={devis?.vehicule?.vehicleDetails.vehicleMark + " - " + devis?.vehicule?.vehicleDetails.vehicleModelDescription + " - " + devis?.vehicule?.vehicleDetails.version}
                         />
                     </Grid>
                 </Grid>

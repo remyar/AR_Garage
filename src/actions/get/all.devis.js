@@ -10,7 +10,7 @@ export async function getAllDevis({ extra, getState }) {
                 el.client = {...client[0]};
             }
             if ( el.vehicule_id != undefined){
-                let vehicule = state.vehicules.filter((_el) => _el.id == el.vehicule_id);
+                let vehicule = state.vehicules.filter((_el) => _el.carId == el.vehicule_id);
                 el.vehicule = {...vehicule[0]};
             }
             return el;

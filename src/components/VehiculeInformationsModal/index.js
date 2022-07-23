@@ -24,11 +24,14 @@ function VehiculeInformationModal(props) {
     }
 
     let _vehiculeTab = [];
-    Object.keys(vehicule).forEach((key) => {
-        if (key !== 'commercial_name' && key !== 'id' && key !== 'deleted') {
-            _vehiculeTab.push({ name: key, value: vehicule[key] });
-        }
-    });
+
+    _vehiculeTab.push({ name: "brand", value: vehicule.vehicleDetails.mark });
+    _vehiculeTab.push({ name: "energie", value: vehicule.vehicleDetails.energy });
+    _vehiculeTab.push({ name: "engine_code", value: vehicule.vehicleDetails.engineCode });
+    //_vehiculeTab.push({ name: "first_batch", value: vehicule.vehicleDetails.firstUsingDate });
+    _vehiculeTab.push({ name: "model", value: vehicule.vehicleDetails.vehicleModelDescription });
+    _vehiculeTab.push({ name: "plate", value: vehicule.plate });
+    _vehiculeTab.push({ name: "puissance", value: vehicule.vehicleDetails.engineOutputInHP });
 
     _vehiculeTab = _vehiculeTab.sort((a, b) => a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1);
 
@@ -40,7 +43,7 @@ function VehiculeInformationModal(props) {
 
             <Grid container spacing={2}>
                 <Grid item xs={12} sx={{ textAlign: 'center' }}>
-                    <Typography variant="h6" gutterBottom component="div"><b>{vehicule?.commercial_name}</b></Typography>
+                    <Typography variant="h6" gutterBottom component="div"><b>{vehicule?.vehicleDetails.vehicleMark + " - " + vehicule?.vehicleDetails.vehicleModelDescription + " - " + vehicule?.vehicleDetails.version}</b></Typography>
                 </Grid>
             </Grid>
 

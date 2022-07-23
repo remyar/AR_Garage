@@ -68,10 +68,18 @@ function VehiculesPage(props) {
 
     const headers = [
         { id: 'plate', label: 'Plaque', minWidth: 100 },
-        { id: 'commercial_name', label: 'Modéle', minWidth: 100 },
-        { id: 'puissance', label: 'Puissance', minWidth: 100 },
-        { id: 'energie', label: 'Energie', minWidth: 100 },
-        { id: 'engine_code', label: 'Code Moteur', minWidth: 100 },
+        { id: 'commercial_name', label: 'Modéle', minWidth: 100 , render : (row) => {
+            return <span>{row.vehicleDetails.vehicleMark + " - " + row.vehicleDetails.vehicleModelDescription + " - " +row.vehicleDetails.version } </span>
+        }},
+        { id: 'puissance', label: 'Puissance', minWidth: 100 , render : (row)=>{
+            return <span>{row.vehicleDetails.engineOutputInHP + " CV/HP" }</span>
+        }},
+        { id: 'energie', label: 'Energie', minWidth: 100 , render : (row)=>{
+            return <span>{row.vehicleDetails.energy}</span>
+        }},
+        { id: 'engine_code', label: 'Code Moteur', minWidth: 100 , render : (row)=>{
+            return <span>{row.vehicleDetails.engineCode}</span>
+        }},
         {
             label: '', maxWidth: 50, minWidth: 50, align: "right", render: (row) => {
                 return <span>
@@ -81,19 +89,7 @@ function VehiculesPage(props) {
                     }} />}
 
                     <InfoIcon sx={{ cursor: 'pointer', marginLeft: '15px' }} onClick={() => {
-                        let vehicule = {
-                            id: row.id,
-                            brand: row.brand,
-                            energie: row.energie,
-                            engine_code: row.engine_code,
-                            first_batch: row.first_batch,
-                            last_batch: row.last_batch,
-                            model: row.model,
-                            plate: row.plate,
-                            puissance: row.puissance,
-                            commercial_name: row.commercial_name
-                        }
-                        setDisplayVehiculeModal(vehicule);
+                        setDisplayVehiculeModal(row);
                     }} />
 
                     <MenuIcon sx={{ cursor: 'pointer', marginLeft: '15px' }} onClick={(event) => {
@@ -112,9 +108,9 @@ function VehiculesPage(props) {
         }
     })
 
-    rows = rows.sort((a, b) => a.plate.toLowerCase() > b.plate.toLowerCase() ? 1 : -1);
+    rows = rows.sort((a, b) => (a.plate.toLowerCase() > b.plate.toLowerCase()) ? 1 : -1);
 
-    rows = rows.filter((el) => el.plate.toLowerCase().startsWith(filter))
+    rows = rows.filter((el) => el.plate.toLowerCase().startsWith(filter));
 
     return <Box sx={{ paddingBottom: '25px' }}>
 
@@ -157,7 +153,7 @@ function VehiculesPage(props) {
                 setDisplayVehiculeAddModal(false);
                 setDisplayLoader(true);
                 try {
-                    let result = await props.dispatch(actions.get.autoFromPlate(_v.plate));
+                    let result = await props.dispatch(actions.tecdoc.getAutoFromPlate(_v.plate));
                     setDisplayVehiculeModal(result.vehicule);
                 } catch (err) {
                     props.snackbar.error(err.message);

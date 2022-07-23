@@ -1,0 +1,182 @@
+import fetch from 'electron-fetch';
+import image from '../../utils/image'
+
+async function post(obj, url) {
+    return new Promise(async (resolve, reject) => {
+
+        let headers = {};
+
+        if (url == undefined) {
+            url = process.env.REACT_APP_TECDOC_API_URL_1;
+        }
+
+        if (obj.headers != undefined) {
+            headers = { ...obj.headers };
+        }
+
+        try {
+            let result = await fetch(url,
+                {
+                    method: 'POST',
+                    body: JSON.stringify(obj),
+                    useElectronNet: false,
+                    headers,
+                    credentials: "same-origin",
+                    useSessionCookies: true
+                });
+
+            let r = await result.json();
+
+            resolve(r);
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
+
+async function getCaptcha() {
+    return new Promise(async (resolve, reject) => {
+
+        try {
+            let resolveObj = undefined;
+            for (let i = 0; i < 20; i++) {
+
+                let result = await post({
+                    getCaptcha: {
+                        catalog: process.env.REACT_APP_TECDOC_API_CATALOG
+                    }
+                }, process.env.REACT_APP_TECDOC_API_URL_2);
+
+                try {
+                    let text = await image.getText(result.image.replace('data:image/png;base64,', ''));
+                    resolveObj = {
+                        apikey: result.apiKey,
+                        captcha: text
+                    };
+                    break;
+                } catch (err) {
+                    continue;
+                }
+
+            }
+
+            if (resolveObj) {
+                resolve(resolveObj);
+            } else {
+                reject("Fail to find captcha")
+            }
+
+        }
+        catch (err) {
+            reject(err)
+        }
+    });
+}
+
+async function checkCaptcha(obj) {
+    return new Promise(async (resolve, reject) => {
+
+        try {
+
+            let result = await post({
+                checkCaptcha: { captchaText: obj.captcha },
+                headers: { "x-api-key": obj.apikey }
+            }, process.env.REACT_APP_TECDOC_API_URL_2);
+
+            resolve(result.valid);
+        }
+        catch (err) {
+            reject(err);
+        }
+    });
+}
+
+async function getVehiclesByKeyNumberPlates(plate) {
+    return new Promise(async (resolve, reject) => {
+        try {
+
+            let captchaApi = undefined;
+            for (let i = 0; i < 50; i++) {
+                try {
+                    let tryCaptcha = await getCaptcha();
+                    let result = await checkCaptcha(tryCaptcha);
+                    if (result) {
+                        captchaApi = tryCaptcha.apikey
+                        break;
+                    }
+                } catch (err) {
+                    continue;
+                }
+            }
+
+            if (captchaApi) {
+                let result = await post({
+                    getVehiclesByKeyNumberPlates: {
+                        arg0: {
+                            country: "FR",
+                            details: true,
+                            keySystemNumber: plate.toUpperCase(),
+                            keySystemType: 50,
+                            lang: "fr",
+                            linkingTargetType: "PO",
+                            picture: false,
+                            provider: process.env.REACT_APP_TECDOC_PROVIDER_ID_OLD
+                        }
+                    },
+                    headers: { "x-api-key": captchaApi }
+                }, process.env.REACT_APP_TECDOC_API_URL_3);
+
+                resolve(result?.data?.array || []);
+
+            }
+
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
+
+async function getAmBrands() {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const response = await post({
+                getAmBrands: {
+                    "articleCountry": "FR",
+                    "lang": "fr",
+                    "provider": process.env.REACT_APP_TECDOC_PROVIDER_ID_NEW
+                }
+            });
+
+            resolve(response.data);
+
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
+
+async function getAmBrandAddress() {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const response = await post({
+                getAmBrandAddress: {
+                    "articleCountry": "FR",
+                    "lang": "FR",
+                    "brandNo": 33,
+                    "provider": process.env.REACT_APP_TECDOC_PROVIDER_ID_NEW
+                }
+            });
+
+            resolve(response.data);
+
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
+
+export default {
+    getVehiclesByKeyNumberPlates,
+    getAmBrands,
+    getAmBrandAddress
+}
