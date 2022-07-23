@@ -120,12 +120,12 @@ async function getText(image) {
             }
 
 
-        }catch(err){
+        } catch (err) {
             reject(err);
         }
     });
 }
 
-module.exports = {
+export default {
     getText
 }
