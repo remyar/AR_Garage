@@ -13,6 +13,18 @@ jobs:
 
     steps:
 
+      - shell: cmd
+        env:
+          SUPER_SECRET: ${{ secrets.YOUR_SECRET }}
+        run: |
+          echo "%SUPER_SECRET%"
+
+      - shell: cmd
+        env:
+          SUPER_SECRET: ${{ secrets.SECRET_ENV }}
+        run: |
+          echo "%SUPER_SECRET%"
+
       - name: checkout
         uses: actions/checkout@v1
 
