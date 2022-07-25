@@ -136,18 +136,67 @@ async function getVehiclesByKeyNumberPlates(plate) {
     });
 }
 
-async function getAmBrands() {
+async function getArticleIdsWithState(carId, assemblyGroupNodeId , pagination , articlesPerPage) {
     return new Promise(async (resolve, reject) => {
         try {
             const response = await post({
-                getAmBrands: {
-                    "articleCountry": "FR",
-                    "lang": "fr",
-                    "provider": process.env.REACT_APP_TECDOC_PROVIDER_ID_NEW
+                "getArticles": {
+                    "arg0": {
+                        "articleCountry": "FR",
+                        "provider": process.env.REACT_APP_TECDOC_PROVIDER_ID_NEW,
+                        "lang": "fr",
+                        "assemblyGroupNodeIds": [
+                            assemblyGroupNodeId
+                        ],
+                        "linkageTargetId": carId,
+                        "linkageTargetType": "P",
+                        "linkageTargetCountry": "FR",
+                        "page": pagination || 1,
+                        "perPage": articlesPerPage || 100,
+                        "sort": [
+                            {
+                                "field": "mfrName",
+                                "direction": "asc"
+                            },
+                            {
+                                "field": "linkageSortNum",
+                                "direction": "asc"
+                            },
+                            {
+                                "field": "score",
+                                "direction": "desc"
+                            }
+                        ],
+                        "filterQueries": [
+                        ],
+                        "dataSupplierIds": [],
+                        "genericArticleIds": [],
+                        "includeAll": false,
+                        "includeLinkages": true,
+                        "linkagesPerPage": articlesPerPage || 100,
+                        "includeGenericArticles": true,
+                        "includeArticleCriteria": true,
+                        "includeMisc": true,
+                        "includeImages": true,
+                        "includePDFs": false,
+                        "includeLinks": false,
+                        "includeArticleText": true,
+                        "includeOEMNumbers": false,
+                        "includeReplacedByArticles": true,
+                        "includeReplacesArticles": true,
+                        "includeComparableNumbers": true,
+                        "includeGTINs": true,
+                        "includeTradeNumbers": true,
+                        "includePrices": true,
+                        "includeArticleLogisticsCriteria": false,
+                        "includeDataSupplierFacets": false,
+                        "includeGenericArticleFacets": true,
+                        "includeCriteriaFacets": false
+                    }
                 }
-            });
+            }, process.env.REACT_APP_TECDOC_API_URL_3);
 
-            resolve(response.data);
+            resolve(response);
 
         } catch (err) {
             reject(err);
@@ -155,19 +204,39 @@ async function getAmBrands() {
     });
 }
 
-async function getAmBrandAddress() {
+async function getDirectArticlesByIds(articleid) {
     return new Promise(async (resolve, reject) => {
         try {
+
             const response = await post({
-                getAmBrandAddress: {
+                "getDirectArticlesByIds6": {
                     "articleCountry": "FR",
+                    "articleId": {
+                        "array": [
+                            ...articleid
+                        ]
+                    },
+                    "attributs": true,
+                    "basicData": true,
+                    "documents": true,
+                    "eanNumbers": true,
+                    "immediateAttributs": true,
+                    "immediateInfo": true,
+                    "info": true,
                     "lang": "FR",
-                    "brandNo": 33,
-                    "provider": process.env.REACT_APP_TECDOC_PROVIDER_ID_NEW
+                    "mainArticles": true,
+                    "normalAustauschPrice": false,
+                    "oeNumbers": true,
+                    "prices": true,
+                    "provider": process.env.REACT_APP_TECDOC_PROVIDER_ID_NEW,
+                    "replacedByNumbers": true,
+                    "replacedNumbers": true,
+                    "thumbnails": true,
+                    "usageNumbers": true
                 }
             });
 
-            resolve(response.data);
+            resolve(response?.data?.array);
 
         } catch (err) {
             reject(err);
@@ -177,6 +246,6 @@ async function getAmBrandAddress() {
 
 export default {
     getVehiclesByKeyNumberPlates,
-    getAmBrands,
-    getAmBrandAddress
+    getArticleIdsWithState,
+    getDirectArticlesByIds
 }

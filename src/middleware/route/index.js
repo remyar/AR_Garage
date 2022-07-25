@@ -10,6 +10,7 @@ import urlDevisDisplay from './url.devis.display';
 import urlBillings from './url.billings';
 import urlBillingDisplay from './url.billing.display';
 import urlServices from './url.services';
+import urlCatalog from './url.catalog';
 
 export default {
     urlIndex,
@@ -23,5 +24,6 @@ export default {
     urlDevisDisplay,
     urlBillings,
     urlBillingDisplay,
-    urlServices
+    urlServices,
+    urlCatalog
 }

@@ -17,6 +17,7 @@ import DevisDisplayPage from './pages/devisDisplay';
 import BillingDisplayPage from './pages/billingDisplay';
 import ServicesPage from './pages/services';
 import SettingsPage from './pages/settings';
+import CatalogPage from './pages/catalog';
 
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
@@ -33,6 +34,7 @@ const routes = [
     { path: routeMdw.urlProduits(), name: 'produitsPage', Component: ProduitsPage },
     { path: routeMdw.urlServices(), name: 'ServicesPage', Component: ServicesPage },
     { path: routeMdw.urlDevis(), name: 'devisPage', Component: DevisPage },
+    { path: routeMdw.urlCatalog(), name: 'catalogPage', Component: CatalogPage },
     { path: routeMdw.urlDevisCreate(), name: 'devisPage', Component: DevisCreatePage },
     { path: routeMdw.urlDevisDisplay(':devis_number'), name: 'devisPage', Component: DevisDisplayPage },
     { path: routeMdw.urlBillings(), name: 'devisPage', Component: BillingsPage },

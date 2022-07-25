@@ -17,6 +17,7 @@ import SettingsIcon from '@mui/icons-material/Settings';
 import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
 import InventoryIcon from '@mui/icons-material/Inventory';
 import AddCardIcon from '@mui/icons-material/AddCard';
+import MenuBookIcon from '@mui/icons-material/MenuBook';
 
 import routeMdw from '../../middleware/route';
 
@@ -51,6 +52,15 @@ function MyDrawer(props) {
                     <DirectionsCarIcon />
                 </ListItemIcon>
                 <ListItemText primary={intl.formatMessage({ id: 'url.vehicules' })} secondary={intl.formatMessage({ id: 'url.vehicules.desc' })} />
+            </ListItem>
+            <ListItem button onClick={() => {
+                props.navigation.push(routeMdw.urlCatalog());
+                props.onClose && props.onClose();
+            }}>
+                <ListItemIcon>
+                    <MenuBookIcon />
+                </ListItemIcon>
+                <ListItemText primary={intl.formatMessage({ id: 'url.catalog' })} secondary={intl.formatMessage({ id: 'url.catalog.desc' })} />
             </ListItem>
             <ListItem button onClick={() => {
                 props.navigation.push(routeMdw.urlProduits());
