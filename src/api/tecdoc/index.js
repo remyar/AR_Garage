@@ -136,7 +136,7 @@ async function getVehiclesByKeyNumberPlates(plate) {
     });
 }
 
-async function getArticleIdsWithState(carId, assemblyGroupNodeId , pagination , articlesPerPage) {
+async function getArticleIdsWithState(carId, assemblyGroupNodeId, pagination, articlesPerPage) {
     return new Promise(async (resolve, reject) => {
         try {
             const response = await post({
@@ -244,8 +244,40 @@ async function getDirectArticlesByIds(articleid) {
     });
 }
 
+async function getCategories(carId) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const response = await post({
+                "getArticles": {
+                    "arg0": {
+                        "articleCountry": "FR",
+                        "provider": process.env.REACT_APP_TECDOC_PROVIDER_ID_NEW,
+                        "lang": "fr",
+                        "assemblyGroupFacetOptions": {
+                            enabled: true
+                        },
+                        includeDataSupplierFacets: true,
+                        includeGenericArticleFacets: true,
+                        lang: "fr",
+                        linkageTargetId: carId,
+                        linkageTargetType: "V",
+                        perPage: 0,
+                        provider : process.env.REACT_APP_TECDOC_PROVIDER_ID_NEW,
+                    }
+                }
+            }, process.env.REACT_APP_TECDOC_API_URL_3);
+
+            resolve(response);
+
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
+
 export default {
     getVehiclesByKeyNumberPlates,
     getArticleIdsWithState,
-    getDirectArticlesByIds
+    getDirectArticlesByIds,
+    getCategories
 }

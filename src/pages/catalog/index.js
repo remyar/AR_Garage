@@ -13,6 +13,8 @@ import CatalogSelectVehicule from '../../components/CatalogSelectVehicule';
 import CatalogueTreeView from '../../components/CatalogueTreeView';
 import CatalogFilter from '../../components/CatalogFilter';
 
+import Typography from '@mui/material/Typography';
+
 function CatalogPage(props) {
     const intl = props.intl;
     const selectedVehicule = props.globalState.selectedVehicule;
@@ -27,7 +29,7 @@ function CatalogPage(props) {
     async function fetchData() {
         setDisplayLoader(true);
         try {
-            let result = await props.dispatch(actions.tecdoc.getChildNodesAllLinkingTarget());
+            let result = await props.dispatch(actions.tecdoc.getChildNodesAllLinkingTarget(selectedVehicule.carId));
             setCatalog(result.catalog);
         } catch (err) {
             props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
@@ -53,10 +55,10 @@ function CatalogPage(props) {
             }}
         />
 
-        <CatalogFilter 
+        <CatalogFilter
             articles={articles}
-            onChange={(obj)=>{
-                setFilter({...filter,...obj});
+            onChange={(obj) => {
+                setFilter({ ...filter, ...obj });
             }}
         />
 
@@ -65,7 +67,7 @@ function CatalogPage(props) {
                 <CatalogueTreeView
                     catalog={catalog}
                     onClick={async (c) => {
-                        if (c.hasChilds == false) {
+                        if (c.hasChilds == false && c.hasArticles == true) {
                             setDisplayLoader(true);
                             try {
                                 let result = await props.dispatch(actions.tecdoc.getArticleIdsWithState(carCatalog.carId, c.assemblyGroupNodeId));
@@ -90,14 +92,20 @@ function CatalogPage(props) {
                                         let thumbNail = article.images[0].imageURL100;
                                         return <img src={thumbNail} />
                                     } else {
-                                        return <img width={200} src={"https://web.tecalliance.net/assets/images/no-image-available.jpg"} />
+                                        return <img width={100} src={"https://web.tecalliance.net/assets/images/no-image-available.jpg"} />
                                     }
                                 })()}
                             </Grid>
                             <Grid item xs={10} sx={{ textAlign: 'left' }}>
-                                {article.mfrName  + " - " + article.articleNumber + " - " + article.misc?.additionalDescription}
+                                {article.mfrName + " - " + article.articleNumber + (article.misc?.additionalDescription ? (" - " + article.misc?.additionalDescription) : "")}
                                 <br />
                                 {article.genericArticles[0].genericArticleDescription}
+                                <Typography variant="caption" display="block" gutterBottom>
+                                    {article?.linkages?.map((linkage) => linkage.linkageCriteria?.map((criteria) => " " + criteria?.formattedValue + " ")).join(",")}
+                                </Typography>
+                                <Typography variant="caption" display="block" gutterBottom>
+                                    {article.articleCriteria.map((criteria) => " " + criteria.criteriaDescription + " : " + criteria.formattedValue + " ").join(",")}
+                                </Typography>
                                 {/*article.directArticle.articleName + " - " + article.directArticle.brandName + " - " + article.directArticle.articleNo*/}
                             </Grid>
                         </Grid>
