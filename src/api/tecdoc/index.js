@@ -178,20 +178,20 @@ async function getArticleIdsWithState(carId, assemblyGroupNodeId, pagination, ar
                         "includeArticleCriteria": true,
                         "includeMisc": true,
                         "includeImages": true,
-                        "includePDFs": false,
-                        "includeLinks": false,
+                        "includePDFs": true,
+                        "includeLinks": true,
                         "includeArticleText": true,
-                        "includeOEMNumbers": false,
+                        "includeOEMNumbers": true,
                         "includeReplacedByArticles": true,
                         "includeReplacesArticles": true,
                         "includeComparableNumbers": true,
                         "includeGTINs": true,
                         "includeTradeNumbers": true,
                         "includePrices": true,
-                        "includeArticleLogisticsCriteria": false,
-                        "includeDataSupplierFacets": false,
+                        "includeArticleLogisticsCriteria": true,
+                        "includeDataSupplierFacets": true,
                         "includeGenericArticleFacets": true,
-                        "includeCriteriaFacets": false
+                        "includeCriteriaFacets": true
                     }
                 }
             }, process.env.REACT_APP_TECDOC_API_URL_3);

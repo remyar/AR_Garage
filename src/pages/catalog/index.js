@@ -27,7 +27,7 @@ function CatalogPage(props) {
     const [articles, setArticles] = useState([]);
     const [filter, setFilter] = useState({});
 
-    const [displayProductDetails, setDisplayProductDetails] = useState(false);
+    const [displayProductDetails, setDisplayProductDetails] = useState(undefined);
 
     async function fetchData() {
         setDisplayLoader(true);
@@ -66,8 +66,9 @@ function CatalogPage(props) {
         />
 
         <CatalogProductDetails
-            display={displayProductDetails}
-            onClose={() => { setDisplayProductDetails(false); }}
+            display={displayProductDetails ? true : false}
+            product={displayProductDetails}
+            onClose={() => { setDisplayProductDetails(undefined); }}
         />
 
         <Grid container spacing={2} sx={{ paddingTop: '25px' }}>
@@ -94,7 +95,7 @@ function CatalogPage(props) {
                 {rows.map((article => {
                     return <Box>
                         <Grid container spacing={2} sx={{ paddingTop: '25px' , cursor : 'pointer' }} onClick={() => {
-                            setDisplayProductDetails(true);
+                            setDisplayProductDetails(article);
                         }}>
 
                             <Grid item xs={2}>

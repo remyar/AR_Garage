@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <script>var global = global || window;</script>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
+    <meta name="description" content="Web site created using create-react-app" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -27,17 +25,42 @@
     -->
     <title>AR Garage</title>
     <style>
-        .background{
+        .background {
             z-index: -1;
-            position:fixed;
-            top:0;
-            opacity:0.1;
+            position: fixed;
+            top: 0;
+            opacity: 0.1;
             height: 100vh;
             width: 100%;
         }
+
+        .alice-carousel__stage-item {
+            text-align: center !important;
+        }
+
+        .alice-carousel__prev-btn {
+            position: absolute !important;
+            top: calc(50% - 17px) !important;
+            left: 0 !important;
+            text-align: left !important;
+            border: 1px solid !important;
+            border-radius: 16px !important;
+            width: auto !important;
+        }
+
+        .alice-carousel__next-btn {
+            position: absolute !important;
+            top: calc(50% - 17px) !important;
+            right: 0 !important;
+            text-align: right !important;
+            border: 1px solid !important;
+            border-radius: 16px !important;
+            width: auto !important;
+        }
     </style>
-  </head>
-  <body>
+</head>
+
+<body>
     <!--<img class="background" src="https://img.wallpapic.fr/i654-547-121/thumb/voiture-de-sport-voitures-supercar-coupe-fond-d-ecran.jpg">-->
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
@@ -51,5 +74,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+</body>
+
 </html>

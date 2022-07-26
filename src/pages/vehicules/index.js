@@ -2,6 +2,7 @@ import React, { useEffect, useState, MouseEvent } from 'react';
 import { injectIntl } from 'react-intl';
 import { withStoreProvider } from '../../providers/StoreProvider';
 import { withSnackBar } from '../../providers/snackBar';
+import { withNavigation } from '../../providers/navigation';
 
 import actions from '../../actions';
 
@@ -14,6 +15,7 @@ import MenuItem from '@mui/material/MenuItem';
 
 import MenuIcon from '@mui/icons-material/Menu';
 import InfoIcon from '@mui/icons-material/Info';
+import MenuBookIcon from '@mui/icons-material/MenuBook';
 
 import ConfirmModal from '../../components/ConfirmModal';
 import SearchComponent from '../../components/Search';
@@ -29,6 +31,8 @@ import ImageViewer from '../../components/ImageViewer';
 import SpeedDialIcon from '@mui/material/SpeedDialIcon';
 import SpeedDialAction from '@mui/material/SpeedDialAction';
 import SpeedDial from '@mui/material/SpeedDial';
+
+import routeMdw from '../../middleware/route';
 
 function VehiculesPage(props) {
     const intl = props.intl;
@@ -68,18 +72,26 @@ function VehiculesPage(props) {
 
     const headers = [
         { id: 'plate', label: 'Plaque', minWidth: 100 },
-        { id: 'commercial_name', label: 'Modéle', minWidth: 100 , render : (row) => {
-            return <span>{row.vehicleDetails.vehicleMark + " - " + row.vehicleDetails.vehicleModelDescription + " - " +row.vehicleDetails.version } </span>
-        }},
-        { id: 'puissance', label: 'Puissance', minWidth: 100 , render : (row)=>{
-            return <span>{row.vehicleDetails.engineOutputInHP + " CV/HP" }</span>
-        }},
-        { id: 'energie', label: 'Energie', minWidth: 100 , render : (row)=>{
-            return <span>{row.vehicleDetails.energy}</span>
-        }},
-        { id: 'engine_code', label: 'Code Moteur', minWidth: 100 , render : (row)=>{
-            return <span>{row.vehicleDetails.engineCode}</span>
-        }},
+        {
+            id: 'commercial_name', label: 'Modéle', minWidth: 100, render: (row) => {
+                return <span>{row.vehicleDetails.vehicleMark + " - " + row.vehicleDetails.vehicleModelDescription + " - " + row.vehicleDetails.version} </span>
+            }
+        },
+        {
+            id: 'puissance', label: 'Puissance', minWidth: 100, render: (row) => {
+                return <span>{row.vehicleDetails.engineOutputInHP + " CV/HP"}</span>
+            }
+        },
+        {
+            id: 'energie', label: 'Energie', minWidth: 100, render: (row) => {
+                return <span>{row.vehicleDetails.energy}</span>
+            }
+        },
+        {
+            id: 'engine_code', label: 'Code Moteur', minWidth: 100, render: (row) => {
+                return <span>{row.vehicleDetails.engineCode}</span>
+            }
+        },
         {
             label: '', maxWidth: 50, minWidth: 50, align: "right", render: (row) => {
                 return <span>
@@ -87,6 +99,11 @@ function VehiculesPage(props) {
                     {row.hasTechnics && <BuildIcon sx={{ cursor: 'pointer' }} onClick={() => {
                         setDisplayVehiculeTechnicModal(row);
                     }} />}
+
+                    <MenuBookIcon sx={{ cursor: 'pointer', marginLeft: '15px' }} onClick={async () => {
+                        await props.dispatch(actions.set.selectedVehicule(row));
+                        props.navigation.push(routeMdw.urlCatalog());
+                    }} />
 
                     <InfoIcon sx={{ cursor: 'pointer', marginLeft: '15px' }} onClick={() => {
                         setDisplayVehiculeModal(row);
@@ -222,4 +239,4 @@ function VehiculesPage(props) {
         </Menu>
     </Box>
 }
-export default withSnackBar(withStoreProvider(injectIntl(VehiculesPage)));
+export default withNavigation(withSnackBar(withStoreProvider(injectIntl(VehiculesPage))));
