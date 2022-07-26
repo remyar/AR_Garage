@@ -174,7 +174,20 @@ function CatalogProductDetails(props) {
                         variant="contained"
                         color="success"
                         sx={{ width: '100%' }}
-                    >{intl.formatMessage({ id: 'button.validate' })}</Button>
+                        onClick={() => {
+                            props.onValidate && props.onValidate(product);
+                        }}
+                    >{intl.formatMessage({ id: 'button.Add.to.product' })}</Button>
+                </Grid>
+                <Grid item xs={6}>
+                    <Button
+                        variant="contained"
+                        color="error"
+                        sx={{ width: '100%' }}
+                        onClick={() => {
+                            props.onClose && props.onClose();
+                        }}
+                    >{intl.formatMessage({ id: 'button.close' })}</Button>
                 </Grid>
             </Grid>
         </Paper>

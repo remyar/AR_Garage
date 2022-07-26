@@ -59,6 +59,13 @@ function ProductAddModal(props) {
         initialValues = { ...initialValues, ...props.editProduct }
     }
 
+    if (props.tecdocproduct) {
+        initialValues.brand = props.tecdocproduct?.mfrName;
+        initialValues.name = props.tecdocproduct?.genericArticles[0].genericArticleDescription ||"";
+        initialValues.ref_fab = props.tecdocproduct?.articleNumber;
+        initialValues.ref_oem = (props.tecdocproduct?.oemNumbers.length > 0) && props.tecdocproduct?.oemNumbers[0].articleNumber.replace(/\s/g, '');
+    }
+
     return <Modal display={props.display || false} >
 
         <Paper elevation={0}>
@@ -161,7 +168,7 @@ function ProductAddModal(props) {
                                         onChange={handleChange}
                                         value={values.categorie_id}
                                     >
-                                        {selectedCategorie.sub.map((_v,idx) => {
+                                        {selectedCategorie.sub.map((_v, idx) => {
                                             return <MenuItem key={"sub_categories_" + idx} value={_v.name}>{_v.name}</MenuItem>
                                         })}
                                     </Select>
@@ -176,7 +183,7 @@ function ProductAddModal(props) {
                                 }} component={TextField} />
                             </Grid>
                             <Grid item xs={6} >
-                            <InputNumber label="Prix vente" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="prix_vente" value={values.prix_vente} onChange={(value) => {
+                                <InputNumber label="Prix vente" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="prix_vente" value={values.prix_vente} onChange={(value) => {
                                     setFieldValue("prix_vente", value || "")
                                 }} component={TextField} />
                             </Grid>

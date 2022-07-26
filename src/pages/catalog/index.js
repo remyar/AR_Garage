@@ -16,6 +16,8 @@ import CatalogFilter from '../../components/CatalogFilter';
 import Typography from '@mui/material/Typography';
 import CatalogProductDetails from '../../components/CatalogProductDetails';
 
+import ProductAddModal from '../../components/ProductAddModal';
+
 function CatalogPage(props) {
     const intl = props.intl;
     const selectedVehicule = props.globalState.selectedVehicule;
@@ -28,6 +30,7 @@ function CatalogPage(props) {
     const [filter, setFilter] = useState({});
 
     const [displayProductDetails, setDisplayProductDetails] = useState(undefined);
+    const [displayProductAddModal, setDisplayProductAddModal] = useState(undefined);
 
     async function fetchData() {
         setDisplayLoader(true);
@@ -69,7 +72,24 @@ function CatalogPage(props) {
             display={displayProductDetails ? true : false}
             product={displayProductDetails}
             onClose={() => { setDisplayProductDetails(undefined); }}
+            onValidate={(product) => {
+                setDisplayProductDetails(undefined);
+                setDisplayProductAddModal(product);
+            }}
         />
+
+        {displayProductAddModal && <ProductAddModal
+            tecdocproduct={displayProductAddModal}
+            display={displayProductAddModal ? true : false}
+            onValidate={async (product) => {
+                //-- full product detail
+                //displayProductDetails
+                console.log(product)
+            }}
+            onClose={() => {
+                setDisplayProductAddModal(undefined);
+            }}
+        />}
 
         <Grid container spacing={2} sx={{ paddingTop: '25px' }}>
             <Grid item xs={4}>
@@ -94,7 +114,7 @@ function CatalogPage(props) {
             <Grid item xs={8} sx={{ textAlign: 'center' }}>
                 {rows.map((article => {
                     return <Box>
-                        <Grid container spacing={2} sx={{ paddingTop: '25px' , cursor : 'pointer' }} onClick={() => {
+                        <Grid container spacing={2} sx={{ paddingTop: '25px', cursor: 'pointer' }} onClick={() => {
                             setDisplayProductDetails(article);
                         }}>
 
