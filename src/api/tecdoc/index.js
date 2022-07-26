@@ -260,7 +260,7 @@ async function getCategories(carId) {
                         includeGenericArticleFacets: true,
                         lang: "fr",
                         linkageTargetId: carId,
-                        linkageTargetType: "V",
+                        linkageTargetType: "P",
                         perPage: 0,
                         provider : process.env.REACT_APP_TECDOC_PROVIDER_ID_NEW,
                     }

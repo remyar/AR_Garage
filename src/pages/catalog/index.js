@@ -14,6 +14,7 @@ import CatalogueTreeView from '../../components/CatalogueTreeView';
 import CatalogFilter from '../../components/CatalogFilter';
 
 import Typography from '@mui/material/Typography';
+import CatalogProductDetails from '../../components/CatalogProductDetails';
 
 function CatalogPage(props) {
     const intl = props.intl;
@@ -25,6 +26,8 @@ function CatalogPage(props) {
 
     const [articles, setArticles] = useState([]);
     const [filter, setFilter] = useState({});
+
+    const [displayProductDetails, setDisplayProductDetails] = useState(false);
 
     async function fetchData() {
         setDisplayLoader(true);
@@ -62,6 +65,11 @@ function CatalogPage(props) {
             }}
         />
 
+        <CatalogProductDetails
+            display={displayProductDetails}
+            onClose={() => { setDisplayProductDetails(false); }}
+        />
+
         <Grid container spacing={2} sx={{ paddingTop: '25px' }}>
             <Grid item xs={4}>
                 <CatalogueTreeView
@@ -85,35 +93,37 @@ function CatalogPage(props) {
             <Grid item xs={8} sx={{ textAlign: 'center' }}>
                 {rows.map((article => {
                     return <Box>
-                        <Grid container spacing={2} sx={{ paddingTop: '25px' }}>
+                        <Grid container spacing={2} sx={{ paddingTop: '25px' , cursor : 'pointer' }} onClick={() => {
+                            setDisplayProductDetails(true);
+                        }}>
+
                             <Grid item xs={2}>
                                 {(() => {
                                     if (article?.images && article?.images[0] && article?.images[0].imageURL100) {
                                         let thumbNail = article.images[0].imageURL100;
                                         return <img src={thumbNail} />
                                     } else {
-                                        return <img width={100} src={"https://web.tecalliance.net/assets/images/no-image-available.jpg"} />
+                                        return <img width={100} src={"/no-image-available.jpg"} />
                                     }
                                 })()}
                             </Grid>
                             <Grid item xs={10} sx={{ textAlign: 'left' }}>
-                                {article.mfrName + " - " + article.articleNumber + (article.misc?.additionalDescription ? (" - " + article.misc?.additionalDescription) : "")}
+                                <b>{article.mfrName + " - " + article.articleNumber + (article.misc?.additionalDescription ? (" - " + article.misc?.additionalDescription) : "")}</b>
                                 <br />
                                 {article.genericArticles[0].genericArticleDescription}
                                 <Typography variant="caption" display="block" gutterBottom>
-                                    {article?.linkages?.map((linkage) => linkage.linkageCriteria?.map((criteria) => " " + criteria?.formattedValue + " ")).join(",")}
+                                    {article?.linkages?.map((linkage) => linkage.linkageCriteria?.map((criteria) => " " + criteria.criteriaDescription + " : " + criteria?.formattedValue + " ")).join(",")}
                                 </Typography>
                                 <Typography variant="caption" display="block" gutterBottom>
                                     {article.articleCriteria.map((criteria) => " " + criteria.criteriaDescription + " : " + criteria.formattedValue + " ").join(",")}
                                 </Typography>
-                                {/*article.directArticle.articleName + " - " + article.directArticle.brandName + " - " + article.directArticle.articleNo*/}
                             </Grid>
                         </Grid>
                     </Box>;
                 }))}
-            </Grid>
-        </Grid>
-    </Box>;
+            </Grid >
+        </Grid >
+    </Box >;
 }
 
 export default withNavigation(withStoreProvider(withSnackBar(injectIntl(CatalogPage))));
