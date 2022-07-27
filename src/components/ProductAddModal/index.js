@@ -36,8 +36,8 @@ function ProductAddModal(props) {
 
     async function fetchData() {
         let result = await props.dispatch(actions.get.allMarques());
-        let rows = result.marques.filter((el) => el.name != undefined && el.name != null && el.name.trim().length > 0)
-        rows = rows.sort((a, b) => a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1);
+        // let rows = result.marques.filter((el) => el.brandName != undefined && el.brandName != null && el.brandName.trim().length > 0)
+        let rows = result.marques.sort((a, b) => a.brandName.toLowerCase() > b.brandName.toLowerCase() ? 1 : -1);
         setMarques(rows);
     }
 
@@ -130,11 +130,10 @@ function ProductAddModal(props) {
                                 <Autocomplete
                                     disablePortal
                                     id="combo-box-demo"
-                                    options={marques.map((el) => el.name)}
                                     value={values.brand}
-                                    getOptionLabel={(option) => option?.toUpperCase()}
+                                    options={marques.map((r)=>r.brandName.toUpperCase())}
                                     sx={{ width: '100%' }}
-                                    onChange={(e, value) => setFieldValue("brand", value || "")}
+                                    onChange={(e, value) => setFieldValue("brand", value.toUpperCase() || "")}
                                     renderInput={(params, option) => <TextField name="brand" error={(errors.brand && touched.brand) ? true : false} {...params} label="Marque" variant="outlined" sx={{ width: "100%", textAlign: "center" }} />}
                                 />
                             </Grid>

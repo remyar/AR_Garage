@@ -5,21 +5,22 @@ export async function getProductsFromVehicule(vehicule, { extra, getState }) {
     const api = extra.api;
 
     try {
-        let _oems = await api.get("/api/v1/oems/byVehiculeId/" + vehicule.id);
-        let _products = await api.get("/api/v1/products");
-        let products = JSON.parse(_products);
-        let oems = JSON.parse(_oems);
+
+        let products = getState()?.products;
+        let oems = getState()?.oem.filter((f) => f.carId == vehicule.carId);
 
         let v_products = [];
         
         oems.forEach((oem) => {
             products.forEach((product) => {
-                if ( product.ref_oem == oem.ref_oem ){
-                    v_products.push(product);
+                if ( product.ref_oem == oem.oem ){
+                    if ( !v_products.find((v) => ((v.brand == product.brand) && (v.ref_fab == product.ref_fab))) ) {
+                        v_products.push(product);
+                    }
                 }
             })
         });
-        return { products : v_products};
+        return { productsFromVehicule : v_products};
     } catch (err) {
         throw { message: err.message };
     }

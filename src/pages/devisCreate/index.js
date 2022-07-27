@@ -55,8 +55,12 @@ function DevisCreatePage(props) {
         setClients(result.clients);
         result = await props.dispatch(actions.get.allVehicules());
         setVehicules(result.vehicules);
-        result = await props.dispatch(actions.get.allProducts());
-        setProduits(result.products.filter((el) => el.deleted !== 1));
+
+        result = await props.dispatch(actions.get.productsFromVehicule(selectedVehicule));
+        setProduits(result.productsFromVehicule.filter((el) => el.deleted !== 1));
+
+        /*result = await props.dispatch(actions.get.allProducts());
+        setProduits(result.products.filter((el) => el.deleted !== 1));*/
         result = await props.dispatch(actions.get.allServices());
         setServices(result.services.filter((el) => el.deleted !== 1));
         /* result = await props.dispatch(actions.get.lastDevisNumber());
@@ -70,7 +74,7 @@ function DevisCreatePage(props) {
     useEffect(() => {
         async function __function() {
             let result = await props.dispatch(actions.get.productsFromVehicule(selectedVehicule));
-            setProduits(result.products);
+            setProduits(result.productsFromVehicule);
         }
         __function();
     }, [selectedVehicule])

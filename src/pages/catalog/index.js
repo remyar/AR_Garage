@@ -84,9 +84,19 @@ function CatalogPage(props) {
             categorie={selectedCategorie}
             display={displayProductAddModal ? true : false}
             onValidate={async (product) => {
-                //-- full product detail
-                //displayProductDetails
-                console.log(product)
+ 
+                for (let oem of displayProductAddModal.oemNumbers) {
+
+                    product.ref_oem = oem.articleNumber;
+
+                    try {
+                        await props.dispatch(actions.set.newProduct(product));
+                        await props.dispatch(actions.set.oemProduct({ carId : selectedVehicule.carId , oem : product.ref_oem}));
+                    } catch (err) {
+                        props.snackbar.error(intl.formatMessage({ id: 'save.error' }));
+                    }
+                }
+
             }}
             onClose={() => {
                 setDisplayProductAddModal(undefined);

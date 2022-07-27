@@ -112,7 +112,7 @@ function ProduitsPage(props) {
 
                 try {
                     await props.dispatch(actions.set.newProduct(product));
-                    await props.dispatch(actions.set.oemProduct({ name: product.ref_oem, vehicule_id: selectedVehicule.id }));
+                   // await props.dispatch(actions.set.oemProduct({ name: product.ref_oem, vehicule_id: selectedVehicule.id }));
                 } catch (err) {
 
                 }
