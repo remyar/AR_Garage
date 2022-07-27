@@ -25,6 +25,7 @@ function CatalogPage(props) {
     const [displayLoader, setDisplayLoader] = useState(false);
     const [catalog, setCatalog] = useState([]);
     const [carCatalog, setCarCatalog] = useState({});
+    const [selectedCategorie, setSelectedCategorie] = useState({});
 
     const [articles, setArticles] = useState([]);
     const [filter, setFilter] = useState({});
@@ -80,6 +81,7 @@ function CatalogPage(props) {
 
         {displayProductAddModal && <ProductAddModal
             tecdocproduct={displayProductAddModal}
+            categorie={selectedCategorie}
             display={displayProductAddModal ? true : false}
             onValidate={async (product) => {
                 //-- full product detail
@@ -98,6 +100,7 @@ function CatalogPage(props) {
                     onClick={async (c) => {
                         if (c.hasChilds == false && c.hasArticles == true) {
                             setDisplayLoader(true);
+                            setSelectedCategorie(c);
                             try {
                                 let result = await props.dispatch(actions.tecdoc.getArticleIdsWithState(carCatalog.carId, c.assemblyGroupNodeId));
                                 setArticles(result.articlesWithState);

@@ -72,6 +72,7 @@ function App(props) {
             props.snackbar.error(intl.formatMessage({ id: 'update.error' }));
         });
 
+        props.dispatch(actions.get.allCategories());
     }, []);
 
     return <Box>

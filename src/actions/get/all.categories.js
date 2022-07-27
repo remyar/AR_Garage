@@ -1,10 +1,9 @@
 import createAction from '../../middleware/actions';
-
+import childNodesAllLinkingTarget from '../../data/tecdoc/childNodesAllLinkingTarget.json';
 
 export async function getAllCategories({ extra, getState }) {
     try {
-        const state = getState();
-        return { categories : state.categories};
+        return { categories : childNodesAllLinkingTarget};
     } catch (err) {
         throw { message: err.message };
     }
