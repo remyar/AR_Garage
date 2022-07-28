@@ -29,7 +29,7 @@ function CatalogFilter(props) {
                     options={brands}
                     sx={{ width: '100%' }}
                     onChange={(event, value) => { props.onChange &&  props.onChange({ brand : value}) }}
-                    renderInput={(params, option) => <TextField {...params} label="Construteurs" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="Construteurs" />}
+                    renderInput={(params, option) => <TextField {...params} label="Fabriquant" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="Fabriquant" />}
                 />
             </Grid>
         </Grid>

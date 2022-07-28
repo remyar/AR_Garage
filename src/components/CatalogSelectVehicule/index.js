@@ -113,7 +113,7 @@ function CatalogSelectVehicule(props) {
                     }}
                     sx={{ width: '100%' }}
                     onChange={(event, value) => { setSelectedModelSeries(value) }}
-                    renderInput={(params, option) => <TextField {...params} label="ModelSeries" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="ModelSeries" />}
+                    renderInput={(params, option) => <TextField {...params} label="Modéles" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="ModelSeries" />}
                 />
             </Grid>
             <Grid item xs={4} sx={{ textAlign: 'center' }}>

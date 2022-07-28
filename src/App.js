@@ -76,7 +76,7 @@ function App(props) {
     }, []);
 
     return <Box>
-        <AppBar onClick={() => { setDrawerState(true) }} title={selectedVehicule?.plate && (selectedVehicule?.vehicleDetails.vehicleMark + " - " + selectedVehicule?.vehicleDetails.vehicleModelDescription + " - " + selectedVehicule?.vehicleDetails.version) ? (selectedVehicule?.plate + ' : ' + (selectedVehicule?.vehicleDetails.vehicleMark + " - " + selectedVehicule?.vehicleDetails.vehicleModelDescription + " - " + selectedVehicule?.vehicleDetails.version)) : undefined}/>
+        <AppBar onClick={() => { setDrawerState(true) }} title={selectedVehicule?.plate && (selectedVehicule?.vehicleDetails.vehicleMark + " - " + selectedVehicule?.vehicleDetails.vehicleModelDescription + " - " + selectedVehicule?.vehicleDetails.version) ? (selectedVehicule?.plate + ' : ' + (selectedVehicule?.vehicleDetails.vehicleMark + " - " + selectedVehicule?.vehicleDetails.vehicleModelDescription + " - " + selectedVehicule?.vehicleDetails.version) + ' - ' + selectedVehicule?.vehicleDetails?.engineCode) : undefined}/>
         <Box sx={{paddingTop:'64px'}}>
             <Container maxWidth="xl" sx={{ /*height: 'calc(100vh - 64px)',*/ paddingTop: "25px"}} >
                 <Drawer

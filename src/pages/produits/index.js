@@ -22,6 +22,7 @@ import SearchComponent from '../../components/Search';
 
 import actions from '../../actions';
 import Loader from '../../components/Loader';
+import { recomposeColor } from '@mui/material';
 
 
 function ProduitsPage(props) {
@@ -76,7 +77,19 @@ function ProduitsPage(props) {
         }
     ];
 
-    let rows = [...produits];
+    let rows = [];
+
+    produits.forEach((p , idx) => {
+        let __p = rows.find((el) => ((el.ref_fab == p.ref_fab) && (el.brand == p.brand)));
+        if (  __p == undefined){
+            p.oems = [];
+            rows.push(p);
+        } else {
+            __p.oems.push(p.ref_oem);
+        }       
+    });
+
+    rows = rows.filter((el) => el.name.toLowerCase().startsWith(filter));
 
     return <Box>
 

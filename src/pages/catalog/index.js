@@ -36,7 +36,7 @@ function CatalogPage(props) {
     async function fetchData() {
         setDisplayLoader(true);
         try {
-            let result = await props.dispatch(actions.tecdoc.getChildNodesAllLinkingTarget(selectedVehicule.carId));
+            let result = await props.dispatch(actions.tecdoc.getChildNodesAllLinkingTarget(selectedVehicule?.carId));
             setCatalog(result.catalog);
         } catch (err) {
             props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
@@ -96,6 +96,8 @@ function CatalogPage(props) {
                         props.snackbar.error(intl.formatMessage({ id: 'save.error' }));
                     }
                 }
+
+                setDisplayProductAddModal(undefined);
 
             }}
             onClose={() => {
