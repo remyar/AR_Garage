@@ -1,10 +1,9 @@
 import createAction from '../../middleware/actions';
+import amBrands from '../../data/tecdoc/amBrands.json';
 
 export async function getAllMarques({ extra, getState }) {
     try {
-        const state = getState();
-        let marques = state.marques;
-        return { marques : marques};
+        return { marques : amBrands};
     } catch (err) {
         throw { message: err.message };
     }

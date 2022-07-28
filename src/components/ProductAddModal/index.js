@@ -36,8 +36,8 @@ function ProductAddModal(props) {
 
     async function fetchData() {
         let result = await props.dispatch(actions.get.allMarques());
-        let rows = result.marques.filter((el) => el.name != undefined && el.name != null && el.name.trim().length > 0)
-        rows = rows.sort((a, b) => a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1);
+        // let rows = result.marques.filter((el) => el.brandName != undefined && el.brandName != null && el.brandName.trim().length > 0)
+        let rows = result.marques.sort((a, b) => a.brandName.toLowerCase() > b.brandName.toLowerCase() ? 1 : -1);
         setMarques(rows);
     }
 
@@ -51,12 +51,39 @@ function ProductAddModal(props) {
         ref_fab: '',
         ref_oem: '',
         categorie_id: 0,
+        assemblyGroupNodeId: 0,
         prix_achat: '',
         prix_vente: '',
     }
 
     if (props.editProduct) {
         initialValues = { ...initialValues, ...props.editProduct }
+    }
+
+    if (props.tecdocproduct) {
+        initialValues.brand = props.tecdocproduct?.mfrName;
+        initialValues.name = props.tecdocproduct?.genericArticles[0].genericArticleDescription || "";
+        initialValues.ref_fab = props.tecdocproduct?.articleNumber;
+        initialValues.ref_oem = (props.tecdocproduct?.oemNumbers.length > 0) && props.tecdocproduct?.oemNumbers[0].articleNumber.replace(/\s/g, '');
+
+        initialValues.assemblyGroupNodeId = props?.categorie?.assemblyGroupNodeId;
+
+        //-- find the parent
+        if (props?.categorie?.parentNodeId) {
+            let _c = categories.find((el) => el.assemblyGroupNodeId == props?.categorie?.parentNodeId);
+            if (_c && _c.parentNodeId) {
+                let __c = categories.find((el) => el.assemblyGroupNodeId == _c.parentNodeId);
+                initialValues.categorie_id = __c.assemblyGroupNodeId;
+                if (selectedCategorie.assemblyGroupNodeId != __c.assemblyGroupNodeId) {
+                    setSelectedCategorie(__c);
+                }
+            } else {
+                initialValues.categorie_id = _c.assemblyGroupNodeId;
+                if (selectedCategorie.assemblyGroupNodeId != _c.assemblyGroupNodeId) {
+                    setSelectedCategorie(_c);
+                }
+            }
+        }
     }
 
     return <Modal display={props.display || false} >
@@ -103,11 +130,10 @@ function ProductAddModal(props) {
                                 <Autocomplete
                                     disablePortal
                                     id="combo-box-demo"
-                                    options={marques.map((el) => el.name)}
                                     value={values.brand}
-                                    getOptionLabel={(option) => option?.toUpperCase()}
+                                    options={marques.map((r)=>r.brandName.toUpperCase())}
                                     sx={{ width: '100%' }}
-                                    onChange={(e, value) => setFieldValue("brand", value || "")}
+                                    onChange={(e, value) => setFieldValue("brand", value.toUpperCase() || "")}
                                     renderInput={(params, option) => <TextField name="brand" error={(errors.brand && touched.brand) ? true : false} {...params} label="Marque" variant="outlined" sx={{ width: "100%", textAlign: "center" }} />}
                                 />
                             </Grid>
@@ -137,17 +163,18 @@ function ProductAddModal(props) {
                                     <Select
                                         labelId="demo-simple-select-label"
                                         label="Catégorie"
-                                        name="ville"
+                                        name="categorie_id"
                                         onChange={(event) => {
-                                            let _c = categories.find((el) => el.name == event.target.value);
+                                            let _c = categories.find((el) => el.assemblyGroupNodeId == event.target.value);
                                             setSelectedCategorie(_c);
-                                            ////handleChange(event)
                                         }}
-                                        value={selectedCategorie?.id}
+                                        value={values.categorie_id}
                                     >
-                                        {categories && categories.map((_v, idx) => {
-                                            return <MenuItem key={"categories_" + idx} value={_v.name}>{_v.name}</MenuItem>
-                                        })}
+                                        {categories?.map((_v, idx) => {
+                                            if (_v.parentNodeId == undefined) {
+                                                return <MenuItem key={"categories_" + idx} value={_v.assemblyGroupNodeId}>{_v.assemblyGroupName}</MenuItem>
+                                            }
+                                        }).filter((f) => f != undefined)}
                                     </Select>
                                 </FormControl>
                             </Grid>
@@ -157,13 +184,34 @@ function ProductAddModal(props) {
                                     <Select
                                         labelId="demo-simple-select-label"
                                         label="Sous-Catégorie"
-                                        name="categorie_id"
+                                        name="assemblyGroupNodeId"
                                         onChange={handleChange}
-                                        value={values.categorie_id}
+                                        value={values.assemblyGroupNodeId}
                                     >
-                                        {selectedCategorie.sub.map((_v,idx) => {
-                                            return <MenuItem key={"sub_categories_" + idx} value={_v.name}>{_v.name}</MenuItem>
-                                        })}
+                                        {(() => {
+                                            let subCat = [];
+                                            if (selectedCategorie.hasChilds == true) {
+                                                categories.map((c) => {
+                                                    return c.parentNodeId == selectedCategorie.assemblyGroupNodeId ? c : undefined;
+                                                }).filter((el) => el != undefined).map((_v, idx) => {
+                                                    if (_v.hasChilds) {
+                                                        let _name = _v.assemblyGroupName;
+                                                        categories.map((c) => {
+                                                            return c.parentNodeId == _v.assemblyGroupNodeId ? c : undefined;
+                                                        }).filter((el) => el != undefined).map((__v) => {
+                                                            let __cat = subCat.find((f) => f.assemblyGroupNodeId == __v.assemblyGroupNodeId);
+                                                            if (__cat == undefined) {
+                                                                let name = _name + " => " + __v.assemblyGroupName;
+                                                                subCat.push({ ...__v, assemblyGroupName: name });
+                                                            }
+                                                        });
+                                                    } else {
+                                                        subCat.push(_v);
+                                                    }
+                                                })
+                                            }
+                                            return subCat.map((_v) => <MenuItem key={"sub_categories_" + _v.assemblyGroupNodeId} value={_v.assemblyGroupNodeId}>{_v.assemblyGroupName}</MenuItem>);
+                                        })()}
                                     </Select>
                                 </FormControl>
                             </Grid>
@@ -176,7 +224,7 @@ function ProductAddModal(props) {
                                 }} component={TextField} />
                             </Grid>
                             <Grid item xs={6} >
-                            <InputNumber label="Prix vente" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="prix_vente" value={values.prix_vente} onChange={(value) => {
+                                <InputNumber label="Prix vente" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="prix_vente" value={values.prix_vente} onChange={(value) => {
                                     setFieldValue("prix_vente", value || "")
                                 }} component={TextField} />
                             </Grid>

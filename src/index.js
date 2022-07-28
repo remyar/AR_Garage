@@ -22,14 +22,13 @@ const persistConfig = {
     persist: true,
     whitelist: [
         "settings",
-        "categories",
         "clients",
         "vehicules",
         "devis",
         "products",
         "services",
         "factures",
-        "marques"
+        "oem"
     ]
 };
 
@@ -54,16 +53,17 @@ const messages = localeData[languageWithoutRegionCode] || localeData[language] |
 ReactDOM.render(
     <React.StrictMode>
         <CssBaseline />
-        <StoreProvider extra={{ api , electron  }} persistConfig={persistConfig} globalState={{
+        <StoreProvider extra={{ api, electron }} persistConfig={persistConfig} globalState={{
             settings: { locale: "fr" },
             clients: [],
             vehicules: [],
-            categories:[],
-            devis:[],
-            products:[],
-            services:[],
-            factures:[],
-            marques:[]
+            categories: [],
+            devis: [],
+            products: [],
+            services: [],
+            factures: [],
+            marques: [],
+            oem: []
         }}>
             <MemoryRouter>
                 <NavigationProvider>
