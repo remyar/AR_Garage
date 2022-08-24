@@ -19,10 +19,13 @@ export async function getAutoFromPlate(plate = "AA-456-BB", { extra, getState })
 
             let result = await api.tecdoc.getVehiclesByKeyNumberPlates(plate);
         
-            vehicules.push({
+            vehicule = {
                 ...result[0] , 
                 deleted : 0,
-                plate
+                plate  
+            } ;
+            vehicules.push({
+                ...vehicule
             });
 
         } else {

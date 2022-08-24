@@ -171,6 +171,7 @@ function VehiculesPage(props) {
                 setDisplayLoader(true);
                 try {
                     let result = await props.dispatch(actions.tecdoc.getAutoFromPlate(_v.plate));
+                    await fetchData();
                     setDisplayVehiculeModal(result.vehicule);
                 } catch (err) {
                     props.snackbar.error(err.message);
