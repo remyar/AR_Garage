@@ -10,17 +10,23 @@ export async function getProductsFromVehicule(vehicule, { extra, getState }) {
         let oems = getState()?.oem.filter((f) => f.carId == vehicule.carId);
 
         let v_products = [];
-        
-        oems.forEach((oem) => {
-            products.forEach((product) => {
-                if ( product.ref_oem == oem.oem ){
-                    if ( !v_products.find((v) => ((v.brand == product.brand) && (v.ref_fab == product.ref_fab))) ) {
-                        v_products.push(product);
+
+
+        products.forEach((product) => {
+            if ((product.ref_oem == undefined) || (product.ref_oem == "") || (product.ref_oem.length == 0)) {
+                v_products.push(product);
+            } else {
+                oems.forEach((oem) => {
+                    if (product.ref_oem == oem.oem) {
+                        if (!v_products.find((v) => ((v.brand == product.brand) && (v.ref_fab == product.ref_fab)))) {
+                            v_products.push(product);
+                        }
                     }
-                }
-            })
+                });
+            }
         });
-        return { productsFromVehicule : v_products};
+
+        return { productsFromVehicule: v_products };
     } catch (err) {
         throw { message: err.message };
     }
