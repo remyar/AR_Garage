@@ -276,8 +276,8 @@ function DevisCreatePage(props) {
                 tooltipTitle={intl.formatMessage({ id: 'devis.save' })}
                 onClick={async () => {
                     let devis = {
-                        client_id: selectedClient.id,
-                        vehicule_id: selectedVehicule.id,
+                        client_id: selectedClient?.id,
+                        vehicule_id: selectedVehicule?.carId,
                         kilometrage: selectedVehicule?.kilometrage,
                         date: new Date().getTime(),
                         expiration: expiration,
