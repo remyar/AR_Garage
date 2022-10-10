@@ -85,8 +85,7 @@
         "start": "craco  start",
         "build": "craco  build",
         "dist": "electron-builder",
-        "test": "craco  test",
-        "generate:categories": "node ./tools/extra.oscaro.categories.js"
+        "test": "craco  test"
     },
     "eslintConfig": {
         "extends": [

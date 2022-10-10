@@ -128,8 +128,9 @@ async function getVehiclesByKeyNumberPlates(plate) {
 
                 resolve(result?.data?.array || []);
 
+            }else {
+                reject("Fail to decompose captcha");
             }
-
         } catch (err) {
             reject(err);
         }
