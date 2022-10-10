@@ -38,7 +38,7 @@ export async function getAutoFromPlate(plate = "AA-456-BB", { extra, getState })
         };
 
     } catch (err) {
-        throw { message: err.message };
+        throw { message: err.message || err };
     }
 }
 
