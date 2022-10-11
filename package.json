@@ -15,6 +15,7 @@
             "main": "main.js"
         },
         "win": {
+            "target" : "nsis",
             "icon": "public/favicon.ico",
             "publish": [
                 {
@@ -36,7 +37,13 @@
                 "!.github/*",
                 "!*.md",
                 "!public/*"
+            ],
+            "extraFiles" : [
+                "extraRessources/*"
             ]
+        },
+        "nsis" : {
+            "include" : "./installer.nsh"
         }
     },
     "dependencies": {

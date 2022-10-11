@@ -108,7 +108,7 @@ async function getText(image) {
                 oem: 3,
                 psm: 13,
                 tessedit_char_whitelist: "ABCDFGHJMNPQSUVWXYZ",
-                presets: ["txt"],
+                presets: ["txt"]
             }
 
             let text = await tesseract.recognize("./img-opt.jpg", config)
