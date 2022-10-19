@@ -43,7 +43,8 @@
             ]
         },
         "nsis" : {
-            "include" : "./installer.nsh"
+            "include" : "./installer.nsh",
+            "perMachine" : true
         }
     },
     "dependencies": {
