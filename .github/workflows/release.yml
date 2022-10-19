@@ -49,16 +49,8 @@ jobs:
         run: |
           cd ./assets
           7z x tesseract-ocr-w64-setup-v5.2.0.20220712.exe
-
-      - name: Remove File
-        uses: JesseTG/rm@v1.0.3
-        with:
-          path: ${{ github.workspace }}/assets/tesseract-ocr-w64-setup-v5.2.0.20220712.exe
-
-      - name: Remove File
-        uses: JesseTG/rm@v1.0.3
-        with:
-          path: ${{ github.workspace }}/assets/tesseract-uninstall.exe
+          del ./tesseract-ocr-w64-setup-v5.2.0.20220712.exe
+          del ./tesseract-uninstall.exe
 
       - name: npm install
         working-directory: ${{ github.workspace }}
