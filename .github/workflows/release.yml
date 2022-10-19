@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - main
+      - add_tesseract
 
 jobs:
 
@@ -37,6 +38,29 @@ jobs:
           github_token: ${{ secrets.github_token }}
           repository: 'remyar/AR_Garage'
           directory: './'
+
+      - uses: suisei-cn/actions-download-file@v1.0.1
+        id: downloadfile  # Remember to give an ID if you need the output filename
+        name: Download the file
+        with:
+          url: "https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.2.0.20220712.exe"
+          target: ./assets
+
+      - name: Action 7z
+        uses: edgarrc/action-7z@v1
+        working-directory: ${{ github.workspace }}/assets
+        with:
+          args: 7z x tesseract-ocr-w64-setup-v5.2.0.20220712.exe
+
+      - name: Remove File
+        uses: JesseTG/rm@v1.0.3
+        with:
+          path: ${{ github.workspace }}/assets/tesseract-ocr-w64-setup-v5.2.0.20220712.exe
+
+      - name: Remove File
+        uses: JesseTG/rm@v1.0.3
+        with:
+          path: ${{ github.workspace }}/assets/tesseract-uninstall.exe
 
       - name: npm install
         working-directory: ${{ github.workspace }}
