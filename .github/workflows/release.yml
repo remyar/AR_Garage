@@ -51,6 +51,7 @@ jobs:
           7z x tesseract-ocr-w64-setup-v5.2.0.20220712.exe
           del ./tesseract-ocr-w64-setup-v5.2.0.20220712.exe
           del ./tesseract-uninstall.exe
+          del ./donotremove.bat
 
       - name: npm install
         working-directory: ${{ github.workspace }}
