@@ -45,10 +45,10 @@ jobs:
           url: "https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.2.0.20220712.exe"
           target: ./assets
 
-      - name: Action 7z
-        uses: edgarrc/action-7z@v1
-        with:
-          args: 7z x ./assets/tesseract-ocr-w64-setup-v5.2.0.20220712.exe -o./assets
+      - name: 7zip
+        run: |
+          cd ./assets
+          7z x tesseract-ocr-w64-setup-v5.2.0.20220712.exe
 
       - name: Remove File
         uses: JesseTG/rm@v1.0.3
