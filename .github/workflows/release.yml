@@ -48,9 +48,8 @@ jobs:
 
       - name: Action 7z
         uses: edgarrc/action-7z@v1
-        working-directory: ${{ github.workspace }}/assets
         with:
-          args: 7z x tesseract-ocr-w64-setup-v5.2.0.20220712.exe
+          args: 7z x ./assets/tesseract-ocr-w64-setup-v5.2.0.20220712.exe -o./assets
 
       - name: Remove File
         uses: JesseTG/rm@v1.0.3
