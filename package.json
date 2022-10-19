@@ -1,7 +1,7 @@
 {
     "name": "ar_garage",
     "description": "Simple Biling software for micro entreprise",
-    "version": "0.0.27",
+    "version": "0.0.28",
     "private": true,
     "author": "ARNAUDIN Rémy",
     "proxy": "http://localhost:4000",
@@ -15,6 +15,7 @@
             "main": "main.js"
         },
         "win": {
+            "target": "nsis",
             "icon": "public/favicon.ico",
             "publish": [
                 {
@@ -37,6 +38,9 @@
                 "!*.md",
                 "!public/*"
             ]
+        },
+        "nsis": {
+            "include": "./installer.nsh"
         }
     },
     "dependencies": {

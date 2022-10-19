@@ -1,6 +1,8 @@
 
 const tesseract = require("node-tesseract-ocr")
 const Jimp = require('jimp').default;
+const electron = require('@electron/remote').app;
+const path = require('path');
 
 async function getText(image) {
     return new Promise(async (resolve, reject) => {
@@ -111,8 +113,11 @@ async function getText(image) {
                 presets: ["txt"],
             }
 
+            if ((process?.env?.REACT_APP_ISDEV == undefined) || (process?.env?.REACT_APP_ISDEV == "false") || (process?.env?.REACT_APP_ISDEV == false)) {
+                config.binary = path.resolve(electron.getAppPath(), "tesseract.exe");
+            }
+
             let text = await tesseract.recognize("./img-opt.jpg", config)
-            console.log("Found : " + text);
             if (text.trim().length == 5) {
                 resolve(text.trim());
             } else {
