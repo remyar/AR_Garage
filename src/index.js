@@ -54,7 +54,7 @@ ReactDOM.render(
     <React.StrictMode>
         <CssBaseline />
         <StoreProvider extra={{ api, electron }} persistConfig={persistConfig} globalState={{
-            settings: { locale: "fr" },
+            settings: { locale: "fr" , wizard : true },
             clients: [],
             vehicules: [],
             categories: [],

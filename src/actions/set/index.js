@@ -8,6 +8,7 @@ import saveDevis from "./save.devis";
 import saveEntrepriseSettings from "./save.entreprise.settings";
 import savePaiementSettings from "./save.paiement.settings";
 import saveEntrepriseLogo from "./save.entreprise.logo";
+import saveSettings from "./save.settings";
 
 export default {
     selectedVehicule,
@@ -19,5 +20,6 @@ export default {
     saveDevis,
     saveEntrepriseSettings,
     savePaiementSettings,
-    saveEntrepriseLogo
+    saveEntrepriseLogo,
+    saveSettings
 }

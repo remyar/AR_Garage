@@ -8,6 +8,7 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 
 import Loader from '../../components/Loader';
+import Wizard from '../../components/Wizard';
 
 import actions from '../../actions';
 
@@ -15,20 +16,31 @@ import CAChart from '../../components/CAChart';
 import { Calendar, momentLocalizer } from 'react-big-calendar'
 import moment from 'moment'
 
-// Setup the localizer by providing the moment (or globalize, or Luxon) Object
-// to the correct localizer.
 const localizer = momentLocalizer(moment) // or globalizeLocalizer
 
 require("react-big-calendar/lib/css/react-big-calendar.css")
 
-
 function HomePage(props) {
 
-    const intl = props.intl;
-
-    const vehicule = props.globalState.vehicule || {};
     const [displayLoader, setDisplayLoader] = useState(false);
+    const [displayWizard, setDisplayWizard] = useState(false);
     const [factures, setFactures] = useState([]);
+
+    const intl = props.intl;
+    const vehicule = props.globalState.vehicule || {};
+    const settings = props.globalState.settings || {};
+
+    if ( (settings?.wizard == undefined) || (settings?.wizard == true)){
+        //-- lancement du wizard
+        if ( displayWizard == false ){
+            setDisplayWizard(true);
+        }
+    }
+
+    async function discardWizard(){
+        await props.dispatch(actions.set.saveSettings({ wizard : false}));
+        setDisplayWizard(false);
+    }
 
     async function fetchData() {
         setDisplayLoader(true);
@@ -79,6 +91,8 @@ function HomePage(props) {
 
         <Loader display={displayLoader} />
 
+        {displayWizard && <Wizard onClose={discardWizard}/>}
+
         <Box sx={{
             position: 'absolute',
             left: '50%',
@@ -94,14 +108,6 @@ function HomePage(props) {
                     <CAChart data={ca[new Date().getFullYear()]} title={"CA " + new Date().getFullYear() + " - " + caTotal.toFixed(2) + "€"} />
                 </Grid>
                 <Grid item xs={3} sx={{ textAlign: 'center' }} />
-                {/*<Grid item xs={6} sx={{ textAlign: 'center' }}>
-                    <Calendar
-                        localizer={localizer}
-                        startAccessor="start"
-                        endAccessor="end"
-                        showMultiDayTimes
-                    />
-    </Grid>*/}
             </Grid>
 
         </Box>
