@@ -57,7 +57,7 @@ jobs:
         env : 
           REACT_APP_TECDOC_API_URL_1: ${{ secrets.REACT_APP_TECDOC_API_URL_1 }}
         run: |
-          echo %REACT_APP_TECDOC_API_URL_1%
+          echo "$env:REACT_APP_TECDOC_API_URL_1"
 
       - name: Build/release Electron app
         uses: samuelmeuli/action-electron-builder@v1
