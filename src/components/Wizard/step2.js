@@ -46,11 +46,12 @@ function Step2Modal(props) {
     }
 
     return <Formik
+        innerRef={props.formikRef || undefined}
         validationSchema={ValidationSchema}
         initialValues={initialValues}
     >
-        {({ values, errors, touched, handleSubmit, handleChange }) => (
-            <Form onSubmit={handleSubmit}>
+        {({ values, errors, touched, handleChange }) => (
+            <Form >
                 <br />
                 <ListItem disablePadding>
                     <Typography variant="h6" gutterBottom component="div">{intl.formatMessage({ id: 'settings.paiement.title' })}</Typography>
@@ -58,15 +59,15 @@ function Step2Modal(props) {
                 <Divider />
                 <ListItem>
                     <ListItemText primary="Nom associé au compte bancaire" />
-                    <TextField error={(errors.nom && touched.nom) ? true : false} variant="standard" sx={{ textAlign: "center", width: "50%" }} name="nom" value={values.nom} onChange={handleChange} />
+                    <TextField error={(errors.nom) ? true : false} variant="standard" sx={{ textAlign: "center", width: "50%" }} name="nom" value={values.nom} onChange={(e) => { props.onChange && props.onChange(e); handleChange(e);}} />
                 </ListItem>
                 <ListItem>
                     <ListItemText primary="IBAN" />
-                    <TextField error={(errors.iban && touched.iban) ? true : false} variant="standard" sx={{ textAlign: "center", width: "50%" }} name="iban" value={values.iban} onChange={handleChange} />
+                    <TextField error={(errors.iban) ? true : false} variant="standard" sx={{ textAlign: "center", width: "50%" }} name="iban" value={values.iban} onChange={(e) => { props.onChange && props.onChange(e); handleChange(e);}} />
                 </ListItem>
                 <ListItem>
                     <ListItemText primary="Chéque a l'ordre de" />
-                    <TextField error={(errors.order && touched.order) ? true : false} variant="standard" sx={{ textAlign: "center", width: "50%" }} name="order" value={values.order} onChange={handleChange} />
+                    <TextField error={(errors.order) ? true : false} variant="standard" sx={{ textAlign: "center", width: "50%" }} name="order" value={values.order} onChange={(e) => { props.onChange && props.onChange(e); handleChange(e);}}/>
                 </ListItem>
                 <br />
             </Form>

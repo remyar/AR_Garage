@@ -13,6 +13,7 @@ import ListItemText from '@mui/material/ListItemText';
 import Divider from '@mui/material/Divider';
 import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
+import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 
 import Switch from '@mui/material/Switch';
 
@@ -230,7 +231,11 @@ function SettingsPage(props) {
                             </Button>
                         </Stack>
                     </Grid>
-                    <Grid item xs={2} />
+                    <Grid item xs={2} >
+                        <DeleteForeverIcon sx={{ marginTop: "5px", cursor: "pointer" }} onClick={() => {
+                            props.dispatch(actions.set.saveEntrepriseLogo(new Buffer("").toString('base64')));
+                        }} />
+                    </Grid>
                 </Grid>
             </ListItem>
             <br />
