@@ -16,42 +16,42 @@ jobs:
       - name: checkout
         uses: actions/checkout@v1
 
-      - name: Use Node.js 14.15.1
-        uses: actions/setup-node@v1
-        with:
-          node-version: '14.15.1'
-          registry-url: 'https://registry.npmjs.org'
+ #     - name: Use Node.js 14.15.1
+ #       uses: actions/setup-node@v1
+ #       with:
+ #         node-version: '14.15.1'
+ #         registry-url: 'https://registry.npmjs.org'
 
-      - name: Github Action
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+ #     - name: Github Action
+ #       run: |
+ #         git config --local user.email "action@github.com"
+ #         git config --local user.name "GitHub Action"
 
-      - name: Bump Version
-        run: |
-          npm version patch -m "v%s"
+ #     - name: Bump Version
+ #       run: |
+ #         npm version patch -m "v%s"
 
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.github_token }}
-          repository: 'remyar/AR_Garage'
-          directory: './'
+ #     - name: Push changes
+ #       uses: ad-m/github-push-action@master
+ #       with:
+ #         github_token: ${{ secrets.github_token }}
+ #         repository: 'remyar/AR_Garage'
+ #         directory: './'
 
-      - uses: suisei-cn/actions-download-file@v1.0.1
-        id: downloadfile  # Remember to give an ID if you need the output filename
-        name: Download the file
-        with:
-          url: "https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.2.0.20220712.exe"
-          target: ./assets
+ #     - uses: suisei-cn/actions-download-file@v1.0.1
+ #       id: downloadfile  # Remember to give an ID if you need the output filename
+ #       name: Download the file
+ #       with:
+ #         url: "https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.2.0.20220712.exe"
+ #         target: ./assets
 
-      - name: 7zip
-        run: |
-          cd ./assets
-          7z x tesseract-ocr-w64-setup-v5.2.0.20220712.exe
-          del ./tesseract-ocr-w64-setup-v5.2.0.20220712.exe
-          del ./tesseract-uninstall.exe
-          del ./donotremove.bat
+  #    - name: 7zip
+  #      run: |
+  #        cd ./assets
+ #         7z x tesseract-ocr-w64-setup-v5.2.0.20220712.exe
+  #        del ./tesseract-ocr-w64-setup-v5.2.0.20220712.exe
+  #        del ./tesseract-uninstall.exe
+  #        del ./donotremove.bat
 
       - name: test
         env : 
@@ -59,17 +59,17 @@ jobs:
         run: |
           echo "$env:REACT_APP_TECDOC_API_URL_1"
 
-      - name: Build/release Electron app
-        uses: samuelmeuli/action-electron-builder@v1
-        with:
-          release: true
-          github_token: ${{ secrets.github_token }}
-        env:
-          CI: false
-          GENERATE_SOURCEMAP: false
-          REACT_APP_TECDOC_API_CATALOG: ${{ secrets.REACT_APP_TECDOC_API_CATALOG }}
-          REACT_APP_TECDOC_API_URL_1: ${{ secrets.REACT_APP_TECDOC_API_URL_1 }}
-          REACT_APP_TECDOC_API_URL_2: ${{ secrets.REACT_APP_TECDOC_API_URL_2 }}
-          REACT_APP_TECDOC_API_URL_3: ${{ secrets.REACT_APP_TECDOC_API_URL_3 }}
-          REACT_APP_TECDOC_PROVIDER_ID_NEW: ${{ secrets.REACT_APP_TECDOC_PROVIDER_ID_NEW }}
-          REACT_APP_TECDOC_PROVIDER_ID_OLD: ${{ secrets.REACT_APP_TECDOC_PROVIDER_ID_OLD }}
+ #     - name: Build/release Electron app
+ #       uses: samuelmeuli/action-electron-builder@v1
+ #       with:
+ #         release: true
+ #         github_token: ${{ secrets.github_token }}
+ #       env:
+ #         CI: false
+ #         GENERATE_SOURCEMAP: false
+ #         REACT_APP_TECDOC_API_CATALOG: ${{ secrets.REACT_APP_TECDOC_API_CATALOG }}
+ #         REACT_APP_TECDOC_API_URL_1: ${{ secrets.REACT_APP_TECDOC_API_URL_1 }}
+ #         REACT_APP_TECDOC_API_URL_2: ${{ secrets.REACT_APP_TECDOC_API_URL_2 }}
+ #         REACT_APP_TECDOC_API_URL_3: ${{ secrets.REACT_APP_TECDOC_API_URL_3 }}
+ #         REACT_APP_TECDOC_PROVIDER_ID_NEW: ${{ secrets.REACT_APP_TECDOC_PROVIDER_ID_NEW }}
+  #        REACT_APP_TECDOC_PROVIDER_ID_OLD: ${{ secrets.REACT_APP_TECDOC_PROVIDER_ID_OLD }}
