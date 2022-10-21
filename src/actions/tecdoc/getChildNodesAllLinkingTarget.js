@@ -1,9 +1,10 @@
 import createAction from '../../middleware/actions';
-import childNodesAllLinkingTarget from '../../data/tecdoc/childNodesAllLinkingTarget.json';
+import _childNodesAllLinkingTarget from '../../data/tecdoc/childNodesAllLinkingTarget.json';
 
 export async function getChildNodesAllLinkingTarget(carId, { extra, getState }) {
 
     const api = extra.api;
+    let childNodesAllLinkingTarget = _childNodesAllLinkingTarget;
     try {
 
         if (carId) {

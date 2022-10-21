@@ -86,8 +86,8 @@
     },
     "scripts": {
         "start:electron": "electron main.js",
-        "start": "craco  start",
-        "build": "craco  build",
+        "start": "craco start",
+        "build": "craco build",
         "dist": "electron-builder",
         "test": "craco  test"
     },
