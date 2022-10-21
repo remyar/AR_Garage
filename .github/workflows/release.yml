@@ -53,10 +53,11 @@ jobs:
           del ./tesseract-uninstall.exe
           del ./donotremove.bat
 
-      - name: npm install
-        working-directory: ${{ github.workspace }}
+      - name: test
+        env : 
+          REACT_APP_TECDOC_API_URL_1: ${{ secrets.REACT_APP_TECDOC_API_URL_1 }}
         run: |
-          npm install
+          echo %REACT_APP_TECDOC_API_URL_1%
 
       - name: Build/release Electron app
         uses: samuelmeuli/action-electron-builder@v1
