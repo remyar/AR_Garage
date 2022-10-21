@@ -7,11 +7,6 @@ Un petit utilitaire de generation de devis et de facture pour micro entreprise
 
 ## Prérequis
 
-- tesseract-ocr
-    - disponible ici : https://github.com/UB-Mannheim/tesseract/wiki
-    - ou directement : https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.2.0.20220712.exe
-
-    - Penser a rajouter les variables d'environnement si pas deja fait
-ajouter dans les variables d'environnement 
-
-C:\Program Files\Tesseract-OCR
+- Windows 10 / 11 - 64 Bits
+- Espace disque 1 Go
+- Connection internet
