@@ -12,7 +12,7 @@ export async function getChildNodesAllLinkingTarget(carId, { extra, getState }) 
 
             result.assemblyGroupFacets.counts.forEach((cat) => {
                 let _f = childNodesAllLinkingTarget.find((_ct) => _ct.assemblyGroupNodeId == cat.assemblyGroupNodeId);
-                if (cat.count > 0) {
+                if (_f && cat.count > 0) {
                     _f.hasArticles = true;
                 }
             })
