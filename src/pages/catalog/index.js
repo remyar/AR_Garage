@@ -85,13 +85,21 @@ function CatalogPage(props) {
             display={displayProductAddModal ? true : false}
             onValidate={async (product) => {
 
-                for (let oem of displayProductAddModal.oemNumbers) {
+                if (displayProductAddModal.oemNumbers.length > 0) {
+                    for (let oem of displayProductAddModal.oemNumbers) {
 
-                    product.ref_oem = oem.articleNumber;
+                        product.ref_oem = oem.articleNumber;
 
+                        try {
+                            await props.dispatch(actions.set.newProduct(product));
+                            await props.dispatch(actions.set.oemProduct({ carId: selectedVehicule.carId, oem: product.ref_oem }));
+                        } catch (err) {
+                            props.snackbar.error(intl.formatMessage({ id: 'save.error' }));
+                        }
+                    }
+                } else {
                     try {
                         await props.dispatch(actions.set.newProduct(product));
-                        await props.dispatch(actions.set.oemProduct({ carId: selectedVehicule.carId, oem: product.ref_oem }));
                     } catch (err) {
                         props.snackbar.error(intl.formatMessage({ id: 'save.error' }));
                     }
