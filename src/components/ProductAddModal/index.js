@@ -168,7 +168,7 @@ function ProductAddModal(props) {
                                             let _c = categories.find((el) => el.assemblyGroupNodeId == event.target.value);
                                             setSelectedCategorie(_c);
                                         }}
-                                        value={values.categorie_id}
+                                        value={selectedCategorie.assemblyGroupNodeId}
                                     >
                                         {categories?.map((_v, idx) => {
                                             if (_v.parentNodeId == undefined) {
