@@ -10,3 +10,7 @@ Un petit utilitaire de generation de devis et de facture pour micro entreprise
 - Windows 10 / 11 - 64 Bits
 - Espace disque 1 Go
 - Connection internet
+
+## Utilisation
+
+![](doc/img/electron_Z1ZrvBHXZm.png)
