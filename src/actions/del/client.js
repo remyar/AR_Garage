@@ -5,7 +5,7 @@ export async function deleteClient(id, { extra, getState }) {
     try {
         let state = getState();
         state.clients.forEach((el,idx) => {
-            if ( el.id == id){
+            if ( el.id === id){
                 state.clients[idx].deleted = 1;
             }
         });

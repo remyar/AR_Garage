@@ -45,7 +45,7 @@ function DataTable(props) {
                     <TableRow>
                         {headers.map((header) => (
                             <StyledTableCell
-                                key={header.id}
+                                key={header.id == undefined ? new Date().getTime() : header.id}
                                 align={header.align}
                                 style={{ minWidth: header.minWidth }}
                             >

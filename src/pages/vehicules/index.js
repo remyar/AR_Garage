@@ -1,4 +1,4 @@
-import React, { useEffect, useState, MouseEvent } from 'react';
+import React, { useEffect, useState } from 'react';
 import { injectIntl } from 'react-intl';
 import { withStoreProvider } from '../../providers/StoreProvider';
 import { withSnackBar } from '../../providers/snackBar';
@@ -7,7 +7,7 @@ import { withNavigation } from '../../providers/navigation';
 import actions from '../../actions';
 
 import Box from '@mui/material/Box';
-import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
+
 import AddIcon from '@mui/icons-material/Add';
 import BuildIcon from '@mui/icons-material/Build';
 import Menu from '@mui/material/Menu';

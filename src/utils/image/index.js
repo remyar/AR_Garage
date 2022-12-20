@@ -15,7 +15,7 @@ async function getText(image) {
             for (let y = 0; y < 10; y++) {
                 for (let x = 0; x < srcImage.getWidth(); x++) {
 
-                    if (srcImage.getPixelColor(x, y) != backGroundColor) {
+                    if (srcImage.getPixelColor(x, y) !== backGroundColor) {
                         tryToRemoveColor.push(srcImage.getPixelColor(x, y));
                     }
                 }
@@ -24,7 +24,7 @@ async function getText(image) {
             //-- remove color
             for (let y = 0; y < srcImage.getHeight(); y++) {
                 for (let x = 0; x < srcImage.getWidth(); x++) {
-                    if (tryToRemoveColor.find((el) => el == srcImage.getPixelColor(x, y))) {
+                    if (tryToRemoveColor.find((el) => el === srcImage.getPixelColor(x, y))) {
                         srcImage.setPixelColor(0xFFFFFFFF, x, y);
                     }
                 }
@@ -42,11 +42,11 @@ async function getText(image) {
                 for (let x = 0; x < srcImage.getWidth(); x++) {
                     let colorIsFound = false;
                     colorImage.forEach((el) => {
-                        if (el == srcImage.getPixelColor(x, y)) {
+                        if (el === srcImage.getPixelColor(x, y)) {
                             colorIsFound = true;
                         }
                     })
-                    if (colorIsFound == false) {
+                    if (colorIsFound === false) {
                         srcImage.setPixelColor(0xFFFFFFFF, x, y);
                     }
                 }
@@ -55,7 +55,7 @@ async function getText(image) {
 
             for (let x = 0; x < srcImage.getWidth(); x++) {
                 for (let y = 0; y < srcImage.getHeight(); y++) {
-                    if (srcImage.getPixelColor(x, y) != 0xFFFFFFFF) {
+                    if (srcImage.getPixelColor(x, y) !== 0xFFFFFFFF) {
                         srcImage.setPixelColor(0, x, y);
                     }
                 }
@@ -63,7 +63,7 @@ async function getText(image) {
 
             for (let x = 0; x < srcImage.getWidth(); x++) {
                 for (let y = 0; y < srcImage.getHeight(); y++) {
-                    if (srcImage.getPixelColor(x, y) == 0xFFFFFFFF) {
+                    if (srcImage.getPixelColor(x, y) === 0xFFFFFFFF) {
                         srcImage.setPixelColor(0, x, y);
                     } else {
                         srcImage.setPixelColor(0xFFFFFFFF, x, y);
@@ -86,7 +86,7 @@ async function getText(image) {
             for (let y = 0; y < srcImage.getHeight(); y++) {
                 let lineIsBlack = true;
                 for (let x = 0; x < srcImage.getWidth(); x++) {
-                    if (srcImage.getPixelColor(x, y) == 0xFFFFFFFF) {
+                    if (srcImage.getPixelColor(x, y) === 0xFFFFFFFF) {
                         lineIsBlack = false
                     }
                 }
@@ -114,12 +114,12 @@ async function getText(image) {
                 presets: ["txt"],
             }
 
-            if ( fs.existsSync(path.resolve(electron.getAppPath(), "tesseract.exe")) == true ){
+            if ( fs.existsSync(path.resolve(electron.getAppPath(), "tesseract.exe")) === true ){
                 config.binary = path.resolve(electron.getAppPath(), "tesseract.exe");
             }
 
             let text = await tesseract.recognize("./img-opt.jpg", config)
-            if (text.trim().length == 5) {
+            if (text.trim().length === 5) {
                 resolve(text.trim());
             } else {
                 reject("fail to process");

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { injectIntl } from 'react-intl';
 import { withStoreProvider } from './providers/StoreProvider';
 import { withSnackBar } from './providers/snackBar';
@@ -28,18 +28,18 @@ import Drawer from './components/Drawer';
 import electron from 'electron';
 
 const routes = [
-    { path: routeMdw.urlIndex(), name: 'homePage', Component: HomePage },
-    { path: routeMdw.urlClients(), name: 'clientsPage', Component: ClientsPage },
-    { path: routeMdw.urlVehicules(), name: 'vehiculesPage', Component: VehiculesPage },
-    { path: routeMdw.urlProduits(), name: 'produitsPage', Component: ProduitsPage },
-    { path: routeMdw.urlServices(), name: 'ServicesPage', Component: ServicesPage },
-    { path: routeMdw.urlDevis(), name: 'devisPage', Component: DevisPage },
-    { path: routeMdw.urlCatalog(), name: 'catalogPage', Component: CatalogPage },
-    { path: routeMdw.urlDevisCreate(), name: 'devisPage', Component: DevisCreatePage },
-    { path: routeMdw.urlDevisDisplay(':devis_number'), name: 'devisPage', Component: DevisDisplayPage },
-    { path: routeMdw.urlBillings(), name: 'devisPage', Component: BillingsPage },
-    { path: routeMdw.urlBillingDisplay(':facture_number'), name: 'devisPage', Component: BillingDisplayPage },
-    { path: routeMdw.urlSettings(), name: 'settingsPage', Component: SettingsPage },
+    { path: routeMdw.urlIndex(), name: 'homePage', Component: <HomePage /> },
+    { path: routeMdw.urlClients(), name: 'clientsPage', Component: <ClientsPage/> },
+    { path: routeMdw.urlVehicules(), name: 'vehiculesPage', Component: <VehiculesPage/> },
+    { path: routeMdw.urlProduits(), name: 'produitsPage', Component: <ProduitsPage/> },
+    { path: routeMdw.urlServices(), name: 'ServicesPage', Component: <ServicesPage />},
+    { path: routeMdw.urlDevis(), name: 'devisPage', Component: <DevisPage/> },
+    { path: routeMdw.urlCatalog(), name: 'catalogPage', Component: <CatalogPage/> },
+    { path: routeMdw.urlDevisCreate(), name: 'devisPage', Component: <DevisCreatePage/> },
+    { path: routeMdw.urlDevisDisplay(':devis_number'), name: 'devisPage', Component: <DevisDisplayPage/> },
+    { path: routeMdw.urlBillings(), name: 'devisPage', Component: <BillingsPage/> },
+    { path: routeMdw.urlBillingDisplay(':facture_number'), name: 'devisPage', Component: <BillingDisplayPage />},
+    { path: routeMdw.urlSettings(), name: 'settingsPage', Component: <SettingsPage />},
 ];
 
 function App(props) {
@@ -51,7 +51,7 @@ function App(props) {
 
 
     useEffect(() => {
-  
+
         electron.ipcRenderer.on('update-available', (event, message) => {
             props.snackbar.warning(intl.formatMessage({ id: 'update.available' }));
         });
@@ -76,16 +76,18 @@ function App(props) {
     }, []);
 
     return <Box>
-        <AppBar onClick={() => { setDrawerState(true) }} title={selectedVehicule?.plate && (selectedVehicule?.vehicleDetails.vehicleMark + " - " + selectedVehicule?.vehicleDetails.vehicleModelDescription + " - " + selectedVehicule?.vehicleDetails.version) ? (selectedVehicule?.plate + ' : ' + (selectedVehicule?.vehicleDetails.vehicleMark + " - " + selectedVehicule?.vehicleDetails.vehicleModelDescription + " - " + selectedVehicule?.vehicleDetails.version) + ' - ' + selectedVehicule?.vehicleDetails?.engineCode) : undefined}/>
-        <Box sx={{paddingTop:'64px'}}>
-            <Container maxWidth="xl" sx={{ /*height: 'calc(100vh - 64px)',*/ paddingTop: "25px"}} >
+        <AppBar onClick={() => { setDrawerState(true) }} title={selectedVehicule?.plate && (selectedVehicule?.vehicleDetails.vehicleMark + " - " + selectedVehicule?.vehicleDetails.vehicleModelDescription + " - " + selectedVehicule?.vehicleDetails.version) ? (selectedVehicule?.plate + ' : ' + (selectedVehicule?.vehicleDetails.vehicleMark + " - " + selectedVehicule?.vehicleDetails.vehicleModelDescription + " - " + selectedVehicule?.vehicleDetails.version) + ' - ' + selectedVehicule?.vehicleDetails?.engineCode) : undefined} />
+        <Box sx={{ paddingTop: '64px' }}>
+            <Container maxWidth="xl" sx={{ /*height: 'calc(100vh - 64px)',*/ paddingTop: "25px" }} >
                 <Drawer
                     open={drawerState}
                     onClose={() => { setDrawerState(false) }}
                 />
-                {routes.map(({ path, Component }) => (
-                    <Route path={path} key={path} exact component={Component} />
-                ))}
+                <Routes>
+                    {routes.map(({ path, Component }) => (
+                        <Route path={path} key={path} element={Component} />
+                    ))}
+                </Routes>
             </Container>
         </Box>
     </Box>;

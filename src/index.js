@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import App from './App';
 import { IntlProvider } from 'react-intl';
 import { MemoryRouter } from "react-router-dom";
@@ -50,8 +50,10 @@ localeData.setLocale(languageWithoutRegionCode);
 // Try full locale, try locale without region code, fallback to 'en'
 const messages = localeData[languageWithoutRegionCode] || localeData[language] || localeData.en;
 
-ReactDOM.render(
-    <React.StrictMode>
+const root = createRoot(document.getElementById('root'));
+
+root.render(
+    <React.Fragment>
         <CssBaseline />
         <StoreProvider extra={{ api, electron }} persistConfig={persistConfig} globalState={{
             settings: { locale: "fr" , wizard : true },
@@ -75,6 +77,5 @@ ReactDOM.render(
                 </NavigationProvider>
             </MemoryRouter>
         </StoreProvider>
-    </React.StrictMode>,
-    document.getElementById('root')
+    </React.Fragment>
 );
