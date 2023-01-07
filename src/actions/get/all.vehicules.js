@@ -13,11 +13,21 @@ export async function getAllVehicules({ extra, getState }) {
                 //-- old model
                 try {
                     let result = await api.tecdoc.getVehiclesByKeyNumberPlates(state.vehicules[i].plate);
-                    state.vehicules[i] = {
-                        ...result[0],
-                        deleted: 0,
-                        plate: state.vehicules[i].plate
-                    };
+
+                    if ( result.length == 0 ){
+                        //-- methode alternative via oscaro
+                        result = await api.oscaro.getVehiclesByKeyNumberPlates(state.vehicules[i].plate);
+                    }
+
+
+
+                    if ( result.length > 0 ){
+                        state.vehicules[i] = {
+                            ...result[0],
+                            deleted: 0,
+                            plate: state.vehicules[i].plate
+                        };
+                    }
 
                 } catch (err) {
                     throw { message: err.message };

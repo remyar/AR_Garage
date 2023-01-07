@@ -7,8 +7,8 @@ export async function getAutoFromPlate(plate = "AA-456-BB", { extra, getState })
         let vehicules = state.vehicules;
 
         let vehicule = vehicules.find((el) => {
-            if (el && el.plate) {
-                if (el.plate == plate) {
+            if ( el && el.plate){
+                if ( el.plate == plate ){
                     return true;
                 }
             }
@@ -16,20 +16,17 @@ export async function getAutoFromPlate(plate = "AA-456-BB", { extra, getState })
         });
 
         if (!vehicule) {
-            let result = [];
 
-            result = await api.tecdoc.getVehiclesByKeyNumberPlates(plate);
-            if (result.length > 0) {
-                vehicule = {
-                    ...result[0],
-                    deleted: 0,
-                    plate
-                };
-
-                vehicules.push({
-                    ...vehicule
-                });
-            }
+            let result = await api.tecdoc.getVehiclesByKeyNumberPlates(plate);
+        
+            vehicule = {
+                ...result[0] , 
+                deleted : 0,
+                plate  
+            } ;
+            vehicules.push({
+                ...vehicule
+            });
 
         } else {
             vehicule.deleted = 0;

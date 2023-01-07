@@ -3,6 +3,7 @@ import post from './method/post';
 import del from './method/delete';
 import put from './method/put';
 import tecdoc from './tecdoc';
+import oscaro from './oscaro';
 
 export default {
     get,
@@ -10,5 +11,6 @@ export default {
     del,
     put,
 
-    tecdoc
+    tecdoc,
+    oscaro
 }
