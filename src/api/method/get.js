@@ -23,7 +23,7 @@ export default function get(url, config = {}) {
             global.cookieString = response.headers.get('set-cookie');
             if ( url.includes("oscaro") ){
                 global.cookieString?.split(";").forEach((coo)=>{
-                    console.log(coo);
+              //      console.log(coo);
                     if ( coo.includes("__cf_bm") ){
                         global.oscaroCookie.__cf_bm = coo.replace(",__cf_bm=" , "");
                     }
@@ -53,6 +53,8 @@ export default function get(url, config = {}) {
                 reject({message : "Not found"});
             } else if ( response.status == 500 ){
                 reject({message : "Temporary unavailable"});
+            } else {
+                reject({message : "To many request"});
             }
         } catch (err) {
             reject(err);

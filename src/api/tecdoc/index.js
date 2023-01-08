@@ -126,7 +126,15 @@ async function getVehiclesByKeyVin(vin) {
                     headers: { "x-api-key": captchaApi }
                 }, process.env.REACT_APP_TECDOC_API_URL_3);
 
-                resolve(result?.data?.matchingVehicles?.array || []);
+                if ( result?.data?.matchingVehiclesCount > 0 ){
+                    resolve(result?.data?.matchingVehicles?.array[0] || {});
+                } else {
+                    resolve({
+                        ...result?.data?.matchingManufacturers?.array[0],
+                        ...result?.data?.matchingModels?.array[0]
+                    })
+                }
+                
 
             } else {
                 reject("Fail to decompose captcha");
@@ -356,6 +364,55 @@ async function getVehicleByIds4(carId) {
     });
 }
 
+async function getMotorIdsByManuIdCriteria2(engineCode , manuid) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const response = await post({
+                "getMotorIdsByManuIdCriteria2": {
+                    "arg0": {
+                        "country": "fr",
+                        "lang": "fr",
+                        "manuId": manuid,
+                        "motorCode": engineCode,
+                        "provider": process.env.REACT_APP_TECDOC_PROVIDER_ID_NEW
+                    }
+                }
+            }, process.env.REACT_APP_TECDOC_API_URL_3);
+
+            resolve(response?.data?.array[0] || []);
+
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
+
+async function getVehicleIdsByMotor2(engineId) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const response = await post({
+                "getVehicleIdsByMotor2": {
+                    "arg0": {
+                        "carType": "PO",
+                        "countriesCarSelection": "fr",
+                        "lang": "fr",
+                        "motorId": engineId,
+                        "provider": process.env.REACT_APP_TECDOC_PROVIDER_ID_NEW
+                    }
+                }
+            }, process.env.REACT_APP_TECDOC_API_URL_3);
+
+            resolve(response?.data?.array || []);
+
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
+
+
+
+
 export default {
     getVehiclesByKeyVin,
     getVehiclesByKeyNumberPlates,
@@ -363,4 +420,6 @@ export default {
     getDirectArticlesByIds,
     getCategories,
     getVehicleByIds4,
+    getMotorIdsByManuIdCriteria2,
+    getVehicleIdsByMotor2,
 }

@@ -74,22 +74,22 @@ function VehiculesPage(props) {
         { id: 'plate', label: 'Plaque', minWidth: 100 },
         {
             id: 'commercial_name', label: 'Modéle', minWidth: 100, render: (row) => {
-                return <span>{row.vehicleDetails.vehicleMark + " - " + row.vehicleDetails.vehicleModelDescription + " - " + row.vehicleDetails.version} </span>
+                return <span>{row.designation || ""} </span>
             }
         },
         {
             id: 'puissance', label: 'Puissance', minWidth: 100, render: (row) => {
-                return <span>{row.vehicleDetails.engineOutputInHP + " CV/HP"}</span>
+               return <span>{row.puissance || ""}</span>
             }
         },
         {
             id: 'energie', label: 'Energie', minWidth: 100, render: (row) => {
-                return <span>{row.vehicleDetails.energy}</span>
+                return <span>{row.energy || ""} </span>
             }
         },
         {
             id: 'engine_code', label: 'Code Moteur', minWidth: 100, render: (row) => {
-                return <span>{row.vehicleDetails.engineCode}</span>
+                return <span>{row.engineCode || ""} </span>
             }
         },
         {
@@ -170,7 +170,7 @@ function VehiculesPage(props) {
                 setDisplayVehiculeAddModal(false);
                 setDisplayLoader(true);
                 try {
-                    let result = await props.dispatch(actions.tecdoc.getAutoFromPlate(_v.plate));
+                    let result = await props.dispatch(actions.oscaro.getAutoFromPlate(_v.plate));
                     await fetchData();
                     setDisplayVehiculeModal(result.vehicule);
                 } catch (err) {

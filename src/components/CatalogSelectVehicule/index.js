@@ -27,10 +27,10 @@ function CatalogSelectVehicule(props) {
         try {
             let result = await props.dispatch(actions.tecdoc.getManufacturers());
             setConstructeurs(result.manufacturers);
-            if (props.selectedVehicule) {
-                let manu = result.manufacturers.find((m) => m.manuId == props.selectedVehicule.manuId);
+           /* if (props.selectedVehicule) {
+                let manu = result.manufacturers.find((m) => m.manuName.toUpperCase() == props.selectedVehicule.brand.toUpperCase());
                 setSelectedConstructeur(manu);
-            }
+            }*/
         } catch (err) {
             props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
         }
@@ -40,23 +40,28 @@ function CatalogSelectVehicule(props) {
         try {
             let result = await props.dispatch(actions.tecdoc.getModelSeries(manuId));
             setModelSeries(result.modelSeries);
-            if (props.selectedVehicule) {
-                let manu = result.modelSeries.find((m) => m.modelId == props.selectedVehicule.modelId);
+           /* if (props.selectedVehicule) {
+                let manu = result.modelSeries.find((m) => m.modelname.toUpperCase().includes(props.selectedVehicule.model.toUpperCase()));
                 setSelectedModelSeries(manu);
-            }
+            }*/
         } catch (err) {
             props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
         }
     }
 
-    async function fetchMotorisations(modelId) {
+    async function fetchMotorisations(manuId , modelId) {
         try {
             let result = await props.dispatch(actions.tecdoc.getMotorisations(modelId));
             setMotorisations(result.motorisation);
+           /* let result = await props.dispatch(actions.tecdoc.getMotorisations(modelId));
+            let motorId = await props.dispatch(actions.tecdoc.getMotorIdsByManuIdCriteria2(props.selectedVehicule.engineCode , manuId));
+            let result2 = await props.dispatch(actions.tecdoc.getVehicleIdsByMotor2(motorId.motorId));
+
+            setMotorisations(result.motorisation);
             if (props.selectedVehicule) {
-                let manu = result.motorisation.find((m) => m.carId == props.selectedVehicule.carId);
+                let manu = result.motorisation.find((m) => m.carId == motorId);
                 setSelectedMotorisations(manu);
-            }
+            }*/
         } catch (err) {
             props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
         }
@@ -75,7 +80,7 @@ function CatalogSelectVehicule(props) {
 
     useEffect(() => {
         if (selectedModelSeries?.modelId != undefined) {
-            fetchMotorisations(selectedModelSeries.modelId);
+            fetchMotorisations(selectedConstructeur.manuId , selectedModelSeries.modelId);
         }
     }, [selectedModelSeries]);
 

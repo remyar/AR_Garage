@@ -3,9 +3,10 @@ import set from './set';
 import del from './del';
 import put from './put';
 import pdf from './pdf';
-import electron from './electron';
 import database from './database';
+import oscaro from './oscaro';
 import tecdoc from './tecdoc';
+import electron from './electron';
 
 export default {
     get,
@@ -13,7 +14,8 @@ export default {
     del,
     put,
     pdf,
-    electron,
     database,
-    tecdoc
+    oscaro,
+    tecdoc, 
+    electron
 }

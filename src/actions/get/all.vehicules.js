@@ -7,40 +7,36 @@ export async function getAllVehicules({ extra, getState }) {
         const state = getState();
 
         //-- check and upgrade old vehicule with tecdoc model
-        for (let i = 0; i < state.vehicules.length; i++) {
-            if (state.vehicules[i].plate && !state.vehicules[i].vehicleDetails) {
+        for (let i = 0; i < state.vehicules?.length || 0; i++) {
+            if (state.vehicules[i].oscaroId == undefined) {
 
                 //-- old model
                 try {
 
-                    let vehicule = {};
                     await api.get(process.env.REACT_APP_OSCARO_API_URL_1);
                     await api.get(process.env.REACT_APP_OSCARO_API_URL_2);
                     let result = await api.get(process.env.REACT_APP_OSCARO_API_URL_3 + state.vehicules[i].plate.replace('-', '').replace('-', ''));
-                    let oscaroData =(await api.get(process.env.REACT_APP_OSCARO_API_URL_34 + result["vehicle-identity"]))["vehicle-info"] || {};
+                    let oscaroData = (await api.get(process.env.REACT_APP_OSCARO_API_URL_4 + result["vehicle-identity"]))["vehicle-info"] || {};
+                    let detail = result?.vehicles[0];
 
-                    let tecdocData = (await api.tecdoc.getVehiclesByKeyVin(oscaroData?.vin || ""))[0] || {};
 
-
-                    result = await api.tecdoc.getVehicleByIds4(tecdocData.carId);
-
-                    vehicule.carName = tecdocData.carName;
-                    vehicule.carId = tecdocData.carId;
-                    vehicule.manuId = tecdocData.manuId;
-                    vehicule.modelId = tecdocData.modelId;
-                    vehicule.vehicleDetails = {
-                        ...result.vehicleDetails,
-                        engineCode : oscaroData['engine-code'],
-                        gearboxCode : oscaroData['gearbox-code'],
-                        mark : result.vehicleDetails.manuName,
-                    }
-                    if (vehicule.carName?.length > 0 && vehicule.carId != 0 && vehicule.modelId != 0 && vehicule.manuId != 0 ) {
-                        state.vehicules[i] = {
-                            ...vehicule,
-                            deleted: 0,
-                            plate: state.vehicules[i].plate
-                        };
-                    }
+                    let phase = detail.labels["complement-label"].fr.replace(detail.labels["full-label-fragment"].fr, "").trim();
+                    let puissance = detail.labels["full-label-fragment"].fr.split(' ')[detail.labels["full-label-fragment"].fr.split(' ').length - 2] + " cv";
+                    state.vehicules[i] = {
+                        oscaroId: parseInt(detail.id),
+                        brand: detail.labels["core-label"].fr.split(" ")[0],
+                        model: detail.labels["core-label"].fr.split(" ")[1],
+                        puissance: puissance,
+                        phase: phase,
+                        designation: detail.labels["full-label"].fr,
+                        engineCode: oscaroData["engine-code"],
+                        gearboxCode: oscaroData["gearbox-code"],
+                        immatriculationDate: oscaroData["immatriculation-date"],
+                        vin: oscaroData["vin"],
+                        energy: detail.energy.label.fr,
+                        deleted: 0,
+                        plate: state.vehicules[i].plate
+                    };
 
                 } catch (err) {
                     throw { message: err.message };
@@ -48,23 +44,29 @@ export async function getAllVehicules({ extra, getState }) {
             }
         }
 
-        state.vehicules = state.vehicules.map((v) => {
-            v.hasTechnics = false;
+        if ((state.vehicules?.length || 0) > 0) {
+            state.vehicules = state.vehicules.map((v) => {
+                v.hasTechnics = false;
+                try {
+                    let brand = v.vehicleDetails.manuName.toUpperCase();
+                    let engine_code = v.vehicleDetails.engineCode.toUpperCase();
 
-            let brand = v.vehicleDetails.mark.toUpperCase();
-            let engine_code = v.vehicleDetails.engineCode.toUpperCase();
+                    let _technics = technics[brand];
+                    if (_technics == undefined) {
+                        _technics = {};
+                    }
 
-            let _technics = technics[brand];
-            if (_technics == undefined) {
-                _technics = {};
-            }
-
-            if (_technics[engine_code] != undefined) {
-                v.hasTechnics = true;
-            }
-
-            return v;
-        });
+                    if (_technics[engine_code] != undefined) {
+                        v.hasTechnics = true;
+                    }
+                } catch (err) {
+                    //-- aucune infos
+                }
+                return v;
+            });
+        } else {
+            state.vehicules = [];
+        }
 
 
         return { vehicules: state.vehicules };

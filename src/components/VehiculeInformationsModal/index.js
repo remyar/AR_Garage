@@ -25,7 +25,7 @@ function VehiculeInformationModal(props) {
 
     let _vehiculeTab = [];
 
-    _vehiculeTab.push({ name: "brand", value: vehicule?.vehicleDetails?.mark });
+    _vehiculeTab.push({ name: "brand", value: vehicule?.vehicleDetails?.manuName });
     _vehiculeTab.push({ name: "energie", value: vehicule?.vehicleDetails?.energy });
     _vehiculeTab.push({ name: "engine_code", value: vehicule?.vehicleDetails?.engineCode });
     //_vehiculeTab.push({ name: "first_batch", value: vehicule.vehicleDetails.firstUsingDate });
