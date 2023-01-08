@@ -16,12 +16,31 @@ export async function getAutoFromPlate(plate = "AA-456-BB", { extra, getState })
         });
 
         if (!vehicule) {
-            let result = [];
+            let vehicule = {};
+            await api.get(process.env.REACT_APP_OSCARO_API_URL_1);
+            await api.get(process.env.REACT_APP_OSCARO_API_URL_2);
+            let result = await api.get(process.env.REACT_APP_OSCARO_API_URL_3 + plate.replace('-', '').replace('-', ''));
+            let oscaroData =(await api.get(process.env.REACT_APP_OSCARO_API_URL_34 + result["vehicle-identity"]))["vehicle-info"] || {};
 
-            result = await api.tecdoc.getVehiclesByKeyNumberPlates(plate);
-            if (result.length > 0) {
+            let tecdocData = (await api.tecdoc.getVehiclesByKeyVin(oscaroData?.vin || ""))[0] || {};
+
+
+            result = await api.tecdoc.getVehicleByIds4(tecdocData.carId);
+
+            vehicule.carName = tecdocData.carName;
+            vehicule.carId = tecdocData.carId;
+            vehicule.manuId = tecdocData.manuId;
+            vehicule.modelId = tecdocData.modelId;
+            vehicule.vehicleDetails = {
+                ...result.vehicleDetails,
+                engineCode : oscaroData['engine-code'],
+                gearboxCode : oscaroData['gearbox-code'],
+                mark : result.vehicleDetails.manuName,
+            }
+
+            if (vehicule.carName?.length > 0 && vehicule.carId != 0 && vehicule.modelId != 0 && vehicule.manuId != 0 ) {
                 vehicule = {
-                    ...result[0],
+                    ...vehicule,
                     deleted: 0,
                     plate
                 };

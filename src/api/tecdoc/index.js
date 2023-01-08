@@ -1,4 +1,5 @@
 import fetch from 'electron-fetch';
+import { forEach } from 'lodash';
 import image from '../../utils/image'
 
 async function post(obj, url) {
@@ -91,6 +92,51 @@ async function checkCaptcha(obj) {
     });
 }
 
+async function getVehiclesByKeyVin(vin) {
+    return new Promise(async (resolve, reject) => {
+        try {
+
+            let captchaApi = undefined;
+            for (let i = 0; i < 50; i++) {
+                try {
+                    let tryCaptcha = await getCaptcha();
+                    let result = await checkCaptcha(tryCaptcha);
+                    if (result) {
+                        captchaApi = tryCaptcha.apikey
+                        break;
+                    }
+                } catch (err) {
+                    continue;
+                }
+            }
+
+            if (captchaApi) {
+                let result = await post({
+                    getVehiclesByVIN: {
+                        arg0: {
+                            country: "FR",
+                            lang: "fr",
+                            manuId: null,
+                            maxVehiculesToReturn: -1,
+                            modelId: null,
+                            provider: process.env.REACT_APP_TECDOC_PROVIDER_ID_OLD,
+                            vin: vin
+                        }
+                    },
+                    headers: { "x-api-key": captchaApi }
+                }, process.env.REACT_APP_TECDOC_API_URL_3);
+
+                resolve(result?.data?.matchingVehicles?.array || []);
+
+            } else {
+                reject("Fail to decompose captcha");
+            }
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
+
 async function getVehiclesByKeyNumberPlates(plate) {
     return new Promise(async (resolve, reject) => {
         try {
@@ -128,7 +174,7 @@ async function getVehiclesByKeyNumberPlates(plate) {
 
                 resolve(result?.data?.array || []);
 
-            }else {
+            } else {
                 reject("Fail to decompose captcha");
             }
         } catch (err) {
@@ -263,7 +309,7 @@ async function getCategories(carId) {
                         linkageTargetId: carId,
                         linkageTargetType: "P",
                         perPage: 0,
-                        provider : process.env.REACT_APP_TECDOC_PROVIDER_ID_NEW,
+                        provider: process.env.REACT_APP_TECDOC_PROVIDER_ID_NEW,
                     }
                 }
             }, process.env.REACT_APP_TECDOC_API_URL_3);
@@ -276,9 +322,45 @@ async function getCategories(carId) {
     });
 }
 
+async function getVehicleByIds4(carId) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const response = await post({
+                "getVehicleByIds4": {
+                    "arg0": {
+                        articleCountry: "FR",
+                        axles: false,
+                        cabs: false,
+                        carIds: { array: [carId] },
+                        countriesCarSelection: "FR",
+                        country:"FR",
+                        countryGroupFlag:false,
+                        kbaData: true,
+                        lang:"fr",
+                        motorCodes:true,
+                        numberplateType:0,
+                        protoTypes:false,
+                        provider:process.env.REACT_APP_TECDOC_PROVIDER_ID_NEW,
+                        registrationInfo:true,
+                        secondaryTypes:false,
+                        wheelbases:false,
+                    }
+                }
+            }, process.env.REACT_APP_TECDOC_API_URL_3);
+
+            resolve(response?.data?.array[0] || []);
+
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
+
 export default {
+    getVehiclesByKeyVin,
     getVehiclesByKeyNumberPlates,
     getArticleIdsWithState,
     getDirectArticlesByIds,
-    getCategories
+    getCategories,
+    getVehicleByIds4,
 }

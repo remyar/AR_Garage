@@ -9,21 +9,34 @@ export async function getAllVehicules({ extra, getState }) {
         //-- check and upgrade old vehicule with tecdoc model
         for (let i = 0; i < state.vehicules.length; i++) {
             if (state.vehicules[i].plate && !state.vehicules[i].vehicleDetails) {
-                
+
                 //-- old model
                 try {
-                    let result = await api.tecdoc.getVehiclesByKeyNumberPlates(state.vehicules[i].plate);
 
-                    if ( result.length == 0 ){
-                        //-- methode alternative via oscaro
-                        result = await api.oscaro.getVehiclesByKeyNumberPlates(state.vehicules[i].plate);
+                    let vehicule = {};
+                    await api.get(process.env.REACT_APP_OSCARO_API_URL_1);
+                    await api.get(process.env.REACT_APP_OSCARO_API_URL_2);
+                    let result = await api.get(process.env.REACT_APP_OSCARO_API_URL_3 + state.vehicules[i].plate.replace('-', '').replace('-', ''));
+                    let oscaroData =(await api.get(process.env.REACT_APP_OSCARO_API_URL_34 + result["vehicle-identity"]))["vehicle-info"] || {};
+
+                    let tecdocData = (await api.tecdoc.getVehiclesByKeyVin(oscaroData?.vin || ""))[0] || {};
+
+
+                    result = await api.tecdoc.getVehicleByIds4(tecdocData.carId);
+
+                    vehicule.carName = tecdocData.carName;
+                    vehicule.carId = tecdocData.carId;
+                    vehicule.manuId = tecdocData.manuId;
+                    vehicule.modelId = tecdocData.modelId;
+                    vehicule.vehicleDetails = {
+                        ...result.vehicleDetails,
+                        engineCode : oscaroData['engine-code'],
+                        gearboxCode : oscaroData['gearbox-code'],
+                        mark : result.vehicleDetails.manuName,
                     }
-
-
-
-                    if ( result.length > 0 ){
+                    if (vehicule.carName?.length > 0 && vehicule.carId != 0 && vehicule.modelId != 0 && vehicule.manuId != 0 ) {
                         state.vehicules[i] = {
-                            ...result[0],
+                            ...vehicule,
                             deleted: 0,
                             plate: state.vehicules[i].plate
                         };

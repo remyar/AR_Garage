@@ -13,5 +13,5 @@ export default {
     getModelSeries,
     getMotorisations,
     getArticleIdsWithState,
-    getDirectArticlesByIds
+    getDirectArticlesByIds,
 }
