@@ -29,7 +29,7 @@ function ClientAddModal(props) {
     const [client, setClient] = useState({});
     const [selectVille, setSelectVille] = useState(props.editClient && props.editClient.ville ? [{ name: props.editClient.ville }] : []);
 
-    useEffect(async () => {
+    async function fetchData() {
         if ((client.code_postal && client.code_postal.length >= ("00000").length) || (props.editClient && (props.editClient.postal.length >= ("00000").length))) {
             try {
                 let tabVille = await props.dispatch(actions.get.villesFromCp(client.code_postal ? client.code_postal : props.editClient.postal));
@@ -38,6 +38,10 @@ function ClientAddModal(props) {
                 //props.snackbar.error(err.message);
             }
         }
+    }
+
+    useEffect(() => {
+        fetchData();
     }, [client]);
 
     let initialValues = {

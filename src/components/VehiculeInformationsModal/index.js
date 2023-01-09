@@ -25,15 +25,15 @@ function VehiculeInformationModal(props) {
 
     let _vehiculeTab = [];
 
-    _vehiculeTab.push({ name: "brand", value: vehicule?.vehicleDetails?.manuName });
-    _vehiculeTab.push({ name: "energie", value: vehicule?.vehicleDetails?.energy });
-    _vehiculeTab.push({ name: "engine_code", value: vehicule?.vehicleDetails?.engineCode });
-    //_vehiculeTab.push({ name: "first_batch", value: vehicule.vehicleDetails.firstUsingDate });
-    _vehiculeTab.push({ name: "model", value: vehicule?.vehicleDetails?.vehicleModelDescription });
     _vehiculeTab.push({ name: "plate", value: vehicule?.plate });
-    _vehiculeTab.push({ name: "puissance", value: vehicule?.vehicleDetails?.engineOutputInHP });
+    _vehiculeTab.push({ name: "brand", value: vehicule?.brand });
+    _vehiculeTab.push({ name: "model", value: vehicule?.model + " " + vehicule?.phase });
+    _vehiculeTab.push({ name: "energie", value: vehicule?.energy });
+    _vehiculeTab.push({ name: "puissance", value: vehicule?.puissance + " cv" });
+    _vehiculeTab.push({ name: "engine_code", value: vehicule?.engineCode });
+    _vehiculeTab.push({ name: "first_immat", value: vehicule?.immatriculationDate });
 
-    _vehiculeTab = _vehiculeTab.sort((a, b) => a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1);
+    //_vehiculeTab = _vehiculeTab.sort((a, b) => a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1);
 
     return <Modal display={props.display || false}
         onClose={() => {
@@ -43,7 +43,11 @@ function VehiculeInformationModal(props) {
 
             <Grid container spacing={2}>
                 <Grid item xs={12} sx={{ textAlign: 'center' }}>
-                    <Typography variant="h6" gutterBottom component="div"><b>{vehicule?.vehicleDetails?.vehicleMark + " - " + vehicule?.vehicleDetails?.vehicleModelDescription + " - " + vehicule?.vehicleDetails?.version}</b></Typography>
+                    <Typography variant="h6" gutterBottom component="div">
+                        <b>
+                            {vehicule?.designation}
+                        </b>
+                    </Typography>
                 </Grid>
             </Grid>
 

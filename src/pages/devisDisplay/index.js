@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { injectIntl } from 'react-intl';
 import { withStoreProvider } from '../../providers/StoreProvider';
 import { withSnackBar } from '../../providers/snackBar';
+import { useParams } from "react-router-dom";
 
 import actions from '../../actions';
 
@@ -32,16 +33,24 @@ import AttachEmailIcon from '@mui/icons-material/AttachEmail';
 import CreditScoreIcon from '@mui/icons-material/CreditScore';
 
 function DevisDisplayPage(props) {
+
+    let params = useParams();
+
     const intl = props.intl;
-    const devis_number = props.match?.params?.devis_number ? props.match?.params?.devis_number : 0;
+    const devis_number = params?.devis_number ? params?.devis_number : 0;
 
     const [devis, setDevis] = useState({});
     const [displayLoader, setDisplayLoader] = useState(true);
 
     async function fetchData() {
-        let result = await props.dispatch(actions.get.devisFromNumber(devis_number));
-        setDevis(result.devi);
-        setDisplayLoader(false);
+        try {
+            let result = await props.dispatch(actions.get.devisFromNumber(devis_number));
+            setDevis(result.devi);
+        } catch (err) {
+            props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
+        } finally {
+            setDisplayLoader(false);
+        }
     }
 
     useEffect(() => {
@@ -123,7 +132,7 @@ function DevisDisplayPage(props) {
                 <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
                     <Grid item xs={12}>
                         <TextField label="Véhicule" disabled variant="outlined" sx={{ width: "100%", textAlign: "left" }} multiline maxRows='3' minRows='3'
-                            value={devis?.vehicule?.vehicleDetails.vehicleMark + " - " + devis?.vehicule?.vehicleDetails.vehicleModelDescription + " - " + devis?.vehicule?.vehicleDetails.version}
+                            value={devis?.vehicule?.designation + "\r\n\r\n" + devis?.vehicule?.vin} 
                         />
                     </Grid>
                 </Grid>
@@ -138,22 +147,6 @@ function DevisDisplayPage(props) {
         {rows && <DataTable sx={{ marginTop: '25px', marginBottom: '17px' }} headers={headers} rows={rows}>
 
         </DataTable>}
-
-        {/*rows && <Grid container spacing={2} sx={{}}>
-            <Grid item xs={7}></Grid>
-            <Grid item xs={5}>
-                < Paper elevation={3}>
-                    <Grid container spacing={2} sx={{ paddingLeft: '15px', paddingRight: '15px', paddingBottom: '15px' }}>
-                        <Grid item xs={7}>
-                        <b>Total TTC :</b>
-                        </Grid>
-                        <Grid item xs={5}>
-                            <b>{devis_total.toFixed(2) + ' €'}</b>
-                        </Grid>
-                    </Grid>
-                </Paper>
-            </Grid>
-</Grid>*/}
 
         <SpeedDial
             ariaLabel="SpeedDial basic example"

@@ -34,18 +34,19 @@ function ClientsPage(props) {
     const [clients, setClients] = useState([]);
     const [filter, setFilter] = useState("");
 
-    useEffect(() => {
-        async function fetchData() {
-            setDisplayLoader(true);
-            try {
-                let result = await props.dispatch(actions.get.allClients());
-                setClients(result.clients.filter(el => el.deleted !== 1));
-            } catch (err) {
-                props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
-            }
-
-            setDisplayLoader(false);
+    async function fetchData() {
+        setDisplayLoader(true);
+        try {
+            let result = await props.dispatch(actions.get.allClients());
+            setClients(result.clients.filter(el => el.deleted !== 1));
+        } catch (err) {
+            props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
         }
+
+        setDisplayLoader(false);
+    }
+
+    useEffect(() => {
         fetchData();
     }, []);
 
@@ -57,7 +58,7 @@ function ClientsPage(props) {
         { id: 'code_postal', label: 'Code Postal', minWidth: 100 },
         { id: 'ville', label: 'Ville', minWidth: 100 },
         {
-            label: '', maxWidth: 100, minWidth: 100, align: "right" , render: (row) => {
+            label: '', maxWidth: 100, minWidth: 100, align: "right", render: (row) => {
                 return <span>
                     <EditIcon sx={{ cursor: 'pointer' }} onClick={() => {
                         setDisplayClientEditModal(row);
@@ -92,8 +93,7 @@ function ClientsPage(props) {
                 setDisplayConfirmModal(undefined);
                 try {
                     await props.dispatch(actions.del.client(idToDelete));
-                    let result = await props.dispatch(actions.get.allClients());
-                    setClients(result.clients);
+                    await fetchData();
                 } catch (err) {
                     props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
                 }
@@ -105,21 +105,22 @@ function ClientsPage(props) {
             editClient={displayClientEditModal}
             display={displayClientAddModal}
             onClose={() => {
-                setDisplayClientAddModal(false);
+                setDisplayClientAddModal(undefined);
                 setDisplayClientEditModal(undefined);
             }}
             onValidate={async (client, edit) => {
-                setDisplayLoader(true);
                 setDisplayClientEditModal(undefined);
-                if (edit) {
-                    await props.dispatch(actions.put.client(client));
-                } else {
-                    await props.dispatch(actions.set.newClient(client));
+                setDisplayClientAddModal(undefined);
+                try {
+                    if (edit) {
+                        await props.dispatch(actions.put.client(client));
+                    } else {
+                        await props.dispatch(actions.set.newClient(client));
+                    }
+                    await fetchData();
+                } catch (err) {
+                    props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
                 }
-                let result = await props.dispatch(actions.get.allClients());
-                setClients(result.clients);
-                setDisplayClientAddModal(false);
-                setDisplayLoader(false);
             }}
         />}
 

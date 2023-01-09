@@ -180,7 +180,7 @@ function DevisCreatePage(props) {
                                     } else {
                                         setDisplayLoader(true);
                                         try {
-                                            let result = await props.dispatch(actions.tecdoc.getAutoFromPlate(value));
+                                            let result = await props.dispatch(actions.oscaro.getAutoFromPlate(value));
                                             await props.dispatch(actions.set.selectedVehicule(result.vehicule));
                                             setSelectedVehicule(result.vehicule);
                                         } catch (err) {
@@ -205,11 +205,7 @@ function DevisCreatePage(props) {
                 <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
                     <Grid item xs={12}>
                         <TextField label="Vehicule" focused variant="outlined" sx={{ width: "100%", textAlign: "left" }} name="Vehicule" multiline maxRows='3' minRows='3'
-                            value={
-                                (selectedVehicule?.vehicleDetails?.vehicleMark ? (selectedVehicule?.vehicleDetails?.vehicleMark + " - ") : "") + 
-                                (selectedVehicule?.vehicleDetails?.vehicleModelDescription ? (selectedVehicule?.vehicleDetails?.vehicleModelDescription + " - ") : "" ) + 
-                                (selectedVehicule?.vehicleDetails?.version ? selectedVehicule?.vehicleDetails?.version : "")
-                            }
+                            value={selectedVehicule?.designation + "\r\n\r\n" + selectedVehicule?.vin} 
                         />
                     </Grid>
                 </Grid>
@@ -282,7 +278,7 @@ function DevisCreatePage(props) {
                 onClick={async () => {
                     let devis = {
                         client_id: selectedClient?.id,
-                        vehicule_id: selectedVehicule?.carId,
+                        vehicule_plate: selectedVehicule?.plate,
                         kilometrage: selectedVehicule?.kilometrage,
                         date: new Date().getTime(),
                         expiration: expiration,

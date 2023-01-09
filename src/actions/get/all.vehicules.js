@@ -8,7 +8,7 @@ export async function getAllVehicules({ extra, getState }) {
 
         //-- check and upgrade old vehicule with tecdoc model
         for (let i = 0; i < state.vehicules?.length || 0; i++) {
-            if (state.vehicules[i].oscaroId == undefined) {
+            if ( state.vehicules[i].oscaroId == undefined ) {
 
                 //-- old model
                 try {
@@ -21,7 +21,14 @@ export async function getAllVehicules({ extra, getState }) {
 
 
                     let phase = detail.labels["complement-label"].fr.replace(detail.labels["full-label-fragment"].fr, "").trim();
-                    let puissance = detail.labels["full-label-fragment"].fr.split(' ')[detail.labels["full-label-fragment"].fr.split(' ').length - 2] + " cv";
+
+                    let puissance = parseInt((detail.labels["full-label-fragment"].fr.split(' ')[detail.labels["full-label-fragment"].fr.split(' ').length - 1]).replace("cv", ""));
+                    if (isNaN(puissance)) {
+                        puissance = parseInt((detail.labels["full-label-fragment"].fr.split(' ')[detail.labels["full-label-fragment"].fr.split(' ').length - 2]).replace("cv", ""));
+                    }
+
+                  //  let tecdoc = await api.tecdoc.getVehiclesByKeyVin(oscaroData["vin"] , detail.labels["full-label"].fr);
+
                     state.vehicules[i] = {
                         oscaroId: parseInt(detail.id),
                         brand: detail.labels["core-label"].fr.split(" ")[0],
@@ -35,7 +42,8 @@ export async function getAllVehicules({ extra, getState }) {
                         vin: oscaroData["vin"],
                         energy: detail.energy.label.fr,
                         deleted: 0,
-                        plate: state.vehicules[i].plate
+                        plate: state.vehicules[i].plate,
+                       // tecdoc: { ...tecdoc }
                     };
 
                 } catch (err) {

@@ -79,7 +79,7 @@ function VehiculesPage(props) {
         },
         {
             id: 'puissance', label: 'Puissance', minWidth: 100, render: (row) => {
-               return <span>{row.puissance || ""}</span>
+               return <span>{(row.puissance || "") + " cv"}</span>
             }
         },
         {
@@ -100,10 +100,10 @@ function VehiculesPage(props) {
                         setDisplayVehiculeTechnicModal(row);
                     }} />}
 
-                    <MenuBookIcon sx={{ cursor: 'pointer', marginLeft: '15px' }} onClick={async () => {
+                 {/*   <MenuBookIcon sx={{ cursor: 'pointer', marginLeft: '15px' }} onClick={async () => {
                         await props.dispatch(actions.set.selectedVehicule(row));
                         props.navigation.push(routeMdw.urlCatalog());
-                    }} />
+                    }} /> */}
 
                     <InfoIcon sx={{ cursor: 'pointer', marginLeft: '15px' }} onClick={() => {
                         setDisplayVehiculeModal(row);

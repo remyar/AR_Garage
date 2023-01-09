@@ -23,9 +23,13 @@ export async function getAutoFromPlate(plate = "AA-456-BB", { extra, getState })
             let oscaroData = (await api.get(process.env.REACT_APP_OSCARO_API_URL_4 + result["vehicle-identity"]))["vehicle-info"] || {};
             let detail = result?.vehicles[0];
 
-
             let phase = detail.labels["complement-label"].fr.replace(detail.labels["full-label-fragment"].fr, "").trim();
-            let puissance = detail.labels["full-label-fragment"].fr.split(' ')[detail.labels["full-label-fragment"].fr.split(' ').length - 2] + " cv";
+
+            let puissance = parseInt((detail.labels["full-label-fragment"].fr.split(' ')[detail.labels["full-label-fragment"].fr.split(' ').length - 1]).replace("cv", ""));
+            if (isNaN(puissance)) {
+                puissance = parseInt((detail.labels["full-label-fragment"].fr.split(' ')[detail.labels["full-label-fragment"].fr.split(' ').length - 2]).replace("cv", ""));
+            }
+
             vehicule = {
                 oscaroId: parseInt(detail.id),
                 brand: detail.labels["core-label"].fr.split(" ")[0],
@@ -39,10 +43,10 @@ export async function getAutoFromPlate(plate = "AA-456-BB", { extra, getState })
                 vin: oscaroData["vin"],
                 energy: detail.energy.label.fr,
                 deleted: 0,
-                plate: plate
+                plate: plate,
+               // tecdoc: { ...tecdoc }
             };
         
-            
             vehicules.push({
                 ...vehicule
             });

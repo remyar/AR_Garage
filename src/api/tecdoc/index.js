@@ -1,6 +1,6 @@
 import fetch from 'electron-fetch';
-import { forEach } from 'lodash';
 import image from '../../utils/image'
+import stringSimilarity from 'string-similarity';
 
 async function post(obj, url) {
     return new Promise(async (resolve, reject) => {
@@ -92,7 +92,7 @@ async function checkCaptcha(obj) {
     });
 }
 
-async function getVehiclesByKeyVin(vin) {
+async function getVehiclesByKeyVin(vin , filter) {
     return new Promise(async (resolve, reject) => {
         try {
 
@@ -126,15 +126,18 @@ async function getVehiclesByKeyVin(vin) {
                     headers: { "x-api-key": captchaApi }
                 }, process.env.REACT_APP_TECDOC_API_URL_3);
 
-                if ( result?.data?.matchingVehiclesCount > 0 ){
-                    resolve(result?.data?.matchingVehicles?.array[0] || {});
-                } else {
-                    resolve({
-                        ...result?.data?.matchingManufacturers?.array[0],
-                        ...result?.data?.matchingModels?.array[0]
-                    })
+                if (result?.data?.matchingVehiclesCount > 0) {
+                    let carLists = result?.data?.matchingVehicles?.array?.map((el)=>{
+                        return el.carName;
+                    });
+                    let _rr = stringSimilarity.findBestMatch(filter.toUpperCase() , carLists);
+                    resolve(result?.data?.matchingVehicles?.array[_rr.bestMatchIndex] || []);
+                } 
+                else 
+                {
+                    resolve(result?.data?.matchingModels?.array[0] || []);
                 }
-                
+
 
             } else {
                 reject("Fail to decompose captcha");
@@ -341,17 +344,17 @@ async function getVehicleByIds4(carId) {
                         cabs: false,
                         carIds: { array: [carId] },
                         countriesCarSelection: "FR",
-                        country:"FR",
-                        countryGroupFlag:false,
+                        country: "FR",
+                        countryGroupFlag: false,
                         kbaData: true,
-                        lang:"fr",
-                        motorCodes:true,
-                        numberplateType:0,
-                        protoTypes:false,
-                        provider:process.env.REACT_APP_TECDOC_PROVIDER_ID_NEW,
-                        registrationInfo:true,
-                        secondaryTypes:false,
-                        wheelbases:false,
+                        lang: "fr",
+                        motorCodes: true,
+                        numberplateType: 0,
+                        protoTypes: false,
+                        provider: process.env.REACT_APP_TECDOC_PROVIDER_ID_NEW,
+                        registrationInfo: true,
+                        secondaryTypes: false,
+                        wheelbases: false,
                     }
                 }
             }, process.env.REACT_APP_TECDOC_API_URL_3);
@@ -364,7 +367,7 @@ async function getVehicleByIds4(carId) {
     });
 }
 
-async function getMotorIdsByManuIdCriteria2(engineCode , manuid) {
+async function getMotorIdsByManuIdCriteria2(engineCode, manuid) {
     return new Promise(async (resolve, reject) => {
         try {
             const response = await post({
@@ -410,8 +413,29 @@ async function getVehicleIdsByMotor2(engineId) {
     });
 }
 
+async function getMotorsByCarTypeManuIdTerm2(manuId, engineCode) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const response = await post({
+                getMotorsByCarTypeManuIdTerm2: {
+                    "arg0": {
+                        "carType": "PO",
+                        "countriesCarSelection": "fr",
+                        "lang": "fr",
+                        "manuId": manuId,
+                        "motorCode": engineCode,
+                        "provider": process.env.REACT_APP_TECDOC_PROVIDER_ID_NEW
+                    }
+                }
+            }, process.env.REACT_APP_TECDOC_API_URL_3);
 
+            resolve(response?.data?.array || []);
 
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
 
 export default {
     getVehiclesByKeyVin,
@@ -422,4 +446,5 @@ export default {
     getVehicleByIds4,
     getMotorIdsByManuIdCriteria2,
     getVehicleIdsByMotor2,
+    getMotorsByCarTypeManuIdTerm2,
 }

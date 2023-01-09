@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { injectIntl } from 'react-intl';
 import { withStoreProvider } from '../../providers/StoreProvider';
 import { withSnackBar } from '../../providers/snackBar';
+import { useParams } from "react-router-dom";
 
 import actions from '../../actions';
 
@@ -29,19 +30,21 @@ import SpeedDial from '@mui/material/SpeedDial';
 
 function BillingsDisplayPage(props) {
 
+    let params = useParams();
+
     const intl = props.intl;
-    const facture_number = props.match?.params?.facture_number ? props.match?.params?.facture_number : 0;
+    const facture_number = params?.facture_number ? params?.facture_number : 0;
 
     const [facture, setFacture] = useState({});
     const [displayLoader, setDisplayLoader] = useState(true);
 
     async function fetchData() {
-        try{
-        let result = await props.dispatch(actions.get.factureFromNumber(facture_number));
-        setFacture(result.facture);
-        }catch(err){
+        try {
+            let result = await props.dispatch(actions.get.factureFromNumber(facture_number));
+            setFacture(result.facture);
+        } catch (err) {
             props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
-        }finally{
+        } finally {
             setDisplayLoader(false);
         }
     }
@@ -62,7 +65,7 @@ function BillingsDisplayPage(props) {
 
     let devis_total = 0.0;
     let rows = facture?.products?.map((line) => {
-        if ( line.ref ){
+        if (line.ref) {
             line.ref_fab = line.ref;
         }
         let tarif_total = parseFloat(line.quantity.toString()) * parseFloat(line.prix_vente.toString());
@@ -125,7 +128,7 @@ function BillingsDisplayPage(props) {
                 <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
                     <Grid item xs={12}>
                         <TextField label="Véhicule" disabled variant="outlined" sx={{ width: "100%", textAlign: "left" }} multiline maxRows='3' minRows='3'
-                            value={facture?.vehicule?.vehicleDetails.vehicleMark + " - " + facture?.vehicule?.vehicleDetails.vehicleModelDescription + " - " + facture?.vehicule?.vehicleDetails.version}
+                            value={facture?.vehicule?.designation + "\r\n\r\n" + facture?.vehicule?.vin}
                         />
                     </Grid>
                 </Grid>

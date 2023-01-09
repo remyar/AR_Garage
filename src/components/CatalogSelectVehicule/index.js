@@ -27,10 +27,10 @@ function CatalogSelectVehicule(props) {
         try {
             let result = await props.dispatch(actions.tecdoc.getManufacturers());
             setConstructeurs(result.manufacturers);
-           /* if (props.selectedVehicule) {
-                let manu = result.manufacturers.find((m) => m.manuName.toUpperCase() == props.selectedVehicule.brand.toUpperCase());
+            if (props.selectedVehicule) {
+                let manu = result.manufacturers.find((m) => m.manuId == props.selectedVehicule.tecdoc.manuId);
                 setSelectedConstructeur(manu);
-            }*/
+            }
         } catch (err) {
             props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
         }
@@ -40,28 +40,23 @@ function CatalogSelectVehicule(props) {
         try {
             let result = await props.dispatch(actions.tecdoc.getModelSeries(manuId));
             setModelSeries(result.modelSeries);
-           /* if (props.selectedVehicule) {
-                let manu = result.modelSeries.find((m) => m.modelname.toUpperCase().includes(props.selectedVehicule.model.toUpperCase()));
+            if (props.selectedVehicule) {
+                let manu = result.modelSeries.find((m) => m.modelId == props.selectedVehicule.tecdoc.modelId);
                 setSelectedModelSeries(manu);
-            }*/
+            }
         } catch (err) {
             props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
         }
     }
 
-    async function fetchMotorisations(manuId , modelId) {
+    async function fetchMotorisations(modelId) {
         try {
             let result = await props.dispatch(actions.tecdoc.getMotorisations(modelId));
             setMotorisations(result.motorisation);
-           /* let result = await props.dispatch(actions.tecdoc.getMotorisations(modelId));
-            let motorId = await props.dispatch(actions.tecdoc.getMotorIdsByManuIdCriteria2(props.selectedVehicule.engineCode , manuId));
-            let result2 = await props.dispatch(actions.tecdoc.getVehicleIdsByMotor2(motorId.motorId));
-
-            setMotorisations(result.motorisation);
             if (props.selectedVehicule) {
-                let manu = result.motorisation.find((m) => m.carId == motorId);
+                let manu = result.motorisation.find((m) => m.carId == props.selectedVehicule.tecdoc.carId);
                 setSelectedMotorisations(manu);
-            }*/
+            }
         } catch (err) {
             props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
         }
@@ -80,7 +75,7 @@ function CatalogSelectVehicule(props) {
 
     useEffect(() => {
         if (selectedModelSeries?.modelId != undefined) {
-            fetchMotorisations(selectedConstructeur.manuId , selectedModelSeries.modelId);
+            fetchMotorisations(selectedModelSeries.modelId);
         }
     }, [selectedModelSeries]);
 
@@ -93,7 +88,7 @@ function CatalogSelectVehicule(props) {
 
     return <Box sx={{border : 0 , boxShadow : 0}}>
         <Grid container spacing={2}>
-            <Grid item xs={4} sx={{ textAlign: 'center' }}>
+            <Grid item xs={4} sx={{ textAlign: 'left' }}>
                 <Autocomplete
                     disablePortal
                     id="combo-box-demo"
@@ -104,10 +99,10 @@ function CatalogSelectVehicule(props) {
                     }}
                     sx={{ width: '100%' }}
                     onChange={(event, value) => { setSelectedConstructeur(value) }}
-                    renderInput={(params, option) => <TextField {...params} label="Construteurs" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="Construteurs" />}
+                    renderInput={(params, option) => <TextField {...params} label="Construteurs" variant="outlined" sx={{ width: "100%", textAlign: "left" }} name="Construteurs" />}
                 />
             </Grid>
-            <Grid item xs={4} sx={{ textAlign: 'center' }}>
+            <Grid item xs={4} sx={{ textAlign: 'left' }}>
                 <Autocomplete
                     disablePortal
                     id="combo-box-demo"
@@ -118,10 +113,10 @@ function CatalogSelectVehicule(props) {
                     }}
                     sx={{ width: '100%' }}
                     onChange={(event, value) => { setSelectedModelSeries(value) }}
-                    renderInput={(params, option) => <TextField {...params} label="Modéles" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="ModelSeries" />}
+                    renderInput={(params, option) => <TextField {...params} label="Modéles" variant="outlined" sx={{ width: "100%", textAlign: "left" }} name="ModelSeries" />}
                 />
             </Grid>
-            <Grid item xs={4} sx={{ textAlign: 'center' }}>
+            <Grid item xs={4} sx={{ textAlign: 'left' }}>
                 <Autocomplete
                     disablePortal
                     id="combo-box-demo"
@@ -132,7 +127,7 @@ function CatalogSelectVehicule(props) {
                     }}
                     sx={{ width: '100%' }}
                     onChange={(event, value) => { setSelectedMotorisations(value) }}
-                    renderInput={(params, option) => <TextField {...params} label="Motorisations" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="Motorisations" />}
+                    renderInput={(params, option) => <TextField {...params} label="Motorisations" variant="outlined" sx={{ width: "100%", textAlign: "left" }} name="Motorisations" />}
                 />
             </Grid>
         </Grid>

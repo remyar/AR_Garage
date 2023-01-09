@@ -5,8 +5,8 @@ export async function getAllFactures({ extra, getState }) {
         const state = getState();
         let factures = state.factures;
         factures = factures.map((el) => {
-            if ( el.vehicule_id != undefined && el?.vehicule?.vehicleDetails == undefined ){
-                let vehicule = state.vehicules.filter((_el) => _el.carId == el.vehicule_id);
+            if ( el.vehicule_plate != undefined ){
+                let vehicule = state.vehicules.filter((_el) => _el.plate == el.vehicule_plate);
                 el.vehicule = {...vehicule[0]};
             }
             return el;
