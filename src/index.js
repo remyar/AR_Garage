@@ -11,8 +11,6 @@ import api from "./api";
 
 import utils from './utils';
 
-import * as sqlite from 'sqlite-electron';
-
 // i18n datas
 import localeData from './locales';
 
@@ -46,7 +44,7 @@ const root = createRoot(document.getElementById('root'));
 root.render(
     <React.Fragment>
         <CssBaseline />
-        <StoreProvider extra={{ api, electron , sqlite }} persistConfig={persistConfig} globalState={{
+        <StoreProvider extra={{ api, electron }} persistConfig={persistConfig} globalState={{
             settings: { locale: "fr" , wizard : true },
             clients: [],
             vehicules: [],

@@ -7,13 +7,7 @@ const path = require('path');
 const http = require('http');
 const isDev = require('electron-is-dev');
 require('@electron/remote/main').initialize()
-
-var knex = require("knex")({
-    client: "sqlite3",
-    connection: {
-        filename: path.join(__dirname, 'database.sqlite')
-    }
-});
+const sqlite = require('sqlite-electron');
 
 logger.transports.file.level = 'info';
 logger.transports.file.maxSize = 1048576;
@@ -24,6 +18,8 @@ autoUpdater.logger = logger;
 const app = electron.app
 
 app.commandLine.appendSwitch('disable-site-isolation-trials');
+
+sqlite.setdbPath("./database.db");
 
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow;
@@ -67,6 +63,10 @@ function createWindow() {
     })
 
     require("@electron/remote/main").enable(mainWindow.webContents);
+
+    electron.ipcMain.handle('executeQuery' , (event, value) => { 
+        console.log('executeQuery' )
+});
 }
 
 // This method will be called when Electron has finished
@@ -178,6 +178,4 @@ autoUpdater.on('update-downloaded', (info) => {
     }
 });
 
-electron.ipcMain.on('executeQuery', async (event, query, fetch, value) => {
-    console.log("ici")
-})
+

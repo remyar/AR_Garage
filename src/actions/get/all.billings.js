@@ -1,21 +1,9 @@
 import createAction from '../../middleware/actions';
-
+import { ipcRenderer } from 'electron';
 export async function getAllFactures({ extra, getState }) {
     try {
         let factures = [];
-        let electron = extra.electron;
-        electron.ipcRenderer.send('executeQuery',"SELECT * from factures");
-        /*
-        const state = getState();
-        let factures = state.factures;
-        factures = factures.map((el) => {
-            if ( el.vehicule_plate != undefined ){
-                let vehicule = state.vehicules.filter((_el) => _el.plate == el.vehicule_plate);
-                el.vehicule = {...vehicule[0]};
-            }
-            return el;
-        })*/
-
+        ipcRenderer.invoke("executeQuery","SELECT * from tables;") // Do this
 
         return { factures : factures};
     } catch (err) {

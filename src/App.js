@@ -27,6 +27,7 @@ import Drawer from './components/Drawer';
 
 import electron from 'electron';
 
+
 const routes = [
     { path: routeMdw.urlIndex(), name: 'homePage', Component: <HomePage /> },
     { path: routeMdw.urlClients(), name: 'clientsPage', Component: <ClientsPage /> },
