@@ -8,6 +8,13 @@ const http = require('http');
 const isDev = require('electron-is-dev');
 require('@electron/remote/main').initialize()
 
+var knex = require("knex")({
+    client: "sqlite3",
+    connection: {
+        filename: path.join(__dirname, 'database.sqlite')
+    }
+});
+
 logger.transports.file.level = 'info';
 logger.transports.file.maxSize = 1048576;
 logger.transports.file.clear();
@@ -170,3 +177,7 @@ autoUpdater.on('update-downloaded', (info) => {
         }, 2000);
     }
 });
+
+electron.ipcMain.on('executeQuery', async (event, query, fetch, value) => {
+    console.log("ici")
+})

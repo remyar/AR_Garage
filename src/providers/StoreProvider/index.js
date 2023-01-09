@@ -14,7 +14,7 @@ class Provider extends Component {
         this.state = this.props.globalState;
         this.persistConfig = { persist: false, key: "root", ...this.props.persistConfig };
         if (this.persistConfig.persist) {
-            this.state = {...this.state , ...JSON.parse(localStorage.getItem("persist:" + this.persistConfig.key))};
+            this.state = { ...this.state, ...JSON.parse(localStorage.getItem("persist:" + this.persistConfig.key)) };
         }
     }
 
@@ -26,12 +26,12 @@ class Provider extends Component {
         });
     }
 
-    async __dispatch(updater , ...args){
+    async __dispatch(updater, ...args) {
         if (updater && updater.constructor && updater.call && updater.apply) {
-            let u = await updater(...args, async (d , ...a) => { 
-                return await this.__dispatch(d,...a);
-            }, () => { 
-                return this.state; 
+            let u = await updater(...args, async (d, ...a) => {
+                return await this.__dispatch(d, ...a);
+            }, () => {
+                return this.state;
             }, this.props.extra);
             await this.setStateAsync({ ...this.state, ...u });
             if (this.persistConfig.persist) {

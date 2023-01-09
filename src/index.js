@@ -11,6 +11,8 @@ import api from "./api";
 
 import utils from './utils';
 
+import * as sqlite from 'sqlite-electron';
+
 // i18n datas
 import localeData from './locales';
 
@@ -18,18 +20,7 @@ const electron = require('@electron/remote')
 
 // WHITELIST
 const persistConfig = {
-    key: 'AutomotiveDatabase',
-    persist: true,
-    whitelist: [
-        "settings",
-        "clients",
-        "vehicules",
-        "devis",
-        "products",
-        "services",
-        "factures",
-        "oem"
-    ]
+    persist: false,
 };
 
 
@@ -55,7 +46,7 @@ const root = createRoot(document.getElementById('root'));
 root.render(
     <React.Fragment>
         <CssBaseline />
-        <StoreProvider extra={{ api, electron }} persistConfig={persistConfig} globalState={{
+        <StoreProvider extra={{ api, electron , sqlite }} persistConfig={persistConfig} globalState={{
             settings: { locale: "fr" , wizard : true },
             clients: [],
             vehicules: [],

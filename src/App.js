@@ -78,7 +78,7 @@ function App(props) {
     return <Box>
         <AppBar onClick={() => { setDrawerState(true) }} title={(selectedVehicule?.plate && selectedVehicule?.designation) ? selectedVehicule?.plate + " : " + selectedVehicule?.designation : undefined} />
         <Box sx={{ paddingTop: '64px' }}>
-            <Container maxWidth="xl" sx={{ /*height: 'calc(100vh - 64px)',*/ paddingTop: "25px" }} >
+            <Container maxWidth="xl" sx={{ paddingTop: "25px" }} >
                 <Drawer
                     open={drawerState}
                     onClose={() => { setDrawerState(false) }}

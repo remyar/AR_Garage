@@ -30,15 +30,15 @@ function HomePage(props) {
     const vehicule = props.globalState.vehicule || {};
     const settings = props.globalState.settings || {};
 
-    if ( (settings?.wizard == undefined) || (settings?.wizard == true)){
+    if ((settings?.wizard == undefined) || (settings?.wizard == true)) {
         //-- lancement du wizard
-        if ( displayWizard == false ){
+        if (displayWizard == false) {
             setDisplayWizard(true);
         }
     }
 
-    async function discardWizard(){
-        await props.dispatch(actions.set.saveSettings({ wizard : false}));
+    async function discardWizard() {
+        await props.dispatch(actions.set.saveSettings({ wizard: false }));
         setDisplayWizard(false);
     }
 
@@ -91,7 +91,7 @@ function HomePage(props) {
 
         <Loader display={displayLoader} />
 
-        {displayWizard && <Wizard onClose={discardWizard}/>}
+        {displayWizard && <Wizard onClose={discardWizard} />}
 
         <Box sx={{
             position: 'absolute',

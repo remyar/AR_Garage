@@ -2,6 +2,10 @@ import createAction from '../../middleware/actions';
 
 export async function getAllFactures({ extra, getState }) {
     try {
+        let factures = [];
+        let electron = extra.electron;
+        electron.ipcRenderer.send('executeQuery',"SELECT * from factures");
+        /*
         const state = getState();
         let factures = state.factures;
         factures = factures.map((el) => {
@@ -10,7 +14,7 @@ export async function getAllFactures({ extra, getState }) {
                 el.vehicule = {...vehicule[0]};
             }
             return el;
-        })
+        })*/
 
 
         return { factures : factures};

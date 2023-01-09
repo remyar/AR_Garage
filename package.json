@@ -66,6 +66,7 @@
         "jimp": "^0.16.2",
         "jspdf": "^2.5.1",
         "jspdf-autotable": "^3.5.28",
+        "knex": "^2.4.0",
         "lodash": "^4.17.21",
         "node-tesseract-ocr": "^2.2.1",
         "notistack": "^2.0.8",
@@ -78,6 +79,8 @@
         "react-intl": "^6.2.5",
         "react-router-dom": "^6.5.0",
         "react-scripts": "^5.0.1",
+        "sqlite-electron": "^2.2.5",
+        "sqlite3": "^5.1.4",
         "string-similarity": "^4.0.4",
         "yup": "^0.32.11"
     },
