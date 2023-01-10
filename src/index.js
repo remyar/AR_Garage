@@ -8,11 +8,11 @@ import StoreProvider from './providers/StoreProvider';
 import SnackBarGenerator from './providers/snackBar';
 import CssBaseline from '@mui/material/CssBaseline';
 import api from "./api";
-
-import utils from './utils';
+import { ipcRenderer } from 'electron';
 
 // i18n datas
 import localeData from './locales';
+import utils from "./utils";
 
 const electron = require('@electron/remote')
 
@@ -41,11 +41,23 @@ const messages = localeData[languageWithoutRegionCode] || localeData[language] |
 
 const root = createRoot(document.getElementById('root'));
 
+let entreprise = ipcRenderer.sendSync("database.getEntrepriseSettings");
+let paiement = ipcRenderer.sendSync("database.getPaiementSettings");
+let logo = ipcRenderer.sendSync("database.getLogoSettings");
+let _settings = ipcRenderer.sendSync("database.getGeneralSettings");
+
+let settings = {
+    entreprise: entreprise,
+    paiement: paiement,
+    logo: logo.logo,
+    ..._settings
+}
+
 root.render(
     <React.Fragment>
         <CssBaseline />
         <StoreProvider extra={{ api, electron }} persistConfig={persistConfig} globalState={{
-            settings: { locale: "fr" , wizard : true },
+            settings: { locale: "fr", ...settings },
             clients: [],
             vehicules: [],
             categories: [],

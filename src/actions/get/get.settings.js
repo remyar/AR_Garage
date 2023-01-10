@@ -1,11 +1,21 @@
 import createAction from '../../middleware/actions';
+import { ipcRenderer } from 'electron';
 
 export async function getSettings({ extra, getState }) {
     try {
-        const state = getState();
-        let settings = state.settings;
+        let entreprise = ipcRenderer.sendSync("database.getEntrepriseSettings");
+        let paiement = ipcRenderer.sendSync("database.getPaiementSettings");
+        let logo = ipcRenderer.sendSync("database.getLogoSettings");
+        let _settings = ipcRenderer.sendSync("database.getGeneralSettings");
 
-        return { settings: settings }
+        return {
+            settings: {
+                entreprise: entreprise,
+                paiement : paiement,
+                logo : logo.logo,
+                ..._settings
+            }
+        }
 
     } catch (err) {
         throw { message: err.message };

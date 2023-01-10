@@ -8,7 +8,7 @@ import allServices from './all.services';
 import allMarques from './all.marques';
 import productsFromVehicule from './product.from.vehicule';
 import allDevis from './all.devis';
-import allFactures from './all.billings';
+import allFactures from './all.factures';
 import devisFromNumber from './devis.from.number';
 import lastDevisNumber from './last.devis.number';
 import factureFromNumber from './facture.from.number';

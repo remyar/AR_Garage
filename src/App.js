@@ -50,7 +50,6 @@ function App(props) {
 
     const [drawerState, setDrawerState] = useState(false);
 
-
     useEffect(() => {
 
         electron.ipcRenderer.on('update-available', (event, message) => {
@@ -74,6 +73,7 @@ function App(props) {
         });
 
         props.dispatch(actions.get.allCategories());
+
     }, []);
 
     return <Box>

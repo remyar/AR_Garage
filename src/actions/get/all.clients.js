@@ -1,9 +1,14 @@
 import createAction from '../../middleware/actions';
+import { ipcRenderer } from 'electron';
 
 export async function getAllClients({ extra, getState }) {
     try {
-        const state = getState();
-        return { clients : state.clients};
+        let clients = ipcRenderer.sendSync("database.getAllClients");
+        
+        return {
+            clients : clients
+        }
+
     } catch (err) {
         throw { message: err.message };
     }

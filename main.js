@@ -6,8 +6,9 @@ const fs = require('fs');
 const path = require('path');
 const http = require('http');
 const isDev = require('electron-is-dev');
-require('@electron/remote/main').initialize()
-const sqlite = require('sqlite-electron');
+const backend = require('./src_backend');
+require('@electron/remote/main').initialize();
+
 
 logger.transports.file.level = 'info';
 logger.transports.file.maxSize = 1048576;
@@ -19,7 +20,6 @@ const app = electron.app
 
 app.commandLine.appendSwitch('disable-site-isolation-trials');
 
-sqlite.setdbPath("./database.db");
 
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow;
@@ -64,9 +64,8 @@ function createWindow() {
 
     require("@electron/remote/main").enable(mainWindow.webContents);
 
-    electron.ipcMain.handle('executeQuery' , (event, value) => { 
-        console.log('executeQuery' )
-});
+    backend.setMainWindows(mainWindow);
+    backend.start();
 }
 
 // This method will be called when Electron has finished

@@ -38,9 +38,6 @@
                 "!*.md",
                 "!public/*"
             ]
-        },
-        "nsis": {
-            "include": "./installer.nsh"
         }
     },
     "dependencies": {
@@ -79,6 +76,7 @@
         "react-router-dom": "^6.5.0",
         "react-scripts": "^5.0.1",
         "sqlite-electron": "^2.2.5",
+        "sqlite3": "^5.1.4",
         "string-similarity": "^4.0.4",
         "yup": "^0.32.11"
     },

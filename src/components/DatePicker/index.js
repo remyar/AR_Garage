@@ -8,7 +8,7 @@ import locales from '../../locales';
 
 function MyDatePicker(props) {
 
-    const [value, setValue] = React.useState(new Date().addMonths(1));
+    const [value, setValue] = useState(new Date().addMonths(1));
 
     useEffect(() => {
         props.onChange && props.onChange(value);

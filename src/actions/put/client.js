@@ -1,15 +1,12 @@
 import createAction from '../../middleware/actions';
+import { ipcRenderer } from 'electron';
 
-export async function editClient(client = {}, { extra, getState }) {
+export async function editClient(_client = {}, { extra, getState }) {
 
     try {
-        let state = getState();
-        state.clients.forEach((el,idx) => {
-            if ( el.id == client.id){
-                state.clients[idx] = {...client};
-            }
-        });
-        return { clients : state.clients};
+        let client = ipcRenderer.sendSync("database.saveClient", _client);
+
+        return { client : client};
     } catch (err) {
         throw { message: err.message };
     }
