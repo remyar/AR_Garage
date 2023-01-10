@@ -278,7 +278,7 @@ function DevisCreatePage(props) {
                 onClick={async () => {
                     let devis = {
                         client_id: selectedClient?.id,
-                        vehicule_plate: selectedVehicule?.plate,
+                        vehicule_id: selectedVehicule?.id,
                         kilometrage: selectedVehicule?.kilometrage,
                         date: new Date().getTime(),
                         expiration: expiration,

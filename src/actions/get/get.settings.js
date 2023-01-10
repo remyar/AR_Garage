@@ -12,7 +12,7 @@ export async function getSettings({ extra, getState }) {
             settings: {
                 entreprise: entreprise,
                 paiement : paiement,
-                logo : logo.logo,
+                logo : logo?.logo || "",
                 ..._settings
             }
         }

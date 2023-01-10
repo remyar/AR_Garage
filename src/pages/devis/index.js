@@ -55,7 +55,7 @@ function DevisPage(props) {
 
     let rows = devis.map((el) => {
         let total = 0;
-        el.products.forEach((_p) => {
+        el?.products?.forEach((_p) => {
             total += (_p?.prix_vente || 0) * (_p?.quantity || 0);
         });
 

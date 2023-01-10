@@ -32,6 +32,10 @@ function ProductAddModal(props) {
 
     const [selectedCategorie, setSelectedCategorie] = useState(categories[0]);
     const [displayModalAddMarque, setDisplayModalAddMarque] = useState(false);
+    const [displayModalAddCategorie, setDisplayModalAddCategorie] = useState(false);
+
+    
+
     const [marques, setMarques] = useState([]);
 
     async function fetchData() {
@@ -39,6 +43,8 @@ function ProductAddModal(props) {
         // let rows = result.marques.filter((el) => el.brandName != undefined && el.brandName != null && el.brandName.trim().length > 0)
         let rows = result.marques.sort((a, b) => a.brandName.toLowerCase() > b.brandName.toLowerCase() ? 1 : -1);
         setMarques(rows);
+
+        await props.dispatch(actions.get.allCategories());
     }
 
     useEffect(() => {
@@ -119,6 +125,26 @@ function ProductAddModal(props) {
                             }}
                         />}
 
+                        {displayModalAddCategorie && <InputTextModal
+                            display={displayModalAddCategorie ? true : false}
+                            title={intl.formatMessage({ id: 'categorie.add' })}
+                            label={intl.formatMessage({ id: 'categorie.label' })}
+                            onClose={() => {
+                                setDisplayModalAddCategorie(false);
+                            }}
+                            onValidate={async (value) => {
+                                setDisplayModalAddCategorie(false);
+                                try {
+                                    await props.dispatch(actions.set.newCategorie({ nom: value.toUpperCase() , parent_id : undefined }));
+                                    await fetchData();
+                                    setFieldValue("categorie_id", value || "");
+                                } catch (err) {
+
+                                }
+                            }}
+                        />}
+
+
 
                         <Grid container spacing={2}>
                             <Grid item xs={12} sx={{ textAlign: 'center' }}>
@@ -131,7 +157,7 @@ function ProductAddModal(props) {
                                     disablePortal
                                     id="combo-box-demo"
                                     value={values.brand}
-                                    options={marques.map((r)=>r.brandName.toUpperCase())}
+                                    options={marques.map((r) => r.brandName.toUpperCase())}
                                     sx={{ width: '100%' }}
                                     onChange={(e, value) => setFieldValue("brand", value.toUpperCase() || "")}
                                     renderInput={(params, option) => <TextField name="brand" error={(errors.brand && touched.brand) ? true : false} {...params} label="Marque" variant="outlined" sx={{ width: "100%", textAlign: "center" }} />}
@@ -157,7 +183,7 @@ function ProductAddModal(props) {
                             </Grid>
                         </Grid>
                         <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
-                            <Grid item xs={6} >
+                            <Grid item xs={5} >
                                 <FormControl fullWidth>
                                     <InputLabel id="demo-simple-select-label">Catégorie</InputLabel>
                                     <Select
@@ -165,18 +191,23 @@ function ProductAddModal(props) {
                                         label="Catégorie"
                                         name="categorie_id"
                                         onChange={(event) => {
-                                            let _c = categories.find((el) => el.assemblyGroupNodeId == event.target.value);
+                                            let _c = categories.find((el) => el?.parent_id == undefined);
                                             setSelectedCategorie(_c);
                                         }}
-                                        value={selectedCategorie.assemblyGroupNodeId}
+                                        value={selectedCategorie?.id}
                                     >
                                         {categories?.map((_v, idx) => {
-                                            if (_v.parentNodeId == undefined) {
-                                                return <MenuItem key={"categories_" + idx} value={_v.assemblyGroupNodeId}>{_v.assemblyGroupName}</MenuItem>
+                                            if (_v?.parent_id == undefined) {
+                                                return <MenuItem key={"categories_" + idx} value={_v?.id}>{_v?.nom}</MenuItem>
                                             }
                                         }).filter((f) => f != undefined)}
                                     </Select>
                                 </FormControl>
+                            </Grid>
+                            <Grid item xs={1} sx={{ marginTop: 'auto', marginBottom: 'auto', textAlign: "center", paddingLeft: '0px' }}>
+                                <AddIcon sx={{ marginTop: '5px', cursor: 'pointer', color: 'green' }} onClick={() => {
+                                    setDisplayModalAddCategorie(true);
+                                }} />
                             </Grid>
                             <Grid item xs={6} >
                                 <FormControl fullWidth>
@@ -186,31 +217,31 @@ function ProductAddModal(props) {
                                         label="Sous-Catégorie"
                                         name="assemblyGroupNodeId"
                                         onChange={handleChange}
-                                        value={values.assemblyGroupNodeId}
+                                        value={values.id}
                                     >
                                         {(() => {
                                             let subCat = [];
-                                            if (selectedCategorie.hasChilds == true) {
-                                                categories.map((c) => {
-                                                    return c.parentNodeId == selectedCategorie.assemblyGroupNodeId ? c : undefined;
-                                                }).filter((el) => el != undefined).map((_v, idx) => {
-                                                    if (_v.hasChilds) {
-                                                        let _name = _v.assemblyGroupName;
-                                                        categories.map((c) => {
-                                                            return c.parentNodeId == _v.assemblyGroupNodeId ? c : undefined;
-                                                        }).filter((el) => el != undefined).map((__v) => {
-                                                            let __cat = subCat.find((f) => f.assemblyGroupNodeId == __v.assemblyGroupNodeId);
-                                                            if (__cat == undefined) {
-                                                                let name = _name + " => " + __v.assemblyGroupName;
-                                                                subCat.push({ ...__v, assemblyGroupName: name });
-                                                            }
-                                                        });
-                                                    } else {
-                                                        subCat.push(_v);
-                                                    }
-                                                })
-                                            }
-                                            return subCat.map((_v) => <MenuItem key={"sub_categories_" + _v.assemblyGroupNodeId} value={_v.assemblyGroupNodeId}>{_v.assemblyGroupName}</MenuItem>);
+                                            /*  if (selectedCategorie.hasChilds == true) {
+                                                  categories.map((c) => {
+                                                      return c.parentNodeId == selectedCategorie.assemblyGroupNodeId ? c : undefined;
+                                                  }).filter((el) => el != undefined).map((_v, idx) => {
+                                                      if (_v.hasChilds) {
+                                                          let _name = _v.assemblyGroupName;
+                                                          categories.map((c) => {
+                                                              return c.parentNodeId == _v.assemblyGroupNodeId ? c : undefined;
+                                                          }).filter((el) => el != undefined).map((__v) => {
+                                                              let __cat = subCat.find((f) => f.assemblyGroupNodeId == __v.assemblyGroupNodeId);
+                                                              if (__cat == undefined) {
+                                                                  let name = _name + " => " + __v.assemblyGroupName;
+                                                                  subCat.push({ ...__v, assemblyGroupName: name });
+                                                              }
+                                                          });
+                                                      } else {
+                                                          subCat.push(_v);
+                                                      }
+                                                  })
+                                              }*/
+                                            return subCat.map((_v) => <MenuItem key={"sub_categories_" + _v?.id} value={_v?.id}>{_v?.nom}</MenuItem>);
                                         })()}
                                     </Select>
                                 </FormControl>

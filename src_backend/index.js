@@ -71,7 +71,10 @@ module.exports = {
             let result = await database.getAllClients();
             event.returnValue = result;
         });
-
+        ipcMain.on('database.getClientById', async (event, value) => {
+            let result = await database.getClientById(value);
+            event.returnValue = result;
+        });
         ipcMain.on('database.saveClient', async (event, value) => {
             let result = await database.saveClient(value);
             event.returnValue = result;
@@ -86,7 +89,10 @@ module.exports = {
             let result = await database.getVehiculeFromPlate(value);
             event.returnValue = result;
         });
-
+        ipcMain.on('database.getVehiculeById', async (event, value) => {
+            let result = await database.getVehiculeById(value);
+            event.returnValue = result;
+        });
         ipcMain.on('database.saveVehicule', async (event, value) => {
             let result = await database.saveVehicule(value);
             event.returnValue = result;
@@ -106,5 +112,16 @@ module.exports = {
             let result = await database.saveDevi(value);
             event.returnValue = result;
         });
+
+        ipcMain.on('database.getAllCategories', async (event, value) => {
+            let result = await database.getAllCategories();
+            event.returnValue = result;
+        });
+
+        ipcMain.on('database.saveCategorie', async (event, value) => {
+            let result = await database.saveCategorie(value);
+            event.returnValue = result;
+        });
+
     }
 }

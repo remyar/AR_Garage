@@ -14,6 +14,8 @@ async function createTables() {
             database.run("CREATE TABLE IF NOT EXISTS settings_general ( id INTEGER PRIMARY KEY , wizard INTEGER)");
             database.run("CREATE TABLE IF NOT EXISTS clients ( id INTEGER PRIMARY KEY , nom TEXT , prenom TEXT , adresse1 TEXT , adresse2 TEXT , code_postal TEXT , ville TEXT , email TEXT , telephone TEXT)");
             database.run("CREATE TABLE IF NOT EXISTS vehicules ( id INTEGER PRIMARY KEY , oscaroId INTEGER,brand TEXT , model TEXT , puissance TEXT , phase TEXT , designation TEXT , engineCode TEXT , gearboxCode TEXT , immatriculationDate TEXT, vin TEXT, energy TEXT, plate TEXT)");
+            database.run("CREATE TABLE IF NOT EXISTS produits ( id INTEGER PRIMARY KEY )");
+            database.run("CREATE TABLE IF NOT EXISTS categories ( id INTEGER PRIMARY KEY , nom TEXT , parent_id )");
             resolve();
         });
     });
@@ -265,6 +267,20 @@ async function getAllClients() {
     });
 }
 
+async function getClientById(id) {
+    return new Promise((resolve, reject) => {
+        database.serialize(() => {
+            database.all("SELECT * FROM clients WHERE id LIKE ?", [id], (err, row) => {
+                if (err) {
+                    reject(err);
+                } else {
+                    resolve(row[0]);
+                }
+            });
+        });
+    });
+}
+
 async function saveClient(client) {
     return new Promise(async (resolve, reject) => {
         try {
@@ -313,6 +329,20 @@ async function getVehiculeFromPlate(plate) {
     return new Promise((resolve, reject) => {
         database.serialize(() => {
             database.all("SELECT * FROM vehicules WHERE plate LIKE ?", [plate], (err, row) => {
+                if (err) {
+                    reject(err);
+                } else {
+                    resolve(row[0]);
+                }
+            });
+        });
+    });
+}
+
+async function getVehiculeById(id) {
+    return new Promise((resolve, reject) => {
+        database.serialize(() => {
+            database.all("SELECT * FROM vehicules WHERE id LIKE ?", [id], (err, row) => {
                 if (err) {
                     reject(err);
                 } else {
@@ -403,24 +433,60 @@ async function getAllDevis() {
     });
 }
 
-async function saveDevi(devi){
+async function saveDevi(devi) {
     return new Promise(async (resolve, reject) => {
         try {
             let _devis = await getAllDevis();
             let _devi = _devis.find((el) => el.id == devi.id);
-            if ( _devi == undefined ){
+            if (_devi == undefined) {
                 //-- insert
                 database.serialize(() => {
-                    database.run("INSERT INTO devis ( client_id ) VALUES ( ? )",
+                    database.run("INSERT INTO devis ( client_id , vehicule_id) VALUES ( ? , ? )",
                         [
                             devi.client_id,
+                            devi.vehicule_id
                         ]);
                 });
             } else {
                 //-- update
             }
             resolve(devi);
-        }catch(err){
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
+
+async function getAllCategories() {
+    return new Promise((resolve, reject) => {
+        database.serialize(() => {
+            database.all("SELECT * FROM categories", (err, row) => {
+                if (err) {
+                    reject(err);
+                } else {
+                    resolve(row);
+                }
+            });
+        });
+    });
+}
+
+async function saveCategorie(categorie) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            let _categories = await getAllCategories();
+            let _categorie = _categories.find((el) => el.id == categorie.id);
+            if (_categorie == undefined) {
+                database.serialize(() => {
+                    database.run("INSERT INTO categories ( nom , parent_id) VALUES ( ? , ? )",
+                        [
+                            categorie.nom,
+                            categorie.parent_id
+                        ]);
+                });
+            }
+            resolve(categorie);
+        } catch (err) {
             reject(err);
         }
     });
@@ -443,12 +509,17 @@ module.exports = {
     saveGeneralSettings,
 
     getAllClients,
+    getClientById,
     saveClient,
 
     getAllVehicules,
     getVehiculeFromPlate,
+    getVehiculeById,
     saveVehicule,
 
     getAllDevis,
     saveDevi,
+
+    getAllCategories,
+    saveCategorie
 }
