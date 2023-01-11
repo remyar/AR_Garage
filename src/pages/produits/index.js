@@ -54,16 +54,16 @@ function ProduitsPage(props) {
 
     const headers = [
         { id: 'ref_fab', label: 'Référence', minWidth: 100 },
-        { id: 'brand', label: 'Marque', minWidth: 100 },
-        { id: 'name', label: 'Désignation', minWidth: 100 },
+        { id: 'marque', label: 'Marque', minWidth: 100 },
+        { id: 'nom', label: 'Désignation', minWidth: 100 },
         {
             id: 'prix_achat', label: "Prix d'achat", minWidth: 100, render: (value) => {
-                return '' + parseFloat(value.prix_achat?.replace(',', '.')).toFixed(2) + ' €';
+                return '' + parseFloat(value.prix_achat?.toString().replace(',', '.')).toFixed(2) + ' €';
             }
         },
         {
             id: 'prix_vente', label: "Prix vente", minWidth: 100, render: (value) => {
-                return '' + parseFloat(value.prix_vente?.replace(',', '.')).toFixed(2) + ' €';
+                return '' + parseFloat(value.prix_vente?.toString().replace(',', '.')).toFixed(2) + ' €';
             }
         },
         {
@@ -77,8 +77,9 @@ function ProduitsPage(props) {
         }
     ];
 
-    let rows = [];
+    let rows = [...produits];
 
+    /*
     produits.forEach((p , idx) => {
         let __p = rows.find((el) => ((el.ref_fab == p.ref_fab) && (el.brand == p.brand)));
         if (  __p == undefined){
@@ -88,9 +89,10 @@ function ProduitsPage(props) {
             __p.oems.push(p.ref_oem);
         }       
     });
-
-    rows = rows.filter((el) => el.name.toLowerCase().startsWith(filter));
-
+    */
+/*
+    rows = rows.filter((el) => el?.nom?.toLowerCase().startsWith(filter));
+*/
     return <Box>
 
         <Loader display={displayLoader} />

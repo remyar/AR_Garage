@@ -21,8 +21,8 @@ import InputNumber from '../../components/InputNumber';
 import * as Yup from 'yup';
 
 const ValidationSchema = Yup.object().shape({
-    brand: Yup.string().required(),
-    name: Yup.string().required(),
+    marque: Yup.string().required(),
+    nom: Yup.string().required(),
 });
 
 
@@ -60,8 +60,8 @@ function ProductAddModal(props) {
     }).filter((f) => f != undefined)
 
     let initialValues = {
-        brand: '',
-        name: '',
+        marque: '',
+        nom: '',
         ref_fab: '',
         ref_oem: '',
         categorie_id: 0,
@@ -126,7 +126,7 @@ function ProductAddModal(props) {
                                 try {
                                     await props.dispatch(actions.set.newMarque({ name: value.toUpperCase() }));
                                     await fetchData();
-                                    setFieldValue("brand", value || "")
+                                    setFieldValue("marque", value || "")
                                 } catch (err) {
 
                                 }
@@ -181,11 +181,11 @@ function ProductAddModal(props) {
                                 <Autocomplete
                                     disablePortal
                                     id="combo-box-demo"
-                                    value={values.brand}
+                                    value={values.marque}
                                     options={marques.map((r) => r.brandName.toUpperCase())}
                                     sx={{ width: '100%' }}
-                                    onChange={(e, value) => setFieldValue("brand", value.toUpperCase() || "")}
-                                    renderInput={(params, option) => <TextField name="brand" error={(errors.brand && touched.brand) ? true : false} {...params} label="Marque" variant="outlined" sx={{ width: "100%", textAlign: "center" }} />}
+                                    onChange={(e, value) => setFieldValue("marque", value.toUpperCase() || "")}
+                                    renderInput={(params, option) => <TextField name="marque" error={(errors.marque && touched.marque) ? true : false} {...params} label="Marque" variant="outlined" sx={{ width: "100%", textAlign: "center" }} />}
                                 />
                             </Grid>
                             <Grid item xs={1} sx={{ marginTop: 'auto', marginBottom: 'auto', textAlign: "center", paddingLeft: '0px' }}>
@@ -196,7 +196,7 @@ function ProductAddModal(props) {
                         </Grid>
                         <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
                             <Grid item xs={12} >
-                                <TextField error={(errors.name && touched.name) ? true : false} label="Désignation" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="name" value={values.name} onChange={handleChange} />
+                                <TextField error={(errors.nom && touched.nom) ? true : false} label="Désignation" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="nom" value={values.nom} onChange={handleChange} />
                             </Grid>
                         </Grid>
                         <Grid container spacing={2} sx={{ paddingTop: '15px' }}>

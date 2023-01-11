@@ -1,11 +1,11 @@
 import createAction from '../../middleware/actions';
+import { ipcRenderer } from 'electron';
 
 export async function setNewProduct(value = {}, { extra, getState }) {
     try {
-        let state = getState();
-        let products = state.products;
-        products.push({...value , id : products.length})
-        return { products : products};
+        let product = ipcRenderer.sendSync("database.saveProduct", value);
+
+        return { product : product};
     } catch (err) {
         throw { message: err.message };
     }

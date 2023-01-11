@@ -6,9 +6,11 @@ export async function getDevisFromNumber(devis_id = "1", { extra, getState }) {
 
         let devi = ipcRenderer.sendSync("database.getDeviById" , devis_id);
         let client = ipcRenderer.sendSync("database.getClientById" , devi.client_id);
-
-        devi.client = client;
+        let vehicule = ipcRenderer.sendSync("database.getVehiculeById" , devi.vehicule_id);
         
+        devi.client = client;
+        devi.vehicule = vehicule;
+
         console.log(devi);
        /* const state = getState();
         let devis = state.devis;

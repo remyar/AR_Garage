@@ -81,7 +81,7 @@ function DevisCreatePage(props) {
 
     const headers = [
         { id: 'ref_fab', label: 'Code', minWidth: 100 },
-        { id: 'name', label: 'Désignation', minWidth: 100 },
+        { id: 'nom', label: 'Désignation', minWidth: 100 },
         // { id: 'info', label: 'Information', minWidth: 100 },
         { id: 'qty', label: 'Quantité', minWidth: 100 },
         // { id: 'tarif_achat', label: 'Tarif Achat', minWidth: 100 },

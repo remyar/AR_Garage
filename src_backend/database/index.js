@@ -1,12 +1,12 @@
 const sqlite3 = require('sqlite3');
 
-
 let database = undefined;
 
 async function createTables() {
     return new Promise((resolve, reject) => {
         database.serialize(() => {
-            database.run("CREATE TABLE IF NOT EXISTS devis ( id INTEGER PRIMARY KEY , client_id INTEGER, vehicule_id INTEGER)");
+            database.run("CREATE TABLE IF NOT EXISTS devis ( id INTEGER PRIMARY KEY , client_id INTEGER, vehicule_id INTEGER , date INTEGER , expiration INTEGER)");
+            database.run("CREATE TABLE IF NOT EXISTS devis_produits ( id INTEGER PRIMARY KEY , devis_id INTEGER, produit_id INTEGER , quantite INTEGER)");
             database.run("CREATE TABLE IF NOT EXISTS factures ( id INTEGER PRIMARY KEY , client_id INTEGER, vehicule_id INTEGER)");
             database.run("CREATE TABLE IF NOT EXISTS settings_entreprise ( id INTEGER PRIMARY KEY , nom TEXT, adresse1 TEXT , adresse2 TEXT , code_postal TEXT , ville TEXT , email TEXT, siret TEXT , telephone TEXT , rcs TEXT)");
             database.run("CREATE TABLE IF NOT EXISTS settings_paiement ( id INTEGER PRIMARY KEY , nom TEXT, iban TEXT , _order TEXT)");
@@ -14,7 +14,7 @@ async function createTables() {
             database.run("CREATE TABLE IF NOT EXISTS settings_general ( id INTEGER PRIMARY KEY , wizard INTEGER)");
             database.run("CREATE TABLE IF NOT EXISTS clients ( id INTEGER PRIMARY KEY , nom TEXT , prenom TEXT , adresse1 TEXT , adresse2 TEXT , code_postal TEXT , ville TEXT , email TEXT , telephone TEXT)");
             database.run("CREATE TABLE IF NOT EXISTS vehicules ( id INTEGER PRIMARY KEY , oscaroId INTEGER,brand TEXT , model TEXT , puissance TEXT , phase TEXT , designation TEXT , engineCode TEXT , gearboxCode TEXT , immatriculationDate TEXT, vin TEXT, energy TEXT, plate TEXT)");
-            database.run("CREATE TABLE IF NOT EXISTS produits ( id INTEGER PRIMARY KEY )");
+            database.run("CREATE TABLE IF NOT EXISTS produits ( id INTEGER PRIMARY KEY , nom TEXT , marque TEXT , ref_fab TEXT , ref_oem TEXT , categorie_id INTEGER , subcategorie_id INTEGER , prix_achat REAL , prix_vente REAL)");
             database.run("CREATE TABLE IF NOT EXISTS categories ( id INTEGER PRIMARY KEY , nom TEXT , parent_id )");
             resolve();
         });
@@ -436,7 +436,7 @@ async function getAllDevis() {
 async function getDeviById(id) {
     return new Promise((resolve, reject) => {
         database.serialize(() => {
-            database.all("SELECT * FROM devis WHERE id LIKE ?",[id], (err, row) => {
+            database.all("SELECT * FROM devis WHERE id LIKE ?", [id], (err, row) => {
                 if (err) {
                     reject(err);
                 } else {
@@ -455,16 +455,18 @@ async function saveDevi(devi) {
             if (_devi == undefined) {
                 //-- insert
                 database.serialize(() => {
-                    database.run("INSERT INTO devis ( client_id , vehicule_id) VALUES ( ? , ? )",
-                        [
-                            devi.client_id,
-                            devi.vehicule_id
-                        ]);
+                    database.run("INSERT INTO devis ( client_id , vehicule_id , date , expiration) VALUES ( ? , ? , ? , ?)", [devi.client_id, devi.vehicule_id, devi.date, devi.expiration], function (err) {
+                        if (err) {
+                            reject(err);
+                        } else {
+                            devi.id = this.lastID;
+                            resolve(devi);
+                        }
+                    });
                 });
             } else {
                 //-- update
             }
-            resolve(devi);
         } catch (err) {
             reject(err);
         }
@@ -492,12 +494,68 @@ async function saveCategorie(categorie) {
             let _categorie = _categories.find((el) => el.id == categorie.id);
             if (_categorie == undefined) {
                 database.serialize(() => {
-                    database.run("INSERT INTO categories ( nom , parent_id) VALUES ( ? , ? )",[ categorie.nom,categorie.parent_id] , function (err ) {
-                        categorie.id = this.lastID;
-                        resolve(categorie);
+                    database.run("INSERT INTO categories ( nom , parent_id) VALUES ( ? , ? )", [categorie.nom, categorie.parent_id], function (err) {
+                        if (err) {
+                            reject(err);
+                        } else {
+                            categorie.id = this.lastID;
+                            resolve(categorie);
+                        }
                     });
                 });
             }
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
+
+async function getAllProducts() {
+    return new Promise((resolve, reject) => {
+        database.serialize(() => {
+            database.all("SELECT * FROM produits", (err, row) => {
+                if (err) {
+                    reject(err);
+                } else {
+                    resolve(row);
+                }
+            });
+        });
+    });
+}
+
+async function saveProduct(product) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            let _produits = await getAllProducts();
+            let _produit = _produits.find((el) => el.id == product.id);
+            if (_produit == undefined) {
+                database.serialize(() => {
+                    database.run("INSERT INTO produits ( nom , marque , ref_fab , ref_oem , prix_achat , prix_vente , categorie_id , subcategorie_id ) VALUES ( ? , ? , ? , ? , ? , ? , ? , ?)", [product.nom, product.marque, product.ref_fab, product.ref_oem, product.prix_achat, product.prix_vente, product.categorie_id, product.subcategorie_id], function (err) {
+                        product.id = this.lastID;
+                        resolve(product);
+                    });
+                });
+            }
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
+
+async function saveDevisProduct(deviProduct) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            database.serialize(() => {
+                database.run("INSERT INTO devis_produits (  devis_id , produit_id , quantite  ) VALUES ( ? , ? , ? )", [deviProduct.devis_id, deviProduct.produit_id, deviProduct.quantite], function (err) {
+                    if (err) {
+                        reject(err);
+                    } else {
+                        deviProduct.id = this.lastID;
+                        resolve(deviProduct);
+                    }
+                });
+            });
         } catch (err) {
             reject(err);
         }
@@ -534,5 +592,10 @@ module.exports = {
     saveDevi,
 
     getAllCategories,
-    saveCategorie
+    saveCategorie,
+
+    getAllProducts,
+    saveProduct,
+
+    saveDevisProduct,
 }
