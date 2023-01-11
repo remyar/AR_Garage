@@ -72,10 +72,10 @@ function DevisDisplayPage(props) {
         if (line.ref) {
             line.ref_fab = line.ref;
         }
-        let tarif_total = parseFloat(line.quantity.toString()) * parseFloat(line.prix_vente.toString());
+        let tarif_total = parseFloat(line.quantite.toString()) * parseFloat(line.prix_vente.toString());
         devis_total += tarif_total;
         let tarif_vente = parseFloat(line.prix_vente.toString()).toFixed(2) + ' €';
-        return { ...line, name: ((line.brand ? line.brand : '') + ' ' + (line.name ? line.name : line.commentaire ? line.commentaire : ' ')).trim(), info: '', qty: line.quantity, tarif_vente, tarif_total: tarif_total.toFixed(2) + ' €' };
+        return { ...line, name: ((line.marque ? line.marque : '') + ' - ' + (line.nom ? line.nom : line.commentaire ? line.commentaire : ' ')).trim(), info: '', qty: line.quantite, tarif_vente, tarif_total: tarif_total.toFixed(2) + ' €' };
     });
 
     rows && rows.push({
@@ -99,7 +99,7 @@ function DevisDisplayPage(props) {
 
         {devis?.id && <Grid container spacing={2}>
             <Grid item xs={12} sx={{ textAlign: 'center' }}>
-                <Typography variant="h6" gutterBottom component="div"><b>{intl.formatMessage({ id: 'devis.number' }) + " " + devis?.devis_number}</b></Typography>
+                <Typography variant="h6" gutterBottom component="div"><b>{intl.formatMessage({ id: 'devis.number' }) + " " + devis?.id}</b></Typography>
             </Grid>
         </Grid>}
 

@@ -38,7 +38,7 @@ export async function getAutoFromPlate(plate = "AA-456-BB", { extra, getState })
                 // tecdoc: { ...tecdoc }
             };
 
-            ipcRenderer.sendSync("database.saveVehicule", vehicule);
+            vehicule = ipcRenderer.sendSync("database.saveVehicule", vehicule);
         }
         /*
                 let state = getState();

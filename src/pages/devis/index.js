@@ -54,16 +54,12 @@ function DevisPage(props) {
     ];
 
     let rows = devis.map((el) => {
-        let total = 0;
-        el?.products?.forEach((_p) => {
-            total += (_p?.prix_vente || 0) * (_p?.quantity || 0);
-        });
 
         return {
-            devis_number: el.devis_number,
+            devis_number: el.id,
             plate: el.vehicule?.plate,
             kilometrage: el.kilometrage,
-            total: total.toFixed(2) + ' €',
+            total: (el?.total?.toFixed(2) || "0.00") + ' €',
             client: el?.client?.nom + ' ' + el?.client?.prenom,
             emission: (el.emission ? new Date(el.emission) : new Date()).toLocaleDateString(),
             expiration: (el.expiration ? new Date(el.expiration) : new Date()).toLocaleDateString(),

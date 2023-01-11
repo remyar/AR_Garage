@@ -1,7 +1,7 @@
 import createAction from '../../middleware/actions';
 import { ipcRenderer } from 'electron';
 
-export async function getDevisFromNumber(devis_id = "1", { extra, getState }) {
+export async function getDevisFromId(devis_id = "1", { extra, getState }) {
     try {
 
         let devi = ipcRenderer.sendSync("database.getDeviById" , devis_id);
@@ -10,19 +10,15 @@ export async function getDevisFromNumber(devis_id = "1", { extra, getState }) {
         
         devi.client = client;
         devi.vehicule = vehicule;
+        devi.products = [];
 
-        console.log(devi);
-       /* const state = getState();
-        let devis = state.devis;
-        let devi = devis.filter((el) => el.devis_number == devis_number)[0];
+        let _productsDevi = ipcRenderer.sendSync("database.getDeviProduitsByDeviId" , devis_id);
 
-        if ( devi.vehicule_plate != undefined){
-            let vehicule = state.vehicules.filter((_el) => _el.plate == devi.vehicule_plate);
-            devi.vehicule = {...vehicule[0]};
-        }
+        _productsDevi?.forEach((element) => {
+            let _produit = ipcRenderer.sendSync("database.getProductById" , element.produit_id);
+            devi.products.push({..._produit , quantite : element.quantite});
+        });
 
-        devi.products = devi.products.filter((el) => el != undefined);
-*/
         return { devi: devi }
         
     } catch (err) {
@@ -30,4 +26,4 @@ export async function getDevisFromNumber(devis_id = "1", { extra, getState }) {
     }
 }
 
-export default createAction(getDevisFromNumber);
+export default createAction(getDevisFromId);

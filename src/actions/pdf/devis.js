@@ -34,7 +34,7 @@ export async function devis(devis, printAndSave, { extra, getState }) {
         pdf.setFontSize(16);
         pdf.setTextColor("#97a3b5");
         pdf.setFont("roboto", "bold");
-        _pushText("Devis n° " + devis.devis_number, pdf.internal.pageSize.getWidth() - 200);
+        _pushText("Devis n° " + devis.id, pdf.internal.pageSize.getWidth() - 200);
 
         _addLine();
         _addLine();
@@ -84,7 +84,7 @@ export async function devis(devis, printAndSave, { extra, getState }) {
         _pushText((devis?.client?.adresse1 || ""), (pdf.internal.pageSize.getWidth() / 2));
 
         _addLine();
-        _pushText(devis?.client?.adresse2|| "", (pdf.internal.pageSize.getWidth() / 2));
+        _pushText(devis?.client?.adresse2 || "", (pdf.internal.pageSize.getWidth() / 2));
 
         _addLine();
         _pushText((devis?.client?.code_postal || "") + " " + (devis?.client?.ville || ""), (pdf.internal.pageSize.getWidth() / 2));
@@ -124,7 +124,7 @@ export async function devis(devis, printAndSave, { extra, getState }) {
                 { title: '#', dataKey: "num_line" },
                 { title: 'Ref', dataKey: "ref_fab" },
                 { title: 'Désignation', dataKey: "brand_name" },
-                { title: 'Quantité', dataKey: "quantity" },
+                { title: 'Quantité', dataKey: "quantite" },
                 { title: 'Prix Unit.', dataKey: "prix_vente" },
                 { title: 'Prix Total', dataKey: "prix_total" },
             ];
@@ -133,8 +133,8 @@ export async function devis(devis, printAndSave, { extra, getState }) {
         let rows = [];
         let totalMontant = 0;
         rows = devis.products.map((el, idx) => {
-            totalMontant += (parseFloat(el.prix_vente) * parseFloat(el.quantity));
-            return { ...el, num_line: idx + 1, brand_name: ((el.brand ? el.brand : '') + ' ' + (el.name ? el.name : el.commentaire ? el.commentaire : ' ')).trim(), prix_vente: el.prix_vente + " €", prix_total: (parseFloat(el.prix_vente) * parseFloat(el.quantity)).toFixed(2) + ' €' };
+            totalMontant += (parseFloat(el.prix_vente) * parseFloat(el.quantite));
+            return { ...el, num_line: idx + 1, brand_name: ((el.marque ? el.marque : '') + ' ' + (el.nom ? el.nom : el.commentaire ? el.commentaire : ' ')).trim(), prix_vente: parseFloat(el.prix_vente).toFixed(2) + " €", prix_total: (parseFloat(el.prix_vente) * parseFloat(el.quantite)).toFixed(2) + ' €' };
         });
 
         pdf.autoTable(_getColumns(), rows, {
@@ -209,7 +209,7 @@ export async function devis(devis, printAndSave, { extra, getState }) {
         //   pdf.autoPrint({ variant: 'non-conform' });  // <<--------------------- !!
         //     pdf.output("dataurlnewwindow");
         // } else {
-        await pdf.save('Test.pdf', { returnPromise: true });
+        await pdf.save('Devis_' + devis.id.toString().padStart(5, "0") + '.pdf', { returnPromise: true });
         // }
 
         return {};

@@ -5,7 +5,7 @@ let database = undefined;
 async function createTables() {
     return new Promise((resolve, reject) => {
         database.serialize(() => {
-            database.run("CREATE TABLE IF NOT EXISTS devis ( id INTEGER PRIMARY KEY , client_id INTEGER, vehicule_id INTEGER , date INTEGER , expiration INTEGER)");
+            database.run("CREATE TABLE IF NOT EXISTS devis ( id INTEGER PRIMARY KEY , client_id INTEGER, vehicule_id INTEGER , date INTEGER , expiration INTEGER , total REAL)");
             database.run("CREATE TABLE IF NOT EXISTS devis_produits ( id INTEGER PRIMARY KEY , devis_id INTEGER, produit_id INTEGER , quantite INTEGER)");
             database.run("CREATE TABLE IF NOT EXISTS factures ( id INTEGER PRIMARY KEY , client_id INTEGER, vehicule_id INTEGER)");
             database.run("CREATE TABLE IF NOT EXISTS settings_entreprise ( id INTEGER PRIMARY KEY , nom TEXT, adresse1 TEXT , adresse2 TEXT , code_postal TEXT , ville TEXT , email TEXT, siret TEXT , telephone TEXT , rcs TEXT)");
@@ -374,12 +374,19 @@ async function saveVehicule(vehicule) {
                             vehicule.vin,
                             vehicule.energy,
                             vehicule.plate
-                        ]);
+                        ], function (err) {
+                            if (err) {
+                                reject(err);
+                            } else {
+                                vehicule.id = this.lastID;
+                                resolve(vehicule);
+                            }
+                        });
                 });
 
             } else {
                 database.serialize(() => {
-                    database.run("INSERT UPDATE vehicules SET oscaroId=? , brand=? , model=? , puissance=? , phase=? , designation=? , engineCode=? , gearboxCode=? , immatriculationDate=? ,vin=? ,energy=?, plate=? WHERE id=?",
+                    database.run("UPDATE vehicules SET oscaroId=? , brand=? , model=? , puissance=? , phase=? , designation=? , engineCode=? , gearboxCode=? , immatriculationDate=? ,vin=? ,energy=?, plate=? WHERE id=?",
                         [
                             vehicule.oscaroId,
                             vehicule.brand,
@@ -394,11 +401,15 @@ async function saveVehicule(vehicule) {
                             vehicule.energy,
                             vehicule.plate,
                             _vehicule.id
-                        ]);
+                        ], function (err) {
+                            if (err) {
+                                reject(err);
+                            } else {
+                                resolve(vehicule);
+                            }
+                        });
                 });
             }
-
-            resolve(_vehicule);
         } catch (err) {
             reject(err);
         }
@@ -455,7 +466,7 @@ async function saveDevi(devi) {
             if (_devi == undefined) {
                 //-- insert
                 database.serialize(() => {
-                    database.run("INSERT INTO devis ( client_id , vehicule_id , date , expiration) VALUES ( ? , ? , ? , ?)", [devi.client_id, devi.vehicule_id, devi.date, devi.expiration], function (err) {
+                    database.run("INSERT INTO devis ( client_id , vehicule_id , date , expiration , total ) VALUES ( ? , ? , ? , ? , ? )", [devi.client_id, devi.vehicule_id, devi.date, devi.expiration, devi.total], function (err) {
                         if (err) {
                             reject(err);
                         } else {
@@ -524,6 +535,20 @@ async function getAllProducts() {
     });
 }
 
+async function getProductById(id) {
+    return new Promise((resolve, reject) => {
+        database.serialize(() => {
+            database.all("SELECT * FROM produits WHERE id LIKE ?", [id], (err, row) => {
+                if (err) {
+                    reject(err);
+                } else {
+                    resolve(row[0] || {});
+                }
+            });
+        });
+    });
+}
+
 async function saveProduct(product) {
     return new Promise(async (resolve, reject) => {
         try {
@@ -562,6 +587,20 @@ async function saveDevisProduct(deviProduct) {
     });
 }
 
+async function getDeviProduitsByDeviId(devisId) {
+    return new Promise((resolve, reject) => {
+        database.serialize(() => {
+            database.all("SELECT * FROM devis_produits WHERE devis_id LIKE ?", [devisId], (err, row) => {
+                if (err) {
+                    reject(err);
+                } else {
+                    resolve(row);
+                }
+            });
+        });
+    });
+}
+
 module.exports = {
     setdbPath,
     getAllFactures,
@@ -595,7 +634,10 @@ module.exports = {
     saveCategorie,
 
     getAllProducts,
+    getProductById,
     saveProduct,
 
     saveDevisProduct,
+
+    getDeviProduitsByDeviId,
 }
