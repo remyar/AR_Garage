@@ -1,8 +1,16 @@
 import createAction from '../../middleware/actions';
+import { ipcRenderer } from 'electron';
 
-export async function getDevisFromNumber(devis_number = "1", { extra, getState }) {
+export async function getDevisFromNumber(devis_id = "1", { extra, getState }) {
     try {
-        const state = getState();
+
+        let devi = ipcRenderer.sendSync("database.getDeviById" , devis_id);
+        let client = ipcRenderer.sendSync("database.getClientById" , devi.client_id);
+
+        devi.client = client;
+        
+        console.log(devi);
+       /* const state = getState();
         let devis = state.devis;
         let devi = devis.filter((el) => el.devis_number == devis_number)[0];
 
@@ -12,7 +20,7 @@ export async function getDevisFromNumber(devis_number = "1", { extra, getState }
         }
 
         devi.products = devi.products.filter((el) => el != undefined);
-
+*/
         return { devi: devi }
         
     } catch (err) {

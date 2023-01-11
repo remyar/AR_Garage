@@ -9,7 +9,7 @@ import allMarques from './all.marques';
 import productsFromVehicule from './product.from.vehicule';
 import allDevis from './all.devis';
 import allFactures from './all.factures';
-import devisFromNumber from './devis.from.number';
+import devisFromId from './devis.from.id';
 import lastDevisNumber from './last.devis.number';
 import factureFromNumber from './facture.from.number';
 import settings from './get.settings';
@@ -26,7 +26,7 @@ export default {
     productsFromVehicule,
     allDevis,
     allFactures,
-    devisFromNumber,
+    devisFromId,
     factureFromNumber,
     lastDevisNumber,
     allServices,

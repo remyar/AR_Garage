@@ -37,14 +37,14 @@ function DevisDisplayPage(props) {
     let params = useParams();
 
     const intl = props.intl;
-    const devis_number = params?.devis_number ? params?.devis_number : 0;
+    const devis_id = params?.id ? params?.id : 0;
 
     const [devis, setDevis] = useState({});
     const [displayLoader, setDisplayLoader] = useState(true);
 
     async function fetchData() {
         try {
-            let result = await props.dispatch(actions.get.devisFromNumber(devis_number));
+            let result = await props.dispatch(actions.get.devisFromId(devis_id));
             setDevis(result.devi);
         } catch (err) {
             props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
@@ -97,13 +97,13 @@ function DevisDisplayPage(props) {
     return <Box sx={{ paddingBottom: '25px' }}>
         <Loader display={displayLoader} />
 
-        {devis?.devis_number && <Grid container spacing={2}>
+        {devis?.id && <Grid container spacing={2}>
             <Grid item xs={12} sx={{ textAlign: 'center' }}>
                 <Typography variant="h6" gutterBottom component="div"><b>{intl.formatMessage({ id: 'devis.number' }) + " " + devis?.devis_number}</b></Typography>
             </Grid>
         </Grid>}
 
-        {devis?.devis_number && <Grid container spacing={2} sx={{ paddingTop: '25px' }}>
+        {devis?.id && <Grid container spacing={2} sx={{ paddingTop: '25px' }}>
             <Grid item xs={6}>
                 <Grid container spacing={2}>
                     <Grid item xs={12}>

@@ -108,6 +108,11 @@ module.exports = {
             event.returnValue = result;
         });
 
+        ipcMain.on('database.getDeviById', async (event, value) => {
+            let result = await database.getDeviById(value);
+            event.returnValue = result;
+        });
+
         ipcMain.on('database.saveDevi', async (event, value) => {
             let result = await database.saveDevi(value);
             event.returnValue = result;

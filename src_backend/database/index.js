@@ -433,6 +433,20 @@ async function getAllDevis() {
     });
 }
 
+async function getDeviById(id) {
+    return new Promise((resolve, reject) => {
+        database.serialize(() => {
+            database.all("SELECT * FROM devis WHERE id LIKE ?",[id], (err, row) => {
+                if (err) {
+                    reject(err);
+                } else {
+                    resolve(row[0] || {});
+                }
+            });
+        });
+    });
+}
+
 async function saveDevi(devi) {
     return new Promise(async (resolve, reject) => {
         try {
@@ -478,14 +492,12 @@ async function saveCategorie(categorie) {
             let _categorie = _categories.find((el) => el.id == categorie.id);
             if (_categorie == undefined) {
                 database.serialize(() => {
-                    database.run("INSERT INTO categories ( nom , parent_id) VALUES ( ? , ? )",
-                        [
-                            categorie.nom,
-                            categorie.parent_id
-                        ]);
+                    database.run("INSERT INTO categories ( nom , parent_id) VALUES ( ? , ? )",[ categorie.nom,categorie.parent_id] , function (err ) {
+                        categorie.id = this.lastID;
+                        resolve(categorie);
+                    });
                 });
             }
-            resolve(categorie);
         } catch (err) {
             reject(err);
         }
@@ -518,6 +530,7 @@ module.exports = {
     saveVehicule,
 
     getAllDevis,
+    getDeviById,
     saveDevi,
 
     getAllCategories,

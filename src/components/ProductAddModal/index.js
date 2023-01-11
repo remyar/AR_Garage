@@ -32,9 +32,9 @@ function ProductAddModal(props) {
 
     const [selectedCategorie, setSelectedCategorie] = useState(categories[0]);
     const [displayModalAddMarque, setDisplayModalAddMarque] = useState(false);
+    const [displayModalAddCategorieParent, setDisplayModalAddCategorieParent] = useState(false);
     const [displayModalAddCategorie, setDisplayModalAddCategorie] = useState(false);
 
-    
 
     const [marques, setMarques] = useState([]);
 
@@ -51,13 +51,21 @@ function ProductAddModal(props) {
         fetchData();
     }, []);
 
+    let _c = categories.find((el) => el?.id == selectedCategorie?.id);
+                                           
+    let subCat = categories?.map((_v, idx) => {
+        if (_v?.parent_id == _c?.id) {
+            return _v;
+        }
+    }).filter((f) => f != undefined)
+
     let initialValues = {
         brand: '',
         name: '',
         ref_fab: '',
         ref_oem: '',
         categorie_id: 0,
-        assemblyGroupNodeId: 0,
+        subcategorie_id: subCat[0]?.id,
         prix_achat: '',
         prix_vente: '',
     }
@@ -125,26 +133,43 @@ function ProductAddModal(props) {
                             }}
                         />}
 
-                        {displayModalAddCategorie && <InputTextModal
-                            display={displayModalAddCategorie ? true : false}
+                        {displayModalAddCategorieParent && <InputTextModal
+                            display={displayModalAddCategorieParent ? true : false}
                             title={intl.formatMessage({ id: 'categorie.add' })}
                             label={intl.formatMessage({ id: 'categorie.label' })}
                             onClose={() => {
-                                setDisplayModalAddCategorie(false);
+                                setDisplayModalAddCategorieParent(false);
                             }}
                             onValidate={async (value) => {
-                                setDisplayModalAddCategorie(false);
+                                setDisplayModalAddCategorieParent(false);
                                 try {
-                                    await props.dispatch(actions.set.newCategorie({ nom: value.toUpperCase() , parent_id : undefined }));
+                                    let result = await props.dispatch(actions.set.newCategorie({ nom: value.toUpperCase(), parent_id: undefined }));
                                     await fetchData();
-                                    setFieldValue("categorie_id", value || "");
+                                    setFieldValue("categorie_id", result?.categorie?.id);
                                 } catch (err) {
 
                                 }
                             }}
                         />}
 
+                        {displayModalAddCategorie && <InputTextModal
+                            display={displayModalAddCategorie ? true : false}
+                            title={intl.formatMessage({ id: 'subcategorie.add' })}
+                            label={intl.formatMessage({ id: 'subcategorie.label' })}
+                            onClose={() => {
+                                setDisplayModalAddCategorie(false);
+                            }}
+                            onValidate={async (value) => {
+                                setDisplayModalAddCategorie(false);
+                                try {
+                                    let result = await props.dispatch(actions.set.newCategorie({ nom: value.toUpperCase(), parent_id: selectedCategorie?.id }));
+                                    await fetchData();
+                                    setFieldValue("subcategorie_id", result?.categorie?.id);
+                                } catch (err) {
 
+                                }
+                            }}
+                        />}
 
                         <Grid container spacing={2}>
                             <Grid item xs={12} sx={{ textAlign: 'center' }}>
@@ -185,16 +210,23 @@ function ProductAddModal(props) {
                         <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
                             <Grid item xs={5} >
                                 <FormControl fullWidth>
-                                    <InputLabel id="demo-simple-select-label">Catégorie</InputLabel>
+                                    <InputLabel id="demo-simple-select-label">{intl.formatMessage({ id: 'categorie.title' })}</InputLabel>
                                     <Select
                                         labelId="demo-simple-select-label"
                                         label="Catégorie"
                                         name="categorie_id"
                                         onChange={(event) => {
-                                            let _c = categories.find((el) => el?.parent_id == undefined);
+                                            let _c = categories.find((el) => el?.id == event.target.value);
+                                           
+                                            let subCat = categories?.map((_v, idx) => {
+                                                if (_v?.parent_id == _c?.id) {
+                                                    return _v;
+                                                }
+                                            }).filter((f) => f != undefined)
+                                            setFieldValue("subcategorie_id", subCat[0]?.id);
                                             setSelectedCategorie(_c);
                                         }}
-                                        value={selectedCategorie?.id}
+                                        value={values?.categorie_id}
                                     >
                                         {categories?.map((_v, idx) => {
                                             if (_v?.parent_id == undefined) {
@@ -206,45 +238,37 @@ function ProductAddModal(props) {
                             </Grid>
                             <Grid item xs={1} sx={{ marginTop: 'auto', marginBottom: 'auto', textAlign: "center", paddingLeft: '0px' }}>
                                 <AddIcon sx={{ marginTop: '5px', cursor: 'pointer', color: 'green' }} onClick={() => {
-                                    setDisplayModalAddCategorie(true);
+                                    setDisplayModalAddCategorieParent(true);
                                 }} />
                             </Grid>
-                            <Grid item xs={6} >
+                            <Grid item xs={5} >
                                 <FormControl fullWidth>
-                                    <InputLabel id="demo-simple-select-label">Sous-Catégorie</InputLabel>
+                                    <InputLabel id="demo-simple-select-label">{intl.formatMessage({ id: 'subCategorie.title' })}</InputLabel>
                                     <Select
                                         labelId="demo-simple-select-label"
                                         label="Sous-Catégorie"
-                                        name="assemblyGroupNodeId"
+                                        name="subcategorie_id"
                                         onChange={handleChange}
-                                        value={values.id}
+                                        value={values?.subcategorie_id}
                                     >
                                         {(() => {
                                             let subCat = [];
-                                            /*  if (selectedCategorie.hasChilds == true) {
-                                                  categories.map((c) => {
-                                                      return c.parentNodeId == selectedCategorie.assemblyGroupNodeId ? c : undefined;
-                                                  }).filter((el) => el != undefined).map((_v, idx) => {
-                                                      if (_v.hasChilds) {
-                                                          let _name = _v.assemblyGroupName;
-                                                          categories.map((c) => {
-                                                              return c.parentNodeId == _v.assemblyGroupNodeId ? c : undefined;
-                                                          }).filter((el) => el != undefined).map((__v) => {
-                                                              let __cat = subCat.find((f) => f.assemblyGroupNodeId == __v.assemblyGroupNodeId);
-                                                              if (__cat == undefined) {
-                                                                  let name = _name + " => " + __v.assemblyGroupName;
-                                                                  subCat.push({ ...__v, assemblyGroupName: name });
-                                                              }
-                                                          });
-                                                      } else {
-                                                          subCat.push(_v);
-                                                      }
-                                                  })
-                                              }*/
-                                            return subCat.map((_v) => <MenuItem key={"sub_categories_" + _v?.id} value={_v?.id}>{_v?.nom}</MenuItem>);
+
+                                            subCat = categories?.map((_v, idx) => {
+                                                if (_v?.parent_id == selectedCategorie?.id) {
+                                                    return _v;
+                                                }
+                                            }).filter((f) => f != undefined)
+
+                                            return subCat.map((_v) => <MenuItem key={"subcategorie_id_" + _v?.id} value={_v?.id}>{_v?.nom}</MenuItem>);
                                         })()}
                                     </Select>
                                 </FormControl>
+                            </Grid>
+                            <Grid item xs={1} sx={{ marginTop: 'auto', marginBottom: 'auto', textAlign: "center", paddingLeft: '0px' }}>
+                                <AddIcon sx={{ marginTop: '5px', cursor: 'pointer', color: 'green' }} onClick={() => {
+                                    setDisplayModalAddCategorie(true);
+                                }} />
                             </Grid>
                         </Grid>
 

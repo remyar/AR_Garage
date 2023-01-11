@@ -68,7 +68,7 @@ function DevisPage(props) {
             emission: (el.emission ? new Date(el.emission) : new Date()).toLocaleDateString(),
             expiration: (el.expiration ? new Date(el.expiration) : new Date()).toLocaleDateString(),
             onClick: () => {
-                props.navigation.push(routeMdw.urlDevisDisplay(el.devis_number));
+                props.navigation.push(routeMdw.urlDevisDisplay(el?.id));
             },
             sx: {
                 cursor: 'pointer'

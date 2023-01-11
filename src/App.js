@@ -37,7 +37,7 @@ const routes = [
     { path: routeMdw.urlDevis(), name: 'devisPage', Component: <DevisPage /> },
     { path: routeMdw.urlCatalog(), name: 'catalogPage', Component: <CatalogPage /> },
     { path: routeMdw.urlDevisCreate(), name: 'devisPage', Component: <DevisCreatePage /> },
-    { path: routeMdw.urlDevisDisplay(':devis_number'), name: 'devisPage', Component: <DevisDisplayPage /> },
+    { path: routeMdw.urlDevisDisplay(':id'), name: 'devisPage', Component: <DevisDisplayPage /> },
     { path: routeMdw.urlBillings(), name: 'devisPage', Component: <BillingsPage /> },
     { path: routeMdw.urlBillingDisplay(':facture_number'), name: 'devisPage', Component: <BillingDisplayPage /> },
     { path: routeMdw.urlSettings(), name: 'settingsPage', Component: <SettingsPage /> },
