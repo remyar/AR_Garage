@@ -109,7 +109,14 @@ async function saveEntrepriseSettings(settings) {
                             settings.siret,
                             settings.telephone,
                             settings.rcs,
-                        ]);
+                        ], function (err) {
+                            if (err) {
+                                reject(err);
+                            } else {
+                                settings.id = this.lastID;
+                                resolve(settings);
+                            }
+                        });
                 });
             } else {
                 //-- update
@@ -125,11 +132,16 @@ async function saveEntrepriseSettings(settings) {
                         settings.telephone,
                         settings.rcs,
                         settingsEntreprise.id
-                    ]);
+                    ], function (err) {
+                        if (err) {
+                            reject(err);
+                        } else {
+                            settingsEntreprise = { ...settingsEntreprise, ...settings };
+                            resolve(settingsEntreprise);
+                        }
+                    });
                 });
             }
-
-            resolve(settings);
         } catch (err) {
             reject(err);
         }
@@ -167,7 +179,14 @@ async function savePaiementSettings(settings) {
                             settings.nom,
                             settings.iban,
                             settings.order,
-                        ]);
+                        ], function (err) {
+                            if (err) {
+                                reject(err);
+                            } else {
+                                settings.id = this.lastID;
+                                resolve(settings);
+                            }
+                        });
                 });
             } else {
                 //-- update
@@ -177,11 +196,16 @@ async function savePaiementSettings(settings) {
                         settings.iban,
                         settings.order,
                         settingsPaiement.id
-                    ]);
+                    ], function (err) {
+                        if (err) {
+                            reject(err);
+                        } else {
+                            settingsPaiement = { ...settingsPaiement, ...settings };
+                            resolve(settingsPaiement);
+                        }
+                    });
                 });
             }
-
-            resolve(settings);
         } catch (err) {
             reject(err);
         }
@@ -212,7 +236,14 @@ async function saveLogoSettings(settings) {
                     database.run("INSERT INTO settings_logo (logo ) VALUES (?)",
                         [
                             settings
-                        ]);
+                        ], function (err) {
+                            if (err) {
+                                reject(err);
+                            } else {
+                                settings.id = this.lastID;
+                                resolve(settings);
+                            }
+                        });
                 });
             } else {
                 //-- update
@@ -220,7 +251,14 @@ async function saveLogoSettings(settings) {
                     database.run("UPDATE settings_logo SET logo=? WHERE id=?", [
                         settings,
                         settingsLogo.id
-                    ]);
+                    ], function (err) {
+                        if (err) {
+                            reject(err);
+                        } else {
+                            settingsLogo = { ...settingsLogo, ...settings };
+                            resolve(settingsLogo);
+                        }
+                    });
                 });
             }
 
@@ -622,9 +660,27 @@ async function saveProduct(product) {
             if (_produit == undefined) {
                 database.serialize(() => {
                     database.run("INSERT INTO produits ( nom , marque , ref_fab , ref_oem , prix_achat , prix_vente , categorie_id , subcategorie_id ) VALUES ( ? , ? , ? , ? , ? , ? , ? , ?)", [product.nom, product.marque, product.ref_fab, product.ref_oem, product.prix_achat, product.prix_vente, product.categorie_id, product.subcategorie_id], function (err) {
-                        product.id = this.lastID;
-                        resolve(product);
+                        if (err) {
+                            reject(err);
+                        } else {
+                            product.id = this.lastID;
+                            resolve(product);
+                        }
                     });
+                });
+            } else {
+                database.serialize(() => {
+                    database.run("UPDATE produits SET nom=? , marque=? , ref_fab=? , ref_oem=? , prix_achat=? , prix_vente=? , categorie_id=? , subcategorie_id=? WHERE id=?",
+                        [
+                            product.nom, product.marque, product.ref_fab, product.ref_oem, product.prix_achat, product.prix_vente, product.categorie_id, product.subcategorie_id,
+                            _produit.id
+                        ], function (err) {
+                            if (err) {
+                                reject(err);
+                            } else {
+                                resolve(product);
+                            }
+                        });
                 });
             }
         } catch (err) {
@@ -652,7 +708,7 @@ async function saveDevisProduct(deviProduct) {
     });
 }
 
-async function saveFacturesProduct(factureProduct){
+async function saveFacturesProduct(factureProduct) {
     return new Promise(async (resolve, reject) => {
         try {
             database.serialize(() => {
@@ -668,7 +724,7 @@ async function saveFacturesProduct(factureProduct){
         } catch (err) {
             reject(err);
         }
-    });  
+    });
 }
 
 async function saveDevisService(deviService) {
