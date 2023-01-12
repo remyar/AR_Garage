@@ -1,7 +1,11 @@
 import createAction from '../../middleware/actions';
+import { ipcRenderer } from 'electron';
 
 export async function devisToBilling(devis = {}, { extra, getState }) {
     try {
+        let facture = ipcRenderer.sendSync("database.getAllServices");
+
+        /*
         const state = getState();
         let factures = state.factures;
 
@@ -18,8 +22,8 @@ export async function devisToBilling(devis = {}, { extra, getState }) {
             facture_number: calcFactureNumber + 1,
             date: new Date().getTime()
         });
-
-        return { factures: factures };
+*/
+        return { facture : facture };
     } catch (err) {
         throw { message: err.message };
     }

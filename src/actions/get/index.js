@@ -11,7 +11,7 @@ import allDevis from './all.devis';
 import allFactures from './all.factures';
 import devisFromId from './devis.from.id';
 import lastDevisNumber from './last.devis.number';
-import factureFromNumber from './facture.from.number';
+import factureFromId from './facture.from.id';
 import settings from './get.settings';
 import allTechnicsByBrandAndEngineCode from "./all.technics.by.brand.and.engine.code";
 
@@ -27,7 +27,7 @@ export default {
     allDevis,
     allFactures,
     devisFromId,
-    factureFromNumber,
+    factureFromId,
     lastDevisNumber,
     allServices,
     settings,

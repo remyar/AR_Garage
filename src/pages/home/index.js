@@ -61,7 +61,7 @@ function HomePage(props) {
     let ca = {};
     let caTotal = 0;
 
-    factures.forEach((_f) => {
+    factures?.forEach((_f) => {
         let year = new Date(_f.date).getFullYear();
         let month = new Date(_f.date).getMonth();
 
@@ -74,13 +74,13 @@ function HomePage(props) {
                 }
             }
 
-            _f.products.forEach((_p) => {
-                caTotal += (parseFloat(_p.prix_vente) * parseFloat(_p.quantity));
+            _f?.products?.forEach((_p) => {
+                caTotal += (parseFloat(_p.prix_vente || 0) * parseFloat(_p.quantite || 0));
 
-                if (_p.isService) {
-                    ca[year].service[month] += (parseFloat(_p.prix_vente) * parseFloat(_p.quantity));
+                if (_p.isService == true) {
+                    ca[year].service[month] += (parseFloat(_p.prix_vente || 0) * parseFloat(_p.quantite || 0));
                 } else {
-                    ca[year].product[month] += (parseFloat(_p.prix_vente) * parseFloat(_p.quantity));
+                    ca[year].product[month] += (parseFloat(_p.prix_vente || 0) * parseFloat(_p.quantite || 0));
                 }
             });
         }

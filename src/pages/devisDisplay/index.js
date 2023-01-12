@@ -47,7 +47,7 @@ function DevisDisplayPage(props) {
             let result = await props.dispatch(actions.get.devisFromId(devis_id));
             setDevis(result.devi);
         } catch (err) {
-            props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
+            props.snackbar.error('fetch.error');
         } finally {
             setDisplayLoader(false);
         }
@@ -75,7 +75,7 @@ function DevisDisplayPage(props) {
         let tarif_total = parseFloat(line.quantite.toString()) * parseFloat(line.prix_vente.toString());
         devis_total += tarif_total;
         let tarif_vente = parseFloat(line.prix_vente.toString()).toFixed(2) + ' €';
-        return { ...line, name: ((line.marque ? line.marque : '') + ' - ' + (line.nom ? line.nom : line.commentaire ? line.commentaire : ' ')).trim(), info: '', qty: line.quantite, tarif_vente, tarif_total: tarif_total.toFixed(2) + ' €' };
+        return { ...line, name: ((line.marque ? (line.marque + ' -') : '') + ' ' + (line.nom ? line.nom : line.commentaire ? line.commentaire : ' ')).trim(), info: '', qty: line.quantite, tarif_vente, tarif_total: tarif_total.toFixed(2) + ' €' };
     });
 
     rows && rows.push({
@@ -132,7 +132,7 @@ function DevisDisplayPage(props) {
                 <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
                     <Grid item xs={12}>
                         <TextField label="Véhicule" disabled variant="outlined" sx={{ width: "100%", textAlign: "left" }} multiline maxRows='3' minRows='3'
-                            value={devis?.vehicule?.designation + "\r\n\r\n" + devis?.vehicule?.vin} 
+                            value={devis?.vehicule?.designation + "\r\n\r\n" + devis?.vehicule?.vin}
                         />
                     </Grid>
                 </Grid>
@@ -173,8 +173,8 @@ function DevisDisplayPage(props) {
                 icon={<CreditScoreIcon />}
                 tooltipTitle={intl.formatMessage({ id: 'devis.convert.to.billing' })}
                 onClick={async () => {
-                    await props.dispatch(actions.put.devis(devis));
-                    props.snackbar.success(intl.formatMessage({ id: 'devis.convert.to.billing.success' }));
+                    await props.dispatch(actions.set.saveFacture(devis));
+                    props.snackbar.success('devis.convert.to.billing.success');
                 }}
             />
         </SpeedDial>

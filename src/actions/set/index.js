@@ -5,6 +5,7 @@ import newService from "./new.service";
 import newMarque from "./new.marque";
 import oemProduct from "./oem.product";
 import saveDevis from "./save.devis";
+import saveFacture from "./save.facture";
 import saveEntrepriseSettings from "./save.entreprise.settings";
 import savePaiementSettings from "./save.paiement.settings";
 import saveEntrepriseLogo from "./save.entreprise.logo";
@@ -19,6 +20,7 @@ export default {
     oemProduct,
     newService,
     saveDevis,
+    saveFacture,
     saveEntrepriseSettings,
     savePaiementSettings,
     saveEntrepriseLogo,

@@ -53,8 +53,8 @@ function ServicesPage(props) {
     }, []);
 
     const headers = [
-        { id: 'ref', label: 'Référence', minWidth: 100 },
-        { id: 'commentaire', label: 'Désignation', minWidth: 100 },
+        { id: 'ref_fab', label: 'Référence', minWidth: 100 },
+        { id: 'nom', label: 'Désignation', minWidth: 100 },
         /*{
             id: 'prix_vente', label: "Prix vente", minWidth: 100, render: (value) => {
                 return '' + parseFloat(value.prix_vente.replace(',', '.')).toFixed(2) + ' €';

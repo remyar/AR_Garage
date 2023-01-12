@@ -45,6 +45,7 @@
     "products.delete": "Supprimer un produit",
     "devis.add": "Créer un devis",
     "devis.save": "Enregistrer le devis",
+    "devis.save.success": "Devis sauvegardé",
     "devis.number": "Devis N°",
     "devis.convert.to.billing": "Générer une facture",
     "devis.convert.to.billing.success": "Génération réalisée",
@@ -94,5 +95,10 @@
     "product.productDesignationSupp": "Désignation",
     "product.status": "Status",
     "product.gtin_ean": "EAN",
-    "product.quantityPerPackage": "Quantitée par lot"
+    "product.quantityPerPackage": "Quantitée par lot",
+    "categorie.title" : "Catégorie",
+    "subCategorie.title" : "Sous catégorie",
+    "service.add" : "Ajouter un service / main d'oeuvre",
+    "devis.add.service" : "Ajouter un service / main d'oeuvre",
+    "devis.select.service" : "Selectionner un service / main d'oeuvre"
 }

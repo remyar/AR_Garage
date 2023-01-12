@@ -33,17 +33,17 @@ function BillingsDisplayPage(props) {
     let params = useParams();
 
     const intl = props.intl;
-    const facture_number = params?.facture_number ? params?.facture_number : 0;
+    const facture_number = params?.id ? params?.id : 0;
 
     const [facture, setFacture] = useState({});
     const [displayLoader, setDisplayLoader] = useState(true);
 
     async function fetchData() {
         try {
-            let result = await props.dispatch(actions.get.factureFromNumber(facture_number));
+            let result = await props.dispatch(actions.get.factureFromId(facture_number));
             setFacture(result.facture);
         } catch (err) {
-            props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
+            props.snackbar.error('fetch.error');
         } finally {
             setDisplayLoader(false);
         }
@@ -68,10 +68,10 @@ function BillingsDisplayPage(props) {
         if (line.ref) {
             line.ref_fab = line.ref;
         }
-        let tarif_total = parseFloat(line.quantity.toString()) * parseFloat(line.prix_vente.toString());
+        let tarif_total = parseFloat(line?.quantite?.toString()) * parseFloat(line?.prix_vente?.toString());
         devis_total += tarif_total;
         let tarif_vente = parseFloat(line.prix_vente.toString()).toFixed(2) + ' €';
-        return { ...line, name: ((line.brand ? line.brand : '') + ' ' + (line.name ? line.name : line.commentaire ? line.commentaire : ' ')).trim(), info: '', qty: line.quantity, tarif_vente, tarif_total: tarif_total.toFixed(2) + ' €' };
+        return { ...line, name: ((line.marque ? line.marque : '') + ' ' + (line.nom ? line.nom : line.commentaire ? line.commentaire : ' ')).trim(), info: '', qty: line.quantite, tarif_vente, tarif_total: tarif_total.toFixed(2) + ' €' };
     });
 
     rows && rows.push({
@@ -93,13 +93,13 @@ function BillingsDisplayPage(props) {
     return <Box sx={{ paddingBottom: '25px' }}>
         <Loader display={displayLoader} />
 
-        {facture?.facture_number && <Grid container spacing={2}>
+        {facture?.id && <Grid container spacing={2}>
             <Grid item xs={12} sx={{ textAlign: 'center' }}>
-                <Typography variant="h6" gutterBottom component="div"><b>{intl.formatMessage({ id: 'billing.number' }) + " " + facture?.facture_number}</b></Typography>
+                <Typography variant="h6" gutterBottom component="div"><b>{intl.formatMessage({ id: 'billing.number' }) + " " + facture?.id}</b></Typography>
             </Grid>
         </Grid>}
 
-        {facture?.facture_number && <Grid container spacing={2} sx={{ paddingTop: '25px' }}>
+        {facture?.id && <Grid container spacing={2} sx={{ paddingTop: '25px' }}>
             <Grid item xs={6}>
                 <Grid container spacing={2}>
                     <Grid item xs={12}>

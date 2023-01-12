@@ -34,7 +34,7 @@ export async function facture(devis, printAndSave, { extra, getState }) {
         pdf.setFontSize(16);
         pdf.setTextColor("#97a3b5");
         pdf.setFont("roboto", "bold");
-        _pushText("Facture n° " + devis.facture_number, pdf.internal.pageSize.getWidth() - 200);
+        _pushText("Facture n° " + devis.id, pdf.internal.pageSize.getWidth() - 200);
 
         _addLine();
         _addLine();
@@ -89,7 +89,7 @@ export async function facture(devis, printAndSave, { extra, getState }) {
         _addLine();
         _pushText((devis?.client?.code_postal || "") + " " + (devis?.client?.ville || ""), (pdf.internal.pageSize.getWidth() / 2));
         _addLine();
-        _pushText(devis?.client?.telephone &&  "Télèphone : " + (devis?.client?.telephone || ""), (pdf.internal.pageSize.getWidth() / 2));
+        _pushText(devis?.client?.telephone && "Télèphone : " + (devis?.client?.telephone || ""), (pdf.internal.pageSize.getWidth() / 2));
         _addLine();
         _pushText(devis?.client?.email && ("mail : " + (devis?.client?.email || "")), (pdf.internal.pageSize.getWidth() / 2));
 
@@ -133,10 +133,8 @@ export async function facture(devis, printAndSave, { extra, getState }) {
         let rows = [];
         let totalMontant = 0;
         rows = devis.products.map((el, idx) => {
-            totalMontant += (parseFloat(el.prix_vente) * parseFloat(el.quantity));
-            return { ...el, num_line: idx + 1, brand_name: ((el.brand ? el.brand : '') + ' ' + (el.name ? el.name : el.commentaire ? el.commentaire : ' ')).trim(), prix_vente: el.prix_vente + " €", prix_total: (parseFloat(el.prix_vente) * parseFloat(el.quantity)).toFixed(2) + ' €' };
-
-            // return { ...el, num_line: idx + 1, brand_name: el.brand + " - " + el.name, prix_vente : el.prix_vente + " €", prix_total: (parseFloat(el.prix_vente) * parseFloat(el.quantity)).toFixed(2) + ' €' };
+            totalMontant += (parseFloat(el.prix_vente) * parseFloat(el.quantite));
+            return { ...el, num_line: idx + 1, brand_name: ((el.marque ? el.marque : '') + ' ' + (el.nom ? el.nom : el.commentaire ? el.commentaire : ' ')).trim(), prix_vente: el.prix_vente + " €", prix_total: (parseFloat(el.prix_vente) * parseFloat(el.quantite)).toFixed(2) + ' €' };
         });
 
         pdf.autoTable(_getColumns(), rows, {
@@ -147,29 +145,6 @@ export async function facture(devis, printAndSave, { extra, getState }) {
             showHeader: 'firstPage',
             margin: { top: 10, left: 30, right: 30 },
             startY: lineOffset,
-            /* drawRow: function (row, data) {
- 
-                 // let row = data.row;
- 
-                 pdf.setFont("roboto");
-                 pdf.setFontStyle('bold');
-                 pdf.setFontSize(10);
- 
-                 if (row.raw.length > 0) {
-                     // Colspan
-                     pdf.setTextColor(200, 0, 0);
-                     //pdf.rect(data.settings.margin.left, row.y, data.table.width, 20, 'S');
-                     pdf.autoTableText(row.raw[0], data.settings.margin.left, row.y + (row.height / 2), {
-                         halign: 'left',
-                         valign: 'middle',
-                     });
-                     data.cursor.y += row.height;
-                     return false;
-                 }
-             },
-             drawCell: function (cell, data) {
- 
-             }*/
         });
 
 
@@ -234,7 +209,7 @@ export async function facture(devis, printAndSave, { extra, getState }) {
         //   pdf.autoPrint({ variant: 'non-conform' });  // <<--------------------- !!
         //     pdf.output("dataurlnewwindow");
         // } else {
-        await pdf.save('Test.pdf', { returnPromise: true });
+        await pdf.save('Facture_' + devis.id.toString().padStart(5, "0") + '.pdf', { returnPromise: true });
         // }
 
         return {};

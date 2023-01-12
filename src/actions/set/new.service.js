@@ -1,14 +1,10 @@
 import createAction from '../../middleware/actions';
+import { ipcRenderer } from 'electron';
 
 export async function setNewService(value = {}, { extra, getState }) {
-
-    const api = extra.api;
-
     try {
-        let state = getState();
-        let services = state.services;
-        services.push({...value , id : services.length})
-        return { services : services};
+        let service = ipcRenderer.sendSync("database.saveService",value);
+        return { service : service};
     } catch (err) {
         throw { message: err.message };
     }

@@ -12,16 +12,16 @@ import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
 
 const ValidationSchema = Yup.object().shape({
-    ref: Yup.string().required(),
-    commentaire: Yup.string().required(),
+    ref_fab: Yup.string().required(),
+    nom: Yup.string().required(),
 });
 
 function ServiceAddModal(props) {
     const intl = props.intl;
 
     let initialValues = {
-        ref: '',
-        commentaire: '',
+        ref_fab: '',
+        nom: '',
     }
 
     if (props.editService) {
@@ -47,12 +47,12 @@ function ServiceAddModal(props) {
 
                         <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
                             <Grid item xs={12} >
-                                <TextField label="Référence" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="ref" value={values.ref} onChange={handleChange} />
+                                <TextField label="Référence" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="ref_fab" value={values.ref_fab} onChange={handleChange} />
                             </Grid>
                         </Grid>
                         <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
                             <Grid item xs={12} >
-                                <TextField label="commentaire" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="commentaire" value={values.commentaire} onChange={handleChange} />
+                                <TextField label="commentaire" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="nom" value={values.nom} onChange={handleChange} />
                             </Grid>
                         </Grid>
 

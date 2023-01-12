@@ -31,7 +31,7 @@ function DevisAddServiceModal(props) {
                 <Grid item xs={12} sx={{ textAlign: 'center' }}>
                     <Autocomplete
                         disablePortal
-                        getOptionLabel={(option) => option?.ref?.toUpperCase() + ' - ' + option?.commentaire}
+                        getOptionLabel={(option) => option?.ref_fab?.toUpperCase() + ' - ' + option?.nom}
                         options={products}
                         onChange={(event, value) => { setProduct(value) }}
                         renderInput={(params, option) => <TextField name="brand" {...params} label={intl.formatMessage({ id: 'devis.select.service' })} variant="outlined" sx={{ width: "100%", textAlign: "center" }} />}

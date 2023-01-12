@@ -1,42 +1,46 @@
 import createAction from '../../middleware/actions';
 import { ipcRenderer } from 'electron';
 
-export async function saveDevis(value = {}, { extra, getState }) {
+export async function saveFacture(value = {}, { extra, getState }) {
     try {
 
-        let totalDevis = 0;
+        let totalFacture = 0;
         value.products.forEach(async (element) => {
-            totalDevis += element.prix_vente * element.quantity;
+            totalFacture += element.prix_vente * element.quantite;
         });
 
-        let devis = ipcRenderer.sendSync("database.saveDevi", { ...value, total: totalDevis });
+        let _facture = { ...value , total : totalFacture};
+        delete _facture.id;
+
+        let facture = ipcRenderer.sendSync("database.saveFacture", _facture);
 
         let services = value.products.map((el) => { if (el.isService == true) return el }).filter((el) => el != undefined);
         let products = value.products.map((el) => { if (el.isService == undefined || el.isService == false) return el }).filter((el) => el != undefined);
 
         products.forEach(async (element) => {
             let _product = {
-                devis_id: devis.id,
+                factures_id: facture.id,
                 produit_id: element.id,
-                quantite: element.quantity
+                quantite: element.quantite
             }
-            let temp = await ipcRenderer.sendSync("database.saveDevisProduct", _product)
+            let temp = await ipcRenderer.sendSync("database.saveFacturesProduct", _product)
         });
 
         services.forEach(async (element) => {
             let _service = {
-                devis_id: devis.id,
+                factures_id: facture.id,
                 service_id: element.id,
-                quantite: element.quantity,
+                quantite: element.quantite,
                 prix_vente: element.prix_vente
             }
-            let temp = await ipcRenderer.sendSync("database.saveDevisService", _service)
+            let temp = await ipcRenderer.sendSync("database.saveFacturesService", _service)
         });
 
-        return { devis: devis }
+        return { facture: facture }
+
     } catch (err) {
-        throw { message: err.message };
+
     }
 }
 
-export default createAction(saveDevis);
+export default createAction(saveFacture);

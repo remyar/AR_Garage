@@ -47,21 +47,17 @@ function Billingspage(props) {
     ];
 
     let rows = factures.map((el) => {
-        let total = 0;
-        el.products.forEach((_p) => {
-            total += _p.prix_vente * _p.quantity;
-        });
 
         return {
-            facture_number: el.facture_number,
+            facture_number: el.id,
             plate: el?.vehicule?.plate || "",
             kilometrage: el.kilometrage,
-            total: total.toFixed(2) + ' €',
-            client: el.client.nom + ' ' + el.client.prenom,
-            emission: (el.emission ? new Date(el.emission) : new Date()).toLocaleDateString(),
-            expiration: (el.expiration ? new Date(el.expiration) : new Date()).toLocaleDateString(),
+            total: el?.total?.toFixed(2) + ' €',
+            client: el?.client?.nom + ' ' + el?.client?.prenom,
+            emission: (el?.emission ? new Date(el?.emission) : new Date()).toLocaleDateString(),
+            expiration: (el?.expiration ? new Date(el?.expiration) : new Date()).toLocaleDateString(),
             onClick: () => {
-                props.navigation.push(routeMdw.urlBillingDisplay(el.facture_number));
+                props.navigation.push(routeMdw.urlBillingDisplay(el.id));
             },
             sx: {
                 cursor: 'pointer'
