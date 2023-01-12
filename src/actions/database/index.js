@@ -1,5 +1,5 @@
-import restore from './restore';
+import restoreFromJSON from './restoreFromJSON';
 
 export default {
-    restore
+    restoreFromJSON
 }

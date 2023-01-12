@@ -271,8 +271,10 @@ function SettingsPage(props) {
                                     const filename = (await props.dispatch(actions.electron.getFilenameForOpen('.json')))?.getFilenameForOpen;
                                     if (filename.canceled == false) {
                                         let fileData = (await props.dispatch(actions.electron.readFile(filename.filePath)))?.fileData;
-                                        await props.dispatch(actions.database.restore(JSON.parse(fileData)));
-                                        props.snackbar.success(intl.formatMessage({ id: 'settings.database.import.success' }));
+                                        if ( filename.filePath.includes(".json") ){
+                                            await props.dispatch(actions.database.restoreFromJSON(JSON.parse(fileData)));
+                                        }
+                                        props.snackbar.success('settings.database.import.success');
                                     }
                                 } catch (err) {
                                     props.snackbar.error(err.message);
