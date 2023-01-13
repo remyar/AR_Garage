@@ -1,4 +1,4 @@
-const sqlite3 = require('sqlite3');
+const sqlite3 = require('sqlite3').verbose();
 
 let database = undefined;
 
@@ -30,6 +30,10 @@ async function createTables() {
             reject(err);
         }
     });
+}
+
+function getDatabase() {
+    return database;
 }
 
 async function setdbPath(path) {
@@ -610,6 +614,24 @@ async function saveCategorie(categorie) {
     });
 }
 
+async function importCategorie(categorie) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            database.serialize(() => {
+                database.run("INSERT INTO categories ( id , nom , parent_id) VALUES (?, ? , ? )", [ categorie.id , categorie.nom, categorie.parent_id], function (err) {
+                    if (err) {
+                        reject(err);
+                    } else {
+                        resolve();
+                    }
+                });
+            });
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
+
 async function getAllProducts() {
     return new Promise((resolve, reject) => {
         database.serialize(() => {
@@ -857,6 +879,7 @@ async function saveService(service) {
 
 module.exports = {
     setdbPath,
+    getDatabase,
 
     getEntrepriseSettings,
     saveEntrepriseSettings,
@@ -885,6 +908,7 @@ module.exports = {
 
     getAllCategories,
     saveCategorie,
+    importCategorie,
 
     getAllProducts,
     getProductById,

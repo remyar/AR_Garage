@@ -9,24 +9,27 @@ module.exports = {
     setMainWindows: async (_mainWindow) => {
         mainWindow = _mainWindow;
     },
-    start: () => {
+    start: async () => {
+        try{
+            await database.setdbPath(isDev ? "./database.sqlite" : path.join(app.getPath("userData"), "database.sqlite"));
 
-        database.setdbPath(isDev ? "./database.sqlite" : path.join(app.getPath("userData"), "database.sqlite"));
-
-        ipcMain.on('OPEN_DEV_TOOLS', (event, value) => {
-            if (value) {
-                mainWindow.webContents.openDevTools();
-            } else {
-                mainWindow.webContents.closeDevTools();
-            }
-        });
-
-        Object.keys(database).forEach((key)=>{
-            console.log(key);
-            ipcMain.on('database.' + key , async (event , value )=>{
-                console.log("cmdkey : " + key);
-                event.returnValue = await database[key](value);
+            ipcMain.on('OPEN_DEV_TOOLS', (event, value) => {
+                if (value) {
+                    mainWindow.webContents.openDevTools();
+                } else {
+                    mainWindow.webContents.closeDevTools();
+                }
             });
-        })
+
+            Object.keys(database).forEach((key)=>{
+                console.log(key);
+                ipcMain.on('database.' + key , async (event , value )=>{
+                    console.log("cmdkey : " + key);
+                    event.returnValue = await database[key](value);
+                });
+            })
+        } catch(err){
+
+        }
     }
 }

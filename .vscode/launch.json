@@ -5,8 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Launch Insert Catégories",
+            "program": "${workspaceFolder}/tools/insert.oscaro.categories.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
             "name": "Launch Generate Catégories",
-            "program": "${workspaceFolder}/tools/extra.oscaro.categories.js",
+            "program": "${workspaceFolder}/tools/extra.oscaro.categories.mjs",
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
