@@ -36,7 +36,7 @@ function CatalogPage(props) {
     async function fetchData() {
         setDisplayLoader(true);
         try {
-            let result = await props.dispatch(actions.tecdoc.getChildNodesAllLinkingTarget(selectedVehicule?.carId));
+            let result = await props.dispatch(actions.oscaro.getAllCategorieFromVehicule(selectedVehicule));
             setCatalog(result.catalog);
         } catch (err) {
             props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
@@ -50,7 +50,7 @@ function CatalogPage(props) {
         fetchData();
     }, []);
 
-    let rows = articles.filter((el) => el.mfrName?.toLowerCase().startsWith(filter?.brand ? filter?.brand?.toLowerCase() : ""));
+    let rows = articles/*articles.filter((el) => el.mfrName?.toLowerCase().startsWith(filter?.brand ? filter?.brand?.toLowerCase() : ""))*/;
 
     return <Box sx={{ paddingBottom: '25px' }}>
         <Loader display={displayLoader} />
@@ -118,11 +118,13 @@ function CatalogPage(props) {
                 <CatalogueTreeView
                     catalog={catalog}
                     onClick={async (c) => {
-                        if (c.hasChilds == false && c.hasArticles == true) {
+                        let hasChild = catalog.find((element)=>element.parent_id == c.oscaroId) ? true : false;
+
+                        if (hasChild == false /*&& c.hasArticles == true*/) {
                             setDisplayLoader(true);
                             setSelectedCategorie(c);
                             try {
-                                let result = await props.dispatch(actions.tecdoc.getArticleIdsWithState(carCatalog.carId, c.assemblyGroupNodeId));
+                                let result = await props.dispatch(actions.oscaro.getArticlesWithState(selectedVehicule.oscaroId, c.oscaroId));
                                 setArticles(result.articlesWithState);
                             } catch (err) {
                                 props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
@@ -141,25 +143,25 @@ function CatalogPage(props) {
                             setDisplayProductDetails(article);
                         }}>
 
-                            <Grid item xs={2}>
+                            <Grid item xs={3}>
                                 {(() => {
-                                    if (article?.images && article?.images[0] && article?.images[0].imageURL100) {
-                                        let thumbNail = article.images[0].imageURL100;
-                                        return <img src={thumbNail} />
+                                    if (article?.images && article?.images[0] /*&& article?.images[0].imageURL100*/) {
+                                        let thumbNail = article.images[0];
+                                        return <img width={200} src={thumbNail} />
                                     } else {
-                                        return <img width={100} src={"/no-image-available.jpg"} />
+                                        return <img width={200} src={"/no-image-available.jpg"} />
                                     }
                                 })()}
                             </Grid>
-                            <Grid item xs={10} sx={{ textAlign: 'left' }}>
-                                <b>{article.mfrName + " - " + article.articleNumber + (article.misc?.additionalDescription ? (" - " + article.misc?.additionalDescription) : "")}</b>
+                            <Grid item xs={9} sx={{ textAlign: 'left' }}>
+                                <b>{article.name}</b>
                                 <br />
-                                {article.genericArticles[0].genericArticleDescription}
+                                {article.genericArticles && article.genericArticles[0].genericArticleDescription}
                                 <Typography variant="caption" display="block" gutterBottom>
                                     {article?.linkages?.map((linkage) => linkage.linkageCriteria?.map((criteria) => " " + criteria.criteriaDescription + " : " + criteria?.formattedValue + " ")).join(",")}
                                 </Typography>
                                 <Typography variant="caption" display="block" gutterBottom>
-                                    {article.articleCriteria.map((criteria) => " " + criteria.criteriaDescription + " : " + criteria.formattedValue + " ").join(",")}
+                                    {article.articleCriteria?.map((criteria) => " " + criteria.criteriaDescription + " : " + criteria.formattedValue + " ").join(",")}
                                 </Typography>
                             </Grid>
                         </Grid>

@@ -40,7 +40,7 @@ function CatalogProductDetails(props) {
                                     <b>{intl.formatMessage({ id: 'product.brand' })}</b>
                                 </Grid>
                                 <Grid item xs={6}>
-                                    {product?.mfrName}
+                                    {product?.marque}
                                 </Grid>
                             </Grid>
                         </ListItem>
@@ -50,7 +50,7 @@ function CatalogProductDetails(props) {
                                     <b>{intl.formatMessage({ id: 'product.productNum' })}</b>
                                 </Grid>
                                 <Grid item xs={6}>
-                                    <b>{product?.articleNumber}</b>
+                                    <b>{product?.mpn}</b>
                                 </Grid>
                             </Grid>
                         </ListItem>
@@ -91,7 +91,7 @@ function CatalogProductDetails(props) {
                         disableDotsControls
                     >
                         {product?.images.map((image, i) => {
-                            return <img key={i} src={image.imageURL400} />
+                            return <img width={400} key={i} src={image} />
                         })}
                     </AliceCarousel>
                 </Grid>
@@ -116,7 +116,7 @@ function CatalogProductDetails(props) {
                                     <b>{intl.formatMessage({ id: 'product.gtin_ean' })}</b>
                                 </Grid>
                                 <Grid item xs={6}>
-                                    {product?.gtins.map((ean) => ean)}
+                                    {/*product?.gtins.map((ean) => ean)*/}
                                 </Grid>
                             </Grid>
                         </ListItem>
@@ -133,7 +133,7 @@ function CatalogProductDetails(props) {
                     </List>
                     <List>
                         <ListItem sx={{ backgroundColor: "#EDEDED" }}><b>Réf. OE</b></ListItem>
-                        {product?.oemNumbers.map((oem) => {
+                        {product?.oemNumbers?.map((oem) => {
                             return <ListItem>
                                 <Grid container spacing={2}>
                                     <Grid item xs={6}>
@@ -150,7 +150,7 @@ function CatalogProductDetails(props) {
                 <Grid item xs={6}>
                     <List>
                         <ListItem sx={{ backgroundColor: "#EDEDED" }}><b>Critéres</b></ListItem>
-                        {product?.articleCriteria.map((critere) => {
+                        {product?.articleCriteria?.map((critere) => {
                             return <ListItem>
                                 <Grid container spacing={2}>
                                     <Grid item xs={6}>

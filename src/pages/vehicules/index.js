@@ -100,10 +100,10 @@ function VehiculesPage(props) {
                         setDisplayVehiculeTechnicModal(row);
                     }} />}
 
-                 {/*   <MenuBookIcon sx={{ cursor: 'pointer', marginLeft: '15px' }} onClick={async () => {
+                    <MenuBookIcon sx={{ cursor: 'pointer', marginLeft: '15px' }} onClick={async () => {
                         await props.dispatch(actions.set.selectedVehicule(row));
                         props.navigation.push(routeMdw.urlCatalog());
-                    }} /> */}
+                    }} />
 
                     <InfoIcon sx={{ cursor: 'pointer', marginLeft: '15px' }} onClick={() => {
                         setDisplayVehiculeModal(row);

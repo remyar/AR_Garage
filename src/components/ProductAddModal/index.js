@@ -51,10 +51,10 @@ function ProductAddModal(props) {
         fetchData();
     }, []);
 
-    let _c = categories.find((el) => el?.id == selectedCategorie?.id);
+    let _c = categories.find((el) => el?.oscaroId == selectedCategorie?.oscaroId);
                                            
     let subCat = categories?.map((_v, idx) => {
-        if (_v?.parent_id == _c?.id) {
+        if (_v?.parent_id == _c?.oscaroId) {
             return _v;
         }
     }).filter((f) => f != undefined)
@@ -65,7 +65,7 @@ function ProductAddModal(props) {
         ref_fab: '',
         ref_oem: '',
         categorie_id: 0,
-        subcategorie_id: subCat[0]?.id,
+        subcategorie_id: subCat[0]?.oscaroId,
         prix_achat: '',
         prix_vente: '',
     }
@@ -216,21 +216,21 @@ function ProductAddModal(props) {
                                         label="Catégorie"
                                         name="categorie_id"
                                         onChange={(event) => {
-                                            let _c = categories.find((el) => el?.id == event.target.value);
+                                            let _c = categories.find((el) => el?.oscaroId == event.target.value);
                                            
                                             let subCat = categories?.map((_v, idx) => {
-                                                if (_v?.parent_id == _c?.id) {
+                                                if (_v?.parent_id == _c?.oscaroId) {
                                                     return _v;
                                                 }
                                             }).filter((f) => f != undefined)
-                                            setFieldValue("subcategorie_id", subCat[0]?.id);
+                                            setFieldValue("subcategorie_id", subCat[0]?.oscaroId);
                                             setSelectedCategorie(_c);
                                         }}
-                                        value={values?.categorie_id}
+                                        value={selectedCategorie?.oscaroId}
                                     >
                                         {categories?.map((_v, idx) => {
                                             if (_v?.parent_id == undefined) {
-                                                return <MenuItem key={"categories_" + idx} value={_v?.id}>{_v?.nom}</MenuItem>
+                                                return <MenuItem key={"categories_" + idx} value={_v?.oscaroId}>{_v?.nom}</MenuItem>
                                             }
                                         }).filter((f) => f != undefined)}
                                     </Select>
@@ -255,12 +255,12 @@ function ProductAddModal(props) {
                                             let subCat = [];
 
                                             subCat = categories?.map((_v, idx) => {
-                                                if (_v?.parent_id == selectedCategorie?.id) {
+                                                if (_v?.parent_id == selectedCategorie?.oscaroId) {
                                                     return _v;
                                                 }
                                             }).filter((f) => f != undefined)
 
-                                            return subCat.map((_v) => <MenuItem key={"subcategorie_id_" + _v?.id} value={_v?.id}>{_v?.nom}</MenuItem>);
+                                            return subCat.map((_v) => <MenuItem key={"subcategorie_id_" + _v?.id} value={_v?.oscaroId}>{_v?.nom}</MenuItem>);
                                         })()}
                                     </Select>
                                 </FormControl>

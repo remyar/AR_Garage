@@ -15,18 +15,18 @@ function CatalogueTreeView(props) {
     let _catalog = [];
 
     function _constructTree(cat){
-        return <TreeItem nodeId={cat.assemblyGroupNodeId} label={cat.assemblyGroupName} onClick={() => props.onClick && props.onClick(cat)} disabled={cat.hasArticles ? false : true}>
+        return <TreeItem nodeId={cat.oscaroId} label={cat.nom} onClick={() => props.onClick && props.onClick(cat)} /*disabled={cat.hasArticles ? false : true}*/ >
             {(()=>{
-                if ( cat.hasChilds == true ){
-                    let __c = catalog.map((c) => c.parentNodeId == cat.assemblyGroupNodeId ? c : undefined).filter((el) => el != undefined);
+                //if ( cat.hasChilds == true ){
+                    let __c = catalog.map((c) => c.parent_id == cat.oscaroId ? c : undefined).filter((el) => el != undefined);
                     return __c.map((___c) => _constructTree(___c));  
-                }
+              //  }
             })()}
         </TreeItem>
     }
 
     catalog.forEach((c) => {
-        if ( c.parentNodeId == undefined ){
+        if ( c.parent_id == undefined ){
             //-- root
             _catalog.push(_constructTree(c));
         }

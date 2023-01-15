@@ -11,7 +11,7 @@ async function _process(){
     for ( let cat of cats){
         console.log(cat);
         try{
-            await db.importCategorie({ id : cat.id , nom : cat.name , parent_id : cat.parent})
+            await db.importCategorie({ oscaroId : cat.id , nom : cat.name , parent_id : cat.parent})
         } catch(err){
             console.log(err);
         }
