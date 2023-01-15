@@ -1,11 +1,12 @@
 import createAction from '../../middleware/actions';
+import _childNodesAllLinkingTarget from '../../data/tecdoc/childNodesAllLinkingTarget.json';
 
 export async function getChildNodesAllLinkingTarget(carId, { extra, getState }) {
 
     const api = extra.api;
+    let childNodesAllLinkingTarget = _childNodesAllLinkingTarget;
 
     try {
-/*
         if (carId) {
             let result = await api.tecdoc.getCategories(carId);
 
@@ -18,7 +19,7 @@ export async function getChildNodesAllLinkingTarget(carId, { extra, getState }) 
         } else {
             childNodesAllLinkingTarget = childNodesAllLinkingTarget.map((p) => { return { ...p, hasArticles: true } });
         }
-        return { catalog: childNodesAllLinkingTarget };*/
+        return { catalog: childNodesAllLinkingTarget };
     } catch (err) {
 
         throw { message: err.message };

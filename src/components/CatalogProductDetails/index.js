@@ -40,7 +40,7 @@ function CatalogProductDetails(props) {
                                     <b>{intl.formatMessage({ id: 'product.brand' })}</b>
                                 </Grid>
                                 <Grid item xs={6}>
-                                    {product?.marque}
+                                    {product?.mfrName}
                                 </Grid>
                             </Grid>
                         </ListItem>
@@ -50,7 +50,7 @@ function CatalogProductDetails(props) {
                                     <b>{intl.formatMessage({ id: 'product.productNum' })}</b>
                                 </Grid>
                                 <Grid item xs={6}>
-                                    <b>{product?.mpn}</b>
+                                    <b>{product?.articleNumber}</b>
                                 </Grid>
                             </Grid>
                         </ListItem>
@@ -90,8 +90,8 @@ function CatalogProductDetails(props) {
                     <AliceCarousel
                         disableDotsControls
                     >
-                        {product?.images.map((image, i) => {
-                            return <img width={400} key={i} src={image} />
+                        {product?.images?.map((image, i) => {
+                            return <img key={i} src={image.imageURL400} />
                         })}
                     </AliceCarousel>
                 </Grid>
@@ -116,7 +116,7 @@ function CatalogProductDetails(props) {
                                     <b>{intl.formatMessage({ id: 'product.gtin_ean' })}</b>
                                 </Grid>
                                 <Grid item xs={6}>
-                                    {/*product?.gtins.map((ean) => ean)*/}
+                                    {product?.gtins.map((ean) => ean)}
                                 </Grid>
                             </Grid>
                         </ListItem>

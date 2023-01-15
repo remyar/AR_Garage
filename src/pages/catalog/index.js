@@ -36,7 +36,7 @@ function CatalogPage(props) {
     async function fetchData() {
         setDisplayLoader(true);
         try {
-            let result = await props.dispatch(actions.oscaro.getAllCategorieFromVehicule(selectedVehicule));
+            let result = await props.dispatch(actions.tecdoc.getChildNodesAllLinkingTarget(selectedVehicule?.tecdocId));
             setCatalog(result.catalog);
         } catch (err) {
             props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
@@ -50,7 +50,7 @@ function CatalogPage(props) {
         fetchData();
     }, []);
 
-    let rows = articles/*articles.filter((el) => el.mfrName?.toLowerCase().startsWith(filter?.brand ? filter?.brand?.toLowerCase() : ""))*/;
+    let rows = articles.filter((el) => el.mfrName?.toLowerCase().startsWith(filter?.brand ? filter?.brand?.toLowerCase() : ""));
 
     return <Box sx={{ paddingBottom: '25px' }}>
         <Loader display={displayLoader} />
@@ -92,7 +92,7 @@ function CatalogPage(props) {
 
                         try {
                             await props.dispatch(actions.set.newProduct(product));
-                            await props.dispatch(actions.set.oemProduct({ carId: selectedVehicule.carId, oem: product.ref_oem }));
+                            await props.dispatch(actions.set.oemProduct({ carId: selectedVehicule.tecdocId, oem: product.ref_oem }));
                         } catch (err) {
                             props.snackbar.error(intl.formatMessage({ id: 'save.error' }));
                         }
@@ -118,13 +118,11 @@ function CatalogPage(props) {
                 <CatalogueTreeView
                     catalog={catalog}
                     onClick={async (c) => {
-                        let hasChild = catalog.find((element)=>element.parent_id == c.oscaroId) ? true : false;
-
-                        if (hasChild == false /*&& c.hasArticles == true*/) {
+                        if (c.hasChilds == false && c.hasArticles == true) {
                             setDisplayLoader(true);
                             setSelectedCategorie(c);
                             try {
-                                let result = await props.dispatch(actions.oscaro.getArticlesWithState(selectedVehicule.oscaroId, c.oscaroId));
+                                let result = await props.dispatch(actions.tecdoc.getArticleIdsWithState(selectedVehicule.tecdocId, c.assemblyGroupNodeId));
                                 setArticles(result.articlesWithState);
                             } catch (err) {
                                 props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
@@ -145,23 +143,23 @@ function CatalogPage(props) {
 
                             <Grid item xs={3}>
                                 {(() => {
-                                    if (article?.images && article?.images[0] /*&& article?.images[0].imageURL100*/) {
-                                        let thumbNail = article.images[0];
-                                        return <img width={200} src={thumbNail} />
+                                    if (article?.images && article?.images[0] && article?.images[0].imageURL100) {
+                                        let thumbNail = article.images[0].imageURL100;
+                                        return <img src={thumbNail} />
                                     } else {
-                                        return <img width={200} src={"/no-image-available.jpg"} />
+                                        return <img width={100} src={"/no-image-available.jpg"} />
                                     }
                                 })()}
                             </Grid>
                             <Grid item xs={9} sx={{ textAlign: 'left' }}>
-                                <b>{article.name}</b>
+                                <b>{article.mfrName + " - " + article.articleNumber + (article.misc?.additionalDescription ? (" - " + article.misc?.additionalDescription) : "")}</b>
                                 <br />
-                                {article.genericArticles && article.genericArticles[0].genericArticleDescription}
+                                {article.genericArticles[0].genericArticleDescription}
                                 <Typography variant="caption" display="block" gutterBottom>
                                     {article?.linkages?.map((linkage) => linkage.linkageCriteria?.map((criteria) => " " + criteria.criteriaDescription + " : " + criteria?.formattedValue + " ")).join(",")}
                                 </Typography>
                                 <Typography variant="caption" display="block" gutterBottom>
-                                    {article.articleCriteria?.map((criteria) => " " + criteria.criteriaDescription + " : " + criteria.formattedValue + " ").join(",")}
+                                    {article.articleCriteria.map((criteria) => " " + criteria.criteriaDescription + " : " + criteria.formattedValue + " ").join(",")}
                                 </Typography>
                             </Grid>
                         </Grid>

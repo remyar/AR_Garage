@@ -51,13 +51,13 @@ function ProductAddModal(props) {
         fetchData();
     }, []);
 
-    let _c = categories.find((el) => el?.oscaroId == selectedCategorie?.oscaroId);
-                                           
-    let subCat = categories?.map((_v, idx) => {
-        if (_v?.parent_id == _c?.oscaroId) {
-            return _v;
-        }
-    }).filter((f) => f != undefined)
+    /*   let _c = categories.find((el) => el?.oscaroId == selectedCategorie?.oscaroId);
+                                              
+       let subCat = categories?.map((_v, idx) => {
+           if (_v?.parent_id == _c?.oscaroId) {
+               return _v;
+           }
+       }).filter((f) => f != undefined)*/
 
     let initialValues = {
         marque: '',
@@ -65,7 +65,7 @@ function ProductAddModal(props) {
         ref_fab: '',
         ref_oem: '',
         categorie_id: 0,
-        subcategorie_id: subCat[0]?.oscaroId,
+        subcategorie_id: 0,
         prix_achat: '',
         prix_vente: '',
     }
@@ -75,8 +75,8 @@ function ProductAddModal(props) {
     }
 
     if (props.tecdocproduct) {
-        initialValues.brand = props.tecdocproduct?.mfrName;
-        initialValues.name = props.tecdocproduct?.genericArticles[0].genericArticleDescription || "";
+        initialValues.marque = props.tecdocproduct?.mfrName;
+        initialValues.nom = props.tecdocproduct?.genericArticles[0].genericArticleDescription || "";
         initialValues.ref_fab = props.tecdocproduct?.articleNumber;
         initialValues.ref_oem = (props.tecdocproduct?.oemNumbers.length > 0) && props.tecdocproduct?.oemNumbers[0].articleNumber.replace(/\s/g, '');
 
@@ -216,7 +216,7 @@ function ProductAddModal(props) {
                                         label="Catégorie"
                                         name="categorie_id"
                                         onChange={(event) => {
-                                            let _c = categories.find((el) => el?.oscaroId == event.target.value);
+                                            /*let _c = categories.find((el) => el?.oscaroId == event.target.value);
                                            
                                             let subCat = categories?.map((_v, idx) => {
                                                 if (_v?.parent_id == _c?.oscaroId) {
@@ -224,13 +224,17 @@ function ProductAddModal(props) {
                                                 }
                                             }).filter((f) => f != undefined)
                                             setFieldValue("subcategorie_id", subCat[0]?.oscaroId);
+                                            setSelectedCategorie(_c);*/
+
+                                            let _c = categories.find((el) => el.assemblyGroupNodeId == event.target.value);
                                             setSelectedCategorie(_c);
+
                                         }}
-                                        value={selectedCategorie?.oscaroId}
+                                        value={selectedCategorie?.assemblyGroupNodeId}
                                     >
                                         {categories?.map((_v, idx) => {
-                                            if (_v?.parent_id == undefined) {
-                                                return <MenuItem key={"categories_" + idx} value={_v?.oscaroId}>{_v?.nom}</MenuItem>
+                                            if (_v?.parentNodeId == undefined) {
+                                                return <MenuItem key={"categories_" + idx} value={_v?.assemblyGroupNodeId}>{_v?.assemblyGroupName}</MenuItem>
                                             }
                                         }).filter((f) => f != undefined)}
                                     </Select>
@@ -253,14 +257,34 @@ function ProductAddModal(props) {
                                     >
                                         {(() => {
                                             let subCat = [];
-
-                                            subCat = categories?.map((_v, idx) => {
-                                                if (_v?.parent_id == selectedCategorie?.oscaroId) {
-                                                    return _v;
-                                                }
-                                            }).filter((f) => f != undefined)
-
-                                            return subCat.map((_v) => <MenuItem key={"subcategorie_id_" + _v?.id} value={_v?.oscaroId}>{_v?.nom}</MenuItem>);
+                                            /*
+                                                subCat = categories?.map((_v, idx) => {
+                                                    if (_v?.parent_id == selectedCategorie?.oscaroId) {
+                                                        return _v;
+                                                    }
+                                                }).filter((f) => f != undefined)
+                                            */
+                                            if (selectedCategorie.hasChilds == true) {
+                                                categories.map((c) => {
+                                                    return c.parentNodeId == selectedCategorie.assemblyGroupNodeId ? c : undefined;
+                                                }).filter((el) => el != undefined).map((_v, idx) => {
+                                                    if (_v.hasChilds) {
+                                                        let _name = _v.assemblyGroupName;
+                                                        categories.map((c) => {
+                                                            return c.parentNodeId == _v.assemblyGroupNodeId ? c : undefined;
+                                                        }).filter((el) => el != undefined).map((__v) => {
+                                                            let __cat = subCat.find((f) => f.assemblyGroupNodeId == __v.assemblyGroupNodeId);
+                                                            if (__cat == undefined) {
+                                                                let name = _name + " => " + __v.assemblyGroupName;
+                                                                subCat.push({ ...__v, assemblyGroupName: name });
+                                                            }
+                                                        });
+                                                    } else {
+                                                        subCat.push(_v);
+                                                    }
+                                                })
+                                            }
+                                            return subCat.map((_v) => <MenuItem key={"subcategorie_id_" + _v?.assemblyGroupNodeId} value={_v?.assemblyGroupNodeId}>{_v?.assemblyGroupName}</MenuItem>);
                                         })()}
                                     </Select>
                                 </FormControl>

@@ -56,27 +56,6 @@ export async function restoreFromJSON(data, { extra, getState }) {
         })
     }
 
-    /*
-    if ( data.products != undefined){
-        data.products = data.products.sort((a, b) => a.id > b.id ? 1 : -1);
-
-        data.products.forEach((product) => {
-            let _product = {
-                id : product.id+1,
-                nom : product.name,
-                marque : product.brand,
-                ref_fab : product.ref_fab,
-                ref_oem : product.ref_oem,
-                categorie_id : -1,
-                subcategorie_id : -1,
-                prix_achat : product.prix_achat,
-                prix_vente : product.prix_vente,
-            }
-
-            product = ipcRenderer.sendSync("database.saveProduct", _product);
-        });
-    }
-*/
     return data;
 }
 export default createAction(restoreFromJSON);
