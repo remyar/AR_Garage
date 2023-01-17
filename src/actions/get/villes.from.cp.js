@@ -1,14 +1,15 @@
 import createAction from '../../middleware/actions';
-import cp from '../../data/laposte_hexasmal.json';
+import { ipcRenderer } from 'electron';
 
 export async function getVillesFromCp(codePostale = "24660", { extra, getState }) {
     try {
 
+        let cp = ipcRenderer.sendSync("database.getAllCodePostaux");
         if ( codePostale.trim().length >= 2){
 
             let value = cp.map((el) => {
-                if(el.fields.code_postal.startsWith(codePostale.trim())){
-                    return { name : el.fields.nom_de_la_commune };
+                if(el.code_postal.toString().startsWith(codePostale.trim())){
+                    return el;
                 }
             }).filter((el) => el != undefined);
 

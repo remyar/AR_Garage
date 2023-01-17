@@ -1,9 +1,10 @@
 import createAction from '../../middleware/actions';
-import amBrands from '../../data/tecdoc/amBrands.json';
+import { ipcRenderer } from 'electron';
 
 export async function getAllMarques({ extra, getState }) {
     try {
-        return { marques : amBrands};
+        let marques = ipcRenderer.sendSync("database.getAllMarques");
+        return { marques : marques};
     } catch (err) {
         throw { message: err.message };
     }

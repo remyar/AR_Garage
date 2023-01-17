@@ -1,5 +1,4 @@
 import createAction from '../../middleware/actions';
-import technics from '../../data/technics.json';
 import { ipcRenderer } from 'electron';
 
 export async function getAllVehicules({ extra, getState }) {

@@ -5,30 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Insert Catégories",
-            "program": "${workspaceFolder}/tools/insert.oscaro.categories.js",
-            "request": "launch",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "type": "node"
-        },
-        {
             "name": "Launch Generate Catégories",
-            "program": "${workspaceFolder}/tools/extra.oscaro.categories.mjs",
+            "program": "${workspaceFolder}/tools/extra.tecdoc.categories.js",
             "request": "launch",
+            "console": "integratedTerminal",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "type": "node"
-        },
-        {
-            "type": "chrome",
-            "request": "launch",
-            "name": "Launch Chrome",
-            "url": "http://localhost:3000",
-            "webRoot": "${workspaceFolder}",
-            "enableCRAWorkaround": true
         },
         {
             "name": "Debug Main Process",

@@ -18,12 +18,22 @@ async function createTables() {
                 database.run("CREATE TABLE IF NOT EXISTS settings_paiement ( id INTEGER PRIMARY KEY , nom TEXT, iban TEXT , _order TEXT )");
                 database.run("CREATE TABLE IF NOT EXISTS settings_logo ( id INTEGER PRIMARY KEY , logo TEXT )");
                 database.run("CREATE TABLE IF NOT EXISTS settings_general ( id INTEGER PRIMARY KEY , version INEGER , wizard INTEGER )");
+                database.run("CREATE TABLE IF NOT EXISTS settings_codePostaux ( id INTEGER PRIMARY KEY , code_postal INTEGER , nom_de_la_commune TEXT )");
 
                 database.run("CREATE TABLE IF NOT EXISTS clients ( id INTEGER PRIMARY KEY , nom TEXT , prenom TEXT , adresse1 TEXT , adresse2 TEXT , code_postal TEXT , ville TEXT , email TEXT , telephone TEXT )");
+
                 database.run("CREATE TABLE IF NOT EXISTS vehicules ( id INTEGER PRIMARY KEY ,tecdocId INTEGER, oscaroId INTEGER,brand TEXT , model TEXT , puissance TEXT , phase TEXT , designation TEXT , engineCode TEXT , gearboxCode TEXT , immatriculationDate TEXT, vin TEXT, energy TEXT, plate TEXT )");
+                
+                database.run("CREATE TABLE IF NOT EXISTS constructeurs ( id INTEGER PRIMARY KEY , tecdocId INTEGER , nom TEXT )");
+
                 database.run("CREATE TABLE IF NOT EXISTS produits ( id INTEGER PRIMARY KEY , nom TEXT , marque TEXT , ref_fab TEXT , ref_oem TEXT , categorie_id INTEGER , subcategorie_id INTEGER , prix_achat REAL , prix_vente REAL )");
+
                 database.run("CREATE TABLE IF NOT EXISTS services ( id INTEGER PRIMARY KEY , nom TEXT , ref_fab TEXT )");
-                database.run("CREATE TABLE IF NOT EXISTS categories ( id INTEGER PRIMARY KEY , nom TEXT , parent_id INTEGER , oscaroId INTEGER)");
+
+                database.run("CREATE TABLE IF NOT EXISTS categories ( id INTEGER PRIMARY KEY , nom TEXT , parent_id INTEGER , tecdocId INTEGER , hasChilds INTEGER )");
+
+                database.run("CREATE TABLE IF NOT EXISTS marques ( id INTEGER PRIMARY KEY , nom TEXT , tecdocId INTEGER , logoId INTEGER )");
+
                 resolve();
             });
         } catch (err) {
@@ -578,6 +588,44 @@ async function saveFacture(facture) {
     });
 }
 
+async function getAllMarques() {
+    return new Promise((resolve, reject) => {
+        database.serialize(() => {
+            database.all("SELECT * FROM marques", (err, row) => {
+                if (err) {
+                    reject(err);
+                } else {
+                    resolve(row);
+                }
+            });
+        });
+    });
+}
+
+async function saveMarque(marque) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            let _marques = await getAllMarques();
+            let _marque = _marques.find((el) => el.id == marque.id);
+            if (_marque == undefined) {
+                //-- insert
+                database.serialize(() => {
+                    database.run("INSERT INTO marques ( nom , tecdocId , logoId  ) VALUES ( ? , ? , ? )", [marque.nom, marque.tecdocId, marque.logoId], function (err) {
+                        if (err) {
+                            reject(err);
+                        } else {
+                            marque.id = this.lastID;
+                            resolve(marque);
+                        }
+                    });
+                });
+            }
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
+
 async function getAllCategories() {
     return new Promise((resolve, reject) => {
         database.serialize(() => {
@@ -599,7 +647,7 @@ async function saveCategorie(categorie) {
             let _categorie = _categories.find((el) => el.id == categorie.id);
             if (_categorie == undefined) {
                 database.serialize(() => {
-                    database.run("INSERT INTO categories ( nom , parent_id) VALUES ( ? , ? )", [categorie.nom, categorie.parent_id], function (err) {
+                    database.run("INSERT INTO categories ( nom , parent_id , tecdocId , hasChilds ) VALUES ( ? , ? , ? , ? )", [categorie.nom, categorie.parent_id, categorie.tecdocId, categorie.hasChilds], function (err) {
                         if (err) {
                             reject(err);
                         } else {
@@ -619,7 +667,7 @@ async function importCategorie(categorie) {
     return new Promise(async (resolve, reject) => {
         try {
             database.serialize(() => {
-                database.run("INSERT INTO categories ( oscaroId , nom , parent_id) VALUES (?, ? , ? )", [ categorie.oscaroId , categorie.nom, categorie.parent_id], function (err) {
+                database.run("INSERT INTO categories ( oscaroId , nom , parent_id) VALUES (?, ? , ? )", [categorie.oscaroId, categorie.nom, categorie.parent_id], function (err) {
                     if (err) {
                         reject(err);
                     } else {
@@ -878,9 +926,78 @@ async function saveService(service) {
     });
 }
 
+async function getAllCodePostaux() {
+    return new Promise((resolve, reject) => {
+        database.serialize(() => {
+            database.all("SELECT * FROM settings_codePostaux", (err, row) => {
+                if (err) {
+                    reject(err);
+                } else {
+                    resolve(row);
+                }
+            });
+        });
+    });
+}
+
+async function saveCodePostal(codePostal) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            let _codePostaux = await getAllCodePostaux();
+            let _codePostal = _codePostaux.find((el) => el.id == codePostal.id);
+            if (_codePostal == undefined) {
+                database.serialize(() => {
+                    database.run("INSERT INTO settings_codePostaux ( code_postal , nom_de_la_commune ) VALUES ( ? , ? )", [codePostal.code_postal, codePostal.nom_de_la_commune], function (err) {
+                        codePostal.id = this.lastID;
+                        resolve(codePostal);
+                    });
+                });
+            }
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
+
+async function getAllConstructeurs() {
+    return new Promise((resolve, reject) => {
+        database.serialize(() => {
+            database.all("SELECT * FROM constructeurs", (err, row) => {
+                if (err) {
+                    reject(err);
+                } else {
+                    resolve(row);
+                }
+            });
+        });
+    });
+}
+
+async function saveConstructeur(constructeur) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            let _constructeurs = await getAllConstructeurs();
+            let _constructeur = _constructeurs.find((el) => el.id == constructeur.id);
+            if (_constructeur == undefined) {
+                database.serialize(() => {
+                    database.run("INSERT INTO constructeurs ( nom , tecdocId ) VALUES ( ? , ? )", [constructeur.nom, constructeur.tecdocId], function (err) {
+                        constructeur.id = this.lastID;
+                        resolve(constructeur);
+                    });
+                });
+            }
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
+
 module.exports = {
     setdbPath,
     getDatabase,
+
+    getAllCodePostaux,
+    saveCodePostal,
 
     getEntrepriseSettings,
     saveEntrepriseSettings,
@@ -932,4 +1049,10 @@ module.exports = {
     getAllFactures,
     getFactureById,
     saveFacture,
+
+    getAllMarques,
+    saveMarque,
+
+    getAllConstructeurs,
+    saveConstructeur
 }

@@ -1,17 +1,18 @@
 import createAction from '../../middleware/actions';
-import _childNodesAllLinkingTarget from '../../data/tecdoc/childNodesAllLinkingTarget.json';
+import { ipcRenderer } from 'electron';
 
 export async function getChildNodesAllLinkingTarget(carId, { extra, getState }) {
 
     const api = extra.api;
-    let childNodesAllLinkingTarget = _childNodesAllLinkingTarget;
 
     try {
+        let _childNodesAllLinkingTarget = ipcRenderer.sendSync("database.getAllCategories");
+        let childNodesAllLinkingTarget = [..._childNodesAllLinkingTarget];
         if (carId) {
             let result = await api.tecdoc.getCategories(carId);
 
             result.assemblyGroupFacets.counts.forEach((cat) => {
-                let _f = childNodesAllLinkingTarget.find((_ct) => _ct.assemblyGroupNodeId == cat.assemblyGroupNodeId);
+                let _f = childNodesAllLinkingTarget.find((_ct) => _ct.tecdocId == cat.assemblyGroupNodeId);
                 if (_f && cat.count > 0) {
                     _f.hasArticles = true;
                 }

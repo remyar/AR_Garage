@@ -53,16 +53,15 @@ function MyDrawer(props) {
                 </ListItemIcon>
                 <ListItemText primary={intl.formatMessage({ id: 'url.vehicules' })} secondary={intl.formatMessage({ id: 'url.vehicules.desc' })} />
             </ListItem>
-            {/*  <ListItem button onClick={() => {
+              <ListItem button onClick={() => {
                 props.navigation.push(routeMdw.urlCatalog());
                 props.onClose && props.onClose();
             }}>
-              
                 <ListItemIcon>
                     <MenuBookIcon />
                 </ListItemIcon>
                 <ListItemText primary={intl.formatMessage({ id: 'url.catalog' })} secondary={intl.formatMessage({ id: 'url.catalog.desc' })} />
-            </ListItem>*/}
+            </ListItem>
             <ListItem button onClick={() => {
                 props.navigation.push(routeMdw.urlProduits());
                 props.onClose && props.onClose();

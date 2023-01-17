@@ -28,7 +28,7 @@ function CatalogSelectVehicule(props) {
             let result = await props.dispatch(actions.tecdoc.getManufacturers());
             setConstructeurs(result.manufacturers);
             if (props.selectedVehicule) {
-                let manu = result.manufacturers.find((m) => m.manuId == props.selectedVehicule.tecdoc.manuId);
+                let manu = result.manufacturers.find((m) => m.tecdocId == props.selectedVehicule.tecdoc.manuId);
                 setSelectedConstructeur(manu);
             }
         } catch (err) {
@@ -68,8 +68,8 @@ function CatalogSelectVehicule(props) {
     }, []);
 
     useEffect(() => {
-        if (selectedConstructeur?.manuId != undefined) {
-            fetchModelsSeries(selectedConstructeur.manuId);
+        if (selectedConstructeur?.tecdocId != undefined) {
+            fetchModelsSeries(selectedConstructeur.tecdocId);
         }
     }, [selectedConstructeur]);
 
@@ -95,7 +95,7 @@ function CatalogSelectVehicule(props) {
                     options={constructeurs}
                     value={selectedConstructeur}
                     getOptionLabel={(option) => {
-                        return option?.manuName?.toUpperCase() || "";
+                        return option?.nom?.toUpperCase() || "";
                     }}
                     sx={{ width: '100%' }}
                     onChange={(event, value) => { setSelectedConstructeur(value) }}

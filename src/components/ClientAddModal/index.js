@@ -71,7 +71,7 @@ function ClientAddModal(props) {
                     props.onValidate && props.onValidate(values, props.editClient ? true : false);
                 }}
             >
-                {({ values, errors, touched, handleSubmit, handleChange }) => (
+                {({ values, errors, touched, handleSubmit, handleChange  , setFieldValue}) => (
                     <Form onSubmit={handleSubmit}>
                         <Grid container spacing={2}>
                             <Grid item xs={12} sx={{ textAlign: 'center' }}>
@@ -98,6 +98,7 @@ function ClientAddModal(props) {
                             <Grid item xs={6} >
                                 <InputMask value={values.code_postal} mask="99999" maskChar=" " name="code_postal" alwaysShowMask={false} onChange={(event) => {
                                     setClient({ ...client, code_postal: event.target.value });
+                                    setFieldValue("ville" , (selectVille[0] || {} ).nom_de_la_commune || undefined);
                                     handleChange(event);
                                 }}>
                                     {(inputProps) => <TextField {...inputProps} label={intl.formatMessage({ id: 'clients.code_postal' })} variant="outlined" sx={{ width: "100%", textAlign: "center" }} disableUnderline />}
@@ -114,7 +115,7 @@ function ClientAddModal(props) {
                                         value={values.ville}
                                     >
                                         {selectVille && selectVille.map((_v, idx) => {
-                                            return <MenuItem key={"selectVille_" + idx} value={_v.name}>{_v.name}</MenuItem>
+                                            return <MenuItem key={"selectVille_" + idx} value={_v.nom_de_la_commune}>{_v.nom_de_la_commune}</MenuItem>
                                         })}
                                     </Select>
                                 </FormControl>
