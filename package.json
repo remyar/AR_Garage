@@ -38,6 +38,9 @@
                 "!*.md",
                 "!public/*"
             ]
+        },
+        "nsis": {
+            "include": "./installer.nsh"
         }
     },
     "dependencies": {
