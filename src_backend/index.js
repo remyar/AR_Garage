@@ -13,7 +13,7 @@ module.exports = {
     start: async () => {
         try{
             await database.setdbPath(isDev ? "./database.sqlite" : path.join(app.getPath("userData"), "database.sqlite"));
-            await tecdoc.setdbPath(isDev ? "./assets/tecdoc.sqlite" : path.join(app.getAppPath() , "assets/tecdoc.sqlite"));
+            await tecdoc.setdbPath(isDev ? "./assets/tecdoc.sqlite" : path.join(app.getAppPath() , "tecdoc.sqlite"));
 
             ipcMain.on('OPEN_DEV_TOOLS', (event, value) => {
                 if (value) {
