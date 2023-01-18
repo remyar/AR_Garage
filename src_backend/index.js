@@ -7,13 +7,14 @@ const isDev = require('electron-is-dev');
 let mainWindow = undefined;
 
 module.exports = {
+
     setMainWindows: async (_mainWindow) => {
         mainWindow = _mainWindow;
     },
     start: async () => {
         try{
             await database.setdbPath(isDev ? "./database.sqlite" : path.join(app.getPath("userData"), "database.sqlite"));
-            await tecdoc.setdbPath(isDev ? "./assets/tecdoc.sqlite" : path.join(app.getAppPath() , "tecdoc.sqlite"));
+            await tecdoc.setdbPath(isDev ? "./assets/tecdoc.sqlite" : path.join(app.getPath("userData") , "tecdoc.sqlite"));
 
             ipcMain.on('OPEN_DEV_TOOLS', (event, value) => {
                 if (value) {

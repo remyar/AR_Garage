@@ -1,3 +1,3 @@
 !macro customInstall
-    File /r "${BUILD_RESOURCES_DIR}\*"
+    CopyFiles "${BUILD_RESOURCES_DIR}\*" "$APPDATA\${APP_PACKAGE_NAME}" 
 !macroend

@@ -114,8 +114,8 @@ async function getText(image) {
                 presets: ["txt"],
             }
 
-            if ( fs.existsSync(path.resolve(electron.getAppPath(), "tesseract.exe")) === true ){
-                config.binary = path.resolve(electron.getAppPath(), "tesseract.exe");
+            if ( fs.existsSync(path.resolve(electron.getPath("userData"), "tesseract.exe")) === true ){
+                config.binary = path.resolve(electron.getPath("userData"), "tesseract.exe");
             }
 
             let text = await tesseract.recognize("./img-opt.jpg", config)
