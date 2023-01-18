@@ -30,9 +30,9 @@ async function createTables() {
 
                 database.run("CREATE TABLE IF NOT EXISTS services ( id INTEGER PRIMARY KEY , nom TEXT , ref_fab TEXT )");
 
-                database.run("CREATE TABLE IF NOT EXISTS categories ( id INTEGER PRIMARY KEY , nom TEXT , parent_id INTEGER , tecdocId INTEGER , hasChilds INTEGER )");
+                //database.run("CREATE TABLE IF NOT EXISTS categories ( id INTEGER PRIMARY KEY , nom TEXT , parent_id INTEGER , tecdocId INTEGER , hasChilds INTEGER )");
 
-                database.run("CREATE TABLE IF NOT EXISTS marques ( id INTEGER PRIMARY KEY , nom TEXT , tecdocId INTEGER , logoId INTEGER )");
+                //database.run("CREATE TABLE IF NOT EXISTS marques ( id INTEGER PRIMARY KEY , nom TEXT , tecdocId INTEGER , logoId INTEGER )");
 
                 resolve();
             });

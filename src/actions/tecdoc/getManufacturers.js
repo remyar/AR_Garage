@@ -4,7 +4,7 @@ import { ipcRenderer } from 'electron';
 export async function getManufacturers({ extra, getState }) {
 
     try {
-        let manufacturers = ipcRenderer.sendSync("database.getAllConstructeurs");
+        let manufacturers = ipcRenderer.sendSync("tecdoc.getManufacturers");
 
         return { manufacturers: manufacturers };
     } catch (err) {

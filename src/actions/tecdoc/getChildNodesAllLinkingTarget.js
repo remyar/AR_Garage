@@ -6,13 +6,13 @@ export async function getChildNodesAllLinkingTarget(carId, { extra, getState }) 
     const api = extra.api;
 
     try {
-        let _childNodesAllLinkingTarget = ipcRenderer.sendSync("database.getAllCategories");
+        let _childNodesAllLinkingTarget = ipcRenderer.sendSync("tecdoc.getChildNodesAllLinkingTarget");
         let childNodesAllLinkingTarget = [..._childNodesAllLinkingTarget];
         if (carId) {
             let result = await api.tecdoc.getCategories(carId);
 
             result.assemblyGroupFacets.counts.forEach((cat) => {
-                let _f = childNodesAllLinkingTarget.find((_ct) => _ct.tecdocId == cat.assemblyGroupNodeId);
+                let _f = childNodesAllLinkingTarget.find((_ct) => _ct.assemblyGroupNodeId == cat.assemblyGroupNodeId);
                 if (_f && cat.count > 0) {
                     _f.hasArticles = true;
                 }

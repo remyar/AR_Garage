@@ -41,7 +41,7 @@ function ProductAddModal(props) {
     async function fetchData() {
         let result = await props.dispatch(actions.get.allMarques());
         // let rows = result.marques.filter((el) => el.brandName != undefined && el.brandName != null && el.brandName.trim().length > 0)
-        let rows = result.marques.sort((a, b) => a.nom.toLowerCase() > b.nom.toLowerCase() ? 1 : -1);
+        let rows = result.marques.sort((a, b) => a.brandName.toLowerCase() > b.brandName.toLowerCase() ? 1 : -1);
         setMarques(rows);
 
         await props.dispatch(actions.get.allCategories());
@@ -56,8 +56,8 @@ function ProductAddModal(props) {
         nom: '',
         ref_fab: '',
         ref_oem: '',
-        categorie_id: selectedCategorie?.tecdocId,
-        subcategorie_id: (categories.find((el) => el.parent_id == selectedCategorie?.tecdocId))?.tecdocId,
+        categorie_id: selectedCategorie?.assemblyGroupNodeId,
+        subcategorie_id: (categories.find((el) => el.parentNodeId == selectedCategorie?.assemblyGroupNodeId))?.assemblyGroupNodeId,
         prix_achat: '',
         prix_vente: '',
     }
@@ -174,7 +174,7 @@ function ProductAddModal(props) {
                                     disablePortal
                                     id="combo-box-demo"
                                     value={values.marque}
-                                    options={marques.map((r) => r.nom.toUpperCase())}
+                                    options={marques.map((r) => r.brandName.toUpperCase())}
                                     sx={{ width: '100%' }}
                                     onChange={(e, value) => setFieldValue("marque", value.toUpperCase() || "")}
                                     renderInput={(params, option) => <TextField name="marque" error={(errors.marque && touched.marque) ? true : false} {...params} label="Marque" variant="outlined" sx={{ width: "100%", textAlign: "center" }} />}
@@ -208,22 +208,22 @@ function ProductAddModal(props) {
                                         label="Catégorie"
                                         name="categorie_id"
                                         onChange={(event) => {
-                                            let _c = categories.find((el) => el?.tecdocId == event.target.value);
+                                            let _c = categories.find((el) => el?.assemblyGroupNodeId == event.target.value);
                                            
                                             let subCat = categories?.map((_v, idx) => {
-                                                if (_v?.parent_id == _c?.tecdocId) {
+                                                if (_v?.parentNodeId == _c?.assemblyGroupNodeId) {
                                                     return _v;
                                                 }
                                             }).filter((f) => f != undefined)
-                                            setFieldValue("subcategorie_id", subCat[0]?.tecdocId);
+                                            setFieldValue("subcategorie_id", subCat[0]?.assemblyGroupNodeId);
                                             setSelectedCategorie(_c);
 
                                         }}
                                         value={values?.categorie_id}
                                     >
                                         {categories?.map((_v, idx) => {
-                                            if (_v?.parent_id == undefined) {
-                                                return <MenuItem key={"categories_" + idx} value={_v?.tecdocId}>{_v?.nom}</MenuItem>
+                                            if (_v?.parentNodeId == undefined) {
+                                                return <MenuItem key={"categories_" + idx} value={_v?.assemblyGroupNodeId}>{_v?.assemblyGroupName}</MenuItem>
                                             }
                                         }).filter((f) => f != undefined)}
                                     </Select>
@@ -249,17 +249,17 @@ function ProductAddModal(props) {
                                            
                                             if (selectedCategorie.hasChilds == true) {
                                                 categories.map((c) => {
-                                                    return c.parent_id == selectedCategorie.tecdocId ? c : undefined;
+                                                    return c.parentNodeId == selectedCategorie.assemblyGroupNodeId ? c : undefined;
                                                 }).filter((el) => el != undefined).map((_v, idx) => {
                                                     if (_v.hasChilds) {
-                                                        let _name = _v.nom;
+                                                        let _name = _v.assemblyGroupName;
                                                         categories.map((c) => {
-                                                            return c.parent_id == _v.tecdocId ? c : undefined;
+                                                            return c.parentNodeId == _v.assemblyGroupNodeId ? c : undefined;
                                                         }).filter((el) => el != undefined).map((__v) => {
-                                                            let __cat = subCat.find((f) => f.tecdocId == __v.tecdocId);
+                                                            let __cat = subCat.find((f) => f.assemblyGroupNodeId == __v.assemblyGroupNodeId);
                                                             if (__cat == undefined) {
-                                                                let name = _name + " => " + __v.nom;
-                                                                subCat.push({ ...__v, nom: name });
+                                                                let name = _name + " => " + __v.assemblyGroupName;
+                                                                subCat.push({ ...__v, assemblyGroupName: name });
                                                             }
                                                         });
                                                     } else {
@@ -267,7 +267,7 @@ function ProductAddModal(props) {
                                                     }
                                                 })
                                             }
-                                            return subCat.map((_v) => <MenuItem key={"subcategorie_id_" + _v?.tecdocId} value={_v?.tecdocId}>{_v?.nom}</MenuItem>);
+                                            return subCat.map((_v) => <MenuItem key={"subcategorie_id_" + _v?.assemblyGroupNodeId} value={_v?.assemblyGroupNodeId}>{_v?.assemblyGroupName}</MenuItem>);
                                         })()}
                                     </Select>
                                 </FormControl>
