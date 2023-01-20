@@ -64,6 +64,35 @@ async function getManufacturers(){
     });
 }
 
+async function getModelSeries(manuId){
+    return new Promise((resolve, reject) => {
+        database.serialize(() => {
+            database.all("SELECT * FROM ModelSeries WHERE manuId=?",[manuId], (err, row) => {
+                if (err) {
+                    reject(err);
+                } else {
+                    resolve(row);
+                }
+            });
+        });
+    });
+}
+
+async function getVehicle(modelId){
+    return new Promise((resolve, reject) => {
+        database.serialize(() => {
+            database.all("SELECT * FROM Vehicle WHERE modId=?",[modelId], (err, row) => {
+                if (err) {
+                    reject(err);
+                } else {
+                    resolve(row);
+                }
+            });
+        });
+    });
+}
+
+
 module.exports = {
     setdbPath,
     getDatabase,
@@ -71,4 +100,6 @@ module.exports = {
     getChildNodesAllLinkingTarget,
     getAmBrands,
     getManufacturers,
+    getModelSeries,
+    getVehicle,
 }

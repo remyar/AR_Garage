@@ -15,7 +15,7 @@ export default {
     getModelSeries,
     getMotorisations,
     getArticleIdsWithState,
-    getDirectArticlesByIds,
-    getMotorIdsByManuIdCriteria2,
-    getVehicleIdsByMotor2
+    //getDirectArticlesByIds,
+    //getMotorIdsByManuIdCriteria2,
+    //getVehicleIdsByMotor2
 }

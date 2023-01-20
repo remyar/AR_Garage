@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Launch Generate Catégories",
-            "program": "${workspaceFolder}/tools/extra.tecdoc.categories.js",
+            "program": "${workspaceFolder}/tools/index.js",
             "request": "launch",
             "console": "integratedTerminal",
             "skipFiles": [

@@ -18,13 +18,13 @@ async function createTables() {
                 database.run("CREATE TABLE IF NOT EXISTS settings_paiement ( id INTEGER PRIMARY KEY , nom TEXT, iban TEXT , _order TEXT )");
                 database.run("CREATE TABLE IF NOT EXISTS settings_logo ( id INTEGER PRIMARY KEY , logo TEXT )");
                 database.run("CREATE TABLE IF NOT EXISTS settings_general ( id INTEGER PRIMARY KEY , version INEGER , wizard INTEGER )");
-                database.run("CREATE TABLE IF NOT EXISTS settings_codePostaux ( id INTEGER PRIMARY KEY , code_postal INTEGER , nom_de_la_commune TEXT )");
+                //database.run("CREATE TABLE IF NOT EXISTS settings_codePostaux ( id INTEGER PRIMARY KEY , code_postal INTEGER , nom_de_la_commune TEXT )");
 
                 database.run("CREATE TABLE IF NOT EXISTS clients ( id INTEGER PRIMARY KEY , nom TEXT , prenom TEXT , adresse1 TEXT , adresse2 TEXT , code_postal TEXT , ville TEXT , email TEXT , telephone TEXT )");
 
                 database.run("CREATE TABLE IF NOT EXISTS vehicules ( id INTEGER PRIMARY KEY ,tecdocId INTEGER, oscaroId INTEGER,brand TEXT , model TEXT , puissance TEXT , phase TEXT , designation TEXT , engineCode TEXT , gearboxCode TEXT , immatriculationDate TEXT, vin TEXT, energy TEXT, plate TEXT )");
                 
-                database.run("CREATE TABLE IF NOT EXISTS constructeurs ( id INTEGER PRIMARY KEY , tecdocId INTEGER , nom TEXT )");
+                //database.run("CREATE TABLE IF NOT EXISTS constructeurs ( id INTEGER PRIMARY KEY , tecdocId INTEGER , nom TEXT )");
 
                 database.run("CREATE TABLE IF NOT EXISTS produits ( id INTEGER PRIMARY KEY , nom TEXT , marque TEXT , ref_fab TEXT , ref_oem TEXT , categorie_id INTEGER , subcategorie_id INTEGER , prix_achat REAL , prix_vente REAL )");
 
@@ -464,8 +464,9 @@ async function saveVehicule(vehicule) {
 
             } else {
                 database.serialize(() => {
-                    database.run("UPDATE vehicules SET oscaroId=? , brand=? , model=? , puissance=? , phase=? , designation=? , engineCode=? , gearboxCode=? , immatriculationDate=? ,vin=? ,energy=?, plate=? WHERE id=?",
+                    database.run("UPDATE vehicules SET tecdocId=? , oscaroId=? , brand=? , model=? , puissance=? , phase=? , designation=? , engineCode=? , gearboxCode=? , immatriculationDate=? ,vin=? ,energy=?, plate=? WHERE id=?",
                         [
+                            vehicule.tecdocId,
                             vehicule.oscaroId,
                             vehicule.brand,
                             vehicule.model,

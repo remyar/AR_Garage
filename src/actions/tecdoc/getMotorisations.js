@@ -1,12 +1,13 @@
 import createAction from '../../middleware/actions';
+import { ipcRenderer } from 'electron';
 
 export async function getMotorisations(manuId , { extra, getState }) {
 
     try {
 
-        let data = require('./../../data/tecdoc/motorisation/' + manuId + '.json');
+        let vehicles = ipcRenderer.sendSync("tecdoc.getVehicle", manuId);
 
-        return { motorisation : data };
+        return { motorisation : vehicles };
     } catch (err) {
         throw { message: err.message };
     }

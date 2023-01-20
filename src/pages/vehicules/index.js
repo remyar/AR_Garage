@@ -59,9 +59,23 @@ function VehiculesPage(props) {
         setDisplayLoader(true);
         try {
             let result = await props.dispatch(actions.get.allVehicules());
+            let reloadAfterFetch = false;
+            for ( let vehicule of result.vehicules){
+                if ( vehicule.tecdocId == undefined ){
+                    try{
+                        await props.dispatch(actions.oscaro.getAutoFromPlate(vehicule.plate))
+                        reloadAfterFetch = true;
+                    }catch(err){
+                        props.snackbar.error('fetch.error');
+                    }
+                }
+            }
+            if ( reloadAfterFetch == true ){
+                result = await props.dispatch(actions.get.allVehicules());
+            }
             setVehicules(result.vehicules.filter((el) => el.deleted !== 1));
         } catch (err) {
-            props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
+            props.snackbar.error('fetch.error');
         }
         setDisplayLoader(false);
     }

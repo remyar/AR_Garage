@@ -125,7 +125,7 @@ function CatalogPage(props) {
                                 let result = await props.dispatch(actions.tecdoc.getArticleIdsWithState(selectedVehicule.tecdocId, c.assemblyGroupNodeId));
                                 setArticles(result.articlesWithState);
                             } catch (err) {
-                                props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
+                                props.snackbar.error('fetch.error');
                             }
                             finally {
                                 setDisplayLoader(false);

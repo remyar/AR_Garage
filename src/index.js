@@ -44,21 +44,21 @@ const root = createRoot(document.getElementById('root'));
 let entreprise = ipcRenderer.sendSync("database.getEntrepriseSettings");
 let paiement = ipcRenderer.sendSync("database.getPaiementSettings");
 let logo = ipcRenderer.sendSync("database.getLogoSettings");
-let _settings = ipcRenderer.sendSync("database.getGeneralSettings");
+let settings = ipcRenderer.sendSync("database.getGeneralSettings");
 
-let settings = {
+let _settings = {
     entreprise: entreprise,
     paiement: paiement,
     logo: logo?.logo || "",
-    ..._settings
+    ...settings
 }
 
 root.render(
     <React.Fragment>
         <CssBaseline />
         <StoreProvider extra={{ api, electron }} persistConfig={persistConfig} globalState={{
-            settings: { locale: "fr", ...settings },
-            clients: [],
+            settings: { locale: "fr", ..._settings },
+         /*   clients: [],
             vehicules: [],
             categories: [],
             devis: [],
@@ -66,7 +66,7 @@ root.render(
             services: [],
             factures: [],
             marques: [],
-            oem: []
+            oem: []*/
         }}>
             <MemoryRouter>
                 <NavigationProvider>

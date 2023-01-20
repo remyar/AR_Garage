@@ -1,5 +1,6 @@
 const { app, ipcMain } = require('electron');
 const database = require('./database');
+const code_postaux = require('./code_postaux');
 const tecdoc = require('./tecdoc');
 const path = require('path');
 const isDev = require('electron-is-dev');
@@ -15,6 +16,7 @@ module.exports = {
         try{
             await database.setdbPath(isDev ? "./database.sqlite" : path.join(app.getPath("userData"), "database.sqlite"));
             await tecdoc.setdbPath(isDev ? "./assets/tecdoc.sqlite" : path.join(app.getPath("userData") , "tecdoc.sqlite"));
+            await code_postaux.setdbPath(isDev ? "./assets/code_postaux.sqlite" : path.join(app.getPath("userData") , "code_postaux.sqlite"));
 
             ipcMain.on('OPEN_DEV_TOOLS', (event, value) => {
                 if (value) {
@@ -31,10 +33,14 @@ module.exports = {
             });
 
             Object.keys(tecdoc).forEach((key)=>{
-                console.log(key);
                 ipcMain.on('tecdoc.' + key , async (event , value )=>{
-                    console.log("cmdkey : " + key);
                     event.returnValue = await tecdoc[key](value);
+                });
+            });
+
+            Object.keys(code_postaux).forEach((key)=>{
+                ipcMain.on('code_postaux.' + key , async (event , value )=>{
+                    event.returnValue = await code_postaux[key](value);
                 });
             });
 

@@ -1,12 +1,13 @@
 import createAction from '../../middleware/actions';
+import { ipcRenderer } from 'electron';
 
 export async function getModelSeries(manuId , { extra, getState }) {
 
     try {
 
-        let data = require('./../../data/tecdoc/model/' + manuId + '.json');
+        let modelSeries = ipcRenderer.sendSync("tecdoc.getModelSeries", manuId);
 
-        return { modelSeries : data };
+        return { modelSeries : modelSeries };
     } catch (err) {
         throw { message: err.message };
     }
