@@ -92,6 +92,20 @@ async function getVehicle(modelId){
     });
 }
 
+async function getVehiculeByCarId(carId){
+    return new Promise((resolve, reject) => {
+        database.serialize(() => {
+            database.all("SELECT * FROM Vehicle WHERE carId=?",[carId], (err, row) => {
+                if (err) {
+                    reject(err);
+                } else {
+                    resolve(row);
+                }
+            });
+        });
+    });
+}
+
 
 module.exports = {
     setdbPath,
@@ -102,4 +116,6 @@ module.exports = {
     getManufacturers,
     getModelSeries,
     getVehicle,
+
+    getVehiculeByCarId,
 }

@@ -1,38 +1,30 @@
 const sqlite3 = require('sqlite3').verbose();
+const models = require('../models');
 
 let database = undefined;
+
 
 async function createTables() {
     return new Promise((resolve, reject) => {
         try {
             database.serialize(() => {
-                database.run("CREATE TABLE IF NOT EXISTS devis ( id INTEGER PRIMARY KEY , client_id INTEGER, vehicule_id INTEGER , date INTEGER , expiration INTEGER , total REAL)");
-                database.run("CREATE TABLE IF NOT EXISTS devis_produits ( id INTEGER PRIMARY KEY , devis_id INTEGER, produit_id INTEGER , quantite REAL)");
-                database.run("CREATE TABLE IF NOT EXISTS devis_services ( id INTEGER PRIMARY KEY , devis_id INTEGER, service_id INTEGER , quantite REAL , prix_vente REAL )");
+                Object.keys(models.database).forEach((model) => {
+                    let strSql = "CREATE TABLE IF NOT EXISTS " + model + " (";
+                    Object.keys(models.database[model]).forEach((entry, idx) => {
 
-                database.run("CREATE TABLE IF NOT EXISTS factures ( id INTEGER PRIMARY KEY , client_id INTEGER, vehicule_id INTEGER , date INTEGER , total REAL)");
-                database.run("CREATE TABLE IF NOT EXISTS factures_produits ( id INTEGER PRIMARY KEY , factures_id INTEGER, produit_id INTEGER , quantite REAL)");
-                database.run("CREATE TABLE IF NOT EXISTS factures_services ( id INTEGER PRIMARY KEY , factures_id INTEGER, service_id INTEGER , quantite REAL , prix_vente REAL )");
+                        if (idx > 0) {
+                            strSql += ","
+                        }
 
-                database.run("CREATE TABLE IF NOT EXISTS settings_entreprise ( id INTEGER PRIMARY KEY , nom TEXT, adresse1 TEXT , adresse2 TEXT , code_postal TEXT , ville TEXT , email TEXT, siret TEXT , telephone TEXT , rcs TEXT )");
-                database.run("CREATE TABLE IF NOT EXISTS settings_paiement ( id INTEGER PRIMARY KEY , nom TEXT, iban TEXT , _order TEXT )");
-                database.run("CREATE TABLE IF NOT EXISTS settings_logo ( id INTEGER PRIMARY KEY , logo TEXT )");
-                database.run("CREATE TABLE IF NOT EXISTS settings_general ( id INTEGER PRIMARY KEY , version INEGER , wizard INTEGER )");
-                //database.run("CREATE TABLE IF NOT EXISTS settings_codePostaux ( id INTEGER PRIMARY KEY , code_postal INTEGER , nom_de_la_commune TEXT )");
+                        let name = entry;
+                        let type = models.database[model][entry];
 
-                database.run("CREATE TABLE IF NOT EXISTS clients ( id INTEGER PRIMARY KEY , nom TEXT , prenom TEXT , adresse1 TEXT , adresse2 TEXT , code_postal TEXT , ville TEXT , email TEXT , telephone TEXT )");
+                        strSql += " " + name + " " + type + " ";
+                    })
+                    strSql += ")"
 
-                database.run("CREATE TABLE IF NOT EXISTS vehicules ( id INTEGER PRIMARY KEY ,tecdocId INTEGER, oscaroId INTEGER,brand TEXT , model TEXT , puissance TEXT , phase TEXT , designation TEXT , engineCode TEXT , gearboxCode TEXT , immatriculationDate TEXT, vin TEXT, energy TEXT, plate TEXT )");
-                
-                //database.run("CREATE TABLE IF NOT EXISTS constructeurs ( id INTEGER PRIMARY KEY , tecdocId INTEGER , nom TEXT )");
-
-                database.run("CREATE TABLE IF NOT EXISTS produits ( id INTEGER PRIMARY KEY , nom TEXT , marque TEXT , ref_fab TEXT , ref_oem TEXT , categorie_id INTEGER , subcategorie_id INTEGER , prix_achat REAL , prix_vente REAL )");
-
-                database.run("CREATE TABLE IF NOT EXISTS services ( id INTEGER PRIMARY KEY , nom TEXT , ref_fab TEXT )");
-
-                //database.run("CREATE TABLE IF NOT EXISTS categories ( id INTEGER PRIMARY KEY , nom TEXT , parent_id INTEGER , tecdocId INTEGER , hasChilds INTEGER )");
-
-                //database.run("CREATE TABLE IF NOT EXISTS marques ( id INTEGER PRIMARY KEY , nom TEXT , tecdocId INTEGER , logoId INTEGER )");
+                    database.run(strSql);
+                });
 
                 resolve();
             });
