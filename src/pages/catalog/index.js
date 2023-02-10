@@ -50,7 +50,7 @@ function CatalogPage(props) {
         fetchData();
     }, []);
 
-    let rows = articles.filter((el) => el.mfrName?.toLowerCase().startsWith(filter?.brand ? filter?.brand?.toLowerCase() : ""));
+    let rows = articles.filter((el) => el.brandName?.toLowerCase().startsWith(filter?.brand ? filter?.brand?.toLowerCase() : ""));
 
     return <Box sx={{ paddingBottom: '25px' }}>
         <Loader display={displayLoader} />
@@ -143,24 +143,25 @@ function CatalogPage(props) {
 
                             <Grid item xs={3}>
                                 {(() => {
-                                    if (article?.images && article?.images[0] && article?.images[0].imageURL100) {
-                                        let thumbNail = article.images[0].imageURL100;
-                                        return <img src={thumbNail} />
+                                    let picture = article?.documents?.find((el) => el.docTypeId == 1 && el.url != undefined);
+                                    if (picture) {
+                                        return <img width={150} src={picture.url} />
                                     } else {
-                                        return <img width={100} src={"/no-image-available.jpg"} />
+                                        return <img width={150} src={"/no-image-available.jpg"} />
                                     }
                                 })()}
                             </Grid>
                             <Grid item xs={9} sx={{ textAlign: 'left' }}>
-                                <b>{article.mfrName + " - " + article.articleNumber + (article.misc?.additionalDescription ? (" - " + article.misc?.additionalDescription) : "")}</b>
+                                <b>{article.brandName + " - " + article.articleNo + (article.misc?.additionalDescription ? (" - " + article.misc?.additionalDescription) : "")}</b>
                                 <br />
-                                {article.genericArticles[0].genericArticleDescription}
+                                {/* {article.genericArticles[0].genericArticleDescription}
                                 <Typography variant="caption" display="block" gutterBottom>
                                     {article?.linkages?.map((linkage) => linkage.linkageCriteria?.map((criteria) => " " + criteria.criteriaDescription + " : " + criteria?.formattedValue + " ")).join(",")}
                                 </Typography>
                                 <Typography variant="caption" display="block" gutterBottom>
                                     {article.articleCriteria.map((criteria) => " " + criteria.criteriaDescription + " : " + criteria.formattedValue + " ").join(",")}
                                 </Typography>
+                            */}
                             </Grid>
                         </Grid>
                     </Box>;

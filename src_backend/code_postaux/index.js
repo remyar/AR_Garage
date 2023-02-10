@@ -23,7 +23,7 @@ function getDatabase() {
 
 async function setdbPath(path) {
     return new Promise((resolve, reject) => {
-        database = new sqlite3.Database(path, async (err) => {
+        database = new sqlite3.Database(path, sqlite3.OPEN_READONLY, async (err) => {
             try {
                 if (err) {
                     reject("unable to create database");

@@ -1,17 +1,21 @@
 import createAction from '../../middleware/actions';
 import { ipcRenderer } from 'electron';
 
-export async function setSelectedVehicule(vehicule = {} , { extra, getState }) {
+export async function setSelectedVehicule(vehicule = {}, { extra, getState }) {
     const api = extra.api;
     try {
-        let _result = ipcRenderer.sendSync("tecdoc.getVehiculeByCarId" , vehicule.tecdocId);
+        let _result = ipcRenderer.sendSync("tecdoc.getVehiculeByCarId", vehicule.tecdocId);
 
-        vehicule.tecdoc = {
-            manuId : _result.vehicleDetails.manuId,
-            modelId : _result.vehicleDetails.modId,
-            carId : _result.vehicleDetails.carId
+        if (_result.length == 0) {
+            throw Error("not existing in tecdoc database")
+        }else {
+            vehicule.tecdoc = {
+                manuId: _result[0].manuId,
+                modelId: _result[0].modId,
+                carId: _result[0].carId
+            }
+            return { selectedVehicule: { ...vehicule } };
         }
-        return { selectedVehicule : {...vehicule}};
     } catch (err) {
         throw { message: err.message };
     }

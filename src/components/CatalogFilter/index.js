@@ -15,8 +15,8 @@ function CatalogFilter(props) {
     let brands = [];
 
     articles.forEach((article) => {
-        if (brands.find((b) => b == article.mfrName) == undefined) {
-            brands.push(article.mfrName);
+        if (brands.find((b) => b == article.brandName) == undefined) {
+            brands.push(article.brandName);
         }
     });
 

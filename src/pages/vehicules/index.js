@@ -115,8 +115,12 @@ function VehiculesPage(props) {
                     }} />}
 
                     <MenuBookIcon sx={{ cursor: 'pointer', marginLeft: '15px' }} onClick={async () => {
-                        await props.dispatch(actions.set.selectedVehicule(row));
-                        props.navigation.push(routeMdw.urlCatalog());
+                        try{
+                            await props.dispatch(actions.set.selectedVehicule(row));
+                            props.navigation.push(routeMdw.urlCatalog());
+                        }catch(err){
+                            props.snackbar.error('vehicule.no.catalog');
+                        }
                     }} />
 
                     <InfoIcon sx={{ cursor: 'pointer', marginLeft: '15px' }} onClick={() => {
