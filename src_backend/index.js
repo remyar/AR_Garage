@@ -16,9 +16,9 @@ module.exports = {
     start: async () => {
         try{
             await database.setdbPath(isDev ? "./database.sqlite" : path.join(app.getPath("userData"), "database.sqlite"));
-            await tecdoc.setdbPath(isDev ? "./assets/tecdoc.sqlite" : path.join(app.getPath("userData") , "tecdoc.sqlite"));
             await code_postaux.setdbPath(isDev ? "./assets/code_postaux.sqlite" : path.join(app.getPath("userData") , "code_postaux.sqlite"));
-            await images.setdbPath(isDev ? "./assets/images.sqlite" : path.join(app.getPath("userData") , "images.sqlite"));
+            await tecdoc.setdbPath(isDev ? "./assets/database" : path.join(app.getPath("userData") , "database"));
+
 
             ipcMain.on('OPEN_DEV_TOOLS', (event, value) => {
                 if (value) {
@@ -37,12 +37,6 @@ module.exports = {
             Object.keys(tecdoc).forEach((key)=>{
                 ipcMain.on('tecdoc.' + key , async (event , value )=>{
                     event.returnValue = await tecdoc[key](value);
-                });
-            });
-
-            Object.keys(tecdoc).forEach((key)=>{
-                ipcMain.on('images.' + key , async (event , value )=>{
-                    event.returnValue = await images[key](value);
                 });
             });
 

@@ -58,15 +58,6 @@ root.render(
         <CssBaseline />
         <StoreProvider extra={{ api, electron }} persistConfig={persistConfig} globalState={{
             settings: { locale: "fr", ..._settings },
-         /*   clients: [],
-            vehicules: [],
-            categories: [],
-            devis: [],
-            products: [],
-            services: [],
-            factures: [],
-            marques: [],
-            oem: []*/
         }}>
             <MemoryRouter>
                 <NavigationProvider>

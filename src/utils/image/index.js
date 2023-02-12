@@ -1,6 +1,6 @@
 
 const tesseract = require("node-tesseract-ocr")
-const Jimp = require('jimp').default;
+const Jimp = require('jimp');
 const electron = require('@electron/remote').app;
 const path = require('path');
 const fs = require('fs');

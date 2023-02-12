@@ -14,8 +14,10 @@ export async function getArticleIdsWithState(carId, assemblyGroupNodeId, { extra
             let documents = [];
             articleLinks.forEach(element => {
                 if (element.articleDocuments != undefined) {
-                    let r = ipcRenderer.sendSync("tecdoc.getArticleDocuments", element.articleDocuments);
-                    documents.push(r);
+                    for (let document of element?.articleDocuments?.array) {
+                        let r = ipcRenderer.sendSync("tecdoc.getArticleDocuments", document.docId);
+                        documents.push(r);
+                    }
                 }
             });
 
