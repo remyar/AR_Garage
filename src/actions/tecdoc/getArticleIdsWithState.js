@@ -24,12 +24,13 @@ export async function getArticleIdsWithState(carId, assemblyGroupNodeId, { extra
             documents = documents.flat();
 
             documents.forEach(element => {
-                if (element.docTypeId == 1) {
+                if (element?.docTypeId == 1) {
                     //-- image
                     //let image = ipcRenderer.sendSync("images.getDocument",element.docId);
                     element.url = "https://webservice.tecalliance.services/pegasus-3-0/documents/" + process.env.REACT_APP_TECDOC_PROVIDER_ID_NEW + "/" + element.docId
                 }
             });
+            documents = documents.filter((el => el != undefined));
             _r.documents = [...documents];
         }
 

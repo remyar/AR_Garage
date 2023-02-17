@@ -9,7 +9,7 @@ async function setdbPath(_path, options) {
 }
 
 async function readFileSync(_databaseName) {
-    return new Promise((resolve) => {
+    return new Promise((resolve, reject) => {
         if (fs.existsSync(path.resolve(dtabasePath, _databaseName + ".json"))) {
             let result = fs.readFileSync(path.resolve(dtabasePath, _databaseName + ".json"));
             result = JSON.parse(result);
