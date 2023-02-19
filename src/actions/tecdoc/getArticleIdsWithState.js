@@ -11,30 +11,23 @@ export async function getArticleIdsWithState(carId, assemblyGroupNodeId, { extra
         for (let _r of result) {
             let articleLinks = ipcRenderer.sendSync("tecdoc.getArticleLinkIds", _r.articleId);
 
-            let documents = [];
             articleLinks.forEach(element => {
-                if (element.articleDocuments != undefined) {
+                if (element.articleDocuments != undefined && element?.articleDocuments?.array != undefined) {
                     for (let document of element?.articleDocuments?.array) {
                         let r = ipcRenderer.sendSync("tecdoc.getArticleDocuments", document.docId);
-                        documents.push(r);
+                        document.document = r;
                     }
                 }
-            });
-
-            documents = documents.flat();
-
-            documents.forEach(element => {
-                if (element?.docTypeId == 1) {
-                    //-- image
-                    //let image = ipcRenderer.sendSync("images.getDocument",element.docId);
-                    element.url = "https://webservice.tecalliance.services/pegasus-3-0/documents/" + process.env.REACT_APP_TECDOC_PROVIDER_ID_NEW + "/" + element.docId
+                if (element.articleThumbnails != undefined && element?.articleThumbnails?.array != undefined ) {
+                    for (let document of element?.articleThumbnails?.array) {
+                        let r = ipcRenderer.sendSync("tecdoc.getArticleDocuments", document.thumbDocId);
+                        document.document = r;
+                    }
                 }
+                articles.push({..._r , ...element});
             });
-            documents = documents.filter((el => el != undefined));
-            _r.documents = [...documents];
-        }
 
-        articles = [...result];
+        }
 
         return { articlesWithState: articles };
 

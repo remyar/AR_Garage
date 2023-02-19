@@ -40,7 +40,7 @@ function CatalogProductDetails(props) {
                                     <b>{intl.formatMessage({ id: 'product.brand' })}</b>
                                 </Grid>
                                 <Grid item xs={6}>
-                                    {product?.mfrName}
+                                    {product?.brandName}
                                 </Grid>
                             </Grid>
                         </ListItem>
@@ -50,7 +50,7 @@ function CatalogProductDetails(props) {
                                     <b>{intl.formatMessage({ id: 'product.productNum' })}</b>
                                 </Grid>
                                 <Grid item xs={6}>
-                                    <b>{product?.articleNumber}</b>
+                                    <b>{product?.articleNo}</b>
                                 </Grid>
                             </Grid>
                         </ListItem>
@@ -60,7 +60,7 @@ function CatalogProductDetails(props) {
                                     <b>{intl.formatMessage({ id: 'product.productGroup' })}</b>
                                 </Grid>
                                 <Grid item xs={6}>
-                                    {((product?.linkages?.length > 0) && product?.linkages[0].genericArticleDescription) || ""}
+                                    {product?.directArticle?.articleName || ""}
                                 </Grid>
                             </Grid>
                         </ListItem>
@@ -90,8 +90,12 @@ function CatalogProductDetails(props) {
                     <AliceCarousel
                         disableDotsControls
                     >
-                        {product?.images?.map((image, i) => {
-                            return <img key={i} src={image.imageURL400} />
+                        {product?.articleThumbnails?.array?.map((image, i) => {
+                            if ( image?.document && image?.document?.length > 0){
+                                return <img width={400} key={i} src={"data:image/png;base64, " + image?.document} />
+                            } else {
+                                return <img width={400} key={i} src={"/no-image-available.jpg"} />
+                            }
                         })}
                     </AliceCarousel>
                 </Grid>
@@ -106,7 +110,7 @@ function CatalogProductDetails(props) {
                                     <b>{intl.formatMessage({ id: 'product.productNum' })}</b>
                                 </Grid>
                                 <Grid item xs={6}>
-                                    {product?.articleNumber}
+                                    {product?.articleNo}
                                 </Grid>
                             </Grid>
                         </ListItem>
@@ -116,7 +120,7 @@ function CatalogProductDetails(props) {
                                     <b>{intl.formatMessage({ id: 'product.gtin_ean' })}</b>
                                 </Grid>
                                 <Grid item xs={6}>
-                                    {product?.gtins.map((ean) => ean)}
+                                    {product?.eanNumber?.array?.map((ean) => ean.eanNumber)}
                                 </Grid>
                             </Grid>
                         </ListItem>
@@ -126,21 +130,21 @@ function CatalogProductDetails(props) {
                                     <b>{intl.formatMessage({ id: 'product.quantityPerPackage' })}</b>
                                 </Grid>
                                 <Grid item xs={6}>
-                                    {product?.misc?.quantityPerPackage}
+                                    {product?.directArticle?.quantityPerPackingUnit}
                                 </Grid>
                             </Grid>
                         </ListItem>
                     </List>
                     <List>
                         <ListItem sx={{ backgroundColor: "#EDEDED" }}><b>Réf. OE</b></ListItem>
-                        {product?.oemNumbers?.map((oem) => {
+                        {product?.oenNumbers?.array?.map((oem) => {
                             return <ListItem>
                                 <Grid container spacing={2}>
                                     <Grid item xs={6}>
-                                        <b>{oem?.mfrName}</b>
+                                        <b>{oem?.brandName}</b>
                                     </Grid>
                                     <Grid item xs={6}>
-                                        {oem?.articleNumber.replace(/\s/g, '')}
+                                        {oem?.oeNumber.replace(/\s/g, '')}
                                     </Grid>
                                 </Grid>
                             </ListItem>
@@ -150,14 +154,14 @@ function CatalogProductDetails(props) {
                 <Grid item xs={6}>
                     <List>
                         <ListItem sx={{ backgroundColor: "#EDEDED" }}><b>Critéres</b></ListItem>
-                        {product?.articleCriteria?.map((critere) => {
+                        {product?.articleAttributes?.array?.map((critere) => {
                             return <ListItem>
                                 <Grid container spacing={2}>
                                     <Grid item xs={6}>
-                                        <b>{critere?.criteriaDescription || ""}</b>
+                                        <b>{critere?.attrName || ""}</b>
                                     </Grid>
                                     <Grid item xs={6}>
-                                        {critere?.formattedValue || ""}
+                                        {critere?.attrValue || ""}
                                     </Grid>
                                 </Grid>
                             </ListItem>

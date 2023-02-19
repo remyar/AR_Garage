@@ -84,15 +84,15 @@ function CatalogPage(props) {
             categorie={selectedCategorie}
             display={displayProductAddModal ? true : false}
             onValidate={async (product) => {
+                setDisplayLoader(true);
+                if (displayProductAddModal?.oenNumbers?.array?.length > 0) {
+                    for (let oem of displayProductAddModal?.oenNumbers?.array) {
 
-                if (displayProductAddModal.oemNumbers.length > 0) {
-                    for (let oem of displayProductAddModal.oemNumbers) {
-
-                        product.ref_oem = oem.articleNumber;
+                        product.ref_oem = oem.oeNumber;
 
                         try {
                             await props.dispatch(actions.set.newProduct(product));
-                            await props.dispatch(actions.set.oemProduct({ carId: selectedVehicule.tecdocId, oem: product.ref_oem }));
+                            //await props.dispatch(actions.set.oemProduct({ carId: selectedVehicule.tecdocId, oem: product.ref_oem }));
                         } catch (err) {
                             props.snackbar.error(intl.formatMessage({ id: 'save.error' }));
                         }
@@ -105,8 +105,9 @@ function CatalogPage(props) {
                     }
                 }
 
+                setDisplayLoader(false);
                 setDisplayProductAddModal(undefined);
-
+                
             }}
             onClose={() => {
                 setDisplayProductAddModal(undefined);
@@ -140,19 +141,17 @@ function CatalogPage(props) {
                         <Grid container spacing={2} sx={{ paddingTop: '25px', cursor: 'pointer' }} onClick={() => {
                             setDisplayProductDetails(article);
                         }}>
-
                             <Grid item xs={3}>
                                 {(() => {
-                                    let picture = article?.documents?.find((el) => el.docTypeId == 1 && el.url != undefined);
-                                    if (picture) {
-                                        return <img width={150} src={picture.url} />
+                                    if (article?.articleThumbnails?.array && (article?.articleThumbnails?.array.length > 0) && article?.articleThumbnails?.array[0].document && article?.articleThumbnails?.array[0].document.length > 0) {
+                                        return article?.articleThumbnails?.array && <img width={150} src={"data:image/png;base64, " + article?.articleThumbnails?.array[0].document} />
                                     } else {
                                         return <img width={150} src={"/no-image-available.jpg"} />
                                     }
                                 })()}
                             </Grid>
                             <Grid item xs={9} sx={{ textAlign: 'left' }}>
-                                <b>{article.brandName + " - " + article.articleNo + (article.misc?.additionalDescription ? (" - " + article.misc?.additionalDescription) : "")}</b>
+                                <b>{article?.brandName + " - " + article?.articleNo + " - " + article?.directArticle?.articleName || ""}</b>
                                 <br />
                                 {/* {article.genericArticles[0].genericArticleDescription}
                                 <Typography variant="caption" display="block" gutterBottom>

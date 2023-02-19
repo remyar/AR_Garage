@@ -34,7 +34,7 @@ async function getChildNodesAllLinkingTarget() {
 async function getAmBrands() {
     return new Promise(async (resolve, reject) => {
         try {
-            let result = await readFileSync("AmBrands");
+            let result = await readFileSync("AmBrands/"+id);
             resolve(result);
         } catch (err) {
             reject(err);
@@ -150,7 +150,7 @@ async function getArticleDocuments(documentId) {
     return new Promise(async (resolve, reject) => {
         try {
             let result = await readFileSync("Documents/" + documentId);
-            resolve(result?.data?.array || []);
+            resolve(result);
         } catch (err) {
             resolve(err);
         }

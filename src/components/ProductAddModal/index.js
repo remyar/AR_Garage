@@ -29,19 +29,18 @@ const ValidationSchema = Yup.object().shape({
 function ProductAddModal(props) {
     const intl = props.intl;
     const categories = props.globalState.categories;
+    const selectedVehicule = props.globalState.selectedVehicule;
 
     const [selectedCategorie, setSelectedCategorie] = useState(categories[0]);
     const [displayModalAddMarque, setDisplayModalAddMarque] = useState(false);
     const [displayModalAddCategorieParent, setDisplayModalAddCategorieParent] = useState(false);
     const [displayModalAddCategorie, setDisplayModalAddCategorie] = useState(false);
-
-
+   
     const [marques, setMarques] = useState([]);
 
     async function fetchData() {
         let result = await props.dispatch(actions.get.allMarques());
-        // let rows = result.marques.filter((el) => el.brandName != undefined && el.brandName != null && el.brandName.trim().length > 0)
-        let rows = result.marques.sort((a, b) => a.brandName.toLowerCase() > b.brandName.toLowerCase() ? 1 : -1);
+        let rows = result.marques?.data?.array?.sort((a, b) => a.brandName.toLowerCase() > b.brandName.toLowerCase() ? 1 : -1);
         setMarques(rows);
 
         await props.dispatch(actions.get.allCategories());
@@ -67,10 +66,15 @@ function ProductAddModal(props) {
     }
 
     if (props.tecdocproduct) {
-        initialValues.marque = props.tecdocproduct?.mfrName;
-        initialValues.nom = props.tecdocproduct?.genericArticles[0].genericArticleDescription || "";
-        initialValues.ref_fab = props.tecdocproduct?.articleNumber;
-        initialValues.ref_oem = (props.tecdocproduct?.oemNumbers.length > 0) && props.tecdocproduct?.oemNumbers[0].articleNumber.replace(/\s/g, '');
+        initialValues.marque = props.tecdocproduct?.directArticle?.brandName || "";
+        initialValues.nom = props.tecdocproduct?.directArticle?.articleName || "";
+        initialValues.ref_fab = props.tecdocproduct?.directArticle?.articleNo || "";
+
+        let oemRef = "";
+        if (props.tecdocproduct?.oenNumbers?.array?.length > 0){
+            oemRef = props.tecdocproduct?.oenNumbers?.array.find((el) => el.brandName == selectedVehicule.brand).oeNumber.replace(/\s/g, '')
+        }
+        initialValues.ref_oem = oemRef;
 
         initialValues.assemblyGroupNodeId = props?.categorie?.assemblyGroupNodeId;
 
