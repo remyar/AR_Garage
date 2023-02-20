@@ -47,7 +47,7 @@ jobs:
           target: ./assets/tesseract
 
       - uses: suisei-cn/actions-download-file@v1.0.1
-        id: downloadfile  # Remember to give an ID if you need the output filename
+        id: downloadfile2  # Remember to give an ID if you need the output filename
         name: Download the file
         with:
           url: "https://www.goodrace.fr/download/tecdoc_database.zip"
