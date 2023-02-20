@@ -1,0 +1,295 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 776,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Longueur du filetage [mm]",
+                     "attrShortName": "Longeur du filtetage [mm]",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "12,7",
+                     "attrValueId": 38047
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 66,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Écartement des électrodes [mm]",
+                     "attrShortName": "Écart. électr.",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "0,6",
+                     "attrValueId": 1507
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 491,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Ouverture de la clé",
+                     "attrShortName": "Ouverture",
+                     "attrType": "A",
+                     "attrValue": "21",
+                     "attrValueId": 44941
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1358,
+                     "attrIsConditional": false,
+                     "attrIsInterval": true,
+                     "attrIsLinked": false,
+                     "attrName": "Couple de serrage de [Nm]",
+                     "attrShortName": "Couple de serrage à partir de",
+                     "attrSuccessorId": 1359,
+                     "attrType": "N",
+                     "attrUnit": "Nm",
+                     "attrValue": "20",
+                     "attrValueId": 21984
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1359,
+                     "attrIsConditional": false,
+                     "attrIsInterval": true,
+                     "attrIsLinked": false,
+                     "attrName": "Couple de serrage jusqu'à [Nm]",
+                     "attrShortName": "Couple de serrage jusqu'à",
+                     "attrType": "N",
+                     "attrUnit": "Nm",
+                     "attrValue": "30",
+                     "attrValueId": 3496
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,056",
+                     "attrValueId": 34626
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "VALEO_SPARK_PLUG_246861_01.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148922001",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "VALEO_SPARK_PLUG_246861_02.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148922002",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "VALEO_SPARK_PLUG_246861_03.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148922003",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148922001",
+                     "thumbFileName": "0021\\VALEO_SPARK_PLUG_246861_01.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148922002",
+                     "thumbFileName": "0021\\VALEO_SPARK_PLUG_246861_02.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148922003",
+                     "thumbFileName": "0021\\VALEO_SPARK_PLUG_246861_03.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 12677619,
+               "articleName": "Bougie d'allumage",
+               "articleNo": "246861",
+               "articleState": 9,
+               "articleStateName": "N'est plus livrable par le fabricant",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 686,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276422468613"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CITROËN",
+                     "oeNumber": "95618380",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "CITROËN",
+                     "oeNumber": "95619040",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "FIAT",
+                     "oeNumber": "7 554 445",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "FIAT",
+                     "oeNumber": "7554445",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "5962-90",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "596290",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "95618380",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "95619040",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "ZCT 000 011",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "ZCT000011",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7700500000",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7700587168",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7701366267",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7701366515",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "VOLVO",
+                     "oeNumber": "271412",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "DACIA",
+                     "oeNumber": "7700500000",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "KUBOTA",
+                     "oeNumber": "13901-6771-6",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "KUBOTA",
+                     "oeNumber": "1390167716",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "11NHC"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

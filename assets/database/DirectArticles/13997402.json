@@ -1,0 +1,539 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 220,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Alésage-Ø [mm]",
+                     "attrShortName": "Alésage-Ø",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "30",
+                     "attrValueId": 19880
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 468,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Matériel",
+                     "attrType": "K",
+                     "attrValue": "Matière plastique",
+                     "attrValueId": 50361
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1094,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Nombre de trous de fixation",
+                     "attrShortName": "Nombre de trous de fixation",
+                     "attrType": "N",
+                     "attrValue": "2",
+                     "attrValueId": 53236
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1349,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre raccord hydraulique [mm]",
+                     "attrShortName": "Ø-attelage hydraulique",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "13,3",
+                     "attrValueId": 42421
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 836,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Article complémentaire / Info complémentaire 2",
+                     "attrType": "K",
+                     "attrValue": "sans capteur",
+                     "attrValueId": 26830
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,36",
+                     "attrValueId": 20531
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "CLUTCH_CSC_804527_01.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148918418",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "CLUTCH_CSC_804527_02.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148918419",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "CLUTCH_CSC_804527_03.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148918420",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148918418",
+                     "thumbFileName": "0021\\CLUTCH_CSC_804527_01.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148918419",
+                     "thumbFileName": "0021\\CLUTCH_CSC_804527_02.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148918420",
+                     "thumbFileName": "0021\\CLUTCH_CSC_804527_03.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 13997402,
+               "articleName": "Butée hydraulique, embrayage",
+               "articleNo": "804527",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 47,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276428045276"
+                  }
+               ]
+            },
+            "mainArticle": {
+               "array": [
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 14311162,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834027"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 14311596,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834046"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 14313764,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834098"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 14313771,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834104"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 144852773,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834111"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907574,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834134"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907701,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834212"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907707,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834213"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907708,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834214"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907773,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834285"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907782,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834289"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907812,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834319"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907815,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834322"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907820,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834327"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907830,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834337"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907945,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834457"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907946,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834458"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 704295954,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834519"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 869739948,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834528"
+                  }
+               ]
+            },
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "LADA",
+                     "oeNumber": "306201586R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "NISSAN",
+                     "oeNumber": "30620-00Q0A",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "NISSAN",
+                     "oeNumber": "30620-00Q0E",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "NISSAN",
+                     "oeNumber": "30620-00Q0J",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "NISSAN",
+                     "oeNumber": "30620-00Q1E",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "NISSAN",
+                     "oeNumber": "30620-00Q1M",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "NISSAN",
+                     "oeNumber": "30620-00Q2B",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "NISSAN",
+                     "oeNumber": "30620-00QAB",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 8,
+                     "brandName": "NISSAN",
+                     "oeNumber": "30620-BN700",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 9,
+                     "brandName": "NISSAN",
+                     "oeNumber": "30620-BN710",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 10,
+                     "brandName": "NISSAN",
+                     "oeNumber": "3062000Q0A",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 11,
+                     "brandName": "NISSAN",
+                     "oeNumber": "3062000Q0E",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 12,
+                     "brandName": "NISSAN",
+                     "oeNumber": "3062000Q0J",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 13,
+                     "brandName": "NISSAN",
+                     "oeNumber": "3062000Q1E",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 14,
+                     "brandName": "NISSAN",
+                     "oeNumber": "3062000Q1M",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 15,
+                     "brandName": "NISSAN",
+                     "oeNumber": "3062000Q2B",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 16,
+                     "brandName": "NISSAN",
+                     "oeNumber": "3062000QAB",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 17,
+                     "brandName": "NISSAN",
+                     "oeNumber": "30620BN700",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 18,
+                     "brandName": "NISSAN",
+                     "oeNumber": "30620BN710",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "306200650R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200046103",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200764613",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200842581",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200899828",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200990502",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "DACIA",
+                     "oeNumber": "306200650R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "DACIA",
+                     "oeNumber": "8200046103",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "NISSAN (DFAC)",
+                     "oeNumber": "30620-00Q0E",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "NISSAN (DFAC)",
+                     "oeNumber": "30620-00Q0J",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "NISSAN (DFAC)",
+                     "oeNumber": "30620-00Q1M",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "NISSAN (DFAC)",
+                     "oeNumber": "30620-00Q2B",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "NISSAN (DFAC)",
+                     "oeNumber": "3062000Q0E",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "NISSAN (DFAC)",
+                     "oeNumber": "3062000Q0J",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "NISSAN (DFAC)",
+                     "oeNumber": "3062000Q1M",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 8,
+                     "brandName": "NISSAN (DFAC)",
+                     "oeNumber": "3062000Q2B",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "VENUCIA",
+                     "oeNumber": "30620-00Q0J",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "VENUCIA",
+                     "oeNumber": "30620-00Q1M",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "VENUCIA",
+                     "oeNumber": "30620-00Q2B",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "VENUCIA",
+                     "oeNumber": "3062000Q0J",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "VENUCIA",
+                     "oeNumber": "3062000Q1M",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "VENUCIA",
+                     "oeNumber": "3062000Q2B",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,209 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 220,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Alésage-Ø [mm]",
+                     "attrShortName": "Alésage-Ø",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "24",
+                     "attrValueId": 36293
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1094,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Nombre de trous de fixation",
+                     "attrShortName": "Nombre de trous de fixation",
+                     "attrType": "N",
+                     "attrValue": "3",
+                     "attrValueId": 37954
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 836,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Article complémentaire / Info complémentaire 2",
+                     "attrType": "K",
+                     "attrValue": "sans capteur",
+                     "attrValueId": 26830
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,44",
+                     "attrValueId": 17504
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "VALEO_CLUTCH_CSC_804521_01.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148918412",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "VALEO_CLUTCH_CSC_804521_02.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148918413",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "VALEO_CLUTCH_CSC_804521_03.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148918414",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148918412",
+                     "thumbFileName": "0021\\VALEO_CLUTCH_CSC_804521_01.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148918413",
+                     "thumbFileName": "0021\\VALEO_CLUTCH_CSC_804521_02.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148918414",
+                     "thumbFileName": "0021\\VALEO_CLUTCH_CSC_804521_03.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 13997241,
+               "articleName": "Butée hydraulique, embrayage",
+               "articleNo": "804521",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 47,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276428045214"
+                  }
+               ]
+            },
+            "mainArticle": {
+               "array": [
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 14310762,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834004"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 14310753,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834005"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907593,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834149"
+                  },
+                  {
+                     "articleAddName": "FULLPACK DVA (CSC)",
+                     "articleId": 144853971,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "837005"
+                  },
+                  {
+                     "articleAddName": "FULLPACK DVA (CSC)",
+                     "articleId": 267417000,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "837398"
+                  }
+               ]
+            },
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "FIAT",
+                     "oeNumber": "55181216",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "FIAT",
+                     "oeNumber": "55183501",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "LANCIA",
+                     "oeNumber": "55181216",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "LANCIA",
+                     "oeNumber": "55183501",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

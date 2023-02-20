@@ -1,0 +1,234 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 757,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Bougie",
+                     "attrType": "K",
+                     "attrValue": "1-électrode de masse",
+                     "attrValueId": 33122
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 776,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Longueur du filetage [mm]",
+                     "attrShortName": "Longeur du filtetage [mm]",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "19",
+                     "attrValueId": 7148
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 66,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Écartement des électrodes [mm]",
+                     "attrShortName": "Écart. électr.",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "1",
+                     "attrValueId": 28463
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 491,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Ouverture de la clé",
+                     "attrShortName": "Ouverture",
+                     "attrType": "A",
+                     "attrValue": "16",
+                     "attrValueId": 28488
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1358,
+                     "attrIsConditional": false,
+                     "attrIsInterval": true,
+                     "attrIsLinked": false,
+                     "attrName": "Couple de serrage de [Nm]",
+                     "attrShortName": "Couple de serrage à partir de",
+                     "attrSuccessorId": 1359,
+                     "attrType": "N",
+                     "attrUnit": "Nm",
+                     "attrValue": "20",
+                     "attrValueId": 21984
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1359,
+                     "attrIsConditional": false,
+                     "attrIsInterval": true,
+                     "attrIsLinked": false,
+                     "attrName": "Couple de serrage jusqu'à [Nm]",
+                     "attrShortName": "Couple de serrage jusqu'à",
+                     "attrType": "N",
+                     "attrUnit": "Nm",
+                     "attrValue": "30",
+                     "attrValueId": 3496
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,048",
+                     "attrValueId": 45667
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "VALEO_SPARK_PLUG_246884_01.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148922070",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "VALEO_SPARK_PLUG_246884_02.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148922071",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "VALEO_SPARK_PLUG_246884_03.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148922072",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148922070",
+                     "thumbFileName": "0021\\VALEO_SPARK_PLUG_246884_01.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148922071",
+                     "thumbFileName": "0021\\VALEO_SPARK_PLUG_246884_02.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148922072",
+                     "thumbFileName": "0021\\VALEO_SPARK_PLUG_246884_03.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 12689292,
+               "articleName": "Bougie d'allumage",
+               "articleNo": "246884",
+               "articleState": 8,
+               "articleStateName": "Livrable jusqu'à épuisement",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 686,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276422468842"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "HONDA",
+                     "oeNumber": "98079-5514G",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "HONDA",
+                     "oeNumber": "98079-5514P",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "HONDA",
+                     "oeNumber": "980795514G",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "HONDA",
+                     "oeNumber": "980795514P",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "MAZDA",
+                     "oeNumber": "F293-18-110",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "MAZDA",
+                     "oeNumber": "F29318110",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "RF13LC-1"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

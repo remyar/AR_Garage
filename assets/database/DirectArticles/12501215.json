@@ -1,0 +1,281 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 100,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Côté d'assemblage",
+                     "attrShortName": "Endroit d'assemblage",
+                     "attrType": "K",
+                     "attrValue": "gauche",
+                     "attrValueId": 14391
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 100,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Côté d'assemblage",
+                     "attrShortName": "Endroit d'assemblage",
+                     "attrType": "K",
+                     "attrValue": "droite",
+                     "attrValueId": 55100
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 439,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Type de fonctionnement",
+                     "attrType": "K",
+                     "attrValue": "électrique",
+                     "attrValueId": 27758
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,1",
+                     "attrValueId": 35348
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "ENV076.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148905191",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "ENV076S.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148910405",
+                     "docTypeId": 3,
+                     "docTypeName": "Dessin technique"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148905191",
+                     "thumbFileName": "0021\\ENV076.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148910405",
+                     "thumbFileName": "0021\\ENV076S.JPG",
+                     "thumbTypeId": 3
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 12501215,
+               "articleName": "Elément de réglage, réglage de la portée des phares",
+               "articleNo": "085169",
+               "articleState": 9,
+               "articleStateName": "N'est plus livrable par le fabricant",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 700,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276420851691"
+                  }
+               ]
+            },
+            "mainArticle": {
+               "array": [
+                  {
+                     "articleId": 12493952,
+                     "articleName": "Projecteur principal",
+                     "articleNumber": "084518"
+                  },
+                  {
+                     "articleId": 12493963,
+                     "articleName": "Projecteur principal",
+                     "articleNumber": "084519"
+                  },
+                  {
+                     "articleId": 12498874,
+                     "articleName": "Projecteur principal",
+                     "articleNumber": "085020"
+                  },
+                  {
+                     "articleId": 12498909,
+                     "articleName": "Projecteur principal",
+                     "articleNumber": "085021"
+                  },
+                  {
+                     "articleId": 12499006,
+                     "articleName": "Projecteur principal",
+                     "articleNumber": "085026"
+                  },
+                  {
+                     "articleId": 12499055,
+                     "articleName": "Projecteur principal",
+                     "articleNumber": "085027"
+                  },
+                  {
+                     "articleId": 12506956,
+                     "articleName": "Projecteur principal",
+                     "articleNumber": "085594"
+                  },
+                  {
+                     "articleId": 12506964,
+                     "articleName": "Projecteur principal",
+                     "articleNumber": "085595"
+                  },
+                  {
+                     "articleId": 12512111,
+                     "articleName": "Projecteur principal",
+                     "articleNumber": "085846"
+                  },
+                  {
+                     "articleId": 12512156,
+                     "articleName": "Projecteur principal",
+                     "articleNumber": "085847"
+                  },
+                  {
+                     "articleId": 12513007,
+                     "articleName": "Projecteur principal",
+                     "articleNumber": "086186"
+                  },
+                  {
+                     "articleId": 12513012,
+                     "articleName": "Projecteur principal",
+                     "articleNumber": "086187"
+                  },
+                  {
+                     "articleAddName": "ORIGINAL PART",
+                     "articleId": 12514156,
+                     "articleName": "Projecteur principal",
+                     "articleNumber": "086375"
+                  },
+                  {
+                     "articleId": 12514160,
+                     "articleName": "Projecteur principal",
+                     "articleNumber": "086376"
+                  },
+                  {
+                     "articleAddName": "ORIGINAL PART",
+                     "articleId": 12514171,
+                     "articleName": "Projecteur principal",
+                     "articleNumber": "086379"
+                  },
+                  {
+                     "articleId": 12514176,
+                     "articleName": "Projecteur principal",
+                     "articleNumber": "086380"
+                  }
+               ]
+            },
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CITROËN",
+                     "oeNumber": "6224-A9",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "CITROËN",
+                     "oeNumber": "6224A9",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "CITROËN",
+                     "oeNumber": "9618670780",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "FIAT",
+                     "oeNumber": "6224A9",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "FIAT",
+                     "oeNumber": "9618670780",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "LANCIA",
+                     "oeNumber": "9618670780",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "6224-A9",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "6224A9",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "85169"
+                  },
+                  {
+                     "usageNumber": "SN542"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

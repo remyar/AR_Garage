@@ -1,0 +1,170 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 437,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Type de lampe",
+                     "attrType": "K",
+                     "attrValue": "H16",
+                     "attrValueId": 40161
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 6,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Voltage [V]",
+                     "attrShortName": "Volt",
+                     "attrType": "N",
+                     "attrUnit": "V",
+                     "attrValue": "12",
+                     "attrValueId": 33527
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 53,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Capacité nominale [W]",
+                     "attrShortName": "Capacité nominale",
+                     "attrType": "A",
+                     "attrUnit": "W",
+                     "attrValue": "19",
+                     "attrValueId": 59469
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 4120,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Type de culot de l’ampoule",
+                     "attrShortName": "Type de culot de l’ampoule",
+                     "attrType": "K",
+                     "attrValue": "PGJ19-3",
+                     "attrValueId": 40000
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 190,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Marque de conformité",
+                     "attrShortName": "Marque de conformité",
+                     "attrType": "A",
+                     "attrValue": "(E1) 2YV",
+                     "attrValueId": 64335
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 677,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Type d'emballage",
+                     "attrType": "K",
+                     "attrValue": "Emballage en blister",
+                     "attrValueId": 10372
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "BULB_032237_01.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148961249",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "BULB_032237_02.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148961250",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148961249",
+                     "thumbFileName": "0021\\BULB_032237_01.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148961250",
+                     "thumbFileName": "0021\\BULB_032237_02.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleAddName": "ESSENTIAL",
+               "articleId": 1253743203,
+               "articleName": "Ampoule, projecteur antibrouillard",
+               "articleNo": "032237",
+               "articleState": 0,
+               "articleStateName": "En préparation",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": true,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": true,
+               "genericArticleId": 108,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": false,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276420322375"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": "",
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "32237"
+                  },
+                  {
+                     "usageNumber": "H16"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

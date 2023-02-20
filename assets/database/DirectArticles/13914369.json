@@ -1,0 +1,652 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 3428,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Profondeur de filet [mm]",
+                     "attrShortName": "Profondeur de filet",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "34",
+                     "attrValueId": 63380
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 3427,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Largeur de filet [mm]",
+                     "attrShortName": "Largeur de filet",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "670",
+                     "attrValueId": 50402
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 3426,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Longueur de filet [mm]",
+                     "attrShortName": "Longueur de filet",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "378",
+                     "attrValueId": 28425
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 468,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Matériel",
+                     "attrType": "K",
+                     "attrValue": "Aluminium",
+                     "attrValueId": 3095
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 916,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Ø admission [mm]",
+                     "attrShortName": "Ø admiss°",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "40",
+                     "attrValueId": 17149
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 917,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Ø Sortie [mm]",
+                     "attrShortName": "Ø sortie",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "48",
+                     "attrValueId": 39288
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 566,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Chauffage et refroidissement",
+                     "attrType": "K",
+                     "attrValue": "pour véhicules sans radiateur d'huile",
+                     "attrValueId": 17520
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 836,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Article complémentaire / Info complémentaire 2",
+                     "attrType": "K",
+                     "attrValue": "sans thermostat de liquide de refroidissement",
+                     "attrValueId": 52764
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 2678,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Version de radiateur",
+                     "attrShortName": "Version de radiateur",
+                     "attrType": "K",
+                     "attrValue": "ailettes jointes mécaniquement",
+                     "attrValueId": 51994
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "4,65",
+                     "attrValueId": 62329
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "732577.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148897485",
+                     "docTypeId": 3,
+                     "docTypeName": "Dessin technique"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148897485",
+                     "thumbFileName": "0021\\732577.JPG",
+                     "thumbTypeId": 3
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 13914369,
+               "articleName": "Radiateur, refroidissement du moteur",
+               "articleNo": "732577",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 470,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276427325775"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331-CW",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331-EQ",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331-EZ",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331-FA",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331-FC",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331-FG",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331-GC",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 8,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331-GE",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 9,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331-KG",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 10,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331-KH",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 11,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331-KJ",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 12,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331-TZ",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 13,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331-Y8",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 14,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331-Y9",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 15,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331-Z0",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 16,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331-Z4",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 17,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331-Z5",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 18,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331-ZT",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 19,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331-ZV",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 20,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331CW",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 21,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331EQ",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 22,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331EZ",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 23,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331FA",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 24,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331FC",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 25,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331FG",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 26,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331GC",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 27,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331GE",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 28,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331KG",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 29,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331KH",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 30,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331KJ",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 31,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331TZ",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 32,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331Y8",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 33,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331Y9",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 34,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331Z0",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 35,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331Z4",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 36,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331Z5",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 37,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331ZT",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 38,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1331ZV",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331-CW",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331-EQ",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331-EX",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331-EY",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331-EZ",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331-FE",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331-FF",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 8,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331-FG",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 9,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331-KG",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 10,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331-KH",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 11,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331-TZ",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 12,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331-Y6",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 13,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331-Y7",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 14,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331-Y8",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 15,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331-Z1",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 16,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331-Z2",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 17,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331-ZT",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 18,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331-ZV",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 19,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331CW",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 20,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331EQ",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 21,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331EX",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 22,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331EY",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 23,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331EZ",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 24,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331FE",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 25,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331FF",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 26,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331FG",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 27,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331KG",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 28,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331KH",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 29,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331TZ",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 30,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331Y6",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 31,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331Y7",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 32,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331Y8",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 33,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331Z1",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 34,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331Z2",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 35,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331ZT",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 36,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1331ZV",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "TH261"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

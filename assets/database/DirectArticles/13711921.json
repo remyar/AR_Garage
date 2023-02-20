@@ -1,0 +1,243 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 122,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Montage d'origine",
+                     "attrShortName": "pour fabricant",
+                     "attrType": "A",
+                     "attrValue": "DUCELLIER",
+                     "attrValueId": 42318
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 522,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Condenseur-capacité",
+                     "attrShortName": "Condensateur-capacité",
+                     "attrType": "N",
+                     "attrUnit": "µF",
+                     "attrValue": "0,27",
+                     "attrValueId": 21163
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 203,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Longueur [mm]",
+                     "attrShortName": "Longueur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "37,4",
+                     "attrValueId": 43046
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,026",
+                     "attrValueId": 20410
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "COND D703.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148903389",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148903389",
+                     "thumbFileName": "0021\\COND D703.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 13711921,
+               "articleName": "Condensateur, système d'allumage",
+               "articleNo": "607453",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 690,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276421205240"
+                  }
+               ]
+            },
+            "mainArticle": {
+               "array": [
+                  {
+                     "articleId": 12552134,
+                     "articleName": "Kit d'assemblage, unité d'allumage",
+                     "articleNumber": "120130"
+                  },
+                  {
+                     "articleId": 12635089,
+                     "articleName": "Distributeur d'allumage",
+                     "articleNumber": "242033"
+                  },
+                  {
+                     "articleId": 12635100,
+                     "articleName": "Distributeur d'allumage",
+                     "articleNumber": "242038"
+                  },
+                  {
+                     "articleId": 12635103,
+                     "articleName": "Distributeur d'allumage",
+                     "articleNumber": "242039"
+                  },
+                  {
+                     "articleId": 12635217,
+                     "articleName": "Distributeur d'allumage",
+                     "articleNumber": "242070"
+                  },
+                  {
+                     "articleId": 13558005,
+                     "articleName": "Kit d'assemblage, unité d'allumage",
+                     "articleNumber": "582168"
+                  },
+                  {
+                     "articleId": 13558350,
+                     "articleName": "Kit d'assemblage, unité d'allumage",
+                     "articleNumber": "582349"
+                  },
+                  {
+                     "articleId": 13711893,
+                     "articleName": "Kit d'assemblage, unité d'allumage",
+                     "articleNumber": "608189"
+                  },
+                  {
+                     "articleId": 13711906,
+                     "articleName": "Kit d'assemblage, unité d'allumage",
+                     "articleNumber": "609112"
+                  },
+                  {
+                     "articleId": 13711920,
+                     "articleName": "Kit d'assemblage, unité d'allumage",
+                     "articleNumber": "609113"
+                  }
+               ]
+            },
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CITROËN",
+                     "oeNumber": "5452417",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "5948-06",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "594806",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "0853712500",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7701021676",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7701022130",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "RENAULT",
+                     "oeNumber": "853712500",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "VOLVO",
+                     "oeNumber": "3102885.5",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "VOLVO",
+                     "oeNumber": "31028855",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "D703"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,179 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 596,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Article complémentaire/Info complémentaire",
+                     "attrType": "K",
+                     "attrValue": "avec joints",
+                     "attrValueId": 34342
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 577,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Version renforcée",
+                     "attrShortName": "Version renforcée",
+                     "attrType": "V",
+                     "attrValueId": 1101
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1360,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Nombre des courroïes",
+                     "attrShortName": "Nombre des courroïes",
+                     "attrType": "N",
+                     "attrValue": "1",
+                     "attrValueId": 23408
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 3491,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Nombre de poulies de tension",
+                     "attrShortName": "Nombre de poulies de tension",
+                     "attrType": "N",
+                     "attrValue": "1",
+                     "attrValueId": 53092
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 92,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Nombre de dents",
+                     "attrShortName": "Nbr. dents",
+                     "attrType": "N",
+                     "attrValue": "132",
+                     "attrValueId": 177
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 818,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Largeur 1 [mm]",
+                     "attrShortName": "Largeur 1",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "26",
+                     "attrValueId": 4400
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "1,87",
+                     "attrValueId": 1561
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "TIMINGBELTKIT_614519_01.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148937971",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "TIMINGBELTKIT_614519_02.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148934831",
+                     "docTypeId": 3,
+                     "docTypeName": "Dessin technique"
+                  },
+                  {
+                     "docFileName": "614519_INSTRUCTIONS_FR.PDF",
+                     "docFileTypeName": "Fichier PDF",
+                     "docId": "564045172225054",
+                     "docTypeId": 4,
+                     "docTypeName": "Instructions de montage"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148937971",
+                     "thumbFileName": "0021\\TIMINGBELTKIT_614519_01.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148934831",
+                     "thumbFileName": "0021\\TIMINGBELTKIT_614519_02.JPG",
+                     "thumbTypeId": 3
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 144815137,
+               "articleName": "Pompe à eau + kit de courroie de distribution",
+               "articleNo": "614519",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 3096,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": false,
+               "hasPartList": true,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276426145190"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": "",
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

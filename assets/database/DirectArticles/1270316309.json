@@ -1,0 +1,187 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 497,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre extérieur [mm]",
+                     "attrShortName": "Diamètre extérieur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "76",
+                     "attrValueId": 17649
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 206,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Largeur [mm]",
+                     "attrShortName": "Largeur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "26",
+                     "attrValueId": 10476
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "T38304.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150104517",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileTypeName": "URL",
+                     "docId": "1126995126807253",
+                     "docTypeId": 14,
+                     "docTypeName": "Mode d'emploi"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520150104517",
+                     "thumbFileName": "0033\\T38304.JPG",
+                     "thumbTypeId": 5
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleAddName": "DriveAlign®",
+               "articleId": 1270316309,
+               "articleName": "Tendeur de courroie, courroie trapézoïdale à nervures",
+               "articleNo": "T38304",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "GATES",
+               "brandNo": 33,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 541,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "5414465396953"
+                  }
+               ]
+            },
+            "mainArticle": {
+               "array": [
+                  {
+                     "articleAddName": "Micro-V® Kit",
+                     "articleId": 17188208,
+                     "articleName": "Jeu de courroies trapézoïdales à nervures",
+                     "articleNumber": "K016PK1238"
+                  },
+                  {
+                     "articleAddName": "Micro-V® Kit",
+                     "articleId": 17210681,
+                     "articleName": "Jeu de courroies trapézoïdales à nervures",
+                     "articleNumber": "K036PK1745"
+                  },
+                  {
+                     "articleAddName": "Micro-V® Kit",
+                     "articleId": 17213529,
+                     "articleName": "Jeu de courroies trapézoïdales à nervures",
+                     "articleNumber": "K046PK1270"
+                  },
+                  {
+                     "articleAddName": "Micro-V® Kit",
+                     "articleId": 17216148,
+                     "articleName": "Jeu de courroies trapézoïdales à nervures",
+                     "articleNumber": "K056PK1250"
+                  },
+                  {
+                     "articleAddName": "Micro-V® Kit",
+                     "articleId": 17218275,
+                     "articleName": "Jeu de courroies trapézoïdales à nervures",
+                     "articleNumber": "K066PK1745"
+                  },
+                  {
+                     "articleAddName": "Micro-V® Kit",
+                     "articleId": 17220743,
+                     "articleName": "Jeu de courroies trapézoïdales à nervures",
+                     "articleNumber": "K096PK1605"
+                  }
+               ]
+            },
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "1275380",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7431275380",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "VOLVO",
+                     "oeNumber": "1271914",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "VOLVO",
+                     "oeNumber": "1275380",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "VOLVO",
+                     "oeNumber": "9135206",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "7808-21204"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

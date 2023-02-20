@@ -1,0 +1,222 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 497,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre extérieur [mm]",
+                     "attrShortName": "Diamètre extérieur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "34",
+                     "attrValueId": 55233
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,14",
+                     "attrValueId": 42801
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "CLUTCH RELEASE BEARING.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148961222",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148961222",
+                     "thumbFileName": "0021\\CLUTCH RELEASE BEARING.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 12829434,
+               "articleName": "Butée de débrayage",
+               "articleNo": "265254",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 48,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276422652548"
+                  }
+               ]
+            },
+            "mainArticle": {
+               "array": [
+                  {
+                     "articleAddName": "KIT3P",
+                     "articleId": 11746905,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "003332"
+                  },
+                  {
+                     "articleAddName": "VALEO CLASSIC KIT3P",
+                     "articleId": 13968577,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "786003"
+                  },
+                  {
+                     "articleAddName": "KIT3P",
+                     "articleId": 13970303,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "801076"
+                  },
+                  {
+                     "articleAddName": "KIT3P",
+                     "articleId": 13970364,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "801086"
+                  },
+                  {
+                     "articleAddName": "KIT3P",
+                     "articleId": 13970375,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "801087"
+                  },
+                  {
+                     "articleAddName": "KIT3P",
+                     "articleId": 13970400,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "801089"
+                  },
+                  {
+                     "articleAddName": "KIT3P",
+                     "articleId": 13970427,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "801090"
+                  },
+                  {
+                     "articleAddName": "KIT3P",
+                     "articleId": 13972358,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "801286"
+                  },
+                  {
+                     "articleAddName": "KIT3P",
+                     "articleId": 14255043,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "821395"
+                  }
+               ]
+            },
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "FIAT",
+                     "oeNumber": "5991916",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "FIAT",
+                     "oeNumber": "7622270",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "FIAT",
+                     "oeNumber": "7662270",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "LANCIA",
+                     "oeNumber": "7662270",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "SEAT",
+                     "oeNumber": "7662270",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "SEAT",
+                     "oeNumber": "SE141125316B",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "SEAT",
+                     "oeNumber": "XO39516640",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "ZASTAVA",
+                     "oeNumber": "7662270",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "AUTOBIANCHI",
+                     "oeNumber": "7662270",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "R083"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}
