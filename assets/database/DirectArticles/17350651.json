@@ -1,0 +1,184 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 596,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Article complémentaire/Info complémentaire",
+                     "attrType": "K",
+                     "attrValue": "sans accessoires",
+                     "attrValueId": 43525
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1282,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Nombre de gorges",
+                     "attrShortName": "Nombre de gorges",
+                     "attrType": "N",
+                     "attrValue": "5",
+                     "attrValueId": 58340
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 497,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre extérieur [mm]",
+                     "attrShortName": "Diamètre extérieur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "150",
+                     "attrValueId": 18974
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 496,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre intérieur [mm]",
+                     "attrShortName": "Diamètre intérieur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "42",
+                     "attrValueId": 20261
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 206,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Largeur [mm]",
+                     "attrShortName": "Largeur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "23",
+                     "attrValueId": 62729
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "TVD1026.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150107577",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileTypeName": "URL",
+                     "docId": "1126995126807253",
+                     "docTypeId": 14,
+                     "docTypeName": "Mode d'emploi"
+                  },
+                  {
+                     "docFileTypeName": "URL",
+                     "docId": "1126995126807254",
+                     "docTypeId": 14,
+                     "docTypeName": "Mode d'emploi"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520150107577",
+                     "thumbFileName": "0033\\TVD1026.JPG",
+                     "thumbTypeId": 5
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleAddName": "DriveAlign®",
+               "articleId": 17350651,
+               "articleName": "Poulie, vilebrequin",
+               "articleNo": "TVD1026",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "GATES",
+               "brandNo": 33,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 3213,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "5414465737398"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CITROËN",
+                     "oeNumber": "0515.L6",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "CITROËN",
+                     "oeNumber": "0515L6",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "0515.L6",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "0515L6",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "7845-10038"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

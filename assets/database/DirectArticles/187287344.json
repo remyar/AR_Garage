@@ -1,0 +1,183 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 572,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poulies",
+                     "attrType": "K",
+                     "attrValue": "pour poulies à gorge",
+                     "attrValueId": 62899
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 585,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Consulter données techniques",
+                     "attrShortName": "Consulter données techniques",
+                     "attrType": "V",
+                     "attrValueId": 36715
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "WP0138.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150108278",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileName": "GATES_TT024.PDF",
+                     "docFileTypeName": "Fichier PDF",
+                     "docId": "564045173389907",
+                     "docTypeId": 4,
+                     "docTypeName": "Instructions de montage"
+                  },
+                  {
+                     "docFileTypeName": "URL",
+                     "docId": "1126995126807819",
+                     "docTypeId": 14,
+                     "docTypeName": "Mode d'emploi"
+                  },
+                  {
+                     "docFileTypeName": "URL",
+                     "docId": "1126995126803113",
+                     "docTypeId": 14,
+                     "docTypeName": "Mode d'emploi"
+                  },
+                  {
+                     "docFileTypeName": "URL",
+                     "docId": "1126995126812752",
+                     "docTypeId": 14,
+                     "docTypeName": "Mode d'emploi"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520150108278",
+                     "thumbFileName": "0033\\WP0138.JPG",
+                     "thumbTypeId": 5
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 187287344,
+               "articleName": "Pompe à eau, refroidissement du moteur",
+               "articleNo": "WP0138",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "GATES",
+               "brandNo": 33,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 1260,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "5400608079401"
+                  }
+               ]
+            },
+            "mainArticle": {
+               "array": [
+                  {
+                     "articleAddName": "Micro-V® Kit",
+                     "articleId": 187282774,
+                     "articleName": "Pompe à eau+Jeu de courroie trapézoïdale à nervures",
+                     "articleNumber": "KP46PK948"
+                  }
+               ]
+            },
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1201.H5",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1201H5",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "FIAT",
+                     "oeNumber": "504083122",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "FIAT",
+                     "oeNumber": "98473452",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "FIAT",
+                     "oeNumber": "99440717",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1201.H5",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1201H5",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "7702-10138"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

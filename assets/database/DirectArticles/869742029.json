@@ -1,0 +1,260 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1075,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Pièce neuve",
+                     "attrShortName": "Pièce neuve",
+                     "attrType": "V",
+                     "attrValueId": 1045
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "19,23",
+                     "attrValueId": 31341
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "VALEO_KIT4P_RB.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148933986",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "KIT4P-CONVERSION KIT-RB.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148961203",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148933986",
+                     "thumbFileName": "0021\\VALEO_KIT4P_RB.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148961203",
+                     "thumbFileName": "0021\\KIT4P-CONVERSION KIT-RB.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleAddName": "KIT4P - CONVERSION KIT",
+               "articleId": 869742029,
+               "articleName": "Kit d'embrayage",
+               "articleNo": "835368",
+               "articleState": 9,
+               "articleStateName": "N'est plus livrable par le fabricant",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 479,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276428353685"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CITROËN",
+                     "oeNumber": "0532-Q5",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "CITROËN",
+                     "oeNumber": "0532-Q9",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "CITROËN",
+                     "oeNumber": "0532-S7",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "CITROËN",
+                     "oeNumber": "0532-T0",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "CITROËN",
+                     "oeNumber": "0532-X7",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "CITROËN",
+                     "oeNumber": "0532-X8",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "CITROËN",
+                     "oeNumber": "532Q5",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 8,
+                     "brandName": "CITROËN",
+                     "oeNumber": "532Q9",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 9,
+                     "brandName": "CITROËN",
+                     "oeNumber": "532S7",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 10,
+                     "brandName": "CITROËN",
+                     "oeNumber": "532T0",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 11,
+                     "brandName": "CITROËN",
+                     "oeNumber": "532X7",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 12,
+                     "brandName": "CITROËN",
+                     "oeNumber": "532X8",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "0532-N3",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "0532-Q5",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "0532-Q9",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "0532-T0",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "0532-X7",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "0532-X8",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "532N3",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 8,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "532Q5",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 9,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "532Q9",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 10,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "532T0",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 11,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "532X7",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 12,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "532X8",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

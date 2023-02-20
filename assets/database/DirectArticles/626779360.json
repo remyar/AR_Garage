@@ -1,0 +1,297 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 220,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Alésage-Ø [mm]",
+                     "attrShortName": "Alésage-Ø",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "29",
+                     "attrValueId": 30848
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 468,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Matériel",
+                     "attrType": "K",
+                     "attrValue": "Aluminium",
+                     "attrValueId": 51287
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1631,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "pour n° fabricant",
+                     "attrShortName": "pour n° fabricant",
+                     "attrType": "A",
+                     "attrValue": "ZA2903.3.1",
+                     "attrValueId": 41098
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,54",
+                     "attrValueId": 52556
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "FTE_CSC_1100129_01.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148944722",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  }
+               ]
+            },
+            "articleInfo": {
+               "array": [
+                  {
+                     "infoId": 50992,
+                     "infoText": "la bûtée hydraulique est à remplacer  obligatoirement",
+                     "infoType": 1,
+                     "infoTypeName": "Informations techniques"
+                  }
+               ]
+            },
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148944722",
+                     "thumbFileName": "0021\\FTE_CSC_1100129_01.JPG",
+                     "thumbTypeId": 5
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleAddName": "FTE CLUTCH ACTUATION",
+               "articleId": 626779360,
+               "articleName": "Butée hydraulique, embrayage",
+               "articleNo": "1100129",
+               "articleState": 8,
+               "articleStateName": "Livrable jusqu'à épuisement",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 47,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276429471104"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "MITSUBISHI",
+                     "oeNumber": "MW6900012",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "MITSUBISHI",
+                     "oeNumber": "MW8667661",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7436900012",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7438667661",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7439181322",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7439463525",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7700107570",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8201251637",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "VOLVO",
+                     "oeNumber": "31259445",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "VOLVO",
+                     "oeNumber": "6900012",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "VOLVO",
+                     "oeNumber": "6900012.3",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "VOLVO",
+                     "oeNumber": "69000123",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "VOLVO",
+                     "oeNumber": "6900012-3",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "VOLVO",
+                     "oeNumber": "8667661",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "VOLVO",
+                     "oeNumber": "8667661.6",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 8,
+                     "brandName": "VOLVO",
+                     "oeNumber": "86676616",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 9,
+                     "brandName": "VOLVO",
+                     "oeNumber": "8667661-6",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 10,
+                     "brandName": "VOLVO",
+                     "oeNumber": "9181322",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 11,
+                     "brandName": "VOLVO",
+                     "oeNumber": "9181322-0",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 12,
+                     "brandName": "VOLVO",
+                     "oeNumber": "9463525",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 13,
+                     "brandName": "VOLVO",
+                     "oeNumber": "9463525.7",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 14,
+                     "brandName": "VOLVO",
+                     "oeNumber": "94635257",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 15,
+                     "brandName": "VOLVO",
+                     "oeNumber": "9463525-7",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "GETRAG",
+                     "oeNumber": "456R7A564BA",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "GETRAG",
+                     "oeNumber": "456R7A564BB",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "S6713"
+                  },
+                  {
+                     "usageNumber": "6713"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

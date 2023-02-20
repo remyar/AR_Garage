@@ -1,0 +1,178 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1361,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Référence de l'outil spécialisé recommandé",
+                     "attrShortName": "Référence des outils spéciaux recommandés",
+                     "attrType": "A",
+                     "attrValue": "STT-1",
+                     "attrValueId": 63369
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 468,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Matériel",
+                     "attrType": "K",
+                     "attrValue": "Néoprène (polychloroprène)",
+                     "attrValueId": 1337
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 92,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Nombre de dents",
+                     "attrShortName": "Nbr. dents",
+                     "attrType": "N",
+                     "attrValue": "95",
+                     "attrValueId": 4822
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 206,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Largeur [mm]",
+                     "attrShortName": "Largeur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "19",
+                     "attrValueId": 19678
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1139,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Pas primitif [mm]",
+                     "attrShortName": "Pas primitif",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "9,525",
+                     "attrValueId": 15328
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 203,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Longueur [mm]",
+                     "attrShortName": "Longueur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "905",
+                     "attrValueId": 32654
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "5406.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150097691",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520150097691",
+                     "thumbFileName": "0033\\5406.JPG",
+                     "thumbTypeId": 5
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleAddName": "PowerGrip®",
+               "articleId": 17077716,
+               "articleName": "Courroie de distribution",
+               "articleNo": "5406",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "GATES",
+               "brandNo": 33,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 306,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "5412571011623"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "FIAT",
+                     "oeNumber": "4852376",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "LANCIA",
+                     "oeNumber": "4852376",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7701035653",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "8595-15406"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,192 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 599,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Surface",
+                     "attrType": "K",
+                     "attrValue": "lisse",
+                     "attrValueId": 7200
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 468,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Matériel",
+                     "attrType": "K",
+                     "attrValue": "Matière plastique",
+                     "attrValueId": 57084
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 497,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre extérieur [mm]",
+                     "attrShortName": "Diamètre extérieur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "69",
+                     "attrValueId": 10220
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 496,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre intérieur [mm]",
+                     "attrShortName": "Diamètre intérieur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "8",
+                     "attrValueId": 52358
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 206,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Largeur [mm]",
+                     "attrShortName": "Largeur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "34",
+                     "attrValueId": 56030
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "T43163.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150106742",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520150106742",
+                     "thumbFileName": "0033\\T43163.JPG",
+                     "thumbTypeId": 5
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleAddName": "PowerGrip®",
+               "articleId": 17321026,
+               "articleName": "Poulie-tendeur, courroie de distribution",
+               "articleNo": "T43163",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "GATES",
+               "brandNo": 33,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 308,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "5414465943508"
+                  }
+               ]
+            },
+            "mainArticle": {
+               "array": [
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17183109,
+                     "articleName": "Kit de distribution",
+                     "articleNumber": "K015592XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17228286,
+                     "articleName": "Pompe à eau + kit de courroie de distribution",
+                     "articleNumber": "KP15592XS"
+                  }
+               ]
+            },
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "FIAT",
+                     "oeNumber": "504010846",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "FIAT",
+                     "oeNumber": "504183759",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "FIAT",
+                     "oeNumber": "5802473355",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "IVECO",
+                     "oeNumber": "504183759",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "IVECO",
+                     "oeNumber": "504010846",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "7784-21137"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

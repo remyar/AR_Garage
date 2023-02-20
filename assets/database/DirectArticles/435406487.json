@@ -1,0 +1,138 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 572,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poulies",
+                     "attrType": "K",
+                     "attrValue": "pour poulie à gorge",
+                     "attrValueId": 20771
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 585,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Consulter données techniques",
+                     "attrShortName": "Consulter données techniques",
+                     "attrType": "V",
+                     "attrValueId": 36715
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "WP0203.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150108390",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileName": "GATES_TT024.PDF",
+                     "docFileTypeName": "Fichier PDF",
+                     "docId": "564045173389907",
+                     "docTypeId": 4,
+                     "docTypeName": "Instructions de montage"
+                  },
+                  {
+                     "docFileTypeName": "URL",
+                     "docId": "1126995126807819",
+                     "docTypeId": 14,
+                     "docTypeName": "Mode d'emploi"
+                  },
+                  {
+                     "docFileTypeName": "URL",
+                     "docId": "1126995126803113",
+                     "docTypeId": 14,
+                     "docTypeName": "Mode d'emploi"
+                  },
+                  {
+                     "docFileTypeName": "URL",
+                     "docId": "1126995126812752",
+                     "docTypeId": 14,
+                     "docTypeName": "Mode d'emploi"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520150108390",
+                     "thumbFileName": "0033\\WP0203.JPG",
+                     "thumbTypeId": 5
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 435406487,
+               "articleName": "Pompe à eau, refroidissement du moteur",
+               "articleNo": "WP0203",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "GATES",
+               "brandNo": 33,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 1260,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "5400608110708"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7701467153",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "7702-10203"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

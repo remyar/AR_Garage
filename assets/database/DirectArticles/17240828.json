@@ -1,0 +1,522 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 230,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Pression [bar]",
+                     "attrType": "N",
+                     "attrUnit": "bar",
+                     "attrValue": "1,1",
+                     "attrValueId": 62854
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 497,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre extérieur [mm]",
+                     "attrShortName": "Diamètre extérieur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "44",
+                     "attrValueId": 6703
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 209,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Hauteur [mm]",
+                     "attrShortName": "Hauteur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "14",
+                     "attrValueId": 24424
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 638,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Pression (psi)",
+                     "attrType": "N",
+                     "attrUnit": "psi",
+                     "attrValue": "16",
+                     "attrValueId": 59345
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "RC134.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150103038",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileTypeName": "URL",
+                     "docId": "1126995126803113",
+                     "docTypeId": 14,
+                     "docTypeName": "Mode d'emploi"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520150103038",
+                     "thumbFileName": "0033\\RC134.JPG",
+                     "thumbTypeId": 5
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 17240828,
+               "articleName": "Bouchon de radiateur",
+               "articleNo": "RC134",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "GATES",
+               "brandNo": 33,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 548,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "5414465700880"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CHRYSLER",
+                     "oeNumber": "MR597126",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1306.F4",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "CITROËN",
+                     "oeNumber": "16 378 349 80",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "DODGE",
+                     "oeNumber": "MR597126",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "FIAT",
+                     "oeNumber": "71742152",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "HONDA",
+                     "oeNumber": "19045P08003",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "HONDA",
+                     "oeNumber": "19045P08004",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "HONDA",
+                     "oeNumber": "19045P08013",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "HONDA",
+                     "oeNumber": "19045P08014",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "HONDA",
+                     "oeNumber": "19045P72005",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "HONDA",
+                     "oeNumber": "19045PAAA01",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "HONDA",
+                     "oeNumber": "19045PNC004",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 8,
+                     "brandName": "HONDA",
+                     "oeNumber": "19045PWA004",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 9,
+                     "brandName": "HONDA",
+                     "oeNumber": "19045PY3013",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 10,
+                     "brandName": "HONDA",
+                     "oeNumber": "19045RAA003",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "MAZDA",
+                     "oeNumber": "LFB715205",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "MAZDA",
+                     "oeNumber": "WL2115205",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "MAZDA",
+                     "oeNumber": "ZM4315205",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "MITSUBISHI",
+                     "oeNumber": "MR597126",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "OPEL",
+                     "oeNumber": "4709376",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "OPEL",
+                     "oeNumber": "93194271",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1306.F4",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1306F4",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "SUBARU",
+                     "oeNumber": "45137AE010",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "SUBARU",
+                     "oeNumber": "45137AE011",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "SUBARU",
+                     "oeNumber": "45137AE012",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "SUZUKI",
+                     "oeNumber": "17820M79F10",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "SUZUKI",
+                     "oeNumber": "17920-56B00",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "SUZUKI",
+                     "oeNumber": "17920-66F00",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "SUZUKI",
+                     "oeNumber": "17920-66F01",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "SUZUKI",
+                     "oeNumber": "1792075F00",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "SUZUKI",
+                     "oeNumber": "1792077A00",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "SUZUKI",
+                     "oeNumber": "17920M79F11",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "TOYOTA",
+                     "oeNumber": "16401-05050",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "TOYOTA",
+                     "oeNumber": "16401-0M010",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "TOYOTA",
+                     "oeNumber": "16401-0Y060",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "TOYOTA",
+                     "oeNumber": "16401-31680",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "TOYOTA",
+                     "oeNumber": "16401-62100",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "TOYOTA",
+                     "oeNumber": "164010H060",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "TOYOTA",
+                     "oeNumber": "1640128280",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 8,
+                     "brandName": "TOYOTA",
+                     "oeNumber": "1640128510",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 9,
+                     "brandName": "TOYOTA",
+                     "oeNumber": "1640131480",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 10,
+                     "brandName": "TOYOTA",
+                     "oeNumber": "1640131520",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 11,
+                     "brandName": "TOYOTA",
+                     "oeNumber": "1640131650",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 12,
+                     "brandName": "TOYOTA",
+                     "oeNumber": "1640150370",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 13,
+                     "brandName": "TOYOTA",
+                     "oeNumber": "164015B630",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 14,
+                     "brandName": "TOYOTA",
+                     "oeNumber": "1640175440",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 15,
+                     "brandName": "TOYOTA",
+                     "oeNumber": "164017A470",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 16,
+                     "brandName": "TOYOTA",
+                     "oeNumber": "164017A530",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "VAUXHALL",
+                     "oeNumber": "4709376",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "VAUXHALL",
+                     "oeNumber": "93194271",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "LEXUS",
+                     "oeNumber": "16401-75440",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "LEXUS",
+                     "oeNumber": "1640131480",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "LEXUS",
+                     "oeNumber": "1640131520",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "LEXUS",
+                     "oeNumber": "1640131650",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "LEXUS",
+                     "oeNumber": "1640131680",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "LEXUS",
+                     "oeNumber": "1640150370",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "LEXUS",
+                     "oeNumber": "1640162100",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "MARUTI",
+                     "oeNumber": "17920-66F01",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "MARUTI",
+                     "oeNumber": "1792075F00",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "ACURA",
+                     "oeNumber": "19045RAA003",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "TOYOTA (GAC)",
+                     "oeNumber": "16401-0Y060",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "TOYOTA (GAC)",
+                     "oeNumber": "1640131480",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "7410-30076"
+                  },
+                  {
+                     "usageNumber": "RC126"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

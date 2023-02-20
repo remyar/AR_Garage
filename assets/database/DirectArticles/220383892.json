@@ -1,0 +1,398 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 564,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Véhicule avec direction à gauche ou à droite",
+                     "attrType": "K",
+                     "attrValue": "pour véhicules avec direction à gauche",
+                     "attrValueId": 7497
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 2338,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Version de balai d'essuie-glace",
+                     "attrShortName": "Version de balai d'essuie-glace",
+                     "attrType": "K",
+                     "attrValue": "Balai d'essuie-glace plat",
+                     "attrValueId": 25015
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 563,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Quantité",
+                     "attrShortName": "Quantité",
+                     "attrType": "A",
+                     "attrValue": "1",
+                     "attrValueId": 26487
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 203,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Longueur [mm]",
+                     "attrShortName": "Longueur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "530",
+                     "attrValueId": 43208
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 205,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Longueur [pouces]",
+                     "attrShortName": "Longueur",
+                     "attrType": "N",
+                     "attrUnit": "Pouce",
+                     "attrValue": "21",
+                     "attrValueId": 38139
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,182",
+                     "attrValueId": 15538
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "HYDROCONNECT_578575_HU53_51.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148944981",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileTypeName": "URL",
+                     "docId": "1126995125649801",
+                     "docTypeId": 4,
+                     "docTypeName": "Instructions de montage"
+                  },
+                  {
+                     "docFileName": "HYDROCONNECT_HU53_578575_10.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148925098",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "HYDROCONNECT_HU53_578575_11.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148925099",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "HYDROCONNECT_HU53_578575_12.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148925100",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "HYDROCONNECT_HU53_578575_13.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148925101",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": {
+               "array": [
+                  {
+                     "infoId": 49935,
+                     "infoText": "Photos non contractuelles",
+                     "infoType": 1,
+                     "infoTypeName": "Informations techniques"
+                  }
+               ]
+            },
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148944981",
+                     "thumbFileName": "0021\\HYDROCONNECT_578575_HU53_51.JPG",
+                     "thumbTypeId": 5
+                  },
+                  {
+                     "thumbDocId": "845520148925098",
+                     "thumbFileName": "0021\\HYDROCONNECT_HU53_578575_10.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148925099",
+                     "thumbFileName": "0021\\HYDROCONNECT_HU53_578575_11.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148925100",
+                     "thumbFileName": "0021\\HYDROCONNECT_HU53_578575_12.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148925101",
+                     "thumbFileName": "0021\\HYDROCONNECT_HU53_578575_13.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleAddName": "HYDROCONNECT UPGRADE",
+               "articleId": 220383892,
+               "articleName": "Balai d'essuie-glace",
+               "articleNo": "578575",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 298,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276425785755"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "AUDI",
+                     "oeNumber": "3A1955425",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "AUDI",
+                     "oeNumber": "3A1955427",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "AUDI",
+                     "oeNumber": "4A0955425B",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "BMW",
+                     "oeNumber": "61 61 2 151 749",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "BMW",
+                     "oeNumber": "61 61 8 353 289",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "BMW",
+                     "oeNumber": "61 62 7 140 959",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "BMW",
+                     "oeNumber": "61612151749",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "BMW",
+                     "oeNumber": "61618353289",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "BMW",
+                     "oeNumber": "61627140959",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CITROËN",
+                     "oeNumber": "16 080 287 80",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "CITROËN",
+                     "oeNumber": "16 113 525 80",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1608028780",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1611352580",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "CITROËN",
+                     "oeNumber": "6423 05",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "CITROËN",
+                     "oeNumber": "6423-06",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "CITROËN",
+                     "oeNumber": "642305",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 8,
+                     "brandName": "CITROËN",
+                     "oeNumber": "642306",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "FORD",
+                     "oeNumber": "1105307",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "FORD",
+                     "oeNumber": "1148900",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "FORD",
+                     "oeNumber": "1780742",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7711172852",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "SEAT",
+                     "oeNumber": "3A1955425",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "SEAT",
+                     "oeNumber": "3A1955427",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "SKODA",
+                     "oeNumber": "3A1955425",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "SKODA",
+                     "oeNumber": "3A1955427",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "VW",
+                     "oeNumber": "3A1955425",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "VW",
+                     "oeNumber": "3A1955427",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "AUDI (FAW)",
+                     "oeNumber": "4A0955425B",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": {
+               "array": [
+                  {
+                     "replaceArticleId": 13349335,
+                     "replaceNumber": "567952"
+                  }
+               ]
+            },
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "HU53"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

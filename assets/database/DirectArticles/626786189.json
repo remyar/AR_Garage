@@ -1,0 +1,624 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 220,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Alésage-Ø [mm]",
+                     "attrShortName": "Alésage-Ø",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "30",
+                     "attrValueId": 19880
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 468,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Matériel",
+                     "attrType": "K",
+                     "attrValue": "Matière plastique",
+                     "attrValueId": 50361
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1094,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Nombre de trous de fixation",
+                     "attrShortName": "Nombre de trous de fixation",
+                     "attrType": "N",
+                     "attrValue": "2",
+                     "attrValueId": 53236
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1631,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "pour n° fabricant",
+                     "attrShortName": "pour n° fabricant",
+                     "attrType": "A",
+                     "attrValue": "ZA3008.4.1",
+                     "attrValueId": 39551
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,36",
+                     "attrValueId": 20531
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "FTE_CSC_1101030_01.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148944779",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  }
+               ]
+            },
+            "articleInfo": {
+               "array": [
+                  {
+                     "infoId": 50992,
+                     "infoText": "la bûtée hydraulique est à remplacer  obligatoirement",
+                     "infoType": 1,
+                     "infoTypeName": "Informations techniques"
+                  }
+               ]
+            },
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148944779",
+                     "thumbFileName": "0021\\FTE_CSC_1101030_01.JPG",
+                     "thumbTypeId": 5
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleAddName": "FTE CLUTCH ACTUATION",
+               "articleId": 626786189,
+               "articleName": "Butée hydraulique, embrayage",
+               "articleNo": "1101030",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 47,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276429300497"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "MERCEDES-BENZ",
+                     "oeNumber": "415 250 01 15",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "MERCEDES-BENZ",
+                     "oeNumber": "415 250 10 00",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "MERCEDES-BENZ",
+                     "oeNumber": "4152500115",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "MERCEDES-BENZ",
+                     "oeNumber": "4152501000",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "MERCEDES-BENZ",
+                     "oeNumber": "A4152500115",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "MERCEDES-BENZ",
+                     "oeNumber": "A4152501000",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "NISSAN",
+                     "oeNumber": "3062000Q0H",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "NISSAN",
+                     "oeNumber": "30620-00Q0H",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "NISSAN",
+                     "oeNumber": "306A0JA60A",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "NISSAN",
+                     "oeNumber": "306A0-JA60A",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "NISSAN",
+                     "oeNumber": "306A0JA60B",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "NISSAN",
+                     "oeNumber": "306A0-JA60B",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "NISSAN",
+                     "oeNumber": "306A0JA60C",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 8,
+                     "brandName": "NISSAN",
+                     "oeNumber": "306A0-JA60C",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 9,
+                     "brandName": "NISSAN",
+                     "oeNumber": "306A0JA60D",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 10,
+                     "brandName": "NISSAN",
+                     "oeNumber": "306A0-JA60D",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 11,
+                     "brandName": "NISSAN",
+                     "oeNumber": "306A0JA60E",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 12,
+                     "brandName": "NISSAN",
+                     "oeNumber": "306A0-JA60E",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 13,
+                     "brandName": "NISSAN",
+                     "oeNumber": "3215000QAA",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 14,
+                     "brandName": "NISSAN",
+                     "oeNumber": "32150-00QAA",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 15,
+                     "brandName": "NISSAN",
+                     "oeNumber": "3215000QAB",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 16,
+                     "brandName": "NISSAN",
+                     "oeNumber": "32150-00QAB",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 17,
+                     "brandName": "NISSAN",
+                     "oeNumber": "3215000QAC",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 18,
+                     "brandName": "NISSAN",
+                     "oeNumber": "32150-00QAC",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 19,
+                     "brandName": "NISSAN",
+                     "oeNumber": "3215000QAD",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 20,
+                     "brandName": "NISSAN",
+                     "oeNumber": "32150-00QAD",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "306201473R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "RENAULT",
+                     "oeNumber": "306203381R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "RENAULT",
+                     "oeNumber": "306205974R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "RENAULT",
+                     "oeNumber": "306206299R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "RENAULT",
+                     "oeNumber": "306206627R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "RENAULT",
+                     "oeNumber": "306206822R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "RENAULT",
+                     "oeNumber": "306A0JA60A",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 8,
+                     "brandName": "RENAULT",
+                     "oeNumber": "306A0JA60B",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 9,
+                     "brandName": "RENAULT",
+                     "oeNumber": "306A0-JA60B",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 10,
+                     "brandName": "RENAULT",
+                     "oeNumber": "306A0JA60C",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 11,
+                     "brandName": "RENAULT",
+                     "oeNumber": "306A0-JA60C",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 12,
+                     "brandName": "RENAULT",
+                     "oeNumber": "306A0JA60D",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 13,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200213679",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 14,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200643415",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 15,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200697568",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 16,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200756873",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 17,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200764614",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 18,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200764616",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 19,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200764617",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 20,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200805652",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 21,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200805655",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 22,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200842575",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 23,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200842578",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 24,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200842582",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 25,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200982503",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "DACIA",
+                     "oeNumber": "30 62 014 73R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "DACIA",
+                     "oeNumber": "30 62 059 74R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "DACIA",
+                     "oeNumber": "30 62 062 99R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "DACIA",
+                     "oeNumber": "30 62 066 27R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "DACIA",
+                     "oeNumber": "30 62 068 22R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "DACIA",
+                     "oeNumber": "30 6A 0JA 60A",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "DACIA",
+                     "oeNumber": "30 6A 0JA 60B",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 8,
+                     "brandName": "DACIA",
+                     "oeNumber": "30 6A 0JA 60C",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 9,
+                     "brandName": "DACIA",
+                     "oeNumber": "30 6A 0JA 60D",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 10,
+                     "brandName": "DACIA",
+                     "oeNumber": "306201473R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 11,
+                     "brandName": "DACIA",
+                     "oeNumber": "306205974R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 12,
+                     "brandName": "DACIA",
+                     "oeNumber": "306206299R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 13,
+                     "brandName": "DACIA",
+                     "oeNumber": "306206627R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 14,
+                     "brandName": "DACIA",
+                     "oeNumber": "306206822R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 15,
+                     "brandName": "DACIA",
+                     "oeNumber": "82 00 213 679",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 16,
+                     "brandName": "DACIA",
+                     "oeNumber": "82 00 756 873",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 17,
+                     "brandName": "DACIA",
+                     "oeNumber": "82 00 764 616",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 18,
+                     "brandName": "DACIA",
+                     "oeNumber": "82 00 764 617",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 19,
+                     "brandName": "DACIA",
+                     "oeNumber": "82 00 805 652",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 20,
+                     "brandName": "DACIA",
+                     "oeNumber": "82 00 805 655",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 21,
+                     "brandName": "DACIA",
+                     "oeNumber": "82 00 842 575",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 22,
+                     "brandName": "DACIA",
+                     "oeNumber": "82 00 842 578",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 23,
+                     "brandName": "DACIA",
+                     "oeNumber": "8200842575",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 24,
+                     "brandName": "DACIA",
+                     "oeNumber": "8200842578",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "NISSAN (DFAC)",
+                     "oeNumber": "3062000Q0H",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "NISSAN (DFAC)",
+                     "oeNumber": "30620-00Q0H",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "NISSAN (DFAC)",
+                     "oeNumber": "3215000QAD",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "NISSAN (DFAC)",
+                     "oeNumber": "32150-00QAD",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

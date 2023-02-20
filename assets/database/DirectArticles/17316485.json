@@ -1,0 +1,217 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 599,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Surface",
+                     "attrType": "K",
+                     "attrValue": "lisse",
+                     "attrValueId": 7200
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 497,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre extérieur [mm]",
+                     "attrShortName": "Diamètre extérieur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "60",
+                     "attrValueId": 44410
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 496,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre intérieur [mm]",
+                     "attrShortName": "Diamètre intérieur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "8",
+                     "attrValueId": 52358
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 206,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Largeur [mm]",
+                     "attrShortName": "Largeur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "32",
+                     "attrValueId": 25527
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "T43014-1_ANG_A.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150106607",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileName": "T43014-2_FRO_A.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150106608",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileName": "T43014-3_BAC_A.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150106609",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520150106607",
+                     "thumbFileName": "0033\\T43014-1_ANG_A.JPG",
+                     "thumbTypeId": 5
+                  },
+                  {
+                     "thumbDocId": "845520150106608",
+                     "thumbFileName": "0033\\T43014-2_FRO_A.JPG",
+                     "thumbTypeId": 5
+                  },
+                  {
+                     "thumbDocId": "845520150106609",
+                     "thumbFileName": "0033\\T43014-3_BAC_A.JPG",
+                     "thumbTypeId": 5
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleAddName": "PowerGrip®",
+               "articleId": 17316485,
+               "articleName": "Poulie-tendeur, courroie de distribution",
+               "articleNo": "T43014",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "GATES",
+               "brandNo": 33,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 308,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "5414465308093"
+                  }
+               ]
+            },
+            "mainArticle": {
+               "array": [
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17182732,
+                     "articleName": "Kit de distribution",
+                     "articleNumber": "K015578XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17200539,
+                     "articleName": "Kit de distribution",
+                     "articleNumber": "K025578XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17228264,
+                     "articleName": "Pompe à eau + kit de courroie de distribution",
+                     "articleNumber": "KP15578XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17230650,
+                     "articleName": "Pompe à eau + kit de courroie de distribution",
+                     "articleNumber": "KP25578XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17230711,
+                     "articleName": "Pompe à eau + kit de courroie de distribution",
+                     "articleNumber": "KP25578XS-2"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17230737,
+                     "articleName": "Pompe à eau + kit de courroie de distribution",
+                     "articleNumber": "KP25578XS-3"
+                  }
+               ]
+            },
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "13 07 048 05R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "RENAULT",
+                     "oeNumber": "82 00 102 941",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "RENAULT",
+                     "oeNumber": "82 00 585 574",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "7784-21014"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,180 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 591,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Echange standard",
+                     "attrShortName": "Échange standard",
+                     "attrType": "V",
+                     "attrValueId": 28599
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 565,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Équipement véhicule",
+                     "attrType": "K",
+                     "attrValue": "pour véhicules avec fonction Stop/Start",
+                     "attrValueId": 58114
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 6,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Voltage [V]",
+                     "attrShortName": "Volt",
+                     "attrType": "N",
+                     "attrUnit": "V",
+                     "attrValue": "12",
+                     "attrValueId": 33527
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 113,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Puissance nominale [kW]",
+                     "attrShortName": "Performance du démarreur",
+                     "attrType": "N",
+                     "attrUnit": "kW",
+                     "attrValue": "1,7",
+                     "attrValueId": 63559
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 92,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Nombre de dents",
+                     "attrShortName": "Nbr. dents",
+                     "attrType": "N",
+                     "attrValue": "12",
+                     "attrValueId": 26065
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 609,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Sens de rotation",
+                     "attrType": "K",
+                     "attrValue": "Rotation dans le sens des aiguilles d'une montre",
+                     "attrValueId": 62257
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 698,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Bride Ø [mm]",
+                     "attrShortName": "bride Ø",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "68",
+                     "attrValueId": 55102
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "3,41",
+                     "attrValueId": 51853
+                  }
+               ]
+            },
+            "articleDocuments": "",
+            "articleInfo": {
+               "array": [
+                  {
+                     "infoId": 18719,
+                     "infoText": "Afin de choisir la référence adéquate, merci de vérifier<br>la puissance et le code technique du démarreur monté<br>sur le véhicule.",
+                     "infoType": 1,
+                     "infoTypeName": "Informations techniques"
+                  }
+               ]
+            },
+            "articlePrices": "",
+            "articleThumbnails": "",
+            "directArticle": {
+               "articleAddName": "VALEO RE-GEN REMANUFACTURED STOP&START",
+               "articleId": 626924299,
+               "articleName": "Démarreur",
+               "articleNo": "458886",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": true,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 2,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": false,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276424588869"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "233005951R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "RENAULT",
+                     "oeNumber": "233008838R",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,447 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 599,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Surface",
+                     "attrType": "K",
+                     "attrValue": "lisse",
+                     "attrValueId": 7200
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 468,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Matériel",
+                     "attrType": "K",
+                     "attrValue": "Matière plastique",
+                     "attrValueId": 57084
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 497,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre extérieur [mm]",
+                     "attrShortName": "Diamètre extérieur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "53",
+                     "attrValueId": 43877
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 496,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre intérieur [mm]",
+                     "attrShortName": "Diamètre intérieur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "10",
+                     "attrValueId": 14462
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 206,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Largeur [mm]",
+                     "attrShortName": "Largeur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "29",
+                     "attrValueId": 2627
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "T42140-1_ANG_A.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150106488",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileName": "T42140-2_FRO_A.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150106489",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileName": "T42140-3_BAC_A.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150106490",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520150106488",
+                     "thumbFileName": "0033\\T42140-1_ANG_A.JPG",
+                     "thumbTypeId": 5
+                  },
+                  {
+                     "thumbDocId": "845520150106489",
+                     "thumbFileName": "0033\\T42140-2_FRO_A.JPG",
+                     "thumbTypeId": 5
+                  },
+                  {
+                     "thumbDocId": "845520150106490",
+                     "thumbFileName": "0033\\T42140-3_BAC_A.JPG",
+                     "thumbTypeId": 5
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleAddName": "PowerGrip®",
+               "articleId": 17314515,
+               "articleName": "Poulie renvoi/transmission, courroie de distribution",
+               "articleNo": "T42140",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "GATES",
+               "brandNo": 33,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 313,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": true,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "5414465063886"
+                  }
+               ]
+            },
+            "mainArticle": {
+               "array": [
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17184262,
+                     "articleName": "Kit de distribution",
+                     "articleNumber": "K015646XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 160130402,
+                     "articleName": "Kit de distribution",
+                     "articleNumber": "K015663XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 307609078,
+                     "articleName": "Kit de distribution",
+                     "articleNumber": "K015684XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 267525358,
+                     "articleName": "Kit de distribution",
+                     "articleNumber": "K015685XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 1200140939,
+                     "articleName": "Kit de distribution",
+                     "articleNumber": "K015706XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17200873,
+                     "articleName": "Kit de distribution",
+                     "articleNumber": "K025650XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17207480,
+                     "articleName": "Kit de distribution",
+                     "articleNumber": "K035462XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17208745,
+                     "articleName": "Kit de distribution",
+                     "articleNumber": "K035600XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17208755,
+                     "articleName": "Kit de distribution",
+                     "articleNumber": "K035623XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17215614,
+                     "articleName": "Kit de distribution",
+                     "articleNumber": "K055500XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17228660,
+                     "articleName": "Pompe à eau + kit de courroie de distribution",
+                     "articleNumber": "KP15646XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 160131496,
+                     "articleName": "Pompe à eau + kit de courroie de distribution",
+                     "articleNumber": "KP15663XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 307689392,
+                     "articleName": "Pompe à eau + kit de courroie de distribution",
+                     "articleNumber": "KP15684XS-1"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 267529647,
+                     "articleName": "Pompe à eau + kit de courroie de distribution",
+                     "articleNumber": "KP15685XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 1200145987,
+                     "articleName": "Pompe à eau + kit de courroie de distribution",
+                     "articleNumber": "KP15706XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17231140,
+                     "articleName": "Pompe à eau + kit de courroie de distribution",
+                     "articleNumber": "KP25650XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17231770,
+                     "articleName": "Pompe à eau + kit de courroie de distribution",
+                     "articleNumber": "KP35462XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17232000,
+                     "articleName": "Pompe à eau + kit de courroie de distribution",
+                     "articleNumber": "KP35600XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17232033,
+                     "articleName": "Pompe à eau + kit de courroie de distribution",
+                     "articleNumber": "KP35623XS-1"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17232377,
+                     "articleName": "Pompe à eau + kit de courroie de distribution",
+                     "articleNumber": "KP55500XS"
+                  }
+               ]
+            },
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "ALFA ROMEO",
+                     "oeNumber": "0055187100",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "ALFA ROMEO",
+                     "oeNumber": "55187100",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "ALFA ROMEO",
+                     "oeNumber": "71771498",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "FIAT",
+                     "oeNumber": "71771498",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "FIAT",
+                     "oeNumber": "55187100",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "FIAT",
+                     "oeNumber": "0055187100",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "LANCIA",
+                     "oeNumber": "0055187100",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "LANCIA",
+                     "oeNumber": "55187100",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "OPEL",
+                     "oeNumber": "55187100",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "OPEL",
+                     "oeNumber": "5636743",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "OPEL",
+                     "oeNumber": "636439",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "OPEL",
+                     "oeNumber": "93178807",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "SAAB",
+                     "oeNumber": "93178807",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "SUZUKI",
+                     "oeNumber": "1278179J50",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "SUZUKI",
+                     "oeNumber": "1278179J51",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "VAUXHALL",
+                     "oeNumber": "55187100",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "VAUXHALL",
+                     "oeNumber": "5636743",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "VAUXHALL",
+                     "oeNumber": "636439",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "VAUXHALL",
+                     "oeNumber": "93178807",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CHEVROLET",
+                     "oeNumber": "55187100",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CADILLAC",
+                     "oeNumber": "5636743",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "JEEP",
+                     "oeNumber": "55187100",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "JEEP",
+                     "oeNumber": "68189934AA",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "JEEP",
+                     "oeNumber": "71771498",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "7786-21458"
+                  },
+                  {
+                     "usageNumber": "Z80322"
+                  },
+                  {
+                     "usageNumber": "Z80323"
+                  },
+                  {
+                     "usageNumber": "Z80710"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,185 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 439,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Type de fonctionnement",
+                     "attrType": "K",
+                     "attrValue": "électrique",
+                     "attrValueId": 27758
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 230,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Pression [bar]",
+                     "attrType": "N",
+                     "attrUnit": "bar",
+                     "attrValue": "3,01",
+                     "attrValueId": 32181
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 3401,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Débit [l/min]",
+                     "attrShortName": "Débit",
+                     "attrType": "N",
+                     "attrUnit": "l / min",
+                     "attrValue": "100",
+                     "attrValueId": 58208
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 916,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Ø admission [mm]",
+                     "attrShortName": "Ø admiss°",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "130",
+                     "attrValueId": 53875
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1416,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre du raccord de retour [mm]",
+                     "attrShortName": "Ø du raccord de retour",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "165",
+                     "attrValueId": 27083
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 6,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Voltage [V]",
+                     "attrShortName": "Volt",
+                     "attrType": "N",
+                     "attrUnit": "V",
+                     "attrValue": "12",
+                     "attrValueId": 33527
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "1,24",
+                     "attrValueId": 24710
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "VALEO _FUEL_PUMP_348751_01.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148938221",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148938221",
+                     "thumbFileName": "0021\\VALEO _FUEL_PUMP_348751_01.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 435348024,
+               "articleName": "Unité d'injection de carburant",
+               "articleNo": "348751",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 1382,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276423487514"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CITROËN",
+                     "oeNumber": "9674466680",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "9674466680",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "HITACHI",
+                     "oeNumber": "133594",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

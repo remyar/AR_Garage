@@ -1,0 +1,175 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1361,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Référence de l'outil spécialisé recommandé",
+                     "attrShortName": "Référence des outils spéciaux recommandés",
+                     "attrType": "A",
+                     "attrValue": "STT-1",
+                     "attrValueId": 63369
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 596,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Article complémentaire/Info complémentaire",
+                     "attrType": "K",
+                     "attrValue": "avec pompe à eau",
+                     "attrValueId": 40211
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 585,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Consulter données techniques",
+                     "attrShortName": "Consulter données techniques",
+                     "attrType": "V",
+                     "attrValueId": 36715
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "KP15545XS.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150102191",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileName": "5545XS.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150097815",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileName": "GATES_TT024.PDF",
+                     "docFileTypeName": "Fichier PDF",
+                     "docId": "564045173389907",
+                     "docTypeId": 4,
+                     "docTypeName": "Instructions de montage"
+                  },
+                  {
+                     "docFileTypeName": "URL",
+                     "docId": "1126995126807819",
+                     "docTypeId": 14,
+                     "docTypeName": "Mode d'emploi"
+                  },
+                  {
+                     "docFileTypeName": "URL",
+                     "docId": "1126995126803113",
+                     "docTypeId": 14,
+                     "docTypeName": "Mode d'emploi"
+                  },
+                  {
+                     "docFileTypeName": "URL",
+                     "docId": "1126995126812752",
+                     "docTypeId": 14,
+                     "docTypeName": "Mode d'emploi"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520150102191",
+                     "thumbFileName": "0033\\KP15545XS.JPG",
+                     "thumbTypeId": 5
+                  },
+                  {
+                     "thumbDocId": "845520150097815",
+                     "thumbFileName": "0033\\5545XS.JPG",
+                     "thumbTypeId": 5
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleAddName": "PowerGrip®",
+               "articleId": 17227265,
+               "articleName": "Pompe à eau + kit de courroie de distribution",
+               "articleNo": "KP15545XS",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "GATES",
+               "brandNo": 33,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 3096,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": true,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "5414465981456"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "FIAT",
+                     "oeNumber": "71771576",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "5545XS"
+                  },
+                  {
+                     "usageNumber": "7883-13062"
+                  },
+                  {
+                     "usageNumber": "K015545XS"
+                  },
+                  {
+                     "usageNumber": "T41121"
+                  },
+                  {
+                     "usageNumber": "WP0029"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

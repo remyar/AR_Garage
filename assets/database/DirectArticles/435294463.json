@@ -1,0 +1,200 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 468,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Matériel",
+                     "attrType": "K",
+                     "attrValue": "EPDM (éthylène-propylène-diène-caoutchouc)",
+                     "attrValueId": 3165
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 436,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Couleur",
+                     "attrType": "K",
+                     "attrValue": "noir",
+                     "attrValueId": 25314
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1470,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Longueur de tuyau [mm]",
+                     "attrShortName": "Longueur de tuyau",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "310",
+                     "attrValueId": 64115
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 995,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre intérieur 1 [mm]",
+                     "attrShortName": "Diamètre intérieur 1",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "6,5",
+                     "attrValueId": 36839
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 996,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre intérieur 2 [mm]",
+                     "attrShortName": "Diamètre intérieur 2",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "6,5",
+                     "attrValueId": 1341
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 2596,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Confère brochure",
+                     "attrShortName": "Confère brochure",
+                     "attrType": "V",
+                     "attrValueId": 25687
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "05-3079.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150094305",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileName": "COOLANT_HOSE_SELL_SHEET.PDF",
+                     "docFileTypeName": "Fichier PDF",
+                     "docId": "564045173381799",
+                     "docTypeId": 17,
+                     "docTypeName": "Information sur le produit"
+                  },
+                  {
+                     "docFileTypeName": "URL",
+                     "docId": "1126995126803112",
+                     "docTypeId": 14,
+                     "docTypeName": "Mode d'emploi"
+                  },
+                  {
+                     "docFileTypeName": "URL",
+                     "docId": "1126995126803113",
+                     "docTypeId": 14,
+                     "docTypeName": "Mode d'emploi"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520150094305",
+                     "thumbFileName": "0033\\05-3079.JPG",
+                     "thumbTypeId": 5
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 435294463,
+               "articleName": "Durite de radiateur",
+               "articleNo": "05-3079",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "GATES",
+               "brandNo": 33,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 475,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "5400608144031"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "ALFA ROMEO",
+                     "oeNumber": "51816504",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "ALFA ROMEO",
+                     "oeNumber": "55700537",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "FIAT",
+                     "oeNumber": "51779542",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "FIAT",
+                     "oeNumber": "51816504",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "4275-53079"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

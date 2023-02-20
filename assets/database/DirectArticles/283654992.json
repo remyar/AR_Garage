@@ -1,0 +1,683 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1227,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Système d'allumage à bobines",
+                     "attrType": "K",
+                     "attrValue": "Allumage électronique intégral (VZ)",
+                     "attrValueId": 44261
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 759,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Bobine d'allumage",
+                     "attrType": "K",
+                     "attrValue": "Bobine crayon",
+                     "attrValueId": 29706
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 636,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Nombres de pôles",
+                     "attrType": "N",
+                     "attrUnit": "pôle",
+                     "attrValue": "3",
+                     "attrValueId": 49061
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,252",
+                     "attrValueId": 14687
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "IGNITION_COIL_245730_01.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148938404",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "IGNITION_COIL_245730_02.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148938405",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148938404",
+                     "thumbFileName": "0021\\IGNITION_COIL_245730_01.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148938405",
+                     "thumbFileName": "0021\\IGNITION_COIL_245730_02.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 283654992,
+               "articleName": "Bobine d'allumage",
+               "articleNo": "245730",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 689,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276422457303"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "BMW",
+                     "oeNumber": "12 13 0 495 289",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "BMW",
+                     "oeNumber": "12 13 1 712 219",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "BMW",
+                     "oeNumber": "12 13 1 712 223",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "BMW",
+                     "oeNumber": "12 13 7 551 049",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "BMW",
+                     "oeNumber": "12 13 7 551 260",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "BMW",
+                     "oeNumber": "12 13 7 562 744",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "BMW",
+                     "oeNumber": "12 13 7 571 643",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 8,
+                     "brandName": "BMW",
+                     "oeNumber": "12 13 7 575 010",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 9,
+                     "brandName": "BMW",
+                     "oeNumber": "12 13 7 594 596",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 10,
+                     "brandName": "BMW",
+                     "oeNumber": "12 13 7 594 937",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 11,
+                     "brandName": "BMW",
+                     "oeNumber": "12 13 7 594 938",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 12,
+                     "brandName": "BMW",
+                     "oeNumber": "12 13 8 616 153",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 13,
+                     "brandName": "BMW",
+                     "oeNumber": "12 13 8 647 689",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 14,
+                     "brandName": "BMW",
+                     "oeNumber": "12 13 8 657 273",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 15,
+                     "brandName": "BMW",
+                     "oeNumber": "12130495289",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 16,
+                     "brandName": "BMW",
+                     "oeNumber": "12131712219",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 17,
+                     "brandName": "BMW",
+                     "oeNumber": "12131712223",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 18,
+                     "brandName": "BMW",
+                     "oeNumber": "12137551049",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 19,
+                     "brandName": "BMW",
+                     "oeNumber": "12137551260",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 20,
+                     "brandName": "BMW",
+                     "oeNumber": "12137562744",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 21,
+                     "brandName": "BMW",
+                     "oeNumber": "12137571643",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 22,
+                     "brandName": "BMW",
+                     "oeNumber": "12137575010",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 23,
+                     "brandName": "BMW",
+                     "oeNumber": "12137594596",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 24,
+                     "brandName": "BMW",
+                     "oeNumber": "12137594937",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 25,
+                     "brandName": "BMW",
+                     "oeNumber": "12137594938",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 26,
+                     "brandName": "BMW",
+                     "oeNumber": "12138616153",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 27,
+                     "brandName": "BMW",
+                     "oeNumber": "12138647689",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 28,
+                     "brandName": "BMW",
+                     "oeNumber": "12138657273",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CITROËN",
+                     "oeNumber": "5970-64",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "CITROËN",
+                     "oeNumber": "5970-91",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "CITROËN",
+                     "oeNumber": "597064",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "CITROËN",
+                     "oeNumber": "597091",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "CITROËN",
+                     "oeNumber": "9807841880",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "CITROËN",
+                     "oeNumber": "V7562744",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "CITROËN",
+                     "oeNumber": "V757164380",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 8,
+                     "brandName": "CITROËN",
+                     "oeNumber": "V757501080",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 9,
+                     "brandName": "CITROËN",
+                     "oeNumber": "V759493780",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "OPEL",
+                     "oeNumber": "5970-91",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "OPEL",
+                     "oeNumber": "597091",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "5970-64",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "5970-91",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "597064",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "597091",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "9807841880",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "VAUXHALL",
+                     "oeNumber": "5970-91",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "VAUXHALL",
+                     "oeNumber": "597091",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "HITACHI",
+                     "oeNumber": "133875",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "HITACHI",
+                     "oeNumber": "134046",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "HITACHI",
+                     "oeNumber": "2503875",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "HITACHI",
+                     "oeNumber": "2504046",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "MINI",
+                     "oeNumber": "12 13 7 550 012",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "MINI",
+                     "oeNumber": "12 13 7 571 643",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "MINI",
+                     "oeNumber": "12 13 7 575 010",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "MINI",
+                     "oeNumber": "12 13 7 594 937",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "MINI",
+                     "oeNumber": "12 13 8 616 153",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "MINI",
+                     "oeNumber": "12 13 8 657 273",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "MINI",
+                     "oeNumber": "12137550012",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 8,
+                     "brandName": "MINI",
+                     "oeNumber": "12137571643",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 9,
+                     "brandName": "MINI",
+                     "oeNumber": "12137575010",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 10,
+                     "brandName": "MINI",
+                     "oeNumber": "12137594937",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 11,
+                     "brandName": "MINI",
+                     "oeNumber": "12138616153",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 12,
+                     "brandName": "MINI",
+                     "oeNumber": "12138657273",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CITROËN (DF-PSA)",
+                     "oeNumber": "5970-91",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "CITROËN (DF-PSA)",
+                     "oeNumber": "597091",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "BMW (BRILLIANCE)",
+                     "oeNumber": "12 13 0 495 289",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "BMW (BRILLIANCE)",
+                     "oeNumber": "12 13 1 712 219",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "BMW (BRILLIANCE)",
+                     "oeNumber": "12 13 7 551 049",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "BMW (BRILLIANCE)",
+                     "oeNumber": "12 13 7 575 010",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "BMW (BRILLIANCE)",
+                     "oeNumber": "12 13 7 594 596",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "BMW (BRILLIANCE)",
+                     "oeNumber": "12 13 7 594 937",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "BMW (BRILLIANCE)",
+                     "oeNumber": "12 13 7 594 938",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 8,
+                     "brandName": "BMW (BRILLIANCE)",
+                     "oeNumber": "12 13 8 616 153",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 9,
+                     "brandName": "BMW (BRILLIANCE)",
+                     "oeNumber": "12 13 8 657 273",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 10,
+                     "brandName": "BMW (BRILLIANCE)",
+                     "oeNumber": "12130495289",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 11,
+                     "brandName": "BMW (BRILLIANCE)",
+                     "oeNumber": "12131712219",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 12,
+                     "brandName": "BMW (BRILLIANCE)",
+                     "oeNumber": "12137551049",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 13,
+                     "brandName": "BMW (BRILLIANCE)",
+                     "oeNumber": "12137575010",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 14,
+                     "brandName": "BMW (BRILLIANCE)",
+                     "oeNumber": "12137594596",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 15,
+                     "brandName": "BMW (BRILLIANCE)",
+                     "oeNumber": "12137594937",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 16,
+                     "brandName": "BMW (BRILLIANCE)",
+                     "oeNumber": "12137594938",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 17,
+                     "brandName": "BMW (BRILLIANCE)",
+                     "oeNumber": "12138616153",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 18,
+                     "brandName": "BMW (BRILLIANCE)",
+                     "oeNumber": "12138657273",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "PEUGEOT (DF-PSA)",
+                     "oeNumber": "5970-91",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "PEUGEOT (DF-PSA)",
+                     "oeNumber": "597091",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "DONGFENG",
+                     "oeNumber": "5970-91",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "DONGFENG",
+                     "oeNumber": "597091",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "DS",
+                     "oeNumber": "5970-91",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "DS",
+                     "oeNumber": "597091",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "DS",
+                     "oeNumber": "9807841880",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": {
+               "array": [
+                  {
+                     "replaceArticleId": 12655976,
+                     "replaceNumber": "245319"
+                  },
+                  {
+                     "replaceArticleId": 435322155,
+                     "replaceNumber": "245828"
+                  }
+               ]
+            },
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,227 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 100,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Côté d'assemblage",
+                     "attrShortName": "Endroit d'assemblage",
+                     "attrType": "K",
+                     "attrValue": "arrière",
+                     "attrValueId": 57576
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 2338,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Version de balai d'essuie-glace",
+                     "attrShortName": "Version de balai d'essuie-glace",
+                     "attrType": "K",
+                     "attrValue": "Balai d'essuie-glace conventionnel",
+                     "attrValueId": 44444
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 563,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Quantité",
+                     "attrShortName": "Quantité",
+                     "attrType": "A",
+                     "attrValue": "1",
+                     "attrValueId": 26487
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 203,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Longueur [mm]",
+                     "attrShortName": "Longueur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "240",
+                     "attrValueId": 31758
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 205,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Longueur [pouces]",
+                     "attrShortName": "Longueur",
+                     "attrType": "N",
+                     "attrUnit": "Pouce",
+                     "attrValue": "9",
+                     "attrValueId": 3274
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,07",
+                     "attrValueId": 58411
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "SILENCIO_CONV_REAR_574595_50.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148945527",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "SILENCIO_CONV_REAR_574595_10.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148949326",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "SILENCIO_CONV_REAR_574595_11.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148949327",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "SILENCIO_CONV_REAR_574595_12.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148949328",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "SILENCIO_CONV_REAR_574595_13.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148949329",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148945527",
+                     "thumbFileName": "0021\\SILENCIO_CONV_REAR_574595_50.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148949326",
+                     "thumbFileName": "0021\\SILENCIO_CONV_REAR_574595_10.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148949327",
+                     "thumbFileName": "0021\\SILENCIO_CONV_REAR_574595_11.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148949328",
+                     "thumbFileName": "0021\\SILENCIO_CONV_REAR_574595_12.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148949329",
+                     "thumbFileName": "0021\\SILENCIO_CONV_REAR_574595_13.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleAddName": "SILENCIO REAR",
+               "articleId": 702313503,
+               "articleName": "Balai d'essuie-glace",
+               "articleNo": "574595",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 298,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276425745957"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1631823680",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "287901560R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "RENAULT",
+                     "oeNumber": "287909946R",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "VR52"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

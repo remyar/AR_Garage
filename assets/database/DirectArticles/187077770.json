@@ -1,0 +1,287 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 220,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Alésage-Ø [mm]",
+                     "attrShortName": "Alésage-Ø",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "31",
+                     "attrValueId": 31337
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1094,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Nombre de trous de fixation",
+                     "attrShortName": "Nombre de trous de fixation",
+                     "attrType": "N",
+                     "attrValue": "2",
+                     "attrValueId": 53236
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1349,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre raccord hydraulique [mm]",
+                     "attrShortName": "Ø-attelage hydraulique",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "12,2",
+                     "attrValueId": 10416
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 836,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Article complémentaire / Info complémentaire 2",
+                     "attrType": "K",
+                     "attrValue": "sans capteur",
+                     "attrValueId": 26830
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,36",
+                     "attrValueId": 20531
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "VS-VTR_CSC_810086_001.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148950092",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "VS-VTR_CSC_810086_002.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148950093",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148950092",
+                     "thumbFileName": "0021\\VS-VTR_CSC_810086_001.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148950093",
+                     "thumbFileName": "0021\\VS-VTR_CSC_810086_002.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 187077770,
+               "articleName": "Butée hydraulique, embrayage",
+               "articleNo": "810086",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 47,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276428100869"
+                  }
+               ]
+            },
+            "mainArticle": {
+               "array": [
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 14313702,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834078"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 14313705,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834079"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 14313759,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834095"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907572,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834132"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907780,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834287"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907803,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834312"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907813,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834320"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907818,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834325"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907828,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834335"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 1225906016,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834591"
+                  }
+               ]
+            },
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "MERCEDES-BENZ",
+                     "oeNumber": "4152500015",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "MERCEDES-BENZ",
+                     "oeNumber": "A4152500015",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "306202313R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "RENAULT",
+                     "oeNumber": "306202760R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "RENAULT",
+                     "oeNumber": "306209222R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "RENAULT",
+                     "oeNumber": "306209536R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200046102",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200855816",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "DACIA",
+                     "oeNumber": "306202760R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "DACIA",
+                     "oeNumber": "306209222R",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": {
+               "array": [
+                  {
+                     "replaceArticleId": 14000553,
+                     "replaceNumber": "804584"
+                  },
+                  {
+                     "replaceArticleId": 14138182,
+                     "replaceNumber": "810032"
+                  }
+               ]
+            },
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

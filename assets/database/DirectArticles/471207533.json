@@ -1,0 +1,432 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1075,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Pièce neuve",
+                     "attrShortName": "Pièce neuve",
+                     "attrType": "V",
+                     "attrValueId": 1045
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,79",
+                     "attrValueId": 22414
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "CLUTCH DISC.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148961220",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148961220",
+                     "thumbFileName": "0021\\CLUTCH DISC.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 471207533,
+               "articleName": "Disque d'embrayage",
+               "articleNo": "809774",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 262,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276428097749"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CITROËN",
+                     "oeNumber": "2055-83",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "CITROËN",
+                     "oeNumber": "2055-GA",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "CITROËN",
+                     "oeNumber": "2055-GG",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "CITROËN",
+                     "oeNumber": "2055-N0",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "CITROËN",
+                     "oeNumber": "2055-N1",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "CITROËN",
+                     "oeNumber": "2055-Q1",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "CITROËN",
+                     "oeNumber": "2055-Q5",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 8,
+                     "brandName": "CITROËN",
+                     "oeNumber": "2055-T9",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 9,
+                     "brandName": "CITROËN",
+                     "oeNumber": "2055-V1",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 10,
+                     "brandName": "CITROËN",
+                     "oeNumber": "205583",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 11,
+                     "brandName": "CITROËN",
+                     "oeNumber": "2055GA",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 12,
+                     "brandName": "CITROËN",
+                     "oeNumber": "2055GG",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 13,
+                     "brandName": "CITROËN",
+                     "oeNumber": "2055N0",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 14,
+                     "brandName": "CITROËN",
+                     "oeNumber": "2055N1",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 15,
+                     "brandName": "CITROËN",
+                     "oeNumber": "2055Q1",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 16,
+                     "brandName": "CITROËN",
+                     "oeNumber": "2055Q5",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 17,
+                     "brandName": "CITROËN",
+                     "oeNumber": "2055T9",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 18,
+                     "brandName": "CITROËN",
+                     "oeNumber": "2055V1",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 19,
+                     "brandName": "CITROËN",
+                     "oeNumber": "91519852",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 20,
+                     "brandName": "CITROËN",
+                     "oeNumber": "91521170",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 21,
+                     "brandName": "CITROËN",
+                     "oeNumber": "96114453",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 22,
+                     "brandName": "CITROËN",
+                     "oeNumber": "96114455",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 23,
+                     "brandName": "CITROËN",
+                     "oeNumber": "96135649",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055-38",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055-47",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055-83",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055-94",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055-95",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055-A5",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055-GA",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 8,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055-GG",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 9,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055-N0",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 10,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055-N1",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 11,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055-N6",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 12,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055-Q1",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 13,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055-Q5",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 14,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055-T9",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 15,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055-V1",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 16,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "205538",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 17,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "205547",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 18,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "205583",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 19,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "205594",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 20,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "205595",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 21,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055A5",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 22,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055GA",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 23,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055GG",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 24,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055N0",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 25,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055N1",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 26,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055N6",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 27,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055Q1",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 28,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055Q5",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 29,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055T9",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 30,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "2055V1",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": {
+               "array": [
+                  {
+                     "replaceArticleId": 13985079,
+                     "replaceNumber": "803118"
+                  },
+                  {
+                     "replaceArticleId": 13985531,
+                     "replaceNumber": "803167"
+                  }
+               ]
+            },
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

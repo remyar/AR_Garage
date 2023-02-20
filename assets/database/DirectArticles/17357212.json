@@ -1,0 +1,179 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1470,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Longueur de tuyau [mm]",
+                     "attrShortName": "Longueur de tuyau",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "400",
+                     "attrValueId": 47200
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 995,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre intérieur 1 [mm]",
+                     "attrShortName": "Diamètre intérieur 1",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "35",
+                     "attrValueId": 45980
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 996,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre intérieur 2 [mm]",
+                     "attrShortName": "Diamètre intérieur 2",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "35",
+                     "attrValueId": 40508
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 2596,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Confère brochure",
+                     "attrShortName": "Confère brochure",
+                     "attrType": "V",
+                     "attrValueId": 25687
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "VF101ES.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150107739",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileName": "GATES_4274_VFIIRH_EN.PDF",
+                     "docFileTypeName": "Fichier PDF",
+                     "docId": "564045173397085",
+                     "docTypeId": 17,
+                     "docTypeName": "Information sur le produit"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520150107739",
+                     "thumbFileName": "0033\\VF101ES.JPG",
+                     "thumbTypeId": 5
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleAddName": "Vulco-Flex®",
+               "articleId": 17357212,
+               "articleName": "Durite de radiateur",
+               "articleNo": "VFII246",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "GATES",
+               "brandNo": 33,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 475,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "5412571015621"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "FIAT",
+                     "oeNumber": "4396610",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "MERCEDES-BENZ",
+                     "oeNumber": "1265010282",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "MERCEDES-BENZ",
+                     "oeNumber": "A1265010282",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "MITSUBISHI",
+                     "oeNumber": "MB007648",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "MITSUBISHI",
+                     "oeNumber": "MB008024",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "VOLVO",
+                     "oeNumber": "3290770",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "4274-10246"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

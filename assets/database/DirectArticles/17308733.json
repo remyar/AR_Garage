@@ -1,0 +1,199 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 599,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Surface",
+                     "attrType": "K",
+                     "attrValue": "lisse",
+                     "attrValueId": 7200
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 497,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre extérieur [mm]",
+                     "attrShortName": "Diamètre extérieur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "50",
+                     "attrValueId": 28571
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 496,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre intérieur [mm]",
+                     "attrShortName": "Diamètre intérieur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "10",
+                     "attrValueId": 14462
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 206,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Largeur [mm]",
+                     "attrShortName": "Largeur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "22",
+                     "attrValueId": 3544
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "T41154.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150106263",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520150106263",
+                     "thumbFileName": "0033\\T41154.JPG",
+                     "thumbTypeId": 5
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleAddName": "PowerGrip®",
+               "articleId": 17308733,
+               "articleName": "Poulie-tendeur, courroie de distribution",
+               "articleNo": "T41154",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "GATES",
+               "brandNo": 33,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 308,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "5414465309755"
+                  }
+               ]
+            },
+            "mainArticle": {
+               "array": [
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17177076,
+                     "articleName": "Kit de distribution",
+                     "articleNumber": "K015192XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17180571,
+                     "articleName": "Kit de distribution",
+                     "articleNumber": "K015454XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17225112,
+                     "articleName": "Pompe à eau + kit de courroie de distribution",
+                     "articleNumber": "KP15192XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17229043,
+                     "articleName": "Pompe à eau + kit de courroie de distribution",
+                     "articleNumber": "KP25192XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17229651,
+                     "articleName": "Pompe à eau + kit de courroie de distribution",
+                     "articleNumber": "KP25454XS"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 17229685,
+                     "articleName": "Pompe à eau + kit de courroie de distribution",
+                     "articleNumber": "KP25454XS-2"
+                  },
+                  {
+                     "articleAddName": "PowerGrip®",
+                     "articleId": 849612262,
+                     "articleName": "Pompe à eau + kit de courroie de distribution",
+                     "articleNumber": "KP35192XS"
+                  }
+               ]
+            },
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "NISSAN",
+                     "oeNumber": "1307700QAD",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7700273277",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7700736085",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "7786-21196"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

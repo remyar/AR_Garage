@@ -1,0 +1,186 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 3428,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Profondeur de filet [mm]",
+                     "attrShortName": "Profondeur de filet",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "64",
+                     "attrValueId": 62907
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 3427,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Largeur de filet [mm]",
+                     "attrShortName": "Largeur de filet",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "629",
+                     "attrValueId": 16480
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 3426,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Longueur de filet [mm]",
+                     "attrShortName": "Longueur de filet",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "157",
+                     "attrValueId": 52882
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 916,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Ø admission [mm]",
+                     "attrShortName": "Ø admiss°",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "55",
+                     "attrValueId": 58547
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 917,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Ø Sortie [mm]",
+                     "attrShortName": "Ø sortie",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "44",
+                     "attrValueId": 62562
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 744,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Type de refroidissment",
+                     "attrShortName": "Type de refroidissment",
+                     "attrType": "K",
+                     "attrValue": "refroidi par air",
+                     "attrValueId": 38568
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 836,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Article complémentaire / Info complémentaire 2",
+                     "attrType": "K",
+                     "attrValue": "sans vanne EGR",
+                     "attrValueId": 3194
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "4,48",
+                     "attrValueId": 24828
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "INTERCOOLER_818621_01.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148943275",
+                     "docTypeId": 3,
+                     "docTypeName": "Dessin technique"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148943275",
+                     "thumbFileName": "0021\\INTERCOOLER_818621_01.JPG",
+                     "thumbTypeId": 3
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 525222652,
+               "articleName": "Intercooler, échangeur",
+               "articleNo": "818621",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 468,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276428186214"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200325003",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

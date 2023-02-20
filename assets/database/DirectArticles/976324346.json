@@ -1,0 +1,534 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 220,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Alésage-Ø [mm]",
+                     "attrShortName": "Alésage-Ø",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "34",
+                     "attrValueId": 7024
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 468,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Matériel",
+                     "attrType": "K",
+                     "attrValue": "Aluminium",
+                     "attrValueId": 51287
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 431,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Longueur globale [mm]",
+                     "attrShortName": "Longueur coque",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "56,7",
+                     "attrValueId": 1597
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1094,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Nombre de trous de fixation",
+                     "attrShortName": "Nombre de trous de fixation",
+                     "attrType": "N",
+                     "attrValue": "3",
+                     "attrValueId": 37954
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 836,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Article complémentaire / Info complémentaire 2",
+                     "attrType": "K",
+                     "attrValue": "sans capteur",
+                     "attrValueId": 26830
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,47",
+                     "attrValueId": 50010
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "CLUTCH_CSC_810226_01.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148951983",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148951983",
+                     "thumbFileName": "0021\\CLUTCH_CSC_810226_01.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 976324346,
+               "articleName": "Butée hydraulique, embrayage",
+               "articleNo": "810226",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 47,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276428102269"
+                  }
+               ]
+            },
+            "mainArticle": {
+               "array": [
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 14313745,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834091"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907557,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834122"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907584,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834142"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907585,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834143"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907602,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834148"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907594,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834150"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907722,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834228"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907731,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834237"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907734,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834240"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907741,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834247"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 159907765,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834271"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 436011583,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834481"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 704295932,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834514"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 1093790449,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834537"
+                  },
+                  {
+                     "articleAddName": "KIT3P (CSC)",
+                     "articleId": 1106860535,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "834582"
+                  },
+                  {
+                     "articleAddName": "FULLPACK DVA (CSC)",
+                     "articleId": 144854051,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "837300"
+                  },
+                  {
+                     "articleAddName": "FULLPACK DVA (CSC)",
+                     "articleId": 144854061,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "837302"
+                  },
+                  {
+                     "articleAddName": "FULLPACK DVA (CSC)",
+                     "articleId": 144854071,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "837308"
+                  },
+                  {
+                     "articleAddName": "FULLPACK DVA (CSC)",
+                     "articleId": 347022754,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "837403"
+                  },
+                  {
+                     "articleAddName": "FULLPACK DVA (CSC)",
+                     "articleId": 347022815,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "837408"
+                  },
+                  {
+                     "articleAddName": "FULLPACK DVA (CSC)",
+                     "articleId": 410976995,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "837436"
+                  },
+                  {
+                     "articleAddName": "FULLPACK DVA (CSC)",
+                     "articleId": 869749834,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "837474"
+                  },
+                  {
+                     "articleAddName": "FULLPACK DVA (CSC)",
+                     "articleId": 1279399231,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "837523"
+                  },
+                  {
+                     "articleAddName": "FULLPACK DVA (CSC)",
+                     "articleId": 1138042116,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "837535"
+                  },
+                  {
+                     "articleAddName": "FULLPACK DVA (CSC)",
+                     "articleId": 1138042121,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "837538"
+                  },
+                  {
+                     "articleAddName": "KIT4P - CONVERSION KIT (CSC)",
+                     "articleId": 159908644,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "845066"
+                  },
+                  {
+                     "articleAddName": "KIT4P - CONVERSION KIT (CSC)",
+                     "articleId": 159908650,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "845075"
+                  },
+                  {
+                     "articleAddName": "KIT4P - CONVERSION KIT (CSC)",
+                     "articleId": 159908651,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "845076"
+                  },
+                  {
+                     "articleAddName": "KIT4P - CONVERSION KIT (CSC)",
+                     "articleId": 159908666,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "845148"
+                  },
+                  {
+                     "articleAddName": "KIT4P - CONVERSION KIT (CSC)",
+                     "articleId": 1225908252,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "845282"
+                  },
+                  {
+                     "articleAddName": "KIT4P - CONVERSION KIT (CSC)",
+                     "articleId": 1200490943,
+                     "articleName": "Kit d'embrayage",
+                     "articleNumber": "845283"
+                  }
+               ]
+            },
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "ALFA ROMEO",
+                     "oeNumber": "55197680",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "ALFA ROMEO",
+                     "oeNumber": "55558917",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "ALFA ROMEO",
+                     "oeNumber": "55558918",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "FIAT",
+                     "oeNumber": "55197680",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "FIAT",
+                     "oeNumber": "55558917",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "FIAT",
+                     "oeNumber": "55558918",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "OPEL",
+                     "oeNumber": "55352048",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "OPEL",
+                     "oeNumber": "5679349",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "OPEL",
+                     "oeNumber": "5679350",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "OPEL",
+                     "oeNumber": "5679360",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "OPEL",
+                     "oeNumber": "679078",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "OPEL",
+                     "oeNumber": "679079",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "SAAB",
+                     "oeNumber": "55563645",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "VAUXHALL",
+                     "oeNumber": "55558917",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "VAUXHALL",
+                     "oeNumber": "55558918",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "VAUXHALL",
+                     "oeNumber": "55563511",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "VAUXHALL",
+                     "oeNumber": "55563645",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "VAUXHALL",
+                     "oeNumber": "55563646",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CHEVROLET",
+                     "oeNumber": "55558917",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "CHEVROLET",
+                     "oeNumber": "55558918",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "CHEVROLET",
+                     "oeNumber": "55563645",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "CHEVROLET",
+                     "oeNumber": "55563646",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "BUICK (SGM)",
+                     "oeNumber": "55558918",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CHEVROLET (SGM)",
+                     "oeNumber": "55558918",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "CHEVROLET (SGM)",
+                     "oeNumber": "55563645",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CHEVROLET (SGMW)",
+                     "oeNumber": "55563645",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "ABARTH",
+                     "oeNumber": "55197680",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": {
+               "array": [
+                  {
+                     "replaceArticleId": 14000270,
+                     "replaceNumber": "804564"
+                  },
+                  {
+                     "replaceArticleId": 14000293,
+                     "replaceNumber": "804566"
+                  },
+                  {
+                     "replaceArticleId": 14000284,
+                     "replaceNumber": "804567"
+                  },
+                  {
+                     "replaceArticleId": 14000432,
+                     "replaceNumber": "804578"
+                  },
+                  {
+                     "replaceArticleId": 14138077,
+                     "replaceNumber": "810016"
+                  },
+                  {
+                     "replaceArticleId": 14138084,
+                     "replaceNumber": "810017"
+                  },
+                  {
+                     "replaceArticleId": 14138365,
+                     "replaceNumber": "810034"
+                  }
+               ]
+            },
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}
