@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 18001,
+            "vehicleDetails": {
+               "carId": 18001,
+               "ccmTech": 2463,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2463,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 93,
+               "manuName": "RENAULT",
+               "modId": 3952,
+               "modelName": "MASTER II Autobus/Autocar (JD)",
+               "motorType": "Diesel",
+               "powerHpFrom": 99,
+               "powerHpTo": 99,
+               "powerKwFrom": 73,
+               "powerKwTo": 73,
+               "typeName": "2.5 dCi 100 (JDCV)",
+               "typeNumber": 18001,
+               "valves": 4,
+               "yearOfConstrFrom": 200310,
+               "rmiTypeId": 14032
+            },
+            "vehicleDocId": "DR18001"
+         }
+      ]
+   },
+   "status": 200
+}

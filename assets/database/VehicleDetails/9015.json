@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9015,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9015,
+               "ccmTech": 2946,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2946,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 481,
+               "modelName": "605 (6B)",
+               "motorType": "Essence",
+               "powerHpFrom": 190,
+               "powerHpTo": 190,
+               "powerKwFrom": 140,
+               "powerKwTo": 140,
+               "typeName": "3.0 V6",
+               "typeNumber": 9015,
+               "valves": 4,
+               "yearOfConstrFrom": 199704,
+               "yearOfConstrTo": 199909,
+               "rmiTypeId": 8053
+            },
+            "vehicleDocId": "DR9015"
+         }
+      ]
+   },
+   "status": 200
+}

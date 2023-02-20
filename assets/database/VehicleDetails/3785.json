@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3785,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3785,
+               "ccmTech": 1998,
+               "constructionType": "Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1998,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 476,
+               "modelName": "ULYSSE (220_)",
+               "motorType": "Essence",
+               "powerHpFrom": 147,
+               "powerHpTo": 147,
+               "powerKwFrom": 108,
+               "powerKwTo": 108,
+               "typeName": "2.0 Turbo (220.AD5)",
+               "typeNumber": 3785,
+               "valves": 2,
+               "yearOfConstrFrom": 199406,
+               "yearOfConstrTo": 200208,
+               "rmiTypeId": 3475
+            },
+            "vehicleDocId": "DR3785"
+         }
+      ]
+   },
+   "status": 200
+}

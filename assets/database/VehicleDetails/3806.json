@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3806,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3806,
+               "ccmTech": 1581,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1581,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 458,
+               "modelName": "PUNTO (176_)",
+               "motorType": "Essence",
+               "powerHpFrom": 88,
+               "powerHpTo": 88,
+               "powerKwFrom": 65,
+               "powerKwTo": 65,
+               "typeName": "1.6",
+               "typeNumber": 3806,
+               "valves": 2,
+               "yearOfConstrFrom": 199401,
+               "yearOfConstrTo": 199704,
+               "rmiTypeId": 3496
+            },
+            "vehicleDocId": "DR3806"
+         }
+      ]
+   },
+   "status": 200
+}

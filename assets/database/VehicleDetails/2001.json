@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2001,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2001,
+               "ccmTech": 1721,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1721,
+               "cylinderCapacityLiter": 170,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 93,
+               "manuName": "RENAULT",
+               "modId": 560,
+               "modelName": "SUPER 5 (B/C40_)",
+               "motorType": "Essence",
+               "powerHpFrom": 73,
+               "powerHpTo": 73,
+               "powerKwFrom": 54,
+               "powerKwTo": 54,
+               "typeName": "1.7 (B/C408)",
+               "typeNumber": 2001,
+               "valves": 2,
+               "yearOfConstrFrom": 198610,
+               "yearOfConstrTo": 199503,
+               "rmiTypeId": 1815
+            },
+            "vehicleDocId": "DR2001"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2275,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2275,
+               "ccmTech": 954,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 954,
+               "cylinderCapacityLiter": 100,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 66,
+               "modelName": "104",
+               "motorType": "Essence",
+               "powerHpFrom": 44,
+               "powerHpTo": 44,
+               "powerKwFrom": 32,
+               "powerKwTo": 32,
+               "typeName": "1.0",
+               "typeNumber": 2275,
+               "valves": 2,
+               "yearOfConstrFrom": 198309,
+               "yearOfConstrTo": 198806,
+               "rmiTypeId": 2080
+            }
+         }
+      ]
+   },
+   "status": 200
+}

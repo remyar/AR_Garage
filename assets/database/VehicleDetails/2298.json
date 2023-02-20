@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2298,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2298,
+               "ccmTech": 1360,
+               "constructionType": "Décapotable",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1360,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 200,
+               "modelName": "205 I Décapotable (741B, 20D)",
+               "motorType": "Essence",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "1.4 CJ",
+               "typeNumber": 2298,
+               "valves": 2,
+               "yearOfConstrFrom": 198803,
+               "yearOfConstrTo": 198905,
+               "rmiTypeId": 2101
+            },
+            "vehicleDocId": "DR2298"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3810,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3810,
+               "ccmTech": 1581,
+               "constructionType": "Camionnette/Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1581,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 418,
+               "modelName": "FIORINO Camionnette/Monospace (146_)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "75 i.e. 1.6",
+               "typeNumber": 3810,
+               "valves": 2,
+               "yearOfConstrFrom": 199310,
+               "yearOfConstrTo": 200105,
+               "rmiTypeId": 3500
+            },
+            "vehicleDocId": "DR3810"
+         }
+      ]
+   },
+   "status": 200
+}

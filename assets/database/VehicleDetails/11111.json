@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11111,
+            "vehicleDetails": {
+               "carId": 11111,
+               "ccmTech": 2999,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2999,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 5613,
+               "modelName": "BOXER Camionnette",
+               "motorType": "Diesel",
+               "powerHpFrom": 177,
+               "powerHpTo": 177,
+               "powerKwFrom": 130,
+               "powerKwTo": 130,
+               "typeName": "3.0 HDi 175",
+               "typeNumber": 11111,
+               "valves": 4,
+               "yearOfConstrFrom": 201103,
+               "rmiTypeId": 67499
+            },
+            "vehicleDocId": "DR11111"
+         }
+      ]
+   },
+   "status": 200
+}

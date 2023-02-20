@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5559,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5559,
+               "ccmTech": 1581,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1581,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 1543,
+               "modelName": "SCUDO Autobus/Autocar (220_)",
+               "motorType": "Essence",
+               "powerHpFrom": 79,
+               "powerHpTo": 79,
+               "powerKwFrom": 58,
+               "powerKwTo": 58,
+               "typeName": "1.6",
+               "typeNumber": 5559,
+               "valves": 2,
+               "yearOfConstrFrom": 199602,
+               "yearOfConstrTo": 200612,
+               "rmiTypeId": 5122
+            },
+            "vehicleDocId": "DR5559"
+         }
+      ]
+   },
+   "status": 200
+}

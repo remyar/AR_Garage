@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2010,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2010,
+               "ccmTech": 1721,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1721,
+               "cylinderCapacityLiter": 170,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 93,
+               "manuName": "RENAULT",
+               "modId": 565,
+               "modelName": "9 (L42_)",
+               "motorType": "Essence",
+               "powerHpFrom": 73,
+               "powerHpTo": 73,
+               "powerKwFrom": 54,
+               "powerKwTo": 54,
+               "typeName": "1.7 (L42F)",
+               "typeNumber": 2010,
+               "valves": 2,
+               "yearOfConstrFrom": 198610,
+               "yearOfConstrTo": 198812,
+               "rmiTypeId": 1824
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10499,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10499,
+               "ccmTech": 1581,
+               "constructionType": "Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1581,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 3998,
+               "modelName": "MULTIPLA (186_)",
+               "motorType": "Essence",
+               "powerHpFrom": 103,
+               "powerHpTo": 103,
+               "powerKwFrom": 76,
+               "powerKwTo": 76,
+               "typeName": "1.6 100 16V (186AXA1A)",
+               "typeNumber": 10499,
+               "valves": 4,
+               "yearOfConstrFrom": 199904,
+               "yearOfConstrTo": 201006,
+               "rmiTypeId": 8726
+            },
+            "vehicleDocId": "DR10499"
+         }
+      ]
+   },
+   "status": 200
+}

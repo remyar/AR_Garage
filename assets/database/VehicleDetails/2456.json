@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2456,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2456,
+               "ccmTech": 2498,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2498,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 3922,
+               "modelName": "505 Break (551D)",
+               "motorType": "Diesel",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "2.5 Diesel",
+               "typeNumber": 2456,
+               "valves": 2,
+               "yearOfConstrFrom": 198308,
+               "yearOfConstrTo": 199312,
+               "rmiTypeId": 2236
+            }
+         }
+      ]
+   },
+   "status": 200
+}

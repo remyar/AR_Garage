@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2347,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2347,
+               "ccmTech": 1290,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1290,
+               "cylinderCapacityLiter": 130,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 247,
+               "modelName": "305 II Break (581E)",
+               "motorType": "Essence",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "1.3",
+               "typeNumber": 2347,
+               "valves": 2,
+               "yearOfConstrFrom": 198210,
+               "yearOfConstrTo": 198608,
+               "rmiTypeId": 2145
+            }
+         }
+      ]
+   },
+   "status": 200
+}

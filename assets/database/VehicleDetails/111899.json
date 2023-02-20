@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 111899,
+            "vehicleDetails": {
+               "carId": 111899,
+               "ccmTech": 1242,
+               "constructionType": "Camionnette - 3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1242,
+               "cylinderCapacityLiter": 120,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 13905,
+               "modelName": "PANDA VAN (312_, 519_)",
+               "motorType": "Essence",
+               "powerHpFrom": 69,
+               "powerHpTo": 69,
+               "powerKwFrom": 51,
+               "powerKwTo": 51,
+               "typeName": "1.2 (312CXA1A, 312DXA1A)",
+               "typeNumber": 111899,
+               "valves": 2,
+               "yearOfConstrFrom": 201202,
+               "rmiTypeId": 117329
+            },
+            "vehicleDocId": "DR111899"
+         }
+      ]
+   },
+   "status": 200
+}

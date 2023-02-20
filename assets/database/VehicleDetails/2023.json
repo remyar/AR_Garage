@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2023,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2023,
+               "ccmTech": 1721,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1721,
+               "cylinderCapacityLiter": 170,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 93,
+               "manuName": "RENAULT",
+               "modId": 466,
+               "modelName": "11 (B/C37_)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.7 (B/C37F)",
+               "typeNumber": 2023,
+               "valves": 2,
+               "yearOfConstrFrom": 198410,
+               "yearOfConstrTo": 198812,
+               "rmiTypeId": 1837
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10210,
+            "vehicleDetails": {
+               "carId": 10210,
+               "ccmTech": 2999,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2999,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 5631,
+               "modelName": "DUCATO Camionnette (250_)",
+               "motorType": "Diesel",
+               "powerHpFrom": 177,
+               "powerHpTo": 177,
+               "powerKwFrom": 130,
+               "powerKwTo": 130,
+               "typeName": "180 Multijet 3,0 D",
+               "typeNumber": 10210,
+               "valves": 4,
+               "yearOfConstrFrom": 201106,
+               "rmiTypeId": 68053
+            },
+            "vehicleDocId": "DR10210"
+         }
+      ]
+   },
+   "status": 200
+}

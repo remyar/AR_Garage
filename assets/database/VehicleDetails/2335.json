@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2335,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2335,
+               "ccmTech": 1290,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1290,
+               "cylinderCapacityLiter": 130,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 252,
+               "modelName": "305 I (581A)",
+               "motorType": "Essence",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "1.3",
+               "typeNumber": 2335,
+               "valves": 2,
+               "yearOfConstrFrom": 197711,
+               "yearOfConstrTo": 198209,
+               "rmiTypeId": 2133
+            }
+         }
+      ]
+   },
+   "status": 200
+}

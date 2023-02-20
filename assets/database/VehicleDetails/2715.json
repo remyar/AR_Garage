@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2715,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2715,
+               "ccmTech": 1049,
+               "constructionType": "Camionnette/Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1049,
+               "cylinderCapacityLiter": 100,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 422,
+               "modelName": "FIORINO (147_)",
+               "motorType": "Essence",
+               "powerHpFrom": 56,
+               "powerHpTo": 56,
+               "powerKwFrom": 41,
+               "powerKwTo": 41,
+               "typeName": "1.0",
+               "typeNumber": 2715,
+               "valves": 2,
+               "yearOfConstrFrom": 198612,
+               "yearOfConstrTo": 198804,
+               "rmiTypeId": 2482
+            },
+            "vehicleDocId": "DR2715"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 14763,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 14763,
+               "ccmTech": 2946,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2946,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 1477,
+               "modelName": "406 (8B)",
+               "motorType": "Essence",
+               "powerHpFrom": 207,
+               "powerHpTo": 207,
+               "powerKwFrom": 152,
+               "powerKwTo": 152,
+               "typeName": "3.0 V6",
+               "typeNumber": 14763,
+               "valves": 4,
+               "yearOfConstrFrom": 200003,
+               "yearOfConstrTo": 200405,
+               "rmiTypeId": 10930
+            },
+            "vehicleDocId": "DR14763"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10203,
+            "vehicleDetails": {
+               "carId": 10203,
+               "ccmTech": 1956,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1956,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 5631,
+               "modelName": "DUCATO Camionnette (250_)",
+               "motorType": "Diesel",
+               "powerHpFrom": 116,
+               "powerHpTo": 116,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "115 Multijet 2,0 D",
+               "typeNumber": 10203,
+               "valves": 4,
+               "yearOfConstrFrom": 201106,
+               "rmiTypeId": 68055
+            },
+            "vehicleDocId": "DR10203"
+         }
+      ]
+   },
+   "status": 200
+}

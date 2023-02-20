@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 23228,
+            "vehicleDetails": {
+               "carId": 23228,
+               "ccmTech": 1368,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1368,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 6409,
+               "modelName": "LINEA (323_, 110_)",
+               "motorType": "Essence",
+               "powerHpFrom": 77,
+               "powerHpTo": 77,
+               "powerKwFrom": 57,
+               "powerKwTo": 57,
+               "typeName": "1.4",
+               "typeNumber": 23228,
+               "valves": 2,
+               "yearOfConstrFrom": 200706,
+               "rmiTypeId": 52232
+            },
+            "vehicleDocId": "DR23228"
+         }
+      ]
+   },
+   "status": 200
+}

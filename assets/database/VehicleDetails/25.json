@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 25,
+            "vehicleDetails": {
+               "carId": 25,
+               "ccmTech": 1598,
+               "constructionType": "Décapotable",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1598,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 93,
+               "manuName": "RENAULT",
+               "modId": 8578,
+               "modelName": "MEGANE CC (EZ0/1_)",
+               "motorType": "Essence",
+               "powerHpFrom": 110,
+               "powerHpTo": 110,
+               "powerKwFrom": 81,
+               "powerKwTo": 81,
+               "typeName": "1.6 16V (EZ0U, EZ1U)",
+               "typeNumber": 25,
+               "valves": 4,
+               "yearOfConstrFrom": 201006,
+               "rmiTypeId": 63775
+            },
+            "vehicleDocId": "DR25"
+         }
+      ]
+   },
+   "status": 200
+}

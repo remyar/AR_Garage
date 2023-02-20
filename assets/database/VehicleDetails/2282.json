@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2282,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2282,
+               "ccmTech": 1124,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1124,
+               "cylinderCapacityLiter": 110,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 72,
+               "modelName": "104 Coupé",
+               "motorType": "Essence",
+               "powerHpFrom": 50,
+               "powerHpTo": 50,
+               "powerKwFrom": 37,
+               "powerKwTo": 37,
+               "typeName": "1.1",
+               "typeNumber": 2282,
+               "valves": 2,
+               "yearOfConstrFrom": 197908,
+               "yearOfConstrTo": 198806,
+               "rmiTypeId": 2085
+            }
+         }
+      ]
+   },
+   "status": 200
+}

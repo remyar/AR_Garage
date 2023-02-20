@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 53301,
+            "vehicleDetails": {
+               "carId": 53301,
+               "ccmTech": 1197,
+               "constructionType": "Camionnette/Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1197,
+               "cylinderCapacityLiter": 120,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 93,
+               "manuName": "RENAULT",
+               "modId": 6453,
+               "modelName": "KANGOO Express (FW0/1_)",
+               "motorType": "Essence",
+               "powerHpFrom": 115,
+               "powerHpTo": 115,
+               "powerKwFrom": 84,
+               "powerKwTo": 84,
+               "typeName": "1.2 TCe 115 (FW02, FW14)",
+               "typeNumber": 53301,
+               "valves": 4,
+               "yearOfConstrFrom": 201307,
+               "rmiTypeId": 80280
+            },
+            "vehicleDocId": "DR53301"
+         }
+      ]
+   },
+   "status": 200
+}

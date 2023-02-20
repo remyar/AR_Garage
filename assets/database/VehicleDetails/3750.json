@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3750,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3750,
+               "ccmTech": 1998,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1998,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 273,
+               "modelName": "306 (7B, N3, N5)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.0 S16",
+               "typeNumber": 3750,
+               "valves": 4,
+               "yearOfConstrFrom": 199406,
+               "yearOfConstrTo": 200105,
+               "rmiTypeId": 3443
+            },
+            "vehicleDocId": "DR3750"
+         }
+      ]
+   },
+   "status": 200
+}

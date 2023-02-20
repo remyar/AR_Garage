@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2012,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2012,
+               "ccmTech": 1721,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1721,
+               "cylinderCapacityLiter": 170,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 93,
+               "manuName": "RENAULT",
+               "modId": 565,
+               "modelName": "9 (L42_)",
+               "motorType": "Essence",
+               "powerHpFrom": 80,
+               "powerHpTo": 80,
+               "powerKwFrom": 59,
+               "powerKwTo": 59,
+               "typeName": "1.7 (L426)",
+               "typeNumber": 2012,
+               "valves": 2,
+               "yearOfConstrFrom": 198409,
+               "yearOfConstrTo": 198912,
+               "rmiTypeId": 1826
+            }
+         }
+      ]
+   },
+   "status": 200
+}

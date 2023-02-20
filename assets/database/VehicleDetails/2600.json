@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2600,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2600,
+               "ccmTech": 1595,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1595,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 404,
+               "modelName": "TIPO (160_)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.6 i.e.",
+               "typeNumber": 2600,
+               "valves": 2,
+               "yearOfConstrFrom": 198802,
+               "yearOfConstrTo": 199105,
+               "rmiTypeId": 2370
+            },
+            "vehicleDocId": "DR2600"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2344,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2344,
+               "ccmTech": 1548,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1548,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 252,
+               "modelName": "305 I (581A)",
+               "motorType": "Diesel",
+               "powerHpFrom": 49,
+               "powerHpTo": 49,
+               "powerKwFrom": 36,
+               "powerKwTo": 36,
+               "typeName": "1.5 Diesel",
+               "typeNumber": 2344,
+               "valves": 2,
+               "yearOfConstrFrom": 197711,
+               "yearOfConstrTo": 198209,
+               "rmiTypeId": 2142
+            }
+         }
+      ]
+   },
+   "status": 200
+}

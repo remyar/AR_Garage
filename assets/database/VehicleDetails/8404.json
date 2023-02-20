@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8404,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8404,
+               "ccmTech": 1761,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1761,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 3921,
+               "modelName": "306 Break (7E, N3, N5)",
+               "motorType": "Essence",
+               "powerHpFrom": 101,
+               "powerHpTo": 101,
+               "powerKwFrom": 74,
+               "powerKwTo": 74,
+               "typeName": "1.8",
+               "typeNumber": 8404,
+               "valves": 2,
+               "yearOfConstrFrom": 199703,
+               "yearOfConstrTo": 200204,
+               "rmiTypeId": 7512
+            },
+            "vehicleDocId": "DR8404"
+         }
+      ]
+   },
+   "status": 200
+}
