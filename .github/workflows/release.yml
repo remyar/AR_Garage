@@ -44,14 +44,16 @@ jobs:
         name: Download the file
         with:
           url: "https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.2.0.20220712.exe"
-          target: ./assets
+          target: ./assets/tesseract
 
       - name: 7zip
         run: |
-          cd ./assets
+          cd ./assets/tesseract
           7z x tesseract-ocr-w64-setup-v5.2.0.20220712.exe
           del ./tesseract-ocr-w64-setup-v5.2.0.20220712.exe
           del ./tesseract-uninstall.exe
+          del ./donotremove.bat
+          cd ..
           del ./donotremove.bat
 
       - name: Build/release Electron app
