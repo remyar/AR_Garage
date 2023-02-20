@@ -2,7 +2,7 @@
     CopyFiles /SILENT "${BUILD_RESOURCES_DIR}\code_postaux.sqlite" "$APPDATA\${APP_PACKAGE_NAME}" 
 
     IfFileExists "$APPDATA\tesseract" next1
-        CopyFiles /SILENT "${BUILD_RESOURCES_DIR}\tesseract" "$APPDATA\${APP_PACKAGE_NAME}\tesseract" 
+        CopyFiles /SILENT "${BUILD_RESOURCES_DIR}\tesseract\*" "$APPDATA\${APP_PACKAGE_NAME}\tesseract" 
     next1:
 
     IfFileExists "$APPDATA\database" next
