@@ -1,0 +1,190 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 497,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre extérieur [mm]",
+                     "attrShortName": "Diamètre extérieur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "72,5",
+                     "attrValueId": 37536
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 206,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Largeur [mm]",
+                     "attrShortName": "Largeur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "26,5",
+                     "attrValueId": 64660
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "MVGP00718.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150105546",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileTypeName": "URL",
+                     "docId": "1126995126807253",
+                     "docTypeId": 14,
+                     "docTypeName": "Mode d'emploi"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520150105546",
+                     "thumbFileName": "0033\\MVGP00718.JPG",
+                     "thumbTypeId": 5
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleAddName": "DriveAlign®",
+               "articleId": 1174074807,
+               "articleName": "Tendeur de courroie, courroie trapézoïdale à nervures",
+               "articleNo": "T38771",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "GATES",
+               "brandNo": 33,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 541,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "5400608471540"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "BMW",
+                     "oeNumber": "11287548848",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "BMW",
+                     "oeNumber": "11287571014",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "BMW",
+                     "oeNumber": "11287598833",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1204 48",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1204 53",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "CITROËN",
+                     "oeNumber": "1204 56",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1204 48",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1204 53",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1204 56",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "MINI",
+                     "oeNumber": "11287548848",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "MINI",
+                     "oeNumber": "11287571014",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "MINI",
+                     "oeNumber": "11287598833",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "7803-21771"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

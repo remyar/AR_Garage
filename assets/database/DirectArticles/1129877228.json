@@ -1,0 +1,144 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 573,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Type de boîtier",
+                     "attrType": "K",
+                     "attrValue": "avec boîtier",
+                     "attrValueId": 15469
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "TH61780-1_ANG_A.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150107421",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileName": "TH61780-2_TOP_A.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150107422",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileName": "TH61780-3_BOT_A.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150107423",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileTypeName": "URL",
+                     "docId": "1126995126803113",
+                     "docTypeId": 14,
+                     "docTypeName": "Mode d'emploi"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520150107421",
+                     "thumbFileName": "0033\\TH61780-1_ANG_A.JPG",
+                     "thumbTypeId": 5
+                  },
+                  {
+                     "thumbDocId": "845520150107422",
+                     "thumbFileName": "0033\\TH61780-2_TOP_A.JPG",
+                     "thumbTypeId": 5
+                  },
+                  {
+                     "thumbDocId": "845520150107423",
+                     "thumbFileName": "0033\\TH61780-3_BOT_A.JPG",
+                     "thumbTypeId": 5
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 1129877228,
+               "articleName": "Thermostat, liqiuide de refroidissement",
+               "articleNo": "TH61780",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "GATES",
+               "brandNo": 33,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 316,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "5400608470048"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "NISSAN",
+                     "oeNumber": "1106100Q1M",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "110617671R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "RENAULT",
+                     "oeNumber": "110618211R",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "7412-10786"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

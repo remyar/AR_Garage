@@ -1,0 +1,187 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 120,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Qualité",
+                     "attrShortName": "Qualité",
+                     "attrType": "A",
+                     "attrValue": "OE Performance",
+                     "attrValueId": 48961
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 468,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Matériel",
+                     "attrType": "K",
+                     "attrValue": "Caoutchouc",
+                     "attrValueId": 26930
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 439,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Type de fonctionnement",
+                     "attrType": "K",
+                     "attrValue": "manuel",
+                     "attrValueId": 22494
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 100,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Côté d'assemblage",
+                     "attrShortName": "Endroit d'assemblage",
+                     "attrType": "K",
+                     "attrValue": "arrière",
+                     "attrValueId": 57576
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 436,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Couleur",
+                     "attrType": "K",
+                     "attrValue": "noir",
+                     "attrValueId": 25314
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 683,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "poids [g]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "g",
+                     "attrValue": "36",
+                     "attrValueId": 7778
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 496,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre intérieur [mm]",
+                     "attrShortName": "Diamètre intérieur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "18",
+                     "attrValueId": 54319
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "AWS2341-1_ANG_A.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150098513",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520150098513",
+                     "thumbFileName": "0033\\AWS2341-1_ANG_A.JPG",
+                     "thumbTypeId": 5
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 1217494207,
+               "articleName": "Suspension, stabilisateur",
+               "articleNo": "AWS2341",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "GATES",
+               "brandNo": 33,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 1334,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1,
+               "quantityPerPackingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "5400608504620"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "FIAT",
+                     "oeNumber": "71740113",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "OPEL",
+                     "oeNumber": "444161",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "SAAB",
+                     "oeNumber": "24457386",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "7446-12341"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

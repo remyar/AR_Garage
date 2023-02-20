@@ -1,0 +1,156 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 3428,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Profondeur de filet [mm]",
+                     "attrShortName": "Profondeur de filet",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "80",
+                     "attrValueId": 64337
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 3427,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Largeur de filet [mm]",
+                     "attrShortName": "Largeur de filet",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "282",
+                     "attrValueId": 54375
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 3426,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Longueur de filet [mm]",
+                     "attrShortName": "Longueur de filet",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "218",
+                     "attrValueId": 34158
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 916,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Ø admission [mm]",
+                     "attrShortName": "Ø admiss°",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "61",
+                     "attrValueId": 15513
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 917,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Ø Sortie [mm]",
+                     "attrShortName": "Ø sortie",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "56",
+                     "attrValueId": 47853
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 836,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Article complémentaire / Info complémentaire 2",
+                     "attrType": "K",
+                     "attrValue": "sans capteur",
+                     "attrValueId": 26830
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "3,16",
+                     "attrValueId": 52203
+                  }
+               ]
+            },
+            "articleDocuments": "",
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": "",
+            "directArticle": {
+               "articleId": 1200439685,
+               "articleName": "Intercooler, échangeur",
+               "articleNo": "818316",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 468,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": false,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276428183169"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "144962803R",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

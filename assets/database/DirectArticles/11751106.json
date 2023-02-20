@@ -1,0 +1,150 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 437,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Type de lampe",
+                     "attrType": "K",
+                     "attrValue": "R2 (Bilux)",
+                     "attrValueId": 10483
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 6,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Voltage [V]",
+                     "attrShortName": "Volt",
+                     "attrType": "N",
+                     "attrUnit": "V",
+                     "attrValue": "12",
+                     "attrValueId": 33527
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 53,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Capacité nominale [W]",
+                     "attrShortName": "Capacité nominale",
+                     "attrType": "A",
+                     "attrUnit": "W",
+                     "attrValue": "45/40",
+                     "attrValueId": 64802
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 4120,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Type de culot de l’ampoule",
+                     "attrShortName": "Type de culot de l’ampoule",
+                     "attrType": "K",
+                     "attrValue": "P45t-41",
+                     "attrValueId": 53947
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "R2_STD.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148908646",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "R2 BASE.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148908645",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148908646",
+                     "thumbFileName": "0021\\R2_STD.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148908645",
+                     "thumbFileName": "0021\\R2 BASE.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleAddName": "ESSENTIAL",
+               "articleId": 11751106,
+               "articleName": "Ampoule, projecteur longue portée",
+               "articleNo": "032001",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": true,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 106,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": false,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276420320012"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": "",
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "32001"
+                  },
+                  {
+                     "usageNumber": "HR2"
+                  },
+                  {
+                     "usageNumber": "R2"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,168 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 437,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Type de lampe",
+                     "attrType": "K",
+                     "attrValue": "P21/4W",
+                     "attrValueId": 38746
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 6,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Voltage [V]",
+                     "attrShortName": "Volt",
+                     "attrType": "N",
+                     "attrUnit": "V",
+                     "attrValue": "12",
+                     "attrValueId": 33527
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 53,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Capacité nominale [W]",
+                     "attrShortName": "Capacité nominale",
+                     "attrType": "A",
+                     "attrUnit": "W",
+                     "attrValue": "21/4",
+                     "attrValueId": 4703
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 4120,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Type de culot de l’ampoule",
+                     "attrShortName": "Type de culot de l’ampoule",
+                     "attrType": "K",
+                     "attrValue": "BAZ15d",
+                     "attrValueId": 9659
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "P21_4W_STD.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148908634",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "P21_4W.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148908633",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "P21_4W BASE.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148908632",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": {
+               "array": [
+                  {
+                     "infoId": 34918,
+                     "infoText": "Pour respecter l'équilibre de l'intensité<br>lumineuse émise par les 2 feux,<br>changez vos lampes par paire.",
+                     "infoType": 2,
+                     "infoTypeName": "Informations générales"
+                  }
+               ]
+            },
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148908634",
+                     "thumbFileName": "0021\\P21_4W_STD.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148908633",
+                     "thumbFileName": "0021\\P21_4W.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148908632",
+                     "thumbFileName": "0021\\P21_4W BASE.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleAddName": "ESSENTIAL",
+               "articleId": 11755943,
+               "articleName": "Ampoule, feu de brouillard arrière",
+               "articleNo": "032105",
+               "articleState": 9,
+               "articleStateName": "N'est plus livrable par le fabricant",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": true,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 113,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": false,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276420321057"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": "",
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "32105"
+                  },
+                  {
+                     "usageNumber": "P21/4W"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

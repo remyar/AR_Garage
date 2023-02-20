@@ -1,0 +1,179 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1282,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Nombre de gorges",
+                     "attrShortName": "Nombre de gorges",
+                     "attrType": "N",
+                     "attrValue": "5",
+                     "attrValueId": 58340
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 497,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre extérieur [mm]",
+                     "attrShortName": "Diamètre extérieur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "54",
+                     "attrValueId": 6825
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 496,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre intérieur [mm]",
+                     "attrShortName": "Diamètre intérieur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "17",
+                     "attrValueId": 28430
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 206,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Largeur [mm]",
+                     "attrShortName": "Largeur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "42",
+                     "attrValueId": 24680
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "OAP7290-1_ANG_A.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150102976",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileName": "OAP7290-2_FRO_A.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150102977",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileName": "OAP7290-3_BAC_A.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150102978",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520150102976",
+                     "thumbFileName": "0033\\OAP7290-1_ANG_A.JPG",
+                     "thumbTypeId": 5
+                  },
+                  {
+                     "thumbDocId": "845520150102977",
+                     "thumbFileName": "0033\\OAP7290-2_FRO_A.JPG",
+                     "thumbTypeId": 5
+                  },
+                  {
+                     "thumbDocId": "845520150102978",
+                     "thumbFileName": "0033\\OAP7290-3_BAC_A.JPG",
+                     "thumbTypeId": 5
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleAddName": "DriveAlign®",
+               "articleId": 1022119272,
+               "articleName": "Poulie roue libre, alternateur",
+               "articleNo": "OAP7290",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "GATES",
+               "brandNo": 33,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 1390,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "5400608375800"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "FIAT",
+                     "oeNumber": "51808560",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "FIAT",
+                     "oeNumber": "51884239",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "FIAT",
+                     "oeNumber": "51931432",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "7789-10290"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

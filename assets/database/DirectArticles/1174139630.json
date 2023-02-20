@@ -1,0 +1,552 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 100,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Côté d'assemblage",
+                     "attrShortName": "Endroit d'assemblage",
+                     "attrType": "K",
+                     "attrValue": "devant le catalyseur",
+                     "attrValueId": 42767
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 933,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Sonde lambda",
+                     "attrType": "K",
+                     "attrValue": "Sonde planaire",
+                     "attrValueId": 1380
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 933,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Sonde lambda",
+                     "attrType": "K",
+                     "attrValue": "Sonde lambda à large bande",
+                     "attrValueId": 45296
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 636,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Nombres de pôles",
+                     "attrType": "N",
+                     "attrUnit": "pôle",
+                     "attrValue": "6",
+                     "attrValueId": 8097
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 526,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Longueur de câble [mm]",
+                     "attrShortName": "Longueur de câble",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "350",
+                     "attrValueId": 60328
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 933,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Sonde lambda",
+                     "attrType": "K",
+                     "attrValue": "Filetage prégraissé",
+                     "attrValueId": 3942
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 289,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Filetage",
+                     "attrShortName": "Filetage",
+                     "attrType": "A",
+                     "attrValue": "M18x1,5",
+                     "attrValueId": 36379
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 420,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Pression du contacteur [bar]",
+                     "attrShortName": "Pression du contacteur",
+                     "attrType": "N",
+                     "attrUnit": "bar",
+                     "attrValue": "4",
+                     "attrValueId": 27855
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 933,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Sonde lambda",
+                     "attrType": "K",
+                     "attrValue": "chauffé",
+                     "attrValueId": 18103
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,14",
+                     "attrValueId": 42801
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "LAMBDA SENSOR_368418_01.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148959536",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "LAMBDA SENSOR_368418_02.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148959537",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148959536",
+                     "thumbFileName": "0021\\LAMBDA SENSOR_368418_01.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148959537",
+                     "thumbFileName": "0021\\LAMBDA SENSOR_368418_02.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 1174139630,
+               "articleName": "Sonde lambda",
+               "articleNo": "368418",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 3922,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276423684180"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "ALFA ROMEO",
+                     "oeNumber": "55199542",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "ALFA ROMEO",
+                     "oeNumber": "55260358",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "ALFA ROMEO",
+                     "oeNumber": "55275929",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "AUDI",
+                     "oeNumber": "07L906262J",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "AUDI",
+                     "oeNumber": "7L906262J",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "FIAT",
+                     "oeNumber": "55199542",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "FIAT",
+                     "oeNumber": "55260358",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "FIAT",
+                     "oeNumber": "55275929",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "FORD",
+                     "oeNumber": "1876257",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "FORD",
+                     "oeNumber": "FV4A-9Y460-AA",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "FORD",
+                     "oeNumber": "FV4A9Y460AA",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "HONDA",
+                     "oeNumber": "36531-RL0-G01",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "HONDA",
+                     "oeNumber": "36531-RL0-G02",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "HONDA",
+                     "oeNumber": "36531-RZ0-G01",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "HONDA",
+                     "oeNumber": "36531-RZ0-G02",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "HONDA",
+                     "oeNumber": "36531RL0G01",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "HONDA",
+                     "oeNumber": "36531RL0G02",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "HONDA",
+                     "oeNumber": "36531RZ0G01",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 8,
+                     "brandName": "HONDA",
+                     "oeNumber": "36531RZ0G02",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "NISSAN",
+                     "oeNumber": "22690-00Q0L",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "NISSAN",
+                     "oeNumber": "22690-00Q0M",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "NISSAN",
+                     "oeNumber": "22690-00Q0N",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "NISSAN",
+                     "oeNumber": "2269000Q0L",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "NISSAN",
+                     "oeNumber": "2269000Q0M",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "NISSAN",
+                     "oeNumber": "2269000Q0N",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "OPEL",
+                     "oeNumber": "4406915",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "OPEL",
+                     "oeNumber": "4407994",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "OPEL",
+                     "oeNumber": "4420750",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "PORSCHE",
+                     "oeNumber": "955 606 129 30",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "PORSCHE",
+                     "oeNumber": "95560612930",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "226A42455R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "RENAULT",
+                     "oeNumber": "226A49071R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8201028297",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "VAUXHALL",
+                     "oeNumber": "93168458",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "VAUXHALL",
+                     "oeNumber": "95515562",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "VAUXHALL",
+                     "oeNumber": "95517837",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "HYUNDAI",
+                     "oeNumber": "39210-2B470",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "HYUNDAI",
+                     "oeNumber": "39210-2E100",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "HYUNDAI",
+                     "oeNumber": "39210-2E101",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "HYUNDAI",
+                     "oeNumber": "392102B470",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "HYUNDAI",
+                     "oeNumber": "392102E100",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "HYUNDAI",
+                     "oeNumber": "392102E101",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "HYUNDAI",
+                     "oeNumber": "39350-2F900",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 8,
+                     "brandName": "HYUNDAI",
+                     "oeNumber": "39350-4A410",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 9,
+                     "brandName": "HYUNDAI",
+                     "oeNumber": "393502F900",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 10,
+                     "brandName": "HYUNDAI",
+                     "oeNumber": "393504A410",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "KIA",
+                     "oeNumber": "39210-2B470",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "KIA",
+                     "oeNumber": "39210-2E100",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "KIA",
+                     "oeNumber": "39210-2E101",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "KIA",
+                     "oeNumber": "392102B470",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "KIA",
+                     "oeNumber": "392102E100",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "KIA",
+                     "oeNumber": "392102E101",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "KIA",
+                     "oeNumber": "39350-2F900",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 8,
+                     "brandName": "KIA",
+                     "oeNumber": "39350-4A410",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 9,
+                     "brandName": "KIA",
+                     "oeNumber": "393502F900",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 10,
+                     "brandName": "KIA",
+                     "oeNumber": "393504A410",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "JEEP",
+                     "oeNumber": "55275929",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

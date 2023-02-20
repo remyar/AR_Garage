@@ -1,0 +1,167 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 437,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Type de lampe",
+                     "attrType": "K",
+                     "attrValue": "W5W",
+                     "attrValueId": 36995
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 6,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Voltage [V]",
+                     "attrShortName": "Volt",
+                     "attrType": "N",
+                     "attrUnit": "V",
+                     "attrValue": "12",
+                     "attrValueId": 33527
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 53,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Capacité nominale [W]",
+                     "attrShortName": "Capacité nominale",
+                     "attrType": "A",
+                     "attrUnit": "W",
+                     "attrValue": "5",
+                     "attrValueId": 48943
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 4120,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Type de culot de l’ampoule",
+                     "attrShortName": "Type de culot de l’ampoule",
+                     "attrType": "K",
+                     "attrValue": "W2.1x9.5d",
+                     "attrValueId": 19930
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 677,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Type d'emballage",
+                     "attrType": "K",
+                     "attrValue": "Emballage en blister",
+                     "attrValueId": 10372
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 563,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Quantité",
+                     "attrShortName": "Quantité",
+                     "attrType": "A",
+                     "attrValue": "2",
+                     "attrValueId": 58269
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "W5W_BLUE.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148908662",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": {
+               "array": [
+                  {
+                     "infoId": 28509,
+                     "infoText": "Lumière blanche bleutée, effet Xénon, pour plus de confort",
+                     "infoType": 2,
+                     "infoTypeName": "Informations générales"
+                  }
+               ]
+            },
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148908662",
+                     "thumbFileName": "0021\\W5W_BLUE.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleAddName": "BLUE EFFECT",
+               "articleId": 11837751,
+               "articleName": "Ampoule, éclairage de la boîte à gants",
+               "articleNo": "032118",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": true,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": true,
+               "genericArticleId": 3002,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": false,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276420321187"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": "",
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "32118"
+                  },
+                  {
+                     "usageNumber": "W5W"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

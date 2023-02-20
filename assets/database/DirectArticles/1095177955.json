@@ -1,0 +1,316 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 591,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Echange standard",
+                     "attrShortName": "Échange standard",
+                     "attrType": "V",
+                     "attrValueId": 28599
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 565,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Équipement véhicule",
+                     "attrType": "K",
+                     "attrValue": "pour véhicules avec fonction Stop/Start",
+                     "attrValueId": 58114
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 6,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Voltage [V]",
+                     "attrShortName": "Volt",
+                     "attrType": "N",
+                     "attrUnit": "V",
+                     "attrValue": "14",
+                     "attrValueId": 35819
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 67,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Courant de charge de l'alternateur (A)",
+                     "attrShortName": "Courant de charge de l'alternateur",
+                     "attrType": "N",
+                     "attrUnit": "A",
+                     "attrValue": "180",
+                     "attrValueId": 16747
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 545,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Type de fixation",
+                     "attrType": "K",
+                     "attrValue": "Fixation en quatre points",
+                     "attrValueId": 13774
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 544,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Position/degré",
+                     "attrShortName": "Position/degré",
+                     "attrType": "A",
+                     "attrUnit": "°",
+                     "attrValue": "L 80",
+                     "attrValueId": 15347
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 609,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Sens de rotation",
+                     "attrType": "K",
+                     "attrValue": "Rotation dans le sens des aiguilles d'une montre",
+                     "attrValueId": 25693
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 572,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poulies",
+                     "attrType": "K",
+                     "attrValue": "avec poulie",
+                     "attrValueId": 11380
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 572,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poulies",
+                     "attrType": "K",
+                     "attrValue": "avec poulie à gorge",
+                     "attrValueId": 1581
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 490,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Nombre de stries",
+                     "attrShortName": "Nombre de gorges",
+                     "attrType": "N",
+                     "attrValue": "6",
+                     "attrValueId": 6529
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 546,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poulie pour courroies - Ø [mm]",
+                     "attrShortName": "Poulies-Ø",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "53",
+                     "attrValueId": 1344
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 610,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Connexion/pince",
+                     "attrType": "K",
+                     "attrValue": "sans raccord pour compte-tours",
+                     "attrValueId": 24311
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1106,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Espace entre les trous de fixation [mm]",
+                     "attrShortName": "Distances entre les trous de fixation",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "248",
+                     "attrValueId": 8090
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "9,11",
+                     "attrValueId": 47046
+                  }
+               ]
+            },
+            "articleDocuments": "",
+            "articleInfo": {
+               "array": [
+                  {
+                     "infoId": 42544,
+                     "infoText": "Afin de choisir la référence adéquate, merci de vérifier<br>l'ampérage et le code technique de l'alternateur monté sur<br>le véhicule.",
+                     "infoType": 2,
+                     "infoTypeName": "Informations générales"
+                  }
+               ]
+            },
+            "articlePrices": "",
+            "articleThumbnails": "",
+            "directArticle": {
+               "articleAddName": "VALEO RE-GEN REMANUFACTURED STOP&START",
+               "articleId": 1095177955,
+               "articleName": "Alternateur",
+               "articleNo": "440999",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": true,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 4,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": false,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276424409997"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CITROËN",
+                     "oeNumber": "5705-NS",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "CITROËN",
+                     "oeNumber": "5705-PA",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "CITROËN",
+                     "oeNumber": "5705NS",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "CITROËN",
+                     "oeNumber": "5705PA",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "CITROËN",
+                     "oeNumber": "9674646180",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "CITROËN",
+                     "oeNumber": "9675753780",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "5705-PA",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "5705PA",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "9674646180",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "9808795880",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "9808807980",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CITROËN/PEUGEOT",
+                     "oeNumber": "37VE50",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "CITROËN/PEUGEOT",
+                     "oeNumber": "9675753680",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

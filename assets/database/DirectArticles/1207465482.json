@@ -1,0 +1,177 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 468,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Matériel",
+                     "attrType": "K",
+                     "attrValue": "Polyester",
+                     "attrValueId": 44339
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 468,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Matériel",
+                     "attrType": "K",
+                     "attrValue": "Néoprène (polychloroprène)",
+                     "attrValueId": 1337
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 436,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Couleur",
+                     "attrType": "K",
+                     "attrValue": "noir",
+                     "attrValueId": 25314
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 206,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Largeur [mm]",
+                     "attrShortName": "Largeur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "13",
+                     "attrValueId": 16521
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 203,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Longueur [mm]",
+                     "attrShortName": "Longueur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "720",
+                     "attrValueId": 52713
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "V13X-1_FRO_R.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150096819",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileName": "V13X-2_ANG_R.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150096820",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileTypeName": "URL",
+                     "docId": "1126995126807253",
+                     "docTypeId": 14,
+                     "docTypeName": "Mode d'emploi"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520150096819",
+                     "thumbFileName": "0033\\V13X-1_FRO_R.JPG",
+                     "thumbTypeId": 5
+                  },
+                  {
+                     "thumbDocId": "845520150096820",
+                     "thumbFileName": "0033\\V13X-2_ANG_R.JPG",
+                     "thumbTypeId": 5
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 1207465482,
+               "articleName": "Courroie trapézoïdale",
+               "articleNo": "A27MN",
+               "articleState": 8,
+               "articleStateName": "Livrable jusqu'à épuisement",
+               "brandName": "GATES",
+               "brandNo": 33,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 10,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "5412571054750"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "MAZDA",
+                     "oeNumber": "UC87-32-605",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7700267430",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "13 x 720Lp"
+                  },
+                  {
+                     "usageNumber": "9016-10027"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

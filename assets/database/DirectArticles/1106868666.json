@@ -1,0 +1,254 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 564,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Véhicule avec direction à gauche ou à droite",
+                     "attrType": "K",
+                     "attrValue": "pour véhicules avec direction à gauche",
+                     "attrValueId": 7497
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 716,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Type de réseau de bord",
+                     "attrType": "K",
+                     "attrValue": "pour véhicules avec réseau de bord de 12V",
+                     "attrValueId": 17015
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 100,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Côté d'assemblage",
+                     "attrShortName": "Endroit d'assemblage",
+                     "attrType": "K",
+                     "attrValue": "avant",
+                     "attrValueId": 23052
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 2234,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Puissance [W]",
+                     "attrShortName": "Puissance",
+                     "attrType": "N",
+                     "attrUnit": "W",
+                     "attrValue": "189",
+                     "attrValueId": 40371
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 636,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Nombres de pôles",
+                     "attrType": "N",
+                     "attrUnit": "pôle",
+                     "attrValue": "2",
+                     "attrValueId": 25971
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 200,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre [mm]",
+                     "attrShortName": "Ø",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "144",
+                     "attrValueId": 25957
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 596,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Article complémentaire/Info complémentaire",
+                     "attrType": "K",
+                     "attrValue": "sans régulateur intégré",
+                     "attrValueId": 32190
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 2186,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Vitesse de rotation [tours/min]",
+                     "attrShortName": "Vitesse de rotation",
+                     "attrType": "N",
+                     "attrUnit": "1/min",
+                     "attrValue": "3278",
+                     "attrValueId": 60342
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "1,422",
+                     "attrValueId": 36569
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "VENTILATION BLOWER_884554_01.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148955478",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "VENTILATION BLOWER_884554_02.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148955479",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148955478",
+                     "thumbFileName": "0021\\VENTILATION BLOWER_884554_01.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148955479",
+                     "thumbFileName": "0021\\VENTILATION BLOWER_884554_02.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 1106868666,
+               "articleName": "Pulseur d'air habitacle",
+               "articleNo": "884554",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 2669,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276428845548"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "FIAT",
+                     "oeNumber": "71743150",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "SUZUKI",
+                     "oeNumber": "74150-62JA0",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "SUZUKI",
+                     "oeNumber": "7415062JA0",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "TOYOTA",
+                     "oeNumber": "87103-0D100",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "TOYOTA",
+                     "oeNumber": "87103-0D101",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "TOYOTA",
+                     "oeNumber": "87103-52141",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "TOYOTA",
+                     "oeNumber": "871030D100",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "TOYOTA",
+                     "oeNumber": "871030D101",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "TOYOTA",
+                     "oeNumber": "8710352141",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}
