@@ -1,0 +1,119 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 3428,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Profondeur de filet [mm]",
+                     "attrShortName": "Profondeur de filet",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "24",
+                     "attrValueId": 23581
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 3427,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Largeur de filet [mm]",
+                     "attrShortName": "Largeur de filet",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "370",
+                     "attrValueId": 57759
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 3426,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Longueur de filet [mm]",
+                     "attrShortName": "Longueur de filet",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "520",
+                     "attrValueId": 33291
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "3,11",
+                     "attrValueId": 60335
+                  }
+               ]
+            },
+            "articleDocuments": "",
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": "",
+            "directArticle": {
+               "articleId": 13936291,
+               "articleName": "Radiateur, refroidissement du moteur",
+               "articleNo": "735296",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 470,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": false,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276427352962"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "FIAT",
+                     "oeNumber": "46826678",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

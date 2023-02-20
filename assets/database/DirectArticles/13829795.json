@@ -1,0 +1,123 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 2234,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Puissance [W]",
+                     "attrShortName": "Puissance",
+                     "attrType": "N",
+                     "attrUnit": "W",
+                     "attrValue": "250",
+                     "attrValueId": 25556
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "1,908",
+                     "attrValueId": 64722
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "BLOWER_715233_01.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148923843",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "BLOWER_715233_02.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148923844",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148923843",
+                     "thumbFileName": "0021\\BLOWER_715233_01.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148923844",
+                     "thumbFileName": "0021\\BLOWER_715233_02.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 13829795,
+               "articleName": "Pulseur d'air habitacle",
+               "articleNo": "715233",
+               "articleState": 8,
+               "articleStateName": "Livrable jusqu'à épuisement",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 2669,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276427152333"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7701051270",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

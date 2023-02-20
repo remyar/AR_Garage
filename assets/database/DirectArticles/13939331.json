@@ -1,0 +1,122 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 436,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Couleur",
+                     "attrType": "K",
+                     "attrValue": "chrome",
+                     "attrValueId": 11560
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 836,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Article complémentaire / Info complémentaire 2",
+                     "attrType": "K",
+                     "attrValue": "avec soupape de reniflard",
+                     "attrValueId": 62227
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 600,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Verrouillage",
+                     "attrType": "K",
+                     "attrValue": "avec clé",
+                     "attrValueId": 54857
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,39",
+                     "attrValueId": 9683
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "745389_01.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148916401",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148916401",
+                     "thumbFileName": "0021\\745389_01.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 13939331,
+               "articleName": "Bouchon, réservoir de carburant",
+               "articleNo": "745389",
+               "articleState": 9,
+               "articleStateName": "N'est plus livrable par le fabricant",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 602,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": false,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276427453898"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": "",
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

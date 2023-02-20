@@ -1,0 +1,116 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 100,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Côté d'assemblage",
+                     "attrShortName": "Endroit d'assemblage",
+                     "attrType": "K",
+                     "attrValue": "avant",
+                     "attrValueId": 23052
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,17",
+                     "attrValueId": 5015
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "509221.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148895238",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148895238",
+                     "thumbFileName": "0021\\509221.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 13180107,
+               "articleName": "Élément d'ajustage, clapet de mélange",
+               "articleNo": "509221",
+               "articleState": 9,
+               "articleStateName": "N'est plus livrable par le fabricant",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 2085,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276425092211"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "6447-58",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "644758",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

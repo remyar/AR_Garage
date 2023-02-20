@@ -1,0 +1,122 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,03",
+                     "attrValueId": 10220
+                  }
+               ]
+            },
+            "articleDocuments": "",
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": "",
+            "directArticle": {
+               "articleId": 1253870782,
+               "articleName": "Capteur, position d'arbre à cames",
+               "articleNo": "366530",
+               "articleState": 0,
+               "articleStateName": "En préparation",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 3946,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": false,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276423665301"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "NISSAN",
+                     "oeNumber": "23731-JA11A",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "NISSAN",
+                     "oeNumber": "23731-JA11B",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "NISSAN",
+                     "oeNumber": "23731JA11A",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "NISSAN",
+                     "oeNumber": "23731JA11B",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "23731-JA11B",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "RENAULT",
+                     "oeNumber": "23731JA11B",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "INFINITI",
+                     "oeNumber": "23731-JA11B",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "INFINITI",
+                     "oeNumber": "23731JA11B",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

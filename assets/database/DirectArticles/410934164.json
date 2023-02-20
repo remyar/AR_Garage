@@ -1,0 +1,127 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 115,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Température initiale [°C]",
+                     "attrShortName": "Température d'ouverture",
+                     "attrType": "N",
+                     "attrUnit": "°C",
+                     "attrValue": "89",
+                     "attrValueId": 15535
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 573,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Type de boîtier",
+                     "attrType": "K",
+                     "attrValue": "avec boîtier",
+                     "attrValueId": 38747
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 836,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Article complémentaire / Info complémentaire 2",
+                     "attrType": "K",
+                     "attrValue": "avec sonde de température du moteur",
+                     "attrValueId": 5891
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,23",
+                     "attrValueId": 33648
+                  }
+               ]
+            },
+            "articleDocuments": "",
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": "",
+            "directArticle": {
+               "articleId": 410934164,
+               "articleName": "Thermostat, liqiuide de refroidissement",
+               "articleNo": "819713",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 316,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": false,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276428197135"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "110603046R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "RENAULT",
+                     "oeNumber": "110608876R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200954289",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

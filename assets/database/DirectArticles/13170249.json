@@ -1,0 +1,122 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1295,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Réfrigérant",
+                     "attrShortName": "Réfrigérant",
+                     "attrType": "K",
+                     "attrValue": "R 134a",
+                     "attrValueId": 64273
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,245",
+                     "attrValueId": 36843
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "508651.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148895059",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148895059",
+                     "thumbFileName": "0021\\508651.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 13170249,
+               "articleName": "Détendeur, climatisation",
+               "articleNo": "508651",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 183,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276425086517"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CITROËN",
+                     "oeNumber": "6461-F6",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "CITROËN",
+                     "oeNumber": "6461F6",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7701044164",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,122 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,05",
+                     "attrValueId": 6498
+                  }
+               ]
+            },
+            "articleDocuments": "",
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": "",
+            "directArticle": {
+               "articleId": 1253873774,
+               "articleName": "Capteur d'angle, vilebrequin",
+               "articleNo": "366597",
+               "articleState": 0,
+               "articleStateName": "En préparation",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 833,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": false,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276423665974"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "NISSAN",
+                     "oeNumber": "23750-00QAC",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "NISSAN",
+                     "oeNumber": "2375000QAC",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "OPEL",
+                     "oeNumber": "4400457",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "23750-00QAC",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "RENAULT",
+                     "oeNumber": "2375000QAC",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7700863523",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "VAUXHALL",
+                     "oeNumber": "9108457",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "GENERAL MOTORS",
+                     "oeNumber": "9108457",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

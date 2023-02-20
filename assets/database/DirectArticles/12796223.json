@@ -1,0 +1,122 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 122,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Montage d'origine",
+                     "attrShortName": "pour fabricant",
+                     "attrType": "A",
+                     "attrValue": "NEIMAN",
+                     "attrValueId": 29168
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,384",
+                     "attrValueId": 42882
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "252025.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148894196",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148894196",
+                     "thumbFileName": "0021\\252025.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 12796223,
+               "articleName": "Fermeture-volant",
+               "articleNo": "252025",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 1367,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276422520250"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "4162-40",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "416240",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "BA032"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

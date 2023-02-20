@@ -1,0 +1,128 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "2,11",
+                     "attrValueId": 38144
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "VALEO_EFAP_817757_02.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148920513",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "VALEO_EFAP_817757_03.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148920514",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148920513",
+                     "thumbFileName": "0021\\VALEO_EFAP_817757_02.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148920514",
+                     "thumbFileName": "0021\\VALEO_EFAP_817757_03.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 14207271,
+               "articleName": "Flasque chauffante, préchauffement d'air d'admission",
+               "articleNo": "817757",
+               "articleState": 9,
+               "articleStateName": "N'est plus livrable par le fabricant",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 3915,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276428177571"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CITROËN",
+                     "oeNumber": "0384-F8",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "CITROËN",
+                     "oeNumber": "384F8",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "0384-F8",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "384F8",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,115 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 596,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Article complémentaire/Info complémentaire",
+                     "attrType": "K",
+                     "attrValue": "avec support",
+                     "attrValueId": 867
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "8,764",
+                     "attrValueId": 36217
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "698482.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148895796",
+                     "docTypeId": 3,
+                     "docTypeName": "Dessin technique"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148895796",
+                     "thumbFileName": "0021\\698482.JPG",
+                     "thumbTypeId": 3
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 206663344,
+               "articleName": "Ventilateur, refroidissement du moteur",
+               "articleNo": "698482",
+               "articleState": 8,
+               "articleStateName": "Livrable jusqu'à épuisement",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 508,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276426984829"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "FIAT",
+                     "oeNumber": "46551506",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "GM005"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

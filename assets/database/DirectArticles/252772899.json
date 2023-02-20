@@ -1,0 +1,116 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 596,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Article complémentaire/Info complémentaire",
+                     "attrType": "K",
+                     "attrValue": "sans joint d'étanchéite",
+                     "attrValueId": 35171
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 596,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Article complémentaire/Info complémentaire",
+                     "attrType": "K",
+                     "attrValue": "avec joints",
+                     "attrValueId": 34342
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,84",
+                     "attrValueId": 11564
+                  }
+               ]
+            },
+            "articleDocuments": "",
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": "",
+            "directArticle": {
+               "articleId": 252772899,
+               "articleName": "Pompe à eau, refroidissement du moteur",
+               "articleNo": "506055",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 1260,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": false,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276425060555"
+                  }
+               ]
+            },
+            "mainArticle": {
+               "array": [
+                  {
+                     "articleId": 378635161,
+                     "articleName": "Pompe à eau + kit de courroie de distribution",
+                     "articleNumber": "614703"
+                  }
+               ]
+            },
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "210109189R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7701478925",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

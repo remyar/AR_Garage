@@ -1,0 +1,130 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 2234,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Puissance [W]",
+                     "attrShortName": "Puissance",
+                     "attrType": "N",
+                     "attrUnit": "W",
+                     "attrValue": "250",
+                     "attrValueId": 25556
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "1,21",
+                     "attrValueId": 46515
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "715056.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148896350",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148896350",
+                     "thumbFileName": "0021\\715056.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 13827641,
+               "articleName": "Pulseur d'air habitacle",
+               "articleNo": "715056",
+               "articleState": 9,
+               "articleStateName": "N'est plus livrable par le fabricant",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 2669,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276427150568"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7701062225",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7701062226",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": {
+               "array": [
+                  {
+                     "replaceArticleId": 1225919779,
+                     "replaceNumber": "884631"
+                  }
+               ]
+            },
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "N103992Q"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

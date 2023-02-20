@@ -1,0 +1,129 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 122,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Montage d'origine",
+                     "attrShortName": "pour fabricant",
+                     "attrType": "A",
+                     "attrValue": "BOSCH",
+                     "attrValueId": 54656
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,022",
+                     "attrValueId": 469
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "ROTOR B4528.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148906352",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148906352",
+                     "thumbFileName": "0021\\ROTOR B4528.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 12552774,
+               "articleName": "Doigt allumeur",
+               "articleNo": "120225",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 691,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276421202256"
+                  }
+               ]
+            },
+            "mainArticle": {
+               "array": [
+                  {
+                     "articleId": 267362737,
+                     "articleName": "Kit de réparation, distributeur d'allumage",
+                     "articleNumber": "120118"
+                  },
+                  {
+                     "articleId": 267368084,
+                     "articleName": "Kit de réparation, distributeur d'allumage",
+                     "articleNumber": "244641"
+                  }
+               ]
+            },
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "OPEL",
+                     "oeNumber": "1212213",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "B4528"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

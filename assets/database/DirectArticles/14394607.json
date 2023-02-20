@@ -1,0 +1,130 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 200,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre [mm]",
+                     "attrShortName": "Ø",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "280",
+                     "attrValueId": 47080
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 6,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Voltage [V]",
+                     "attrShortName": "Volt",
+                     "attrType": "N",
+                     "attrUnit": "V",
+                     "attrValue": "12",
+                     "attrValueId": 2892
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "2,42",
+                     "attrValueId": 59920
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "883556.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148902885",
+                     "docTypeId": 3,
+                     "docTypeName": "Dessin technique"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148902885",
+                     "thumbFileName": "0021\\883556.JPG",
+                     "thumbTypeId": 3
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 14394607,
+               "articleName": "Ventilateur, refroidissement du moteur",
+               "articleNo": "883556",
+               "articleState": 9,
+               "articleStateName": "N'est plus livrable par le fabricant",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 508,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276428835563"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "6455-J2",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "6455J2",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

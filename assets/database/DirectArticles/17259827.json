@@ -1,0 +1,124 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 497,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre extérieur [mm]",
+                     "attrShortName": "Diamètre extérieur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "70",
+                     "attrValueId": 26606
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 206,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Largeur [mm]",
+                     "attrShortName": "Largeur",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "15,5",
+                     "attrValueId": 4695
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "T36043.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150103566",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileTypeName": "URL",
+                     "docId": "1126995126807253",
+                     "docTypeId": 14,
+                     "docTypeName": "Mode d'emploi"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520150103566",
+                     "thumbFileName": "0033\\T36043.JPG",
+                     "thumbTypeId": 5
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleAddName": "DriveAlign®",
+               "articleId": 17259827,
+               "articleName": "Poulie-tendeur, courroie trapézoïdale",
+               "articleNo": "T36043",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "GATES",
+               "brandNo": 33,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 2138,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "5414465209994"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7700858358",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "7803-21143"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,127 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 100,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Côté d'assemblage",
+                     "attrShortName": "Endroit d'assemblage",
+                     "attrType": "K",
+                     "attrValue": "Essieu arrière",
+                     "attrValueId": 25106
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 3788,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre du piston [mm]",
+                     "attrShortName": "Ø piston",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "22",
+                     "attrValueId": 7301
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,14",
+                     "attrValueId": 42801
+                  }
+               ]
+            },
+            "articleDocuments": "",
+            "articleInfo": {
+               "array": [
+                  {
+                     "infoId": 38841,
+                     "infoText": "1923-2023: 100 ans de freinage",
+                     "infoType": 2,
+                     "infoTypeName": "Informations générales"
+                  }
+               ]
+            },
+            "articlePrices": "",
+            "articleThumbnails": "",
+            "directArticle": {
+               "articleId": 346145697,
+               "articleName": "Cylindre de roue",
+               "articleNo": "400658",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 277,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": false,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276424006585"
+                  }
+               ]
+            },
+            "mainArticle": {
+               "array": [
+                  {
+                     "articleId": 994691966,
+                     "articleName": "Jeu de mâchoires de frein",
+                     "articleNumber": "554951"
+                  },
+                  {
+                     "articleId": 994692072,
+                     "articleName": "Jeu de mâchoires de frein",
+                     "articleNumber": "554988"
+                  }
+               ]
+            },
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "441000110R",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

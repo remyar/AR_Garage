@@ -1,0 +1,120 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 468,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Matériel",
+                     "attrType": "K",
+                     "attrValue": "Matière plastique",
+                     "attrValueId": 57084
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "ANTK1025.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150098069",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520150098069",
+                     "thumbFileName": "0033\\ANTK1025.JPG",
+                     "thumbTypeId": 5
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 771419103,
+               "articleName": "Flexible, alimentation en air",
+               "articleNo": "ANTK1025",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "GATES",
+               "brandNo": 33,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 3401,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "5400608334661"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "FIAT",
+                     "oeNumber": "51793174",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "FIAT",
+                     "oeNumber": "51798935",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "LANCIA",
+                     "oeNumber": "51793174",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "LANCIA",
+                     "oeNumber": "51798935",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "4301-01025"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

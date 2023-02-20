@@ -1,0 +1,128 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,61",
+                     "attrValueId": 14290
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "IGNITION_FUEL PUMP_347539_01.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148938862",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "IGNITION_FUEL PUMP_347539_02.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148945350",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148938862",
+                     "thumbFileName": "0021\\IGNITION_FUEL PUMP_347539_01.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148945350",
+                     "thumbFileName": "0021\\IGNITION_FUEL PUMP_347539_02.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 144757315,
+               "articleName": "Capteur, niveau de carburant",
+               "articleNo": "347539",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 605,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276423475399"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1525-WY",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "1525WY",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "96 703 291 80",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "PEUGEOT",
+                     "oeNumber": "9670329180",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

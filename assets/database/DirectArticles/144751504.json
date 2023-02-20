@@ -1,0 +1,120 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 100,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Côté d'assemblage",
+                     "attrShortName": "Endroit d'assemblage",
+                     "attrType": "K",
+                     "attrValue": "Portillon de remplissage",
+                     "attrValueId": 7745
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 439,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Type de fonctionnement",
+                     "attrType": "K",
+                     "attrValue": "électrique",
+                     "attrValueId": 27758
+                  }
+               ]
+            },
+            "articleDocuments": "",
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": "",
+            "directArticle": {
+               "articleId": 144751504,
+               "articleName": "Élément d'ajustage, verrouillage central",
+               "articleNo": "256982",
+               "articleState": 9,
+               "articleStateName": "N'est plus livrable par le fabricant",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 791,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": false,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276422569822"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "788260006R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "RENAULT",
+                     "oeNumber": "788262843R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "RENAULT",
+                     "oeNumber": "788264742R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "RENAULT",
+                     "oeNumber": "788265217R",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200312600",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200323532",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

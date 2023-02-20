@@ -1,0 +1,120 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 122,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Montage d'origine",
+                     "attrShortName": "pour fabricant",
+                     "attrType": "A",
+                     "attrValue": "BOSCH",
+                     "attrValueId": 54656
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,025",
+                     "attrValueId": 63350
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "ROTOR B934.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148906359",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148906359",
+                     "thumbFileName": "0021\\ROTOR B934.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 12866417,
+               "articleName": "Doigt allumeur",
+               "articleNo": "343934",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 691,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": false,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276421218172"
+                  }
+               ]
+            },
+            "mainArticle": {
+               "array": [
+                  {
+                     "articleId": 267366518,
+                     "articleName": "Kit de réparation, distributeur d'allumage",
+                     "articleNumber": "243162"
+                  },
+                  {
+                     "articleId": 267368091,
+                     "articleName": "Kit de réparation, distributeur d'allumage",
+                     "articleNumber": "244642"
+                  }
+               ]
+            },
+            "normalAustauschPrice": "",
+            "oenNumbers": "",
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "B934"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

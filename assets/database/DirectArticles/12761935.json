@@ -1,0 +1,123 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 122,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Montage d'origine",
+                     "attrShortName": "pour fabricant",
+                     "attrType": "A",
+                     "attrValue": "MAGNETI MARELLI",
+                     "attrValueId": 61158
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,117",
+                     "attrValueId": 6776
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "TETE HT M4045.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148906712",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148906712",
+                     "thumbFileName": "0021\\TETE HT M4045.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 12761935,
+               "articleName": "Tête d'allumeur",
+               "articleNo": "249042",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 692,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": false,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276422490423"
+                  }
+               ]
+            },
+            "mainArticle": {
+               "array": [
+                  {
+                     "articleId": 267366035,
+                     "articleName": "Kit de réparation, distributeur d'allumage",
+                     "articleNumber": "243143"
+                  },
+                  {
+                     "articleId": 267366602,
+                     "articleName": "Kit de réparation, distributeur d'allumage",
+                     "articleNumber": "243164"
+                  }
+               ]
+            },
+            "normalAustauschPrice": "",
+            "oenNumbers": "",
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "CB636"
+                  },
+                  {
+                     "usageNumber": "M4045"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

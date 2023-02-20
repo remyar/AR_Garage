@@ -1,0 +1,122 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": "",
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "K026PK1708.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150101247",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileTypeName": "URL",
+                     "docId": "1126995126807253",
+                     "docTypeId": 14,
+                     "docTypeName": "Mode d'emploi"
+                  },
+                  {
+                     "docFileTypeName": "URL",
+                     "docId": "1126995126807254",
+                     "docTypeId": 14,
+                     "docTypeName": "Mode d'emploi"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520150101247",
+                     "thumbFileName": "0033\\K026PK1708.JPG",
+                     "thumbTypeId": 5
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleAddName": "Micro-V® Kit",
+               "articleId": 17204501,
+               "articleName": "Jeu de courroies trapézoïdales à nervures",
+               "articleNo": "K026PK1708",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "GATES",
+               "brandNo": 33,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 542,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": true,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "5414465509544"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "CITROËN",
+                     "oeNumber": "16 138 444 80",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 1,
+                     "brandName": "FORD",
+                     "oeNumber": "2 110 245",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "FORD",
+                     "oeNumber": "ME2S61-6D361-AA",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "6PK1708"
+                  },
+                  {
+                     "usageNumber": "7884-20083"
+                  },
+                  {
+                     "usageNumber": "T36034"
+                  },
+                  {
+                     "usageNumber": "T38371"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

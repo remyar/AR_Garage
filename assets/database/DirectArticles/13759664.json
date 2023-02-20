@@ -1,0 +1,134 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "1,314",
+                     "attrValueId": 62984
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "698007.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148895644",
+                     "docTypeId": 3,
+                     "docTypeName": "Dessin technique"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148895644",
+                     "thumbFileName": "0021\\698007.JPG",
+                     "thumbTypeId": 3
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 13759664,
+               "articleName": "Moteur électrique, ventilateur pour radiateurs",
+               "articleNo": "698007",
+               "articleState": 9,
+               "articleStateName": "N'est plus livrable par le fabricant",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 792,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276426980074"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7700654604",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 2,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7700758428",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 3,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7700762623",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 4,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7700782480",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 5,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7700789732",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 6,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7701203127",
+                     "sortNumber": 1
+                  },
+                  {
+                     "blockNumber": 7,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7701349413",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,122 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 200,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Diamètre [mm]",
+                     "attrShortName": "Ø",
+                     "attrType": "N",
+                     "attrUnit": "mm",
+                     "attrValue": "385",
+                     "attrValueId": 61069
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 6,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Voltage [V]",
+                     "attrShortName": "Volt",
+                     "attrType": "N",
+                     "attrUnit": "V",
+                     "attrValue": "12",
+                     "attrValueId": 2892
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "3,93",
+                     "attrValueId": 5652
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "FANSYSTEM_696850_01.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148913418",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148913418",
+                     "thumbFileName": "0021\\FANSYSTEM_696850_01.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 13759579,
+               "articleName": "Ventilateur, refroidissement du moteur",
+               "articleNo": "696850",
+               "articleState": 8,
+               "articleStateName": "Livrable jusqu'à épuisement",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 508,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": false,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276426968508"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": "",
+            "replacedByNumber": {
+               "array": [
+                  {
+                     "replaceArticleId": 13756988,
+                     "replaceNumber": "696091"
+                  }
+               ]
+            },
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

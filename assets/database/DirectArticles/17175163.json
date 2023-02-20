@@ -1,0 +1,119 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 1361,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Référence de l'outil spécialisé recommandé",
+                     "attrShortName": "Référence des outils spéciaux recommandés",
+                     "attrType": "A",
+                     "attrValue": "STT-1",
+                     "attrValueId": 63369
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "K015030XS.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150100233",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileName": "5030XS.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520150097431",
+                     "docTypeId": 5,
+                     "docTypeName": "Illustration"
+                  },
+                  {
+                     "docFileTypeName": "URL",
+                     "docId": "1126995126810881",
+                     "docTypeId": 14,
+                     "docTypeName": "Mode d'emploi"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520150100233",
+                     "thumbFileName": "0033\\K015030XS.JPG",
+                     "thumbTypeId": 5
+                  },
+                  {
+                     "thumbDocId": "845520150097431",
+                     "thumbFileName": "0033\\5030XS.JPG",
+                     "thumbTypeId": 5
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleAddName": "PowerGrip®",
+               "articleId": 17175163,
+               "articleName": "Kit de distribution",
+               "articleNo": "K015030XS",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "GATES",
+               "brandNo": 33,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 307,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": false,
+               "hasPartList": true,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": true,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "5414465976094"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": "",
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": {
+               "array": [
+                  {
+                     "usageNumber": "5030XS"
+                  },
+                  {
+                     "usageNumber": "7883-11011"
+                  },
+                  {
+                     "usageNumber": "T41121"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,121 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 565,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Équipement véhicule",
+                     "attrType": "K",
+                     "attrValue": "pour véhicules avec système de climatisation",
+                     "attrValueId": 27414
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,17",
+                     "attrValueId": 5015
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "CONTROL_ELECTRONIC_515084_01.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148924136",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "CONTROL_ELECTRONIC_515084_02.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148924137",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148924136",
+                     "thumbFileName": "0021\\CONTROL_ELECTRONIC_515084_01.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148924137",
+                     "thumbFileName": "0021\\CONTROL_ELECTRONIC_515084_02.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 470609020,
+               "articleName": "Résistance, pulseur d'air habitacle",
+               "articleNo": "515084",
+               "articleState": 8,
+               "articleStateName": "Livrable jusqu'à épuisement",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 2975,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276425150843"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "7701046943",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,122 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,04",
+                     "attrValueId": 11432
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "SENSOR_OIL_PRESSURE_255104_01.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148926703",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "SENSOR_OIL_PRESSURE_255104_02.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148926704",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  },
+                  {
+                     "docFileName": "SENSOR_OIL_PRESSURE_255104_03.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148926705",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148926703",
+                     "thumbFileName": "0021\\SENSOR_OIL_PRESSURE_255104_01.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148926704",
+                     "thumbFileName": "0021\\SENSOR_OIL_PRESSURE_255104_02.JPG",
+                     "thumbTypeId": 1
+                  },
+                  {
+                     "thumbDocId": "845520148926705",
+                     "thumbFileName": "0021\\SENSOR_OIL_PRESSURE_255104_03.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 12803981,
+               "articleName": "Capteur, pression d'huile",
+               "articleNo": "255104",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 162,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276422551049"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "8200673257",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}

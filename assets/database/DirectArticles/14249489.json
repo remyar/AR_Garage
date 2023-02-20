@@ -1,0 +1,125 @@
+{
+   "data": {
+      "array": [
+         {
+            "articleAttributes": {
+               "array": [
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 2294,
+                     "attrIsConditional": false,
+                     "attrIsInterval": true,
+                     "attrIsLinked": false,
+                     "attrName": "Point de coupure jusqu'à [°C]",
+                     "attrShortName": "Point de coupure jusqu'à",
+                     "attrType": "N",
+                     "attrUnit": "°C",
+                     "attrValue": "82",
+                     "attrValueId": 8733
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 2293,
+                     "attrIsConditional": false,
+                     "attrIsInterval": true,
+                     "attrIsLinked": false,
+                     "attrName": "Point de communtation de [°C]",
+                     "attrShortName": "Point de coupure de",
+                     "attrSuccessorId": 2294,
+                     "attrType": "N",
+                     "attrUnit": "°C",
+                     "attrValue": "87",
+                     "attrValueId": 29646
+                  },
+                  {
+                     "attrBlockNo": 0,
+                     "attrId": 212,
+                     "attrIsConditional": false,
+                     "attrIsInterval": false,
+                     "attrIsLinked": false,
+                     "attrName": "Poids [kg]",
+                     "attrShortName": "Poids",
+                     "attrType": "N",
+                     "attrUnit": "kg",
+                     "attrValue": "0,13",
+                     "attrValueId": 9938
+                  }
+               ]
+            },
+            "articleDocuments": {
+               "array": [
+                  {
+                     "docFileName": "820830.JPG",
+                     "docFileTypeName": "Fichier image JPEG",
+                     "docId": "845520148908774",
+                     "docTypeId": 1,
+                     "docTypeName": "Photo"
+                  }
+               ]
+            },
+            "articleInfo": "",
+            "articlePrices": "",
+            "articleThumbnails": {
+               "array": [
+                  {
+                     "thumbDocId": "845520148908774",
+                     "thumbFileName": "0021\\820830.JPG",
+                     "thumbTypeId": 1
+                  }
+               ]
+            },
+            "directArticle": {
+               "articleId": 14249489,
+               "articleName": "Interrupteur de température, ventilateur de radiateur",
+               "articleNo": "820830",
+               "articleState": 1,
+               "articleStateName": "Normal",
+               "brandName": "VALEO",
+               "brandNo": 21,
+               "flagAccessories": false,
+               "flagCertificationCompulsory": false,
+               "flagRemanufacturedPart": false,
+               "flagSuitedforSelfService": false,
+               "genericArticleId": 1103,
+               "hasAppendage": false,
+               "hasAxleLink": false,
+               "hasCsGraphics": false,
+               "hasDocuments": true,
+               "hasLessDiscount": false,
+               "hasMarkLink": false,
+               "hasMotorLink": false,
+               "hasOEN": true,
+               "hasPartList": false,
+               "hasPrices": false,
+               "hasSecurityInfo": false,
+               "hasUsage": false,
+               "hasVehicleLink": true,
+               "packingUnit": 1
+            },
+            "eanNumber": {
+               "array": [
+                  {
+                     "eanNumber": "3276428208305"
+                  }
+               ]
+            },
+            "mainArticle": "",
+            "normalAustauschPrice": "",
+            "oenNumbers": {
+               "array": [
+                  {
+                     "blockNumber": 1,
+                     "brandName": "RENAULT",
+                     "oeNumber": "6025106008",
+                     "sortNumber": 1
+                  }
+               ]
+            },
+            "replacedByNumber": "",
+            "replacedNumber": "",
+            "usageNumbers": ""
+         }
+      ]
+   },
+   "status": 200
+}
