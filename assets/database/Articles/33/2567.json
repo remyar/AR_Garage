@@ -1,0 +1,121 @@
+{
+   "totalMatchingArticles": 2,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 15,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 104302,
+            "assemblyGroupName": "Commande à courroie",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100002,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100016,
+            "assemblyGroupName": "Commande à courroie",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 104304,
+            "assemblyGroupName": "Courroie trapèzoïdale",
+            "assemblyGroupType": "P",
+            "parentNodeId": 104303,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100450,
+            "assemblyGroupName": "Courroie trapèzoïdale",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100080,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 706209,
+            "assemblyGroupName": "Entraînement hybride/électrique",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100597,
+            "assemblyGroupName": "Intervalle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 104303,
+            "assemblyGroupName": "Jeu/ courroies trapèzoïdales",
+            "assemblyGroupType": "P",
+            "parentNodeId": 104302,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100080,
+            "assemblyGroupName": "Jeu/ courroies trapèzoïdales",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100016,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100002,
+            "assemblyGroupName": "Moteur",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100019,
+            "assemblyGroupName": "Pièces de maintenance",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100102,
+            "assemblyGroupName": "Radiateur d'eau/d'huile",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100007,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100007,
+            "assemblyGroupName": "Refroidissement",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 706210,
+            "assemblyGroupName": "Refroidissement",
+            "assemblyGroupType": "P",
+            "parentNodeId": 706209,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100112,
+            "assemblyGroupName": "Vase d'expansion",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100102,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 706744,
+            "assemblyGroupName": "Vase d'expansion",
+            "assemblyGroupType": "P",
+            "parentNodeId": 706210,
+            "count": 1
+         }
+      ]
+   }
+}

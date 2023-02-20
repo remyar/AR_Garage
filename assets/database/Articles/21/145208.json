@@ -1,0 +1,99 @@
+{
+   "totalMatchingArticles": 4,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 12,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 100133,
+            "assemblyGroupName": "Balai d'essuie-glace / raclette",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100018,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100254,
+            "assemblyGroupName": "Carburation",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100541,
+            "assemblyGroupName": "Épuration des gaz d'échappement",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100002,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100790,
+            "assemblyGroupName": "Épuration des gaz d'échappement",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100254,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100597,
+            "assemblyGroupName": "Intervalle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100002,
+            "assemblyGroupName": "Moteur",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100018,
+            "assemblyGroupName": "Nettoyage des vitres",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100019,
+            "assemblyGroupName": "Pièces de maintenance",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100791,
+            "assemblyGroupName": "Recyclage des gaz d'échappement",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100790,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100542,
+            "assemblyGroupName": "Recyclage des gaz d'échappement",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100541,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100551,
+            "assemblyGroupName": "Vanne EGR/Tube d'aspiration",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100542,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100811,
+            "assemblyGroupName": "Vanne EGR/Tube d'aspiration",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100791,
+            "count": 1
+         }
+      ]
+   }
+}

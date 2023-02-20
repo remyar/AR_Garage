@@ -1,0 +1,75 @@
+{
+   "totalMatchingArticles": 3,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 9,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 100133,
+            "assemblyGroupName": "Balai d'essuie-glace / raclette",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100018,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100050,
+            "assemblyGroupName": "Embrayage / composants",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100515,
+            "assemblyGroupName": "Équipage mobile",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100002,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100597,
+            "assemblyGroupName": "Intervalle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100002,
+            "assemblyGroupName": "Moteur",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100018,
+            "assemblyGroupName": "Nettoyage des vitres",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100019,
+            "assemblyGroupName": "Pièces de maintenance",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100518,
+            "assemblyGroupName": "Volant-moteur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100515,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100057,
+            "assemblyGroupName": "Volant-moteur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100050,
+            "count": 1
+         }
+      ]
+   }
+}

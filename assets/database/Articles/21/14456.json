@@ -1,0 +1,90 @@
+{
+   "totalMatchingArticles": 2,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 11,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 100006,
+            "assemblyGroupName": "Dispositif de freinage",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100005,
+            "assemblyGroupName": "Filtre",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100259,
+            "assemblyGroupName": "Filtre à huile",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100005,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100470,
+            "assemblyGroupName": "Filtre à huile",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100245,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100627,
+            "assemblyGroupName": "Frein à tambour",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100006,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100031,
+            "assemblyGroupName": "Garniture/machoire de frein",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100627,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100597,
+            "assemblyGroupName": "Intervalle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100245,
+            "assemblyGroupName": "Lubrification",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100002,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100002,
+            "assemblyGroupName": "Moteur",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100019,
+            "assemblyGroupName": "Pièces de maintenance",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100598,
+            "assemblyGroupName": "Travaux supplémentaires",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 1
+         }
+      ]
+   }
+}

@@ -1,0 +1,400 @@
+{
+   "totalMatchingArticles": 31,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 54,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 100008,
+            "assemblyGroupName": "Allumage / préchauffage",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100133,
+            "assemblyGroupName": "Balai d'essuie-glace / raclette",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100018,
+            "count": 7
+         },
+         {
+            "assemblyGroupNodeId": 100152,
+            "assemblyGroupName": "Bougie de préchauffage",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100008,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100054,
+            "assemblyGroupName": "Butée d’embrayage/butée hydraulique",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100050,
+            "children": 1,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 102809,
+            "assemblyGroupName": "Capteur/sonde lambda",
+            "assemblyGroupType": "P",
+            "parentNodeId": 102793,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 103414,
+            "assemblyGroupName": "Capteur/sonde lambda",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100004,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100048,
+            "assemblyGroupName": "Capteur lambda",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100004,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 102747,
+            "assemblyGroupName": "Capteurs",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100553,
+            "assemblyGroupName": "Capteurs/Conatct",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100322,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100254,
+            "assemblyGroupName": "Carburation",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100241,
+            "assemblyGroupName": "Chauffage / Ventilation",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100754,
+            "assemblyGroupName": "Circuit électrique du moteur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100002,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100243,
+            "assemblyGroupName": "Climatisation",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100079,
+            "assemblyGroupName": "Commande d'embrayage",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100050,
+            "children": 1,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100355,
+            "assemblyGroupName": "Condensateur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100243,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100061,
+            "assemblyGroupName": "Cylindre émetteur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100079,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100237,
+            "assemblyGroupName": "Débrayage central",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100054,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100359,
+            "assemblyGroupName": "Démarreur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100353,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100353,
+            "assemblyGroupName": "Démarreur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100006,
+            "assemblyGroupName": "Dispositif de freinage",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100032,
+            "assemblyGroupName": "Disque de frein",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100626,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100004,
+            "assemblyGroupName": "Échappement",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100050,
+            "assemblyGroupName": "Embrayage / composants",
+            "assemblyGroupType": "P",
+            "children": 4,
+            "count": 9
+         },
+         {
+            "assemblyGroupNodeId": 100541,
+            "assemblyGroupName": "Épuration des gaz d'échappement",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100002,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100790,
+            "assemblyGroupName": "Épuration des gaz d'échappement",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100254,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100515,
+            "assemblyGroupName": "Équipage mobile",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100002,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100341,
+            "assemblyGroupName": "Équipement intérieur",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100005,
+            "assemblyGroupName": "Filtre",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100263,
+            "assemblyGroupName": "Filtre à air pour habitacle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100005,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100346,
+            "assemblyGroupName": "Filtre d'habitacle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100241,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100626,
+            "assemblyGroupName": "Frein à disque",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100006,
+            "children": 2,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100249,
+            "assemblyGroupName": "Générateur d'impulsions",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100008,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100322,
+            "assemblyGroupName": "Instruments",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100597,
+            "assemblyGroupName": "Intervalle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 8
+         },
+         {
+            "assemblyGroupNodeId": 100051,
+            "assemblyGroupName": "Kit d'embrayage",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100050,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100751,
+            "assemblyGroupName": "Lève-vitre",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100335,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 102691,
+            "assemblyGroupName": "Lève-vitre",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100341,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 102793,
+            "assemblyGroupName": "Mélange air-carburant",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100254,
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100002,
+            "assemblyGroupName": "Moteur",
+            "assemblyGroupType": "P",
+            "children": 3,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100018,
+            "assemblyGroupName": "Nettoyage des vitres",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 7
+         },
+         {
+            "assemblyGroupNodeId": 100787,
+            "assemblyGroupName": "Phares supplémentaires/composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100019,
+            "assemblyGroupName": "Pièces de maintenance",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 10
+         },
+         {
+            "assemblyGroupNodeId": 100030,
+            "assemblyGroupName": "Plaquette de frein",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100626,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100091,
+            "assemblyGroupName": "Pompe à eau",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100088,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100088,
+            "assemblyGroupName": "Pompe à eau / joint",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100007,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100869,
+            "assemblyGroupName": "Projecteurs de virage / composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100787,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100007,
+            "assemblyGroupName": "Refroidissement",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100729,
+            "assemblyGroupName": "Régulation lambda",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100541,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100793,
+            "assemblyGroupName": "Régulation lambda",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100790,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100010,
+            "assemblyGroupName": "Système électrique",
+            "assemblyGroupType": "P",
+            "children": 4,
+            "count": 6
+         },
+         {
+            "assemblyGroupNodeId": 100335,
+            "assemblyGroupName": "Systèmes de confort",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100598,
+            "assemblyGroupName": "Travaux supplémentaires",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100518,
+            "assemblyGroupName": "Volant-moteur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100515,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100057,
+            "assemblyGroupName": "Volant-moteur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100050,
+            "count": 1
+         }
+      ]
+   }
+}

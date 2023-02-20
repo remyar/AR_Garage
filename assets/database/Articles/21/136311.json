@@ -1,0 +1,61 @@
+{
+   "totalMatchingArticles": 2,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 7,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 100133,
+            "assemblyGroupName": "Balai d'essuie-glace / raclette",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100018,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100597,
+            "assemblyGroupName": "Intervalle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100018,
+            "assemblyGroupName": "Nettoyage des vitres",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100019,
+            "assemblyGroupName": "Pièces de maintenance",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100091,
+            "assemblyGroupName": "Pompe à eau",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100088,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100088,
+            "assemblyGroupName": "Pompe à eau / joint",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100007,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100007,
+            "assemblyGroupName": "Refroidissement",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         }
+      ]
+   }
+}

@@ -1,0 +1,147 @@
+{
+   "totalMatchingArticles": 10,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 19,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 100008,
+            "assemblyGroupName": "Allumage / préchauffage",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100350,
+            "assemblyGroupName": "Alternateur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100041,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100041,
+            "assemblyGroupName": "Alternateur / composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100133,
+            "assemblyGroupName": "Balai d'essuie-glace / raclette",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100018,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100054,
+            "assemblyGroupName": "Butée d’embrayage/butée hydraulique",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100050,
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 102747,
+            "assemblyGroupName": "Capteurs",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100553,
+            "assemblyGroupName": "Capteurs/Conatct",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100322,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100754,
+            "assemblyGroupName": "Circuit électrique du moteur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100002,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100237,
+            "assemblyGroupName": "Débrayage central",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100054,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100050,
+            "assemblyGroupName": "Embrayage / composants",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100249,
+            "assemblyGroupName": "Générateur d'impulsions",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100008,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 101826,
+            "assemblyGroupName": "Générateur de démarrage",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100322,
+            "assemblyGroupName": "Instruments",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100597,
+            "assemblyGroupName": "Intervalle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100051,
+            "assemblyGroupName": "Kit d'embrayage",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100050,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100002,
+            "assemblyGroupName": "Moteur",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100018,
+            "assemblyGroupName": "Nettoyage des vitres",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100019,
+            "assemblyGroupName": "Pièces de maintenance",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100010,
+            "assemblyGroupName": "Système électrique",
+            "assemblyGroupType": "P",
+            "children": 4,
+            "count": 3
+         }
+      ]
+   }
+}

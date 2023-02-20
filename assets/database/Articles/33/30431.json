@@ -1,0 +1,84 @@
+{
+   "totalMatchingArticles": 2,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 10,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 101705,
+            "assemblyGroupName": "Arrière de la voiture",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100001,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 101648,
+            "assemblyGroupName": "Avant du véhicule",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100001,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 103036,
+            "assemblyGroupName": "Cache moteur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101705,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 103035,
+            "assemblyGroupName": "Cache moteur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101648,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 103037,
+            "assemblyGroupName": "Cache moteur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100002,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100001,
+            "assemblyGroupName": "Carrosserie",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100381,
+            "assemblyGroupName": "Jambe de suspension/Amortisseur/Pièces d'assemblage",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100011,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100002,
+            "assemblyGroupName": "Moteur",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100372,
+            "assemblyGroupName": "Pièces de montage",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100381,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100011,
+            "assemblyGroupName": "Suspension/Amortissement",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         }
+      ]
+   }
+}

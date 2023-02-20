@@ -1,0 +1,319 @@
+{
+   "totalMatchingArticles": 32,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 42,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 100618,
+            "assemblyGroupName": "Aide au stationnement/Alarme de marche arrière",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100335,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100350,
+            "assemblyGroupName": "Alternateur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100041,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100041,
+            "assemblyGroupName": "Alternateur / composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 101648,
+            "assemblyGroupName": "Avant du véhicule",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100001,
+            "children": 2,
+            "count": 11
+         },
+         {
+            "assemblyGroupNodeId": 100133,
+            "assemblyGroupName": "Balai d'essuie-glace / raclette",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100018,
+            "count": 9
+         },
+         {
+            "assemblyGroupNodeId": 102747,
+            "assemblyGroupName": "Capteurs",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100001,
+            "assemblyGroupName": "Carrosserie",
+            "assemblyGroupType": "P",
+            "children": 4,
+            "count": 12
+         },
+         {
+            "assemblyGroupNodeId": 100243,
+            "assemblyGroupName": "Climatisation",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100354,
+            "assemblyGroupName": "Compresseur / composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100243,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100359,
+            "assemblyGroupName": "Démarreur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100353,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100353,
+            "assemblyGroupName": "Démarreur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100006,
+            "assemblyGroupName": "Dispositif de freinage",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100032,
+            "assemblyGroupName": "Disque de frein",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100626,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100050,
+            "assemblyGroupName": "Embrayage / composants",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100626,
+            "assemblyGroupName": "Frein à disque",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100006,
+            "children": 2,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100597,
+            "assemblyGroupName": "Intervalle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 9
+         },
+         {
+            "assemblyGroupNodeId": 100051,
+            "assemblyGroupName": "Kit d'embrayage",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100050,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100018,
+            "assemblyGroupName": "Nettoyage des vitres",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 9
+         },
+         {
+            "assemblyGroupNodeId": 100187,
+            "assemblyGroupName": "Pare-chocs/composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100743,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100787,
+            "assemblyGroupName": "Phares supplémentaires/composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "children": 1,
+            "count": 5
+         },
+         {
+            "assemblyGroupNodeId": 101340,
+            "assemblyGroupName": "Phares supplémentaires/composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100001,
+            "children": 1,
+            "count": 5
+         },
+         {
+            "assemblyGroupNodeId": 100743,
+            "assemblyGroupName": "Pièces de carrosserie/ailes/pares-chocs",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100001,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100019,
+            "assemblyGroupName": "Pièces de maintenance",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 11
+         },
+         {
+            "assemblyGroupNodeId": 100030,
+            "assemblyGroupName": "Plaquette de frein",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100626,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 101661,
+            "assemblyGroupName": "Projecteur antibrouillard/ composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101648,
+            "children": 1,
+            "count": 5
+         },
+         {
+            "assemblyGroupNodeId": 100277,
+            "assemblyGroupName": "Projecteur antibrouillard/ composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100787,
+            "children": 1,
+            "count": 5
+         },
+         {
+            "assemblyGroupNodeId": 101341,
+            "assemblyGroupName": "Projecteur antibrouillard/ composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101340,
+            "children": 1,
+            "count": 5
+         },
+         {
+            "assemblyGroupNodeId": 100440,
+            "assemblyGroupName": "Projecteur antibrouillard / Optique",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100277,
+            "count": 5
+         },
+         {
+            "assemblyGroupNodeId": 101662,
+            "assemblyGroupName": "Projecteur antibrouillard / Optique",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101661,
+            "count": 5
+         },
+         {
+            "assemblyGroupNodeId": 101342,
+            "assemblyGroupName": "Projecteur antibrouillard / Optique",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101341,
+            "count": 5
+         },
+         {
+            "assemblyGroupNodeId": 100433,
+            "assemblyGroupName": "Projecteurs principaux / à insérer",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100143,
+            "count": 6
+         },
+         {
+            "assemblyGroupNodeId": 101657,
+            "assemblyGroupName": "Projecteurs principaux / à insérer",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101656,
+            "count": 6
+         },
+         {
+            "assemblyGroupNodeId": 101466,
+            "assemblyGroupName": "Projecteurs principaux / à insérer",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101465,
+            "count": 6
+         },
+         {
+            "assemblyGroupNodeId": 101656,
+            "assemblyGroupName": "Projecteurs principaux / composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101648,
+            "children": 1,
+            "count": 6
+         },
+         {
+            "assemblyGroupNodeId": 100143,
+            "assemblyGroupName": "Projecteurs principaux / composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "children": 1,
+            "count": 6
+         },
+         {
+            "assemblyGroupNodeId": 101465,
+            "assemblyGroupName": "Projecteurs principaux / composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100001,
+            "children": 1,
+            "count": 6
+         },
+         {
+            "assemblyGroupNodeId": 100103,
+            "assemblyGroupName": "Radiateur d'eau/composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100102,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100102,
+            "assemblyGroupName": "Radiateur d'eau/d'huile",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100007,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100007,
+            "assemblyGroupName": "Refroidissement",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100010,
+            "assemblyGroupName": "Système électrique",
+            "assemblyGroupType": "P",
+            "children": 5,
+            "count": 16
+         },
+         {
+            "assemblyGroupNodeId": 100335,
+            "assemblyGroupName": "Systèmes de confort",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100598,
+            "assemblyGroupName": "Travaux supplémentaires",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 2
+         }
+      ]
+   }
+}

@@ -1,0 +1,39 @@
+{
+   "totalMatchingArticles": 5,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 4,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 100371,
+            "assemblyGroupName": "Coupelle de suspension/d'amortisseur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100011,
+            "count": 5
+         },
+         {
+            "assemblyGroupNodeId": 100735,
+            "assemblyGroupName": "Fixation jambe de force / suspension",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100013,
+            "count": 5
+         },
+         {
+            "assemblyGroupNodeId": 100011,
+            "assemblyGroupName": "Suspension/Amortissement",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 5
+         },
+         {
+            "assemblyGroupNodeId": 100013,
+            "assemblyGroupName": "Suspension d'essieu/Guidage des roues/Roues",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 5
+         }
+      ]
+   }
+}

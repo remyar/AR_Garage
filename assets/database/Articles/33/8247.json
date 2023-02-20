@@ -1,0 +1,283 @@
+{
+   "totalMatchingArticles": 10,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 37,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 101705,
+            "assemblyGroupName": "Arrière de la voiture",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100001,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 101648,
+            "assemblyGroupName": "Avant du véhicule",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100001,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100577,
+            "assemblyGroupName": "Barre de suspension",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100210,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 103037,
+            "assemblyGroupName": "Cache moteur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100002,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 103035,
+            "assemblyGroupName": "Cache moteur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101648,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 103036,
+            "assemblyGroupName": "Cache moteur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101705,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100001,
+            "assemblyGroupName": "Carrosserie",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 104302,
+            "assemblyGroupName": "Commande à courroie",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100002,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100016,
+            "assemblyGroupName": "Commande à courroie",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 104304,
+            "assemblyGroupName": "Courroie trapèzoïdale",
+            "assemblyGroupType": "P",
+            "parentNodeId": 104303,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100450,
+            "assemblyGroupName": "Courroie trapèzoïdale",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100080,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100100,
+            "assemblyGroupName": "Durite de refroidissement/conduite",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100099,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100004,
+            "assemblyGroupName": "Échappement",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 706209,
+            "assemblyGroupName": "Entraînement hybride/électrique",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100597,
+            "assemblyGroupName": "Intervalle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100381,
+            "assemblyGroupName": "Jambe de suspension/Amortisseur/Pièces d'assemblage",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100011,
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 104303,
+            "assemblyGroupName": "Jeu/ courroies trapèzoïdales",
+            "assemblyGroupType": "P",
+            "parentNodeId": 104302,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100080,
+            "assemblyGroupName": "Jeu/ courroies trapèzoïdales",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100016,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100094,
+            "assemblyGroupName": "Joint/Thermostat",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100007,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100002,
+            "assemblyGroupName": "Moteur",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100210,
+            "assemblyGroupName": "Pièce de stabilisateur / pièces de fixation",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100013,
+            "children": 3,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100596,
+            "assemblyGroupName": "Pièces de fixation",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100210,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100019,
+            "assemblyGroupName": "Pièces de maintenance",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100222,
+            "assemblyGroupName": "Pièces de montage",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100004,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100372,
+            "assemblyGroupName": "Pièces de montage",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100381,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100317,
+            "assemblyGroupName": "Pièces détachées de montage",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100222,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100102,
+            "assemblyGroupName": "Radiateur d'eau/d'huile",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100007,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 706210,
+            "assemblyGroupName": "Refroidissement",
+            "assemblyGroupType": "P",
+            "parentNodeId": 706209,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100007,
+            "assemblyGroupName": "Refroidissement",
+            "assemblyGroupType": "P",
+            "children": 3,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100327,
+            "assemblyGroupName": "Support",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100317,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100590,
+            "assemblyGroupName": "Support du balancier",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100210,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100011,
+            "assemblyGroupName": "Suspension/Amortissement",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100013,
+            "assemblyGroupName": "Suspension d'essieu/Guidage des roues/Roues",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100095,
+            "assemblyGroupName": "Thermostat",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100094,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100099,
+            "assemblyGroupName": "Tuyauterie et brides",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100007,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100112,
+            "assemblyGroupName": "Vase d'expansion",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100102,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 706744,
+            "assemblyGroupName": "Vase d'expansion",
+            "assemblyGroupType": "P",
+            "parentNodeId": 706210,
+            "count": 1
+         }
+      ]
+   }
+}

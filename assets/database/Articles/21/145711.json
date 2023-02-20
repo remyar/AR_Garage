@@ -1,0 +1,40 @@
+{
+   "totalMatchingArticles": 4,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 4,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 100054,
+            "assemblyGroupName": "Butée d’embrayage/butée hydraulique",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100050,
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100237,
+            "assemblyGroupName": "Débrayage central",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100054,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100050,
+            "assemblyGroupName": "Embrayage / composants",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100051,
+            "assemblyGroupName": "Kit d'embrayage",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100050,
+            "count": 2
+         }
+      ]
+   }
+}

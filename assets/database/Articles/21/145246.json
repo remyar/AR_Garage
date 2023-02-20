@@ -1,0 +1,61 @@
+{
+   "totalMatchingArticles": 11,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 7,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 100133,
+            "assemblyGroupName": "Balai d'essuie-glace / raclette",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100018,
+            "count": 9
+         },
+         {
+            "assemblyGroupNodeId": 100054,
+            "assemblyGroupName": "Butée d’embrayage/butée hydraulique",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100050,
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100237,
+            "assemblyGroupName": "Débrayage central",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100054,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100050,
+            "assemblyGroupName": "Embrayage / composants",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100597,
+            "assemblyGroupName": "Intervalle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 9
+         },
+         {
+            "assemblyGroupNodeId": 100018,
+            "assemblyGroupName": "Nettoyage des vitres",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 9
+         },
+         {
+            "assemblyGroupNodeId": 100019,
+            "assemblyGroupName": "Pièces de maintenance",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 9
+         }
+      ]
+   }
+}

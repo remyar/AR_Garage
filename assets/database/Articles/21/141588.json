@@ -1,0 +1,25 @@
+{
+   "totalMatchingArticles": 1,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 2,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 100050,
+            "assemblyGroupName": "Embrayage / composants",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100051,
+            "assemblyGroupName": "Kit d'embrayage",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100050,
+            "count": 1
+         }
+      ]
+   }
+}

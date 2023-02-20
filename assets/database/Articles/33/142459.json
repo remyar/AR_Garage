@@ -1,0 +1,25 @@
+{
+   "totalMatchingArticles": 1,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 2,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 100241,
+            "assemblyGroupName": "Chauffage / Ventilation",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 102219,
+            "assemblyGroupName": "Régulation/soupapes",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100241,
+            "count": 1
+         }
+      ]
+   }
+}

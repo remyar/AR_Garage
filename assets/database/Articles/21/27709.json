@@ -1,0 +1,328 @@
+{
+   "totalMatchingArticles": 25,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 44,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 100214,
+            "assemblyGroupName": "Alimentation carburant",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100383,
+            "assemblyGroupName": "Alimentation en air",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100002,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100008,
+            "assemblyGroupName": "Allumage / préchauffage",
+            "assemblyGroupType": "P",
+            "children": 3,
+            "count": 5
+         },
+         {
+            "assemblyGroupNodeId": 101648,
+            "assemblyGroupName": "Avant du véhicule",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100001,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100133,
+            "assemblyGroupName": "Balai d'essuie-glace / raclette",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100018,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100150,
+            "assemblyGroupName": "Bobine/unite de bobine d'allumage",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100008,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100253,
+            "assemblyGroupName": "Boîtier/filtre à carburant",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100214,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100151,
+            "assemblyGroupName": "Bougie d'allumage",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100008,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100055,
+            "assemblyGroupName": "Butée de débrayage",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100054,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100054,
+            "assemblyGroupName": "Butée d’embrayage/butée hydraulique",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100050,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100001,
+            "assemblyGroupName": "Carrosserie",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100006,
+            "assemblyGroupName": "Dispositif de freinage",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 10
+         },
+         {
+            "assemblyGroupNodeId": 100032,
+            "assemblyGroupName": "Disque de frein",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100626,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100148,
+            "assemblyGroupName": "Distributeur d'allumage/Composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100008,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100050,
+            "assemblyGroupName": "Embrayage / composants",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 9
+         },
+         {
+            "assemblyGroupNodeId": 100005,
+            "assemblyGroupName": "Filtre",
+            "assemblyGroupType": "P",
+            "children": 3,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100260,
+            "assemblyGroupName": "Filtre à air",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100005,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100384,
+            "assemblyGroupName": "Filtre à air / carter",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100383,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100261,
+            "assemblyGroupName": "Filtre à carburant",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100005,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100259,
+            "assemblyGroupName": "Filtre à huile",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100005,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100470,
+            "assemblyGroupName": "Filtre à huile",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100245,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 104813,
+            "assemblyGroupName": "Fluide hydraulique",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100050,
+            "count": 8
+         },
+         {
+            "assemblyGroupNodeId": 100626,
+            "assemblyGroupName": "Frein à disque",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100006,
+            "children": 2,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100597,
+            "assemblyGroupName": "Intervalle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 5
+         },
+         {
+            "assemblyGroupNodeId": 100094,
+            "assemblyGroupName": "Joint/Thermostat",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100007,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 102208,
+            "assemblyGroupName": "Liquide de frein",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100006,
+            "count": 8
+         },
+         {
+            "assemblyGroupNodeId": 100245,
+            "assemblyGroupName": "Lubrification",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100002,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100002,
+            "assemblyGroupName": "Moteur",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100018,
+            "assemblyGroupName": "Nettoyage des vitres",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100019,
+            "assemblyGroupName": "Pièces de maintenance",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 8
+         },
+         {
+            "assemblyGroupNodeId": 100030,
+            "assemblyGroupName": "Plaquette de frein",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100626,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100433,
+            "assemblyGroupName": "Projecteurs principaux / à insérer",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100143,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 101657,
+            "assemblyGroupName": "Projecteurs principaux / à insérer",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101656,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 101466,
+            "assemblyGroupName": "Projecteurs principaux / à insérer",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101465,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 101656,
+            "assemblyGroupName": "Projecteurs principaux / composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101648,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100143,
+            "assemblyGroupName": "Projecteurs principaux / composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 101465,
+            "assemblyGroupName": "Projecteurs principaux / composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100001,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100007,
+            "assemblyGroupName": "Refroidissement",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100250,
+            "assemblyGroupName": "Réservoir de carburant / accessoires",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100214,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100688,
+            "assemblyGroupName": "Serrure intérieure",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100685,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100010,
+            "assemblyGroupName": "Système électrique",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100095,
+            "assemblyGroupName": "Thermostat",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100094,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100598,
+            "assemblyGroupName": "Travaux supplémentaires",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100685,
+            "assemblyGroupName": "Verrouillage",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         }
+      ]
+   }
+}

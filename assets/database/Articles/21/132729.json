@@ -1,0 +1,47 @@
+{
+   "totalMatchingArticles": 3,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 5,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 100006,
+            "assemblyGroupName": "Dispositif de freinage",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100626,
+            "assemblyGroupName": "Frein à disque",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100006,
+            "children": 1,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100019,
+            "assemblyGroupName": "Pièces de maintenance",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100030,
+            "assemblyGroupName": "Plaquette de frein",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100626,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100598,
+            "assemblyGroupName": "Travaux supplémentaires",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 3
+         }
+      ]
+   }
+}

@@ -1,0 +1,99 @@
+{
+   "totalMatchingArticles": 2,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 12,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 104302,
+            "assemblyGroupName": "Commande à courroie",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100002,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100016,
+            "assemblyGroupName": "Commande à courroie",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100431,
+            "assemblyGroupName": "Courroie trapézoïdale à nervures",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100082,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 104309,
+            "assemblyGroupName": "Courroie trapézoïdale à nervures",
+            "assemblyGroupType": "P",
+            "parentNodeId": 104308,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100597,
+            "assemblyGroupName": "Intervalle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 104308,
+            "assemblyGroupName": "Jeu/ courroies trapézoïdales à nervures",
+            "assemblyGroupType": "P",
+            "parentNodeId": 104302,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100082,
+            "assemblyGroupName": "Jeu/ courroies trapézoïdales à nervures",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100016,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100002,
+            "assemblyGroupName": "Moteur",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100019,
+            "assemblyGroupName": "Pièces de maintenance",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100091,
+            "assemblyGroupName": "Pompe à eau",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100088,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100088,
+            "assemblyGroupName": "Pompe à eau / joint",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100007,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100007,
+            "assemblyGroupName": "Refroidissement",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         }
+      ]
+   }
+}

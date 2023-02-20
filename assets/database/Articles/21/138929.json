@@ -1,0 +1,63 @@
+{
+   "totalMatchingArticles": 3,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 7,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 100505,
+            "assemblyGroupName": "Éclairage de l'habitacle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100292,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100292,
+            "assemblyGroupName": "Éclairage intérieur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100043,
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100043,
+            "assemblyGroupName": "Feux",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100094,
+            "assemblyGroupName": "Joint/Thermostat",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100007,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100007,
+            "assemblyGroupName": "Refroidissement",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100010,
+            "assemblyGroupName": "Système électrique",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100095,
+            "assemblyGroupName": "Thermostat",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100094,
+            "count": 1
+         }
+      ]
+   }
+}

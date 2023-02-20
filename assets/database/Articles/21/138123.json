@@ -1,0 +1,212 @@
+{
+   "totalMatchingArticles": 17,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 28,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 100214,
+            "assemblyGroupName": "Alimentation carburant",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100350,
+            "assemblyGroupName": "Alternateur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100041,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100041,
+            "assemblyGroupName": "Alternateur / composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100133,
+            "assemblyGroupName": "Balai d'essuie-glace / raclette",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100018,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100054,
+            "assemblyGroupName": "Butée d’embrayage/butée hydraulique",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100050,
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100241,
+            "assemblyGroupName": "Chauffage / Ventilation",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100243,
+            "assemblyGroupName": "Climatisation",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100355,
+            "assemblyGroupName": "Condensateur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100243,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100237,
+            "assemblyGroupName": "Débrayage central",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100054,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100006,
+            "assemblyGroupName": "Dispositif de freinage",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 6
+         },
+         {
+            "assemblyGroupNodeId": 100032,
+            "assemblyGroupName": "Disque de frein",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100626,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100050,
+            "assemblyGroupName": "Embrayage / composants",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100005,
+            "assemblyGroupName": "Filtre",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100263,
+            "assemblyGroupName": "Filtre à air pour habitacle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100005,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100346,
+            "assemblyGroupName": "Filtre d'habitacle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100241,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100626,
+            "assemblyGroupName": "Frein à disque",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100006,
+            "children": 2,
+            "count": 6
+         },
+         {
+            "assemblyGroupNodeId": 100597,
+            "assemblyGroupName": "Intervalle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100018,
+            "assemblyGroupName": "Nettoyage des vitres",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100019,
+            "assemblyGroupName": "Pièces de maintenance",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 8
+         },
+         {
+            "assemblyGroupNodeId": 100030,
+            "assemblyGroupName": "Plaquette de frein",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100626,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100251,
+            "assemblyGroupName": "Pompe / accessoires",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100214,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100091,
+            "assemblyGroupName": "Pompe à eau",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100088,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100088,
+            "assemblyGroupName": "Pompe à eau / joint",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100007,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100717,
+            "assemblyGroupName": "Pompe d'alimentation",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100251,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100007,
+            "assemblyGroupName": "Refroidissement",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100010,
+            "assemblyGroupName": "Système électrique",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100598,
+            "assemblyGroupName": "Travaux supplémentaires",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100267,
+            "assemblyGroupName": "Unité d'alimentation complète",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100214,
+            "count": 1
+         }
+      ]
+   }
+}

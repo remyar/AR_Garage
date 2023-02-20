@@ -1,0 +1,127 @@
+{
+   "totalMatchingArticles": 22,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 16,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 102205,
+            "assemblyGroupName": "Antigel",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100007,
+            "count": 11
+         },
+         {
+            "assemblyGroupNodeId": 100133,
+            "assemblyGroupName": "Balai d'essuie-glace / raclette",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100018,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100006,
+            "assemblyGroupName": "Dispositif de freinage",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 5
+         },
+         {
+            "assemblyGroupNodeId": 100505,
+            "assemblyGroupName": "Éclairage de l'habitacle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100292,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100292,
+            "assemblyGroupName": "Éclairage intérieur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100043,
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100043,
+            "assemblyGroupName": "Feux",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100626,
+            "assemblyGroupName": "Frein à disque",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100006,
+            "children": 1,
+            "count": 5
+         },
+         {
+            "assemblyGroupNodeId": 100597,
+            "assemblyGroupName": "Intervalle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100094,
+            "assemblyGroupName": "Joint/Thermostat",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100007,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100018,
+            "assemblyGroupName": "Nettoyage des vitres",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100019,
+            "assemblyGroupName": "Pièces de maintenance",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 8
+         },
+         {
+            "assemblyGroupNodeId": 100030,
+            "assemblyGroupName": "Plaquette de frein",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100626,
+            "count": 5
+         },
+         {
+            "assemblyGroupNodeId": 100007,
+            "assemblyGroupName": "Refroidissement",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 12
+         },
+         {
+            "assemblyGroupNodeId": 100010,
+            "assemblyGroupName": "Système électrique",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100095,
+            "assemblyGroupName": "Thermostat",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100094,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100598,
+            "assemblyGroupName": "Travaux supplémentaires",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 5
+         }
+      ]
+   }
+}

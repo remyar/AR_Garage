@@ -1,0 +1,33 @@
+{
+   "totalMatchingArticles": 1,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 3,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 100210,
+            "assemblyGroupName": "Pièce de stabilisateur / pièces de fixation",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100013,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100596,
+            "assemblyGroupName": "Pièces de fixation",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100210,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100013,
+            "assemblyGroupName": "Suspension d'essieu/Guidage des roues/Roues",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         }
+      ]
+   }
+}

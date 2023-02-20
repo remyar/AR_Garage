@@ -1,0 +1,214 @@
+{
+   "totalMatchingArticles": 18,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 28,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 101648,
+            "assemblyGroupName": "Avant du véhicule",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100001,
+            "children": 1,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100133,
+            "assemblyGroupName": "Balai d'essuie-glace / raclette",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100018,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100001,
+            "assemblyGroupName": "Carrosserie",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100241,
+            "assemblyGroupName": "Chauffage / Ventilation",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100006,
+            "assemblyGroupName": "Dispositif de freinage",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100032,
+            "assemblyGroupName": "Disque de frein",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100626,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100005,
+            "assemblyGroupName": "Filtre",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100263,
+            "assemblyGroupName": "Filtre à air pour habitacle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100005,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100346,
+            "assemblyGroupName": "Filtre d'habitacle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100241,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100626,
+            "assemblyGroupName": "Frein à disque",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100006,
+            "children": 2,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100597,
+            "assemblyGroupName": "Intervalle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100134,
+            "assemblyGroupName": "Moteur d'essuie-glace",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100018,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100018,
+            "assemblyGroupName": "Nettoyage des vitres",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100787,
+            "assemblyGroupName": "Phares supplémentaires/composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100019,
+            "assemblyGroupName": "Pièces de maintenance",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 5
+         },
+         {
+            "assemblyGroupNodeId": 100030,
+            "assemblyGroupName": "Plaquette de frein",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100626,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100869,
+            "assemblyGroupName": "Projecteurs de virage / composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100787,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 101657,
+            "assemblyGroupName": "Projecteurs principaux / à insérer",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101656,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100433,
+            "assemblyGroupName": "Projecteurs principaux / à insérer",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100143,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 101466,
+            "assemblyGroupName": "Projecteurs principaux / à insérer",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101465,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 101656,
+            "assemblyGroupName": "Projecteurs principaux / composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101648,
+            "children": 1,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100143,
+            "assemblyGroupName": "Projecteurs principaux / composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "children": 1,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 101465,
+            "assemblyGroupName": "Projecteurs principaux / composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100001,
+            "children": 1,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100103,
+            "assemblyGroupName": "Radiateur d'eau/composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100102,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100102,
+            "assemblyGroupName": "Radiateur d'eau/d'huile",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100007,
+            "children": 1,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100007,
+            "assemblyGroupName": "Refroidissement",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100010,
+            "assemblyGroupName": "Système électrique",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 5
+         },
+         {
+            "assemblyGroupNodeId": 100598,
+            "assemblyGroupName": "Travaux supplémentaires",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 2
+         }
+      ]
+   }
+}

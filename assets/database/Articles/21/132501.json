@@ -1,0 +1,204 @@
+{
+   "totalMatchingArticles": 32,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 27,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 102205,
+            "assemblyGroupName": "Antigel",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100007,
+            "count": 11
+         },
+         {
+            "assemblyGroupNodeId": 100133,
+            "assemblyGroupName": "Balai d'essuie-glace / raclette",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100018,
+            "count": 7
+         },
+         {
+            "assemblyGroupNodeId": 100241,
+            "assemblyGroupName": "Chauffage / Ventilation",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100243,
+            "assemblyGroupName": "Climatisation",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100079,
+            "assemblyGroupName": "Commande d'embrayage",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100050,
+            "children": 1,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100355,
+            "assemblyGroupName": "Condensateur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100243,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100061,
+            "assemblyGroupName": "Cylindre émetteur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100079,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100006,
+            "assemblyGroupName": "Dispositif de freinage",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 5
+         },
+         {
+            "assemblyGroupNodeId": 100032,
+            "assemblyGroupName": "Disque de frein",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100626,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100050,
+            "assemblyGroupName": "Embrayage / composants",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 5
+         },
+         {
+            "assemblyGroupNodeId": 100515,
+            "assemblyGroupName": "Équipage mobile",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100002,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100005,
+            "assemblyGroupName": "Filtre",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100263,
+            "assemblyGroupName": "Filtre à air pour habitacle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100005,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100346,
+            "assemblyGroupName": "Filtre d'habitacle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100241,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100626,
+            "assemblyGroupName": "Frein à disque",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100006,
+            "children": 2,
+            "count": 5
+         },
+         {
+            "assemblyGroupNodeId": 100597,
+            "assemblyGroupName": "Intervalle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 9
+         },
+         {
+            "assemblyGroupNodeId": 100002,
+            "assemblyGroupName": "Moteur",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100018,
+            "assemblyGroupName": "Nettoyage des vitres",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 7
+         },
+         {
+            "assemblyGroupNodeId": 100787,
+            "assemblyGroupName": "Phares supplémentaires/composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100019,
+            "assemblyGroupName": "Pièces de maintenance",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 13
+         },
+         {
+            "assemblyGroupNodeId": 100030,
+            "assemblyGroupName": "Plaquette de frein",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100626,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100869,
+            "assemblyGroupName": "Projecteurs de virage / composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100787,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100007,
+            "assemblyGroupName": "Refroidissement",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 11
+         },
+         {
+            "assemblyGroupNodeId": 100010,
+            "assemblyGroupName": "Système électrique",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100598,
+            "assemblyGroupName": "Travaux supplémentaires",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100518,
+            "assemblyGroupName": "Volant-moteur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100515,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100057,
+            "assemblyGroupName": "Volant-moteur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100050,
+            "count": 1
+         }
+      ]
+   }
+}

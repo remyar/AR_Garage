@@ -1,0 +1,456 @@
+{
+   "totalMatchingArticles": 30,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 61,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 100008,
+            "assemblyGroupName": "Allumage / préchauffage",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100447,
+            "assemblyGroupName": "Ampoule pour projecteur antibrouillard",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100277,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 101663,
+            "assemblyGroupName": "Ampoule pour projecteur antibrouillard",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101661,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 101343,
+            "assemblyGroupName": "Ampoule pour projecteur antibrouillard",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101341,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 101648,
+            "assemblyGroupName": "Avant du véhicule",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100001,
+            "children": 2,
+            "count": 6
+         },
+         {
+            "assemblyGroupNodeId": 100133,
+            "assemblyGroupName": "Balai d'essuie-glace / raclette",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100018,
+            "count": 6
+         },
+         {
+            "assemblyGroupNodeId": 100152,
+            "assemblyGroupName": "Bougie de préchauffage",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100008,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 102809,
+            "assemblyGroupName": "Capteur/sonde lambda",
+            "assemblyGroupType": "P",
+            "parentNodeId": 102793,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 102747,
+            "assemblyGroupName": "Capteurs",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100553,
+            "assemblyGroupName": "Capteurs/Conatct",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100322,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100254,
+            "assemblyGroupName": "Carburation",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100001,
+            "assemblyGroupName": "Carrosserie",
+            "assemblyGroupType": "P",
+            "children": 3,
+            "count": 6
+         },
+         {
+            "assemblyGroupNodeId": 100241,
+            "assemblyGroupName": "Chauffage / Ventilation",
+            "assemblyGroupType": "P",
+            "children": 3,
+            "count": 5
+         },
+         {
+            "assemblyGroupNodeId": 100614,
+            "assemblyGroupName": "Chauffage auxiliaire",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100335,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100754,
+            "assemblyGroupName": "Circuit électrique du moteur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100002,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100243,
+            "assemblyGroupName": "Climatisation",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100779,
+            "assemblyGroupName": "Contrôle/Réglage",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100243,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100359,
+            "assemblyGroupName": "Démarreur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100353,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100353,
+            "assemblyGroupName": "Démarreur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100006,
+            "assemblyGroupName": "Dispositif de freinage",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100104,
+            "assemblyGroupName": "Échangeur de chaleur-habitacle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100102,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100347,
+            "assemblyGroupName": "Échangeur de chaleur-habitacle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100241,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100541,
+            "assemblyGroupName": "Épuration des gaz d'échappement",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100002,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100790,
+            "assemblyGroupName": "Épuration des gaz d'échappement",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100254,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100005,
+            "assemblyGroupName": "Filtre",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100263,
+            "assemblyGroupName": "Filtre à air pour habitacle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100005,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100346,
+            "assemblyGroupName": "Filtre d'habitacle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100241,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100626,
+            "assemblyGroupName": "Frein à disque",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100006,
+            "children": 1,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100249,
+            "assemblyGroupName": "Générateur d'impulsions",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100008,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100322,
+            "assemblyGroupName": "Instruments",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100597,
+            "assemblyGroupName": "Intervalle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 8
+         },
+         {
+            "assemblyGroupNodeId": 102793,
+            "assemblyGroupName": "Mélange air-carburant",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100254,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100002,
+            "assemblyGroupName": "Moteur",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100018,
+            "assemblyGroupName": "Nettoyage des vitres",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 6
+         },
+         {
+            "assemblyGroupNodeId": 100787,
+            "assemblyGroupName": "Phares supplémentaires/composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "children": 2,
+            "count": 6
+         },
+         {
+            "assemblyGroupNodeId": 101340,
+            "assemblyGroupName": "Phares supplémentaires/composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100001,
+            "children": 1,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100019,
+            "assemblyGroupName": "Pièces de maintenance",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 11
+         },
+         {
+            "assemblyGroupNodeId": 100030,
+            "assemblyGroupName": "Plaquette de frein",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100626,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 101661,
+            "assemblyGroupName": "Projecteur antibrouillard/ composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101648,
+            "children": 2,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100277,
+            "assemblyGroupName": "Projecteur antibrouillard/ composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100787,
+            "children": 2,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 101341,
+            "assemblyGroupName": "Projecteur antibrouillard/ composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101340,
+            "children": 2,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100440,
+            "assemblyGroupName": "Projecteur antibrouillard / Optique",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100277,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 101662,
+            "assemblyGroupName": "Projecteur antibrouillard / Optique",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101661,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 101342,
+            "assemblyGroupName": "Projecteur antibrouillard / Optique",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101341,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100869,
+            "assemblyGroupName": "Projecteurs de virage / composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100787,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100433,
+            "assemblyGroupName": "Projecteurs principaux / à insérer",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100143,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 101657,
+            "assemblyGroupName": "Projecteurs principaux / à insérer",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101656,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 101466,
+            "assemblyGroupName": "Projecteurs principaux / à insérer",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101465,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100143,
+            "assemblyGroupName": "Projecteurs principaux / composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100010,
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 101465,
+            "assemblyGroupName": "Projecteurs principaux / composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100001,
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 101656,
+            "assemblyGroupName": "Projecteurs principaux / composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 101648,
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100349,
+            "assemblyGroupName": "Pulseur d'air habitacle composants",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100241,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100102,
+            "assemblyGroupName": "Radiateur d'eau/d'huile",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100007,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100542,
+            "assemblyGroupName": "Recyclage des gaz d'échappement",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100541,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100791,
+            "assemblyGroupName": "Recyclage des gaz d'échappement",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100790,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100007,
+            "assemblyGroupName": "Refroidissement",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100010,
+            "assemblyGroupName": "Système électrique",
+            "assemblyGroupType": "P",
+            "children": 5,
+            "count": 12
+         },
+         {
+            "assemblyGroupNodeId": 100335,
+            "assemblyGroupName": "Systèmes de confort",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100598,
+            "assemblyGroupName": "Travaux supplémentaires",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100811,
+            "assemblyGroupName": "Vanne EGR/Tube d'aspiration",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100791,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100551,
+            "assemblyGroupName": "Vanne EGR/Tube d'aspiration",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100542,
+            "count": 1
+         }
+      ]
+   }
+}

@@ -1,0 +1,144 @@
+{
+   "totalMatchingArticles": 6,
+   "maxAllowedPage": 1,
+   "articles": [],
+   "status": 200,
+   "assemblyGroupFacets": {
+      "total": 18,
+      "counts": [
+         {
+            "assemblyGroupNodeId": 100539,
+            "assemblyGroupName": "Amortisseurs de support moteur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100535,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 104302,
+            "assemblyGroupName": "Commande à courroie",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100002,
+            "children": 2,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100016,
+            "assemblyGroupName": "Commande à courroie",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 104304,
+            "assemblyGroupName": "Courroie trapèzoïdale",
+            "assemblyGroupType": "P",
+            "parentNodeId": 104303,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100450,
+            "assemblyGroupName": "Courroie trapèzoïdale",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100080,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100431,
+            "assemblyGroupName": "Courroie trapézoïdale à nervures",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100082,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 104309,
+            "assemblyGroupName": "Courroie trapézoïdale à nervures",
+            "assemblyGroupType": "P",
+            "parentNodeId": 104308,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100597,
+            "assemblyGroupName": "Intervalle",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100019,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 104303,
+            "assemblyGroupName": "Jeu/ courroies trapèzoïdales",
+            "assemblyGroupType": "P",
+            "parentNodeId": 104302,
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100080,
+            "assemblyGroupName": "Jeu/ courroies trapèzoïdales",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100016,
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 104308,
+            "assemblyGroupName": "Jeu/ courroies trapézoïdales à nervures",
+            "assemblyGroupType": "P",
+            "parentNodeId": 104302,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100082,
+            "assemblyGroupName": "Jeu/ courroies trapézoïdales à nervures",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100016,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100094,
+            "assemblyGroupName": "Joint/Thermostat",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100007,
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100002,
+            "assemblyGroupName": "Moteur",
+            "assemblyGroupType": "P",
+            "children": 2,
+            "count": 4
+         },
+         {
+            "assemblyGroupNodeId": 100019,
+            "assemblyGroupName": "Pièces de maintenance",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 3
+         },
+         {
+            "assemblyGroupNodeId": 100007,
+            "assemblyGroupName": "Refroidissement",
+            "assemblyGroupType": "P",
+            "children": 1,
+            "count": 2
+         },
+         {
+            "assemblyGroupNodeId": 100535,
+            "assemblyGroupName": "Support du moteur",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100002,
+            "children": 1,
+            "count": 1
+         },
+         {
+            "assemblyGroupNodeId": 100095,
+            "assemblyGroupName": "Thermostat",
+            "assemblyGroupType": "P",
+            "parentNodeId": 100094,
+            "count": 2
+         }
+      ]
+   }
+}
