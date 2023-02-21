@@ -1,5 +1,5 @@
 !macro customInstall
-    CopyFiles "${BUILD_RESOURCES_DIR}\code_postaux.sqlite" "$APPDATA\${APP_PACKAGE_NAME}\code_postaux.sqlite" 
+    CopyFiles "${BUILD_RESOURCES_DIR}\*" "$APPDATA\${APP_PACKAGE_NAME}\" 
 
     IfFileExists "$APPDATA\tesseract" next1
         CopyFiles /SILENT "${BUILD_RESOURCES_DIR}\tesseract\*" "$APPDATA\${APP_PACKAGE_NAME}\tesseract" 
