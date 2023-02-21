@@ -15,21 +15,38 @@ jobs:
       - name: checkout
         uses: actions/checkout@v1
 
-      - uses: suisei-cn/actions-download-file@v1.0.1
-        id: downloadfile2  # Remember to give an ID if you need the output filename
-        name: Download the file
+      - name: set-env
+        uses: allenevans/set-env@v2.0.0
         with:
-          url: "https://www.goodrace.fr/download/tecdoc_database.zip"
-          target: ./assets/database
-
-      - name: 7zip
+          RELEASE_VERSION: 'v0.1.${{ steps.buildnumber.outputs.build_number }}'
+          APP_NAME : 'AR_Garage-Setup-0.2.${{ steps.buildnumber.outputs.build_number }}.exe'
+          
+      - name: npm install
+        working-directory: "${{ github.workspace }}"
         run: |
-          cd ./assets/database
-          7z x tecdoc_database.zip
-          del ./donotremove.bat
-          del ./tecdoc_database.zip
-          ls
-          cd ..
-          ls
-          cd ..
-          ls
+          npm install
+          npm run build
+          npm run dist
+        env:
+          CI: false
+          GENERATE_SOURCEMAP: false
+          REACT_APP_TECDOC_API_CATALOG: ${{ secrets.REACT_APP_TECDOC_API_CATALOG }}
+          REACT_APP_TECDOC_API_URL_1: ${{ secrets.REACT_APP_TECDOC_API_URL_1 }}
+          REACT_APP_TECDOC_API_URL_2: ${{ secrets.REACT_APP_TECDOC_API_URL_2 }}
+          REACT_APP_TECDOC_API_URL_3: ${{ secrets.REACT_APP_TECDOC_API_URL_3 }}
+          REACT_APP_TECDOC_PROVIDER_ID_NEW: ${{ secrets.REACT_APP_TECDOC_PROVIDER_ID_NEW }}
+          REACT_APP_TECDOC_PROVIDER_ID_OLD: ${{ secrets.REACT_APP_TECDOC_PROVIDER_ID_OLD }}
+          REACT_APP_OSCARO_API_URL_1: ${{ secrets.REACT_APP_OSCARO_API_URL_1 }}
+          REACT_APP_OSCARO_API_URL_2: ${{ secrets.REACT_APP_OSCARO_API_URL_2 }}
+          REACT_APP_OSCARO_API_URL_3: ${{ secrets.REACT_APP_OSCARO_API_URL_3 }}
+          REACT_APP_OSCARO_API_URL_4: ${{ secrets.REACT_APP_OSCARO_API_URL_4 }}
+
+      - name: Upload binaries to release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file:  ./out/AR_Garage-Setup.exe
+          tag: ${{ env.RELEASE_VERSION }}
+          asset_name: ${{ env.APP_NAME }}
+          overwrite: true
+          body: "This is my release text"
