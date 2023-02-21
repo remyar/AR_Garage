@@ -308,8 +308,10 @@ async function saveGeneralSettings(settings) {
             } else {
                 //-- update
                 database.serialize(() => {
-                    database.run("UPDATE settings_general SET wizard=? WHERE id=?", [
-                        settings.wizard == true ? 1 : 0,
+                    settingsGeneral = {...settingsGeneral , ...settings};
+                    database.run("UPDATE settings_general SET wizard=? , useCatalog=? WHERE id=?", [
+                        settingsGeneral.wizard == true ? 1 : 0,
+                        settingsGeneral.useCatalog == true ? 1 : 0,
                         settingsGeneral.id
                     ]);
                 });

@@ -39,21 +39,6 @@ jobs:
           repository: 'remyar/AR_Garage'
           directory: './'
 
-      - uses: suisei-cn/actions-download-file@v1.0.1
-        id: downloadfile  # Remember to give an ID if you need the output filename
-        name: Download the file
-        with:
-          url: "https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.2.0.20220712.exe"
-          target: ./assets/tesseract
-
-      - name: 7zip
-        run: |
-          cd ./assets/tesseract
-          7z x tesseract-ocr-w64-setup-v5.2.0.20220712.exe
-          del ./tesseract-ocr-w64-setup-v5.2.0.20220712.exe
-          del ./tesseract-uninstall.exe
-          del ./donotremove.bat
-
       - name: Build/release Electron app
         uses: samuelmeuli/action-electron-builder@v1
         with:

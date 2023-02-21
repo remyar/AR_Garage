@@ -271,7 +271,7 @@ function SettingsPage(props) {
                                     const filename = (await props.dispatch(actions.electron.getFilenameForOpen('.json')))?.getFilenameForOpen;
                                     if (filename.canceled == false) {
                                         let fileData = (await props.dispatch(actions.electron.readFile(filename.filePath)))?.fileData;
-                                        if ( filename.filePath.includes(".json") ){
+                                        if (filename.filePath.includes(".json")) {
                                             await props.dispatch(actions.database.restoreFromJSON(JSON.parse(fileData)));
                                         }
                                         props.snackbar.success('settings.database.import.success');
@@ -289,6 +289,21 @@ function SettingsPage(props) {
                     <Grid item xs={2} />
                 </Grid>
             </ListItem>
+            <br />
+            <ListItem disablePadding>
+                <Typography variant="h5" gutterBottom component="div">{intl.formatMessage({ id: 'settings.catalogue.title' })}</Typography>
+            </ListItem>
+            <Divider />
+            <ListItem>
+                <ListItemText primary="Utilisé le catalogue de piéces" />
+                <Switch checked={globalState.settings.useCatalog ? globalState.settings.useCatalog : false} onChange={async (event)=>{
+                    await props.dispatch(actions.set.saveSettings({ useCatalog: event.target.checked }));
+                }}/>
+            </ListItem>
+            {globalState.settings.useCatalog && <ListItem>
+                <ListItemText primary="Version du catalogue de piéces" />                            
+                <ListItemText secondary="21/02/2023" style={{textAlign : "right"}}/>  
+            </ListItem>}
         </List>
     </Box>;
 }
