@@ -27,4 +27,9 @@ jobs:
           cd ./assets/database
           7z x tecdoc_database.zip
           del ./donotremove.bat
+          del ./tecdoc_database.zip
+          ls
+          cd ..
+          ls
+          cd ..
           ls
