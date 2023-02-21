@@ -1,4 +1,7 @@
 !macro customInstall
+
+    MessageBox MessageBox MB_OK "${BUILD_RESOURCES_DIR}" 
+    
     ${ifNot} ${isUpdated}
         CopyFiles "${BUILD_RESOURCES_DIR}\*" "$APPDATA\${APP_PACKAGE_NAME}" 
 
