@@ -19,7 +19,7 @@ jobs:
         uses: allenevans/set-env@v2.0.0
         with:
           RELEASE_VERSION: 'v0.1.${{ steps.buildnumber.outputs.build_number }}'
-          APP_NAME : 'AR_Garage-Setup-0.2.${{ steps.buildnumber.outputs.build_number }}.exe'
+          APP_NAME : 'AR_Garage-Setup-0.1.${{ steps.buildnumber.outputs.build_number }}.exe'
           
       - name: npm install
         working-directory: "${{ github.workspace }}"
