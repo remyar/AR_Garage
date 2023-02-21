@@ -9,7 +9,8 @@
     "build": {
         "asar": true,
         "directories": {
-            "output": "out"
+            "output": "out",
+            "buildResources": "assets"
         },
         "extraMetadata": {
             "main": "main.js"
