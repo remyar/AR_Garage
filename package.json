@@ -26,9 +26,6 @@
                 }
             ],
             "artifactName": "AR_Garage-Setup-${version}.${ext}",
-            "directories": {
-                "buildResources": "assets"
-            },
             "files": [
                 "!out/*",
                 "!webpack*",
