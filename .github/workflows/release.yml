@@ -46,25 +46,12 @@ jobs:
           url: "https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.2.0.20220712.exe"
           target: ./assets/tesseract
 
-      - uses: suisei-cn/actions-download-file@v1.0.1
-        id: downloadfile2  # Remember to give an ID if you need the output filename
-        name: Download the file
-        with:
-          url: "https://www.goodrace.fr/download/tecdoc_database.zip"
-          target: ./assets/database
-
       - name: 7zip
         run: |
           cd ./assets/tesseract
           7z x tesseract-ocr-w64-setup-v5.2.0.20220712.exe
           del ./tesseract-ocr-w64-setup-v5.2.0.20220712.exe
           del ./tesseract-uninstall.exe
-          del ./donotremove.bat
-          cd ..
-          del ./donotremove.bat
-          cd ..
-          cd ./assets/database
-          7z x tecdoc_database.zip
           del ./donotremove.bat
 
       - name: Build/release Electron app
