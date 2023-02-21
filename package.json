@@ -25,6 +25,9 @@
                     "releaseType": "release"
                 }
             ],
+            "extraFiles": [
+                "assets"
+            ],
             "artifactName": "AR_Garage-Setup-${version}.${ext}",
             "files": [
                 "!out/*",
