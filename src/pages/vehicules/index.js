@@ -36,6 +36,7 @@ import routeMdw from '../../middleware/route';
 
 function VehiculesPage(props) {
     const intl = props.intl;
+    const globalState = props.globalState;
 
     const [displayLoader, setDisplayLoader] = useState(false);
     const [vehicules, setVehicules] = useState([]);
@@ -60,17 +61,17 @@ function VehiculesPage(props) {
         try {
             let result = await props.dispatch(actions.get.allVehicules());
             let reloadAfterFetch = false;
-            for ( let vehicule of result.vehicules){
-                if ( vehicule.tecdocId == undefined ){
-                    try{
+            for (let vehicule of result.vehicules) {
+                if (vehicule.tecdocId == undefined) {
+                    try {
                         await props.dispatch(actions.oscaro.getAutoFromPlate(vehicule.plate))
                         reloadAfterFetch = true;
-                    }catch(err){
+                    } catch (err) {
                         props.snackbar.error('fetch.error');
                     }
                 }
             }
-            if ( reloadAfterFetch == true ){
+            if (reloadAfterFetch == true) {
                 result = await props.dispatch(actions.get.allVehicules());
             }
             setVehicules(result.vehicules.filter((el) => el.deleted !== 1));
@@ -93,7 +94,7 @@ function VehiculesPage(props) {
         },
         {
             id: 'puissance', label: 'Puissance', minWidth: 100, render: (row) => {
-               return <span>{(row.puissance || "") + " cv"}</span>
+                return <span>{(row.puissance || "") + " cv"}</span>
             }
         },
         {
@@ -114,14 +115,14 @@ function VehiculesPage(props) {
                         setDisplayVehiculeTechnicModal(row);
                     }} />}
 
-                    <MenuBookIcon sx={{ cursor: 'pointer', marginLeft: '15px' }} onClick={async () => {
-                        try{
+                    {globalState.settings.useCatalog && <MenuBookIcon sx={{ cursor: 'pointer', marginLeft: '15px' }} onClick={async () => {
+                        try {
                             await props.dispatch(actions.set.selectedVehicule(row));
                             props.navigation.push(routeMdw.urlCatalog());
-                        }catch(err){
+                        } catch (err) {
                             props.snackbar.error('vehicule.no.catalog');
                         }
-                    }} />
+                    }} />}
 
                     <InfoIcon sx={{ cursor: 'pointer', marginLeft: '15px' }} onClick={() => {
                         setDisplayVehiculeModal(row);

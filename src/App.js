@@ -72,6 +72,17 @@ function App(props) {
             props.snackbar.error(intl.formatMessage({ id: 'update.error' }));
         });
 
+        electron.ipcRenderer.on('extract-start', (event, message) => {
+            props.snackbar.warning(intl.formatMessage({ id: 'extract.start' }));
+        });
+        electron.ipcRenderer.on('extract-end', (event, message) => {
+            props.snackbar.success(intl.formatMessage({ id: 'extract.end' }));
+        });
+
+        electron.ipcRenderer.on('extract-progress', (event, message) => {
+            props.snackbar.info(intl.formatMessage({ id: 'extract.progress' }) + ' : ' + parseInt(message?.percent || "0.0") + "%");
+        });
+
     }, []);
 
     return <Box>
