@@ -17,7 +17,7 @@ module.exports = {
         try{
             await database.setdbPath(isDev ? "./database.sqlite" : path.join(app.getPath("userData"), "database.sqlite"));
             await code_postaux.setdbPath(isDev ? "./assets/code_postaux.sqlite" : path.join(app.getPath("userData") , "code_postaux.sqlite"));
-            await tecdoc.setdbPath(isDev ? "./assets/database" : path.join(app.getPath("userData") , "database"));
+            await tecdoc.setdbPath(/*isDev ? "./assets/database" :*/ path.join(app.getPath("userData") , "database"));
             await tecdoc.setMainWindows(mainWindow);
             
             ipcMain.on('OPEN_DEV_TOOLS', (event, value) => {

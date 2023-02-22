@@ -254,7 +254,23 @@ async function downloadDatabase() {
 
 async function downloadTesseract() {
 
-    const download = async ({ url, path }) => {
+    const download = async ({ url, p }) => {
+
+
+        let __path = "";
+        for (let _path of p.split(path.sep)) {
+            _path = __path + path.sep + _path;
+            if (_path.startsWith(path.sep)) {
+                _path = _path.replace(path.sep, '');
+            }
+            if (fs.existsSync(_path) == false) {
+                fs.mkdirSync(_path);
+            }
+            __path = _path;
+        }
+
+
+
 
         let totalFile = 0;
         let actualFile = 0;
@@ -286,7 +302,7 @@ async function downloadTesseract() {
             }
         });
 
-        await streamPipeline(response.body, createWriteStream(path));
+        await streamPipeline(response.body, createWriteStream(p));
     };
 
     return new Promise(async (resolve, reject) => {
@@ -296,7 +312,7 @@ async function downloadTesseract() {
 
 
                 if (fs.existsSync(path.resolve(dtabasePath, "..", "tesseract", "tesseract.zip")) == false) {
-                    await download({ url: process.env.GOODRACE_TECDOC_DATABASE_URL + "/tesseract.zip", path: path.resolve(dtabasePath, "..", "tesseract", "tesseract.zip") });
+                    await download({ url: process.env.GOODRACE_TECDOC_DATABASE_URL + "/tesseract.zip", p: path.resolve(dtabasePath, "..", "tesseract", "tesseract.zip") });
                 }
 
                 mainWindow.webContents.send('extract-start');
