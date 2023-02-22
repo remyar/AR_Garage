@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { injectIntl } from 'react-intl';
 import { withNavigation } from '../../providers/navigation';
+import { withStoreProvider } from '../../providers/StoreProvider';
 
 import Drawer from '@mui/material/Drawer';
 import List from '@mui/material/List';
@@ -23,6 +24,9 @@ import routeMdw from '../../middleware/route';
 
 function MyDrawer(props) {
     const intl = props.intl;
+
+    const globalState = props.globalState;
+
     return <Drawer open={props.open} onClose={() => { props.onClose && props.onClose() }}>
         <List>
 
@@ -53,7 +57,7 @@ function MyDrawer(props) {
                 </ListItemIcon>
                 <ListItemText primary={intl.formatMessage({ id: 'url.vehicules' })} secondary={intl.formatMessage({ id: 'url.vehicules.desc' })} />
             </ListItem>
-              <ListItem button onClick={() => {
+            {globalState.settings.useCatalog && <ListItem button onClick={() => {
                 props.navigation.push(routeMdw.urlCatalog());
                 props.onClose && props.onClose();
             }}>
@@ -61,12 +65,12 @@ function MyDrawer(props) {
                     <MenuBookIcon />
                 </ListItemIcon>
                 <ListItemText primary={intl.formatMessage({ id: 'url.catalog' })} secondary={intl.formatMessage({ id: 'url.catalog.desc' })} />
-            </ListItem>
+            </ListItem>}
+
             <ListItem button onClick={() => {
                 props.navigation.push(routeMdw.urlProduits());
                 props.onClose && props.onClose();
             }}>
-
                 <ListItemIcon>
                     <InventoryIcon />
                 </ListItemIcon>
@@ -115,4 +119,4 @@ function MyDrawer(props) {
 }
 
 
-export default withNavigation(injectIntl(MyDrawer));
+export default withStoreProvider(withNavigation(injectIntl(MyDrawer)));

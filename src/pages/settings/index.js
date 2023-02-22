@@ -298,6 +298,9 @@ function SettingsPage(props) {
                 <ListItemText primary="Utilisé le catalogue de piéces" />
                 <Switch checked={globalState.settings.useCatalog ? globalState.settings.useCatalog : false} onChange={async (event)=>{
                     await props.dispatch(actions.set.saveSettings({ useCatalog: event.target.checked }));
+                    if ( event.target.checked == true ){
+                        await props.dispatch(actions.database.installTecdocDatabase());
+                    }
                 }}/>
             </ListItem>
             {globalState.settings.useCatalog && <ListItem>

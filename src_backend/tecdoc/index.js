@@ -1,11 +1,21 @@
 const fs = require('fs');
 const path = require("path");
+const fetch = require('node-fetch');
+const { createWriteStream } = require('fs');
+const { pipeline } = require('stream');
+const { promisify } = require('util');
+const extract = require('extract-zip')
 
 let dtabasePath = undefined;
 let id = 20450;
+let mainWindow = undefined;
 
 async function setdbPath(_path, options) {
     dtabasePath = _path;
+}
+
+async function setMainWindows(_mainWindow) {
+    mainWindow = _mainWindow;
 }
 
 async function readFileSync(_databaseName) {
@@ -34,7 +44,7 @@ async function getChildNodesAllLinkingTarget() {
 async function getAmBrands() {
     return new Promise(async (resolve, reject) => {
         try {
-            let result = await readFileSync("AmBrands/"+id);
+            let result = await readFileSync("AmBrands/" + id);
             resolve(result);
         } catch (err) {
             reject(err);
@@ -122,15 +132,16 @@ async function getAssemblyGroupFacets(carId) {
 async function getArticleIdsWithState(args) {
     return new Promise((resolve, reject) => {
         let dir = fs.readdirSync(path.resolve(dtabasePath, "ArticlesStates"));
-        let result = undefined;
+        let _result = [];
         dir.forEach((_dir) => {
             if (fs.existsSync(path.resolve(dtabasePath, "ArticlesStates", _dir, "" + args.assemblyGroupNodeId + "", "" + args.carId + ".json"))) {
-                result = fs.readFileSync(path.resolve(dtabasePath, "ArticlesStates", _dir, "" + args.assemblyGroupNodeId + "", "" + args.carId + ".json"));
+                let result = fs.readFileSync(path.resolve(dtabasePath, "ArticlesStates", _dir, "" + args.assemblyGroupNodeId + "", "" + args.carId + ".json"));
                 result = JSON.parse(result);
                 result = result?.data?.array || [];
+                _result = [..._result, ...result];
             }
         });
-        resolve(result);
+        resolve(_result);
     });
 }
 
@@ -157,8 +168,179 @@ async function getArticleDocuments(documentId) {
     });
 }
 
+
+
+async function downloadDatabase() {
+
+    const download = async ({ url, path }) => {
+
+        let totalFile = 0;
+        let actualFile = 0;
+
+        const streamPipeline = promisify(pipeline);
+
+        const response = await fetch(url);
+
+        totalFile = response.headers.get('content-length');
+
+        if (!response.ok) {
+            throw new Error(`unexpected response ${response.statusText}`);
+        }
+
+        let lastPercent = -1;
+        response.body.on("data", (chunk) => {
+            actualFile += chunk.length;
+
+            let progressObj = {
+                bytesPerSecond: 0,
+                percent: parseInt((actualFile / totalFile) * 100),
+                transferred: actualFile,
+                total: totalFile,
+            }
+
+            if (lastPercent != progressObj.percent) {
+                mainWindow.webContents.send('download-progress', progressObj);
+                lastPercent = parseInt(progressObj.percent);
+            }
+        });
+
+        await streamPipeline(response.body, createWriteStream(path));
+    };
+
+    return new Promise(async (resolve, reject) => {
+
+        try {
+
+            if (fs.existsSync(path.resolve(dtabasePath, "tecdoc_database.zip")) == false) {
+                await download({ url: process.env.GOODRACE_TECDOC_DATABASE_URL + "/tecdoc_database.zip", path: path.resolve(dtabasePath, "tecdoc_database.zip") });
+            }
+
+            mainWindow.webContents.send('extract-start');
+            let lastPercent = 0;
+            await extract(path.resolve(dtabasePath, "tecdoc_database.zip"), {
+                dir: path.resolve(dtabasePath), onEntry: (entry, zipFile) => {
+                    let progressObj = {
+                        bytesPerSecond: 0,
+                        percent: parseInt((zipFile.entriesRead / zipFile.entryCount) * 100),
+                        transferred: zipFile.entriesRead,
+                        total: zipFile.entryCount,
+                    }
+
+                    if (lastPercent != progressObj.percent) {
+                        mainWindow.webContents.send('extract-progress', progressObj);
+                        lastPercent = parseInt(progressObj.percent);
+                    }
+
+                }
+            });
+
+            mainWindow.webContents.send('extract-end');
+
+            if (fs.existsSync(path.resolve(dtabasePath, "tecdoc_database.zip"))) {
+                fs.unlinkSync(path.resolve(dtabasePath, "tecdoc_database.zip"));
+            }
+
+            resolve();
+        } catch (err) {
+            if (fs.existsSync(path.resolve(dtabasePath, "tecdoc_database.zip"))) {
+                fs.unlinkSync(path.resolve(dtabasePath, "tecdoc_database.zip"));
+            }
+            reject(err);
+        }
+
+    });
+}
+
+
+async function downloadTesseract() {
+
+    const download = async ({ url, path }) => {
+
+        let totalFile = 0;
+        let actualFile = 0;
+
+        const streamPipeline = promisify(pipeline);
+
+        const response = await fetch(url);
+
+        totalFile = response.headers.get('content-length');
+
+        if (!response.ok) {
+            throw new Error(`unexpected response ${response.statusText}`);
+        }
+
+        let lastPercent = -1;
+        response.body.on("data", (chunk) => {
+            actualFile += chunk.length;
+
+            let progressObj = {
+                bytesPerSecond: 0,
+                percent: parseInt((actualFile / totalFile) * 100),
+                transferred: actualFile,
+                total: totalFile,
+            }
+
+            if (lastPercent != progressObj.percent) {
+                mainWindow.webContents.send('download-progress', progressObj);
+                lastPercent = parseInt(progressObj.percent);
+            }
+        });
+
+        await streamPipeline(response.body, createWriteStream(path));
+    };
+
+    return new Promise(async (resolve, reject) => {
+
+        try {
+            if (fs.existsSync(path.resolve(dtabasePath, "..", "tesseract", "tesseract.exe")) == false) {
+
+
+                if (fs.existsSync(path.resolve(dtabasePath, "..", "tesseract", "tesseract.zip")) == false) {
+                    await download({ url: process.env.GOODRACE_TECDOC_DATABASE_URL + "/tesseract.zip", path: path.resolve(dtabasePath, "..", "tesseract", "tesseract.zip") });
+                }
+
+                mainWindow.webContents.send('extract-start');
+                let lastPercent = 0;
+                await extract(path.resolve(dtabasePath, "..", "tesseract", "tesseract.zip"), {
+                    dir: path.resolve(dtabasePath, "..", "tesseract"), onEntry: (entry, zipFile) => {
+                        let progressObj = {
+                            bytesPerSecond: 0,
+                            percent: parseInt((zipFile.entriesRead / zipFile.entryCount) * 100),
+                            transferred: zipFile.entriesRead,
+                            total: zipFile.entryCount,
+                        }
+
+                        if (lastPercent != progressObj.percent) {
+                            mainWindow.webContents.send('extract-progress', progressObj);
+                            lastPercent = parseInt(progressObj.percent);
+                        }
+
+                    }
+                });
+
+                mainWindow.webContents.send('extract-end');
+
+                if (fs.existsSync(path.resolve(dtabasePath, "..", "tesseract", "tesseract.zip"))) {
+                    fs.unlinkSync(path.resolve(dtabasePath, "..", "tesseract", "tesseract.zip"));
+                }
+            }
+            resolve();
+        } catch (err) {
+            if (fs.existsSync(path.resolve(dtabasePath, "..", "tesseract", "tesseract.zip"))) {
+                fs.unlinkSync(path.resolve(dtabasePath, "..", "tesseract", "tesseract.zip"));
+            }
+            reject(err);
+        }
+
+    });
+}
+
+
 module.exports = {
     setdbPath,
+    setMainWindows,
+    downloadDatabase,
+    downloadTesseract,
 
     getChildNodesAllLinkingTarget,
     getAmBrands,
