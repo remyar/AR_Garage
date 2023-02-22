@@ -8,7 +8,7 @@ const http = require('http');
 const isDev = require('electron-is-dev');
 const backend = require('./src_backend');
 
-let envVar = isDev ? ".env.local" : ".env";
+let envVar = /*isDev ? ".env.local" :*/ ".env";
 require('dotenv').config({ path : envVar});
 require('@electron/remote/main').initialize();
 
@@ -55,7 +55,7 @@ function createWindow() {
     //mainWindow.loadURL(`http://localhost:3000`)
 
     // Open the DevTools.
-    isDev && mainWindow.webContents.openDevTools()
+    /*isDev &&*/ mainWindow.webContents.openDevTools()
 
     // Emitted when the window is closed.
     mainWindow.on('closed', function () {
