@@ -172,7 +172,26 @@ async function getArticleDocuments(documentId) {
 
 async function downloadDatabase() {
 
-    const download = async ({ url, path }) => {
+    const download = async ({ url, p }) => {
+
+
+        let __path = "";
+        let decompPath = p.split(path.sep);
+        if (decompPath[decompPath.length - 1].includes(".")) {
+            //-- filename is included
+            decompPath.pop();
+        }
+        for (let _path of decompPath) {
+            _path = __path + path.sep + _path;
+            if (_path.startsWith(path.sep)) {
+                _path = _path.replace(path.sep, '');
+            }
+            if (fs.existsSync(_path) == false) {
+                fs.mkdirSync(_path);
+            }
+            __path = _path;
+        }
+
 
         let totalFile = 0;
         let actualFile = 0;
@@ -204,7 +223,7 @@ async function downloadDatabase() {
             }
         });
 
-        await streamPipeline(response.body, createWriteStream(path));
+        await streamPipeline(response.body, createWriteStream(p));
     };
 
     return new Promise(async (resolve, reject) => {
@@ -212,7 +231,7 @@ async function downloadDatabase() {
         try {
 
             if (fs.existsSync(path.resolve(dtabasePath, "tecdoc_database.zip")) == false) {
-                await download({ url: process.env.GOODRACE_TECDOC_DATABASE_URL + "/tecdoc_database.zip", path: path.resolve(dtabasePath, "tecdoc_database.zip") });
+                await download({ url: process.env.GOODRACE_TECDOC_DATABASE_URL + "/tecdoc_database.zip", p: path.resolve(dtabasePath, "tecdoc_database.zip") });
             }
 
             mainWindow.webContents.send('extract-start');
@@ -258,7 +277,12 @@ async function downloadTesseract() {
 
 
         let __path = "";
-        for (let _path of p.split(path.sep)) {
+        let decompPath = p.split(path.sep);
+        if (decompPath[decompPath.length - 1].includes(".")) {
+            //-- filename is included
+            decompPath.pop();
+        }
+        for (let _path of decompPath) {
             _path = __path + path.sep + _path;
             if (_path.startsWith(path.sep)) {
                 _path = _path.replace(path.sep, '');
@@ -308,6 +332,9 @@ async function downloadTesseract() {
     return new Promise(async (resolve, reject) => {
 
         try {
+
+            console.log(dtabasePath);
+            
             if (fs.existsSync(path.resolve(dtabasePath, "..", "tesseract", "tesseract.exe")) == false) {
 
 
