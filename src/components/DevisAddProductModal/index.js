@@ -15,7 +15,7 @@ function DevisAddProductModal(props) {
     const intl = props.intl;
 
     const [product, setProduct] = useState({});
-    const [quantity, setQuantity] = useState({});
+    const [quantity, setQuantity] = useState(1);
     const title = props.title || "";
     const products = props.options || [];
 
@@ -39,7 +39,7 @@ function DevisAddProductModal(props) {
             </Grid>
             <Grid container spacing={2} sx={{ paddingTop: '20px' }}>
                 <Grid item xs={12} sx={{ textAlign: 'center' }}>
-                    <InputNumber label="Quantité" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="qty" onChange={(value) => {
+                    <InputNumber label="Quantité" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="qty" value={quantity} onChange={(value) => {
                         setQuantity(value || 0)
                     }} component={TextField} />
                 </Grid>

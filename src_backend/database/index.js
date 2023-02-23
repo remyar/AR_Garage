@@ -308,7 +308,7 @@ async function saveGeneralSettings(settings) {
             } else {
                 //-- update
                 database.serialize(() => {
-                    settingsGeneral = {...settingsGeneral , ...settings};
+                    settingsGeneral = { ...settingsGeneral, ...settings };
                     database.run("UPDATE settings_general SET wizard=? , useCatalog=? WHERE id=?", [
                         settingsGeneral.wizard == true ? 1 : 0,
                         settingsGeneral.useCatalog == true ? 1 : 0,
@@ -987,6 +987,40 @@ async function saveConstructeur(constructeur) {
     });
 }
 
+
+async function saveOem(value) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            database.serialize(() => {
+                database.run("INSERT INTO oem ( carId , ref_oem ) VALUES ( ? , ? )", [value.carId, value.ref_oem], function (err) {
+                    value.id = this.lastID;
+                    resolve(value);
+                });
+            });
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
+
+async function getOemByCarId(value) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            database.serialize(() => {
+                database.all("SELECT * FROM oem WHERE carId LIKE ?", [value], function (err , rows) {
+                    if (err) {
+                        reject(err);
+                    } else {
+                        resolve(rows);
+                    }
+                });
+            });
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
+
 module.exports = {
     setdbPath,
     getDatabase,
@@ -1049,5 +1083,8 @@ module.exports = {
     saveMarque,
 
     getAllConstructeurs,
-    saveConstructeur
+    saveConstructeur,
+
+    saveOem,
+    getOemByCarId
 }

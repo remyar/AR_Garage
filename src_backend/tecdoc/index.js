@@ -117,13 +117,12 @@ async function getVehiculeByCarId(carId) {
 async function getAssemblyGroupFacets(carId) {
     return new Promise((resolve, reject) => {
         let dir = fs.readdirSync(path.resolve(dtabasePath, "Articles"));
-        let result = undefined;
+        let result = [];
         dir.forEach((_dir) => {
-            if (result == undefined) {
-                let _result = fs.readFileSync(path.resolve(dtabasePath, "Articles", _dir, carId + ".json"));
-                _result = JSON.parse(_result);
-                result = _result?.assemblyGroupFacets?.counts;
-            }
+            let _result = fs.readFileSync(path.resolve(dtabasePath, "Articles", _dir, carId + ".json"));
+            _result = JSON.parse(_result);
+            _result = _result?.assemblyGroupFacets?.counts || [];
+            result = [...result, ..._result];
         });
         resolve(result);
     });

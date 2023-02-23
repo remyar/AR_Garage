@@ -92,7 +92,7 @@ function CatalogPage(props) {
 
                         try {
                             await props.dispatch(actions.set.newProduct(product));
-                            //await props.dispatch(actions.set.oemProduct({ carId: selectedVehicule.tecdocId, oem: product.ref_oem }));
+                            await props.dispatch(actions.set.oemProduct({ carId: selectedVehicule.id, ref_oem: product.ref_oem }));
                         } catch (err) {
                             props.snackbar.error(intl.formatMessage({ id: 'save.error' }));
                         }

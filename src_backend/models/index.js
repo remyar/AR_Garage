@@ -11,6 +11,7 @@ const clients = require('./clients');
 const vehicules = require('./vehicules');
 const produits = require('./produits');
 const services = require('./services');
+const oem = require('./oem');
 
 module.exports = {
     database : {
@@ -26,6 +27,7 @@ module.exports = {
         clients,
         vehicules,
         produits,
-        services
+        services,
+        oem
     }
 }
