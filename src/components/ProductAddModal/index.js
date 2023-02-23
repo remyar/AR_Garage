@@ -28,10 +28,10 @@ const ValidationSchema = Yup.object().shape({
 
 function ProductAddModal(props) {
     const intl = props.intl;
-    const categories = props.globalState.categories;
+    const categories = props.globalState.catalog;
     const selectedVehicule = props.globalState.selectedVehicule;
 
-    const [selectedCategorie, setSelectedCategorie] = useState(categories[0]);
+    const [selectedCategorie, setSelectedCategorie] = useState(categories && categories[0]);
     const [displayModalAddMarque, setDisplayModalAddMarque] = useState(false);
     const [displayModalAddCategorieParent, setDisplayModalAddCategorieParent] = useState(false);
     const [displayModalAddCategorie, setDisplayModalAddCategorie] = useState(false);
@@ -42,8 +42,6 @@ function ProductAddModal(props) {
         let result = await props.dispatch(actions.get.allMarques());
         let rows = result.marques?.data?.array?.sort((a, b) => a.brandName.toLowerCase() > b.brandName.toLowerCase() ? 1 : -1);
         setMarques(rows);
-
-        await props.dispatch(actions.get.allCategories());
     }
 
     useEffect(() => {
@@ -56,7 +54,7 @@ function ProductAddModal(props) {
         ref_fab: '',
         ref_oem: '',
         categorie_id: selectedCategorie?.assemblyGroupNodeId,
-        subcategorie_id: (categories.find((el) => el.parentNodeId == selectedCategorie?.assemblyGroupNodeId))?.assemblyGroupNodeId,
+        subcategorie_id: (categories && categories.find((el) => el.parentNodeId == selectedCategorie?.assemblyGroupNodeId))?.assemblyGroupNodeId,
         prix_achat: '',
         prix_vente: '',
     }
@@ -80,16 +78,16 @@ function ProductAddModal(props) {
 
         //-- find the parent
         if (props?.categorie?.parentNodeId) {
-            let _c = categories.find((el) => el.assemblyGroupNodeId == props?.categorie?.parentNodeId);
+            let _c = categories && categories.find((el) => el.assemblyGroupNodeId == props?.categorie?.parentNodeId);
             if (_c && _c.parentNodeId) {
                 let __c = categories.find((el) => el.assemblyGroupNodeId == _c.parentNodeId);
                 initialValues.categorie_id = __c.assemblyGroupNodeId;
-                if (selectedCategorie.assemblyGroupNodeId != __c.assemblyGroupNodeId) {
+                if ((selectedCategorie && selectedCategorie.assemblyGroupNodeId) != (__c && __c.assemblyGroupNodeId)) {
                     setSelectedCategorie(__c);
                 }
             } else {
-                initialValues.categorie_id = _c.assemblyGroupNodeId;
-                if (selectedCategorie.assemblyGroupNodeId != _c.assemblyGroupNodeId) {
+                initialValues.categorie_id = _c && _c.assemblyGroupNodeId;
+                if ((selectedCategorie && selectedCategorie.assemblyGroupNodeId) != (_c && _c.assemblyGroupNodeId)) {
                     setSelectedCategorie(_c);
                 }
             }
@@ -251,7 +249,7 @@ function ProductAddModal(props) {
                                         {(() => {
                                             let subCat = [];
                                            
-                                            if (selectedCategorie.hasChilds == true) {
+                                            if (selectedCategorie && selectedCategorie.hasChilds == true) {
                                                 categories.map((c) => {
                                                     return c.parentNodeId == selectedCategorie.assemblyGroupNodeId ? c : undefined;
                                                 }).filter((el) => el != undefined).map((_v, idx) => {
