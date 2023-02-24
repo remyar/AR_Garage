@@ -1007,11 +1007,79 @@ async function getOemByCarId(value) {
     return new Promise(async (resolve, reject) => {
         try {
             database.serialize(() => {
-                database.all("SELECT * FROM oem WHERE carId LIKE ?", [value], function (err , rows) {
+                database.all("SELECT * FROM oem WHERE carId LIKE ?", [value], function (err, rows) {
                     if (err) {
                         reject(err);
                     } else {
                         resolve(rows);
+                    }
+                });
+            });
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
+
+
+async function getAllProduitsDeleted() {
+    return new Promise(async (resolve, reject) => {
+        try {
+            database.serialize(() => {
+                database.all("SELECT * FROM produits_deleted", function (err, rows) {
+                    if (err) {
+                        reject(err);
+                    } else {
+                        resolve(rows);
+                    }
+                });
+            });
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
+
+
+async function saveProduitsDeleted(value) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            console.log(value);
+            let allDeleted = await getAllProduitsDeleted();
+            if (allDeleted.find((el) => el.id == value)) {
+
+            } else {
+                database.serialize(() => {
+                    database.run("INSERT INTO produits_deleted ( produit_id , deleted ) VALUES ( ? , ? )", [value, 1], function (err) {
+                        value.id = this.lastID;
+                        value.deleted = 1;
+                        resolve(value);
+                    });
+                });
+            }
+            console.log(allDeleted);
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
+
+async function getProduitDeletedByProduitId(value) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            database.serialize(() => {
+                database.all("SELECT * FROM produits_deleted WHERE produit_id LIKE ?", [value], function (err, rows) {
+                    if (err) {
+                        reject(err);
+                    } else {
+                        let _r = { produit_id: value, deleted: false };
+
+                        if (rows.length > 0) {
+                            _r.id = rows[0].id;
+                            _r.produit_id = rows[0].produit_id;
+                            _r.deleted = ((rows[0].deleted == "0") || (rows[0].deleted == 0) || (rows[0].deleted == false)) ? false : true;
+                        }
+                        resolve(_r);
                     }
                 });
             });
@@ -1086,5 +1154,9 @@ module.exports = {
     saveConstructeur,
 
     saveOem,
-    getOemByCarId
+    getOemByCarId,
+
+    getAllProduitsDeleted,
+    getProduitDeletedByProduitId,
+    saveProduitsDeleted
 }

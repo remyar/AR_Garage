@@ -6,7 +6,7 @@ export async function setSelectedVehicule(vehicule = {}, { extra, getState }) {
     try {
         let _result = ipcRenderer.sendSync("tecdoc.getVehiculeByCarId", vehicule.tecdocId);
 
-        if (_result.carId == undefined) {
+        if (_result?.carId == undefined) {
             throw Error("not existing in tecdoc database")
         }else {
             vehicule.tecdoc = {

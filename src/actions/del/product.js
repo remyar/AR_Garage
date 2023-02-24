@@ -1,14 +1,10 @@
 import createAction from '../../middleware/actions';
+import { ipcRenderer } from 'electron';
+
 
 export async function deleteProduct(id, { extra, getState }) {
     try {
-        let state = getState();
-        state.products.forEach((el,idx) => {
-            if ( el.id == id){
-                state.products[idx].deleted = 1;
-            }
-        });
-        return { products : state.products}
+        ipcRenderer.sendSync("database.saveProduitsDeleted", id);
     } catch (err) {
         throw { message: err.message };
     }

@@ -61,7 +61,7 @@ function DevisPage(props) {
             kilometrage: el.kilometrage,
             total: (el?.total?.toFixed(2) || "0.00") + ' €',
             client: el?.client?.nom + ' ' + el?.client?.prenom,
-            emission: (el.emission ? new Date(el.emission) : new Date()).toLocaleDateString(),
+            emission: (el.date ? new Date(el.date) : new Date()).toLocaleDateString(),
             expiration: (el.expiration ? new Date(el.expiration) : new Date()).toLocaleDateString(),
             onClick: () => {
                 props.navigation.push(routeMdw.urlDevisDisplay(el?.id));

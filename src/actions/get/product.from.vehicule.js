@@ -23,11 +23,17 @@ export async function getProductsFromVehicule(vehicule, { extra, getState }) {
             products = [...__products];
 
         }
+        let deletedRefFab = [];
         products.forEach((product) => {
-            if (_products.find((f) => f.ref_fab == product.ref_fab)) {
-
-            } else {
-                _products.push(product);
+            if (_products.find((f) => f.ref_fab == product.ref_fab) == undefined) {
+                let deleted = ipcRenderer.sendSync("database.getProduitDeletedByProduitId", product.id);
+                if (deleted.deleted == false) {
+                    if (deletedRefFab.find((el) => product.ref_fab == el) == undefined) {
+                        _products.push(product);
+                    }
+                } else {
+                    deletedRefFab.push(product.ref_fab);
+                }
             }
         })
         return { productsFromVehicule: _products };

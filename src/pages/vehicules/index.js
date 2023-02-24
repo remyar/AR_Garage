@@ -175,7 +175,11 @@ function VehiculesPage(props) {
                 setDisplayVehiculeModal(undefined);
             }}
             onValidate={async (_v) => {
-                await props.dispatch(actions.set.selectedVehicule(_v));
+                try {
+                    await props.dispatch(actions.set.selectedVehicule(_v));
+                } catch (err) {
+                    props.snackbar.error(err.message);
+                }
                 setDisplayVehiculeModal(undefined);
             }}
         />}

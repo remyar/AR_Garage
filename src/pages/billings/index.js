@@ -43,7 +43,7 @@ function Billingspage(props) {
         { id: 'kilometrage', label: 'Kilométrage', minWidth: 100 },
         { id: 'total', label: 'Total', minWidth: 100 },
         { id: 'emission', label: 'Date emission', minWidth: 100 },
-        { id: 'expiration', label: 'Date expiration', minWidth: 100 },
+       // { id: 'expiration', label: 'Date expiration', minWidth: 100 },
     ];
 
     let rows = factures.map((el) => {
@@ -54,8 +54,8 @@ function Billingspage(props) {
             kilometrage: el.kilometrage,
             total: el?.total?.toFixed(2) + ' €',
             client: el?.client?.nom + ' ' + el?.client?.prenom,
-            emission: (el?.emission ? new Date(el?.emission) : new Date()).toLocaleDateString(),
-            expiration: (el?.expiration ? new Date(el?.expiration) : new Date()).toLocaleDateString(),
+            emission: (el?.date ? new Date(el?.date) : new Date()).toLocaleDateString(),
+           // expiration: (el?.expiration ? new Date(el?.expiration) : new Date()).toLocaleDateString(),
             onClick: () => {
                 props.navigation.push(routeMdw.urlBillingDisplay(el.id));
             },
