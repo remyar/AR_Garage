@@ -169,99 +169,105 @@ async function getArticleDocuments(documentId) {
 
 
 
-async function downloadDatabase() {
-
-    const download = async ({ url, p }) => {
-
-
-        let __path = "";
-        let decompPath = p.split(path.sep);
-        if (decompPath[decompPath.length - 1].includes(".")) {
-            //-- filename is included
-            decompPath.pop();
+async function DownloadFile({ url, p }) {
+    let __path = "";
+    let decompPath = p.split(path.sep);
+    if (decompPath[decompPath.length - 1].includes(".")) {
+        //-- filename is included
+        decompPath.pop();
+    }
+    for (let _path of decompPath) {
+        _path = __path + path.sep + _path;
+        if (_path.startsWith(path.sep)) {
+            _path = _path.replace(path.sep, '');
         }
-        for (let _path of decompPath) {
-            _path = __path + path.sep + _path;
-            if (_path.startsWith(path.sep)) {
-                _path = _path.replace(path.sep, '');
-            }
-            if (fs.existsSync(_path) == false) {
-                fs.mkdirSync(_path);
-            }
-            __path = _path;
+        if (fs.existsSync(_path) == false) {
+            fs.mkdirSync(_path);
+        }
+        __path = _path;
+    }
+
+
+    let totalFile = 0;
+    let actualFile = 0;
+
+    const streamPipeline = promisify(pipeline);
+
+    const response = await fetch(url);
+
+    totalFile = response.headers.get('content-length');
+
+    if (!response.ok) {
+        throw new Error(`unexpected response ${response.statusText}`);
+    }
+
+    let lastPercent = -1;
+    response.body.on("data", (chunk) => {
+        actualFile += chunk.length;
+
+        let progressObj = {
+            bytesPerSecond: 0,
+            percent: parseInt((actualFile / totalFile) * 100),
+            transferred: actualFile,
+            total: totalFile,
         }
 
-
-        let totalFile = 0;
-        let actualFile = 0;
-
-        const streamPipeline = promisify(pipeline);
-
-        const response = await fetch(url);
-
-        totalFile = response.headers.get('content-length');
-
-        if (!response.ok) {
-            throw new Error(`unexpected response ${response.statusText}`);
-        }
-
-        let lastPercent = -1;
-        response.body.on("data", (chunk) => {
-            actualFile += chunk.length;
-
-            let progressObj = {
-                bytesPerSecond: 0,
-                percent: parseInt((actualFile / totalFile) * 100),
-                transferred: actualFile,
-                total: totalFile,
-            }
-
-            if (lastPercent != progressObj.percent) {
+        if (lastPercent != progressObj.percent) {
+            if ( (parseInt(progressObj.percent) % 10) == 0 ){
                 mainWindow.webContents.send('download-progress', progressObj);
-                lastPercent = parseInt(progressObj.percent);
             }
-        });
+            lastPercent = parseInt(progressObj.percent);
+        }
+    });
 
-        await streamPipeline(response.body, createWriteStream(p));
-    };
+    await streamPipeline(response.body, createWriteStream(p));
+}
+
+async function downloadDatabase(amBrands) {
 
     return new Promise(async (resolve, reject) => {
 
         try {
 
-            if (fs.existsSync(path.resolve(dtabasePath, "tecdoc_database.zip")) == false) {
-                await download({ url: process.env.GOODRACE_TECDOC_DATABASE_URL + "/tecdoc_database.zip", p: path.resolve(dtabasePath, "tecdoc_database.zip") });
-            }
+            for (let ambBrand of amBrands) {
 
-            mainWindow.webContents.send('extract-start');
-            let lastPercent = 0;
-            await extract(path.resolve(dtabasePath, "tecdoc_database.zip"), {
-                dir: path.resolve(dtabasePath), onEntry: (entry, zipFile) => {
-                    let progressObj = {
-                        bytesPerSecond: 0,
-                        percent: parseInt((zipFile.entriesRead / zipFile.entryCount) * 100),
-                        transferred: zipFile.entriesRead,
-                        total: zipFile.entryCount,
-                    }
-
-                    if (lastPercent != progressObj.percent) {
-                        mainWindow.webContents.send('extract-progress', progressObj);
-                        lastPercent = parseInt(progressObj.percent);
-                    }
-
+                let databasename = "tecdoc_database_" + ambBrand + ".zip"
+                if (fs.existsSync(path.resolve(dtabasePath, databasename)) == false) {
+                    await DownloadFile({ url: process.env.GOODRACE_TECDOC_DATABASE_URL + "/" + databasename, p: path.resolve(dtabasePath, databasename) });
                 }
-            });
 
-            mainWindow.webContents.send('extract-end');
+                mainWindow.webContents.send('extract-start');
+                let lastPercent = 0;
+                await extract(path.resolve(dtabasePath, databasename), {
+                    dir: path.resolve(dtabasePath), onEntry: (entry, zipFile) => {
+                        let progressObj = {
+                            bytesPerSecond: 0,
+                            percent: parseInt((zipFile.entriesRead / zipFile.entryCount) * 100),
+                            transferred: zipFile.entriesRead,
+                            total: zipFile.entryCount,
+                        }
 
-            if (fs.existsSync(path.resolve(dtabasePath, "tecdoc_database.zip"))) {
-                fs.unlinkSync(path.resolve(dtabasePath, "tecdoc_database.zip"));
+                        if (lastPercent != progressObj.percent) {
+                            if ( (parseInt(progressObj.percent) % 10) == 0 ){
+                                mainWindow.webContents.send('extract-progress', progressObj);
+                            }
+                            lastPercent = parseInt(progressObj.percent);
+                        }
+
+                    }
+                });
+
+                mainWindow.webContents.send('extract-end');
+
+                if (fs.existsSync(path.resolve(dtabasePath, databasename))) {
+                    fs.rmSync(path.resolve(dtabasePath, databasename));
+                }
             }
 
             resolve();
         } catch (err) {
             if (fs.existsSync(path.resolve(dtabasePath, "tecdoc_database.zip"))) {
-                fs.unlinkSync(path.resolve(dtabasePath, "tecdoc_database.zip"));
+                fs.rmSync(path.resolve(dtabasePath, "tecdoc_database.zip"));
             }
             reject(err);
         }
@@ -333,7 +339,7 @@ async function downloadTesseract() {
         try {
 
             console.log(dtabasePath);
-            
+
             if (fs.existsSync(path.resolve(dtabasePath, "..", "tesseract", "tesseract.exe")) == false) {
 
 
