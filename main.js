@@ -16,6 +16,11 @@ require('@electron/remote/main').initialize();
 logger.transports.file.level = 'info';
 logger.transports.file.maxSize = 1048576;
 logger.transports.file.clear();
+
+console.log = logger.log;
+console.error = logger.error;
+console.warn = logger.warn;
+
 autoUpdater.logger = logger;
 
 // Module to control application life.
