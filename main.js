@@ -12,7 +12,6 @@ let envVar = /*isDev ? ".env.local" :*/ ".env";
 require('dotenv').config({ path : envVar});
 require('@electron/remote/main').initialize();
 
-
 logger.transports.file.level = 'info';
 logger.transports.file.maxSize = 1048576;
 logger.transports.file.clear();
@@ -27,7 +26,6 @@ autoUpdater.logger = logger;
 const app = electron.app
 
 app.commandLine.appendSwitch('disable-site-isolation-trials');
-
 
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow;
