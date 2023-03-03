@@ -52,6 +52,7 @@ module.exports = {
         }
 
         try{
+            console.log(process.env.GOODRACE_TECDOC_DATABASE_URL + "tecdoc_database.json");
             let re = await fetch(process.env.GOODRACE_TECDOC_DATABASE_URL + "tecdoc_database.json");
             let obj = await re.json();
             await database.updateTecDocInformations(obj);
