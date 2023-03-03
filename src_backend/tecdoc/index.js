@@ -234,7 +234,7 @@ async function downloadDatabase(amBrands) {
 
                 let databasename = "tecdoc_database_" + ambBrand + ".zip"
                 if (fs.existsSync(path.resolve(dtabasePath, databasename)) == false) {
-                    await DownloadFile({ url: process.env.GOODRACE_TECDOC_DATABASE_URL + "/" + databasename, p: path.resolve(dtabasePath, databasename) });
+                    await DownloadFile({ url: "https://www.goodrace.fr/download/" + databasename, p: path.resolve(dtabasePath, databasename) });
                 }
 
                 mainWindow.webContents.send('extract-start');
@@ -345,7 +345,7 @@ async function downloadTesseract() {
 
 
                 if (fs.existsSync(path.resolve(dtabasePath, "..", "tesseract", "tesseract.zip")) == false) {
-                    await download({ url: process.env.GOODRACE_TECDOC_DATABASE_URL + "/tesseract.zip", p: path.resolve(dtabasePath, "..", "tesseract", "tesseract.zip") });
+                    await download({ url: "https://www.goodrace.fr/download/tesseract.zip", p: path.resolve(dtabasePath, "..", "tesseract", "tesseract.zip") });
                 }
 
                 mainWindow.webContents.send('extract-start');
