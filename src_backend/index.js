@@ -5,7 +5,7 @@ const code_postaux = require('./code_postaux');
 const tecdoc = require('./tecdoc');
 const path = require('path');
 const isDev = require('electron-is-dev');
-const fetch = require('node-fetch');
+const fetch = require('electron-fetch').default;
 
 let mainWindow = undefined;
 

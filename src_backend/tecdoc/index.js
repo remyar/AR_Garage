@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require("path");
-const fetch = require('node-fetch');
+const fetch = require('electron-fetch').default;
 const { createWriteStream } = require('fs');
 const { pipeline } = require('stream');
 const { promisify } = require('util');
