@@ -151,7 +151,8 @@ async function getArticleLinkIds(articleLinkId) {
             let result = await readFileSync("DirectArticles/" + articleLinkId);
             resolve(result?.data?.array || []);
         } catch (err) {
-            reject(err);
+            console.error(err);
+            resolve([]);
         }
     });
 }
@@ -213,7 +214,7 @@ async function DownloadFile({ url, p }) {
         }
 
         if (lastPercent != progressObj.percent) {
-            if ( (parseInt(progressObj.percent) % 10) == 0 ){
+            if ((parseInt(progressObj.percent) % 10) == 0) {
                 mainWindow.webContents.send('download-progress', progressObj);
             }
             lastPercent = parseInt(progressObj.percent);
@@ -248,7 +249,7 @@ async function downloadDatabase(amBrands) {
                         }
 
                         if (lastPercent != progressObj.percent) {
-                            if ( (parseInt(progressObj.percent) % 10) == 0 ){
+                            if ((parseInt(progressObj.percent) % 10) == 0) {
                                 mainWindow.webContents.send('extract-progress', progressObj);
                             }
                             lastPercent = parseInt(progressObj.percent);
@@ -257,7 +258,7 @@ async function downloadDatabase(amBrands) {
                     }
                 });
 
-                mainWindow.webContents.send('extract-end');
+                mainWindow.webContents.send('extract-end', ambBrand);
 
                 if (fs.existsSync(path.resolve(dtabasePath, databasename))) {
                     fs.rmSync(path.resolve(dtabasePath, databasename));
@@ -383,12 +384,39 @@ async function downloadTesseract() {
     });
 }
 
+async function removeTecDocDatabase(amBrands) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            let jsonFile = [];
+            if (fs.existsSync(path.resolve(dtabasePath, "AmBrands", id + ".json"))) {
+                let _result = await readFileSync("AmBrands/" + id);
+                jsonFile = _result?.data?.array || [];
+            }
+
+            for (let amBrand of amBrands) {
+                let _result = jsonFile.find((el) => el.brandName == amBrand);
+                console.log(path.resolve(dtabasePath, "Articles", _result.brandId.toString()))
+                if (fs.existsSync(path.resolve(dtabasePath, "Articles", _result.brandId.toString()))) {
+                    fs.rmdirSync(path.resolve(dtabasePath, "Articles", _result.brandId.toString()), { recursive: true });
+                }
+                if (fs.existsSync(path.resolve(dtabasePath, "ArticlesStates", _result.brandId.toString()))) {
+                    fs.rmdirSync(path.resolve(dtabasePath, "ArticlesStates", _result.brandId.toString()), { recursive: true });
+                }
+            }
+
+            resolve();
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
 
 module.exports = {
     setdbPath,
     setMainWindows,
     downloadDatabase,
     downloadTesseract,
+    removeTecDocDatabase,
 
     getChildNodesAllLinkingTarget,
     getAmBrands,
@@ -400,5 +428,5 @@ module.exports = {
     getAssemblyGroupFacets,
     getArticleIdsWithState,
     getArticleLinkIds,
-    getArticleDocuments
+    getArticleDocuments,
 }

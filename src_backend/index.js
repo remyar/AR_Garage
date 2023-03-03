@@ -5,6 +5,7 @@ const code_postaux = require('./code_postaux');
 const tecdoc = require('./tecdoc');
 const path = require('path');
 const isDev = require('electron-is-dev');
+const fetch = require('node-fetch');
 
 let mainWindow = undefined;
 
@@ -47,6 +48,15 @@ module.exports = {
 
 
         } catch (err) {
+            console.error(err);
+        }
+
+        try{
+            let re = await fetch(process.env.GOODRACE_TECDOC_DATABASE_URL + "tecdoc_database.json");
+            let obj = await re.json();
+            await database.updateTecDocInformations(obj);
+        }
+        catch (err) {
             console.error(err);
         }
     }

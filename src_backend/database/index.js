@@ -1089,6 +1089,107 @@ async function getProduitDeletedByProduitId(value) {
     });
 }
 
+async function getTecDocInformations() {
+    return new Promise(async (resolve, reject) => {
+        try {
+            database.serialize(() => {
+                database.all("SELECT * FROM tecdoc", function (err, rows) {
+                    if (err) {
+                        reject(err);
+                    } else {
+                        resolve(rows || []);
+                    }
+                });
+            });
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
+
+async function getTecDocInformationsByAmBrand(ambrand) {
+    return new Promise((resolve, reject) => {
+        database.serialize(() => {
+            database.all("SELECT * FROM tecdoc WHERE ambrand LIKE ?", [ambrand], function (err, rows) {
+                if (err) {
+                    reject(err);
+                } else {
+                    resolve(rows[0]);
+                }
+            })
+        });
+    });
+}
+
+async function insertNewTecDocInformations(entry) {
+    return new Promise((resolve, reject) => {
+        database.serialize(() => {
+            database.run("INSERT INTO tecdoc ( version , ambrand , installed ) VALUES ( ? , ? , ? )", [entry.version, entry.ambrand, 0], function (err) {
+                entry.id = this.lastID;
+                entry.installed = 0;
+                resolve(entry);
+            });
+        });
+    });
+}
+
+async function updateTecdocDatabase(entry) {
+    return new Promise((resolve, reject) => {
+        database.serialize(() => {
+            database.run("UPDATE tecdoc SET version=?,installed=? WHERE id=?", [entry.version, entry.installed, entry.id], function (err) {
+                if (err) {
+                    reject(err);
+                } else {
+                    resolve(entry);
+                }
+            });
+        });
+    });
+}
+
+async function updateTecDocInformations(tecdoc) {
+    return new Promise(async (resolve, reject) => {
+        for (let ambrand of tecdoc.ambrands) {
+            let entry = await getTecDocInformationsByAmBrand(ambrand);
+            if (entry == undefined) {
+                await insertNewTecDocInformations({ version: tecdoc.version.buildDate, ambrand: ambrand });
+            } else {
+                if (entry.installed == 0) {
+                    if (entry.ambrand == ambrand && tecdoc.installed == true) {
+                        entry.installed = 1;
+                    }
+                    await updateTecdocDatabase(entry);
+                }
+            }
+        }
+        resolve();
+    });
+}
+
+async function uninstallTecDocDatabase(id) {
+    return new Promise((resolve, reject) => {
+        database.serialize(() => {
+            database.run("UPDATE tecdoc SET installed=? WHERE id=?", [0, id], function (err) {
+                if (err) {
+                    reject(err);
+                } else {
+                    resolve(id);
+                }
+            });
+        });
+    });
+}
+
+
+async function removeTecDocDatabase(idstab) {
+    return new Promise(async (resolve, reject) => {
+        for (let id of idstab) {
+            await uninstallTecDocDatabase(id);
+        }
+        resolve();
+    });
+}
+
 module.exports = {
     setdbPath,
     getDatabase,
@@ -1158,5 +1259,9 @@ module.exports = {
 
     getAllProduitsDeleted,
     getProduitDeletedByProduitId,
-    saveProduitsDeleted
+    saveProduitsDeleted,
+
+    getTecDocInformations,
+    updateTecDocInformations,
+    removeTecDocDatabase,
 }

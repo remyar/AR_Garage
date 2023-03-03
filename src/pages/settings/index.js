@@ -25,6 +25,7 @@ import Grid from '@mui/material/Grid';
 import actions from '../../actions';
 import Loader from '../../components/Loader';
 
+import AmBrandsSelectorForInstallationModal from '../../components/AmBrandsSelectorForInstallationModal';
 
 import * as Yup from 'yup';
 import { Formik, Form } from 'formik';
@@ -52,6 +53,21 @@ function SettingsPage(props) {
     const globalState = props.globalState;
 
     const [displayLoader, setDisplayLoader] = useState(false);
+    const [displayAmBrandsSelector, setDisplayAmBrandsSelector] = useState(false);
+
+    async function fetchData() {
+        setDisplayLoader(true);
+        try {
+            await props.dispatch(actions.tecdoc.getTecDocInformations());
+        } catch (err) {
+            props.snackbar.error(err.message);
+        }
+        setDisplayLoader(false);
+    }
+
+    useEffect(() => {
+        fetchData();
+    }, []);
 
     let initialValues = {
         nom: globalState?.settings?.entreprise?.nom || "",
@@ -296,18 +312,55 @@ function SettingsPage(props) {
             <Divider />
             <ListItem>
                 <ListItemText primary="Utilisé le catalogue de piéces" />
-                <Switch checked={globalState.settings.useCatalog ? globalState.settings.useCatalog : false} onChange={async (event)=>{
+                <Switch checked={globalState.settings.useCatalog ? globalState.settings.useCatalog : false} onChange={async (event) => {
                     await props.dispatch(actions.set.saveSettings({ useCatalog: event.target.checked }));
-                    if ( event.target.checked == true ){
-                        await props.dispatch(actions.database.installTecdocDatabase());
-                    }
-                }}/>
+                    //setDisplayAmBrandsSelector(event.target.checked)
+                    /* if ( event.target.checked == true ){
+                         await props.dispatch(actions.database.installTecdocDatabase());
+                     }*/
+                }} />
             </ListItem>
-            {globalState.settings.useCatalog && <ListItem>
-                <ListItemText primary="Version du catalogue de piéces" />                            
-                <ListItemText secondary="21/02/2023" style={{textAlign : "right"}}/>  
+            {((globalState.settings?.useCatalog == 1)  || (globalState.settings?.useCatalog == true)) && <ListItem>
+                <ListItemText primary="Selectionner les Fabriquants" />
+                <Button variant="contained" style={{ textAlign: "right" }} onClick={()=>{
+                    setDisplayAmBrandsSelector(true);
+                }}>Selectionner les Fabriquants</Button>
             </ListItem>}
         </List>
+
+        {displayAmBrandsSelector && <AmBrandsSelectorForInstallationModal
+            display={displayAmBrandsSelector}
+            tecdoc_server={globalState.tecdoc_server || {}}
+            tecdoc={globalState.tecdoc || []}
+            onClose={() => {
+                setDisplayAmBrandsSelector(false);
+            }}
+            onCancel={async () => {
+                setDisplayAmBrandsSelector(false);
+            }}
+            onValidate={(selectedAmBrands) => {
+                let installed = globalState.tecdoc.filter((el) => el.installed);
+                let installAmBrands = selectedAmBrands.map((amBrand) => {
+                    if ( installed.find((el) => el.ambrand == amBrand) == undefined ){
+                        return amBrand;
+                    }
+                }).filter((el) => el != undefined);
+                let removeAmBrands = globalState.tecdoc.filter((el) => el.installed);
+                removeAmBrands = removeAmBrands.map((el) => {
+                    if ( selectedAmBrands.find((f)=> f == el.ambrand) == undefined ){
+                        return el;
+                    }
+                }).filter((el)=>el != undefined);
+
+                if ( installAmBrands.length > 0){
+                    props.dispatch(actions.database.installTecdocDatabase(installAmBrands));
+                }
+                if ( removeAmBrands.length > 0 ){
+                    props.dispatch(actions.database.removeTecDocDatabase(removeAmBrands));
+                }
+                setDisplayAmBrandsSelector(false);
+            }}
+        />}
     </Box>;
 }
 

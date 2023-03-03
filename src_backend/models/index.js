@@ -14,6 +14,7 @@ const produits = require('./produits');
 const produits_deleted = require('./produits_deleted');
 const services = require('./services');
 const oem = require('./oem');
+const tecdoc = require('./tecdoc');
 
 module.exports = {
     database : {
@@ -32,6 +33,7 @@ module.exports = {
         produits,
         services,
         produits_deleted,
+        tecdoc,
         oem
     }
 }

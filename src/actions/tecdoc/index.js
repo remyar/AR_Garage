@@ -7,6 +7,7 @@ import getArticleIdsWithState from './getArticleIdsWithState';
 import getDirectArticlesByIds from './getDirectArticlesByIds';
 import getMotorIdsByManuIdCriteria2 from './getMotorIdsByManuIdCriteria2';
 import getVehicleIdsByMotor2  from './getVehicleIdsByMotor2'
+import getTecDocInformations  from './getTecDocInformations'
 
 export default {
     getAutoFromPlate,
@@ -15,6 +16,7 @@ export default {
     getModelSeries,
     getMotorisations,
     getArticleIdsWithState,
+    getTecDocInformations,
     //getDirectArticlesByIds,
     //getMotorIdsByManuIdCriteria2,
     //getVehicleIdsByMotor2

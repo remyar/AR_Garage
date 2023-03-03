@@ -75,14 +75,18 @@ function App(props) {
         electron.ipcRenderer.on('extract-start', (event, message) => {
             props.snackbar.warning(intl.formatMessage({ id: 'extract.start' }));
         });
+
         electron.ipcRenderer.on('extract-end', (event, message) => {
             props.snackbar.success(intl.formatMessage({ id: 'extract.end' }));
+            props.dispatch(actions.database.updateTecDocInformations(message , true));
         });
 
         electron.ipcRenderer.on('extract-progress', (event, message) => {
             props.snackbar.info(intl.formatMessage({ id: 'extract.progress' }) + ' : ' + parseInt(message?.percent || "0.0") + "%");
         });
 
+        props.dispatch(actions.database.getTecDocInformations());
+  //      props.dispatch(actions.tecdoc.getTecDocInformations());
     }, []);
 
     return <Box>
