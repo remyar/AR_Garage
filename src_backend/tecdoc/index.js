@@ -7,7 +7,7 @@ const { promisify } = require('util');
 const extract = require('extract-zip')
 
 let dtabasePath = undefined;
-let id = 20450;
+let id = 20754;
 let mainWindow = undefined;
 
 async function setdbPath(_path, options) {
@@ -69,7 +69,7 @@ async function getModelSeries(manuId) {
             let result = await readFileSync("ModelSeries/" + manuId);
             resolve(result?.data?.array || []);
         } catch (err) {
-            reject(err);
+            resolve([]);
         }
     });
 }

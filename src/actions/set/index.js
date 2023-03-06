@@ -11,6 +11,7 @@ import savePaiementSettings from "./save.paiement.settings";
 import saveEntrepriseLogo from "./save.entreprise.logo";
 import saveSettings from "./save.settings";
 import newCategorie from './new.categorie';
+import newVehicule from "./new.vehicule";
 
 export default {
     selectedVehicule,
@@ -25,5 +26,6 @@ export default {
     savePaiementSettings,
     saveEntrepriseLogo,
     saveSettings,
-    newCategorie
+    newCategorie,
+    newVehicule
 }

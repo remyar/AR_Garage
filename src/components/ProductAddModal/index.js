@@ -40,7 +40,8 @@ function ProductAddModal(props) {
 
     async function fetchData() {
         let result = await props.dispatch(actions.get.allMarques());
-        let rows = result.marques?.data?.array?.sort((a, b) => a.brandName.toLowerCase() > b.brandName.toLowerCase() ? 1 : -1);
+        result.marques.data.array = result.marques?.data?.array.filter((el) => ((el.brandName != "") && (el.brandName != null)));
+        let rows = result.marques?.data?.array?.sort((a, b) => a.brandName && a.brandName.toLowerCase() > b.brandName && b.brandName.toLowerCase() ? 1 : -1);
         setMarques(rows);
     }
 
@@ -176,7 +177,7 @@ function ProductAddModal(props) {
                                     disablePortal
                                     id="combo-box-demo"
                                     value={values.marque}
-                                    options={marques.map((r) => r.brandName.toUpperCase())}
+                                    options={marques.map((r) => r.brandName && r.brandName.toUpperCase())}
                                     sx={{ width: '100%' }}
                                     onChange={(e, value) => setFieldValue("marque", value.toUpperCase() || "")}
                                     renderInput={(params, option) => <TextField name="marque" error={(errors.marque && touched.marque) ? true : false} {...params} label="Marque" variant="outlined" sx={{ width: "100%", textAlign: "center" }} />}

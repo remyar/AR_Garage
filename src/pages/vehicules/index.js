@@ -24,6 +24,7 @@ import Loader from '../../components/Loader';
 
 import VehiculeInformationModal from '../../components/VehiculeInformationsModal';
 import VehiculeAddModal from '../../components/VehiculeAddModal';
+import VehiculeAddManuallyModal from '../../components/VehiculeAddManuallyModal';
 import VehiculeTechnicListModal from '../../components/VehiculeTechnicListModal';
 
 import ImageViewer from '../../components/ImageViewer';
@@ -43,6 +44,7 @@ function VehiculesPage(props) {
     const [selectedVehicule, setSelectedVehicule] = useState(undefined);
     const [displayConfirmModal, setDisplayConfirmModal] = useState(undefined);
     const [displaVehiculeAddModal, setDisplayVehiculeAddModal] = useState(false);
+    const [displaVehiculeAddManuallyModal, setDisplayVehiculeAddManuallyModal] = useState(false);
     const [displayVehiculeTechnicModal, setDisplayVehiculeTechnicModal] = useState(undefined);
     const [displayVehiculeModal, setDisplayVehiculeModal] = useState(undefined);
     const [displayImageModal, setDisplayImageModal] = useState(undefined);
@@ -203,6 +205,31 @@ function VehiculesPage(props) {
             }}
         />}
 
+        {displaVehiculeAddManuallyModal && <VehiculeAddManuallyModal
+            display={displaVehiculeAddManuallyModal ? true : false}
+            onClose={() => {
+                setDisplayVehiculeAddManuallyModal(undefined);
+            }}
+            onValidate={async (_v) => {
+                setDisplayVehiculeAddManuallyModal(false);
+                setDisplayLoader(true);
+                try {
+                    let tecdocVehicule = await props.dispatch(actions.tecdoc.getVehicleById(_v.tecdocId));
+                    console.log(tecdocVehicule);
+                    _v.puissance = tecdocVehicule?.vehiculeIds?.vehicleDetails?.powerHpFrom;
+                    _v.engineCode = tecdocVehicule?.vehiculeIds?.motorCodes?.array && tecdocVehicule?.vehiculeIds?.motorCodes?.array[0].motorCode;
+                    _v.energy = tecdocVehicule?.vehiculeIds?.vehicleDetails?.motorType;
+
+                    let result = await props.dispatch(actions.set.newVehicule(_v));
+                    await fetchData();
+                    setDisplayVehiculeModal(result.vehicule);
+                } catch (err) {
+                    props.snackbar.error(err.message);
+                }
+                setDisplayLoader(false);
+            }}
+        />}
+
         {displayVehiculeTechnicModal && <VehiculeTechnicListModal
             onClose={() => {
                 setDisplayVehiculeTechnicModal(undefined);
@@ -243,6 +270,14 @@ function VehiculesPage(props) {
                 tooltipTitle={intl.formatMessage({ id: 'vehicules.add' })}
                 onClick={async () => {
                     setDisplayVehiculeAddModal(true);
+                }}
+            />
+            <SpeedDialAction
+                key={'ManuallyNewVehicule'}
+                icon={<AddIcon />}
+                tooltipTitle={intl.formatMessage({ id: 'vehicules.add.manually' })}
+                onClick={async () => {
+                    setDisplayVehiculeAddManuallyModal(true);
                 }}
             />
         </SpeedDial>

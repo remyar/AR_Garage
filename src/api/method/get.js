@@ -50,6 +50,8 @@ export default function get(url, config = {}) {
                 resolve(r)
             } else if ( response.status == 404 ){
                 reject({message : "Not found"});
+            } else if ( response.status == 204 ){
+                reject({message : "Unknow Vehicule"});
             } else if ( response.status == 500 ){
                 reject({message : "Temporary unavailable"});
             } else {

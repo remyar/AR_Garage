@@ -605,7 +605,7 @@ async function saveMarque(marque) {
             if (_marque == undefined) {
                 //-- insert
                 database.serialize(() => {
-                    database.run("INSERT INTO marques ( nom , tecdocId , logoId  ) VALUES ( ? , ? , ? )", [marque.nom, marque.tecdocId, marque.logoId], function (err) {
+                    database.run("INSERT INTO marques ( nom ) VALUES ( ? )", [marque.name], function (err) {
                         if (err) {
                             reject(err);
                         } else {

@@ -25,7 +25,7 @@ export async function getAutoFromPlate(plate = "AA-456-BB", { extra, getState })
 
             vehicule = {
                 oscaroId: parseInt(detail.id),
-                tecdocId : tecdocData[0]?.carId || undefined,
+                tecdocId: tecdocData[0]?.carId || undefined,
                 brand: detail.labels["core-label"].fr.split(" ")[0],
                 model: detail.labels["core-label"].fr.split(" ")[1],
                 puissance: puissance,

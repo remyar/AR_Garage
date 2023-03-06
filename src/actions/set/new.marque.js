@@ -1,12 +1,11 @@
 import createAction from '../../middleware/actions';
+import { ipcRenderer } from 'electron';
 
 export async function setNewMarque(value = {}, { extra, getState }) {
 
     try {
-        let state = getState();
-        let marques = state.marques;
-        marques.push({ ...value })
-        return { marques: marques };
+        let marque = ipcRenderer.sendSync("database.saveMarque",value);
+        return { marque: marque };
     } catch (err) {
         throw { message: err.message };
     }

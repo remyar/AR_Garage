@@ -205,7 +205,7 @@ function DevisCreatePage(props) {
                 <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
                     <Grid item xs={12}>
                         <TextField label="Vehicule" focused variant="outlined" sx={{ width: "100%", textAlign: "left" }} name="Vehicule" multiline maxRows='3' minRows='3'
-                            value={selectedVehicule?.designation + "\r\n\r\n" + selectedVehicule?.vin}
+                            value={selectedVehicule?.designation + "\r\n\r\n" + (selectedVehicule?.vin || "")}
                         />
                     </Grid>
                 </Grid>

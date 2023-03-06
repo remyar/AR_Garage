@@ -320,9 +320,9 @@ function SettingsPage(props) {
                      }*/
                 }} />
             </ListItem>
-            {((globalState.settings?.useCatalog == 1)  || (globalState.settings?.useCatalog == true)) && <ListItem>
+            {((globalState.settings?.useCatalog == 1) || (globalState.settings?.useCatalog == true)) && <ListItem>
                 <ListItemText primary="Selectionner les Fabriquants" />
-                <Button variant="contained" style={{ textAlign: "right" }} onClick={()=>{
+                <Button variant="contained" style={{ textAlign: "right" }} onClick={() => {
                     setDisplayAmBrandsSelector(true);
                 }}>Selectionner les Fabriquants</Button>
             </ListItem>}
@@ -341,21 +341,21 @@ function SettingsPage(props) {
             onValidate={(selectedAmBrands) => {
                 let installed = globalState.tecdoc.filter((el) => el.installed);
                 let installAmBrands = selectedAmBrands.map((amBrand) => {
-                    if ( installed.find((el) => el.ambrand == amBrand) == undefined ){
+                    if (installed.find((el) => el.ambrand == amBrand) == undefined) {
                         return amBrand;
                     }
                 }).filter((el) => el != undefined);
                 let removeAmBrands = globalState.tecdoc.filter((el) => el.installed);
                 removeAmBrands = removeAmBrands.map((el) => {
-                    if ( selectedAmBrands.find((f)=> f == el.ambrand) == undefined ){
+                    if (selectedAmBrands.find((f) => f == el.ambrand) == undefined) {
                         return el;
                     }
-                }).filter((el)=>el != undefined);
+                }).filter((el) => el != undefined);
 
-                if ( installAmBrands.length > 0){
+                if (installAmBrands.length > 0) {
                     props.dispatch(actions.database.installTecdocDatabase(installAmBrands));
                 }
-                if ( removeAmBrands.length > 0 ){
+                if (removeAmBrands.length > 0) {
                     props.dispatch(actions.database.removeTecDocDatabase(removeAmBrands));
                 }
                 setDisplayAmBrandsSelector(false);

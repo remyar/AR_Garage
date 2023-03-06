@@ -15,6 +15,8 @@ import actions from '../../actions';
 function CatalogSelectVehicule(props) {
     const intl = props.intl;
 
+    const verticalDisplay = props.vertical || false;
+
     const [constructeurs, setConstructeurs] = useState([]);
     const [modelSeries, setModelSeries] = useState([]);
     const [motorisations, setMotorisations] = useState([]);
@@ -62,33 +64,34 @@ function CatalogSelectVehicule(props) {
         }
     }
 
-
     useEffect(() => {
         fetchData();
     }, []);
 
     useEffect(() => {
         if (selectedConstructeur?.manuId != undefined) {
+            props.onBrandChange && props.onBrandChange(selectedConstructeur);
             fetchModelsSeries(selectedConstructeur.manuId);
         }
     }, [selectedConstructeur]);
 
     useEffect(() => {
         if (selectedModelSeries?.modelId != undefined) {
+            props.onModelChange && props.onModelChange(selectedModelSeries);
             fetchMotorisations(selectedModelSeries.modelId);
         }
     }, [selectedModelSeries]);
 
     useEffect(() => {
-        if ( selectedMotorisations?.carId != undefined){
+        if (selectedMotorisations?.carId != undefined) {
             props.onChange && props.onChange(selectedMotorisations);
         }
-    },[selectedMotorisations]);
+    }, [selectedMotorisations]);
 
 
-    return <Box sx={{border : 0 , boxShadow : 0}}>
+    return <Box sx={{ border: 0, boxShadow: 0 }}>
         <Grid container spacing={2}>
-            <Grid item xs={4} sx={{ textAlign: 'left' }}>
+            <Grid item xs={verticalDisplay ? 12 : 4} sx={{ textAlign: 'left' }}>
                 <Autocomplete
                     disablePortal
                     id="combo-box-demo"
@@ -102,7 +105,7 @@ function CatalogSelectVehicule(props) {
                     renderInput={(params, option) => <TextField {...params} label="Construteurs" variant="outlined" sx={{ width: "100%", textAlign: "left" }} name="Construteurs" />}
                 />
             </Grid>
-            <Grid item xs={4} sx={{ textAlign: 'left' }}>
+            <Grid item xs={verticalDisplay ? 12 : 4} sx={{ textAlign: 'left' }}>
                 <Autocomplete
                     disablePortal
                     id="combo-box-demo"
@@ -116,7 +119,7 @@ function CatalogSelectVehicule(props) {
                     renderInput={(params, option) => <TextField {...params} label="Modéles" variant="outlined" sx={{ width: "100%", textAlign: "left" }} name="ModelSeries" />}
                 />
             </Grid>
-            <Grid item xs={4} sx={{ textAlign: 'left' }}>
+            <Grid item xs={verticalDisplay ? 12 : 4} sx={{ textAlign: 'left' }}>
                 <Autocomplete
                     disablePortal
                     id="combo-box-demo"

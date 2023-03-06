@@ -15,6 +15,13 @@ function AmBrandsSelectorForInstallationModal(props) {
     const [selectedAmBrands, setSelectedAmbrands] = useState(installed.filter((el) => el.installed == 1).map((el) => el.ambrand));
     let maxHeight = window.innerHeight * 0.7;    // Max height for the image
 
+    let allBrands = [];
+    [...tecdoc_server.ambrands , ...installed.map((el) => el.ambrand)].forEach((el) => {
+        if ( allBrands.find((_el) => _el == el) == undefined){
+            allBrands.push(el);
+        }
+    });
+
     return <Modal display={props.display || false} >
         <Paper elevation={0} >
             <Grid container sx={{ paddingBottom: '20px' }}>
@@ -30,7 +37,7 @@ function AmBrandsSelectorForInstallationModal(props) {
             overflow : "auto"
             }} >
 
-            {tecdoc_server && tecdoc_server.ambrands && tecdoc_server.ambrands.map((amBrand) => {
+            {allBrands && allBrands.map((amBrand) => {
                 let _installed = installed.find((el) => el.ambrand == amBrand);
 
                 return <Grid container>
