@@ -146,7 +146,7 @@ function CatalogPage(props) {
                                     if (article?.articleThumbnails?.array && (article?.articleThumbnails?.array.length > 0) && article?.articleThumbnails?.array[0].document && article?.articleThumbnails?.array[0].document.length > 0) {
                                         return article?.articleThumbnails?.array && <img width={150} src={"data:image/png;base64, " + article?.articleThumbnails?.array[0].document} />
                                     } else {
-                                        return <img width={150} src={"/no-image-available.jpg"} />
+                                        return <img width={150} src={"./no-image-available.jpg"} />
                                     }
                                 })()}
                             </Grid>
