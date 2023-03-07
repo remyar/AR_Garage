@@ -26,7 +26,7 @@ const ValidationSchema = Yup.object().shape({
 function ClientAddModal(props) {
     const intl = props.intl;
 
-    const [client, setClient] = useState({});
+    const [client, setClient] = useState(props.editClient ? props.editClient : {});
     const [selectVille, setSelectVille] = useState(props.editClient && props.editClient.ville ? [{ name: props.editClient.ville }] : []);
 
     async function fetchData() {
@@ -57,8 +57,6 @@ function ClientAddModal(props) {
 
     if (props.editClient) {
         initialValues = { ...initialValues, ...props.editClient }
-       // initialValues.code_postal = props.editClient.postal;
-       // initialValues.ville = props.editClient.ville;
     }
 
     return <Modal display={props.display || false} >
@@ -71,7 +69,7 @@ function ClientAddModal(props) {
                     props.onValidate && props.onValidate(values, props.editClient ? true : false);
                 }}
             >
-                {({ values, errors, touched, handleSubmit, handleChange  , setFieldValue}) => (
+                {({ values, errors, touched, handleSubmit, handleChange, setFieldValue }) => (
                     <Form onSubmit={handleSubmit}>
                         <Grid container spacing={2}>
                             <Grid item xs={12} sx={{ textAlign: 'center' }}>
@@ -98,7 +96,7 @@ function ClientAddModal(props) {
                             <Grid item xs={6} >
                                 <InputMask value={values.code_postal} mask="99999" maskChar=" " name="code_postal" alwaysShowMask={false} onChange={(event) => {
                                     setClient({ ...client, code_postal: event.target.value });
-                                    setFieldValue("ville" , (selectVille[0] || {} ).nom_de_la_commune || undefined);
+                                    setFieldValue("ville", (selectVille[0] || {}).nom_de_la_commune || undefined);
                                     handleChange(event);
                                 }}>
                                     {(inputProps) => <TextField {...inputProps} label={intl.formatMessage({ id: 'clients.code_postal' })} variant="outlined" sx={{ width: "100%", textAlign: "center" }} disableUnderline />}
