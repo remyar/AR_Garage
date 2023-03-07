@@ -326,6 +326,17 @@ function SettingsPage(props) {
                     setDisplayAmBrandsSelector(true);
                 }}>Selectionner les Fabriquants</Button>
             </ListItem>}
+            <br />
+            <ListItem disablePadding>
+                <Typography variant="h5" gutterBottom component="div">{intl.formatMessage({ id: 'settings.debug' })}</Typography>
+            </ListItem>
+            <Divider />
+            <ListItem>
+                <ListItemText primary="Ouvrir la console" />
+                <Switch onChange={async (event) => {
+                    props.dispatch(actions.set.openConsole(event.target.checked));
+                }} />
+            </ListItem>
         </List>
 
         {displayAmBrandsSelector && <AmBrandsSelectorForInstallationModal

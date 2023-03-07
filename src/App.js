@@ -86,7 +86,7 @@ function App(props) {
         });
 
         props.dispatch(actions.database.getTecDocInformations());
-  //      props.dispatch(actions.tecdoc.getTecDocInformations());
+        
     }, []);
 
     return <Box>

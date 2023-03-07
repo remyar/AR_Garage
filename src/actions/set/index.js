@@ -12,6 +12,7 @@ import saveEntrepriseLogo from "./save.entreprise.logo";
 import saveSettings from "./save.settings";
 import newCategorie from './new.categorie';
 import newVehicule from "./new.vehicule";
+import openConsole from './open.console';
 
 export default {
     selectedVehicule,
@@ -27,5 +28,6 @@ export default {
     saveEntrepriseLogo,
     saveSettings,
     newCategorie,
-    newVehicule
+    newVehicule,
+    openConsole
 }
