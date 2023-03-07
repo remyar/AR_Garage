@@ -69,6 +69,10 @@ function ProduitsPage(props) {
         {
             label: '', maxWidth: 100, minWidth: 100, render: (row) => {
                 return <span>
+                    <EditIcon sx={{ cursor: 'pointer' }} onClick={() => {
+                        setDisplayProductEditModal(row);
+                        setDisplayProductAddModal(true);
+                    }} />
                     <DeleteForeverIcon sx={{ color: 'red', cursor: 'pointer', marginLeft: '15px' }} onClick={() => {
                         setDisplayConfirmModal(row);
                     }} />
@@ -79,20 +83,6 @@ function ProduitsPage(props) {
 
     let rows = [...produits];
 
-    /*
-    produits.forEach((p , idx) => {
-        let __p = rows.find((el) => ((el.ref_fab == p.ref_fab) && (el.brand == p.brand)));
-        if (  __p == undefined){
-            p.oems = [];
-            rows.push(p);
-        } else {
-            __p.oems.push(p.ref_oem);
-        }       
-    });
-    */
-/*
-    rows = rows.filter((el) => el?.nom?.toLowerCase().startsWith(filter));
-*/
     return <Box>
 
         <Loader display={displayLoader} />
@@ -109,17 +99,16 @@ function ProduitsPage(props) {
                 setDisplayConfirmModal(undefined);
                 await props.dispatch(actions.del.product(idToDelete));
                 await fetchData();
-                /*let result = await props.dispatch(actions.get.allProducts());
-                setProduits(result.products);*/
                 setDisplayLoader(false);
             }}
         />}
 
         {displayProductAddModal && <ProductAddModal
-            editClient={displayProductEditModal}
+            editProduct={displayProductEditModal}
             display={displayProductAddModal}
             onClose={() => {
                 setDisplayProductAddModal(false);
+                setDisplayProductEditModal(undefined);
             }}
             onValidate={async (product, edit) => {
                 setDisplayLoader(true);
@@ -127,7 +116,7 @@ function ProduitsPage(props) {
 
                 try {
                     await props.dispatch(actions.set.newProduct(product));
-                   // await props.dispatch(actions.set.oemProduct({ name: product.ref_oem, vehicule_id: selectedVehicule.id }));
+                    // await props.dispatch(actions.set.oemProduct({ name: product.ref_oem, vehicule_id: selectedVehicule.id }));
                 } catch (err) {
 
                 }
@@ -137,6 +126,7 @@ function ProduitsPage(props) {
                 } catch (err) {
 
                 }
+                setDisplayProductEditModal(undefined);
                 setDisplayLoader(false);
             }}
         />}
@@ -159,11 +149,7 @@ function ProduitsPage(props) {
                 icon={<AddIcon />}
                 tooltipTitle={intl.formatMessage({ id: 'products.add' })}
                 onClick={async () => {
-                   // if ( selectedVehicule ){
-                        setDisplayProductAddModal(true);
-                  /*  } else {
-                        props.snackbar.error(intl.formatMessage({ id: 'no.vehicule.selected' }));
-                    }*/
+                    setDisplayProductAddModal(true);
                 }}
             />
         </SpeedDial>

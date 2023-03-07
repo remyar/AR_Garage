@@ -1,7 +1,7 @@
 import createAction from '../../middleware/actions';
 import { ipcRenderer } from 'electron';
 
-export async function getChildNodesAllLinkingTarget(carId, { extra, getState }) {
+export async function getChildNodesAllLinkingTarget(carId = undefined, { extra, getState }) {
 
     const api = extra.api;
 

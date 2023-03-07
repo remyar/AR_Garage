@@ -28,10 +28,10 @@ const ValidationSchema = Yup.object().shape({
 
 function ProductAddModal(props) {
     const intl = props.intl;
-    const categories = props.globalState.catalog;
+    let categories = props.globalState.catalog;
     const selectedVehicule = props.globalState.selectedVehicule;
 
-    const [selectedCategorie, setSelectedCategorie] = useState(categories && categories[0]);
+    const [selectedCategorie, setSelectedCategorie] = useState(props.editProduct ? categories && categories.find((el) => el.assemblyGroupNodeId == props.editProduct.categorie_id): categories && categories[0]);
     const [displayModalAddMarque, setDisplayModalAddMarque] = useState(false);
     const [displayModalAddCategorieParent, setDisplayModalAddCategorieParent] = useState(false);
     const [displayModalAddCategorie, setDisplayModalAddCategorie] = useState(false);
@@ -39,6 +39,11 @@ function ProductAddModal(props) {
     const [marques, setMarques] = useState([]);
 
     async function fetchData() {
+        if ( categories == undefined ){
+            let _c = await props.dispatch(actions.tecdoc.getChildNodesAllLinkingTarget(undefined));
+            categories = _c.catalog;
+            setSelectedCategorie(props.editProduct ? categories && categories.find((el) => el.assemblyGroupNodeId == props.editProduct.categorie_id): categories && categories[0]);
+        }
         let result = await props.dispatch(actions.get.allMarques());
         result.marques.data.array = result.marques?.data?.array.filter((el) => ((el.brandName != "") && (el.brandName != null)));
         let rows = result.marques?.data?.array?.sort((a, b) => a.brandName && a.brandName.toLowerCase() > b.brandName && b.brandName.toLowerCase() ? 1 : -1);
