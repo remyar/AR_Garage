@@ -22,6 +22,8 @@ function AmBrandsSelectorForInstallationModal(props) {
         }
     });
 
+    allBrands = allBrands.sort();
+
     return <Modal display={props.display || false} >
         <Paper elevation={0} >
             <Grid container sx={{ paddingBottom: '20px' }}>
