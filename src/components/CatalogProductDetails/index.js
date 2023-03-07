@@ -94,7 +94,7 @@ function CatalogProductDetails(props) {
                             if ( image?.document && image?.document?.length > 0){
                                 return <img width={400} key={i} src={"data:image/png;base64, " + image?.document} />
                             } else {
-                                return <img width={400} key={i} src={"/no-image-available.jpg"} />
+                                return <img width={400} key={i} src={"./no-image-available.jpg"} />
                             }
                         })}
                     </AliceCarousel>
