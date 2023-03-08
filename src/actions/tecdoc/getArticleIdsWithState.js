@@ -1,9 +1,10 @@
 import createAction from '../../middleware/actions';
-import { ipcRenderer } from 'electron';
+import { ipcRenderer  } from 'electron';
 
 export async function getArticleIdsWithState(carId, assemblyGroupNodeId, { extra, getState }) {
 
     const api = extra.api;
+
     try {
         let articles = [];
         let result = ipcRenderer.sendSync("tecdoc.getArticleIdsWithState", { carId, assemblyGroupNodeId });
@@ -12,16 +13,13 @@ export async function getArticleIdsWithState(carId, assemblyGroupNodeId, { extra
             let articleLinks = ipcRenderer.sendSync("tecdoc.getArticleLinkIds", _r.articleId);
 
             articleLinks.forEach(element => {
-                if (element.articleDocuments != undefined && element?.articleDocuments?.array != undefined) {
-                    for (let document of element?.articleDocuments?.array) {
-                        let r = ipcRenderer.sendSync("tecdoc.getArticleDocuments", document.docId);
-                        document.document = r;
-                    }
-                }
                 if (element.articleThumbnails != undefined && element?.articleThumbnails?.array != undefined ) {
                     for (let document of element?.articleThumbnails?.array) {
-                        let r = ipcRenderer.sendSync("tecdoc.getArticleDocuments", document.thumbDocId);
-                        document.document = r;
+                        let find = element?.articleDocuments?.array?.find((el) => el.docId == document.thumbDocId);
+                        document.document = undefined;
+                        if ( find != undefined ){
+                            document.document = ipcRenderer.sendSync("tecdoc.getArticleDocuments" , find.docFileName);
+                        }
                     }
                 }
                 articles.push({..._r , ...element});

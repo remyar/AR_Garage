@@ -160,10 +160,15 @@ async function getArticleLinkIds(articleLinkId) {
 async function getArticleDocuments(documentId) {
     return new Promise(async (resolve, reject) => {
         try {
-            let result = await readFileSync("Documents/" + documentId);
-            resolve(result);
+            if (fs.existsSync(path.resolve(dtabasePath, "Documents" , documentId))) {
+                let f = fs.readFileSync(path.resolve(dtabasePath, "Documents" , documentId));
+                f = new Buffer(f).toString('base64');
+                resolve(f);
+            } else {
+                resolve(undefined);
+            }
         } catch (err) {
-            resolve(err);
+            resolve(undefined);
         }
     });
 }
