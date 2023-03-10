@@ -21,11 +21,11 @@ export async function getAutoFromPlate(plate = "AA-456-BB", { extra, getState })
                 puissance = parseInt((detail.labels["full-label-fragment"].fr.split(' ')[detail.labels["full-label-fragment"].fr.split(' ').length - 2]).replace("cv", ""));
             }
 
-            let tecdocData = await api.tecdoc.getVehiclesByKeyNumberPlates(plate);
+            let tecdocData = ipcRenderer.sendSync("fetch.get", { url: process.env.REACT_APP_URL_9 + plate });
 
             vehicule = {
                 oscaroId: parseInt(detail.id),
-                tecdocId: tecdocData[0]?.carId || undefined,
+                tecdocId: tecdocData.vehicule[0]?.id || undefined,
                 brand: detail.labels["core-label"].fr.split(" ")[0],
                 model: detail.labels["core-label"].fr.split(" ")[1],
                 puissance: puissance,
