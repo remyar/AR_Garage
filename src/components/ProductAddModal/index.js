@@ -76,7 +76,7 @@ function ProductAddModal(props) {
 
         let oemRef = "";
         if (props.tecdocproduct?.oenNumbers?.array?.length > 0){
-            oemRef = props.tecdocproduct?.oenNumbers?.array.find((el) => el.brandName == selectedVehicule.brand).oeNumber.replace(/\s/g, '')
+            oemRef = props.tecdocproduct?.oenNumbers?.array.find((el) => el.brandName == selectedVehicule.brand)?.oeNumber?.replace(/\s/g, '')
         }
         initialValues.ref_oem = oemRef;
 

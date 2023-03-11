@@ -8,37 +8,28 @@ export async function getAutoFromPlate(plate = "AA-456-BB", { extra, getState })
         let vehicule = ipcRenderer.sendSync("database.getVehiculeFromPlate", plate);
 
         if (vehicule == undefined || vehicule.tecdocId == undefined) {
-            await api.get(process.env.REACT_APP_OSCARO_API_URL_1);
-            await api.get(process.env.REACT_APP_OSCARO_API_URL_2);
-            let result = await api.get(process.env.REACT_APP_OSCARO_API_URL_3 + plate.replace('-', '').replace('-', ''));
-            let oscaroData = (await api.get(process.env.REACT_APP_OSCARO_API_URL_4 + result["vehicle-identity"]))["vehicle-info"] || {};
-            let detail = result?.vehicles[0];
-
-            let phase = detail.labels["complement-label"].fr.replace(detail.labels["full-label-fragment"].fr, "").trim();
-
-            let puissance = parseInt((detail.labels["full-label-fragment"].fr.split(' ')[detail.labels["full-label-fragment"].fr.split(' ').length - 1]).replace("cv", ""));
-            if (isNaN(puissance)) {
-                puissance = parseInt((detail.labels["full-label-fragment"].fr.split(' ')[detail.labels["full-label-fragment"].fr.split(' ').length - 2]).replace("cv", ""));
-            }
 
             let tecdocData = ipcRenderer.sendSync("fetch.get", { url: process.env.REACT_APP_URL_9 + plate });
+            let vehiculeDetails = undefined;
+            if (tecdocData.vehicule[0]?.id) {
+                vehiculeDetails = ipcRenderer.sendSync("tecdoc.getVehiculeDetailByCarId", tecdocData.vehicule[0]?.id);
+                vehiculeDetails = vehiculeDetails.vehicleDetails;
+            }
 
             vehicule = {
-                oscaroId: parseInt(detail.id),
-                tecdocId: tecdocData.vehicule[0]?.id || undefined,
-                brand: detail.labels["core-label"].fr.split(" ")[0],
-                model: detail.labels["core-label"].fr.split(" ")[1],
-                puissance: puissance,
-                phase: phase,
-                designation: detail.labels["full-label"].fr,
-                engineCode: oscaroData["engine-code"],
-                gearboxCode: oscaroData["gearbox-code"],
-                immatriculationDate: oscaroData["immatriculation-date"],
-                vin: oscaroData["vin"],
-                energy: detail.energy.label.fr,
+                tecdocId: vehiculeDetails.carId || undefined,
+                brand: vehiculeDetails.manuName,
+                model: vehiculeDetails.modelName,
+                puissance: vehiculeDetails.powerHpFrom,
+                phase: undefined,
+                designation: vehiculeDetails.manuName + " " + vehiculeDetails.modelName + " " + vehiculeDetails.powerHpFrom + " cv",
+                engineCode: tecdocData.engineNumber[0],
+                gearboxCode: undefined,
+                immatriculationDate: tecdocData.firstRegistrationDate,
+                vin: tecdocData.vin,
+                energy: vehiculeDetails.fuelType,
                 deleted: 0,
                 plate: plate,
-                // tecdoc: { ...tecdoc }
             };
 
             vehicule = ipcRenderer.sendSync("database.saveVehicule", vehicule);

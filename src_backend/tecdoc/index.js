@@ -4,7 +4,8 @@ const fetch = require('electron-fetch').default;
 const { createWriteStream } = require('fs');
 const { pipeline } = require('stream');
 const { promisify } = require('util');
-const extract = require('extract-zip')
+const extract = require('extract-zip');
+const { result } = require('lodash');
 
 let dtabasePath = undefined;
 let id = 20754;
@@ -114,6 +115,17 @@ async function getVehiculeByCarId(carId) {
     });
 }
 
+async function getVehiculeDetailByCarId(carId) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            let _result = await readFileSync("VehicleDetails/" + carId);
+            resolve(_result?.data?.array[0] || {});
+        } catch (err) {
+            resolve(undefined);
+        }
+    });
+}
+
 async function getAssemblyGroupFacets(carId) {
     return new Promise((resolve, reject) => {
         let dir = fs.readdirSync(path.resolve(dtabasePath, "Articles"));
@@ -160,8 +172,8 @@ async function getArticleLinkIds(articleLinkId) {
 async function getArticleDocuments(documentId) {
     return new Promise(async (resolve, reject) => {
         try {
-            if (fs.existsSync(path.resolve(dtabasePath, "Documents" , documentId))) {
-                let f = fs.readFileSync(path.resolve(dtabasePath, "Documents" , documentId));
+            if (fs.existsSync(path.resolve(dtabasePath, "Documents", documentId))) {
+                let f = fs.readFileSync(path.resolve(dtabasePath, "Documents", documentId));
                 f = new Buffer(f).toString('base64');
                 resolve(f);
             } else {
@@ -428,8 +440,8 @@ module.exports = {
     getManufacturers,
     getModelSeries,
     getVehicle,
-
     getVehiculeByCarId,
+    getVehiculeDetailByCarId,
     getAssemblyGroupFacets,
     getArticleIdsWithState,
     getArticleLinkIds,

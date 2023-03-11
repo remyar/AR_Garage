@@ -41,6 +41,7 @@ function ServicesPage(props) {
         setDisplayLoader(true);
         try {
             let result = await props.dispatch(actions.get.allServices());
+            result.services = result.services.sort((a, b) => a.ref_fab > b.ref_fab ? 1 : -1);
             setServices(result.services.filter((el) => el.deleted !== 1));
         } catch (err) {
             props.snackbar.error(err.message);

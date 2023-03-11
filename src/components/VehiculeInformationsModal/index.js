@@ -27,7 +27,7 @@ function VehiculeInformationModal(props) {
 
     _vehiculeTab.push({ name: "plate", value: vehicule?.plate });
     _vehiculeTab.push({ name: "brand", value: vehicule?.brand });
-    _vehiculeTab.push({ name: "model", value: vehicule?.model + " " + vehicule?.phase });
+    _vehiculeTab.push({ name: "model", value: vehicule?.model + " " + (vehicule?.phase || "") });
     _vehiculeTab.push({ name: "energie", value: vehicule?.energy });
     _vehiculeTab.push({ name: "puissance", value: vehicule?.puissance + " cv" });
     _vehiculeTab.push({ name: "engine_code", value: vehicule?.engineCode });
