@@ -18,7 +18,7 @@ export async function getArticleIdsWithState(carId, assemblyGroupNodeId, { extra
                         let find = element?.articleDocuments?.array?.find((el) => el.docId == document.thumbDocId);
                         document.document = undefined;
                         if ( find != undefined ){
-                            document.document = ipcRenderer.sendSync("tecdoc.getArticleDocuments" , find.docFileName);
+                            document.document = ipcRenderer.sendSync("tecdoc.getArticleDocuments" , find.docId);
                         }
                     }
                 }
