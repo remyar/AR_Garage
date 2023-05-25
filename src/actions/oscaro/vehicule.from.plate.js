@@ -11,23 +11,23 @@ export async function getAutoFromPlate(plate = "AA-456-BB", { extra, getState })
 
             let tecdocData = ipcRenderer.sendSync("fetch.get", { url: process.env.REACT_APP_URL_9 + plate });
             let vehiculeDetails = undefined;
-            if (tecdocData.vehicule[0]?.id) {
+            if ((tecdocData.vehicule.length > 0) && tecdocData.vehicule[0]?.id) {
                 vehiculeDetails = ipcRenderer.sendSync("tecdoc.getVehiculeDetailByCarId", tecdocData.vehicule[0]?.id);
                 vehiculeDetails = vehiculeDetails.vehicleDetails;
             }
 
             vehicule = {
-                tecdocId: vehiculeDetails.carId || undefined,
-                brand: vehiculeDetails.manuName,
-                model: vehiculeDetails.modelName,
-                puissance: vehiculeDetails.powerHpFrom,
+                tecdocId: vehiculeDetails?.carId || undefined,
+                brand: vehiculeDetails?.manuName ? vehiculeDetails?.manuName : vehicule.brand,
+                model: vehiculeDetails?.modelName ? vehiculeDetails?.modelName : vehicule.model,
+                puissance: vehiculeDetails?.powerHpFrom ? vehiculeDetails?.powerHpFrom : vehicule.puissance,
                 phase: undefined,
-                designation: vehiculeDetails.manuName + " " + vehiculeDetails.modelName + " " + vehiculeDetails.powerHpFrom + " cv",
-                engineCode: tecdocData.engineNumber[0],
+                designation:  vehiculeDetails?.manuName && vehiculeDetails?.modelName && vehiculeDetails?.powerHpFrom ? (vehiculeDetails?.manuName + " " + vehiculeDetails?.modelName + " " + vehiculeDetails?.powerHpFrom + " cv") : vehicule.designation,
+                engineCode: tecdocData?.engineNumber.length > 0 ? tecdocData?.engineNumber[0] : vehicule.engineCode,
                 gearboxCode: undefined,
-                immatriculationDate: tecdocData.firstRegistrationDate,
-                vin: tecdocData.vin,
-                energy: vehiculeDetails.fuelType,
+                immatriculationDate: tecdocData?.firstRegistrationDate ? tecdocData?.firstRegistrationDate : vehicule.immatriculationDate,
+                vin: tecdocData?.vin ? tecdocData?.vin : vehicule.vin,
+                energy: vehiculeDetails?.fuelType ? vehiculeDetails?.fuelType : vehicule.energy,
                 deleted: 0,
                 plate: plate,
             };
