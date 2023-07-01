@@ -134,7 +134,7 @@ export async function devis(devis, printAndSave, { extra, getState }) {
         let totalMontant = 0;
         rows = devis.products.map((el, idx) => {
             totalMontant += (parseFloat(el.prix_vente) * parseFloat(el.quantite));
-            return { ...el, num_line: idx + 1, brand_name: ((el.marque ? (el.marque + ' -') : '') + ' ' + (el.nom ? el.nom : el.commentaire ? el.commentaire : ' ')).trim(), prix_vente: parseFloat(el.prix_vente).toFixed(2) + " €", prix_total: (parseFloat(el.prix_vente) * parseFloat(el.quantite)).toFixed(2) + ' €' };
+            return { ...el, num_line: idx + 1, brand_name: ((el.marque ? (''/*el.marque + ' -'*/) : '') + ' ' + (el.nom ? el.nom : el.commentaire ? el.commentaire : ' ')).trim(), prix_vente: parseFloat(el.prix_vente).toFixed(2) + " €", prix_total: (parseFloat(el.prix_vente) * parseFloat(el.quantite)).toFixed(2) + ' €' };
         });
 
         pdf.autoTable(_getColumns(), rows, {
