@@ -57,17 +57,17 @@ module.exports = {
             console.error(err);
         }
 
-        try{
-/* 
+    /*     try{
+
            let resp = await fetch("https://www.mister-auto.com/nwsAjax/Plate?immatriculation=ax341ev");
             console.log(await resp.json());
-*/
+
             let re = await fetch("https://www.goodrace.fr/download/tecdoc_database.json");
             let obj = await re.json();
             await database.updateTecDocInformations(obj);
         }
         catch (err) {
             console.error(err);
-        }
+        }*/
     }
 }

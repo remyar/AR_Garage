@@ -14,6 +14,7 @@ export async function getAutoFromPlate(plate = "AA-456-BB", { extra, getState })
             if ((tecdocData.vehicule.length > 0) && tecdocData.vehicule[0]?.id) {
                 vehiculeDetails = ipcRenderer.sendSync("tecdoc.getVehiculeDetailByCarId", tecdocData.vehicule[0]?.id);
                 vehiculeDetails = vehiculeDetails.vehicleDetails;
+               /* vehiculeDetails.manuName = vehiculeDetails.uriPlate.split("/")[2].toUpperCase();*/
             }
 
             vehicule = {

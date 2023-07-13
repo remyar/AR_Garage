@@ -46,7 +46,7 @@ let paiement = ipcRenderer.sendSync("database.getPaiementSettings");
 let logo = ipcRenderer.sendSync("database.getLogoSettings");
 let settings = ipcRenderer.sendSync("database.getGeneralSettings");
 
-ipcRenderer.send("tecdoc.downloadTesseract");
+//ipcRenderer.send("tecdoc.downloadTesseract");
 
 let _settings = {
     entreprise: entreprise,
