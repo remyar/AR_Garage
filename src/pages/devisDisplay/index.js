@@ -171,7 +171,9 @@ function DevisDisplayPage(props) {
                 icon={<CreditScoreIcon />}
                 tooltipTitle={intl.formatMessage({ id: 'devis.convert.to.billing' })}
                 onClick={async () => {
-                    await props.dispatch(actions.set.saveFacture(devis));
+                    let devi = {...devis};
+                    delete devi.id;
+                    await props.dispatch(actions.set.saveFacture(devi));
                     props.snackbar.success('devis.convert.to.billing.success');
                 }}
             />

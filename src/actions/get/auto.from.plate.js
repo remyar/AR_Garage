@@ -1,16 +1,19 @@
 import createAction from '../../middleware/actions';
+import { ipcRenderer } from 'electron';
+
 
 export async function getAutoFromPlate(plate = "AA-456-BB", { extra, getState }) {
     const api = extra.api;
     const database = extra.database;
-    const settings = getState().settings;
+
 
     try {
         let vehicule = await database.getVehiculeByPlate(plate);
 
         vehicule = { ...vehicule };
 
-        let reparCarInfos = await api.post("https://www.reparcar.fr/api/public/v1/search/immat/0?immat=" + plate);
+        let reparCarInfos = ipcRenderer.sendSync("fetch.post", { url: "https://www.reparcar.fr/api/public/v1/search/immat/0?immat=" + plate });
+
         vehicule.plate = plate;
         vehicule.engineCode = reparCarInfos?.registration_info?.engine_code || vehicule.engineCode;
         vehicule.immatriculationDate = reparCarInfos?.registration_info?.date_pme || vehicule.immatriculationDate;
