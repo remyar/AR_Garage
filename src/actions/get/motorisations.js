@@ -1,14 +1,14 @@
 import createAction from '../../middleware/actions';
-
+import { ipcRenderer } from 'electron';
 
 export async function getMotorisations(manuId, modelId, { extra, getState }) {
     const api = extra.api;
 
     try {
-        let motorisations = await api.get("/data/Vehicle/" + manuId + "/" + modelId + ".json");
+        let vehicles = ipcRenderer.sendSync("database.getVehicle", modelId);
 
         return {
-            motorisation: motorisations?.data?.array || []
+            motorisation: vehicles || []
         }
 
     } catch (err) {

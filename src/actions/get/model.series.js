@@ -1,14 +1,15 @@
 import createAction from '../../middleware/actions';
+import { ipcRenderer } from 'electron';
 
 
 export async function getModelSeries(id, { extra, getState }) {
     const api = extra.api;
 
     try {
-        let modelSeries = await api.get("/data/ModelSeries/" + id + ".json");
+        let modelSeries = ipcRenderer.sendSync("database.getModelSeries", id);
 
         return {
-            modelSeries: modelSeries?.data?.array || []
+            modelSeries: modelSeries || []
         }
 
     } catch (err) {

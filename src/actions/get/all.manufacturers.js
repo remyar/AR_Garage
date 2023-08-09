@@ -1,14 +1,14 @@
 import createAction from '../../middleware/actions';
-
+import { ipcRenderer } from 'electron';
 
 export async function getAllManufacturers({ extra, getState }) {
     const api = extra.api;
 
     try {
-        let manufacturers = await api.get("/data/Manufacturers/all.json");
+        let manufacturers = ipcRenderer.sendSync("database.getManufacturers");
 
         return {
-            manufacturers: manufacturers?.data?.array || []
+            manufacturers: manufacturers || []
         }
 
     } catch (err) {
