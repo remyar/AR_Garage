@@ -1,18 +1,21 @@
 import createAction from '../../middleware/actions';
 
-export async function deleteClient(id, { extra, getState }) {
+export async function delCLient(idToDelete, { extra, getState }) {
+
+    const database = extra.database;
 
     try {
-        let state = getState();
-        state.clients.forEach((el,idx) => {
-            if ( el.id === id){
-                state.clients[idx].deleted = 1;
-            }
-        });
-        return { clients : state.clients}
+        let client = await database.getClientById(idToDelete);
+        if ( client != undefined ){
+            client.deleted = true;
+        }
+        await database.saveClient(client);
+        return { 
+            client : client
+        };
     } catch (err) {
         throw { message: err.message };
     }
 }
 
-export default createAction(deleteClient);
+export default createAction(delCLient);

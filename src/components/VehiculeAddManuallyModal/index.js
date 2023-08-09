@@ -33,7 +33,7 @@ function VehiculeAddManuallyModal(props) {
                     vehicule.tecdocId = car.carId;
                     setVehicule(vehicule);
                 }}
-                
+
                 vertical
             />
 

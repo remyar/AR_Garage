@@ -27,7 +27,7 @@ function CatalogSelectVehicule(props) {
 
     async function fetchData() {
         try {
-            let result = await props.dispatch(actions.tecdoc.getManufacturers());
+            let result = await props.dispatch(actions.get.allManufacturers());
             setConstructeurs(result.manufacturers);
             if (props.selectedVehicule) {
                 let manu = result.manufacturers.find((m) => m.manuId == props.selectedVehicule.tecdoc.manuId);
@@ -40,7 +40,7 @@ function CatalogSelectVehicule(props) {
 
     async function fetchModelsSeries(manuId) {
         try {
-            let result = await props.dispatch(actions.tecdoc.getModelSeries(manuId));
+            let result = await props.dispatch(actions.get.modelSeries(manuId));
             setModelSeries(result.modelSeries);
             if (props.selectedVehicule) {
                 let manu = result.modelSeries.find((m) => m.modelId == props.selectedVehicule.tecdoc.modelId);
@@ -51,9 +51,9 @@ function CatalogSelectVehicule(props) {
         }
     }
 
-    async function fetchMotorisations(modelId) {
+    async function fetchMotorisations(manuId , modelId) {
         try {
-            let result = await props.dispatch(actions.tecdoc.getMotorisations(modelId));
+            let result = await props.dispatch(actions.get.motorisations(manuId , modelId));
             setMotorisations(result.motorisation);
             if (props.selectedVehicule) {
                 let manu = result.motorisation.find((m) => m.carId == props.selectedVehicule.tecdoc.carId);
@@ -78,7 +78,7 @@ function CatalogSelectVehicule(props) {
     useEffect(() => {
         if (selectedModelSeries?.modelId != undefined) {
             props.onModelChange && props.onModelChange(selectedModelSeries);
-            fetchMotorisations(selectedModelSeries.modelId);
+            fetchMotorisations(selectedConstructeur.manuId , selectedModelSeries.modelId);
         }
     }, [selectedModelSeries]);
 

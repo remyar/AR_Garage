@@ -1,14 +1,22 @@
 import createAction from '../../middleware/actions';
-import { ipcRenderer } from 'electron';
 
 export async function saveSettings(value = {}, { extra, getState }) {
+
+    const database = extra.database;
+    const api = extra.api;
+
+    let settings = getState().settings || {};
+
+    settings = { ...settings, ...value };
+
     try {
-        let settings = getState().settings;
 
-        let setting = ipcRenderer.sendSync("database.saveGeneralSettings", value);
+        let result = await database.saveSettings(settings);
 
-        return { settings : {...settings,...setting }};
+        return { settings: { ...settings, ...result } };
+
     } catch (err) {
+
         throw { message: err.message };
     }
 }

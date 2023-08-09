@@ -8,14 +8,18 @@ import actions from '../../actions';
 import routeMdw from '../../middleware/route';
 
 import Box from '@mui/material/Box';
+import EditIcon from '@mui/icons-material/Edit';
+
 
 import SearchComponent from '../../components/Search';
 import Loader from '../../components/Loader';
 import DataTable from '../../components/DataTable';
+import ChangeDateModal from '../../components/ChangeDateModal';
 
 function Billingspage(props) {
     const intl = props.intl;
 
+    const [displayChangeDateModal, setDisplayChangeDateModal] = useState(undefined);
     const [displayLoader, setDisplayLoader] = useState(false);
     const [filter, setFilter] = useState("");
     const [factures, setFactures] = useState([]);
@@ -42,8 +46,18 @@ function Billingspage(props) {
         { id: 'plate', label: 'Plaque', minWidth: 100 },
         { id: 'kilometrage', label: 'Kilométrage', minWidth: 100 },
         { id: 'total', label: 'Total', minWidth: 100 },
-        { id: 'emission', label: 'Date emission', minWidth: 100 },
-       // { id: 'expiration', label: 'Date expiration', minWidth: 100 },
+        { id: 'emission', label: 'Date emission', minWidth: 100 , render: (row) => {
+            return <span onClick={(e) => {
+                e.stopPropagation();
+            }}>
+                {row.emission.toLocaleDateString()}
+                <EditIcon key={"editFacture_" + row.facture_number} sx={{ cursor: 'pointer', marginLeft: '5px', paddingTop: '10px' }} onClick={(e) => {
+                    e.stopPropagation();
+                    setDisplayChangeDateModal(row.facture_number);
+                }} />
+
+            </span>
+        }}
     ];
 
     let rows = factures.map((el) => {
@@ -51,11 +65,10 @@ function Billingspage(props) {
         return {
             facture_number: el.id,
             plate: el?.vehicule?.plate || "",
-            kilometrage: el.kilometrage,
+            kilometrage: el?.vehicule?.kilometrage,
             total: el?.total?.toFixed(2) + ' €',
             client: el?.client?.nom + ' ' + el?.client?.prenom,
-            emission: (el?.date ? new Date(el?.date) : new Date()).toLocaleDateString(),
-           // expiration: (el?.expiration ? new Date(el?.expiration) : new Date()).toLocaleDateString(),
+            emission: (el?.date ? new Date(el?.date) : new Date()),
             onClick: () => {
                 props.navigation.push(routeMdw.urlBillingDisplay(el.id));
             },
@@ -71,6 +84,25 @@ function Billingspage(props) {
     return <Box sx={{ paddingBottom: '25px' }}>
 
         <Loader display={displayLoader} />
+
+        <ChangeDateModal
+            display={displayChangeDateModal != undefined}
+            value={factures.find((el) => el.id == displayChangeDateModal)?.date}
+            onValid={async (value) => {
+                let facture = factures.find((el) => el.id == displayChangeDateModal)
+                facture.date = value.getTime();
+                try {
+                    await props.dispatch(actions.set.saveFacture(facture));
+                    props.snackbar.success('facture.save.success');
+                    setDisplayChangeDateModal(undefined);
+                } catch (err) {
+                    props.snackbar.error('facture.save.error');
+                }
+            }}
+            onClose={() => {
+                setDisplayChangeDateModal(undefined);
+            }}
+        />
 
         <SearchComponent onChange={(value) => {
             setFilter(value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""));

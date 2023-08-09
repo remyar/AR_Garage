@@ -5,8 +5,8 @@ export async function getVillesFromCp(codePostale = "24660", { extra, getState }
     try {
 
         let cp = ipcRenderer.sendSync("code_postaux.getAllCodePostaux");
-        if ( codePostale.trim().length >= 2){
 
+        if ( codePostale.trim().length >= 2){
             let value = cp.map((el) => {
                 if(el.code_postal.toString().startsWith(codePostale.trim())){
                     return el;

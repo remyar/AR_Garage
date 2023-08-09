@@ -1,15 +1,18 @@
 import createAction from '../../middleware/actions';
-import { ipcRenderer } from 'electron';
 
-export async function saveEntrepriseLogo(value = "", { extra, getState }) {
+export async function saveEntrepriseLogo(value = {}, { extra, getState }) {
+
+    const database = extra.database;
+    const api = extra.api;
+
+    let settings = getState().settings || {};
+    settings = { ...settings };
+    settings.logo = value ;
     try {
-        let settings = getState().settings;
 
-        let logo = ipcRenderer.sendSync("database.saveLogoSettings", value);
+        let result = await database.saveSettings(settings);
 
-        settings.logo = logo;
-
-        return { settings : settings }
+        return { settings: { ...settings, ...result } };
     } catch (err) {
         throw { message: err.message };
     }

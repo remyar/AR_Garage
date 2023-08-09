@@ -13,6 +13,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import Step1 from './step1';
 import Step2 from './step2';
 import Step3 from './step3';
+import Step4 from './step4';
 
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
@@ -42,10 +43,16 @@ function WizardModal(props) {
         onValid: (values = {}) => props.dispatch(actions.set.savePaiementSettings(values))
     });
     stepComp.push({ ref: useRef(null), component: undefined });
+   /* stepComp.push({
+        ref: useRef(null),
+        component: undefined,
+        onValid: (values = {}) => console.log("onValid")
+    });*/
 
     stepComp[0].component = <Step1 formikRef={stepComp[0].ref} onChange={() => setFormulaireChange(true)} />
     stepComp[1].component = <Step2 formikRef={stepComp[1].ref} onChange={() => setFormulaireChange(true)} />
     stepComp[2].component = <Step3 formikRef={stepComp[2].ref} onChange={() => setFormulaireChange(true)} />
+   // stepComp[3].component = <Step4 formikRef={stepComp[3].ref} onChange={() => { }} />
 
     function discardWizard() {
         props.onClose && props.onClose();
@@ -128,6 +135,7 @@ function WizardModal(props) {
             </Grid>
 
         </Paper>
+
     </Modal>
 }
 

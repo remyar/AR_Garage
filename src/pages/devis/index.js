@@ -7,13 +7,13 @@ import { withSnackBar } from '../../providers/snackBar';
 import actions from '../../actions';
 
 import Box from '@mui/material/Box';
-import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 import AddIcon from '@mui/icons-material/Add';
+import EditIcon from '@mui/icons-material/Edit';
 
-import ConfirmModal from '../../components/ConfirmModal';
 import SearchComponent from '../../components/Search';
 import DataTable from '../../components/DataTable';
 import Loader from '../../components/Loader';
+import ChangeDateModal from '../../components/ChangeDateModal';
 
 import SpeedDialIcon from '@mui/material/SpeedDialIcon';
 import SpeedDialAction from '@mui/material/SpeedDialAction';
@@ -24,6 +24,7 @@ import routeMdw from '../../middleware/route';
 function DevisPage(props) {
     const intl = props.intl;
 
+    const [displayChangeDateModal, setDisplayChangeDateModal] = useState(undefined);
     const [displayLoader, setDisplayLoader] = useState(false);
     const [filter, setFilter] = useState("");
     const [devis, setDevis] = useState([]);
@@ -47,9 +48,22 @@ function DevisPage(props) {
         { id: 'devis_number', label: 'Devis N°', minWidth: 100 },
         { id: 'client', label: 'Client', minWidth: 100 },
         { id: 'plate', label: 'Plaque', minWidth: 100 },
-        { id: 'kilometrage', label: 'Kilométrage', minWidth: 100 },
         { id: 'total', label: 'Total', minWidth: 100 },
-        { id: 'emission', label: 'Date emission', minWidth: 100 },
+        {
+            id: 'emission', label: 'Date emission', minWidth: 100, render: (row) => {
+
+                return <span onClick={(e) => {
+                    e.stopPropagation();
+                }}>
+                    {row.emission.toLocaleDateString()}
+                    <EditIcon key={"editDevis_" + row.devis_number} sx={{ cursor: 'pointer', marginLeft: '5px', paddingTop: '10px' }} onClick={(e) => {
+                        e.stopPropagation();
+                        setDisplayChangeDateModal(row.devis_number);
+                    }} />
+
+                </span>
+            }
+        },
         { id: 'expiration', label: 'Date expiration', minWidth: 100 },
     ];
 
@@ -58,10 +72,10 @@ function DevisPage(props) {
         return {
             devis_number: el.id,
             plate: el.vehicule?.plate,
-            kilometrage: el.kilometrage,
+            kilometrage: el.vehicule?.kilometrage,
             total: (el?.total?.toFixed(2) || "0.00") + ' €',
             client: el?.client?.nom + ' ' + el?.client?.prenom,
-            emission: (el.date ? new Date(el.date) : new Date()).toLocaleDateString(),
+            emission: (el.date ? new Date(el.date) : new Date()),
             expiration: (el.expiration ? new Date(el.expiration) : new Date()).toLocaleDateString(),
             onClick: () => {
                 props.navigation.push(routeMdw.urlDevisDisplay(el?.id));
@@ -78,6 +92,25 @@ function DevisPage(props) {
     return <Box sx={{ paddingBottom: '25px' }}>
 
         <Loader display={displayLoader} />
+
+        <ChangeDateModal
+            display={displayChangeDateModal != undefined}
+            value={devis.find((el) => el.id == displayChangeDateModal)?.date}
+            onValid={async (value) => {
+                let devi = devis.find((el) => el.id == displayChangeDateModal)
+                devi.date = value.getTime();
+                try {
+                    await props.dispatch(actions.set.saveDevis(devi));
+                    props.snackbar.success('devis.save.success');
+                    setDisplayChangeDateModal(undefined);
+                } catch (err) {
+                    props.snackbar.error('devis.save.error');
+                }
+            }}
+            onClose={() => {
+                setDisplayChangeDateModal(undefined);
+            }}
+        />
 
         <SearchComponent onChange={(value) => {
             setFilter(value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""));

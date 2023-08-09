@@ -1,33 +1,29 @@
-import selectedVehicule from "./selected.vehicule";
-import newClient from "./new.client";
-import newProduct from "./new.product";
-import newService from "./new.service";
-import newMarque from "./new.marque";
-import oemProduct from "./oem.product";
-import saveDevis from "./save.devis";
-import saveFacture from "./save.facture";
+import saveSettings from "./save.settings";
 import saveEntrepriseSettings from "./save.entreprise.settings";
 import savePaiementSettings from "./save.paiement.settings";
 import saveEntrepriseLogo from "./save.entreprise.logo";
-import saveSettings from "./save.settings";
-import newCategorie from './new.categorie';
-import newVehicule from "./new.vehicule";
-import openConsole from './open.console';
+import client from "./client";
+import selectedVehicule from "./selected.vehicule";
+import saveProduct from "./save.product";
+import saveService from "./save.service";
+import saveDevis from "./save.devis";
+import saveUuid from "./save.uuid";
+import saveFacture from "./save.facture";
+import saveVehicule from "./save.vehicule";
+import installationProgress from './installation.progress';
 
 export default {
-    selectedVehicule,
-    newClient,
-    newProduct,
-    newMarque,
-    oemProduct,
-    newService,
-    saveDevis,
-    saveFacture,
+    saveSettings,
     saveEntrepriseSettings,
     savePaiementSettings,
     saveEntrepriseLogo,
-    saveSettings,
-    newCategorie,
-    newVehicule,
-    openConsole
+    client,
+    selectedVehicule,
+    saveProduct,
+    saveService,
+    saveFacture,
+    saveDevis,
+    saveVehicule,
+    installationProgress,
+    saveUuid
 }

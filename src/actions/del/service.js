@@ -1,17 +1,21 @@
 import createAction from '../../middleware/actions';
 
-export async function deleteService(id, { extra, getState }) {
+export async function delService(idToDelete, { extra, getState }) {
+
+    const database = extra.database;
+
     try {
-        let state = getState();
-        state.services.forEach((el,idx) => {
-            if ( el.id == id){
-                state.services[idx].deleted = 1;
-            }
-        });
-        return { services : state.services}
+        let data = await database.getServiceById(idToDelete);
+        if ( data != undefined ){
+            data.deleted = true;
+        }
+        await database.saveService(data);
+        return { 
+            service : data
+        };
     } catch (err) {
         throw { message: err.message };
     }
 }
 
-export default createAction(deleteService);
+export default createAction(delService);

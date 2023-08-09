@@ -30,7 +30,7 @@ function ClientAddModal(props) {
     const [selectVille, setSelectVille] = useState(props.editClient && props.editClient.ville ? [{ name: props.editClient.ville }] : []);
 
     async function fetchData() {
-        if ((client.code_postal && client.code_postal.length >= ("00000").length) || (props.editClient && (props.editClient.postal.length >= ("00000").length))) {
+        if ((client.code_postal && client?.code_postal?.length >= ("00000").length) || (props.editClient && (props.editClient?.postal?.length >= ("00000").length))) {
             try {
                 let tabVille = await props.dispatch(actions.get.villesFromCp(client.code_postal ? client.code_postal : props.editClient.postal));
                 setSelectVille(tabVille.code_postaux);
@@ -99,7 +99,7 @@ function ClientAddModal(props) {
                                     setFieldValue("ville", (selectVille[0] || {}).nom_de_la_commune || undefined);
                                     handleChange(event);
                                 }}>
-                                    {(inputProps) => <TextField {...inputProps} label={intl.formatMessage({ id: 'clients.code_postal' })} variant="outlined" sx={{ width: "100%", textAlign: "center" }} disableUnderline />}
+                                    {(inputProps) => <TextField {...inputProps} label={intl.formatMessage({ id: 'clients.code_postal' })} variant="outlined" sx={{ width: "100%", textAlign: "center" }} disableunderline />}
                                 </InputMask>
                             </Grid>
                             <Grid item xs={6} >
@@ -122,7 +122,7 @@ function ClientAddModal(props) {
                         <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
                             <Grid item xs={6} >
                                 <InputMask value={values.telephone} mask="99.99.99.99.99" maskChar=" " name="telephone" alwaysShowMask={false} onChange={handleChange}>
-                                    {(inputProps) => <TextField {...inputProps} label={intl.formatMessage({ id: 'clients.telephone' })} variant="outlined" sx={{ width: "100%", textAlign: "center" }} disableUnderline />}
+                                    {(inputProps) => <TextField {...inputProps} label={intl.formatMessage({ id: 'clients.telephone' })} variant="outlined" sx={{ width: "100%", textAlign: "center" }} disableunderline />}
                                 </InputMask>
                             </Grid>
                             <Grid item xs={6} >

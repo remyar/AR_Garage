@@ -69,7 +69,7 @@ function Step1Modal(props) {
                 <ListItem>
                     <ListItemText primary="Code Postal" />
                     <InputMask error={(errors.code_postal) ? true : false} value={values.code_postal} mask="99999" maskChar=" " name="code_postal" alwaysShowMask={false} onChange={(e) => { props.onChange && props.onChange(e); handleChange(e);}}>
-                        {(inputProps) => <TextField {...inputProps} variant="standard" sx={{ textAlign: "center", width: "50%" }} disableUnderline />}
+                        {(inputProps) => <TextField {...inputProps} variant="standard" sx={{ textAlign: "center", width: "50%" }} disableunderline />}
                     </InputMask>
                 </ListItem>
                 <ListItem>
@@ -79,7 +79,7 @@ function Step1Modal(props) {
                 <ListItem>
                     <ListItemText primary="Telephone" />
                     <InputMask error={(errors.telephone) ? true : false} value={values.telephone} mask="99.99.99.99.99" maskChar=" " name="telephone" alwaysShowMask={false} onChange={(e) => { props.onChange && props.onChange(e); handleChange(e);}}>
-                        {(inputProps) => <TextField {...inputProps} variant="standard" sx={{ textAlign: "center", width: "50%" }} disableUnderline />}
+                        {(inputProps) => <TextField {...inputProps} variant="standard" sx={{ textAlign: "center", width: "50%" }} disableunderline />}
                     </InputMask>
                 </ListItem>
                 <ListItem>

@@ -62,21 +62,7 @@ function VehiculesPage(props) {
         setDisplayLoader(true);
         try {
             let result = await props.dispatch(actions.get.allVehicules());
-            let reloadAfterFetch = false;
-            for (let vehicule of result.vehicules) {
-                if (vehicule.tecdocId == undefined) {
-                    try {
-                        await props.dispatch(actions.oscaro.getAutoFromPlate(vehicule.plate))
-                        reloadAfterFetch = true;
-                    } catch (err) {
-                        props.snackbar.error('fetch.error');
-                    }
-                }
-            }
-            if (reloadAfterFetch == true) {
-                result = await props.dispatch(actions.get.allVehicules());
-            }
-            setVehicules(result.vehicules.filter((el) => el.deleted !== 1));
+            setVehicules(result.vehicules.filter((el) => ((el.deleted !== 1) && (el.deleted !== true))));
         } catch (err) {
             props.snackbar.error('fetch.error');
         }
@@ -146,15 +132,16 @@ function VehiculesPage(props) {
         }
     })
 
-    rows = rows.sort((a, b) => (a.plate.toLowerCase() > b.plate.toLowerCase()) ? 1 : -1);
+    rows = rows.sort((a, b) => (a.plate?.toLowerCase() > b.plate?.toLowerCase()) ? 1 : -1);
 
-    rows = rows.filter((el) => el.plate.toLowerCase().startsWith(filter));
+    rows = rows.filter((el) => el.plate?.toLowerCase().startsWith(filter));
 
     return <Box sx={{ paddingBottom: '25px' }}>
 
         <Loader display={displayLoader} />
 
         {displayConfirmModal && <ConfirmModal
+            title={"Supprimer le véhicule ?"}
             display={displayConfirmModal ? true : false}
             onClose={() => {
                 setDisplayConfirmModal(undefined);
@@ -195,7 +182,7 @@ function VehiculesPage(props) {
                 setDisplayVehiculeAddModal(false);
                 setDisplayLoader(true);
                 try {
-                    let result = await props.dispatch(actions.oscaro.getAutoFromPlate(_v.plate));
+                    let result = await props.dispatch(actions.get.autoFromPlate(_v.plate));
                     await fetchData();
                     setDisplayVehiculeModal(result.vehicule);
                 } catch (err) {
@@ -214,13 +201,13 @@ function VehiculesPage(props) {
                 setDisplayVehiculeAddManuallyModal(false);
                 setDisplayLoader(true);
                 try {
-                    let tecdocVehicule = await props.dispatch(actions.tecdoc.getVehicleById(_v.tecdocId));
+                    let tecdocVehicule = await props.dispatch(actions.get.vehicule(_v.tecdocId));
                     console.log(tecdocVehicule);
-                    _v.puissance = tecdocVehicule?.vehiculeIds?.vehicleDetails?.powerHpFrom;
+                    _v.puissance = tecdocVehicule?.vehicule?.puissance;
                     _v.engineCode = tecdocVehicule?.vehiculeIds?.motorCodes?.array && tecdocVehicule?.vehiculeIds?.motorCodes?.array[0].motorCode;
-                    _v.energy = tecdocVehicule?.vehiculeIds?.vehicleDetails?.motorType;
+                    _v.energy = tecdocVehicule?.vehicule?.energy;
 
-                    let result = await props.dispatch(actions.set.newVehicule(_v));
+                    let result = await props.dispatch(actions.set.saveVehicule(_v));
                     await fetchData();
                     setDisplayVehiculeModal(result.vehicule);
                 } catch (err) {

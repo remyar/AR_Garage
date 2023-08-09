@@ -1,3 +1,5 @@
+import sleep from './sleep';
+
 Date.isLeapYear = function (year) { 
     return (((year % 4 === 0) && (year % 100 !== 0)) || (year % 400 === 0)); 
 };
@@ -37,4 +39,8 @@ Date.prototype.getFullMonth = function(){
         month = '0' + month;
     }
     return month;
+}
+
+export default {
+    sleep,
 }

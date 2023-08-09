@@ -7,17 +7,17 @@ import routeMdw from './middleware/route';
 import actions from './actions';
 
 import HomePage from './pages/home';
+import InstallPage from './pages/install';
 import ClientsPage from './pages/clients';
 import VehiculesPage from './pages/vehicules';
+import SettingsPage from './pages/settings';
 import ProduitsPage from './pages/produits';
+import ServicesPage from './pages/services';
 import DevisPage from './pages/devis';
-import BillingsPage from './pages/billings';
 import DevisCreatePage from './pages/devisCreate';
 import DevisDisplayPage from './pages/devisDisplay';
+import BillingsPage from './pages/billings';
 import BillingDisplayPage from './pages/billingDisplay';
-import ServicesPage from './pages/services';
-import SettingsPage from './pages/settings';
-import CatalogPage from './pages/catalog';
 
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
@@ -27,20 +27,21 @@ import Drawer from './components/Drawer';
 
 import electron from 'electron';
 
-
 const routes = [
-    { path: routeMdw.urlIndex(), name: 'homePage', Component: <HomePage /> },
-    { path: routeMdw.urlClients(), name: 'clientsPage', Component: <ClientsPage /> },
-    { path: routeMdw.urlVehicules(), name: 'vehiculesPage', Component: <VehiculesPage /> },
-    { path: routeMdw.urlProduits(), name: 'produitsPage', Component: <ProduitsPage /> },
-    { path: routeMdw.urlServices(), name: 'ServicesPage', Component: <ServicesPage /> },
-    { path: routeMdw.urlDevis(), name: 'devisPage', Component: <DevisPage /> },
-    { path: routeMdw.urlCatalog(), name: 'catalogPage', Component: <CatalogPage /> },
-    { path: routeMdw.urlDevisCreate(), name: 'devisPage', Component: <DevisCreatePage /> },
-    { path: routeMdw.urlDevisDisplay(':id'), name: 'devisPage', Component: <DevisDisplayPage /> },
-    { path: routeMdw.urlBillings(), name: 'devisPage', Component: <BillingsPage /> },
-    { path: routeMdw.urlBillingDisplay(':id'), name: 'devisPage', Component: <BillingDisplayPage /> },
+    { path: routeMdw.urlIndex(), name: 'HomePage', Component: <HomePage /> },
+    { path: routeMdw.urlHome(), name: 'HomePage', Component: <HomePage /> },
     { path: routeMdw.urlSettings(), name: 'settingsPage', Component: <SettingsPage /> },
+    { path: routeMdw.urlVehicules(), name: 'vehiculesPage', Component: <VehiculesPage /> },
+    { path: routeMdw.urlClients(), name: 'clientsPage', Component: <ClientsPage /> },
+    { path: routeMdw.urlInstall(), name: 'InstallPage', Component: <InstallPage /> },
+    { path: routeMdw.urlProduits(), name: 'ProduitsPage', Component: <ProduitsPage /> },
+    { path: routeMdw.urlServices(), name: 'ServicesPage', Component: <ServicesPage /> },
+    { path: routeMdw.urlDevis(), name: 'DevisPage', Component: <DevisPage /> },
+    { path: routeMdw.urlDevisCreate(), name: 'DevisCreatePage', Component: <DevisCreatePage /> },
+    { path: routeMdw.urlDevisDisplay(':id'), name: 'DevisDisplayPage', Component: <DevisDisplayPage /> },
+    { path: routeMdw.urlBillings(), name: 'BillingsPage', Component: <BillingsPage /> },
+    { path: routeMdw.urlBillingDisplay(':id'), name: 'BillingDisplayPage', Component: <BillingDisplayPage /> },
+
 ];
 
 function App(props) {
@@ -51,7 +52,6 @@ function App(props) {
     const [drawerState, setDrawerState] = useState(false);
 
     useEffect(() => {
-
         electron.ipcRenderer.on('update-available', (event, message) => {
             props.snackbar.warning(intl.formatMessage({ id: 'update.available' }));
         });
@@ -71,27 +71,12 @@ function App(props) {
         electron.ipcRenderer.on('update-error', (event, message) => {
             props.snackbar.error(intl.formatMessage({ id: 'update.error' }));
         });
-
-        electron.ipcRenderer.on('extract-start', (event, message) => {
-            props.snackbar.warning(intl.formatMessage({ id: 'extract.start' }));
-        });
-
-        electron.ipcRenderer.on('extract-end', (event, message) => {
-            props.snackbar.success(intl.formatMessage({ id: 'extract.end' }));
-            props.dispatch(actions.database.updateTecDocInformations(message , true));
-        });
-
-        electron.ipcRenderer.on('extract-progress', (event, message) => {
-            props.snackbar.info(intl.formatMessage({ id: 'extract.progress' }) + ' : ' + parseInt(message?.percent || "0.0") + "%");
-        });
-
-        props.dispatch(actions.database.getTecDocInformations());
-        
     }, []);
+
 
     return <Box>
         <AppBar onClick={() => { setDrawerState(true) }} title={(selectedVehicule?.plate && selectedVehicule?.designation) ? selectedVehicule?.plate + " : " + selectedVehicule?.designation : undefined} />
-        <Box sx={{ paddingTop: '64px' }}>
+        <Box sx={{ paddingTop: '64px' }} >
             <Container maxWidth="xl" sx={{ paddingTop: "25px" }} >
                 <Drawer
                     open={drawerState}

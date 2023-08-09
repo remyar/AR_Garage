@@ -10,11 +10,9 @@ import Box from '@mui/material/Box';
 import SpeedDialIcon from '@mui/material/SpeedDialIcon';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 
-import SaveIcon from '@mui/icons-material/Save';
 import AddIcon from '@mui/icons-material/Add';
-import EditIcon from '@mui/icons-material/Edit';
 
-import ProductAddModal from '../../components/ProductAddModal';
+import ProductAddModal from '../../components/ProductAddModal/index';
 import ConfirmModal from '../../components/ConfirmModal';
 
 import DataTable from '../../components/DataTable';
@@ -22,7 +20,6 @@ import SearchComponent from '../../components/Search';
 
 import actions from '../../actions';
 import Loader from '../../components/Loader';
-import { recomposeColor } from '@mui/material';
 
 
 function ProduitsPage(props) {
@@ -41,7 +38,7 @@ function ProduitsPage(props) {
         setDisplayLoader(true);
         try {
             let result = await props.dispatch(actions.get.allProducts());
-            setProduits(result.products.filter((el) => el.deleted !== 1));
+            setProduits(result.products.filter((el) => ((el.deleted !== 1) && (el.deleted !== true))));
         } catch (err) {
             props.snackbar.error(err.message);
         }
@@ -54,25 +51,14 @@ function ProduitsPage(props) {
 
     const headers = [
         { id: 'ref_fab', label: 'Référence', minWidth: 100 },
-        { id: 'marque', label: 'Marque', minWidth: 100 },
         { id: 'nom', label: 'Désignation', minWidth: 100 },
         {
-            id: 'prix_achat', label: "Prix d'achat", minWidth: 100, render: (value) => {
-                return '' + parseFloat(value.prix_achat?.toString().replace(',', '.')).toFixed(2) + ' €';
-            }
-        },
-        {
-            id: 'prix_vente', label: "Prix vente", minWidth: 100, render: (value) => {
-                return '' + parseFloat(value.prix_vente?.toString().replace(',', '.')).toFixed(2) + ' €';
-            }
-        },
-        {
-            label: '', maxWidth: 100, minWidth: 100, render: (row) => {
+            label: '', maxWidth: 100, minWidth: 100, align: "right", render: (row) => {
                 return <span>
-                    <EditIcon sx={{ cursor: 'pointer' }} onClick={() => {
+                    {/*<EditIcon sx={{ cursor: 'pointer' }} onClick={() => {
                         setDisplayProductEditModal(row);
                         setDisplayProductAddModal(true);
-                    }} />
+                    }} />*/}
                     <DeleteForeverIcon sx={{ color: 'red', cursor: 'pointer', marginLeft: '15px' }} onClick={() => {
                         setDisplayConfirmModal(row);
                     }} />
@@ -115,17 +101,12 @@ function ProduitsPage(props) {
                 setDisplayProductAddModal(false);
 
                 try {
-                    await props.dispatch(actions.set.newProduct(product));
-                    // await props.dispatch(actions.set.oemProduct({ name: product.ref_oem, vehicule_id: selectedVehicule.id }));
+                    await props.dispatch(actions.set.saveProduct(product));
+                    await fetchData();
                 } catch (err) {
 
                 }
-                try {
-                    let result = await props.dispatch(actions.get.allProducts());
-                    setProduits(result.products);
-                } catch (err) {
 
-                }
                 setDisplayProductEditModal(undefined);
                 setDisplayLoader(false);
             }}

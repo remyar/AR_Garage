@@ -1,16 +1,7 @@
-import get from './method/get';
-import post from './method/post';
-import del from './method/delete';
-import put from './method/put';
-import tecdoc from './tecdoc';
-import oscaro from './oscaro';
+import get from "./get"
+import post from "./post"
 
 export default {
     get,
-    post,
-    del,
-    put,
-
-    tecdoc,
-    oscaro
+    post
 }
