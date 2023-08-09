@@ -1,10 +1,15 @@
 import createAction from '../../middleware/actions';
-import { ipcRenderer } from 'electron';
 
 export async function getAllServices({ extra, getState }) {
+    const database = extra.database;
+
     try {
-        let services = ipcRenderer.sendSync("database.getAllServices");
-        return { services: services };
+        let _result = await database.getAllServices();
+        
+        return {
+            services : _result
+        }
+
     } catch (err) {
         throw { message: err.message };
     }

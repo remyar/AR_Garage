@@ -42,7 +42,7 @@ function PlaqueValue(props) {
     return <InputMask value={plaque} mask={mask} maskChar="*" alwaysShowMask={false} onChange={(event) => {
         setPlaque(event.target.value.toUpperCase());
     }}>
-        {(inputProps) => <TextField label={mask} variant="outlined" sx={{ width: "100%", textAlign: "center" }} disableUnderline />}
+        {(inputProps) => <TextField label={mask} variant="outlined" sx={{ width: "100%", textAlign: "center" }} disableunderline />}
     </InputMask>
 
 }

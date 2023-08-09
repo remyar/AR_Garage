@@ -8,68 +8,71 @@ import StoreProvider from './providers/StoreProvider';
 import SnackBarGenerator from './providers/snackBar';
 import CssBaseline from '@mui/material/CssBaseline';
 import api from "./api";
-import { ipcRenderer } from 'electron';
 
 // i18n datas
 import localeData from './locales';
 import utils from "./utils";
+import database from "./database";
 
-const electron = require('@electron/remote')
+import { validate, v4 } from 'uuid';
 
-// WHITELIST
-const persistConfig = {
-    persist: false,
-};
+const electron = require('@electron/remote');
 
+async function startApp() {
 
-// Define user's language. Different browsers have the user locale defined
-// on different fields on the `navigator` object, so we make sure to account
-// for these different by checking all of them
-const language = (navigator.languages && navigator.languages[0]) ||
-    navigator.language ||
-    navigator.userLanguage;
+    try {
+        await database.start();
+    } catch (err) {
+        console.error(err);
+    }
 
-window.userLocale = language;
+    let settings = await database.getSettings() || {};
 
-// Split locales with a region code
-let languageWithoutRegionCode = language.toLowerCase().split(/[_-]+/)[0];
+    // Define user's language. Different browsers have the user locale defined
+    // on different fields on the `navigator` object, so we make sure to account
+    // for these different by checking all of them
+    const language = (navigator.languages && navigator.languages[0]) ||
+        navigator.language ||
+        navigator.userLanguage;
 
-window.userLocaleWithoutRegionCode = languageWithoutRegionCode;
-localeData.setLocale(languageWithoutRegionCode);
-// Try full locale, try locale without region code, fallback to 'en'
-const messages = localeData[languageWithoutRegionCode] || localeData[language] || localeData.en;
+    window.userLocale = language;
 
-const root = createRoot(document.getElementById('root'));
+    // Split locales with a region code
+    let languageWithoutRegionCode = language.toLowerCase().split(/[_-]+/)[0];
 
-let entreprise = ipcRenderer.sendSync("database.getEntrepriseSettings");
-let paiement = ipcRenderer.sendSync("database.getPaiementSettings");
-let logo = ipcRenderer.sendSync("database.getLogoSettings");
-let settings = ipcRenderer.sendSync("database.getGeneralSettings");
+    window.userLocaleWithoutRegionCode = languageWithoutRegionCode;
+    localeData.setLocale(languageWithoutRegionCode);
+    // Try full locale, try locale without region code, fallback to 'en'
+    const messages = localeData[languageWithoutRegionCode] || localeData[language] || localeData.en;
 
-//ipcRenderer.send("tecdoc.downloadTesseract");
+    const root = createRoot(document.getElementById('root'));
 
-let _settings = {
-    entreprise: entreprise,
-    paiement: paiement,
-    logo: logo?.logo || "",
-    ...settings
+    let _settings = {
+        entreprise: {},
+        paiement: {},
+        // logo: logo?.logo || "",
+        ...settings
+    }
+
+    root.render(
+        <React.Fragment>
+            <CssBaseline />
+            <StoreProvider extra={{ api, database , electron }} globalState={{
+                settings: { installed: false, locale: "fr", ..._settings },
+            }}>
+                <MemoryRouter>
+                    <NavigationProvider>
+                        <IntlProvider locale={language} messages={messages}>
+                            <SnackBarGenerator>
+                                <App />
+                            </SnackBarGenerator>
+                        </IntlProvider>
+                    </NavigationProvider>
+                </MemoryRouter>
+            </StoreProvider>
+        </React.Fragment>
+    );
+
 }
 
-root.render(
-    <React.Fragment>
-        <CssBaseline />
-        <StoreProvider extra={{ api, electron }} persistConfig={persistConfig} globalState={{
-            settings: { locale: "fr", ..._settings },
-        }}>
-            <MemoryRouter>
-                <NavigationProvider>
-                    <IntlProvider locale={language} messages={messages}>
-                        <SnackBarGenerator>
-                            <App />
-                        </SnackBarGenerator>
-                    </IntlProvider>
-                </NavigationProvider>
-            </MemoryRouter>
-        </StoreProvider>
-    </React.Fragment>
-);
+startApp();

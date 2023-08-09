@@ -1,4 +1,6 @@
 import urlIndex from './url.index';
+import urlHome from './url.home';
+import urlInstall from './url.install';
 import urlSettings from './url.settings';
 import urlClients from './url.clients';
 import urlVehicules from './url.vehicules';
@@ -14,6 +16,8 @@ import urlCatalog from './url.catalog';
 
 export default {
     urlIndex,
+    urlHome,
+    urlInstall,
     urlSettings,
     urlClients,
     urlVehicules,

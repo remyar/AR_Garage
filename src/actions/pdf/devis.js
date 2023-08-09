@@ -5,7 +5,6 @@ import robotoBoldFont from './roboto_bold';
 import 'jspdf-autotable';
 
 export async function devis(devis, printAndSave, { extra, getState }) {
-
     const settings = getState().settings;
     let entrepriseSettings = settings.entreprise;
     let paiementSettings = settings.paiement;
@@ -29,7 +28,7 @@ export async function devis(devis, printAndSave, { extra, getState }) {
             lineOffset += pdf.getLineHeight();
         }
 
-        settings.logo && pdf.addImage('data:image/png;base64,' + settings.logo, 'PNG', 30, lineOffset / 2 + 5, 305 / 2, 140 / 2);
+        settings.logo && pdf.addImage(/*'data:image/png;base64,' + */settings.logo, 'PNG', 30, lineOffset / 2 + 5, 305 / 2, 140 / 2);
 
         pdf.setFontSize(16);
         pdf.setTextColor("#97a3b5");
@@ -57,7 +56,7 @@ export async function devis(devis, printAndSave, { extra, getState }) {
         pdf.setTextColor("#000000");
         pdf.setFont("roboto", "bold");
         _pushText(entrepriseSettings?.nom || "");
-        _pushText((devis?.client?.nom?.toUpperCase() || "") + " " + (devis?.client?.prenom || ""), (pdf.internal.pageSize.getWidth() / 2));
+        //_pushText((devis?.client?.nom?.toUpperCase() || "") + " " + (devis?.client?.prenom || ""), (pdf.internal.pageSize.getWidth() / 2));
         _addLine();
         pdf.setFont("roboto", "normal");
 
@@ -80,6 +79,9 @@ export async function devis(devis, printAndSave, { extra, getState }) {
         _pushText("Enregistrer au RCS de : " + (entrepriseSettings?.rcs || ""));
 
         lineOffset -= pdf.getLineHeight() * 6;
+
+        _pushText((devis?.client?.nom?.toUpperCase() || "") + " " + (devis?.client?.prenom || ""), (pdf.internal.pageSize.getWidth() / 2));
+        _addLine();
 
         _pushText((devis?.client?.adresse1 || ""), (pdf.internal.pageSize.getWidth() / 2));
 
@@ -117,6 +119,26 @@ export async function devis(devis, printAndSave, { extra, getState }) {
         _pushText("30 jours", (pdf.internal.pageSize.getWidth() / 3));
         _pushText(devis.expiration ? new Date(devis.expiration).toLocaleDateString() : new Date().toLocaleDateString(), (pdf.internal.pageSize.getWidth() / 3) * 2);
 
+        //-- information du véhicule
+        lineOffset += pdf.getLineHeight() * 3;
+        lineOffset += 5;
+        pdf.setFillColor(240, 240, 240);
+        pdf.roundedRect(30, lineOffset, pdf.internal.pageSize.getWidth() - 30 - 30, (pdf.getLineHeight() * 3), 4, 4, 'F');
+
+        pdf.setFontSize(10);
+        lineOffset -= pdf.getLineHeight();
+        lineOffset -= 1;
+        pdf.setTextColor(128, 128, 128);
+        _pushText("Véhicule", 30 + 10);
+        _addLine();
+        lineOffset += 2;
+        pdf.setFontSize(12);
+        pdf.setTextColor(0, 0, 0);
+
+        _pushText(devis.vehicule?.plate || "", 30 + 10);
+        _pushText(devis.vehicule?.designation || "", (pdf.internal.pageSize.getWidth() / 4));
+        //_pushText(devis.vehicule?.kilometrage ? (devis.vehicule?.kilometrage + " km") : "", (pdf.internal.pageSize.getWidth() / 3) * 2);
+
         lineOffset += pdf.getLineHeight() * 4;
 
         function _getColumns() {
@@ -133,8 +155,8 @@ export async function devis(devis, printAndSave, { extra, getState }) {
         let rows = [];
         let totalMontant = 0;
         rows = devis.products.map((el, idx) => {
-            totalMontant += (parseFloat(el.prix_vente) * parseFloat(el.quantite));
-            return { ...el, num_line: idx + 1, brand_name: ((el.marque ? (el.marque + ' -') : '') + ' ' + (el.nom ? el.nom : el.commentaire ? el.commentaire : ' ')).trim(), prix_vente: parseFloat(el.prix_vente).toFixed(2) + " €", prix_total: (parseFloat(el.prix_vente) * parseFloat(el.quantite)).toFixed(2) + ' €' };
+            totalMontant += (parseFloat(el.taux) * parseFloat(el.quantity));
+            return { ...el, quantite: el.quantity, num_line: idx + 1, brand_name: ((el.marque ? (el.marque + ' -') : '') + ' ' + (el.nom ? el.nom : el.commentaire ? el.commentaire : ' ')).trim(), prix_vente: parseFloat(el.taux).toFixed(2) + " €", prix_total: (parseFloat(el.taux) * parseFloat(el.quantity)).toFixed(2) + ' €' };
         });
 
         pdf.autoTable(_getColumns(), rows, {

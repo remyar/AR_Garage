@@ -1,13 +1,21 @@
 import createAction from '../../middleware/actions';
-import { ipcRenderer } from 'electron';
 
+export async function delProduct(idToDelete, { extra, getState }) {
 
-export async function deleteProduct(id, { extra, getState }) {
+    const database = extra.database;
+
     try {
-        ipcRenderer.sendSync("database.saveProduitsDeleted", id);
+        let data = await database.getProductById(idToDelete);
+        if ( data != undefined ){
+            data.deleted = true;
+        }
+        await database.saveProduct(data);
+        return { 
+            product : data
+        };
     } catch (err) {
         throw { message: err.message };
     }
 }
 
-export default createAction(deleteProduct);
+export default createAction(delProduct);

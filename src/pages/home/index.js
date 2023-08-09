@@ -75,12 +75,12 @@ function HomePage(props) {
             }
 
             _f?.products?.forEach((_p) => {
-                caTotal += (parseFloat(_p.prix_vente || 0) * parseFloat(_p.quantite || 0));
+                caTotal += (parseFloat(_p.taux || 0) * parseFloat(_p.quantity || 0));
 
                 if (_p.isService == true) {
-                    ca[year].service[month] += (parseFloat(_p.prix_vente || 0) * parseFloat(_p.quantite || 0));
+                    ca[year].service[month] += (parseFloat(_p.taux || 0) * parseFloat(_p.quantity || 0));
                 } else {
-                    ca[year].product[month] += (parseFloat(_p.prix_vente || 0) * parseFloat(_p.quantite || 0));
+                    ca[year].product[month] += (parseFloat(_p.taux || 0) * parseFloat(_p.quantity || 0));
                 }
             });
         }

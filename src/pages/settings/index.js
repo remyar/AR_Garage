@@ -1,19 +1,20 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { injectIntl } from 'react-intl';
 import { withStoreProvider } from '../../providers/StoreProvider';
 import { withSnackBar } from '../../providers/snackBar';
 import InputMask from 'react-input-mask';
+import { validate, v4 } from 'uuid';
+import QRCode from 'qrcode';
 
 import Box from '@mui/material/Box';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import Divider from '@mui/material/Divider';
 import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
+import EditIcon from '@mui/icons-material/Edit';
 
 import Switch from '@mui/material/Switch';
 
@@ -24,11 +25,16 @@ import Grid from '@mui/material/Grid';
 
 import actions from '../../actions';
 import Loader from '../../components/Loader';
+import ChangeUUIDModal from '../../components/ChangeUUIDModal';
 
 import AmBrandsSelectorForInstallationModal from '../../components/AmBrandsSelectorForInstallationModal';
 
 import * as Yup from 'yup';
 import { Formik, Form } from 'formik';
+
+import { Buffer } from 'buffer';
+import Installation from '../../components/Installation';
+import database from '../../actions/database';
 
 const ValidationSchema = Yup.object().shape({
     nom: Yup.string().required(),
@@ -52,22 +58,45 @@ function SettingsPage(props) {
     const intl = props.intl;
     const globalState = props.globalState;
 
+    const inputRef = useRef(null);
+
+    const [displayChangeUUIDModal, setDisplayChangeUUIDModal] = useState(false);
     const [displayLoader, setDisplayLoader] = useState(false);
     const [displayAmBrandsSelector, setDisplayAmBrandsSelector] = useState(false);
+    const [displayDatabaseInstaller, setDisplayDatabaseInstaller] = useState(false);
+    const [uuidImg, setUuidImg] = useState("");
 
-    async function fetchData() {
-        setDisplayLoader(true);
-        try {
-            await props.dispatch(actions.tecdoc.getTecDocInformations());
-        } catch (err) {
-            props.snackbar.error(err.message);
+    async function UUID() {
+        if (globalState?.settings?.uuid == undefined) {
+            await props.dispatch(actions.set.saveSettings({ uuid: v4() }));
         }
-        setDisplayLoader(false);
+        setUuidImg(await QRCode.toDataURL(globalState?.settings?.uuid));
     }
 
     useEffect(() => {
-        fetchData();
+        UUID();
     }, []);
+
+    const handleFileChange = event => {
+        const fileObj = event.target.files && event.target.files[0];
+        if (!fileObj) {
+            return;
+        }
+
+        const reader = new FileReader();
+
+        reader.onload = async function (e) {
+            const text = e.target.result;
+            await props.dispatch(actions.set.saveEntrepriseLogo(e.target.result));
+            setDisplayLoader(false);
+        };
+
+        reader.onerror = (err) => {
+            console.error(err);
+        }
+
+        reader.readAsDataURL(fileObj);
+    }
 
     let initialValues = {
         nom: globalState?.settings?.entreprise?.nom || "",
@@ -123,7 +152,7 @@ function SettingsPage(props) {
                         <ListItem>
                             <ListItemText primary="Code Postal" />
                             <InputMask error={(errors.code_postal && touched.code_postal) ? true : false} value={values.code_postal} mask="99999" maskChar=" " name="code_postal" alwaysShowMask={false} onChange={handleChange}>
-                                {(inputProps) => <TextField {...inputProps} variant="standard" sx={{ textAlign: "center" }} disableUnderline />}
+                                {(inputProps) => <TextField {...inputProps} variant="standard" sx={{ textAlign: "center" }} disableunderline />}
                             </InputMask>
                         </ListItem>
                         <ListItem>
@@ -133,7 +162,7 @@ function SettingsPage(props) {
                         <ListItem>
                             <ListItemText primary="Telephone" />
                             <InputMask error={(errors.telephone && touched.telephone) ? true : false} value={values.telephone} mask="99.99.99.99.99" maskChar=" " name="telephone" alwaysShowMask={false} onChange={handleChange}>
-                                {(inputProps) => <TextField {...inputProps} variant="standard" sx={{ textAlign: "center" }} disableUnderline />}
+                                {(inputProps) => <TextField {...inputProps} variant="standard" sx={{ textAlign: "center" }} disableunderline />}
                             </InputMask>
                         </ListItem>
                         <ListItem>
@@ -218,7 +247,7 @@ function SettingsPage(props) {
                 <Grid container spacing={2}>
                     <Grid item xs={2} />
                     <Grid item xs={8} sx={{ textAlign: 'center' }}>
-                        {globalState?.settings?.logo && <img src={'data:image/png;base64,' + globalState?.settings?.logo} width={305 / 2} height={140 / 2} />}
+                        {globalState?.settings?.logo && <img src={/*'data:image/png;base64,' +*/ globalState?.settings?.logo} width={305 / 2} height={140 / 2} />}
                         {!globalState?.settings?.logo && <Typography variant="h8" gutterBottom component="div">{intl.formatMessage({ id: 'settings.logo.no' })}</Typography>}
                     </Grid>
                     <Grid item xs={2} />
@@ -229,18 +258,19 @@ function SettingsPage(props) {
                     <Grid item xs={2} />
                     <Grid item xs={8} sx={{ textAlign: 'center' }}>
                         <Stack direction="row" spacing={2} sx={{ display: 'block' }}>
+                            <input
+                                style={{ display: 'none' }}
+                                ref={inputRef}
+                                type="file"
+                                onChange={handleFileChange}
+                            />
                             <Button variant="contained" onClick={async () => {
                                 try {
                                     setDisplayLoader(true);
-                                    const filename = (await props.dispatch(actions.electron.getFilenameForOpen('.png')))?.getFilenameForOpen;
-                                    if (filename.canceled == false) {
-                                        let fileData = (await props.dispatch(actions.electron.readPng(filename.filePath)))?.fileData;
-                                        await props.dispatch(actions.set.saveEntrepriseLogo(new Buffer(fileData).toString('base64')));
-                                    }
+                                    // 👇️ open file input box on click of another element
+                                    inputRef.current.click();
                                 } catch (err) {
                                     props.snackbar.error(err.message);
-                                } finally {
-                                    setDisplayLoader(false);
                                 }
                             }}>
                                 {intl.formatMessage({ id: 'settings.logo.select' })}
@@ -250,11 +280,56 @@ function SettingsPage(props) {
                     <Grid item xs={2} >
                         <DeleteForeverIcon sx={{ marginTop: "5px", cursor: "pointer" }} onClick={() => {
                             props.dispatch(actions.set.saveEntrepriseLogo(new Buffer("").toString('base64')));
+                            setDisplayLoader(false);
                         }} />
                     </Grid>
                 </Grid>
             </ListItem>
             <br />
+            {/*<ListItem disablePadding>
+                <Typography variant="h5" gutterBottom component="div">{intl.formatMessage({ id: 'settings.online.mode' })}</Typography>
+            </ListItem>
+            <Divider />
+            <ListItem>
+                <ListItemText primary="Synchronisation en ligne" />
+                <Switch checked={globalState?.settings?.onlineMode} onChange={async (event) => {
+                    await props.dispatch(actions.set.saveSettings({ onlineMode: event.target.checked }));
+                }} />
+            </ListItem>
+            {globalState?.settings?.onlineMode && <ListItem>
+                <Grid container spacing={2}>
+                    <Grid item xs={6} >
+                        {"Identifiant unique du compte"}
+                    </Grid>
+                    <Grid item xs={6} style={{ textAlign: "right" }}>
+                        {globalState?.settings?.uuid}
+                        <EditIcon sx={{ cursor: 'pointer', marginLeft: "15px" }} onClick={() => {
+                            setDisplayChangeUUIDModal(true);
+                        }} />
+                    </Grid>
+                </Grid>
+            </ListItem>}
+            {globalState?.settings?.onlineMode && <ListItem>
+                <Grid container spacing={2}>
+                    <Grid item xs={6} >
+                        {"QRCode unique du compte"}
+                    </Grid>
+                    <Grid item xs={6} style={{ textAlign: "right" }}>
+                        <img src={uuidImg} alt="" />
+                    </Grid>
+                </Grid>
+            </ListItem>}
+            <br />
+            <ListItem disablePadding>
+                <Typography variant="h5" gutterBottom component="div">{intl.formatMessage({ id: 'settings.install.database' })}</Typography>
+            </ListItem>
+            <Divider />
+            <ListItem>
+                <ListItemText primary="Installer la base de données" />
+                <Button variant="contained" style={{ textAlign: "right" }} onClick={() => {
+                    setDisplayDatabaseInstaller(true);
+                }}>Installation</Button>
+            </ListItem>*/}
             <ListItem disablePadding>
                 <Typography variant="h5" gutterBottom component="div">{intl.formatMessage({ id: 'settings.database.title' })}</Typography>
             </ListItem>
@@ -270,7 +345,9 @@ function SettingsPage(props) {
                                     setDisplayLoader(true);
                                     const filename = (await props.dispatch(actions.electron.getFilenameForSave('.json')))?.getFilenameForSave;
                                     if (filename.canceled == false) {
-                                        await props.dispatch(actions.electron.writeFile(filename.filePath, JSON.stringify(globalState)));
+                                        let dump = await props.dispatch(actions.database.dumpFromDB());
+                                        await props.dispatch(actions.electron.writeFile(filename.filePath, JSON.stringify(dump.dump)));
+
                                         props.snackbar.success(intl.formatMessage({ id: 'settings.database.export.success' }));
                                     }
                                 } catch (err) {
@@ -305,22 +382,21 @@ function SettingsPage(props) {
                     <Grid item xs={2} />
                 </Grid>
             </ListItem>
-            <br />
-            <ListItem disablePadding>
-                <Typography variant="h5" gutterBottom component="div">{intl.formatMessage({ id: 'settings.catalogue.title' })}</Typography>
+                        <br />
+            {/*<ListItem disablePadding>
+                <Typography variant="h5" gutterBottom component="div">{intl.formatMessage({ id: 'settings.install.database' })}</Typography>
             </ListItem>
             <Divider />
             <ListItem>
-                <ListItemText primary="Utilisé le catalogue de piéces" />
-                <Switch checked={globalState.settings.useCatalog ? globalState.settings.useCatalog : false} onChange={async (event) => {
-                    await props.dispatch(actions.set.saveSettings({ useCatalog: event.target.checked }));
-                    //setDisplayAmBrandsSelector(event.target.checked)
-                    /* if ( event.target.checked == true ){
-                         await props.dispatch(actions.database.installTecdocDatabase());
-                     }*/
+                <ListItemText primary="Installer la base de donnée" />
+                <Switch checked={globalState.settings.useDatabase ? globalState.settings.useDatabase : false} onChange={async (event) => {
+                    await props.dispatch(actions.set.saveSettings({useDatabase : event.target.checked}));
+                    // if ( event.target.checked == true ){
+                     //    await props.dispatch(actions.database.installTecdocDatabase());
+                     //}
                 }} />
-            </ListItem>
-            {((globalState.settings?.useCatalog == 1) || (globalState.settings?.useCatalog == true)) && <ListItem>
+            </ListItem>*/}
+            {/*((globalState.settings?.useCatalog == 1) || (globalState.settings?.useCatalog == true)) && <ListItem>
                 <ListItemText primary="Selectionner les Fabriquants" />
                 <Button variant="contained" style={{ textAlign: "right" }} onClick={() => {
                     setDisplayAmBrandsSelector(true);
@@ -336,8 +412,30 @@ function SettingsPage(props) {
                 <Switch onChange={async (event) => {
                     props.dispatch(actions.set.openConsole(event.target.checked));
                 }} />
-            </ListItem>
+            </ListItem>*/}
         </List>
+
+        <ChangeUUIDModal
+            display={displayChangeUUIDModal}
+            value={globalState?.settings?.uuid}
+            onClose={() => {
+                setDisplayChangeUUIDModal(false);
+            }}
+            onValid={async (value) => {
+                if (value != undefined) {
+                    await props.dispatch(actions.set.saveUuid({ uuid: value }));
+                }
+                setDisplayChangeUUIDModal(false);
+            }}
+        />
+
+        {displayDatabaseInstaller && <Installation
+            display={displayDatabaseInstaller}
+            onFinish={async () => {
+                setDisplayDatabaseInstaller(false);
+            }}
+        />}
+
 
         {displayAmBrandsSelector && <AmBrandsSelectorForInstallationModal
             display={displayAmBrandsSelector}

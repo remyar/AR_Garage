@@ -31,7 +31,7 @@ function MyDrawer(props) {
         <List>
 
             <ListItem button onClick={() => {
-                props.navigation.push(routeMdw.urlIndex());
+                props.navigation.push(routeMdw.urlHome());
                 props.onClose && props.onClose();
             }}>
                 <ListItemIcon>
@@ -57,7 +57,7 @@ function MyDrawer(props) {
                 </ListItemIcon>
                 <ListItemText primary={intl.formatMessage({ id: 'url.vehicules' })} secondary={intl.formatMessage({ id: 'url.vehicules.desc' })} />
             </ListItem>
-            {globalState.settings.useCatalog && <ListItem button onClick={() => {
+            {globalState.settings?.useCatalog && <ListItem button onClick={() => {
                 props.navigation.push(routeMdw.urlCatalog());
                 props.onClose && props.onClose();
             }}>

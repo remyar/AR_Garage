@@ -38,7 +38,7 @@ function ClientsPage(props) {
         setDisplayLoader(true);
         try {
             let result = await props.dispatch(actions.get.allClients());
-            setClients(result.clients.filter(el => el.deleted !== 1));
+            setClients(result.clients.filter(el => ((el.deleted !== 1) && (el.deleted !== true))));
         } catch (err) {
             props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
         }
@@ -112,11 +112,7 @@ function ClientsPage(props) {
                 setDisplayClientEditModal(undefined);
                 setDisplayClientAddModal(undefined);
                 try {
-                    if (edit) {
-                        await props.dispatch(actions.put.client(client));
-                    } else {
-                        await props.dispatch(actions.set.newClient(client));
-                    }
+                    await props.dispatch(actions.set.client(client));
                     await fetchData();
                 } catch (err) {
                     props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));

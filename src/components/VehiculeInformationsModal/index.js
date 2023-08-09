@@ -13,7 +13,7 @@ function VehiculeInformationModal(props) {
     const vehicule = props.vehicule || {};
 
     function _generateEntry(name, value) {
-        return <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
+        return <Grid container spacing={2} sx={{ paddingTop: '15px' }} key={name}>
             <Grid item xs={6} sx={{ textAlign: 'center' }}>
                 {name}
             </Grid>

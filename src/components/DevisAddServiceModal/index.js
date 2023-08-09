@@ -45,7 +45,7 @@ function DevisAddServiceModal(props) {
                     }} component={TextField} />
                 </Grid>
                 <Grid item xs={6} sx={{ textAlign: 'center' }}>
-                    <InputNumber label="Prix" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="taux" onChange={(value) => {
+                    <InputNumber label="Prix unitaire" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="taux" onChange={(value) => {
                         setTaux(value || 0)
                     }} component={TextField} />
                 </Grid>
@@ -59,9 +59,8 @@ function DevisAddServiceModal(props) {
                         onClick={() => {
                             if ( product.id != undefined ){
                                 product.quantity = quantity;
-                                product.prix_vente = taux;
-                                product.name = product.commentaire;
-                                product.ref_fab = product.ref;
+                                product.taux = taux;
+                                product.ref_fab = product.ref_fab;
                                 product.isService = true;
                                 props.onValidate && props.onValidate({...product});
                             } else {

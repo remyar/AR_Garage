@@ -55,46 +55,29 @@ function DevisCreatePage(props) {
         setClients(result.clients);
         result = await props.dispatch(actions.get.allVehicules());
         setVehicules(result.vehicules);
-
-        result = await props.dispatch(actions.get.productsFromVehicule(selectedVehicule));
-        setProduits(result.productsFromVehicule.filter((el) => el.deleted !== 1));
-
-        /*result = await props.dispatch(actions.get.allProducts());
-        setProduits(result.products.filter((el) => el.deleted !== 1));*/
+        result = await props.dispatch(actions.get.allProducts());
+        setProduits(result.products.filter((el) => ((el.deleted !== 1) && (el.deleted !== true))));
         result = await props.dispatch(actions.get.allServices());
-        setServices(result.services.filter((el) => el.deleted !== 1));
-        /* result = await props.dispatch(actions.get.lastDevisNumber());
-         setDevisNumber(result.lastDevisNumber + 1);*/
+        setServices(result.services.filter((el) => ((el.deleted !== 1) && (el.deleted !== true))));
     }
 
     useEffect(() => {
         fetchData();
     }, []);
 
-    useEffect(() => {
-        async function __function() {
-            let result = await props.dispatch(actions.get.productsFromVehicule(selectedVehicule));
-            setProduits(result.productsFromVehicule);
-        }
-        __function();
-    }, [selectedVehicule])
-
     const headers = [
         { id: 'ref_fab', label: 'Code', minWidth: 100 },
         { id: 'nom', label: 'Désignation', minWidth: 100 },
-        // { id: 'info', label: 'Information', minWidth: 100 },
         { id: 'qty', label: 'Quantité', minWidth: 100 },
-        // { id: 'tarif_achat', label: 'Tarif Achat', minWidth: 100 },
-        { id: 'tarif_vente', label: 'Tarif Vente', minWidth: 100 },
+        { id: 'tarif_vente', label: 'Tarif Unitaire', minWidth: 100 },
         { id: 'tarif_total', label: 'Total TTC', minWidth: 100 },
     ];
 
     let rows = lines.map((line) => {
-        let tarif_total = parseFloat(line.quantity.toString()) * parseFloat(line.prix_vente.toString());
-        let tarif_vente = parseFloat(line.prix_vente.toString()).toFixed(2) + ' €';
-        return { ...line, name: ((line.brand ? line.brand : '') + ' ' + line.name).trim(), info: '', qty: line.quantity, tarif_vente, tarif_total: tarif_total.toFixed(2) + ' €' };
+        let tarif_total = parseFloat(line.quantity.toString()) * parseFloat(line.taux.toString());
+        let tarif_vente = parseFloat(line.taux.toString()).toFixed(2) + ' €';
+        return { ...line, name: ((line.brand ? line.brand : '') + ' ' + line.nom).trim(), info: '', qty: line.quantity, tarif_vente, tarif_total: tarif_total.toFixed(2) + ' €' };
     });
-
 
     return <Box sx={{ paddingBottom: '25px' }}>
 
@@ -117,7 +100,7 @@ function DevisCreatePage(props) {
                             }}
                             onValidate={async (client, edit) => {
                                 try {
-                                    let result = await props.dispatch(actions.set.newClient(client));
+                                    let result = await props.dispatch(actions.set.client(client));
                                     await fetchData();
                                     setSelectedClient(result.client);
                                 } catch (err) {
@@ -180,7 +163,7 @@ function DevisCreatePage(props) {
                                     } else {
                                         setDisplayLoader(true);
                                         try {
-                                            let result = await props.dispatch(actions.oscaro.getAutoFromPlate(value));
+                                            let result = await props.dispatch(actions.get.autoFromPlate(value));
                                             await props.dispatch(actions.set.selectedVehicule(result.vehicule));
                                             setSelectedVehicule(result.vehicule);
                                         } catch (err) {
@@ -196,26 +179,11 @@ function DevisCreatePage(props) {
                                 }
                             }} />
                     </Grid>
-                    {/*  <Grid item xs={1} sx={{ marginTop: 'auto', marginBottom: 'auto', textAlign: "center", paddingLeft: '0px' }}>
-                        <AddIcon sx={{ marginTop: '5px', cursor: 'pointer', color: 'green' }} onClick={() => {
-                            setDisplayClientAddModal(true);
-                        }} />
-                    </Grid>*/}
                 </Grid>
                 <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
                     <Grid item xs={12}>
                         <TextField label="Vehicule" focused variant="outlined" sx={{ width: "100%", textAlign: "left" }} name="Vehicule" multiline maxRows='3' minRows='3'
-                            value={selectedVehicule?.designation + "\r\n\r\n" + (selectedVehicule?.vin || "")}
-                        />
-                    </Grid>
-                </Grid>
-                <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
-                    <Grid item xs={12}>
-                        <TextField label="Kilométrage" variant="outlined" sx={{ width: "100%", textAlign: "left" }} name="Kilométrage"
-                            value={selectedVehicule?.kilometrage}
-                            onChange={(event) => {
-                                setSelectedVehicule({ ...selectedVehicule, kilometrage: event.target.value })
-                            }}
+                            value={(selectedVehicule?.designation || "") + "\r\n\r\n" + (selectedVehicule?.vin || "")}
                         />
                     </Grid>
                 </Grid>
@@ -277,9 +245,8 @@ function DevisCreatePage(props) {
                 tooltipTitle={intl.formatMessage({ id: 'devis.save' })}
                 onClick={async () => {
                     let devis = {
-                        client_id: selectedClient?.id,
-                        vehicule_id: selectedVehicule?.id,
-                        kilometrage: selectedVehicule?.kilometrage,
+                        client : {...selectedClient},
+                        vehicule : {...selectedVehicule},
                         date: new Date().getTime(),
                         expiration: expiration,
                         products: [...lines],

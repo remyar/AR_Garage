@@ -10,11 +10,8 @@ import Box from '@mui/material/Box';
 import SpeedDialIcon from '@mui/material/SpeedDialIcon';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 
-import SaveIcon from '@mui/icons-material/Save';
 import AddIcon from '@mui/icons-material/Add';
-import EditIcon from '@mui/icons-material/Edit';
 
-import ProductAddModal from '../../components/ProductAddModal';
 import ServiceAddModal from '../../components/ServiceAddModal';
 import ConfirmModal from '../../components/ConfirmModal';
 
@@ -42,7 +39,7 @@ function ServicesPage(props) {
         try {
             let result = await props.dispatch(actions.get.allServices());
             result.services = result.services.sort((a, b) => a.ref_fab > b.ref_fab ? 1 : -1);
-            setServices(result.services.filter((el) => el.deleted !== 1));
+            setServices(result.services.filter((el) => ((el.deleted !== 1) && (el.deleted !== true))));
         } catch (err) {
             props.snackbar.error(err.message);
         }
@@ -56,11 +53,6 @@ function ServicesPage(props) {
     const headers = [
         { id: 'ref_fab', label: 'Référence', minWidth: 100 },
         { id: 'nom', label: 'Désignation', minWidth: 100 },
-        /*{
-            id: 'prix_vente', label: "Prix vente", minWidth: 100, render: (value) => {
-                return '' + parseFloat(value.prix_vente.replace(',', '.')).toFixed(2) + ' €';
-            }
-        },*/
         {
             label: '', maxWidth: 100, minWidth: 100, align: "right" , render: (row) => {
                 return <span>
@@ -104,7 +96,7 @@ function ServicesPage(props) {
                 setDisplayLoader(true);
                 setDisplayServiceAddModal(false);
 
-                await props.dispatch(actions.set.newService(service));
+                await props.dispatch(actions.set.saveService(service));
                 await fetchData();
                 
                 setDisplayLoader(false);
@@ -129,11 +121,7 @@ function ServicesPage(props) {
                 icon={<AddIcon />}
                 tooltipTitle={intl.formatMessage({ id: 'service.add' })}
                 onClick={async () => {
-                    //if (selectedVehicule) {
-                        setDisplayServiceAddModal(true);
-                    /*} else {
-                        props.snackbar.error(intl.formatMessage({ id: 'no.vehicule.selected' }));
-                    }*/
+                    setDisplayServiceAddModal(true);
                 }}
             />
         </SpeedDial>

@@ -25,11 +25,6 @@ import SpeedDial from '@mui/material/SpeedDial';
 import TableRow from '@mui/material/TableRow';
 import TableCell, { tableCellClasses } from '@mui/material/TableCell';
 
-import AddIcon from '@mui/icons-material/Add';
-
-import routeMdw from '../../middleware/route';
-
-import AttachEmailIcon from '@mui/icons-material/AttachEmail';
 import CreditScoreIcon from '@mui/icons-material/CreditScore';
 
 function DevisDisplayPage(props) {
@@ -44,8 +39,8 @@ function DevisDisplayPage(props) {
 
     async function fetchData() {
         try {
-            let result = await props.dispatch(actions.get.devisFromId(devis_id));
-            setDevis(result.devi);
+            let result = await props.dispatch(actions.get.devis(devis_id));
+            setDevis(result.devis);
         } catch (err) {
             props.snackbar.error('fetch.error');
         } finally {
@@ -60,9 +55,7 @@ function DevisDisplayPage(props) {
     const headers = [
         { id: 'ref_fab', label: 'Code', minWidth: 100 },
         { id: 'name', label: 'Désignation', minWidth: 100 },
-        // { id: 'info', label: 'Information', minWidth: 100 },
         { id: 'qty', label: 'Quantité', minWidth: 100 },
-        // { id: 'tarif_achat', label: 'Tarif Achat', minWidth: 100 },
         { id: 'tarif_vente', label: 'Tarif Unitaire', minWidth: 100 },
         { id: 'tarif_total', label: 'Total TTC', minWidth: 100 },
     ];
@@ -72,15 +65,15 @@ function DevisDisplayPage(props) {
         if (line.ref) {
             line.ref_fab = line.ref;
         }
-        let tarif_total = parseFloat(line.quantite.toString()) * parseFloat(line.prix_vente.toString());
+        let tarif_total = parseFloat(line.quantity.toString()) * parseFloat(line.taux.toString());
         devis_total += tarif_total;
-        let tarif_vente = parseFloat(line.prix_vente.toString()).toFixed(2) + ' €';
-        return { ...line, name: ((line.marque ? (line.marque + ' -') : '') + ' ' + (line.nom ? line.nom : line.commentaire ? line.commentaire : ' ')).trim(), info: '', qty: line.quantite, tarif_vente, tarif_total: tarif_total.toFixed(2) + ' €' };
+        let tarif_vente = parseFloat(line.taux.toString()).toFixed(2) + ' €';
+        return { ...line, name: ((line.marque ? (line.marque + ' -') : '') + ' ' + (line.nom ? line.nom : line.commentaire ? line.commentaire : ' ')).trim(), info: '', qty: line.quantity, tarif_vente, tarif_total: tarif_total.toFixed(2) + ' €' };
     });
 
     rows && rows.push({
-        isCustom: true, render: (row) => {
-            return <TableRow  >
+        isCustom: true, render: () => {
+            return <TableRow key="header" >
                 <TableCell />
                 <TableCell />
                 <TableCell />
@@ -138,7 +131,12 @@ function DevisDisplayPage(props) {
                 </Grid>
                 <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
                     <Grid item xs={12}>
-                        <TextField disabled label="Kilométrage" variant="outlined" sx={{ width: "100%", textAlign: "left" }} value={devis?.kilometrage} />
+                        <TextField label="Kilométrage" variant="outlined" sx={{ width: "100%", textAlign: "left" }} value={devis?.vehicule?.kilometrage}
+                            onChange={(event) => {
+                                let obj = {...devis};
+                                obj.vehicule.kilometrage = event.target.value;
+                                setDevis(obj);
+                            }} />
                     </Grid>
                 </Grid>
             </Grid>

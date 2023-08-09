@@ -1,11 +1,15 @@
 import createAction from '../../middleware/actions';
-import { ipcRenderer } from 'electron';
 
 export async function getAllVehicules({ extra, getState }) {
+    const database = extra.database;
+
     try {
-        let vehicules = ipcRenderer.sendSync("database.getAllVehicules");
-    
-        return { vehicules: vehicules };
+        let vehicules = await database.getAllVehicules();
+        
+        return {
+            vehicules : vehicules
+        }
+
     } catch (err) {
         throw { message: err.message };
     }

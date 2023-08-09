@@ -16,6 +16,8 @@ function DevisAddProductModal(props) {
 
     const [product, setProduct] = useState({});
     const [quantity, setQuantity] = useState(1);
+    const [taux, setTaux] = useState(0);
+
     const title = props.title || "";
     const products = props.options || [];
 
@@ -30,7 +32,7 @@ function DevisAddProductModal(props) {
                 <Grid item xs={12} sx={{ textAlign: 'center' }}>
                     <Autocomplete
                         disablePortal
-                        getOptionLabel={(option) => option?.marque?.toUpperCase() + ' - ' + option?.nom + ' - ' + option.ref_fab}
+                        getOptionLabel={(option) => option?.ref_fab + ' - ' + option?.nom  }
                         options={products}
                         onChange={(event, value) => { setProduct(value) }}
                         renderInput={(params, option) => <TextField name="marque" {...params} label={intl.formatMessage({ id: 'devis.select.product' })} variant="outlined" sx={{ width: "100%", textAlign: "center" }} />}
@@ -38,9 +40,14 @@ function DevisAddProductModal(props) {
                 </Grid>
             </Grid>
             <Grid container spacing={2} sx={{ paddingTop: '20px' }}>
-                <Grid item xs={12} sx={{ textAlign: 'center' }}>
-                    <InputNumber label="Quantité" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="qty" value={quantity} onChange={(value) => {
+                <Grid item xs={6} sx={{ textAlign: 'center' }}>
+                    <InputNumber label="Quantité" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="qty" onChange={(value) => {
                         setQuantity(value || 0)
+                    }} component={TextField} />
+                </Grid>
+                <Grid item xs={6} sx={{ textAlign: 'center' }}>
+                    <InputNumber label="Prix Unitaire" variant="outlined" sx={{ width: "100%", textAlign: "center" }} name="taux" onChange={(value) => {
+                        setTaux(value || 0)
                     }} component={TextField} />
                 </Grid>
             </Grid>
@@ -53,6 +60,7 @@ function DevisAddProductModal(props) {
                         onClick={() => {
                             if ( product.id != undefined ){
                                 product.quantity = quantity;
+                                product.taux = taux;
                                 props.onValidate && props.onValidate({...product});
                             } else {
                                 props.snackbar.error(intl.formatMessage({ id: 'devis.no.product.selected' }));

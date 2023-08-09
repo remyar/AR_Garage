@@ -1,30 +1,25 @@
 import React, { useEffect, useState } from 'react';
 import { injectIntl } from 'react-intl';
-import AdapterDateFns from '@mui/lab/AdapterDateFns';
-import LocalizationProvider from '@mui/lab/LocalizationProvider';
-import DatePicker from '@mui/lab/DatePicker';
-import TextField from '@mui/material/TextField';
+import { DatePicker } from '@mui/x-date-pickers';
+import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
+import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import locales from '../../locales';
 
 function MyDatePicker(props) {
 
-    const [value, setValue] = useState(new Date().addMonths(1));
+    const [value, setValue] = useState(new Date());
 
     useEffect(() => {
         props.onChange && props.onChange(value);
     }, [value]);
 
-    return <LocalizationProvider sx={{...props.sx}} dateAdapter={AdapterDateFns} locale={locales.getLocale()}>
+    return <LocalizationProvider sx={{ ...props.sx }} dateAdapter={AdapterDateFns} adapterLocale={locales.getLocale()}>
         <DatePicker
-            sx={{...props.sx}}
+            sx={{ ...props.sx }}
             disabled={props.disabled ? props.disabled : false}
-            label="Date échéance"
-            value={value}
-            onChange={(newValue) => {
-                setValue(new Date(newValue));
-                
-            }}
-            renderInput={(params) => <TextField {...params} sx={{...props.sx}}/>}
+            label={props.title || "Date échéance"}
+            value={props.value || new Date().addMonths(1)}
+            onChange={(newValue) => { setValue(new Date(newValue)) }}
         />
     </LocalizationProvider>
 }

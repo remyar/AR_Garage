@@ -10,13 +10,8 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
-import Paper from '@mui/material/Paper';
-import TableContainer from '@mui/material/TableContainer';
-import Table from '@mui/material/Table';
-import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
-import TableCell, { tableCellClasses } from '@mui/material/TableCell';
-import TableBody from '@mui/material/TableBody';
+import TableCell from '@mui/material/TableCell';
 
 import Loader from '../../components/Loader';
 import DatePicker from '../../components/DatePicker';
@@ -40,8 +35,8 @@ function BillingsDisplayPage(props) {
 
     async function fetchData() {
         try {
-            let result = await props.dispatch(actions.get.factureFromId(facture_number));
-            setFacture(result.facture);
+            let result = await props.dispatch(actions.get.facture(facture_number));
+            setFacture(result.factures);
         } catch (err) {
             props.snackbar.error('fetch.error');
         } finally {
@@ -56,9 +51,7 @@ function BillingsDisplayPage(props) {
     const headers = [
         { id: 'ref_fab', label: 'Code', minWidth: 100 },
         { id: 'name', label: 'Désignation', minWidth: 100 },
-        // { id: 'info', label: 'Information', minWidth: 100 },
         { id: 'qty', label: 'Quantité', minWidth: 100 },
-        // { id: 'tarif_achat', label: 'Tarif Achat', minWidth: 100 },
         { id: 'tarif_vente', label: 'Tarif Unitaire', minWidth: 100 },
         { id: 'tarif_total', label: 'Total TTC', minWidth: 100 },
     ];
@@ -68,15 +61,16 @@ function BillingsDisplayPage(props) {
         if (line.ref) {
             line.ref_fab = line.ref;
         }
-        let tarif_total = parseFloat(line?.quantite?.toString()) * parseFloat(line?.prix_vente?.toString());
+        let tarif_total = parseFloat(line?.quantity?.toString()) * parseFloat(line?.taux?.toString());
         devis_total += tarif_total;
-        let tarif_vente = parseFloat(line.prix_vente.toString()).toFixed(2) + ' €';
-        return { ...line, name: ((line.marque ? line.marque : '') + ' ' + (line.nom ? line.nom : line.commentaire ? line.commentaire : ' ')).trim(), info: '', qty: line.quantite, tarif_vente, tarif_total: tarif_total.toFixed(2) + ' €' };
+        let tarif_vente = parseFloat(line.taux.toString()).toFixed(2) + ' €';
+        return { ...line, name: ((line.marque ? line.marque : '') + ' ' + (line.nom ? line.nom : line.commentaire ? line.commentaire : ' ')).trim(), info: '', qty: line.quantity, tarif_vente : line.taux, tarif_total: tarif_total.toFixed(2) + ' €' };
     });
 
     rows && rows.push({
-        isCustom: true, render: (row) => {
-            return <TableRow  >
+        isCustom: true, 
+        render: () => {
+            return <TableRow  key="header">
                 <TableCell />
                 <TableCell />
                 <TableCell />
@@ -128,13 +122,13 @@ function BillingsDisplayPage(props) {
                 <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
                     <Grid item xs={12}>
                         <TextField label="Véhicule" disabled variant="outlined" sx={{ width: "100%", textAlign: "left" }} multiline maxRows='3' minRows='3'
-                            value={facture?.vehicule?.designation + "\r\n\r\n" + (facture?.vehicule?.vin || "")}
+                            value={(facture?.vehicule?.designation || "") + "\r\n\r\n" + (facture?.vehicule?.vin || "")}
                         />
                     </Grid>
                 </Grid>
                 <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
                     <Grid item xs={12}>
-                        <TextField disabled label="Kilométrage" variant="outlined" sx={{ width: "100%", textAlign: "left" }} value={facture?.kilometrage} />
+                        <TextField disabled label="Kilométrage" variant="outlined" sx={{ width: "100%", textAlign: "left" }} value={facture?.vehicule?.kilometrage} />
                     </Grid>
                 </Grid>
             </Grid>
@@ -143,22 +137,6 @@ function BillingsDisplayPage(props) {
         {rows && <DataTable sx={{ marginTop: '25px', marginBottom: '17px' }} headers={headers} rows={rows}>
 
         </DataTable>}
-
-        {/*rows && <Grid container spacing={2} sx={{}}>
-            <Grid item xs={7}></Grid>
-            <Grid item xs={5}>
-                < Paper elevation={3}>
-                    <Grid container spacing={2} sx={{ paddingLeft: '15px', paddingRight: '15px', paddingBottom: '15px' }}>
-                        <Grid item xs={7}>
-                            <b>Total TTC :</b>
-                        </Grid>
-                        <Grid item xs={5}>
-                            <b>{devis_total.toFixed(2) + ' €'}</b>
-                        </Grid>
-                    </Grid>
-                </Paper>
-            </Grid>
-</Grid>*/}
 
         <SpeedDial
             ariaLabel="SpeedDial basic example"

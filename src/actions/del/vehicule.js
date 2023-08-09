@@ -1,17 +1,21 @@
 import createAction from '../../middleware/actions';
 
-export async function deleteVehicule(id, { extra, getState }) {
+export async function delVehicule(idToDelete, { extra, getState }) {
+
+    const database = extra.database;
+
     try {
-        let state = getState();
-        state.vehicules.forEach((el, idx) => {
-            if (el.id == id) {
-                state.vehicules[idx].deleted = 1;
-            }
-        });
-        return { vehicules: state.vehicules }
+        let data = await database.getVehiculeById(idToDelete);
+        if ( data != undefined ){
+            data.deleted = true;
+        }
+        await database.saveVehicule(data);
+        return { 
+            vehicule : data
+        };
     } catch (err) {
         throw { message: err.message };
     }
 }
 
-export default createAction(deleteVehicule);
+export default createAction(delVehicule);
