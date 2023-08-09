@@ -12,7 +12,7 @@ export async function getAutoFromPlate(plate = "AA-456-BB", { extra, getState })
 
         vehicule = { ...vehicule };
 
-        let reparCarInfos = ipcRenderer.sendSync("fetch.post", { url: "https://www.reparcar.fr/api/public/v1/search/immat/0?immat=" + plate });
+        let reparCarInfos = ipcRenderer.sendSync("fetch.post", { url: process.env.REACT_APP_REPARCAR_API_URL_1 + "/0?immat=" + plate });
 
         vehicule.plate = plate;
         vehicule.engineCode = reparCarInfos?.registration_info?.engine_code || vehicule.engineCode;
