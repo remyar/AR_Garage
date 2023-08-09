@@ -657,7 +657,7 @@ async function saveFacture(_data) {
 
 }
 
-module.exports = {
+export default {
     start,
     dump,
     restore,
