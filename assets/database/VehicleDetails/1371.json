@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1371,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1371,
+               "ccmTech": 2309,
+               "constructionType": "Coupé",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2309,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 202,
+               "modelName": "COUPE B3 (89, 8B3)",
+               "motorType": "Essence",
+               "powerHpFrom": 136,
+               "powerHpTo": 136,
+               "powerKwFrom": 100,
+               "powerKwTo": 100,
+               "typeName": "2.3 quattro",
+               "typeNumber": 1371,
+               "valves": 2,
+               "yearOfConstrFrom": 198811,
+               "yearOfConstrTo": 199212,
+               "rmiTypeId": 1220
+            },
+            "vehicleDocId": "DR1371"
+         }
+      ]
+   },
+   "status": 200
+}

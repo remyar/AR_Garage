@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11341,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 11341,
+               "ccmTech": 3697,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 3697,
+               "cylinderCapacityLiter": 370,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 265,
+               "modelName": "A8 D2 (4D2, 4D8)",
+               "motorType": "Essence",
+               "powerHpFrom": 260,
+               "powerHpTo": 260,
+               "powerKwFrom": 191,
+               "powerKwTo": 191,
+               "typeName": "3.7",
+               "typeNumber": 11341,
+               "valves": 5,
+               "yearOfConstrFrom": 199811,
+               "yearOfConstrTo": 200209,
+               "rmiTypeId": 9064
+            },
+            "vehicleDocId": "DR11341"
+         }
+      ]
+   },
+   "status": 200
+}

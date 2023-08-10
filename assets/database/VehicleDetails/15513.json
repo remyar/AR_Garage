@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 15513,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 15513,
+               "ccmTech": 5998,
+               "constructionType": "A trois volumes",
+               "cylinder": 12,
+               "cylinderCapacityCcm": 5998,
+               "cylinderCapacityLiter": 600,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 265,
+               "modelName": "A8 D2 (4D2, 4D8)",
+               "motorType": "Essence",
+               "powerHpFrom": 420,
+               "powerHpTo": 420,
+               "powerKwFrom": 309,
+               "powerKwTo": 309,
+               "typeName": "6.0 W12 quattro",
+               "typeNumber": 15513,
+               "valves": 4,
+               "yearOfConstrFrom": 200101,
+               "yearOfConstrTo": 200209,
+               "rmiTypeId": 11644
+            },
+            "vehicleDocId": "DR15513"
+         }
+      ]
+   },
+   "status": 200
+}

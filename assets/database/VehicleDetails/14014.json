@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 14014,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 14014,
+               "ccmTech": 1647,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1647,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 93,
+               "manuName": "RENAULT",
+               "modId": 428,
+               "modelName": "TRAFIC Autobus/Autocar (T_, P_, V_)",
+               "motorType": "Essence",
+               "powerHpFrom": 65,
+               "powerHpTo": 65,
+               "powerKwFrom": 48,
+               "powerKwTo": 48,
+               "typeName": "1.6 4x4",
+               "typeNumber": 14014,
+               "valves": 2,
+               "yearOfConstrFrom": 198003,
+               "yearOfConstrTo": 198608,
+               "rmiTypeId": 10276
+            }
+         }
+      ]
+   },
+   "status": 200
+}

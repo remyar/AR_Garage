@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9101,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9101,
+               "ccmTech": 2309,
+               "constructionType": "Coupé",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2309,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 194,
+               "modelName": "COUPE B2 (81, 855, 856)",
+               "motorType": "Essence",
+               "powerHpFrom": 133,
+               "powerHpTo": 133,
+               "powerKwFrom": 98,
+               "powerKwTo": 98,
+               "typeName": "2.3 quattro",
+               "typeNumber": 9101,
+               "valves": 2,
+               "yearOfConstrFrom": 198701,
+               "yearOfConstrTo": 198712,
+               "rmiTypeId": 8136
+            }
+         }
+      ]
+   },
+   "status": 200
+}

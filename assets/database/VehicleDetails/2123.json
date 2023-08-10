@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2123,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2123,
+               "ccmTech": 2165,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2165,
+               "cylinderCapacityLiter": 220,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 93,
+               "manuName": "RENAULT",
+               "modId": 3981,
+               "modelName": "TRAFIC Autobus/Autocar (T_, P_, V_)",
+               "motorType": "Essence",
+               "powerHpFrom": 95,
+               "powerHpTo": 95,
+               "powerKwFrom": 70,
+               "powerKwTo": 70,
+               "typeName": "2.2",
+               "typeNumber": 2123,
+               "valves": 2,
+               "yearOfConstrFrom": 198905,
+               "yearOfConstrTo": 199406,
+               "rmiTypeId": 1937
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 23300,
+            "vehicleDetails": {
+               "carId": 23300,
+               "ccmTech": 3197,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3197,
+               "cylinderCapacityLiter": 320,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 6418,
+               "modelName": "A4 B8 (8K2)",
+               "motorType": "Essence",
+               "powerHpFrom": 265,
+               "powerHpTo": 265,
+               "powerKwFrom": 195,
+               "powerKwTo": 195,
+               "typeName": "3.2 FSI quattro",
+               "typeNumber": 23300,
+               "valves": 4,
+               "yearOfConstrFrom": 200711,
+               "yearOfConstrTo": 201203,
+               "rmiTypeId": 52048
+            },
+            "vehicleDocId": "DR23300"
+         }
+      ]
+   },
+   "status": 200
+}

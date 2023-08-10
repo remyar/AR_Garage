@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 17116,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 17116,
+               "ccmTech": 1198,
+               "constructionType": "A trois volumes",
+               "cylinder": 3,
+               "cylinderCapacityCcm": 1198,
+               "cylinderCapacityLiter": 120,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 104,
+               "manuName": "SEAT",
+               "modId": 4961,
+               "modelName": "CORDOBA (6L2)",
+               "motorType": "Essence",
+               "powerHpFrom": 64,
+               "powerHpTo": 64,
+               "powerKwFrom": 47,
+               "powerKwTo": 47,
+               "typeName": "1.2",
+               "typeNumber": 17116,
+               "valves": 4,
+               "yearOfConstrFrom": 200210,
+               "yearOfConstrTo": 200606,
+               "rmiTypeId": 13160
+            },
+            "vehicleDocId": "DR17116"
+         }
+      ]
+   },
+   "status": 200
+}

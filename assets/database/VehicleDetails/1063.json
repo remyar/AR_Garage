@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1063,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1063,
+               "ccmTech": 1588,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1588,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 26,
+               "modelName": "80 B2 A trois volumes (811, 813, 814, 819, 853)",
+               "motorType": "Essence",
+               "powerHpFrom": 110,
+               "powerHpTo": 110,
+               "powerKwFrom": 81,
+               "powerKwTo": 81,
+               "typeName": "1.6 GLE",
+               "typeNumber": 1063,
+               "valves": 2,
+               "yearOfConstrFrom": 197808,
+               "yearOfConstrTo": 198207,
+               "rmiTypeId": 936
+            },
+            "vehicleDocId": "DR1063"
+         }
+      ]
+   },
+   "status": 200
+}

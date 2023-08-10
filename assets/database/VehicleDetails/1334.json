@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1334,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1334,
+               "ccmTech": 2226,
+               "constructionType": "A trois volumes",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2226,
+               "cylinderCapacityLiter": 220,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 13,
+               "modelName": "100 C3 A trois volumes (443, 444)",
+               "motorType": "Essence",
+               "powerHpFrom": 165,
+               "powerHpTo": 165,
+               "powerKwFrom": 121,
+               "powerKwTo": 121,
+               "typeName": "2.2 E Turbo quattro",
+               "typeNumber": 1334,
+               "valves": 2,
+               "yearOfConstrFrom": 198608,
+               "yearOfConstrTo": 199011,
+               "rmiTypeId": 1188
+            },
+            "vehicleDocId": "DR1334"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1500,
+            "vehicleDetails": {
+               "carId": 1500,
+               "ccmTech": 875,
+               "constructionType": "Décapotable",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 875,
+               "cylinderCapacityLiter": 90,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 8500,
+               "modelName": "500 C (312_)",
+               "motorType": "Essence",
+               "powerHpFrom": 86,
+               "powerHpTo": 86,
+               "powerKwFrom": 63,
+               "powerKwTo": 63,
+               "typeName": "0.9 (312AG1A)",
+               "typeNumber": 1500,
+               "valves": 4,
+               "yearOfConstrFrom": 200909,
+               "rmiTypeId": 64490
+            },
+            "vehicleDocId": "DR1500"
+         }
+      ]
+   },
+   "status": 200
+}

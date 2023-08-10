@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 33123,
+            "vehicleDetails": {
+               "carId": 33123,
+               "ccmTech": 1149,
+               "constructionType": "Décapotable",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1149,
+               "cylinderCapacityLiter": 120,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 93,
+               "manuName": "RENAULT",
+               "modId": 8577,
+               "modelName": "WIND (E4M_)",
+               "motorType": "Essence",
+               "powerHpFrom": 101,
+               "powerHpTo": 101,
+               "powerKwFrom": 74,
+               "powerKwTo": 74,
+               "typeName": "1.2 (E4MF)",
+               "typeNumber": 33123,
+               "valves": 4,
+               "yearOfConstrFrom": 201007,
+               "rmiTypeId": 63822
+            },
+            "vehicleDocId": "DR33123"
+         }
+      ]
+   },
+   "status": 200
+}

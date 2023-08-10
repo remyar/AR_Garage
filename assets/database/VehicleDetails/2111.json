@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2111,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2111,
+               "ccmTech": 1108,
+               "constructionType": "Camionnette/Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1108,
+               "cylinderCapacityLiter": 110,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 93,
+               "manuName": "RENAULT",
+               "modId": 17,
+               "modelName": "EXPRESS Camionnette/Monospace (F40_, G40_)",
+               "motorType": "Essence",
+               "powerHpFrom": 45,
+               "powerHpTo": 45,
+               "powerKwFrom": 33,
+               "powerKwTo": 33,
+               "typeName": "1.1 (F401)",
+               "typeNumber": 2111,
+               "valves": 2,
+               "yearOfConstrFrom": 198507,
+               "yearOfConstrTo": 199504,
+               "rmiTypeId": 1925
+            }
+         }
+      ]
+   },
+   "status": 200
+}

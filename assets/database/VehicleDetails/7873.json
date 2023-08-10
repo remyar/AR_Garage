@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7873,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7873,
+               "ccmTech": 2946,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2946,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 1901,
+               "modelName": "406 Break (8E/F)",
+               "motorType": "Essence",
+               "powerHpFrom": 190,
+               "powerHpTo": 190,
+               "powerKwFrom": 140,
+               "powerKwTo": 140,
+               "typeName": "3.0 24V",
+               "typeNumber": 7873,
+               "valves": 4,
+               "yearOfConstrFrom": 199610,
+               "yearOfConstrTo": 200410,
+               "rmiTypeId": 7038
+            },
+            "vehicleDocId": "DR7873"
+         }
+      ]
+   },
+   "status": 200
+}

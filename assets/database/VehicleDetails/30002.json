@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 30002,
+            "vehicleDetails": {
+               "carId": 30002,
+               "ccmTech": 1968,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1968,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 6418,
+               "modelName": "A4 B8 (8K2)",
+               "motorType": "Diesel",
+               "powerHpFrom": 163,
+               "powerHpTo": 163,
+               "powerKwFrom": 120,
+               "powerKwTo": 120,
+               "typeName": "2.0 TDI",
+               "typeNumber": 30002,
+               "valves": 4,
+               "yearOfConstrFrom": 200808,
+               "yearOfConstrTo": 201512,
+               "rmiTypeId": 57235
+            },
+            "vehicleDocId": "DR30002"
+         }
+      ]
+   },
+   "status": 200
+}

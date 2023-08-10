@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5674,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5674,
+               "ccmTech": 1984,
+               "constructionType": "Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1984,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 104,
+               "manuName": "SEAT",
+               "modId": 1564,
+               "modelName": "ALHAMBRA (7V8, 7V9)",
+               "motorType": "Essence",
+               "powerHpFrom": 115,
+               "powerHpTo": 115,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "2.0 i",
+               "typeNumber": 5674,
+               "valves": 2,
+               "yearOfConstrFrom": 199604,
+               "yearOfConstrTo": 201003,
+               "rmiTypeId": 5229
+            },
+            "vehicleDocId": "DR5674"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2307,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2307,
+               "ccmTech": 1360,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1360,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 205,
+               "modelName": "205 II (20A/C)",
+               "motorType": "Essence",
+               "powerHpFrom": 84,
+               "powerHpTo": 84,
+               "powerKwFrom": 62,
+               "powerKwTo": 62,
+               "typeName": "1.4",
+               "typeNumber": 2307,
+               "valves": 2,
+               "yearOfConstrFrom": 198706,
+               "yearOfConstrTo": 198912,
+               "rmiTypeId": 2109
+            },
+            "vehicleDocId": "DR2307"
+         }
+      ]
+   },
+   "status": 200
+}

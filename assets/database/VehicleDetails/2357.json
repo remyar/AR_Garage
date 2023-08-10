@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2357,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2357,
+               "ccmTech": 1360,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1360,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 277,
+               "modelName": "309 I (10C, 10A)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.4",
+               "typeNumber": 2357,
+               "valves": 2,
+               "yearOfConstrFrom": 198903,
+               "yearOfConstrTo": 198907,
+               "rmiTypeId": 2155
+            },
+            "vehicleDocId": "DR2357"
+         }
+      ]
+   },
+   "status": 200
+}

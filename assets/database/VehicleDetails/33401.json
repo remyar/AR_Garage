@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 33401,
+            "vehicleDetails": {
+               "carId": 33401,
+               "ccmTech": 1368,
+               "constructionType": "Camionnette/Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1368,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 8618,
+               "modelName": "DOBLO Cargo (263_)",
+               "motorType": "Essence",
+               "powerHpFrom": 95,
+               "powerHpTo": 95,
+               "powerKwFrom": 70,
+               "powerKwTo": 70,
+               "typeName": "1.4",
+               "typeNumber": 33401,
+               "valves": 4,
+               "yearOfConstrFrom": 201002,
+               "rmiTypeId": 62233
+            },
+            "vehicleDocId": "DR33401"
+         }
+      ]
+   },
+   "status": 200
+}

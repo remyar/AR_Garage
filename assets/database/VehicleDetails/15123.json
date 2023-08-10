@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 15123,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 15123,
+               "ccmTech": 1360,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1360,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 21,
+               "manuName": "CITROËN",
+               "modId": 3433,
+               "modelName": "XSARA Coupé (N0)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.4 i",
+               "typeNumber": 15123,
+               "valves": 2,
+               "yearOfConstrFrom": 199803,
+               "yearOfConstrTo": 200503,
+               "rmiTypeId": 11272
+            },
+            "vehicleDocId": "DR15123"
+         }
+      ]
+   },
+   "status": 200
+}

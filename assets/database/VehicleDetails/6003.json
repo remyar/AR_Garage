@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6003,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6003,
+               "ccmTech": 2500,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2500,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 288,
+               "modelName": "DUCATO Camionnette (230_)",
+               "motorType": "Diesel",
+               "powerHpFrom": 116,
+               "powerHpTo": 116,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "2.5 TDI",
+               "typeNumber": 6003,
+               "valves": 2,
+               "yearOfConstrFrom": 199403,
+               "yearOfConstrTo": 200204,
+               "rmiTypeId": 5412
+            },
+            "vehicleDocId": "DR6003"
+         }
+      ]
+   },
+   "status": 200
+}

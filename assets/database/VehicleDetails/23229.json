@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 23229,
+            "vehicleDetails": {
+               "carId": 23229,
+               "ccmTech": 1368,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1368,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 6409,
+               "modelName": "LINEA (323_, 110_)",
+               "motorType": "Essence",
+               "powerHpFrom": 120,
+               "powerHpTo": 120,
+               "powerKwFrom": 88,
+               "powerKwTo": 88,
+               "typeName": "1.4 T-Jet (323AXC1A)",
+               "typeNumber": 23229,
+               "valves": 4,
+               "yearOfConstrFrom": 200705,
+               "rmiTypeId": 52245
+            },
+            "vehicleDocId": "DR23229"
+         }
+      ]
+   },
+   "status": 200
+}

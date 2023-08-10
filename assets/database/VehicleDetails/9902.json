@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9902,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9902,
+               "ccmTech": 1781,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1781,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 3851,
+               "modelName": "TT (8N3)",
+               "motorType": "Essence",
+               "powerHpFrom": 180,
+               "powerHpTo": 180,
+               "powerKwFrom": 132,
+               "powerKwTo": 132,
+               "typeName": "1.8 T quattro",
+               "typeNumber": 9902,
+               "valves": 5,
+               "yearOfConstrFrom": 199810,
+               "yearOfConstrTo": 200606,
+               "rmiTypeId": 8464
+            },
+            "vehicleDocId": "DR9902"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1125,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1125,
+               "ccmTech": 1595,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1595,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 31,
+               "modelName": "80 B3 A trois volumes (893, 894, 8A2)",
+               "motorType": "Essence",
+               "powerHpFrom": 70,
+               "powerHpTo": 70,
+               "powerKwFrom": 51,
+               "powerKwTo": 51,
+               "typeName": "1.6",
+               "typeNumber": 1125,
+               "valves": 2,
+               "yearOfConstrFrom": 198708,
+               "yearOfConstrTo": 199109,
+               "rmiTypeId": 989
+            },
+            "vehicleDocId": "DR1125"
+         }
+      ]
+   },
+   "status": 200
+}

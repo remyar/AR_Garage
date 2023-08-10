@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1368,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1368,
+               "ccmTech": 2309,
+               "constructionType": "Coupé",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2309,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 202,
+               "modelName": "COUPE B3 (89, 8B3)",
+               "motorType": "Essence",
+               "powerHpFrom": 167,
+               "powerHpTo": 167,
+               "powerKwFrom": 123,
+               "powerKwTo": 123,
+               "typeName": "2.3 20V",
+               "typeNumber": 1368,
+               "valves": 4,
+               "yearOfConstrFrom": 199008,
+               "yearOfConstrTo": 199107,
+               "rmiTypeId": 1217
+            },
+            "vehicleDocId": "DR1368"
+         }
+      ]
+   },
+   "status": 200
+}

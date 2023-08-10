@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 12579,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 12579,
+               "ccmTech": 956,
+               "constructionType": "Camionnette/Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 956,
+               "cylinderCapacityLiter": 100,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 93,
+               "manuName": "RENAULT",
+               "modId": 551,
+               "modelName": "4 Fourgonnette (R21_, R23_)",
+               "motorType": "Essence",
+               "powerHpFrom": 34,
+               "powerHpTo": 34,
+               "powerKwFrom": 25,
+               "powerKwTo": 25,
+               "typeName": "1.0",
+               "typeNumber": 12579,
+               "valves": 2,
+               "yearOfConstrFrom": 198706,
+               "yearOfConstrTo": 199312,
+               "rmiTypeId": 9521
+            }
+         }
+      ]
+   },
+   "status": 200
+}

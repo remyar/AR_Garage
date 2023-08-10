@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2310,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2310,
+               "ccmTech": 1580,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1580,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 205,
+               "modelName": "205 II (20A/C)",
+               "motorType": "Essence",
+               "powerHpFrom": 103,
+               "powerHpTo": 103,
+               "powerKwFrom": 76,
+               "powerKwTo": 76,
+               "typeName": "1.6 GTI",
+               "typeNumber": 2310,
+               "valves": 2,
+               "yearOfConstrFrom": 198710,
+               "yearOfConstrTo": 198912,
+               "rmiTypeId": 2112
+            },
+            "vehicleDocId": "DR2310"
+         }
+      ]
+   },
+   "status": 200
+}

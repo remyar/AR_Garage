@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9050,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9050,
+               "ccmTech": 2963,
+               "constructionType": "3/5 portes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2963,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 21,
+               "manuName": "CITROËN",
+               "modId": 3416,
+               "modelName": "XM (Y4)",
+               "motorType": "Essence",
+               "powerHpFrom": 200,
+               "powerHpTo": 200,
+               "powerKwFrom": 147,
+               "powerKwTo": 147,
+               "typeName": "3.0 V6 24V",
+               "typeNumber": 9050,
+               "valves": 4,
+               "yearOfConstrFrom": 199405,
+               "yearOfConstrTo": 200010,
+               "rmiTypeId": 8088
+            },
+            "vehicleDocId": "DR9050"
+         }
+      ]
+   },
+   "status": 200
+}

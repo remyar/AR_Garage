@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2337,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2337,
+               "ccmTech": 1472,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1472,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 257,
+               "modelName": "305 II (581M)",
+               "motorType": "Essence",
+               "powerHpFrom": 68,
+               "powerHpTo": 68,
+               "powerKwFrom": 50,
+               "powerKwTo": 50,
+               "typeName": "1.5",
+               "typeNumber": 2337,
+               "valves": 2,
+               "yearOfConstrFrom": 198509,
+               "yearOfConstrTo": 199007,
+               "rmiTypeId": 2135
+            }
+         }
+      ]
+   },
+   "status": 200
+}

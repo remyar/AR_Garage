@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123107,
+            "vehicleDetails": {
+               "carId": 123107,
+               "ccmTech": 2967,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2967,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 36928,
+               "modelName": "A5 (F53, F5P)",
+               "motorType": "Diesel",
+               "powerHpFrom": 218,
+               "powerHpTo": 218,
+               "powerKwFrom": 160,
+               "powerKwTo": 160,
+               "typeName": "3.0 TDI",
+               "typeNumber": 123107,
+               "valves": 4,
+               "yearOfConstrFrom": 201611,
+               "yearOfConstrTo": 201808,
+               "rmiTypeId": 132861
+            },
+            "vehicleDocId": "DR123107"
+         }
+      ]
+   },
+   "status": 200
+}

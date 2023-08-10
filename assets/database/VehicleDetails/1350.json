@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1350,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1350,
+               "ccmTech": 1871,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1871,
+               "cylinderCapacityLiter": 190,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 48,
+               "modelName": "100 C1 Coupé (817)",
+               "motorType": "Essence",
+               "powerHpFrom": 112,
+               "powerHpTo": 112,
+               "powerKwFrom": 82,
+               "powerKwTo": 82,
+               "typeName": "1.9",
+               "typeNumber": 1350,
+               "valves": 2,
+               "yearOfConstrFrom": 197108,
+               "yearOfConstrTo": 197612,
+               "rmiTypeId": 1202
+            },
+            "vehicleDocId": "DR1350"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123991,
+            "vehicleDetails": {
+               "carId": 123991,
+               "ccmTech": 1984,
+               "constructionType": "Décapotable",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1984,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission, Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 37293,
+               "modelName": "A5 Décapotable (F57, F5E)",
+               "motorType": "Essence",
+               "powerHpFrom": 252,
+               "powerHpTo": 252,
+               "powerKwFrom": 185,
+               "powerKwTo": 185,
+               "typeName": "2.0 TFSI quattro",
+               "typeNumber": 123991,
+               "valves": 4,
+               "yearOfConstrFrom": 201611,
+               "rmiTypeId": 134054
+            },
+            "vehicleDocId": "DR123991"
+         }
+      ]
+   },
+   "status": 200
+}

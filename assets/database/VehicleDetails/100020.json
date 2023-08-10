@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 100020,
+            "vehicleDetails": {
+               "carId": 100020,
+               "ccmTech": 1390,
+               "constructionType": "Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1390,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 104,
+               "manuName": "SEAT",
+               "modId": 5378,
+               "modelName": "TOLEDO III (5P2)",
+               "motorType": "Essence",
+               "powerHpFrom": 86,
+               "powerHpTo": 86,
+               "powerKwFrom": 63,
+               "powerKwTo": 63,
+               "typeName": "1.4 16V",
+               "typeNumber": 100020,
+               "valves": 4,
+               "yearOfConstrFrom": 200605,
+               "yearOfConstrTo": 200905,
+               "rmiTypeId": 47059
+            },
+            "vehicleDocId": "DR100020"
+         }
+      ]
+   },
+   "status": 200
+}

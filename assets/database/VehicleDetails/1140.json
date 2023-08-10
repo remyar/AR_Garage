@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1140,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1140,
+               "ccmTech": 1984,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1984,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 31,
+               "modelName": "80 B3 A trois volumes (893, 894, 8A2)",
+               "motorType": "Essence",
+               "powerHpFrom": 115,
+               "powerHpTo": 115,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "2.0 quattro",
+               "typeNumber": 1140,
+               "valves": 2,
+               "yearOfConstrFrom": 199010,
+               "yearOfConstrTo": 199108,
+               "rmiTypeId": 1004
+            },
+            "vehicleDocId": "DR1140"
+         }
+      ]
+   },
+   "status": 200
+}

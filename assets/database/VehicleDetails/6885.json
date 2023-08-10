@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6885,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6885,
+               "ccmTech": 1760,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1760,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 53,
+               "modelName": "100 C1 A trois volumes (801, 803, 805, 807, 811, 813, F104)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.8",
+               "typeNumber": 6885,
+               "valves": 2,
+               "yearOfConstrFrom": 196811,
+               "yearOfConstrTo": 197111,
+               "rmiTypeId": 6183
+            },
+            "vehicleDocId": "DR6885"
+         }
+      ]
+   },
+   "status": 200
+}

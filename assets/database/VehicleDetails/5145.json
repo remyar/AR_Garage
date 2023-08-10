@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5145,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5145,
+               "ccmTech": 1998,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1998,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 21,
+               "manuName": "CITROËN",
+               "modId": 1457,
+               "modelName": "XANTIA Break (X1_, X2_)",
+               "motorType": "Essence",
+               "powerHpFrom": 121,
+               "powerHpTo": 121,
+               "powerKwFrom": 89,
+               "powerKwTo": 89,
+               "typeName": "2.0 i",
+               "typeNumber": 5145,
+               "valves": 2,
+               "yearOfConstrFrom": 199506,
+               "yearOfConstrTo": 200304,
+               "rmiTypeId": 4750
+            },
+            "vehicleDocId": "DR5145"
+         }
+      ]
+   },
+   "status": 200
+}

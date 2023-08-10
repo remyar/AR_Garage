@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123117,
+            "vehicleDetails": {
+               "carId": 123117,
+               "ccmTech": 1984,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1984,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 37116,
+               "modelName": "A5 Sportback (F5A, F5F)",
+               "motorType": "Essence",
+               "powerHpFrom": 249,
+               "powerHpTo": 249,
+               "powerKwFrom": 183,
+               "powerKwTo": 183,
+               "typeName": "2.0 TFSI quattro",
+               "typeNumber": 123117,
+               "valves": 4,
+               "yearOfConstrFrom": 201609,
+               "yearOfConstrTo": 202002,
+               "rmiTypeId": 132871
+            },
+            "vehicleDocId": "DR123117"
+         }
+      ]
+   },
+   "status": 200
+}

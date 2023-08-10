@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 23077,
+            "vehicleDetails": {
+               "carId": 23077,
+               "ccmTech": 2463,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2463,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 93,
+               "manuName": "RENAULT",
+               "modId": 3901,
+               "modelName": "MASTER II Camionnette (FD)",
+               "motorType": "Diesel",
+               "powerHpFrom": 120,
+               "powerHpTo": 120,
+               "powerKwFrom": 88,
+               "powerKwTo": 88,
+               "typeName": "2.5 dCi",
+               "typeNumber": 23077,
+               "valves": 4,
+               "yearOfConstrFrom": 200608,
+               "rmiTypeId": 52082
+            },
+            "vehicleDocId": "DR23077"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 23303,
+            "vehicleDetails": {
+               "carId": 23303,
+               "ccmTech": 2967,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2967,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 6418,
+               "modelName": "A4 B8 (8K2)",
+               "motorType": "Diesel",
+               "powerHpFrom": 240,
+               "powerHpTo": 240,
+               "powerKwFrom": 176,
+               "powerKwTo": 176,
+               "typeName": "3.0 TDI quattro",
+               "typeNumber": 23303,
+               "valves": 4,
+               "yearOfConstrFrom": 200711,
+               "yearOfConstrTo": 201203,
+               "rmiTypeId": 52045
+            },
+            "vehicleDocId": "DR23303"
+         }
+      ]
+   },
+   "status": 200
+}

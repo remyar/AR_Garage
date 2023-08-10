@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 110617,
+            "vehicleDetails": {
+               "carId": 110617,
+               "ccmTech": 2480,
+               "constructionType": "SUV",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2480,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 9731,
+               "modelName": "Q3 (8UB, 8UG)",
+               "motorType": "Essence",
+               "powerHpFrom": 340,
+               "powerHpTo": 340,
+               "powerKwFrom": 250,
+               "powerKwTo": 250,
+               "typeName": "RS 2.5 quattro",
+               "typeNumber": 110617,
+               "valves": 4,
+               "yearOfConstrFrom": 201305,
+               "yearOfConstrTo": 201810,
+               "rmiTypeId": 113921
+            },
+            "vehicleDocId": "DR110617"
+         }
+      ]
+   },
+   "status": 200
+}

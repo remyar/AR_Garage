@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2244,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2244,
+               "ccmTech": 1360,
+               "constructionType": "Camionnette/Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1360,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 21,
+               "manuName": "CITROËN",
+               "modId": 421,
+               "modelName": "C15 Camionnette/Monospace (VD_)",
+               "motorType": "Essence",
+               "powerHpFrom": 67,
+               "powerHpTo": 67,
+               "powerKwFrom": 49,
+               "powerKwTo": 49,
+               "typeName": "1.4",
+               "typeNumber": 2244,
+               "valves": 2,
+               "yearOfConstrFrom": 198707,
+               "yearOfConstrTo": 199612,
+               "rmiTypeId": 2049
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2555,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2555,
+               "ccmTech": 999,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 999,
+               "cylinderCapacityLiter": 100,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 399,
+               "modelName": "PANDA (141_)",
+               "motorType": "Essence",
+               "powerHpFrom": 50,
+               "powerHpTo": 50,
+               "powerKwFrom": 37,
+               "powerKwTo": 37,
+               "typeName": "1000 4x4",
+               "typeNumber": 2555,
+               "valves": 2,
+               "yearOfConstrFrom": 198601,
+               "yearOfConstrTo": 199212,
+               "rmiTypeId": 2326
+            },
+            "vehicleDocId": "DR2555"
+         }
+      ]
+   },
+   "status": 200
+}

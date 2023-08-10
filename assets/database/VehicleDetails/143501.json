@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 143501,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 143501,
+               "ccmTech": 2967,
+               "constructionType": "SUV",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2967,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Diesel/électrique",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 37161,
+               "modelName": "Q5 (FYB, FYG)",
+               "motorType": "Hybride léger",
+               "powerHpFrom": 341,
+               "powerHpTo": 341,
+               "powerKwFrom": 251,
+               "powerKwTo": 251,
+               "typeName": "SQ5 TDI Mild Hybrid",
+               "typeNumber": 143501,
+               "valves": 4,
+               "yearOfConstrFrom": 202101,
+               "rmiTypeId": 182656
+            },
+            "vehicleDocId": "DR143501"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6880,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6880,
+               "ccmTech": 1496,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1496,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 1500,
+               "modelName": "60 (613, 615)",
+               "motorType": "Essence",
+               "powerHpFrom": 55,
+               "powerHpTo": 55,
+               "powerKwFrom": 40,
+               "powerKwTo": 40,
+               "typeName": "1.5",
+               "typeNumber": 6880,
+               "valves": 2,
+               "yearOfConstrFrom": 196809,
+               "yearOfConstrTo": 197208,
+               "rmiTypeId": 6178
+            },
+            "vehicleDocId": "DR6880"
+         }
+      ]
+   },
+   "status": 200
+}

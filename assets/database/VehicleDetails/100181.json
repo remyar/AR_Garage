@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 100181,
+            "vehicleDetails": {
+               "carId": 100181,
+               "ccmTech": 400,
+               "constructionType": "Décapotable",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 400,
+               "cylinderCapacityLiter": 40,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 1480,
+               "manuName": "AIXAM",
+               "modId": 11664,
+               "modelName": "SCOUTY Décapotable",
+               "motorType": "Diesel",
+               "powerHpFrom": 5,
+               "powerHpTo": 5,
+               "powerKwFrom": 4,
+               "powerKwTo": 4,
+               "typeName": "0.4",
+               "typeNumber": 100181,
+               "valves": 2,
+               "yearOfConstrFrom": 200704,
+               "rmiTypeId": 87026
+            },
+            "vehicleDocId": "DR100181"
+         }
+      ]
+   },
+   "status": 200
+}

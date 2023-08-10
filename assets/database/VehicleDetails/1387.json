@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1387,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1387,
+               "ccmTech": 2226,
+               "constructionType": "A trois volumes",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2226,
+               "cylinderCapacityLiter": 220,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 19,
+               "modelName": "100 C4 A trois volumes (4A2)",
+               "motorType": "Essence",
+               "powerHpFrom": 230,
+               "powerHpTo": 230,
+               "powerKwFrom": 169,
+               "powerKwTo": 169,
+               "typeName": "S4 Turbo quattro",
+               "typeNumber": 1387,
+               "valves": 4,
+               "yearOfConstrFrom": 199108,
+               "yearOfConstrTo": 199407,
+               "rmiTypeId": 1236
+            },
+            "vehicleDocId": "DR1387"
+         }
+      ]
+   },
+   "status": 200
+}

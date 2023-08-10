@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 32060,
+            "vehicleDetails": {
+               "carId": 32060,
+               "ccmTech": 5204,
+               "constructionType": "Coupé",
+               "cylinder": 10,
+               "cylinderCapacityCcm": 5204,
+               "cylinderCapacityLiter": 520,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission, Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 6244,
+               "modelName": "R8 (422, 423)",
+               "motorType": "Essence",
+               "powerHpFrom": 525,
+               "powerHpTo": 525,
+               "powerKwFrom": 386,
+               "powerKwTo": 386,
+               "typeName": "5.2 FSI quattro",
+               "typeNumber": 32060,
+               "valves": 4,
+               "yearOfConstrFrom": 200904,
+               "yearOfConstrTo": 201507,
+               "rmiTypeId": 61543
+            },
+            "vehicleDocId": "DR32060"
+         }
+      ]
+   },
+   "status": 200
+}

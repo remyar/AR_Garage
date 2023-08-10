@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 143428,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 143428,
+               "ccmTech": 5204,
+               "constructionType": "Décapotable",
+               "cylinder": 10,
+               "cylinderCapacityCcm": 5204,
+               "cylinderCapacityLiter": 520,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 8262,
+               "modelName": "R8 Spyder (427, 429)",
+               "motorType": "Essence",
+               "powerHpFrom": 540,
+               "powerHpTo": 540,
+               "powerKwFrom": 404,
+               "powerKwTo": 404,
+               "typeName": "5.2 FSI",
+               "typeNumber": 143428,
+               "valves": 4,
+               "yearOfConstrFrom": 201207,
+               "yearOfConstrTo": 201507,
+               "rmiTypeId": 71312
+            },
+            "vehicleDocId": "DR143428"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2380,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2380,
+               "ccmTech": 1580,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1580,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 396,
+               "modelName": "405 I (15B)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.6",
+               "typeNumber": 2380,
+               "valves": 2,
+               "yearOfConstrFrom": 198910,
+               "yearOfConstrTo": 199212,
+               "rmiTypeId": 2174
+            },
+            "vehicleDocId": "DR2380"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1492,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1492,
+               "ccmTech": 2309,
+               "constructionType": "A trois volumes",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2309,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 84,
+               "modelName": "90 B3 (893, 894, 8A2)",
+               "motorType": "Essence",
+               "powerHpFrom": 167,
+               "powerHpTo": 167,
+               "powerKwFrom": 123,
+               "powerKwTo": 123,
+               "typeName": "2.3 E 20V",
+               "typeNumber": 1492,
+               "valves": 4,
+               "yearOfConstrFrom": 199004,
+               "yearOfConstrTo": 199107,
+               "rmiTypeId": 1335
+            },
+            "vehicleDocId": "DR1492"
+         }
+      ]
+   },
+   "status": 200
+}

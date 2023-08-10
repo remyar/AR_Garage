@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1444,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1444,
+               "ccmTech": 2461,
+               "constructionType": "Break",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2461,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 36,
+               "modelName": "100 C4 Avant (4A5)",
+               "motorType": "Diesel",
+               "powerHpFrom": 115,
+               "powerHpTo": 115,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "2.5 TDI",
+               "typeNumber": 1444,
+               "valves": 2,
+               "yearOfConstrFrom": 199012,
+               "yearOfConstrTo": 199407,
+               "rmiTypeId": 1291
+            },
+            "vehicleDocId": "DR1444"
+         }
+      ]
+   },
+   "status": 200
+}

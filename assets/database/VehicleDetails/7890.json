@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7890,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7890,
+               "ccmTech": 1896,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1896,
+               "cylinderCapacityLiter": 190,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 104,
+               "manuName": "SEAT",
+               "modId": 93,
+               "modelName": "CORDOBA (6K1, 6K2)",
+               "motorType": "Diesel",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.9 TDI",
+               "typeNumber": 7890,
+               "valves": 2,
+               "yearOfConstrFrom": 199608,
+               "yearOfConstrTo": 200210,
+               "rmiTypeId": 7055
+            }
+         }
+      ]
+   },
+   "status": 200
+}

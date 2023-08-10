@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2722,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2722,
+               "ccmTech": 903,
+               "constructionType": "Camionnette/Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 903,
+               "cylinderCapacityLiter": 90,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 414,
+               "modelName": "FIORINO (127_)",
+               "motorType": "Essence",
+               "powerHpFrom": 45,
+               "powerHpTo": 45,
+               "powerKwFrom": 33,
+               "powerKwTo": 33,
+               "typeName": "900",
+               "typeNumber": 2722,
+               "valves": 2,
+               "yearOfConstrFrom": 197710,
+               "yearOfConstrTo": 198610,
+               "rmiTypeId": 2489
+            },
+            "vehicleDocId": "DR2722"
+         }
+      ]
+   },
+   "status": 200
+}

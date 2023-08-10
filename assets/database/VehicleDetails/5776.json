@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5776,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5776,
+               "ccmTech": 1581,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1581,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 1571,
+               "modelName": "MAREA Weekend (185_)",
+               "motorType": "Essence",
+               "powerHpFrom": 103,
+               "powerHpTo": 103,
+               "powerKwFrom": 76,
+               "powerKwTo": 76,
+               "typeName": "1.6 100 16V",
+               "typeNumber": 5776,
+               "valves": 4,
+               "yearOfConstrFrom": 199609,
+               "yearOfConstrTo": 200205,
+               "rmiTypeId": 5310
+            },
+            "vehicleDocId": "DR5776"
+         }
+      ]
+   },
+   "status": 200
+}

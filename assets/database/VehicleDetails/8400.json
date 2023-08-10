@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8400,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8400,
+               "ccmTech": 1761,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1761,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 273,
+               "modelName": "306 (7B, N3, N5)",
+               "motorType": "Essence",
+               "powerHpFrom": 110,
+               "powerHpTo": 110,
+               "powerKwFrom": 81,
+               "powerKwTo": 81,
+               "typeName": "1.8 16V",
+               "typeNumber": 8400,
+               "valves": 4,
+               "yearOfConstrFrom": 199703,
+               "yearOfConstrTo": 200105,
+               "rmiTypeId": 7508
+            },
+            "vehicleDocId": "DR8400"
+         }
+      ]
+   },
+   "status": 200
+}

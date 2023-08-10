@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 12259,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 12259,
+               "ccmTech": 4172,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4172,
+               "cylinderCapacityLiter": 420,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 265,
+               "modelName": "A8 D2 (4D2, 4D8)",
+               "motorType": "Essence",
+               "powerHpFrom": 360,
+               "powerHpTo": 360,
+               "powerKwFrom": 265,
+               "powerKwTo": 265,
+               "typeName": "S8 quattro",
+               "typeNumber": 12259,
+               "valves": 5,
+               "yearOfConstrFrom": 199906,
+               "yearOfConstrTo": 200209,
+               "rmiTypeId": 9398
+            },
+            "vehicleDocId": "DR12259"
+         }
+      ]
+   },
+   "status": 200
+}

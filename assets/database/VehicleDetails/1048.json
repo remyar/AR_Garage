@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1048,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1048,
+               "ccmTech": 1471,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1471,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 14,
+               "modelName": "80 B1 A trois volumes (80, 82)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.5",
+               "typeNumber": 1048,
+               "valves": 2,
+               "yearOfConstrFrom": 197205,
+               "yearOfConstrTo": 197508,
+               "rmiTypeId": 926
+            }
+         }
+      ]
+   },
+   "status": 200
+}

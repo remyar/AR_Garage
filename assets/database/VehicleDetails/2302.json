@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2302,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2302,
+               "ccmTech": 1360,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1360,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 196,
+               "modelName": "205 I (741A/C)",
+               "motorType": "Essence",
+               "powerHpFrom": 79,
+               "powerHpTo": 79,
+               "powerKwFrom": 58,
+               "powerKwTo": 58,
+               "typeName": "1.4",
+               "typeNumber": 2302,
+               "valves": 2,
+               "yearOfConstrFrom": 198510,
+               "yearOfConstrTo": 198710,
+               "rmiTypeId": 2105
+            },
+            "vehicleDocId": "DR2302"
+         }
+      ]
+   },
+   "status": 200
+}

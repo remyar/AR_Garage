@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2321,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2321,
+               "ccmTech": 1124,
+               "constructionType": "Décapotable",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1124,
+               "cylinderCapacityLiter": 110,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 200,
+               "modelName": "205 I Décapotable (741B, 20D)",
+               "motorType": "Essence",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "1.1 CJ",
+               "typeNumber": 2321,
+               "valves": 2,
+               "yearOfConstrFrom": 198910,
+               "yearOfConstrTo": 199412,
+               "rmiTypeId": 2121
+            },
+            "vehicleDocId": "DR2321"
+         }
+      ]
+   },
+   "status": 200
+}

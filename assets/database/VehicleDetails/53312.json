@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 53312,
+            "vehicleDetails": {
+               "carId": 53312,
+               "ccmTech": 1197,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1197,
+               "cylinderCapacityLiter": 120,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 11282,
+               "modelName": "A3 Limousine (8VS, 8VM)",
+               "motorType": "Essence",
+               "powerHpFrom": 105,
+               "powerHpTo": 105,
+               "powerKwFrom": 77,
+               "powerKwTo": 77,
+               "typeName": "1.2 TFSI",
+               "typeNumber": 53312,
+               "valves": 4,
+               "yearOfConstrFrom": 201310,
+               "rmiTypeId": 80248
+            },
+            "vehicleDocId": "DR53312"
+         }
+      ]
+   },
+   "status": 200
+}

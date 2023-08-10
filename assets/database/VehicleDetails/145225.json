@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 145225,
+            "vehicleDetails": {
+               "carId": 145225,
+               "ccmTech": 1332,
+               "constructionType": "Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1332,
+               "cylinderCapacityLiter": 130,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 93,
+               "manuName": "RENAULT",
+               "modId": 42368,
+               "modelName": "KANGOO III Monospace",
+               "motorType": "Essence",
+               "powerHpFrom": 102,
+               "powerHpTo": 102,
+               "powerKwFrom": 75,
+               "powerKwTo": 75,
+               "typeName": "TCe 100 (KJMA)",
+               "typeNumber": 145225,
+               "valves": 4,
+               "yearOfConstrFrom": 202107,
+               "rmiTypeId": 186456
+            },
+            "vehicleDocId": "DR145225"
+         }
+      ]
+   },
+   "status": 200
+}

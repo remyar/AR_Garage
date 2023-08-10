@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1309,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1309,
+               "ccmTech": 1781,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1781,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 13,
+               "modelName": "100 C3 A trois volumes (443, 444)",
+               "motorType": "Essence",
+               "powerHpFrom": 88,
+               "powerHpTo": 88,
+               "powerKwFrom": 65,
+               "powerKwTo": 65,
+               "typeName": "1.8",
+               "typeNumber": 1309,
+               "valves": 2,
+               "yearOfConstrFrom": 198602,
+               "yearOfConstrTo": 198807,
+               "rmiTypeId": 1166
+            },
+            "vehicleDocId": "DR1309"
+         }
+      ]
+   },
+   "status": 200
+}

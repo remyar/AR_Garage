@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2253,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2253,
+               "ccmTech": 2963,
+               "constructionType": "3/5 portes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2963,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 21,
+               "manuName": "CITROËN",
+               "modId": 122,
+               "modelName": "XM (Y3)",
+               "motorType": "Essence",
+               "powerHpFrom": 200,
+               "powerHpTo": 200,
+               "powerKwFrom": 147,
+               "powerKwTo": 147,
+               "typeName": "3.0 V6 24V",
+               "typeNumber": 2253,
+               "valves": 4,
+               "yearOfConstrFrom": 199007,
+               "yearOfConstrTo": 199406,
+               "rmiTypeId": 2058
+            },
+            "vehicleDocId": "DR2253"
+         }
+      ]
+   },
+   "status": 200
+}

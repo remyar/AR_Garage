@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1150,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1150,
+               "ccmTech": 1871,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1871,
+               "cylinderCapacityLiter": 190,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 53,
+               "modelName": "100 C1 A trois volumes (801, 803, 805, 807, 811, 813, F104)",
+               "motorType": "Essence",
+               "powerHpFrom": 112,
+               "powerHpTo": 112,
+               "powerKwFrom": 82,
+               "powerKwTo": 82,
+               "typeName": "1.9",
+               "typeNumber": 1150,
+               "valves": 2,
+               "yearOfConstrFrom": 197109,
+               "yearOfConstrTo": 197607,
+               "rmiTypeId": 1014
+            },
+            "vehicleDocId": "DR1150"
+         }
+      ]
+   },
+   "status": 200
+}

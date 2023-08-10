@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8779,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8779,
+               "ccmTech": 1581,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1581,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 2046,
+               "modelName": "PALIO (178_, 171_)",
+               "motorType": "Essence",
+               "powerHpFrom": 100,
+               "powerHpTo": 100,
+               "powerKwFrom": 74,
+               "powerKwTo": 74,
+               "typeName": "1.6 16V",
+               "typeNumber": 8779,
+               "valves": 4,
+               "yearOfConstrFrom": 199604,
+               "yearOfConstrTo": 200210,
+               "rmiTypeId": 7824
+            },
+            "vehicleDocId": "DR8779"
+         }
+      ]
+   },
+   "status": 200
+}

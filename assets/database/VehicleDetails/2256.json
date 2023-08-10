@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2256,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2256,
+               "ccmTech": 1998,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1998,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 21,
+               "manuName": "CITROËN",
+               "modId": 127,
+               "modelName": "XM Break (Y3)",
+               "motorType": "Essence",
+               "powerHpFrom": 141,
+               "powerHpTo": 141,
+               "powerKwFrom": 104,
+               "powerKwTo": 104,
+               "typeName": "2.0 Turbo",
+               "typeNumber": 2256,
+               "valves": 2,
+               "yearOfConstrFrom": 199209,
+               "yearOfConstrTo": 199404,
+               "rmiTypeId": 2061
+            },
+            "vehicleDocId": "DR2256"
+         }
+      ]
+   },
+   "status": 200
+}

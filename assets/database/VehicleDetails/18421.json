@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 18421,
+            "vehicleDetails": {
+               "carId": 18421,
+               "ccmTech": 3123,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3123,
+               "cylinderCapacityLiter": 320,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 5381,
+               "modelName": "A6 C6 Avant (4F5)",
+               "motorType": "Essence",
+               "powerHpFrom": 255,
+               "powerHpTo": 255,
+               "powerKwFrom": 188,
+               "powerKwTo": 188,
+               "typeName": "3.2 FSI",
+               "typeNumber": 18421,
+               "valves": 4,
+               "yearOfConstrFrom": 200503,
+               "yearOfConstrTo": 200810,
+               "rmiTypeId": 30880
+            },
+            "vehicleDocId": "DR18421"
+         }
+      ]
+   },
+   "status": 200
+}

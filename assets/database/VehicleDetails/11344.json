@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11344,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 11344,
+               "ccmTech": 1781,
+               "constructionType": "Décapotable",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1781,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 4089,
+               "modelName": "TT Roadster (8N9)",
+               "motorType": "Essence",
+               "powerHpFrom": 224,
+               "powerHpTo": 224,
+               "powerKwFrom": 165,
+               "powerKwTo": 165,
+               "typeName": "1.8 T quattro",
+               "typeNumber": 11344,
+               "valves": 5,
+               "yearOfConstrFrom": 199910,
+               "yearOfConstrTo": 200606,
+               "rmiTypeId": 9067
+            },
+            "vehicleDocId": "DR11344"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1137,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1137,
+               "ccmTech": 1781,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1781,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 31,
+               "modelName": "80 B3 A trois volumes (893, 894, 8A2)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.8 S quattro",
+               "typeNumber": 1137,
+               "valves": 2,
+               "yearOfConstrFrom": 198609,
+               "yearOfConstrTo": 199109,
+               "rmiTypeId": 1001
+            },
+            "vehicleDocId": "DR1137"
+         }
+      ]
+   },
+   "status": 200
+}

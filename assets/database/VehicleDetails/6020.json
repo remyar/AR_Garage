@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6020,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6020,
+               "ccmTech": 1124,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1124,
+               "cylinderCapacityLiter": 110,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 21,
+               "manuName": "CITROËN",
+               "modId": 393,
+               "modelName": "AX (ZA-_)",
+               "motorType": "Essence",
+               "powerHpFrom": 54,
+               "powerHpTo": 54,
+               "powerKwFrom": 40,
+               "powerKwTo": 40,
+               "typeName": "11 Cat (ZA_)",
+               "typeNumber": 6020,
+               "valves": 2,
+               "yearOfConstrFrom": 198809,
+               "yearOfConstrTo": 198912,
+               "rmiTypeId": 5427
+            },
+            "vehicleDocId": "DR6020"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2235,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2235,
+               "ccmTech": 1971,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1971,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 21,
+               "manuName": "CITROËN",
+               "modId": 425,
+               "modelName": "C25 Autobus/Autocar (280_, 290_)",
+               "motorType": "Essence",
+               "powerHpFrom": 79,
+               "powerHpTo": 79,
+               "powerKwFrom": 58,
+               "powerKwTo": 58,
+               "typeName": "2.0 E",
+               "typeNumber": 2235,
+               "valves": 2,
+               "yearOfConstrFrom": 198109,
+               "yearOfConstrTo": 199402,
+               "rmiTypeId": 2042
+            }
+         }
+      ]
+   },
+   "status": 200
+}

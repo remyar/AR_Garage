@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 16209,
+            "vehicleDetails": {
+               "carId": 16209,
+               "ccmTech": 1149,
+               "constructionType": "Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1149,
+               "cylinderCapacityLiter": 120,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 93,
+               "manuName": "RENAULT",
+               "modId": 3404,
+               "modelName": "KANGOO (KC0/1_)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.2 16V (KC05, KC06, KC03, KC0T, KC0W, KC1D)",
+               "typeNumber": 16209,
+               "valves": 4,
+               "yearOfConstrFrom": 200106,
+               "rmiTypeId": 12269
+            },
+            "vehicleDocId": "DR16209"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6506,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6506,
+               "ccmTech": 602,
+               "constructionType": "Break",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 602,
+               "cylinderCapacityLiter": 60,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 21,
+               "manuName": "CITROËN",
+               "modId": 1661,
+               "modelName": "AMI Break",
+               "motorType": "Essence",
+               "powerHpFrom": 33,
+               "powerHpTo": 33,
+               "powerKwFrom": 24,
+               "powerKwTo": 24,
+               "typeName": "6 (AMB)",
+               "typeNumber": 6506,
+               "valves": 2,
+               "yearOfConstrFrom": 196805,
+               "yearOfConstrTo": 196907,
+               "rmiTypeId": 5841
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6883,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6883,
+               "ccmTech": 1695,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1695,
+               "cylinderCapacityLiter": 170,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 4553,
+               "modelName": "75 Variant (615)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.7",
+               "typeNumber": 6883,
+               "valves": 2,
+               "yearOfConstrFrom": 196809,
+               "yearOfConstrTo": 197208,
+               "rmiTypeId": 6181
+            }
+         }
+      ]
+   },
+   "status": 200
+}

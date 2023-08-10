@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1428,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1428,
+               "ccmTech": 1986,
+               "constructionType": "Break",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 1986,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 30,
+               "modelName": "100 C3 Avant (445, 446)",
+               "motorType": "Diesel",
+               "powerHpFrom": 100,
+               "powerHpTo": 100,
+               "powerKwFrom": 74,
+               "powerKwTo": 74,
+               "typeName": "2.0 TD",
+               "typeNumber": 1428,
+               "valves": 2,
+               "yearOfConstrFrom": 198803,
+               "yearOfConstrTo": 199011,
+               "rmiTypeId": 1276
+            },
+            "vehicleDocId": "DR1428"
+         }
+      ]
+   },
+   "status": 200
+}

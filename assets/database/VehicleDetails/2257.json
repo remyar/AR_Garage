@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2257,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2257,
+               "ccmTech": 2963,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2963,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 21,
+               "manuName": "CITROËN",
+               "modId": 127,
+               "modelName": "XM Break (Y3)",
+               "motorType": "Essence",
+               "powerHpFrom": 167,
+               "powerHpTo": 167,
+               "powerKwFrom": 123,
+               "powerKwTo": 123,
+               "typeName": "3.0 V6",
+               "typeNumber": 2257,
+               "valves": 2,
+               "yearOfConstrFrom": 199111,
+               "yearOfConstrTo": 199404,
+               "rmiTypeId": 2062
+            },
+            "vehicleDocId": "DR2257"
+         }
+      ]
+   },
+   "status": 200
+}

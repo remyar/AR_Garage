@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8946,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8946,
+               "ccmTech": 2393,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2393,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 3395,
+               "modelName": "A6 C5 Avant (4B5)",
+               "motorType": "Essence",
+               "powerHpFrom": 165,
+               "powerHpTo": 165,
+               "powerKwFrom": 121,
+               "powerKwTo": 121,
+               "typeName": "2.4 quattro",
+               "typeNumber": 8946,
+               "valves": 5,
+               "yearOfConstrFrom": 199712,
+               "yearOfConstrTo": 200501,
+               "rmiTypeId": 7986
+            },
+            "vehicleDocId": "DR8946"
+         }
+      ]
+   },
+   "status": 200
+}

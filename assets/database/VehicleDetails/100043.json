@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 100043,
+            "vehicleDetails": {
+               "carId": 100043,
+               "ccmTech": 1798,
+               "constructionType": "Décapotable",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1798,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission, Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 11611,
+               "modelName": "A3 Décapotable (8V7, 8VE)",
+               "motorType": "Essence",
+               "powerHpFrom": 180,
+               "powerHpTo": 180,
+               "powerKwFrom": 132,
+               "powerKwTo": 132,
+               "typeName": "1.8 TFSI",
+               "typeNumber": 100043,
+               "valves": 4,
+               "yearOfConstrFrom": 201310,
+               "yearOfConstrTo": 201607,
+               "rmiTypeId": 84902
+            },
+            "vehicleDocId": "DR100043"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1396,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1396,
+               "ccmTech": 1984,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1984,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 1,
+               "modelName": "80 B4 A trois volumes (8C2)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "2.0",
+               "typeNumber": 1396,
+               "valves": 2,
+               "yearOfConstrFrom": 199109,
+               "yearOfConstrTo": 199412,
+               "rmiTypeId": 1245
+            },
+            "vehicleDocId": "DR1396"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1409,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1409,
+               "ccmTech": 1984,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1984,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 1,
+               "modelName": "80 B4 A trois volumes (8C2)",
+               "motorType": "Essence",
+               "powerHpFrom": 115,
+               "powerHpTo": 115,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "2.0 E quattro",
+               "typeNumber": 1409,
+               "valves": 2,
+               "yearOfConstrFrom": 199109,
+               "yearOfConstrTo": 199412,
+               "rmiTypeId": 1257
+            },
+            "vehicleDocId": "DR1409"
+         }
+      ]
+   },
+   "status": 200
+}

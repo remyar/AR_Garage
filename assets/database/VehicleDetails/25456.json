@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 25456,
+            "vehicleDetails": {
+               "carId": 25456,
+               "ccmTech": 1798,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1798,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 6418,
+               "modelName": "A4 B8 (8K2)",
+               "motorType": "Essence",
+               "powerHpFrom": 120,
+               "powerHpTo": 120,
+               "powerKwFrom": 88,
+               "powerKwTo": 88,
+               "typeName": "1.8 TFSI",
+               "typeNumber": 25456,
+               "valves": 4,
+               "yearOfConstrFrom": 200801,
+               "yearOfConstrTo": 201512,
+               "rmiTypeId": 52179
+            },
+            "vehicleDocId": "DR25456"
+         }
+      ]
+   },
+   "status": 200
+}

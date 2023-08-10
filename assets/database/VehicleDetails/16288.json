@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 16288,
+            "vehicleDetails": {
+               "carId": 16288,
+               "ccmTech": 1997,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1997,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 1477,
+               "modelName": "406 (8B)",
+               "motorType": "Diesel",
+               "powerHpFrom": 107,
+               "powerHpTo": 107,
+               "powerKwFrom": 79,
+               "powerKwTo": 79,
+               "typeName": "2.0 HDi 110",
+               "typeNumber": 16288,
+               "valves": 2,
+               "yearOfConstrFrom": 200108,
+               "yearOfConstrTo": 200405,
+               "rmiTypeId": 12345
+            },
+            "vehicleDocId": "DR16288"
+         }
+      ]
+   },
+   "status": 200
+}

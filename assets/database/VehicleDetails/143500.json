@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 143500,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 143500,
+               "ccmTech": 1984,
+               "constructionType": "SUV",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1984,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 40155,
+               "modelName": "Q3 Sportback (F3N)",
+               "motorType": "Essence",
+               "powerHpFrom": 245,
+               "powerHpTo": 245,
+               "powerKwFrom": 180,
+               "powerKwTo": 180,
+               "typeName": "45 TFSI quattro",
+               "typeNumber": 143500,
+               "valves": 4,
+               "yearOfConstrFrom": 202101,
+               "rmiTypeId": 182655
+            },
+            "vehicleDocId": "DR143500"
+         }
+      ]
+   },
+   "status": 200
+}

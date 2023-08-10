@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10465,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10465,
+               "ccmTech": 1781,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1781,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 1557,
+               "modelName": "A3 (8L1)",
+               "motorType": "Essence",
+               "powerHpFrom": 180,
+               "powerHpTo": 180,
+               "powerKwFrom": 132,
+               "powerKwTo": 132,
+               "typeName": "1.8 T quattro",
+               "typeNumber": 10465,
+               "valves": 5,
+               "yearOfConstrFrom": 199810,
+               "yearOfConstrTo": 200305,
+               "rmiTypeId": 8714
+            },
+            "vehicleDocId": "DR10465"
+         }
+      ]
+   },
+   "status": 200
+}

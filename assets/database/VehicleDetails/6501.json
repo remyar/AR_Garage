@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6501,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6501,
+               "ccmTech": 2175,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2175,
+               "cylinderCapacityLiter": 220,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 21,
+               "manuName": "CITROËN",
+               "modId": 283,
+               "modelName": "DS",
+               "motorType": "Essence",
+               "powerHpFrom": 120,
+               "powerHpTo": 120,
+               "powerKwFrom": 88,
+               "powerKwTo": 88,
+               "typeName": "21",
+               "typeNumber": 6501,
+               "valves": 2,
+               "yearOfConstrFrom": 196912,
+               "yearOfConstrTo": 197508,
+               "rmiTypeId": 5836
+            }
+         }
+      ]
+   },
+   "status": 200
+}

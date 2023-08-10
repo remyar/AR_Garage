@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 120900,
+            "vehicleDetails": {
+               "carId": 120900,
+               "ccmTech": 2995,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2995,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 14695,
+               "modelName": "A4 B9 (8W2, 8WC)",
+               "motorType": "Essence",
+               "powerHpFrom": 354,
+               "powerHpTo": 354,
+               "powerKwFrom": 260,
+               "powerKwTo": 260,
+               "typeName": "S4 quattro",
+               "typeNumber": 120900,
+               "valves": 4,
+               "yearOfConstrFrom": 201605,
+               "rmiTypeId": 129800
+            },
+            "vehicleDocId": "DR120900"
+         }
+      ]
+   },
+   "status": 200
+}

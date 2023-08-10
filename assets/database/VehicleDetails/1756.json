@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1756,
+            "vehicleDetails": {
+               "carId": 1756,
+               "ccmTech": 1586,
+               "constructionType": "SUV",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1586,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 5560,
+               "modelName": "SEDICI (189_)",
+               "motorType": "Essence",
+               "powerHpFrom": 120,
+               "powerHpTo": 120,
+               "powerKwFrom": 88,
+               "powerKwTo": 88,
+               "typeName": "1.6 16V",
+               "typeNumber": 1756,
+               "valves": 4,
+               "yearOfConstrFrom": 200606,
+               "yearOfConstrTo": 201410,
+               "rmiTypeId": 60109
+            },
+            "vehicleDocId": "DR1756"
+         }
+      ]
+   },
+   "status": 200
+}

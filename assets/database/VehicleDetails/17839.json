@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 17839,
+            "vehicleDetails": {
+               "carId": 17839,
+               "ccmTech": 1242,
+               "constructionType": "Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1242,
+               "cylinderCapacityLiter": 120,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 5097,
+               "modelName": "IDEA (350_)",
+               "motorType": "Essence",
+               "powerHpFrom": 80,
+               "powerHpTo": 80,
+               "powerKwFrom": 59,
+               "powerKwTo": 59,
+               "typeName": "1.2 16V",
+               "typeNumber": 17839,
+               "valves": 4,
+               "yearOfConstrFrom": 200401,
+               "rmiTypeId": 13871
+            },
+            "vehicleDocId": "DR17839"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 23222,
+            "vehicleDetails": {
+               "carId": 23222,
+               "ccmTech": 1149,
+               "constructionType": "Camionnette/Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1149,
+               "cylinderCapacityLiter": 120,
+               "fuelType": "Essence/gaz de pétrole liquéfié (GPL)",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 93,
+               "manuName": "RENAULT",
+               "modId": 3520,
+               "modelName": "KANGOO Express (FC0/1_)",
+               "motorType": "Essence",
+               "powerHpFrom": 58,
+               "powerHpTo": 58,
+               "powerKwFrom": 43,
+               "powerKwTo": 43,
+               "typeName": "1.2 BiFuel",
+               "typeNumber": 23222,
+               "valves": 2,
+               "yearOfConstrFrom": 199807,
+               "yearOfConstrTo": 200107,
+               "rmiTypeId": 86113
+            },
+            "vehicleDocId": "DR23222"
+         }
+      ]
+   },
+   "status": 200
+}

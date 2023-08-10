@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9048,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9048,
+               "ccmTech": 1781,
+               "constructionType": "Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1781,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 104,
+               "manuName": "SEAT",
+               "modId": 1564,
+               "modelName": "ALHAMBRA (7V8, 7V9)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "1.8 T 20V",
+               "typeNumber": 9048,
+               "valves": 5,
+               "yearOfConstrFrom": 199710,
+               "yearOfConstrTo": 201003,
+               "rmiTypeId": 8086
+            },
+            "vehicleDocId": "DR9048"
+         }
+      ]
+   },
+   "status": 200
+}

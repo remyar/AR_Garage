@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2346,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2346,
+               "ccmTech": 1905,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1905,
+               "cylinderCapacityLiter": 190,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 257,
+               "modelName": "305 II (581M)",
+               "motorType": "Diesel",
+               "powerHpFrom": 65,
+               "powerHpTo": 65,
+               "powerKwFrom": 48,
+               "powerKwTo": 48,
+               "typeName": "1.9 D",
+               "typeNumber": 2346,
+               "valves": 2,
+               "yearOfConstrFrom": 198210,
+               "yearOfConstrTo": 198807,
+               "rmiTypeId": 2144
+            }
+         }
+      ]
+   },
+   "status": 200
+}

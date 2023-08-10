@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 109132,
+            "vehicleDetails": {
+               "carId": 109132,
+               "ccmTech": 125,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 125,
+               "cylinderCapacityLiter": 12,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 13450,
+               "modelName": "MISTRAL",
+               "motorType": "Essence",
+               "powerHpFrom": 11,
+               "powerHpTo": 11,
+               "powerKwFrom": 8,
+               "powerKwTo": 8,
+               "typeName": "Mistral 125",
+               "typeNumber": 109132,
+               "valves": 2,
+               "yearOfConstrFrom": 200701,
+               "yearOfConstrTo": 200712
+            }
+         }
+      ]
+   },
+   "status": 200
+}

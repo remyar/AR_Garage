@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5322,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5322,
+               "ccmTech": 2771,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2771,
+               "cylinderCapacityLiter": 280,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 258,
+               "modelName": "A6 C4 (4A2)",
+               "motorType": "Essence",
+               "powerHpFrom": 193,
+               "powerHpTo": 193,
+               "powerKwFrom": 142,
+               "powerKwTo": 142,
+               "typeName": "2.8",
+               "typeNumber": 5322,
+               "valves": 5,
+               "yearOfConstrFrom": 199512,
+               "yearOfConstrTo": 199710,
+               "rmiTypeId": 4907
+            },
+            "vehicleDocId": "DR5322"
+         }
+      ]
+   },
+   "status": 200
+}

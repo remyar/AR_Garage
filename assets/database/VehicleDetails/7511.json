@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7511,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7511,
+               "ccmTech": 594,
+               "constructionType": "A trois volumes",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 594,
+               "cylinderCapacityLiter": 60,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 437,
+               "modelName": "500 (111_, 101_, 110_)",
+               "motorType": "Essence",
+               "powerHpFrom": 18,
+               "powerHpTo": 18,
+               "powerKwFrom": 13,
+               "powerKwTo": 13,
+               "typeName": "0.6",
+               "typeNumber": 7511,
+               "valves": 2,
+               "yearOfConstrFrom": 196808,
+               "yearOfConstrTo": 197601,
+               "rmiTypeId": 6723
+            }
+         }
+      ]
+   },
+   "status": 200
+}

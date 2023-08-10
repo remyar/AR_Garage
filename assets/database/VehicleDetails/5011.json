@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5011,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5011,
+               "ccmTech": 2226,
+               "constructionType": "A trois volumes",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2226,
+               "cylinderCapacityLiter": 220,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 176,
+               "modelName": "200 C3 A trois volumes (447, 448)",
+               "motorType": "Essence",
+               "powerHpFrom": 200,
+               "powerHpTo": 200,
+               "powerKwFrom": 147,
+               "powerKwTo": 147,
+               "typeName": "2.2 Turbo",
+               "typeNumber": 5011,
+               "valves": 2,
+               "yearOfConstrFrom": 198802,
+               "yearOfConstrTo": 199012,
+               "rmiTypeId": 4631
+            },
+            "vehicleDocId": "DR5011"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2200,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2200,
+               "ccmTech": 1580,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1580,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 21,
+               "manuName": "CITROËN",
+               "modId": 413,
+               "modelName": "BX Break (XB-_)",
+               "motorType": "Essence",
+               "powerHpFrom": 72,
+               "powerHpTo": 72,
+               "powerKwFrom": 53,
+               "powerKwTo": 53,
+               "typeName": "16",
+               "typeNumber": 2200,
+               "valves": 2,
+               "yearOfConstrFrom": 198809,
+               "yearOfConstrTo": 199412,
+               "rmiTypeId": 2008
+            },
+            "vehicleDocId": "DR2200"
+         }
+      ]
+   },
+   "status": 200
+}

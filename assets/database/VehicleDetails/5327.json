@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5327,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5327,
+               "ccmTech": 1905,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1905,
+               "cylinderCapacityLiter": 190,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 1477,
+               "modelName": "406 (8B)",
+               "motorType": "Diesel",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.9 TD",
+               "typeNumber": 5327,
+               "valves": 2,
+               "yearOfConstrFrom": 199601,
+               "yearOfConstrTo": 200405,
+               "rmiTypeId": 4912
+            },
+            "vehicleDocId": "DR5327"
+         }
+      ]
+   },
+   "status": 200
+}

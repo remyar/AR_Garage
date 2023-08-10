@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1429,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1429,
+               "ccmTech": 2461,
+               "constructionType": "Break",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2461,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 30,
+               "modelName": "100 C3 Avant (445, 446)",
+               "motorType": "Diesel",
+               "powerHpFrom": 120,
+               "powerHpTo": 120,
+               "powerKwFrom": 88,
+               "powerKwTo": 88,
+               "typeName": "2.5 TDI",
+               "typeNumber": 1429,
+               "valves": 2,
+               "yearOfConstrFrom": 199001,
+               "yearOfConstrTo": 199011,
+               "rmiTypeId": 1277
+            },
+            "vehicleDocId": "DR1429"
+         }
+      ]
+   },
+   "status": 200
+}

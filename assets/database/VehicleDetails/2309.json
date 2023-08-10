@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2309,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2309,
+               "ccmTech": 1580,
+               "constructionType": "Décapotable",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1580,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 200,
+               "modelName": "205 I Décapotable (741B, 20D)",
+               "motorType": "Essence",
+               "powerHpFrom": 103,
+               "powerHpTo": 103,
+               "powerKwFrom": 76,
+               "powerKwTo": 76,
+               "typeName": "1.6 CTI",
+               "typeNumber": 2309,
+               "valves": 2,
+               "yearOfConstrFrom": 198603,
+               "yearOfConstrTo": 199010,
+               "rmiTypeId": 2111
+            },
+            "vehicleDocId": "DR2309"
+         }
+      ]
+   },
+   "status": 200
+}

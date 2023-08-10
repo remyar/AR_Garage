@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2381,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2381,
+               "ccmTech": 1905,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1905,
+               "cylinderCapacityLiter": 190,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 396,
+               "modelName": "405 I (15B)",
+               "motorType": "Essence",
+               "powerHpFrom": 95,
+               "powerHpTo": 95,
+               "powerKwFrom": 70,
+               "powerKwTo": 70,
+               "typeName": "1.9",
+               "typeNumber": 2381,
+               "valves": 2,
+               "yearOfConstrFrom": 198707,
+               "yearOfConstrTo": 199212,
+               "rmiTypeId": 2175
+            },
+            "vehicleDocId": "DR2381"
+         }
+      ]
+   },
+   "status": 200
+}

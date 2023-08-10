@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 113900,
+            "vehicleDetails": {
+               "carId": 113900,
+               "ccmTech": 999,
+               "constructionType": "Break",
+               "cylinder": 3,
+               "cylinderCapacityCcm": 999,
+               "cylinderCapacityLiter": 100,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 104,
+               "manuName": "SEAT",
+               "modId": 8609,
+               "modelName": "IBIZA IV ST (6J8, 6P8)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.0",
+               "typeNumber": 113900,
+               "valves": 4,
+               "yearOfConstrFrom": 201505,
+               "yearOfConstrTo": 201607,
+               "rmiTypeId": 119138
+            },
+            "vehicleDocId": "DR113900"
+         }
+      ]
+   },
+   "status": 200
+}

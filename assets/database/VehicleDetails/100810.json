@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 100810,
+            "vehicleDetails": {
+               "carId": 100810,
+               "ccmTech": 875,
+               "constructionType": "Décapotable",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 875,
+               "cylinderCapacityLiter": 90,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 8500,
+               "modelName": "500 C (312_)",
+               "motorType": "Essence",
+               "powerHpFrom": 105,
+               "powerHpTo": 105,
+               "powerKwFrom": 77,
+               "powerKwTo": 77,
+               "typeName": "0.9 (312AXM1B)",
+               "typeNumber": 100810,
+               "valves": 4,
+               "yearOfConstrFrom": 201312,
+               "rmiTypeId": 88804
+            },
+            "vehicleDocId": "DR100810"
+         }
+      ]
+   },
+   "status": 200
+}

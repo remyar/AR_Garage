@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1082,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1082,
+               "ccmTech": 1588,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1588,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 26,
+               "modelName": "80 B2 A trois volumes (811, 813, 814, 819, 853)",
+               "motorType": "Diesel",
+               "powerHpFrom": 70,
+               "powerHpTo": 70,
+               "powerKwFrom": 51,
+               "powerKwTo": 51,
+               "typeName": "1.6 TD",
+               "typeNumber": 1082,
+               "valves": 2,
+               "yearOfConstrFrom": 198108,
+               "yearOfConstrTo": 198605,
+               "rmiTypeId": 952
+            },
+            "vehicleDocId": "DR1082"
+         }
+      ]
+   },
+   "status": 200
+}

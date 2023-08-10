@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5555,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5555,
+               "ccmTech": 1581,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1581,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 21,
+               "manuName": "CITROËN",
+               "modId": 1542,
+               "modelName": "JUMPY (U6U_)",
+               "motorType": "Essence",
+               "powerHpFrom": 79,
+               "powerHpTo": 79,
+               "powerKwFrom": 58,
+               "powerKwTo": 58,
+               "typeName": "1.6",
+               "typeNumber": 5555,
+               "valves": 2,
+               "yearOfConstrFrom": 199510,
+               "yearOfConstrTo": 200008,
+               "rmiTypeId": 5118
+            },
+            "vehicleDocId": "DR5555"
+         }
+      ]
+   },
+   "status": 200
+}

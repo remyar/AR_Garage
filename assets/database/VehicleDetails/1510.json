@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1510,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1510,
+               "ccmTech": 2598,
+               "constructionType": "Décapotable",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2598,
+               "cylinderCapacityLiter": 260,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 438,
+               "modelName": "CABRIOLET B3 (8G7)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.6",
+               "typeNumber": 1510,
+               "valves": 2,
+               "yearOfConstrFrom": 199306,
+               "yearOfConstrTo": 200008,
+               "rmiTypeId": 1350
+            },
+            "vehicleDocId": "DR1510"
+         }
+      ]
+   },
+   "status": 200
+}

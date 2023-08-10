@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 13361,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 13361,
+               "ccmTech": 2671,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2671,
+               "cylinderCapacityLiter": 270,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 3485,
+               "modelName": "A4 B5 Avant (8D5)",
+               "motorType": "Essence",
+               "powerHpFrom": 380,
+               "powerHpTo": 380,
+               "powerKwFrom": 280,
+               "powerKwTo": 280,
+               "typeName": "RS4 quattro",
+               "typeNumber": 13361,
+               "valves": 5,
+               "yearOfConstrFrom": 200005,
+               "yearOfConstrTo": 200109,
+               "rmiTypeId": 9909
+            },
+            "vehicleDocId": "DR13361"
+         }
+      ]
+   },
+   "status": 200
+}

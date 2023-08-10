@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1433,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1433,
+               "ccmTech": 1588,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1588,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 25,
+               "modelName": "100 C2 Avant (435, 436)",
+               "motorType": "Essence",
+               "powerHpFrom": 85,
+               "powerHpTo": 85,
+               "powerKwFrom": 63,
+               "powerKwTo": 63,
+               "typeName": "1.6",
+               "typeNumber": 1433,
+               "valves": 2,
+               "yearOfConstrFrom": 197707,
+               "yearOfConstrTo": 198302,
+               "rmiTypeId": 1280
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8159,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8159,
+               "ccmTech": 1994,
+               "constructionType": "Break",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 1994,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 30,
+               "modelName": "100 C3 Avant (445, 446)",
+               "motorType": "Essence",
+               "powerHpFrom": 115,
+               "powerHpTo": 115,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "2.0 E",
+               "typeNumber": 8159,
+               "valves": 2,
+               "yearOfConstrFrom": 198501,
+               "yearOfConstrTo": 198712,
+               "rmiTypeId": 7290
+            },
+            "vehicleDocId": "DR8159"
+         }
+      ]
+   },
+   "status": 200
+}

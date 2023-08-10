@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1447,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1447,
+               "ccmTech": 1984,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1984,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 36,
+               "modelName": "100 C4 Avant (4A5)",
+               "motorType": "Essence",
+               "powerHpFrom": 100,
+               "powerHpTo": 100,
+               "powerKwFrom": 74,
+               "powerKwTo": 74,
+               "typeName": "2.0 E",
+               "typeNumber": 1447,
+               "valves": 2,
+               "yearOfConstrFrom": 199109,
+               "yearOfConstrTo": 199407,
+               "rmiTypeId": 1294
+            },
+            "vehicleDocId": "DR1447"
+         }
+      ]
+   },
+   "status": 200
+}

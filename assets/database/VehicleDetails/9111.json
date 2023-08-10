@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9111,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9111,
+               "ccmTech": 1580,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1580,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 21,
+               "manuName": "CITROËN",
+               "modId": 410,
+               "modelName": "BX (XB-_)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "16",
+               "typeNumber": 9111,
+               "valves": 2,
+               "yearOfConstrFrom": 198809,
+               "yearOfConstrTo": 199302,
+               "rmiTypeId": 8146
+            },
+            "vehicleDocId": "DR9111"
+         }
+      ]
+   },
+   "status": 200
+}

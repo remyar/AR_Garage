@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2342,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2342,
+               "ccmTech": 1580,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1580,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 257,
+               "modelName": "305 II (581M)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.6",
+               "typeNumber": 2342,
+               "valves": 2,
+               "yearOfConstrFrom": 198210,
+               "yearOfConstrTo": 198807,
+               "rmiTypeId": 2140
+            }
+         }
+      ]
+   },
+   "status": 200
+}

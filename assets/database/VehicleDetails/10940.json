@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10940,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10940,
+               "ccmTech": 3697,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 3697,
+               "cylinderCapacityLiter": 370,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 1891,
+               "modelName": "A6 C5 (4B2)",
+               "motorType": "Essence",
+               "powerHpFrom": 260,
+               "powerHpTo": 260,
+               "powerKwFrom": 191,
+               "powerKwTo": 191,
+               "typeName": "3.7",
+               "typeNumber": 10940,
+               "valves": 5,
+               "yearOfConstrFrom": 199903,
+               "yearOfConstrTo": 200501,
+               "rmiTypeId": 8910
+            },
+            "vehicleDocId": "DR10940"
+         }
+      ]
+   },
+   "status": 200
+}

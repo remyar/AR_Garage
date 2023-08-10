@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1378,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1378,
+               "ccmTech": 2771,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2771,
+               "cylinderCapacityLiter": 280,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 202,
+               "modelName": "COUPE B3 (89, 8B3)",
+               "motorType": "Essence",
+               "powerHpFrom": 174,
+               "powerHpTo": 174,
+               "powerKwFrom": 128,
+               "powerKwTo": 128,
+               "typeName": "2.8 quattro",
+               "typeNumber": 1378,
+               "valves": 2,
+               "yearOfConstrFrom": 199108,
+               "yearOfConstrTo": 199612,
+               "rmiTypeId": 1227
+            },
+            "vehicleDocId": "DR1378"
+         }
+      ]
+   },
+   "status": 200
+}

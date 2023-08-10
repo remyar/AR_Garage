@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 143493,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 143493,
+               "ccmTech": 2967,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2967,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Diesel/électrique",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 38844,
+               "modelName": "A6 C8 Avant (4A5)",
+               "motorType": "Hybride léger",
+               "powerHpFrom": 344,
+               "powerHpTo": 344,
+               "powerKwFrom": 253,
+               "powerKwTo": 253,
+               "typeName": "S6 TDI Mild Hybrid quattro",
+               "typeNumber": 143493,
+               "valves": 4,
+               "yearOfConstrFrom": 202011,
+               "rmiTypeId": 182648
+            },
+            "vehicleDocId": "DR143493"
+         }
+      ]
+   },
+   "status": 200
+}

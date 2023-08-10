@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 14002,
+            "vehicleDetails": {
+               "carId": 14002,
+               "ccmTech": 1242,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1242,
+               "cylinderCapacityLiter": 120,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 10004,
+               "modelName": "PANDA (312_, 319_)",
+               "motorType": "Essence",
+               "powerHpFrom": 69,
+               "powerHpTo": 69,
+               "powerKwFrom": 51,
+               "powerKwTo": 51,
+               "typeName": "1.2 (312PXA1A)",
+               "typeNumber": 14002,
+               "valves": 2,
+               "yearOfConstrFrom": 201202,
+               "rmiTypeId": 70902
+            },
+            "vehicleDocId": "DR14002"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5809,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5809,
+               "ccmTech": 2309,
+               "constructionType": "A trois volumes",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2309,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 258,
+               "modelName": "A6 C4 (4A2)",
+               "motorType": "Essence",
+               "powerHpFrom": 133,
+               "powerHpTo": 133,
+               "powerKwFrom": 98,
+               "powerKwTo": 98,
+               "typeName": "2.3 quattro",
+               "typeNumber": 5809,
+               "valves": 2,
+               "yearOfConstrFrom": 199406,
+               "yearOfConstrTo": 199512,
+               "rmiTypeId": 5325
+            },
+            "vehicleDocId": "DR5809"
+         }
+      ]
+   },
+   "status": 200
+}

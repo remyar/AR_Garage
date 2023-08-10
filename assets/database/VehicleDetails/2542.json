@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2542,
+            "vehicleDetails": {
+               "carId": 2542,
+               "ccmTech": 499,
+               "constructionType": "Break",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 499,
+               "cylinderCapacityLiter": 50,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 1864,
+               "modelName": "500 Break (101_)",
+               "motorType": "Essence",
+               "powerHpFrom": 15,
+               "powerHpTo": 15,
+               "powerKwFrom": 11,
+               "powerKwTo": 11,
+               "typeName": "0.5",
+               "typeNumber": 2542,
+               "valves": 2,
+               "yearOfConstrFrom": 196001,
+               "yearOfConstrTo": 196612,
+               "rmiTypeId": 2313
+            }
+         }
+      ]
+   },
+   "status": 200
+}

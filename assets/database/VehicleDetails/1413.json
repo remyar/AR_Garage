@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1413,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1413,
+               "ccmTech": 2598,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2598,
+               "cylinderCapacityLiter": 260,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 1,
+               "modelName": "80 B4 A trois volumes (8C2)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.6 quattro",
+               "typeNumber": 1413,
+               "valves": 2,
+               "yearOfConstrFrom": 199206,
+               "yearOfConstrTo": 199412,
+               "rmiTypeId": 1261
+            },
+            "vehicleDocId": "DR1413"
+         }
+      ]
+   },
+   "status": 200
+}

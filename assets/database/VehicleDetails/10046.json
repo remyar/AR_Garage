@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10046,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10046,
+               "ccmTech": 1595,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1595,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 104,
+               "manuName": "SEAT",
+               "modId": 3899,
+               "modelName": "TOLEDO II (1M2)",
+               "motorType": "Essence",
+               "powerHpFrom": 100,
+               "powerHpTo": 100,
+               "powerKwFrom": 74,
+               "powerKwTo": 74,
+               "typeName": "1.6",
+               "typeNumber": 10046,
+               "valves": 2,
+               "yearOfConstrFrom": 199810,
+               "yearOfConstrTo": 200407,
+               "rmiTypeId": 8548
+            },
+            "vehicleDocId": "DR10046"
+         }
+      ]
+   },
+   "status": 200
+}

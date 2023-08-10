@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5318,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5318,
+               "ccmTech": 1781,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1781,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 258,
+               "modelName": "A6 C4 (4A2)",
+               "motorType": "Essence",
+               "powerHpFrom": 125,
+               "powerHpTo": 125,
+               "powerKwFrom": 92,
+               "powerKwTo": 92,
+               "typeName": "1.8",
+               "typeNumber": 5318,
+               "valves": 5,
+               "yearOfConstrFrom": 199512,
+               "yearOfConstrTo": 199710,
+               "rmiTypeId": 4903
+            },
+            "vehicleDocId": "DR5318"
+         }
+      ]
+   },
+   "status": 200
+}

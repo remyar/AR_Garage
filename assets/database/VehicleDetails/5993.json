@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5993,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5993,
+               "ccmTech": 1921,
+               "constructionType": "Break",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 1921,
+               "cylinderCapacityLiter": 190,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 30,
+               "modelName": "100 C3 Avant (445, 446)",
+               "motorType": "Essence",
+               "powerHpFrom": 100,
+               "powerHpTo": 100,
+               "powerKwFrom": 74,
+               "powerKwTo": 74,
+               "typeName": "1.9",
+               "typeNumber": 5993,
+               "valves": 2,
+               "yearOfConstrFrom": 198302,
+               "yearOfConstrTo": 198407,
+               "rmiTypeId": 5406
+            },
+            "vehicleDocId": "DR5993"
+         }
+      ]
+   },
+   "status": 200
+}

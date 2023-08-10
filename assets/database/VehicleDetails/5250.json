@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5250,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5250,
+               "ccmTech": 2188,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2188,
+               "cylinderCapacityLiter": 220,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction avant",
+               "manuId": 93,
+               "manuName": "RENAULT",
+               "modId": 1478,
+               "modelName": "LAGUNA I Nevada (K56_)",
+               "motorType": "Diesel",
+               "powerHpFrom": 83,
+               "powerHpTo": 83,
+               "powerKwFrom": 61,
+               "powerKwTo": 61,
+               "typeName": "2.2 D (K56F/2, S56F)",
+               "typeNumber": 5250,
+               "valves": 3,
+               "yearOfConstrFrom": 199509,
+               "yearOfConstrTo": 200103,
+               "rmiTypeId": 4848
+            },
+            "vehicleDocId": "DR5250"
+         }
+      ]
+   },
+   "status": 200
+}

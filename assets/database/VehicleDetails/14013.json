@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 14013,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 14013,
+               "ccmTech": 1647,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1647,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 93,
+               "manuName": "RENAULT",
+               "modId": 1908,
+               "modelName": "TRAFIC Camionnette (T_, P_, V_)",
+               "motorType": "Essence",
+               "powerHpFrom": 65,
+               "powerHpTo": 65,
+               "powerKwFrom": 48,
+               "powerKwTo": 48,
+               "typeName": "1.6 4x4",
+               "typeNumber": 14013,
+               "valves": 2,
+               "yearOfConstrFrom": 198508,
+               "yearOfConstrTo": 198606,
+               "rmiTypeId": 10275
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2428,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2428,
+               "ccmTech": 1905,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1905,
+               "cylinderCapacityLiter": 190,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 387,
+               "modelName": "405 I Break (15E)",
+               "motorType": "Essence",
+               "powerHpFrom": 105,
+               "powerHpTo": 105,
+               "powerKwFrom": 77,
+               "powerKwTo": 77,
+               "typeName": "1.9",
+               "typeNumber": 2428,
+               "valves": 2,
+               "yearOfConstrFrom": 198810,
+               "yearOfConstrTo": 199208,
+               "rmiTypeId": 2211
+            },
+            "vehicleDocId": "DR2428"
+         }
+      ]
+   },
+   "status": 200
+}
