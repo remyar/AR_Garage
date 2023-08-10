@@ -16,6 +16,8 @@ import CAChart from '../../components/CAChart';
 import { Calendar, momentLocalizer } from 'react-big-calendar'
 import moment from 'moment'
 
+import DatePicker from '../../components/DatePicker';
+
 const localizer = momentLocalizer(moment) // or globalizeLocalizer
 
 require("react-big-calendar/lib/css/react-big-calendar.css")
@@ -25,6 +27,7 @@ function HomePage(props) {
     const [displayLoader, setDisplayLoader] = useState(false);
     const [displayWizard, setDisplayWizard] = useState(false);
     const [factures, setFactures] = useState([]);
+    const [yearSelected, setYearSelected] = useState(new Date());
 
     const intl = props.intl;
     const vehicule = props.globalState.vehicule || {};
@@ -65,7 +68,7 @@ function HomePage(props) {
         let year = new Date(_f.date).getFullYear();
         let month = new Date(_f.date).getMonth();
 
-        if (year == new Date().getFullYear()) {
+        if (year == yearSelected.getFullYear()) {
 
             if (ca[year] == undefined) {
                 ca[year] = {
@@ -105,11 +108,25 @@ function HomePage(props) {
             <Grid container spacing={2}>
                 <Grid item xs={3} sx={{ textAlign: 'center' }} />
                 <Grid item xs={6} sx={{ textAlign: 'center' }}>
-                    <CAChart data={ca[new Date().getFullYear()]} title={"CA " + new Date().getFullYear() + " - " + caTotal.toFixed(2) + "€"} />
+                    <CAChart data={ca[yearSelected.getFullYear()]} title={"CA " + yearSelected.getFullYear() + " - " + caTotal.toFixed(2) + "€"} />
                 </Grid>
                 <Grid item xs={3} sx={{ textAlign: 'center' }} />
             </Grid>
-
+            <br />
+            <br />
+            <Grid container spacing={2}>
+                <Grid item xs={3} sx={{ textAlign: 'center' }} />
+                <Grid item xs={6} sx={{ textAlign: 'center' }}><DatePicker
+                    value={yearSelected}
+                    sx={{ width: "100%" }}
+                    views={['year']}
+                    title="Année"
+                    onChange={(value) => {
+                        setYearSelected(value);
+                    }}
+                /></Grid>
+                <Grid item xs={3} sx={{ textAlign: 'center' }} />
+            </Grid>
         </Box>
     </Box >
 

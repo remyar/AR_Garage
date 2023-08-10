@@ -16,6 +16,7 @@ function MyDatePicker(props) {
     return <LocalizationProvider sx={{ ...props.sx }} dateAdapter={AdapterDateFns} adapterLocale={locales.getLocale()}>
         <DatePicker
             sx={{ ...props.sx }}
+            views={props.views || ['year', 'month', 'day'] }
             disabled={props.disabled ? props.disabled : false}
             label={props.title || "Date échéance"}
             value={props.value || new Date().addMonths(1)}
