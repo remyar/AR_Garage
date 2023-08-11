@@ -14,8 +14,10 @@ module.exports = {
     },
     start: async () => {
         try {
+            console.log(process.resourcesPath);
+
             //await database.setdbPath(isDev ? "./assets/database" : "./database");
-            await database.setdbPath(isDev ? "./assets/database" : path.join(app.getPath("userData"), "database"));
+            await database.setdbPath(isDev ? "./assets/database" : path.join(process.resourcesPath, "database"));
             // await database.setMainWindows(mainWindow);
 
             ipcMain.on('OPEN_DEV_TOOLS', (event, value) => {
