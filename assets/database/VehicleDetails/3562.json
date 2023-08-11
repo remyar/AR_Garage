@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3562,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3562,
+               "ccmTech": 1296,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1296,
+               "cylinderCapacityLiter": 130,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 72,
+               "manuName": "MAZDA",
+               "modId": 338,
+               "modelName": "323 III Hatchback (BF)",
+               "motorType": "Essence",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "1.3 (BF103)",
+               "typeNumber": 3562,
+               "valves": 2,
+               "yearOfConstrFrom": 198509,
+               "yearOfConstrTo": 198712,
+               "rmiTypeId": 3262
+            }
+         }
+      ]
+   },
+   "status": 200
+}

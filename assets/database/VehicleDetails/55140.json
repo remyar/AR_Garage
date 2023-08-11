@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 55140,
+            "vehicleDetails": {
+               "carId": 55140,
+               "ccmTech": 1368,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1368,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 29,
+               "manuName": "DODGE",
+               "modId": 10270,
+               "modelName": "DART",
+               "motorType": "Essence",
+               "powerHpFrom": 162,
+               "powerHpTo": 162,
+               "powerKwFrom": 119,
+               "powerKwTo": 119,
+               "typeName": "1.4 T",
+               "typeNumber": 55140,
+               "valves": 4,
+               "yearOfConstrFrom": 201204,
+               "rmiTypeId": 74555
+            },
+            "vehicleDocId": "DR55140"
+         }
+      ]
+   },
+   "status": 200
+}

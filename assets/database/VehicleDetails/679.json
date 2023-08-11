@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 679,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 679,
+               "ccmTech": 1392,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1392,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 335,
+               "modelName": "ESCORT IV (GAF, AWF, ABFT)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.4",
+               "typeNumber": 679,
+               "valves": 2,
+               "yearOfConstrFrom": 198601,
+               "yearOfConstrTo": 199007,
+               "rmiTypeId": 601
+            },
+            "vehicleDocId": "DR679"
+         }
+      ]
+   },
+   "status": 200
+}

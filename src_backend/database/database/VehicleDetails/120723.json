@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 120723,
+            "vehicleDetails": {
+               "carId": 120723,
+               "ccmTech": 1368,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1368,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence/gaz de pétrole liquéfié (GPL)",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 36527,
+               "modelName": "TIPO Break (356_, 357_)",
+               "motorType": "Essence",
+               "powerHpFrom": 120,
+               "powerHpTo": 120,
+               "powerKwFrom": 88,
+               "powerKwTo": 88,
+               "typeName": "1.4 LPG (356WXF1B)",
+               "typeNumber": 120723,
+               "valves": 4,
+               "yearOfConstrFrom": 201605,
+               "yearOfConstrTo": 202010,
+               "rmiTypeId": 129595
+            },
+            "vehicleDocId": "DR120723"
+         }
+      ]
+   },
+   "status": 200
+}

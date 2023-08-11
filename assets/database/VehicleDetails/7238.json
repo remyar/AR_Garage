@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7238,
+            "vehicleDetails": {
+               "carId": 7238,
+               "ccmTech": 2384,
+               "constructionType": "SUV",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2384,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 5548,
+               "modelName": "ANTARA A (L07)",
+               "motorType": "Essence",
+               "powerHpFrom": 167,
+               "powerHpTo": 167,
+               "powerKwFrom": 123,
+               "powerKwTo": 123,
+               "typeName": "2.4",
+               "typeNumber": 7238,
+               "valves": 4,
+               "yearOfConstrFrom": 201012,
+               "rmiTypeId": 65606
+            },
+            "vehicleDocId": "DR7238"
+         }
+      ]
+   },
+   "status": 200
+}

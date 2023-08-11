@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123370,
+            "vehicleDetails": {
+               "carId": 123370,
+               "ccmTech": 1995,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1995,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 1523,
+               "manuName": "MINI",
+               "modId": 37158,
+               "modelName": "MINI COUNTRYMAN (F60)",
+               "motorType": "Diesel",
+               "powerHpFrom": 190,
+               "powerHpTo": 190,
+               "powerKwFrom": 140,
+               "powerKwTo": 140,
+               "typeName": "Cooper SD ALL4",
+               "typeNumber": 123370,
+               "valves": 4,
+               "yearOfConstrFrom": 201610,
+               "rmiTypeId": 133285
+            },
+            "vehicleDocId": "DR123370"
+         }
+      ]
+   },
+   "status": 200
+}

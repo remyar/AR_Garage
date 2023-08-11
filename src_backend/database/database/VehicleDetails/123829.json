@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123829,
+            "vehicleDetails": {
+               "carId": 123829,
+               "ccmTech": 1905,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1905,
+               "cylinderCapacityLiter": 190,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 21,
+               "manuName": "CITROËN",
+               "modId": 410,
+               "modelName": "BX (XB-_)",
+               "motorType": "Essence",
+               "powerHpFrom": 125,
+               "powerHpTo": 125,
+               "powerKwFrom": 92,
+               "powerKwTo": 92,
+               "typeName": "1.9",
+               "typeNumber": 123829,
+               "valves": 2,
+               "yearOfConstrFrom": 198510,
+               "yearOfConstrTo": 199406,
+               "rmiTypeId": 78868
+            },
+            "vehicleDocId": "DR123829"
+         }
+      ]
+   },
+   "status": 200
+}

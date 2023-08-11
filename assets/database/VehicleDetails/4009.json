@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4009,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4009,
+               "ccmTech": 5993,
+               "constructionType": "A trois volumes",
+               "cylinder": 12,
+               "cylinderCapacityCcm": 5993,
+               "cylinderCapacityLiter": 600,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 56,
+               "manuName": "JAGUAR",
+               "modId": 105,
+               "modelName": "XJ (X300, X330)",
+               "motorType": "Essence",
+               "powerHpFrom": 311,
+               "powerHpTo": 311,
+               "powerKwFrom": 229,
+               "powerKwTo": 229,
+               "typeName": "12 6.0",
+               "typeNumber": 4009,
+               "valves": 2,
+               "yearOfConstrFrom": 199409,
+               "yearOfConstrTo": 199709,
+               "rmiTypeId": 3682
+            }
+         }
+      ]
+   },
+   "status": 200
+}

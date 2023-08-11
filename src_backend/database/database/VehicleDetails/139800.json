@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 139800,
+            "vehicleDetails": {
+               "carId": 139800,
+               "ccmTech": 1969,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1969,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence/électrique",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 36540,
+               "modelName": "V90 II Break (235)",
+               "motorType": "Hybride léger",
+               "powerHpFrom": 250,
+               "powerHpTo": 250,
+               "powerKwFrom": 184,
+               "powerKwTo": 184,
+               "typeName": "B5 Mild-Hybrid",
+               "typeNumber": 139800,
+               "valves": 4,
+               "yearOfConstrFrom": 202003,
+               "rmiTypeId": 165869
+            },
+            "vehicleDocId": "DR139800"
+         }
+      ]
+   },
+   "status": 200
+}

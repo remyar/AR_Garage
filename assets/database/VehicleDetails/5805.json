@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5805,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5805,
+               "ccmTech": 2294,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2294,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 514,
+               "modelName": "GRANADA II (GU)",
+               "motorType": "Essence",
+               "powerHpFrom": 112,
+               "powerHpTo": 112,
+               "powerKwFrom": 82,
+               "powerKwTo": 82,
+               "typeName": "2.3",
+               "typeNumber": 5805,
+               "valves": 2,
+               "yearOfConstrFrom": 198106,
+               "yearOfConstrTo": 198508,
+               "rmiTypeId": 5323
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6283,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6283,
+               "ccmTech": 2664,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2664,
+               "cylinderCapacityLiter": 270,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 2073,
+               "modelName": "260 Coupé (P262)",
+               "motorType": "Essence",
+               "powerHpFrom": 140,
+               "powerHpTo": 140,
+               "powerKwFrom": 103,
+               "powerKwTo": 103,
+               "typeName": "2.7",
+               "typeNumber": 6283,
+               "valves": 2,
+               "yearOfConstrFrom": 197708,
+               "yearOfConstrTo": 197807,
+               "rmiTypeId": 5649
+            },
+            "vehicleDocId": "DR6283"
+         }
+      ]
+   },
+   "status": 200
+}

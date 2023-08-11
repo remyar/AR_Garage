@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 130301,
+            "vehicleDetails": {
+               "carId": 130301,
+               "ccmTech": 1499,
+               "constructionType": "SUV",
+               "cylinder": 3,
+               "cylinderCapacityCcm": 1499,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 38274,
+               "modelName": "X2 (F39)",
+               "motorType": "Essence",
+               "powerHpFrom": 136,
+               "powerHpTo": 136,
+               "powerKwFrom": 100,
+               "powerKwTo": 100,
+               "typeName": "sDrive 18 i",
+               "typeNumber": 130301,
+               "valves": 4,
+               "yearOfConstrFrom": 201803,
+               "rmiTypeId": 143335
+            },
+            "vehicleDocId": "DR130301"
+         }
+      ]
+   },
+   "status": 200
+}

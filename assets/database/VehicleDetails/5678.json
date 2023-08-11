@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5678,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5678,
+               "ccmTech": 1896,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1896,
+               "cylinderCapacityLiter": 190,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction avant",
+               "manuId": 106,
+               "manuName": "SKODA",
+               "modId": 1319,
+               "modelName": "FELICIA I (6U1)",
+               "motorType": "Diesel",
+               "powerHpFrom": 64,
+               "powerHpTo": 64,
+               "powerKwFrom": 47,
+               "powerKwTo": 47,
+               "typeName": "1.9 D",
+               "typeNumber": 5678,
+               "valves": 2,
+               "yearOfConstrFrom": 199510,
+               "yearOfConstrTo": 199803,
+               "rmiTypeId": 5233
+            },
+            "vehicleDocId": "DR5678"
+         }
+      ]
+   },
+   "status": 200
+}

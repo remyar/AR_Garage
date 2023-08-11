@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3566,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3566,
+               "ccmTech": 1588,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1588,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 550,
+               "modelName": "CELICA Coupé (_A4_)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.6 LT (TA4C)",
+               "typeNumber": 3566,
+               "valves": 2,
+               "yearOfConstrFrom": 197902,
+               "yearOfConstrTo": 198107,
+               "rmiTypeId": 3266
+            },
+            "vehicleDocId": "DR3566"
+         }
+      ]
+   },
+   "status": 200
+}

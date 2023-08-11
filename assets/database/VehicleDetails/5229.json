@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5229,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5229,
+               "ccmTech": 1580,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1580,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 1477,
+               "modelName": "406 (8B)",
+               "motorType": "Essence",
+               "powerHpFrom": 88,
+               "powerHpTo": 88,
+               "powerKwFrom": 65,
+               "powerKwTo": 65,
+               "typeName": "1.6",
+               "typeNumber": 5229,
+               "valves": 2,
+               "yearOfConstrFrom": 199511,
+               "yearOfConstrTo": 200405,
+               "rmiTypeId": 4830
+            },
+            "vehicleDocId": "DR5229"
+         }
+      ]
+   },
+   "status": 200
+}

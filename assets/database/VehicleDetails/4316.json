@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4316,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4316,
+               "ccmTech": 2389,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2389,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 1218,
+               "modelName": "TERRANO I (WD21)",
+               "motorType": "Essence",
+               "powerHpFrom": 103,
+               "powerHpTo": 103,
+               "powerKwFrom": 76,
+               "powerKwTo": 76,
+               "typeName": "2.4 i 4WD",
+               "typeNumber": 4316,
+               "valves": 2,
+               "yearOfConstrFrom": 198710,
+               "yearOfConstrTo": 199302,
+               "rmiTypeId": 3985
+            },
+            "vehicleDocId": "DR4316"
+         }
+      ]
+   },
+   "status": 200
+}

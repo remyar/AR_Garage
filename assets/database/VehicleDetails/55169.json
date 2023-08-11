@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 55169,
+            "vehicleDetails": {
+               "carId": 55169,
+               "ccmTech": 3605,
+               "constructionType": "Monospace",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3605,
+               "cylinderCapacityLiter": 360,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 29,
+               "manuName": "DODGE",
+               "modId": 7572,
+               "modelName": "JOURNEY",
+               "motorType": "Essence",
+               "powerHpFrom": 287,
+               "powerHpTo": 287,
+               "powerKwFrom": 211,
+               "powerKwTo": 211,
+               "typeName": "3.6",
+               "typeNumber": 55169,
+               "valves": 4,
+               "yearOfConstrFrom": 201201,
+               "rmiTypeId": 74697
+            },
+            "vehicleDocId": "DR55169"
+         }
+      ]
+   },
+   "status": 200
+}

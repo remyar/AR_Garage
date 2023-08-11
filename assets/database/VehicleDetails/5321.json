@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5321,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5321,
+               "ccmTech": 1781,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1781,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 3468,
+               "modelName": "A6 C4 Avant (4A5)",
+               "motorType": "Essence",
+               "powerHpFrom": 125,
+               "powerHpTo": 125,
+               "powerKwFrom": 92,
+               "powerKwTo": 92,
+               "typeName": "1.8 quattro",
+               "typeNumber": 5321,
+               "valves": 5,
+               "yearOfConstrFrom": 199512,
+               "yearOfConstrTo": 199712,
+               "rmiTypeId": 4906
+            },
+            "vehicleDocId": "DR5321"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 12325,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 12325,
+               "ccmTech": 1397,
+               "constructionType": "Camionnette/Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1397,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 93,
+               "manuName": "RENAULT",
+               "modId": 4206,
+               "modelName": "18 Société",
+               "motorType": "Essence",
+               "powerHpFrom": 64,
+               "powerHpTo": 64,
+               "powerKwFrom": 47,
+               "powerKwTo": 47,
+               "typeName": "1.4",
+               "typeNumber": 12325,
+               "valves": 2,
+               "yearOfConstrFrom": 197905,
+               "yearOfConstrTo": 198607,
+               "rmiTypeId": 9412
+            }
+         }
+      ]
+   },
+   "status": 200
+}

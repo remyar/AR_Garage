@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3548,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3548,
+               "ccmTech": 2959,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2959,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 446,
+               "modelName": "CAMRY (_V1_)",
+               "motorType": "Essence",
+               "powerHpFrom": 188,
+               "powerHpTo": 188,
+               "powerKwFrom": 138,
+               "powerKwTo": 138,
+               "typeName": "3.0 (VCV10_)",
+               "typeNumber": 3548,
+               "valves": 4,
+               "yearOfConstrFrom": 199106,
+               "yearOfConstrTo": 199608,
+               "rmiTypeId": 3249
+            },
+            "vehicleDocId": "DR3548"
+         }
+      ]
+   },
+   "status": 200
+}

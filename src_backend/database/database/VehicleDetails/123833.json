@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123833,
+            "vehicleDetails": {
+               "carId": 123833,
+               "ccmTech": 1905,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1905,
+               "cylinderCapacityLiter": 190,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 21,
+               "manuName": "CITROËN",
+               "modId": 413,
+               "modelName": "BX Break (XB-_)",
+               "motorType": "Essence",
+               "powerHpFrom": 103,
+               "powerHpTo": 103,
+               "powerKwFrom": 76,
+               "powerKwTo": 76,
+               "typeName": "19",
+               "typeNumber": 123833,
+               "valves": 2,
+               "yearOfConstrFrom": 198701,
+               "yearOfConstrTo": 199201,
+               "rmiTypeId": 133924
+            },
+            "vehicleDocId": "DR123833"
+         }
+      ]
+   },
+   "status": 200
+}

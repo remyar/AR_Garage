@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6724,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6724,
+               "ccmTech": 1166,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1166,
+               "cylinderCapacityLiter": 120,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 2062,
+               "modelName": "COROLLA Break (TE72_)",
+               "motorType": "Essence",
+               "powerHpFrom": 54,
+               "powerHpTo": 54,
+               "powerKwFrom": 40,
+               "powerKwTo": 40,
+               "typeName": "1.2 (KE36, KE25, KE30, KE26)",
+               "typeNumber": 6724,
+               "valves": 2,
+               "yearOfConstrFrom": 197507,
+               "yearOfConstrTo": 197907,
+               "rmiTypeId": 6031
+            }
+         }
+      ]
+   },
+   "status": 200
+}

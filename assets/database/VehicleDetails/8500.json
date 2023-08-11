@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8500,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8500,
+               "ccmTech": 5733,
+               "constructionType": "Décapotable",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 5733,
+               "cylinderCapacityLiter": 570,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 138,
+               "manuName": "CHEVROLET",
+               "modId": 2002,
+               "modelName": "CORVETTE Décapotable (1YY)",
+               "motorType": "Essence",
+               "powerHpFrom": 249,
+               "powerHpTo": 249,
+               "powerKwFrom": 183,
+               "powerKwTo": 183,
+               "typeName": "5.7",
+               "typeNumber": 8500,
+               "valves": 2,
+               "yearOfConstrFrom": 198901,
+               "yearOfConstrTo": 199701,
+               "rmiTypeId": 7566
+            },
+            "vehicleDocId": "DR8500"
+         }
+      ]
+   },
+   "status": 200
+}

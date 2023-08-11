@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6263,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6263,
+               "ccmTech": 1781,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1781,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 423,
+               "modelName": "PASSAT B3/B4 Variant (3A5, 35I)",
+               "motorType": "Essence",
+               "powerHpFrom": 136,
+               "powerHpTo": 136,
+               "powerKwFrom": 100,
+               "powerKwTo": 100,
+               "typeName": "1.8 16V",
+               "typeNumber": 6263,
+               "valves": 4,
+               "yearOfConstrFrom": 198804,
+               "yearOfConstrTo": 198912,
+               "rmiTypeId": 5637
+            },
+            "vehicleDocId": "DR6263"
+         }
+      ]
+   },
+   "status": 200
+}

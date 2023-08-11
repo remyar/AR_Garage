@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11898,
+            "vehicleDetails": {
+               "carId": 11898,
+               "ccmTech": 3605,
+               "constructionType": "Monospace",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3605,
+               "cylinderCapacityLiter": 360,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 9735,
+               "modelName": "ROUTAN",
+               "motorType": "Essence",
+               "powerHpFrom": 283,
+               "powerHpTo": 283,
+               "powerKwFrom": 208,
+               "powerKwTo": 208,
+               "typeName": "3.6",
+               "typeNumber": 11898,
+               "valves": 4,
+               "yearOfConstrFrom": 201101,
+               "yearOfConstrTo": 201312,
+               "rmiTypeId": 70386
+            },
+            "vehicleDocId": "DR11898"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1258,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1258,
+               "ccmTech": 2969,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2969,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 232,
+               "modelName": "SENATOR A (29_)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "3.0",
+               "typeNumber": 1258,
+               "valves": 2,
+               "yearOfConstrFrom": 197804,
+               "yearOfConstrTo": 198207,
+               "rmiTypeId": 1116
+            }
+         }
+      ]
+   },
+   "status": 200
+}

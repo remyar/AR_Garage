@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 814,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 814,
+               "ccmTech": 2298,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2298,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 12,
+               "modelName": "124 Coupé (C124)",
+               "motorType": "Essence",
+               "powerHpFrom": 132,
+               "powerHpTo": 132,
+               "powerKwFrom": 97,
+               "powerKwTo": 97,
+               "typeName": "230 CE Cat (124.043)",
+               "typeNumber": 814,
+               "valves": 2,
+               "yearOfConstrFrom": 198906,
+               "yearOfConstrTo": 199212,
+               "rmiTypeId": 712
+            },
+            "vehicleDocId": "DR814"
+         }
+      ]
+   },
+   "status": 200
+}

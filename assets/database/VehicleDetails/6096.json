@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6096,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6096,
+               "ccmTech": 1296,
+               "constructionType": "Camionnette/Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1296,
+               "cylinderCapacityLiter": 130,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 1606,
+               "modelName": "ESCORT III Courrier (AVA)",
+               "motorType": "Essence",
+               "powerHpFrom": 69,
+               "powerHpTo": 69,
+               "powerKwFrom": 51,
+               "powerKwTo": 51,
+               "typeName": "1.3",
+               "typeNumber": 6096,
+               "valves": 2,
+               "yearOfConstrFrom": 198103,
+               "yearOfConstrTo": 198602,
+               "rmiTypeId": 5488
+            },
+            "vehicleDocId": "DR6096"
+         }
+      ]
+   },
+   "status": 200
+}

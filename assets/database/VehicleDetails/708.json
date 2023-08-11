@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 708,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 708,
+               "ccmTech": 5547,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 5547,
+               "cylinderCapacityLiter": 550,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 29,
+               "modelName": "CLASSE S (W126)",
+               "motorType": "Essence",
+               "powerHpFrom": 300,
+               "powerHpTo": 300,
+               "powerKwFrom": 220,
+               "powerKwTo": 220,
+               "typeName": "560 SE, SEL",
+               "typeNumber": 708,
+               "valves": 2,
+               "yearOfConstrFrom": 198510,
+               "yearOfConstrTo": 199106,
+               "rmiTypeId": 626
+            },
+            "vehicleDocId": "DR708"
+         }
+      ]
+   },
+   "status": 200
+}

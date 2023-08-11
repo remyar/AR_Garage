@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11903,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 11903,
+               "ccmTech": 1595,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1595,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 1360,
+               "manuName": "ARO",
+               "modId": 4174,
+               "modelName": "10",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.6",
+               "typeNumber": 11903,
+               "valves": 2,
+               "yearOfConstrFrom": 198806,
+               "yearOfConstrTo": 199910,
+               "rmiTypeId": 9322
+            }
+         }
+      ]
+   },
+   "status": 200
+}

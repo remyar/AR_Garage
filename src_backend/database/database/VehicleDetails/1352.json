@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1352,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1352,
+               "ccmTech": 1781,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1781,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 194,
+               "modelName": "COUPE B2 (81, 855, 856)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.8 GT",
+               "typeNumber": 1352,
+               "valves": 2,
+               "yearOfConstrFrom": 198209,
+               "yearOfConstrTo": 198810,
+               "rmiTypeId": 1204
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4204,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4204,
+               "ccmTech": 1952,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1952,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 1213,
+               "modelName": "BLUEBIRD Traveller (W910)",
+               "motorType": "Diesel",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "2.0 D",
+               "typeNumber": 4204,
+               "valves": 2,
+               "yearOfConstrFrom": 198001,
+               "yearOfConstrTo": 198405,
+               "rmiTypeId": 3873
+            }
+         }
+      ]
+   },
+   "status": 200
+}

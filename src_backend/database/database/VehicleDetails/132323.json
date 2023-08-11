@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 132323,
+            "vehicleDetails": {
+               "carId": 132323,
+               "ccmTech": 2995,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2995,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence/électrique",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 38843,
+               "modelName": "A6 C8 (4A2)",
+               "motorType": "Hybride léger",
+               "powerHpFrom": 340,
+               "powerHpTo": 340,
+               "powerKwFrom": 250,
+               "powerKwTo": 250,
+               "typeName": "55 TFSi Mild Hybrid quattro",
+               "typeNumber": 132323,
+               "valves": 4,
+               "yearOfConstrFrom": 201802,
+               "rmiTypeId": 144236
+            },
+            "vehicleDocId": "DR132323"
+         }
+      ]
+   },
+   "status": 200
+}

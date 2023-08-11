@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 124000,
+            "vehicleDetails": {
+               "carId": 124000,
+               "ccmTech": 1969,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1969,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 36540,
+               "modelName": "V90 II Break (235)",
+               "motorType": "Diesel",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "D3 AWD",
+               "typeNumber": 124000,
+               "valves": 4,
+               "yearOfConstrFrom": 201603,
+               "rmiTypeId": 134063
+            },
+            "vehicleDocId": "DR124000"
+         }
+      ]
+   },
+   "status": 200
+}

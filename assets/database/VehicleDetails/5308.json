@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5308,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5308,
+               "ccmTech": 2598,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2598,
+               "cylinderCapacityLiter": 260,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 3485,
+               "modelName": "A4 B5 Avant (8D5)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.6",
+               "typeNumber": 5308,
+               "valves": 2,
+               "yearOfConstrFrom": 199602,
+               "yearOfConstrTo": 200109,
+               "rmiTypeId": 4894
+            },
+            "vehicleDocId": "DR5308"
+         }
+      ]
+   },
+   "status": 200
+}

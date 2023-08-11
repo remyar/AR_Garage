@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 818,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 818,
+               "ccmTech": 3199,
+               "constructionType": "Décapotable",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3199,
+               "cylinderCapacityLiter": 320,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 3907,
+               "modelName": "CLASSE E Décapotable (A124)",
+               "motorType": "Essence",
+               "powerHpFrom": 220,
+               "powerHpTo": 220,
+               "powerKwFrom": 162,
+               "powerKwTo": 162,
+               "typeName": "E 320 (124.066)",
+               "typeNumber": 818,
+               "valves": 4,
+               "yearOfConstrFrom": 199306,
+               "yearOfConstrTo": 199803,
+               "rmiTypeId": 715
+            },
+            "vehicleDocId": "DR818"
+         }
+      ]
+   },
+   "status": 200
+}

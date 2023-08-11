@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7344,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7344,
+               "ccmTech": 1832,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1832,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 453,
+               "modelName": "CAMRY (_V2_)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.8 (SV20_)",
+               "typeNumber": 7344,
+               "valves": 2,
+               "yearOfConstrFrom": 198610,
+               "yearOfConstrTo": 198808,
+               "rmiTypeId": 6566
+            },
+            "vehicleDocId": "DR7344"
+         }
+      ]
+   },
+   "status": 200
+}

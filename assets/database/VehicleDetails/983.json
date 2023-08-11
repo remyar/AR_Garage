@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 983,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 983,
+               "ccmTech": 3499,
+               "constructionType": "Coupé",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 3499,
+               "cylinderCapacityLiter": 350,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 3445,
+               "modelName": "SL Coupé (C107)",
+               "motorType": "Essence",
+               "powerHpFrom": 200,
+               "powerHpTo": 200,
+               "powerKwFrom": 147,
+               "powerKwTo": 147,
+               "typeName": "350 SLC (107.023)",
+               "typeNumber": 983,
+               "valves": 2,
+               "yearOfConstrFrom": 197201,
+               "yearOfConstrTo": 197602,
+               "rmiTypeId": 867
+            },
+            "vehicleDocId": "DR983"
+         }
+      ]
+   },
+   "status": 200
+}

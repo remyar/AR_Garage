@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123824,
+            "vehicleDetails": {
+               "carId": 123824,
+               "ccmTech": 2998,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2998,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 37157,
+               "modelName": "5 (G30, F90)",
+               "motorType": "Essence",
+               "powerHpFrom": 360,
+               "powerHpTo": 360,
+               "powerKwFrom": 265,
+               "powerKwTo": 265,
+               "typeName": "540 i",
+               "typeNumber": 123824,
+               "valves": 4,
+               "yearOfConstrFrom": 201609,
+               "yearOfConstrTo": 202006,
+               "rmiTypeId": 133917
+            },
+            "vehicleDocId": "DR123824"
+         }
+      ]
+   },
+   "status": 200
+}

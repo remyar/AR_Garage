@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8502,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8502,
+               "ccmTech": 5002,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 5002,
+               "cylinderCapacityLiter": 500,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 138,
+               "manuName": "CHEVROLET",
+               "modId": 2003,
+               "modelName": "MALIBU",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "5.0",
+               "typeNumber": 8502,
+               "valves": 2,
+               "yearOfConstrFrom": 198001,
+               "yearOfConstrTo": 198312,
+               "rmiTypeId": 7568
+            }
+         }
+      ]
+   },
+   "status": 200
+}

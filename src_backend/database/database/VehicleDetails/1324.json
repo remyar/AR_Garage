@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1324,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1324,
+               "ccmTech": 1986,
+               "constructionType": "A trois volumes",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 1986,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 13,
+               "modelName": "100 C3 A trois volumes (443, 444)",
+               "motorType": "Diesel",
+               "powerHpFrom": 100,
+               "powerHpTo": 100,
+               "powerKwFrom": 74,
+               "powerKwTo": 74,
+               "typeName": "2.0 D Turbo",
+               "typeNumber": 1324,
+               "valves": 2,
+               "yearOfConstrFrom": 198803,
+               "yearOfConstrTo": 199011,
+               "rmiTypeId": 1180
+            },
+            "vehicleDocId": "DR1324"
+         }
+      ]
+   },
+   "status": 200
+}

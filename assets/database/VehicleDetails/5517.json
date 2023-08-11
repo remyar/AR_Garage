@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5517,
+            "vehicleDetails": {
+               "carId": 5517,
+               "ccmTech": 1998,
+               "constructionType": "SUV",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1998,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 8631,
+               "modelName": "ASX (GA_W_)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.0 MIVEC 4WD",
+               "typeNumber": 5517,
+               "valves": 4,
+               "yearOfConstrFrom": 201006,
+               "rmiTypeId": 80215
+            },
+            "vehicleDocId": "DR5517"
+         }
+      ]
+   },
+   "status": 200
+}

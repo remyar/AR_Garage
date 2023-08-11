@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6463,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6463,
+               "ccmTech": 1298,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1298,
+               "cylinderCapacityLiter": 130,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 1650,
+               "modelName": "TAUNUS 12M II (12G)",
+               "motorType": "Essence",
+               "powerHpFrom": 50,
+               "powerHpTo": 50,
+               "powerKwFrom": 37,
+               "powerKwTo": 37,
+               "typeName": "1.3",
+               "typeNumber": 6463,
+               "valves": 2,
+               "yearOfConstrFrom": 196608,
+               "yearOfConstrTo": 197106,
+               "rmiTypeId": 5800
+            }
+         }
+      ]
+   },
+   "status": 200
+}

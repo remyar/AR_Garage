@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 12809,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 12809,
+               "ccmTech": 4754,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 12,
+               "cylinderCapacityCcm": 4754,
+               "cylinderCapacityLiter": 480,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 701,
+               "manuName": "LAMBORGHINI",
+               "modId": 4293,
+               "modelName": "LM-001",
+               "motorType": "Essence",
+               "powerHpFrom": 332,
+               "powerHpTo": 332,
+               "powerKwFrom": 244,
+               "powerKwTo": 244,
+               "typeName": "4.8",
+               "typeNumber": 12809,
+               "valves": 2,
+               "yearOfConstrFrom": 198001,
+               "yearOfConstrTo": 198312,
+               "rmiTypeId": 9651
+            },
+            "vehicleDocId": "DR12809"
+         }
+      ]
+   },
+   "status": 200
+}

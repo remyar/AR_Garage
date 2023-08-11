@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5006,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5006,
+               "ccmTech": 2370,
+               "constructionType": "Break",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2370,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 36,
+               "modelName": "100 C4 Avant (4A5)",
+               "motorType": "Diesel",
+               "powerHpFrom": 82,
+               "powerHpTo": 82,
+               "powerKwFrom": 60,
+               "powerKwTo": 60,
+               "typeName": "2.4 D",
+               "typeNumber": 5006,
+               "valves": 2,
+               "yearOfConstrFrom": 199012,
+               "yearOfConstrTo": 199407,
+               "rmiTypeId": 4627
+            },
+            "vehicleDocId": "DR5006"
+         }
+      ]
+   },
+   "status": 200
+}

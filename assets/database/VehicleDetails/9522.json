@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9522,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9522,
+               "ccmTech": 1998,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1998,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 3561,
+               "modelName": "PRIMERA Break (WP11)",
+               "motorType": "Essence",
+               "powerHpFrom": 115,
+               "powerHpTo": 115,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "2.0 16V",
+               "typeNumber": 9522,
+               "valves": 4,
+               "yearOfConstrFrom": 199606,
+               "yearOfConstrTo": 200112,
+               "rmiTypeId": 8338
+            },
+            "vehicleDocId": "DR9522"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,34 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123437,
+            "vehicleDetails": {
+               "carId": 123437,
+               "ccmTech": 501,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 501,
+               "cylinderCapacityLiter": 50,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 4407,
+               "manuName": "SWM",
+               "modId": 14619,
+               "modelName": "SM",
+               "motorType": "Essence",
+               "powerHpFrom": 27,
+               "powerHpTo": 27,
+               "powerKwFrom": 20,
+               "powerKwTo": 20,
+               "typeName": "SM 500 R (A2, C6)",
+               "typeNumber": 123437,
+               "valves": 4,
+               "yearOfConstrFrom": 201508
+            }
+         }
+      ]
+   },
+   "status": 200
+}

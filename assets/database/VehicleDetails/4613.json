@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4613,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4613,
+               "ccmTech": 1595,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1595,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 253,
+               "modelName": "A4 B5 (8D2)",
+               "motorType": "Essence",
+               "powerHpFrom": 100,
+               "powerHpTo": 100,
+               "powerKwFrom": 74,
+               "powerKwTo": 74,
+               "typeName": "1.6",
+               "typeNumber": 4613,
+               "valves": 2,
+               "yearOfConstrFrom": 199411,
+               "yearOfConstrTo": 200010,
+               "rmiTypeId": 4260
+            },
+            "vehicleDocId": "DR4613"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5712,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5712,
+               "ccmTech": 999,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 999,
+               "cylinderCapacityLiter": 100,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 427,
+               "modelName": "POLO III (6N1)",
+               "motorType": "Essence",
+               "powerHpFrom": 50,
+               "powerHpTo": 50,
+               "powerKwFrom": 37,
+               "powerKwTo": 37,
+               "typeName": "50 1.0",
+               "typeNumber": 5712,
+               "valves": 2,
+               "yearOfConstrFrom": 199609,
+               "yearOfConstrTo": 199910,
+               "rmiTypeId": 5263
+            },
+            "vehicleDocId": "DR5712"
+         }
+      ]
+   },
+   "status": 200
+}

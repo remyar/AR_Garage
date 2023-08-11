@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 904,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 904,
+               "ccmTech": 2200,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2200,
+               "cylinderCapacityLiter": 220,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction avant",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 2012,
+               "modelName": "HENSCHEL 2-t",
+               "motorType": "Diesel",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "206 D 2.2",
+               "typeNumber": 904,
+               "valves": 2,
+               "yearOfConstrFrom": 197302,
+               "yearOfConstrTo": 197712,
+               "rmiTypeId": 791
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7357,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7357,
+               "ccmTech": 1985,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1985,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 99,
+               "manuName": "SAAB",
+               "modId": 107,
+               "modelName": "900 I (AC4, AM4)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.0 Turbo",
+               "typeNumber": 7357,
+               "valves": 2,
+               "yearOfConstrFrom": 198601,
+               "yearOfConstrTo": 198812,
+               "rmiTypeId": 6579
+            },
+            "vehicleDocId": "DR7357"
+         }
+      ]
+   },
+   "status": 200
+}

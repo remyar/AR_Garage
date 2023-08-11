@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 126185,
+            "vehicleDetails": {
+               "carId": 126185,
+               "ccmTech": 1995,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1995,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 37535,
+               "modelName": "5 Touring (G31)",
+               "motorType": "Diesel",
+               "powerHpFrom": 163,
+               "powerHpTo": 163,
+               "powerKwFrom": 120,
+               "powerKwTo": 120,
+               "typeName": "520 d",
+               "typeNumber": 126185,
+               "valves": 4,
+               "yearOfConstrFrom": 201703,
+               "rmiTypeId": 137333
+            },
+            "vehicleDocId": "DR126185"
+         }
+      ]
+   },
+   "status": 200
+}

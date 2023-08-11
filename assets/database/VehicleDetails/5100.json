@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5100,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5100,
+               "ccmTech": 2494,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2494,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 1311,
+               "modelName": "3 Touring (E36)",
+               "motorType": "Essence",
+               "powerHpFrom": 170,
+               "powerHpTo": 170,
+               "powerKwFrom": 125,
+               "powerKwTo": 125,
+               "typeName": "323 i",
+               "typeNumber": 5100,
+               "valves": 4,
+               "yearOfConstrFrom": 199512,
+               "yearOfConstrTo": 199904,
+               "rmiTypeId": 4709
+            },
+            "vehicleDocId": "DR5100"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1191,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1191,
+               "ccmTech": 1979,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1979,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 70,
+               "modelName": "REKORD E Break (61_, 66_, 67_)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "2.0",
+               "typeNumber": 1191,
+               "valves": 2,
+               "yearOfConstrFrom": 197709,
+               "yearOfConstrTo": 198210,
+               "rmiTypeId": 1053
+            },
+            "vehicleDocId": "DR1191"
+         }
+      ]
+   },
+   "status": 200
+}

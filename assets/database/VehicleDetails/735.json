@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 735,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 735,
+               "ccmTech": 1593,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1593,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 341,
+               "modelName": "TAUNUS V (GBS, GBNS)",
+               "motorType": "Essence",
+               "powerHpFrom": 69,
+               "powerHpTo": 69,
+               "powerKwFrom": 51,
+               "powerKwTo": 51,
+               "typeName": "1.6",
+               "typeNumber": 735,
+               "valves": 2,
+               "yearOfConstrFrom": 197907,
+               "yearOfConstrTo": 198207,
+               "rmiTypeId": 642
+            }
+         }
+      ]
+   },
+   "status": 200
+}

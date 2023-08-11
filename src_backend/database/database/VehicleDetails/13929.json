@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 13929,
+            "vehicleDetails": {
+               "carId": 13929,
+               "ccmTech": 1368,
+               "constructionType": "Camionnette/Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1368,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 10000,
+               "modelName": "COMBO Camionnette/Monospace (X12)",
+               "motorType": "Essence",
+               "powerHpFrom": 120,
+               "powerHpTo": 120,
+               "powerKwFrom": 88,
+               "powerKwTo": 88,
+               "typeName": "1.4 (B05)",
+               "typeNumber": 13929,
+               "valves": 4,
+               "yearOfConstrFrom": 201202,
+               "rmiTypeId": 71105
+            },
+            "vehicleDocId": "DR13929"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123325,
+            "vehicleDetails": {
+               "carId": 123325,
+               "ccmTech": 1896,
+               "constructionType": "Camionnette - 3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1896,
+               "cylinderCapacityLiter": 190,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 37154,
+               "modelName": "GOLF IV Van (1J1)",
+               "motorType": "Diesel",
+               "powerHpFrom": 130,
+               "powerHpTo": 130,
+               "powerKwFrom": 96,
+               "powerKwTo": 96,
+               "typeName": "1.9 TDI",
+               "typeNumber": 123325,
+               "valves": 2,
+               "yearOfConstrFrom": 200104,
+               "yearOfConstrTo": 200405,
+               "rmiTypeId": 133249
+            },
+            "vehicleDocId": "DR123325"
+         }
+      ]
+   },
+   "status": 200
+}

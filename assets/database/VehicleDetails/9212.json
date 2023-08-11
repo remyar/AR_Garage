@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9212,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9212,
+               "ccmTech": 1597,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1597,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 72,
+               "manuName": "MAZDA",
+               "modId": 338,
+               "modelName": "323 III Hatchback (BF)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "1.6 GT Turbo 4WD (BF2)",
+               "typeNumber": 9212,
+               "valves": 4,
+               "yearOfConstrFrom": 198708,
+               "yearOfConstrTo": 198910,
+               "rmiTypeId": 8206
+            }
+         }
+      ]
+   },
+   "status": 200
+}

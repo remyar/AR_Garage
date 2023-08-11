@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 424,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 424,
+               "ccmTech": 2307,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2307,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 9,
+               "modelName": "123 Break (S123)",
+               "motorType": "Essence",
+               "powerHpFrom": 109,
+               "powerHpTo": 109,
+               "powerKwFrom": 80,
+               "powerKwTo": 80,
+               "typeName": "230 T (123.083)",
+               "typeNumber": 424,
+               "valves": 2,
+               "yearOfConstrFrom": 197709,
+               "yearOfConstrTo": 198003,
+               "rmiTypeId": 369
+            }
+         }
+      ]
+   },
+   "status": 200
+}

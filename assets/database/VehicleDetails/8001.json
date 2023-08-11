@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8001,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8001,
+               "ccmTech": 4942,
+               "constructionType": "Décapotable",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4942,
+               "cylinderCapacityLiter": 490,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 776,
+               "manuName": "FORD USA",
+               "modId": 1917,
+               "modelName": "MUSTANG Convertible (C)",
+               "motorType": "Essence",
+               "powerHpFrom": 218,
+               "powerHpTo": 218,
+               "powerKwFrom": 160,
+               "powerKwTo": 160,
+               "typeName": "4.9",
+               "typeNumber": 8001,
+               "valves": 2,
+               "yearOfConstrFrom": 199309,
+               "yearOfConstrTo": 199512,
+               "rmiTypeId": 7148
+            },
+            "vehicleDocId": "DR8001"
+         }
+      ]
+   },
+   "status": 200
+}

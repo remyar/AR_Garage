@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 53772,
+            "vehicleDetails": {
+               "carId": 53772,
+               "ccmTech": 1798,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1798,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission, Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 11282,
+               "modelName": "A3 Limousine (8VS, 8VM)",
+               "motorType": "Essence",
+               "powerHpFrom": 180,
+               "powerHpTo": 180,
+               "powerKwFrom": 132,
+               "powerKwTo": 132,
+               "typeName": "1.8 TFSI quattro",
+               "typeNumber": 53772,
+               "valves": 4,
+               "yearOfConstrFrom": 201311,
+               "rmiTypeId": 80120
+            },
+            "vehicleDocId": "DR53772"
+         }
+      ]
+   },
+   "status": 200
+}

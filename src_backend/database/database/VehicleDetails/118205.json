@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 118205,
+            "vehicleDetails": {
+               "carId": 118205,
+               "ccmTech": 249,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 249,
+               "cylinderCapacityLiter": 25,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 2760,
+               "manuName": "KTM",
+               "modId": 13462,
+               "modelName": "EXC",
+               "motorType": "Essence",
+               "powerHpFrom": 10,
+               "powerHpTo": 10,
+               "powerKwFrom": 7,
+               "powerKwTo": 7,
+               "typeName": "EXC-F 250",
+               "typeNumber": 118205,
+               "valves": 4,
+               "yearOfConstrFrom": 200708,
+               "yearOfConstrTo": 201505
+            }
+         }
+      ]
+   },
+   "status": 200
+}

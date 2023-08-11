@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7300,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7300,
+               "ccmTech": 2351,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2351,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 394,
+               "modelName": "PAJERO II (V3_W, V2_W, V4_W, V5_W)",
+               "motorType": "Essence",
+               "powerHpFrom": 112,
+               "powerHpTo": 112,
+               "powerKwFrom": 82,
+               "powerKwTo": 82,
+               "typeName": "2.4 (V21W, V21C)",
+               "typeNumber": 7300,
+               "valves": 2,
+               "yearOfConstrFrom": 199104,
+               "yearOfConstrTo": 199910,
+               "rmiTypeId": 6529
+            },
+            "vehicleDocId": "DR7300"
+         }
+      ]
+   },
+   "status": 200
+}

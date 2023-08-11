@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5245,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5245,
+               "ccmTech": 1948,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1948,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 93,
+               "manuName": "RENAULT",
+               "modId": 1478,
+               "modelName": "LAGUNA I Nevada (K56_)",
+               "motorType": "Essence",
+               "powerHpFrom": 139,
+               "powerHpTo": 139,
+               "powerKwFrom": 102,
+               "powerKwTo": 102,
+               "typeName": "2.0 16V (K56D, K56M)",
+               "typeNumber": 5245,
+               "valves": 4,
+               "yearOfConstrFrom": 199509,
+               "yearOfConstrTo": 200103,
+               "rmiTypeId": 4844
+            },
+            "vehicleDocId": "DR5245"
+         }
+      ]
+   },
+   "status": 200
+}

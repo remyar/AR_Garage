@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 783,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 783,
+               "ccmTech": 1993,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1993,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 246,
+               "modelName": "SIERRA II (GBG, GB4)",
+               "motorType": "Essence",
+               "powerHpFrom": 115,
+               "powerHpTo": 115,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "2.0 i",
+               "typeNumber": 783,
+               "valves": 2,
+               "yearOfConstrFrom": 198701,
+               "yearOfConstrTo": 199302,
+               "rmiTypeId": 685
+            },
+            "vehicleDocId": "DR783"
+         }
+      ]
+   },
+   "status": 200
+}

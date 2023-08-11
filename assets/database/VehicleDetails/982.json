@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 982,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 982,
+               "ccmTech": 1598,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1598,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 490,
+               "modelName": "VECTRA A (J89)",
+               "motorType": "Essence",
+               "powerHpFrom": 82,
+               "powerHpTo": 82,
+               "powerKwFrom": 60,
+               "powerKwTo": 60,
+               "typeName": "1.6 (F19, M19)",
+               "typeNumber": 982,
+               "valves": 2,
+               "yearOfConstrFrom": 198809,
+               "yearOfConstrTo": 199305,
+               "rmiTypeId": 866
+            },
+            "vehicleDocId": "DR982"
+         }
+      ]
+   },
+   "status": 200
+}

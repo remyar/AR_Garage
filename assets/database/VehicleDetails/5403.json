@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5403,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5403,
+               "ccmTech": 2497,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2497,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 549,
+               "modelName": "7 (E38)",
+               "motorType": "Diesel",
+               "powerHpFrom": 143,
+               "powerHpTo": 143,
+               "powerKwFrom": 105,
+               "powerKwTo": 105,
+               "typeName": "725 tds",
+               "typeNumber": 5403,
+               "valves": 2,
+               "yearOfConstrFrom": 199604,
+               "yearOfConstrTo": 200111,
+               "rmiTypeId": 4978
+            },
+            "vehicleDocId": "DR5403"
+         }
+      ]
+   },
+   "status": 200
+}

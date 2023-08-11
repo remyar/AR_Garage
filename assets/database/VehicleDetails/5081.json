@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5081,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5081,
+               "ccmTech": 2226,
+               "constructionType": "Coupé",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2226,
+               "cylinderCapacityLiter": 220,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 3910,
+               "modelName": "QUATTRO (85)",
+               "motorType": "Essence",
+               "powerHpFrom": 220,
+               "powerHpTo": 220,
+               "powerKwFrom": 162,
+               "powerKwTo": 162,
+               "typeName": "2.2 20V Turbo",
+               "typeNumber": 5081,
+               "valves": 4,
+               "yearOfConstrFrom": 198908,
+               "yearOfConstrTo": 199107,
+               "rmiTypeId": 4693
+            },
+            "vehicleDocId": "DR5081"
+         }
+      ]
+   },
+   "status": 200
+}

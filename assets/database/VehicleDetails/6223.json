@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6223,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6223,
+               "ccmTech": 1986,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1986,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 215,
+               "modelName": "240 Break (P245)",
+               "motorType": "Essence",
+               "powerHpFrom": 97,
+               "powerHpTo": 97,
+               "powerKwFrom": 71,
+               "powerKwTo": 71,
+               "typeName": "2.0",
+               "typeNumber": 6223,
+               "valves": 2,
+               "yearOfConstrFrom": 198008,
+               "yearOfConstrTo": 198412,
+               "rmiTypeId": 5600
+            },
+            "vehicleDocId": "DR6223"
+         }
+      ]
+   },
+   "status": 200
+}

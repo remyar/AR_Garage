@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4323,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4323,
+               "ccmTech": 3246,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3246,
+               "cylinderCapacityLiter": 320,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction intégrale",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 1228,
+               "modelName": "PATROL III/1 Station Wagon (W160)",
+               "motorType": "Diesel",
+               "powerHpFrom": 110,
+               "powerHpTo": 110,
+               "powerKwFrom": 81,
+               "powerKwTo": 81,
+               "typeName": "3.2 TD (W160)",
+               "typeNumber": 4323,
+               "valves": 2,
+               "yearOfConstrFrom": 198307,
+               "yearOfConstrTo": 198808,
+               "rmiTypeId": 3992
+            }
+         }
+      ]
+   },
+   "status": 200
+}

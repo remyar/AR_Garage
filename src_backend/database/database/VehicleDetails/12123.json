@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 12123,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 12123,
+               "ccmTech": 1995,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1995,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 117,
+               "manuName": "VAUXHALL",
+               "modId": 3381,
+               "modelName": "VECTRA (B) A trois volumes (J96)",
+               "motorType": "Diesel",
+               "powerHpFrom": 101,
+               "powerHpTo": 101,
+               "powerKwFrom": 74,
+               "powerKwTo": 74,
+               "typeName": "2.0 DTI 16V (F19)",
+               "typeNumber": 12123,
+               "valves": 4,
+               "yearOfConstrFrom": 199508,
+               "yearOfConstrTo": 200110,
+               "rmiTypeId": 9366
+            },
+            "vehicleDocId": "DR12123"
+         }
+      ]
+   },
+   "status": 200
+}

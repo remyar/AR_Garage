@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123100,
+            "vehicleDetails": {
+               "carId": 123100,
+               "ccmTech": 1984,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1984,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission, Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 36928,
+               "modelName": "A5 (F53, F5P)",
+               "motorType": "Essence",
+               "powerHpFrom": 190,
+               "powerHpTo": 190,
+               "powerKwFrom": 140,
+               "powerKwTo": 140,
+               "typeName": "2.0 TFSI",
+               "typeNumber": 123100,
+               "valves": 4,
+               "yearOfConstrFrom": 201609,
+               "rmiTypeId": 132854
+            },
+            "vehicleDocId": "DR123100"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 879,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 879,
+               "ccmTech": 2792,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2792,
+               "cylinderCapacityLiter": 280,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 514,
+               "modelName": "GRANADA II (GU)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.8 i",
+               "typeNumber": 879,
+               "valves": 2,
+               "yearOfConstrFrom": 198210,
+               "yearOfConstrTo": 198508,
+               "rmiTypeId": 767
+            }
+         }
+      ]
+   },
+   "status": 200
+}

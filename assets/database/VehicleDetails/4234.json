@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4234,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4234,
+               "ccmTech": 1958,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1958,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 1261,
+               "modelName": "PRELUDE III (BA)",
+               "motorType": "Essence",
+               "powerHpFrom": 109,
+               "powerHpTo": 109,
+               "powerKwFrom": 80,
+               "powerKwTo": 80,
+               "typeName": "2.0 EX (BA4)",
+               "typeNumber": 4234,
+               "valves": 3,
+               "yearOfConstrFrom": 198704,
+               "yearOfConstrTo": 199201,
+               "rmiTypeId": 3903
+            },
+            "vehicleDocId": "DR4234"
+         }
+      ]
+   },
+   "status": 200
+}

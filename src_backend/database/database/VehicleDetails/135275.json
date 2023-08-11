@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 135275,
+            "vehicleDetails": {
+               "carId": 135275,
+               "ccmTech": 1984,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1984,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence/électrique",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission, Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 36928,
+               "modelName": "A5 (F53, F5P)",
+               "motorType": "Hybride léger",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "35 TFSI Mild Hybrid",
+               "typeNumber": 135275,
+               "valves": 4,
+               "yearOfConstrFrom": 201902,
+               "rmiTypeId": 150707
+            },
+            "vehicleDocId": "DR135275"
+         }
+      ]
+   },
+   "status": 200
+}

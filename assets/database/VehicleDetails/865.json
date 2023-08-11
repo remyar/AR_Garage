@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 865,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 865,
+               "ccmTech": 2998,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2998,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction intégrale",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 60,
+               "modelName": "CLASSE G (W460)",
+               "motorType": "Diesel",
+               "powerHpFrom": 88,
+               "powerHpTo": 88,
+               "powerKwFrom": 65,
+               "powerKwTo": 65,
+               "typeName": "300 GD (460,3)",
+               "typeNumber": 865,
+               "valves": 2,
+               "yearOfConstrFrom": 197912,
+               "yearOfConstrTo": 199112,
+               "rmiTypeId": 754
+            },
+            "vehicleDocId": "DR865"
+         }
+      ]
+   },
+   "status": 200
+}

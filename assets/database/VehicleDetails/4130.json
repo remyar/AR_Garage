@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4130,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4130,
+               "ccmTech": 1397,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1397,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 1191,
+               "modelName": "SUNNY (140Y, 150Y)",
+               "motorType": "Essence",
+               "powerHpFrom": 65,
+               "powerHpTo": 65,
+               "powerKwFrom": 48,
+               "powerKwTo": 48,
+               "typeName": "1.4 (HBL310)",
+               "typeNumber": 4130,
+               "valves": 2,
+               "yearOfConstrFrom": 197001,
+               "yearOfConstrTo": 198202,
+               "rmiTypeId": 3802
+            }
+         }
+      ]
+   },
+   "status": 200
+}

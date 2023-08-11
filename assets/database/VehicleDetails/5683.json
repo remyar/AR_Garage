@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5683,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5683,
+               "ccmTech": 1590,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1590,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 109,
+               "manuName": "SUZUKI",
+               "modId": 1565,
+               "modelName": "BALENO Break (EG)",
+               "motorType": "Essence",
+               "powerHpFrom": 98,
+               "powerHpTo": 98,
+               "powerKwFrom": 72,
+               "powerKwTo": 72,
+               "typeName": "1.6 i 16V 4x4 (SY416)",
+               "typeNumber": 5683,
+               "valves": 4,
+               "yearOfConstrFrom": 199608,
+               "yearOfConstrTo": 200205,
+               "rmiTypeId": 5238
+            },
+            "vehicleDocId": "DR5683"
+         }
+      ]
+   },
+   "status": 200
+}

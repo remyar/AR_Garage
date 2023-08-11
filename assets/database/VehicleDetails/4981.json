@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4981,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4981,
+               "ccmTech": 5354,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 5354,
+               "cylinderCapacityLiter": 540,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 1439,
+               "modelName": "DIPLOMAT A",
+               "motorType": "Essence",
+               "powerHpFrom": 230,
+               "powerHpTo": 230,
+               "powerKwFrom": 169,
+               "powerKwTo": 169,
+               "typeName": "5.4",
+               "typeNumber": 4981,
+               "valves": 2,
+               "yearOfConstrFrom": 196609,
+               "yearOfConstrTo": 196903,
+               "rmiTypeId": 4602
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 57134,
+            "vehicleDetails": {
+               "carId": 57134,
+               "ccmTech": 5000,
+               "constructionType": "Décapotable",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 5000,
+               "cylinderCapacityLiter": 500,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 56,
+               "manuName": "JAGUAR",
+               "modId": 10822,
+               "modelName": "F-TYPE Décapotable (X152)",
+               "motorType": "Essence",
+               "powerHpFrom": 495,
+               "powerHpTo": 495,
+               "powerKwFrom": 364,
+               "powerKwTo": 364,
+               "typeName": "5.0 SCV8 S",
+               "typeNumber": 57134,
+               "valves": 4,
+               "yearOfConstrFrom": 201210,
+               "rmiTypeId": 77083
+            },
+            "vehicleDocId": "DR57134"
+         }
+      ]
+   },
+   "status": 200
+}

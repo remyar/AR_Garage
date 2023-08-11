@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 446,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 446,
+               "ccmTech": 2960,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2960,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 18,
+               "modelName": "124 A trois volumes (W124)",
+               "motorType": "Essence",
+               "powerHpFrom": 180,
+               "powerHpTo": 180,
+               "powerKwFrom": 132,
+               "powerKwTo": 132,
+               "typeName": "300 E (124.030)",
+               "typeNumber": 446,
+               "valves": 2,
+               "yearOfConstrFrom": 198508,
+               "yearOfConstrTo": 199208,
+               "rmiTypeId": 389
+            },
+            "vehicleDocId": "DR446"
+         }
+      ]
+   },
+   "status": 200
+}

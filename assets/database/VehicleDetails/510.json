@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 510,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 510,
+               "ccmTech": 2799,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2799,
+               "cylinderCapacityLiter": 280,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 118,
+               "modelName": "CLASSE E Break (S124)",
+               "motorType": "Essence",
+               "powerHpFrom": 197,
+               "powerHpTo": 197,
+               "powerKwFrom": 145,
+               "powerKwTo": 145,
+               "typeName": "E 280 T (124.088)",
+               "typeNumber": 510,
+               "valves": 4,
+               "yearOfConstrFrom": 199306,
+               "yearOfConstrTo": 199606,
+               "rmiTypeId": 440
+            },
+            "vehicleDocId": "DR510"
+         }
+      ]
+   },
+   "status": 200
+}

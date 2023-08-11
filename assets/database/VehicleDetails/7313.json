@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7313,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7313,
+               "ccmTech": 1985,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1985,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 99,
+               "manuName": "SAAB",
+               "modId": 243,
+               "modelName": "99",
+               "motorType": "Essence",
+               "powerHpFrom": 95,
+               "powerHpTo": 95,
+               "powerKwFrom": 70,
+               "powerKwTo": 70,
+               "typeName": "2.0",
+               "typeNumber": 7313,
+               "valves": 2,
+               "yearOfConstrFrom": 197210,
+               "yearOfConstrTo": 197408,
+               "rmiTypeId": 6540
+            },
+            "vehicleDocId": "DR7313"
+         }
+      ]
+   },
+   "status": 200
+}

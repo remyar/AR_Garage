@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3882,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3882,
+               "ccmTech": 2771,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2771,
+               "cylinderCapacityLiter": 280,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 265,
+               "modelName": "A8 D2 (4D2, 4D8)",
+               "motorType": "Essence",
+               "powerHpFrom": 174,
+               "powerHpTo": 174,
+               "powerKwFrom": 128,
+               "powerKwTo": 128,
+               "typeName": "2.8",
+               "typeNumber": 3882,
+               "valves": 2,
+               "yearOfConstrFrom": 199403,
+               "yearOfConstrTo": 199603,
+               "rmiTypeId": 3568
+            },
+            "vehicleDocId": "DR3882"
+         }
+      ]
+   },
+   "status": 200
+}

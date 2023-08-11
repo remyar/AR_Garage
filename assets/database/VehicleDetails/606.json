@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 606,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 606,
+               "ccmTech": 1598,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1598,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 85,
+               "modelName": "KADETT E 3/5 portes (T85)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.6 S (C08, D08, C48, D48)",
+               "typeNumber": 606,
+               "valves": 2,
+               "yearOfConstrFrom": 198409,
+               "yearOfConstrTo": 198608,
+               "rmiTypeId": 530
+            }
+         }
+      ]
+   },
+   "status": 200
+}

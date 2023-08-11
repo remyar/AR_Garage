@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5898,
+            "vehicleDetails": {
+               "carId": 5898,
+               "ccmTech": 4608,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4608,
+               "cylinderCapacityLiter": 460,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 7806,
+               "modelName": "LAND CRUISER 200 (_J2_)",
+               "motorType": "Essence",
+               "powerHpFrom": 318,
+               "powerHpTo": 318,
+               "powerKwFrom": 234,
+               "powerKwTo": 234,
+               "typeName": "4.6 V8 (_URJ202W_)",
+               "typeNumber": 5898,
+               "valves": 4,
+               "yearOfConstrFrom": 201201,
+               "rmiTypeId": 72474
+            },
+            "vehicleDocId": "DR5898"
+         }
+      ]
+   },
+   "status": 200
+}

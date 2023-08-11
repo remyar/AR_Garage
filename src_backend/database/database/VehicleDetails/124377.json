@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 124377,
+            "vehicleDetails": {
+               "carId": 124377,
+               "ccmTech": 4952,
+               "constructionType": "Pick-up",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4952,
+               "cylinderCapacityLiter": 500,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 776,
+               "manuName": "FORD USA",
+               "modId": 7007,
+               "modelName": "F-150",
+               "motorType": "Essence",
+               "powerHpFrom": 367,
+               "powerHpTo": 367,
+               "powerKwFrom": 270,
+               "powerKwTo": 270,
+               "typeName": "5.0 4x4",
+               "typeNumber": 124377,
+               "valves": 4,
+               "yearOfConstrFrom": 201101,
+               "rmiTypeId": 135109
+            },
+            "vehicleDocId": "DR124377"
+         }
+      ]
+   },
+   "status": 200
+}

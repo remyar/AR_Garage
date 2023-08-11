@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123363,
+            "vehicleDetails": {
+               "carId": 123363,
+               "ccmTech": 2298,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2298,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 8977,
+               "modelName": "MOVANO B Camionnette (X62)",
+               "motorType": "Diesel",
+               "powerHpFrom": 170,
+               "powerHpTo": 170,
+               "powerKwFrom": 125,
+               "powerKwTo": 125,
+               "typeName": "2.3 CDTI FWD (FV)",
+               "typeNumber": 123363,
+               "valves": 4,
+               "yearOfConstrFrom": 201611,
+               "rmiTypeId": 133439
+            },
+            "vehicleDocId": "DR123363"
+         }
+      ]
+   },
+   "status": 200
+}

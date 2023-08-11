@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 120260,
+            "vehicleDetails": {
+               "carId": 120260,
+               "ccmTech": 1560,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1560,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 36673,
+               "modelName": "PROACE Camionnette (MDZ_)",
+               "motorType": "Diesel",
+               "powerHpFrom": 116,
+               "powerHpTo": 116,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "1.6 D4d (MDZ2)",
+               "typeNumber": 120260,
+               "valves": 2,
+               "yearOfConstrFrom": 201602,
+               "rmiTypeId": 128771
+            },
+            "vehicleDocId": "DR120260"
+         }
+      ]
+   },
+   "status": 200
+}

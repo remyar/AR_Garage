@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7874,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7874,
+               "ccmTech": 2946,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2946,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 88,
+               "manuName": "PEUGEOT",
+               "modId": 1477,
+               "modelName": "406 (8B)",
+               "motorType": "Essence",
+               "powerHpFrom": 190,
+               "powerHpTo": 190,
+               "powerKwFrom": 140,
+               "powerKwTo": 140,
+               "typeName": "3.0 24V",
+               "typeNumber": 7874,
+               "valves": 4,
+               "yearOfConstrFrom": 199610,
+               "yearOfConstrTo": 200405,
+               "rmiTypeId": 7039
+            },
+            "vehicleDocId": "DR7874"
+         }
+      ]
+   },
+   "status": 200
+}

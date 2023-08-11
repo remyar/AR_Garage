@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5541,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5541,
+               "ccmTech": 2295,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2295,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 1539,
+               "modelName": "CLASSE E Break (S210)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "E 230 T (210.237)",
+               "typeNumber": 5541,
+               "valves": 4,
+               "yearOfConstrFrom": 199606,
+               "yearOfConstrTo": 199706,
+               "rmiTypeId": 5105
+            },
+            "vehicleDocId": "DR5541"
+         }
+      ]
+   },
+   "status": 200
+}

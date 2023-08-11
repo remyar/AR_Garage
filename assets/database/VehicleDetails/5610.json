@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5610,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5610,
+               "ccmTech": 3199,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3199,
+               "cylinderCapacityLiter": 320,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 175,
+               "manuName": "SSANGYONG",
+               "modId": 1558,
+               "modelName": "MUSSO (FJ)",
+               "motorType": "Essence",
+               "powerHpFrom": 220,
+               "powerHpTo": 220,
+               "powerKwFrom": 162,
+               "powerKwTo": 162,
+               "typeName": "3.2",
+               "typeNumber": 5610,
+               "valves": 4,
+               "yearOfConstrFrom": 199606,
+               "yearOfConstrTo": 200409,
+               "rmiTypeId": 5169
+            },
+            "vehicleDocId": "DR5610"
+         }
+      ]
+   },
+   "status": 200
+}

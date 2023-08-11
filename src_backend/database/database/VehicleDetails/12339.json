@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 12339,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 12339,
+               "ccmTech": 3199,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3199,
+               "cylinderCapacityLiter": 320,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 12,
+               "modelName": "124 Coupé (C124)",
+               "motorType": "Essence",
+               "powerHpFrom": 220,
+               "powerHpTo": 220,
+               "powerKwFrom": 162,
+               "powerKwTo": 162,
+               "typeName": "320 CE (124.052)",
+               "typeNumber": 12339,
+               "valves": 4,
+               "yearOfConstrFrom": 199210,
+               "yearOfConstrTo": 199305,
+               "rmiTypeId": 9416
+            },
+            "vehicleDocId": "DR12339"
+         }
+      ]
+   },
+   "status": 200
+}

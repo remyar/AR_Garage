@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7345,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7345,
+               "ccmTech": 1985,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1985,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 99,
+               "manuName": "SAAB",
+               "modId": 102,
+               "modelName": "900 I Combi Coupe",
+               "motorType": "Essence",
+               "powerHpFrom": 170,
+               "powerHpTo": 170,
+               "powerKwFrom": 125,
+               "powerKwTo": 125,
+               "typeName": "2.0 Turbo-16 S Cat",
+               "typeNumber": 7345,
+               "valves": 4,
+               "yearOfConstrFrom": 198901,
+               "yearOfConstrTo": 199312,
+               "rmiTypeId": 6567
+            },
+            "vehicleDocId": "DR7345"
+         }
+      ]
+   },
+   "status": 200
+}

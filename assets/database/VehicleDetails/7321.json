@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7321,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7321,
+               "ccmTech": 2383,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2383,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 567,
+               "modelName": "760 Break (704, 765)",
+               "motorType": "Diesel",
+               "powerHpFrom": 116,
+               "powerHpTo": 116,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "2.4 TD Interc. (765)",
+               "typeNumber": 7321,
+               "valves": 2,
+               "yearOfConstrFrom": 198708,
+               "yearOfConstrTo": 199207,
+               "rmiTypeId": 6548
+            },
+            "vehicleDocId": "DR7321"
+         }
+      ]
+   },
+   "status": 200
+}

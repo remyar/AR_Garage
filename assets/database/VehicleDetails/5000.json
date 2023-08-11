@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5000,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5000,
+               "ccmTech": 1991,
+               "constructionType": "Coupé",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 1991,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 700,
+               "manuName": "FERRARI",
+               "modId": 1444,
+               "modelName": "DINO GT4 (208/308)",
+               "motorType": "Essence",
+               "powerHpFrom": 170,
+               "powerHpTo": 170,
+               "powerKwFrom": 125,
+               "powerKwTo": 125,
+               "typeName": "208",
+               "typeNumber": 5000,
+               "valves": 2,
+               "yearOfConstrFrom": 197502,
+               "yearOfConstrTo": 198006,
+               "rmiTypeId": 4621
+            }
+         }
+      ]
+   },
+   "status": 200
+}

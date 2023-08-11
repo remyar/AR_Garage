@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 130415,
+            "vehicleDetails": {
+               "carId": 130415,
+               "ccmTech": 101,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 101,
+               "cylinderCapacityLiter": 10,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 4245,
+               "manuName": "SYM",
+               "modId": 38028,
+               "modelName": "MIO",
+               "motorType": "Essence",
+               "powerHpFrom": 8,
+               "powerHpTo": 8,
+               "powerKwFrom": 6,
+               "powerKwTo": 6,
+               "typeName": "Mio 100",
+               "typeNumber": 130415,
+               "valves": 2,
+               "yearOfConstrFrom": 200501,
+               "yearOfConstrTo": 201412
+            }
+         }
+      ]
+   },
+   "status": 200
+}

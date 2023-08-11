@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 997,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 997,
+               "ccmTech": 1998,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1998,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 490,
+               "modelName": "VECTRA A (J89)",
+               "motorType": "Essence",
+               "powerHpFrom": 100,
+               "powerHpTo": 100,
+               "powerKwFrom": 74,
+               "powerKwTo": 74,
+               "typeName": "2.0 (F19, M19)",
+               "typeNumber": 997,
+               "valves": 2,
+               "yearOfConstrFrom": 198809,
+               "yearOfConstrTo": 198909,
+               "rmiTypeId": 879
+            },
+            "vehicleDocId": "DR997"
+         }
+      ]
+   },
+   "status": 200
+}

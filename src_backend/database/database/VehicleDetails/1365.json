@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1365,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1365,
+               "ccmTech": 1984,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1984,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 202,
+               "modelName": "COUPE B3 (89, 8B3)",
+               "motorType": "Essence",
+               "powerHpFrom": 140,
+               "powerHpTo": 140,
+               "powerKwFrom": 103,
+               "powerKwTo": 103,
+               "typeName": "2.0 16 V",
+               "typeNumber": 1365,
+               "valves": 4,
+               "yearOfConstrFrom": 199208,
+               "yearOfConstrTo": 199612,
+               "rmiTypeId": 1215
+            },
+            "vehicleDocId": "DR1365"
+         }
+      ]
+   },
+   "status": 200
+}

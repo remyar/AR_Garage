@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 769,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 769,
+               "ccmTech": 4196,
+               "constructionType": "Décapotable",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4196,
+               "cylinderCapacityLiter": 410,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 570,
+               "modelName": "SL (R107)",
+               "motorType": "Essence",
+               "powerHpFrom": 204,
+               "powerHpTo": 204,
+               "powerKwFrom": 150,
+               "powerKwTo": 150,
+               "typeName": "420 SL (107.047)",
+               "typeNumber": 769,
+               "valves": 2,
+               "yearOfConstrFrom": 198601,
+               "yearOfConstrTo": 198908,
+               "rmiTypeId": 673
+            },
+            "vehicleDocId": "DR769"
+         }
+      ]
+   },
+   "status": 200
+}

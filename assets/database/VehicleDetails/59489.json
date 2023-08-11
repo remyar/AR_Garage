@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 59489,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 59489,
+               "ccmTech": 1798,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1798,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission, Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 106,
+               "manuName": "SKODA",
+               "modId": 11196,
+               "modelName": "OCTAVIA III Combi (5E5, 5E6)",
+               "motorType": "Essence",
+               "powerHpFrom": 180,
+               "powerHpTo": 180,
+               "powerKwFrom": 132,
+               "powerKwTo": 132,
+               "typeName": "1.8 TSI 4x4",
+               "typeNumber": 59489,
+               "valves": 4,
+               "yearOfConstrFrom": 201211,
+               "yearOfConstrTo": 201702,
+               "rmiTypeId": 78853
+            },
+            "vehicleDocId": "DR59489"
+         }
+      ]
+   },
+   "status": 200
+}

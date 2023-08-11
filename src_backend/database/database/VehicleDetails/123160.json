@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123160,
+            "vehicleDetails": {
+               "carId": 123160,
+               "ccmTech": 1995,
+               "constructionType": "Décapotable",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1995,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 6241,
+               "modelName": "3 Décapotable (E93)",
+               "motorType": "Diesel",
+               "powerHpFrom": 197,
+               "powerHpTo": 197,
+               "powerKwFrom": 145,
+               "powerKwTo": 145,
+               "typeName": "320 d",
+               "typeNumber": 123160,
+               "valves": 4,
+               "yearOfConstrFrom": 200709,
+               "yearOfConstrTo": 201002,
+               "rmiTypeId": 132997
+            },
+            "vehicleDocId": "DR123160"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 12021,
+            "vehicleDetails": {
+               "carId": 12021,
+               "ccmTech": 3564,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3564,
+               "cylinderCapacityLiter": 360,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 819,
+               "manuName": "CADILLAC",
+               "modId": 9018,
+               "modelName": "CTS Coupé",
+               "motorType": "Essence",
+               "powerHpFrom": 322,
+               "powerHpTo": 322,
+               "powerKwFrom": 237,
+               "powerKwTo": 237,
+               "typeName": "3.6",
+               "typeNumber": 12021,
+               "valves": 4,
+               "yearOfConstrFrom": 201109,
+               "rmiTypeId": 70384
+            },
+            "vehicleDocId": "DR12021"
+         }
+      ]
+   },
+   "status": 200
+}

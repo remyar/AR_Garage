@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1322,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1322,
+               "ccmTech": 1597,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1597,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 349,
+               "modelName": "ESCORT V (AAL, ABL)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.6 i 16V",
+               "typeNumber": 1322,
+               "valves": 4,
+               "yearOfConstrFrom": 199209,
+               "yearOfConstrTo": 199501,
+               "rmiTypeId": 1178
+            }
+         }
+      ]
+   },
+   "status": 200
+}

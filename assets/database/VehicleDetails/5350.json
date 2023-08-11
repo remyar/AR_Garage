@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5350,
+            "vehicleDetails": {
+               "carId": 5350,
+               "ccmTech": 4297,
+               "constructionType": "Décapotable",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4297,
+               "cylinderCapacityLiter": 430,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 700,
+               "manuName": "FERRARI",
+               "modId": 7589,
+               "modelName": "CALIFORNIA",
+               "motorType": "Essence",
+               "powerHpFrom": 490,
+               "powerHpTo": 490,
+               "powerKwFrom": 360,
+               "powerKwTo": 360,
+               "typeName": "4.3",
+               "typeNumber": 5350,
+               "valves": 4,
+               "yearOfConstrFrom": 200809,
+               "rmiTypeId": 72641
+            },
+            "vehicleDocId": "DR5350"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4479,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4479,
+               "ccmTech": 970,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 970,
+               "cylinderCapacityLiter": 100,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 109,
+               "manuName": "SUZUKI",
+               "modId": 1241,
+               "modelName": "SAMURAI Véhicule tout terrain fermé (SJ_)",
+               "motorType": "Essence",
+               "powerHpFrom": 45,
+               "powerHpTo": 45,
+               "powerKwFrom": 33,
+               "powerKwTo": 33,
+               "typeName": "1.0 Traction intégrale (SJ 410)",
+               "typeNumber": 4479,
+               "valves": 2,
+               "yearOfConstrFrom": 198811,
+               "yearOfConstrTo": 200412,
+               "rmiTypeId": 4142
+            },
+            "vehicleDocId": "DR4479"
+         }
+      ]
+   },
+   "status": 200
+}

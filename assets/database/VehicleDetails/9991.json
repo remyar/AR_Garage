@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9991,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9991,
+               "ccmTech": 3165,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3165,
+               "cylinderCapacityLiter": 320,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 3879,
+               "modelName": "FRONTERA B (U99)",
+               "motorType": "Essence",
+               "powerHpFrom": 205,
+               "powerHpTo": 205,
+               "powerKwFrom": 151,
+               "powerKwTo": 151,
+               "typeName": "3.2 i (6B1VF, 6B1_6)",
+               "typeNumber": 9991,
+               "valves": 4,
+               "yearOfConstrFrom": 199810,
+               "yearOfConstrTo": 200407,
+               "rmiTypeId": 8507
+            },
+            "vehicleDocId": "DR9991"
+         }
+      ]
+   },
+   "status": 200
+}

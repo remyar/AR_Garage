@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 710,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 710,
+               "ccmTech": 1597,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1597,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 335,
+               "modelName": "ESCORT IV (GAF, AWF, ABFT)",
+               "motorType": "Essence",
+               "powerHpFrom": 102,
+               "powerHpTo": 102,
+               "powerKwFrom": 75,
+               "powerKwTo": 75,
+               "typeName": "1.6 i",
+               "typeNumber": 710,
+               "valves": 2,
+               "yearOfConstrFrom": 198908,
+               "yearOfConstrTo": 199007,
+               "rmiTypeId": 628
+            },
+            "vehicleDocId": "DR710"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123109,
+            "vehicleDetails": {
+               "carId": 123109,
+               "ccmTech": 1984,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1984,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 36928,
+               "modelName": "A5 (F53, F5P)",
+               "motorType": "Essence",
+               "powerHpFrom": 249,
+               "powerHpTo": 249,
+               "powerKwFrom": 183,
+               "powerKwTo": 183,
+               "typeName": "2.0 TFSI quattro",
+               "typeNumber": 123109,
+               "valves": 4,
+               "yearOfConstrFrom": 201606,
+               "yearOfConstrTo": 202002,
+               "rmiTypeId": 132863
+            },
+            "vehicleDocId": "DR123109"
+         }
+      ]
+   },
+   "status": 200
+}

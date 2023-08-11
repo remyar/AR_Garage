@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3592,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3592,
+               "ccmTech": 1588,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1588,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 546,
+               "modelName": "HIACE II Autobus/Autocar (_H11, _H2_, _H3_, _H4_)",
+               "motorType": "Essence",
+               "powerHpFrom": 67,
+               "powerHpTo": 67,
+               "powerKwFrom": 49,
+               "powerKwTo": 49,
+               "typeName": "1.6 (RH20, RH30)",
+               "typeNumber": 3592,
+               "valves": 2,
+               "yearOfConstrFrom": 197702,
+               "yearOfConstrTo": 198211,
+               "rmiTypeId": 3290
+            }
+         }
+      ]
+   },
+   "status": 200
+}

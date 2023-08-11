@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5699,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5699,
+               "ccmTech": 1288,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1288,
+               "cylinderCapacityLiter": 130,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 63,
+               "manuName": "LADA",
+               "modId": 147,
+               "modelName": "SAMARA (2108, 2109, 2113, 2114)",
+               "motorType": "Essence",
+               "powerHpFrom": 68,
+               "powerHpTo": 68,
+               "powerKwFrom": 50,
+               "powerKwTo": 50,
+               "typeName": "1300",
+               "typeNumber": 5699,
+               "valves": 2,
+               "yearOfConstrFrom": 199602,
+               "yearOfConstrTo": 199912,
+               "rmiTypeId": 5252
+            },
+            "vehicleDocId": "DR5699"
+         }
+      ]
+   },
+   "status": 200
+}

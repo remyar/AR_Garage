@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7070,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7070,
+               "ccmTech": 3430,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3430,
+               "cylinderCapacityLiter": 340,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 539,
+               "modelName": "7 (E23)",
+               "motorType": "Essence",
+               "powerHpFrom": 192,
+               "powerHpTo": 192,
+               "powerKwFrom": 141,
+               "powerKwTo": 141,
+               "typeName": "735 i",
+               "typeNumber": 7070,
+               "valves": 2,
+               "yearOfConstrFrom": 198504,
+               "yearOfConstrTo": 198608,
+               "rmiTypeId": 6344
+            }
+         }
+      ]
+   },
+   "status": 200
+}

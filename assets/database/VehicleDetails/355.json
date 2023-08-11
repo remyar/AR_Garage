@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 355,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 355,
+               "ccmTech": 2497,
+               "constructionType": "A trois volumes",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2497,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 52,
+               "modelName": "190 (W201)",
+               "motorType": "Diesel",
+               "powerHpFrom": 126,
+               "powerHpTo": 126,
+               "powerKwFrom": 93,
+               "powerKwTo": 93,
+               "typeName": "Turbo-D 2.5 (201.128)",
+               "typeNumber": 355,
+               "valves": 2,
+               "yearOfConstrFrom": 198802,
+               "yearOfConstrTo": 199308,
+               "rmiTypeId": 312
+            },
+            "vehicleDocId": "DR355"
+         }
+      ]
+   },
+   "status": 200
+}

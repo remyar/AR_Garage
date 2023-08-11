@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123187,
+            "vehicleDetails": {
+               "carId": 123187,
+               "ccmTech": 1995,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1995,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 5430,
+               "modelName": "3 Touring (E91)",
+               "motorType": "Diesel",
+               "powerHpFrom": 200,
+               "powerHpTo": 200,
+               "powerKwFrom": 147,
+               "powerKwTo": 147,
+               "typeName": "320 d xDrive",
+               "typeNumber": 123187,
+               "valves": 4,
+               "yearOfConstrFrom": 201003,
+               "yearOfConstrTo": 201205,
+               "rmiTypeId": 72464
+            },
+            "vehicleDocId": "DR123187"
+         }
+      ]
+   },
+   "status": 200
+}

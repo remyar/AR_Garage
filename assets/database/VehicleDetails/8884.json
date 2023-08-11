@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8884,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8884,
+               "ccmTech": 2302,
+               "constructionType": "Décapotable",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2302,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 430,
+               "modelName": "3 Décapotable (E30)",
+               "motorType": "Essence",
+               "powerHpFrom": 195,
+               "powerHpTo": 195,
+               "powerKwFrom": 143,
+               "powerKwTo": 143,
+               "typeName": "M3 2.3",
+               "typeNumber": 8884,
+               "valves": 4,
+               "yearOfConstrFrom": 198806,
+               "yearOfConstrTo": 199106,
+               "rmiTypeId": 7926
+            },
+            "vehicleDocId": "DR8884"
+         }
+      ]
+   },
+   "status": 200
+}

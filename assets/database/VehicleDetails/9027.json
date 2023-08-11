@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9027,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9027,
+               "ccmTech": 1598,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1598,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 185,
+               "manuName": "DAEWOO",
+               "modId": 3412,
+               "modelName": "NUBIRA Break (J100)",
+               "motorType": "Essence",
+               "powerHpFrom": 106,
+               "powerHpTo": 106,
+               "powerKwFrom": 78,
+               "powerKwTo": 78,
+               "typeName": "1.6 16V",
+               "typeNumber": 9027,
+               "valves": 4,
+               "yearOfConstrFrom": 199705,
+               "yearOfConstrTo": 199905,
+               "rmiTypeId": 8065
+            },
+            "vehicleDocId": "DR9027"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4701,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4701,
+               "ccmTech": 1998,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1998,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 1316,
+               "modelName": "SCORPIO II Break (GNR, GGR)",
+               "motorType": "Essence",
+               "powerHpFrom": 136,
+               "powerHpTo": 136,
+               "powerKwFrom": 100,
+               "powerKwTo": 100,
+               "typeName": "2.0 i 16V",
+               "typeNumber": 4701,
+               "valves": 4,
+               "yearOfConstrFrom": 199410,
+               "yearOfConstrTo": 199808,
+               "rmiTypeId": 4345
+            },
+            "vehicleDocId": "DR4701"
+         }
+      ]
+   },
+   "status": 200
+}

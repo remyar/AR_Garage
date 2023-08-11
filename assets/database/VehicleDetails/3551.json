@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3551,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3551,
+               "ccmTech": 1974,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1974,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction avant",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 465,
+               "modelName": "CAMRY Break (_V2_)",
+               "motorType": "Diesel",
+               "powerHpFrom": 84,
+               "powerHpTo": 84,
+               "powerKwFrom": 62,
+               "powerKwTo": 62,
+               "typeName": "2.0 Turbo-D (CV20_)",
+               "typeNumber": 3551,
+               "valves": 2,
+               "yearOfConstrFrom": 198611,
+               "yearOfConstrTo": 199105,
+               "rmiTypeId": 3252
+            },
+            "vehicleDocId": "DR3551"
+         }
+      ]
+   },
+   "status": 200
+}

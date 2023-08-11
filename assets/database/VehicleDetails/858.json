@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 858,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 858,
+               "ccmTech": 2307,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2307,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 60,
+               "modelName": "CLASSE G (W460)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "230 G (460,2)",
+               "typeNumber": 858,
+               "valves": 2,
+               "yearOfConstrFrom": 197903,
+               "yearOfConstrTo": 199307,
+               "rmiTypeId": 747
+            },
+            "vehicleDocId": "DR858"
+         }
+      ]
+   },
+   "status": 200
+}

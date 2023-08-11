@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 86,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 86,
+               "ccmTech": 1712,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1712,
+               "cylinderCapacityLiter": 170,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 329,
+               "modelName": "ALFASUD Sprint (902_)",
+               "motorType": "Essence",
+               "powerHpFrom": 105,
+               "powerHpTo": 105,
+               "powerKwFrom": 77,
+               "powerKwTo": 77,
+               "typeName": "1.7 i.e. (902C2D)",
+               "typeNumber": 86,
+               "valves": 2,
+               "yearOfConstrFrom": 198710,
+               "yearOfConstrTo": 198912,
+               "rmiTypeId": 64
+            },
+            "vehicleDocId": "DR86"
+         }
+      ]
+   },
+   "status": 200
+}

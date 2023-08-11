@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9031,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9031,
+               "ccmTech": 1349,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1349,
+               "cylinderCapacityLiter": 130,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 185,
+               "manuName": "DAEWOO",
+               "modId": 3410,
+               "modelName": "LANOS A trois volumes (KLAT)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.3",
+               "typeNumber": 9031,
+               "valves": 2,
+               "yearOfConstrFrom": 199705,
+               "rmiTypeId": 8069
+            },
+            "vehicleDocId": "DR9031"
+         }
+      ]
+   },
+   "status": 200
+}

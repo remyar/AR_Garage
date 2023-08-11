@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6619,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6619,
+               "ccmTech": 1498,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1498,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 1747,
+               "modelName": "TRANSIT Camionnette (72E, 71E)",
+               "motorType": "Essence",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "1.5 (72E1A)",
+               "typeNumber": 6619,
+               "valves": 2,
+               "yearOfConstrFrom": 197101,
+               "yearOfConstrTo": 197305,
+               "rmiTypeId": 5952
+            }
+         }
+      ]
+   },
+   "status": 200
+}

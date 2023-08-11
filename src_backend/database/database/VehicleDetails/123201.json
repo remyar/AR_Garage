@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123201,
+            "vehicleDetails": {
+               "carId": 123201,
+               "ccmTech": 1995,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1995,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 8762,
+               "modelName": "5 Touring (F11)",
+               "motorType": "Diesel",
+               "powerHpFrom": 200,
+               "powerHpTo": 200,
+               "powerKwFrom": 147,
+               "powerKwTo": 147,
+               "typeName": "520 d xDrive",
+               "typeNumber": 123201,
+               "valves": 4,
+               "yearOfConstrFrom": 201307,
+               "yearOfConstrTo": 201406,
+               "rmiTypeId": 78986
+            },
+            "vehicleDocId": "DR123201"
+         }
+      ]
+   },
+   "status": 200
+}

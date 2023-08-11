@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1281,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1281,
+               "ccmTech": 1584,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1584,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 255,
+               "modelName": "MANTA B (58_, 59_)",
+               "motorType": "Essence",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "1.6 N",
+               "typeNumber": 1281,
+               "valves": 2,
+               "yearOfConstrFrom": 197509,
+               "yearOfConstrTo": 198012,
+               "rmiTypeId": 1139
+            }
+         }
+      ]
+   },
+   "status": 200
+}

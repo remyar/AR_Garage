@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4683,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4683,
+               "ccmTech": 1984,
+               "constructionType": "Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1984,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 1312,
+               "modelName": "SHARAN (7M8, 7M9, 7M6)",
+               "motorType": "Essence",
+               "powerHpFrom": 115,
+               "powerHpTo": 115,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "2.0",
+               "typeNumber": 4683,
+               "valves": 2,
+               "yearOfConstrFrom": 199509,
+               "yearOfConstrTo": 201003,
+               "rmiTypeId": 4327
+            },
+            "vehicleDocId": "DR4683"
+         }
+      ]
+   },
+   "status": 200
+}

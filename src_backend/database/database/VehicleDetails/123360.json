@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123360,
+            "vehicleDetails": {
+               "carId": 123360,
+               "ccmTech": 2298,
+               "constructionType": "Camion plate-forme/Châssis",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2298,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 8978,
+               "modelName": "MOVANO B Camion plate-forme/Châssis (X62)",
+               "motorType": "Diesel",
+               "powerHpFrom": 131,
+               "powerHpTo": 131,
+               "powerKwFrom": 96,
+               "powerKwTo": 96,
+               "typeName": "2.3 CDTI FWD (EV, HV, UV)",
+               "typeNumber": 123360,
+               "valves": 4,
+               "yearOfConstrFrom": 201611,
+               "rmiTypeId": 133437
+            },
+            "vehicleDocId": "DR123360"
+         }
+      ]
+   },
+   "status": 200
+}

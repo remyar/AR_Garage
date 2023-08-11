@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 491,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 491,
+               "ccmTech": 2960,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2960,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 24,
+               "modelName": "124 Break (S124)",
+               "motorType": "Essence",
+               "powerHpFrom": 188,
+               "powerHpTo": 188,
+               "powerKwFrom": 138,
+               "powerKwTo": 138,
+               "typeName": "300 TE 4-matic (124.290)",
+               "typeNumber": 491,
+               "valves": 2,
+               "yearOfConstrFrom": 198609,
+               "yearOfConstrTo": 198912,
+               "rmiTypeId": 427
+            },
+            "vehicleDocId": "DR491"
+         }
+      ]
+   },
+   "status": 200
+}

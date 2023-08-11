@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5590,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5590,
+               "ccmTech": 1595,
+               "constructionType": "Camionnette/Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1595,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 104,
+               "manuName": "SEAT",
+               "modId": 1551,
+               "modelName": "INCA (6K9)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.6 i",
+               "typeNumber": 5590,
+               "valves": 2,
+               "yearOfConstrFrom": 199511,
+               "yearOfConstrTo": 199805,
+               "rmiTypeId": 5151
+            },
+            "vehicleDocId": "DR5590"
+         }
+      ]
+   },
+   "status": 200
+}

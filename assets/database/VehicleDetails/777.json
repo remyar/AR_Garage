@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 777,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 777,
+               "ccmTech": 4973,
+               "constructionType": "Décapotable",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4973,
+               "cylinderCapacityLiter": 490,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 570,
+               "modelName": "SL (R107)",
+               "motorType": "Essence",
+               "powerHpFrom": 245,
+               "powerHpTo": 245,
+               "powerKwFrom": 180,
+               "powerKwTo": 180,
+               "typeName": "500 SL (107.046)",
+               "typeNumber": 777,
+               "valves": 2,
+               "yearOfConstrFrom": 198601,
+               "yearOfConstrTo": 198908,
+               "rmiTypeId": 681
+            },
+            "vehicleDocId": "DR777"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6021,
+            "vehicleDetails": {
+               "carId": 6021,
+               "ccmTech": 1984,
+               "constructionType": "Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1984,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 8630,
+               "modelName": "SHARAN (7N1, 7N2)",
+               "motorType": "Essence",
+               "powerHpFrom": 200,
+               "powerHpTo": 200,
+               "powerKwFrom": 147,
+               "powerKwTo": 147,
+               "typeName": "2.0 TFSI",
+               "typeNumber": 6021,
+               "valves": 4,
+               "yearOfConstrFrom": 201012,
+               "yearOfConstrTo": 201511,
+               "rmiTypeId": 64761
+            },
+            "vehicleDocId": "DR6021"
+         }
+      ]
+   },
+   "status": 200
+}

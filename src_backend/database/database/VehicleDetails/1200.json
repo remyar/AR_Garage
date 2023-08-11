@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1200,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1200,
+               "ccmTech": 2260,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2260,
+               "cylinderCapacityLiter": 220,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 70,
+               "modelName": "REKORD E Break (61_, 66_, 67_)",
+               "motorType": "Diesel",
+               "powerHpFrom": 86,
+               "powerHpTo": 86,
+               "powerKwFrom": 63,
+               "powerKwTo": 63,
+               "typeName": "2.2 TD",
+               "typeNumber": 1200,
+               "valves": 2,
+               "yearOfConstrFrom": 198406,
+               "yearOfConstrTo": 198608,
+               "rmiTypeId": 1061
+            },
+            "vehicleDocId": "DR1200"
+         }
+      ]
+   },
+   "status": 200
+}

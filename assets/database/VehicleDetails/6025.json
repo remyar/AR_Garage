@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6025,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6025,
+               "ccmTech": 602,
+               "constructionType": "3/5 portes",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 602,
+               "cylinderCapacityLiter": 60,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 21,
+               "manuName": "CITROËN",
+               "modId": 296,
+               "modelName": "DYANE",
+               "motorType": "Essence",
+               "powerHpFrom": 29,
+               "powerHpTo": 29,
+               "powerKwFrom": 21,
+               "powerKwTo": 21,
+               "typeName": "6",
+               "typeNumber": 6025,
+               "valves": 2,
+               "yearOfConstrFrom": 196812,
+               "yearOfConstrTo": 198410,
+               "rmiTypeId": 5431
+            },
+            "vehicleDocId": "DR6025"
+         }
+      ]
+   },
+   "status": 200
+}

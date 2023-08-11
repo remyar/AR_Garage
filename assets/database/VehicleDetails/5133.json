@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5133,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5133,
+               "ccmTech": 3778,
+               "constructionType": "Monospace",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3778,
+               "cylinderCapacityLiter": 380,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 20,
+               "manuName": "CHRYSLER",
+               "modId": 1456,
+               "modelName": "VOYAGER / GRAND VOYAGER III (GS_, NS_)",
+               "motorType": "Essence",
+               "powerHpFrom": 166,
+               "powerHpTo": 166,
+               "powerKwFrom": 122,
+               "powerKwTo": 122,
+               "typeName": "3.8 i AWD",
+               "typeNumber": 5133,
+               "valves": 2,
+               "yearOfConstrFrom": 199501,
+               "yearOfConstrTo": 200103,
+               "rmiTypeId": 4741
+            },
+            "vehicleDocId": "DR5133"
+         }
+      ]
+   },
+   "status": 200
+}

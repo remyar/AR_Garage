@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5022,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5022,
+               "ccmTech": 1984,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1984,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 31,
+               "modelName": "80 B3 A trois volumes (893, 894, 8A2)",
+               "motorType": "Essence",
+               "powerHpFrom": 112,
+               "powerHpTo": 112,
+               "powerKwFrom": 82,
+               "powerKwTo": 82,
+               "typeName": "2.0 E quattro",
+               "typeNumber": 5022,
+               "valves": 2,
+               "yearOfConstrFrom": 198808,
+               "yearOfConstrTo": 199007,
+               "rmiTypeId": 4638
+            },
+            "vehicleDocId": "DR5022"
+         }
+      ]
+   },
+   "status": 200
+}

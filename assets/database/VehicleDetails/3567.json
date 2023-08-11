@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3567,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3567,
+               "ccmTech": 1587,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1587,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 550,
+               "modelName": "CELICA Coupé (_A4_)",
+               "motorType": "Essence",
+               "powerHpFrom": 86,
+               "powerHpTo": 86,
+               "powerKwFrom": 63,
+               "powerKwTo": 63,
+               "typeName": "1.6 ST (TA40)",
+               "typeNumber": 3567,
+               "valves": 2,
+               "yearOfConstrFrom": 197708,
+               "yearOfConstrTo": 198107,
+               "rmiTypeId": 3267
+            },
+            "vehicleDocId": "DR3567"
+         }
+      ]
+   },
+   "status": 200
+}

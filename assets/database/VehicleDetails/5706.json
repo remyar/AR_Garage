@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5706,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5706,
+               "ccmTech": 2435,
+               "constructionType": "Break",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2435,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 57,
+               "modelName": "850 Break (855)",
+               "motorType": "Essence",
+               "powerHpFrom": 144,
+               "powerHpTo": 144,
+               "powerKwFrom": 106,
+               "powerKwTo": 106,
+               "typeName": "2.4",
+               "typeNumber": 5706,
+               "valves": 2,
+               "yearOfConstrFrom": 199408,
+               "yearOfConstrTo": 199612,
+               "rmiTypeId": 5259
+            },
+            "vehicleDocId": "DR5706"
+         }
+      ]
+   },
+   "status": 200
+}

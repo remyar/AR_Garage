@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123933,
+            "vehicleDetails": {
+               "carId": 123933,
+               "ccmTech": 1395,
+               "constructionType": "SUV",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1395,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 106,
+               "manuName": "SKODA",
+               "modId": 37164,
+               "modelName": "KODIAQ (NS7, NV7, NS6)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "1.4 TSI",
+               "typeNumber": 123933,
+               "valves": 4,
+               "yearOfConstrFrom": 201610,
+               "rmiTypeId": 134008
+            },
+            "vehicleDocId": "DR123933"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 52428,
+            "vehicleDetails": {
+               "carId": 52428,
+               "ccmTech": 3778,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3778,
+               "cylinderCapacityLiter": 380,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 183,
+               "manuName": "HYUNDAI",
+               "modId": 9142,
+               "modelName": "GENESIS (BH)",
+               "motorType": "Essence",
+               "powerHpFrom": 335,
+               "powerHpTo": 335,
+               "powerKwFrom": 246,
+               "powerKwTo": 246,
+               "typeName": "3.8 V6",
+               "typeNumber": 52428,
+               "valves": 4,
+               "yearOfConstrFrom": 201101,
+               "yearOfConstrTo": 201412,
+               "rmiTypeId": 73922
+            },
+            "vehicleDocId": "DR52428"
+         }
+      ]
+   },
+   "status": 200
+}

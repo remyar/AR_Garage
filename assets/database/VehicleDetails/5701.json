@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5701,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5701,
+               "ccmTech": 1690,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1690,
+               "cylinderCapacityLiter": 170,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 63,
+               "manuName": "LADA",
+               "modId": 131,
+               "modelName": "NIVA Véhicule tout terrain fermé (2121, 2131)",
+               "motorType": "Essence",
+               "powerHpFrom": 80,
+               "powerHpTo": 80,
+               "powerKwFrom": 59,
+               "powerKwTo": 59,
+               "typeName": "1700 i",
+               "typeNumber": 5701,
+               "valves": 2,
+               "yearOfConstrFrom": 199606,
+               "yearOfConstrTo": 200612,
+               "rmiTypeId": 5254
+            },
+            "vehicleDocId": "DR5701"
+         }
+      ]
+   },
+   "status": 200
+}

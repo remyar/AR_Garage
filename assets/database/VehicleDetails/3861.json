@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3861,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3861,
+               "ccmTech": 2962,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2962,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 3466,
+               "modelName": "OMEGA B (V94)",
+               "motorType": "Essence",
+               "powerHpFrom": 211,
+               "powerHpTo": 211,
+               "powerKwFrom": 155,
+               "powerKwTo": 155,
+               "typeName": "3.0 V6 (F69, M69, P69)",
+               "typeNumber": 3861,
+               "valves": 4,
+               "yearOfConstrFrom": 199404,
+               "yearOfConstrTo": 200102,
+               "rmiTypeId": 3549
+            },
+            "vehicleDocId": "DR3861"
+         }
+      ]
+   },
+   "status": 200
+}

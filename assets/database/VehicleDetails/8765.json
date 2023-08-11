@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8765,
+            "vehicleDetails": {
+               "brakeSystem": "mécanique",
+               "carId": 8765,
+               "ccmTech": 2496,
+               "constructionType": "Camion plate-forme/Châssis",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2496,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 2024,
+               "modelName": "TRANSIT Camion plate-forme/Châssis (E_ _)",
+               "motorType": "Diesel",
+               "powerHpFrom": 80,
+               "powerHpTo": 80,
+               "powerKwFrom": 59,
+               "powerKwTo": 59,
+               "typeName": "2.5 DI (EME/L/S, ENE/L/S)",
+               "typeNumber": 8765,
+               "valves": 2,
+               "yearOfConstrFrom": 199109,
+               "yearOfConstrTo": 199408,
+               "rmiTypeId": 7811
+            }
+         }
+      ]
+   },
+   "status": 200
+}

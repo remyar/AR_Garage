@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4627,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4627,
+               "ccmTech": 2793,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2793,
+               "cylinderCapacityLiter": 280,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 304,
+               "modelName": "3 (E36)",
+               "motorType": "Essence",
+               "powerHpFrom": 193,
+               "powerHpTo": 193,
+               "powerKwFrom": 142,
+               "powerKwTo": 142,
+               "typeName": "328 i",
+               "typeNumber": 4627,
+               "valves": 4,
+               "yearOfConstrFrom": 199501,
+               "yearOfConstrTo": 199804,
+               "rmiTypeId": 4274
+            },
+            "vehicleDocId": "DR4627"
+         }
+      ]
+   },
+   "status": 200
+}

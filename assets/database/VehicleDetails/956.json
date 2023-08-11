@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 956,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 956,
+               "ccmTech": 4973,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4973,
+               "cylinderCapacityLiter": 500,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 47,
+               "modelName": "CLASSE S (W140)",
+               "motorType": "Essence",
+               "powerHpFrom": 326,
+               "powerHpTo": 326,
+               "powerKwFrom": 240,
+               "powerKwTo": 240,
+               "typeName": "500 SE, SEL (140.050, 140.051)",
+               "typeNumber": 956,
+               "valves": 4,
+               "yearOfConstrFrom": 199102,
+               "yearOfConstrTo": 199810,
+               "rmiTypeId": 840
+            },
+            "vehicleDocId": "DR956"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 129,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 129,
+               "ccmTech": 1995,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1995,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 312,
+               "modelName": "75 (162_)",
+               "motorType": "Diesel",
+               "powerHpFrom": 95,
+               "powerHpTo": 95,
+               "powerKwFrom": 70,
+               "powerKwTo": 70,
+               "typeName": "2.0 TD (162.BD, 162.BG)",
+               "typeNumber": 129,
+               "valves": 2,
+               "yearOfConstrFrom": 198505,
+               "yearOfConstrTo": 199209,
+               "rmiTypeId": 102
+            },
+            "vehicleDocId": "DR129"
+         }
+      ]
+   },
+   "status": 200
+}

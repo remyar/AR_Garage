@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1401,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1401,
+               "ccmTech": 2771,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2771,
+               "cylinderCapacityLiter": 280,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 1,
+               "modelName": "80 B4 A trois volumes (8C2)",
+               "motorType": "Essence",
+               "powerHpFrom": 174,
+               "powerHpTo": 174,
+               "powerKwFrom": 128,
+               "powerKwTo": 128,
+               "typeName": "2.8",
+               "typeNumber": 1401,
+               "valves": 2,
+               "yearOfConstrFrom": 199109,
+               "yearOfConstrTo": 199412,
+               "rmiTypeId": 1250
+            },
+            "vehicleDocId": "DR1401"
+         }
+      ]
+   },
+   "status": 200
+}

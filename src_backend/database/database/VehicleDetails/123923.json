@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123923,
+            "vehicleDetails": {
+               "carId": 123923,
+               "ccmTech": 2143,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2143,
+               "cylinderCapacityLiter": 220,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 36486,
+               "modelName": "GIULIA (952_)",
+               "motorType": "Diesel",
+               "powerHpFrom": 209,
+               "powerHpTo": 209,
+               "powerKwFrom": 154,
+               "powerKwTo": 154,
+               "typeName": "2.2 D Q4 (952AHA45, 952AMA4)",
+               "typeNumber": 123923,
+               "valves": 4,
+               "yearOfConstrFrom": 201611,
+               "rmiTypeId": 133999
+            },
+            "vehicleDocId": "DR123923"
+         }
+      ]
+   },
+   "status": 200
+}

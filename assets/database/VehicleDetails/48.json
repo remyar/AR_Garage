@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 48,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 48,
+               "ccmTech": 2443,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2443,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 294,
+               "modelName": "3 Touring (E30)",
+               "motorType": "Diesel",
+               "powerHpFrom": 115,
+               "powerHpTo": 115,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "324 td",
+               "typeNumber": 48,
+               "valves": 2,
+               "yearOfConstrFrom": 198801,
+               "yearOfConstrTo": 199306,
+               "rmiTypeId": 44
+            },
+            "vehicleDocId": "DR48"
+         }
+      ]
+   },
+   "status": 200
+}

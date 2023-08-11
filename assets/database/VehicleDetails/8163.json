@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8163,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8163,
+               "ccmTech": 2226,
+               "constructionType": "Break",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2226,
+               "cylinderCapacityLiter": 220,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 30,
+               "modelName": "100 C3 Avant (445, 446)",
+               "motorType": "Essence",
+               "powerHpFrom": 137,
+               "powerHpTo": 137,
+               "powerKwFrom": 101,
+               "powerKwTo": 101,
+               "typeName": "2.2 Cat quattro",
+               "typeNumber": 8163,
+               "valves": 2,
+               "yearOfConstrFrom": 198906,
+               "yearOfConstrTo": 199011,
+               "rmiTypeId": 7294
+            },
+            "vehicleDocId": "DR8163"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 122003,
+            "vehicleDetails": {
+               "carId": 122003,
+               "ccmTech": 1999,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1999,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 184,
+               "manuName": "KIA",
+               "modId": 36968,
+               "modelName": "OPTIMA Sportswagon (JF)",
+               "motorType": "Essence",
+               "powerHpFrom": 163,
+               "powerHpTo": 163,
+               "powerKwFrom": 120,
+               "powerKwTo": 120,
+               "typeName": "2.0 CVVL",
+               "typeNumber": 122003,
+               "valves": 4,
+               "yearOfConstrFrom": 201609,
+               "rmiTypeId": 131340
+            },
+            "vehicleDocId": "DR122003"
+         }
+      ]
+   },
+   "status": 200
+}

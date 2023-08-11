@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8201,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8201,
+               "ccmTech": 3239,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3239,
+               "cylinderCapacityLiter": 320,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 881,
+               "manuName": "ASTON MARTIN",
+               "modId": 1958,
+               "modelName": "DB7 Vantage",
+               "motorType": "Essence",
+               "powerHpFrom": 340,
+               "powerHpTo": 340,
+               "powerKwFrom": 250,
+               "powerKwTo": 250,
+               "typeName": "3.2",
+               "typeNumber": 8201,
+               "valves": 4,
+               "yearOfConstrFrom": 199405,
+               "yearOfConstrTo": 199906,
+               "rmiTypeId": 7329
+            },
+            "vehicleDocId": "DR8201"
+         }
+      ]
+   },
+   "status": 200
+}

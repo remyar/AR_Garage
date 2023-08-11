@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7002,
+            "vehicleDetails": {
+               "carId": 7002,
+               "ccmTech": 1596,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1596,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 6239,
+               "modelName": "MONDEO IV Turnier (BA7)",
+               "motorType": "Essence",
+               "powerHpFrom": 120,
+               "powerHpTo": 120,
+               "powerKwFrom": 88,
+               "powerKwTo": 88,
+               "typeName": "1.6 Ti",
+               "typeNumber": 7002,
+               "valves": 4,
+               "yearOfConstrFrom": 201007,
+               "yearOfConstrTo": 201501,
+               "rmiTypeId": 64294
+            },
+            "vehicleDocId": "DR7002"
+         }
+      ]
+   },
+   "status": 200
+}

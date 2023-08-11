@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1306,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1306,
+               "ccmTech": 1988,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1988,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 284,
+               "modelName": "MONDEO I (GBP)",
+               "motorType": "Essence",
+               "powerHpFrom": 136,
+               "powerHpTo": 136,
+               "powerKwFrom": 100,
+               "powerKwTo": 100,
+               "typeName": "2.0 i 16V",
+               "typeNumber": 1306,
+               "valves": 4,
+               "yearOfConstrFrom": 199302,
+               "yearOfConstrTo": 199608,
+               "rmiTypeId": 1163
+            },
+            "vehicleDocId": "DR1306"
+         }
+      ]
+   },
+   "status": 200
+}

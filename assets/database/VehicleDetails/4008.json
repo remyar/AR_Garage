@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4008,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4008,
+               "ccmTech": 3239,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3239,
+               "cylinderCapacityLiter": 320,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 56,
+               "manuName": "JAGUAR",
+               "modId": 105,
+               "modelName": "XJ (X300, X330)",
+               "motorType": "Essence",
+               "powerHpFrom": 211,
+               "powerHpTo": 211,
+               "powerKwFrom": 155,
+               "powerKwTo": 155,
+               "typeName": "6 3.2",
+               "typeNumber": 4008,
+               "valves": 4,
+               "yearOfConstrFrom": 199411,
+               "yearOfConstrTo": 199707,
+               "rmiTypeId": 3681
+            },
+            "vehicleDocId": "DR4008"
+         }
+      ]
+   },
+   "status": 200
+}

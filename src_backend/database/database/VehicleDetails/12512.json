@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 12512,
+            "vehicleDetails": {
+               "carId": 12512,
+               "ccmTech": 2299,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2299,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 9842,
+               "modelName": "NV400 Autobus/Autocar (X62, X62B)",
+               "motorType": "Diesel",
+               "powerHpFrom": 101,
+               "powerHpTo": 101,
+               "powerKwFrom": 74,
+               "powerKwTo": 74,
+               "typeName": "dCi 100",
+               "typeNumber": 12512,
+               "valves": 4,
+               "yearOfConstrFrom": 201111,
+               "yearOfConstrTo": 201609,
+               "rmiTypeId": 71234
+            },
+            "vehicleDocId": "DR12512"
+         }
+      ]
+   },
+   "status": 200
+}

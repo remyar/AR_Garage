@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6505,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6505,
+               "ccmTech": 1015,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1015,
+               "cylinderCapacityLiter": 100,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 21,
+               "manuName": "CITROËN",
+               "modId": 1660,
+               "modelName": "AMI",
+               "motorType": "Essence",
+               "powerHpFrom": 54,
+               "powerHpTo": 54,
+               "powerKwFrom": 40,
+               "powerKwTo": 40,
+               "typeName": "10 Super (AM3)",
+               "typeNumber": 6505,
+               "valves": 2,
+               "yearOfConstrFrom": 197303,
+               "yearOfConstrTo": 197712,
+               "rmiTypeId": 5840
+            }
+         }
+      ]
+   },
+   "status": 200
+}

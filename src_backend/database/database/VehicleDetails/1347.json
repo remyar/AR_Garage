@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1347,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1347,
+               "ccmTech": 3562,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 3562,
+               "cylinderCapacityLiter": 360,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 485,
+               "modelName": "V8 (441, 442, 4C2, 4C8)",
+               "motorType": "Essence",
+               "powerHpFrom": 245,
+               "powerHpTo": 245,
+               "powerKwFrom": 180,
+               "powerKwTo": 180,
+               "typeName": "3.6 quattro",
+               "typeNumber": 1347,
+               "valves": 4,
+               "yearOfConstrFrom": 199304,
+               "yearOfConstrTo": 199402,
+               "rmiTypeId": 1199
+            }
+         }
+      ]
+   },
+   "status": 200
+}

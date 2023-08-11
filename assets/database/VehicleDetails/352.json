@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 352,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 352,
+               "ccmTech": 1117,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1117,
+               "cylinderCapacityLiter": 110,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 322,
+               "modelName": "ESCORT III (GAA)",
+               "motorType": "Essence",
+               "powerHpFrom": 55,
+               "powerHpTo": 55,
+               "powerKwFrom": 40,
+               "powerKwTo": 40,
+               "typeName": "1.1",
+               "typeNumber": 352,
+               "valves": 2,
+               "yearOfConstrFrom": 198009,
+               "yearOfConstrTo": 198308,
+               "rmiTypeId": 309
+            },
+            "vehicleDocId": "DR352"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6241,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6241,
+               "ccmTech": 1986,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1986,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 1622,
+               "modelName": "140 Break (145)",
+               "motorType": "Essence",
+               "powerHpFrom": 100,
+               "powerHpTo": 100,
+               "powerKwFrom": 73,
+               "powerKwTo": 73,
+               "typeName": "2.0 S",
+               "typeNumber": 6241,
+               "valves": 2,
+               "yearOfConstrFrom": 197208,
+               "yearOfConstrTo": 197307,
+               "rmiTypeId": 5616
+            },
+            "vehicleDocId": "DR6241"
+         }
+      ]
+   },
+   "status": 200
+}

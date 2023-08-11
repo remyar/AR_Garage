@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5971,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5971,
+               "ccmTech": 2500,
+               "constructionType": "Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2500,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 72,
+               "manuName": "MAZDA",
+               "modId": 1582,
+               "modelName": "MPV I (LV)",
+               "motorType": "Diesel",
+               "powerHpFrom": 115,
+               "powerHpTo": 115,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "2.5 TD (LVLW)",
+               "typeNumber": 5971,
+               "valves": 3,
+               "yearOfConstrFrom": 199605,
+               "yearOfConstrTo": 199909,
+               "rmiTypeId": 5387
+            },
+            "vehicleDocId": "DR5971"
+         }
+      ]
+   },
+   "status": 200
+}

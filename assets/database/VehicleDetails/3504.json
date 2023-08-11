@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3504,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3504,
+               "ccmTech": 1587,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1587,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 151,
+               "modelName": "COROLLA Liftback (_E9_)",
+               "motorType": "Essence",
+               "powerHpFrom": 105,
+               "powerHpTo": 105,
+               "powerKwFrom": 77,
+               "powerKwTo": 77,
+               "typeName": "1.6 (AE92)",
+               "typeNumber": 3504,
+               "valves": 4,
+               "yearOfConstrFrom": 198908,
+               "yearOfConstrTo": 199204,
+               "rmiTypeId": 3210
+            },
+            "vehicleDocId": "DR3504"
+         }
+      ]
+   },
+   "status": 200
+}

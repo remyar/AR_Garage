@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5744,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5744,
+               "ccmTech": 2295,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2295,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 1315,
+               "modelName": "SCORPIO II (GFR, GGR)",
+               "motorType": "Essence",
+               "powerHpFrom": 147,
+               "powerHpTo": 147,
+               "powerKwFrom": 108,
+               "powerKwTo": 108,
+               "typeName": "2.3 i 16V",
+               "typeNumber": 5744,
+               "valves": 4,
+               "yearOfConstrFrom": 199606,
+               "yearOfConstrTo": 199808,
+               "rmiTypeId": 5294
+            },
+            "vehicleDocId": "DR5744"
+         }
+      ]
+   },
+   "status": 200
+}

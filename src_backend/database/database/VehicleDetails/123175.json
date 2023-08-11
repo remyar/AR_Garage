@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123175,
+            "vehicleDetails": {
+               "carId": 123175,
+               "ccmTech": 2979,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2979,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 5569,
+               "modelName": "3 Coupé (E92)",
+               "motorType": "Essence",
+               "powerHpFrom": 326,
+               "powerHpTo": 326,
+               "powerKwFrom": 240,
+               "powerKwTo": 240,
+               "typeName": "335 i xDrive",
+               "typeNumber": 123175,
+               "valves": 4,
+               "yearOfConstrFrom": 200811,
+               "yearOfConstrTo": 201306,
+               "rmiTypeId": 72551
+            },
+            "vehicleDocId": "DR123175"
+         }
+      ]
+   },
+   "status": 200
+}

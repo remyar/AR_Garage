@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 806,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 806,
+               "ccmTech": 2960,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2960,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 12,
+               "modelName": "124 Coupé (C124)",
+               "motorType": "Essence",
+               "powerHpFrom": 220,
+               "powerHpTo": 220,
+               "powerKwFrom": 162,
+               "powerKwTo": 162,
+               "typeName": "300 CE-24 (124.051)",
+               "typeNumber": 806,
+               "valves": 4,
+               "yearOfConstrFrom": 198909,
+               "yearOfConstrTo": 199212,
+               "rmiTypeId": 704
+            },
+            "vehicleDocId": "DR806"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4345,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4345,
+               "ccmTech": 847,
+               "constructionType": "3/5 portes",
+               "cylinder": 3,
+               "cylinderCapacityCcm": 847,
+               "cylinderCapacityLiter": 80,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 25,
+               "manuName": "DAIHATSU",
+               "modId": 3475,
+               "modelName": "CUORE II (L80, L81)",
+               "motorType": "Essence",
+               "powerHpFrom": 44,
+               "powerHpTo": 44,
+               "powerKwFrom": 32,
+               "powerKwTo": 32,
+               "typeName": "0.8 (L80)",
+               "typeNumber": 4345,
+               "valves": 2,
+               "yearOfConstrFrom": 198509,
+               "yearOfConstrTo": 199006,
+               "rmiTypeId": 4014
+            },
+            "vehicleDocId": "DR4345"
+         }
+      ]
+   },
+   "status": 200
+}

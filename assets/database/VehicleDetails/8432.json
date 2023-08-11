@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8432,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8432,
+               "ccmTech": 1781,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1781,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 1482,
+               "modelName": "FLIGHT III CLASSIC (6V2)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "90 1.8",
+               "typeNumber": 8432,
+               "valves": 2,
+               "yearOfConstrFrom": 199701,
+               "yearOfConstrTo": 200109,
+               "rmiTypeId": 7539
+            },
+            "vehicleDocId": "DR8432"
+         }
+      ]
+   },
+   "status": 200
+}

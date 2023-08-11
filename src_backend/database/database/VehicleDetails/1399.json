@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1399,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1399,
+               "ccmTech": 2309,
+               "constructionType": "A trois volumes",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2309,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 1,
+               "modelName": "80 B4 A trois volumes (8C2)",
+               "motorType": "Essence",
+               "powerHpFrom": 133,
+               "powerHpTo": 133,
+               "powerKwFrom": 98,
+               "powerKwTo": 98,
+               "typeName": "2.3 E",
+               "typeNumber": 1399,
+               "valves": 2,
+               "yearOfConstrFrom": 199109,
+               "yearOfConstrTo": 199412,
+               "rmiTypeId": 1248
+            },
+            "vehicleDocId": "DR1399"
+         }
+      ]
+   },
+   "status": 200
+}

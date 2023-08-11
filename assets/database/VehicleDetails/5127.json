@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5127,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5127,
+               "ccmTech": 2461,
+               "constructionType": "A trois volumes",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2461,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 258,
+               "modelName": "A6 C4 (4A2)",
+               "motorType": "Diesel",
+               "powerHpFrom": 140,
+               "powerHpTo": 140,
+               "powerKwFrom": 103,
+               "powerKwTo": 103,
+               "typeName": "2.5 TDI quattro",
+               "typeNumber": 5127,
+               "valves": 2,
+               "yearOfConstrFrom": 199510,
+               "yearOfConstrTo": 199710,
+               "rmiTypeId": 4735
+            },
+            "vehicleDocId": "DR5127"
+         }
+      ]
+   },
+   "status": 200
+}

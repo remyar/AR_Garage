@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8965,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8965,
+               "ccmTech": 2671,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2671,
+               "cylinderCapacityLiter": 270,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 3395,
+               "modelName": "A6 C5 Avant (4B5)",
+               "motorType": "Essence",
+               "powerHpFrom": 230,
+               "powerHpTo": 230,
+               "powerKwFrom": 169,
+               "powerKwTo": 169,
+               "typeName": "2.7 T",
+               "typeNumber": 8965,
+               "valves": 5,
+               "yearOfConstrFrom": 199902,
+               "yearOfConstrTo": 200501,
+               "rmiTypeId": 8003
+            },
+            "vehicleDocId": "DR8965"
+         }
+      ]
+   },
+   "status": 200
+}

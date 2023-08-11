@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3534,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3534,
+               "ccmTech": 1587,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1587,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 513,
+               "modelName": "CARINA V Break (_T17_)",
+               "motorType": "Essence",
+               "powerHpFrom": 102,
+               "powerHpTo": 102,
+               "powerKwFrom": 75,
+               "powerKwTo": 75,
+               "typeName": "1.6 (AT171_)",
+               "typeNumber": 3534,
+               "valves": 4,
+               "yearOfConstrFrom": 198712,
+               "yearOfConstrTo": 199203,
+               "rmiTypeId": 3237
+            }
+         }
+      ]
+   },
+   "status": 200
+}

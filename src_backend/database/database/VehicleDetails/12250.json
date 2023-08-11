@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 12250,
+            "vehicleDetails": {
+               "carId": 12250,
+               "ccmTech": 3197,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3197,
+               "cylinderCapacityLiter": 320,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 5110,
+               "modelName": "A6 C6 (4F2)",
+               "motorType": "Essence",
+               "powerHpFrom": 265,
+               "powerHpTo": 265,
+               "powerKwFrom": 195,
+               "powerKwTo": 195,
+               "typeName": "3.2 FSI",
+               "typeNumber": 12250,
+               "valves": 4,
+               "yearOfConstrFrom": 200905,
+               "yearOfConstrTo": 201103,
+               "rmiTypeId": 71284
+            },
+            "vehicleDocId": "DR12250"
+         }
+      ]
+   },
+   "status": 200
+}

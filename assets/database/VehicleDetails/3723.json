@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3723,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3723,
+               "ccmTech": 2497,
+               "constructionType": "3/5 portes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2497,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 72,
+               "manuName": "MAZDA",
+               "modId": 525,
+               "modelName": "626 IV Hatchback (GE)",
+               "motorType": "Essence",
+               "powerHpFrom": 165,
+               "powerHpTo": 165,
+               "powerKwFrom": 121,
+               "powerKwTo": 121,
+               "typeName": "2.5 24V (GE5P)",
+               "typeNumber": 3723,
+               "valves": 4,
+               "yearOfConstrFrom": 199201,
+               "yearOfConstrTo": 199704,
+               "rmiTypeId": 3416
+            },
+            "vehicleDocId": "DR3723"
+         }
+      ]
+   },
+   "status": 200
+}

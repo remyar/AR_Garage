@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 44,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 44,
+               "ccmTech": 1796,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1796,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 294,
+               "modelName": "3 Touring (E30)",
+               "motorType": "Essence",
+               "powerHpFrom": 113,
+               "powerHpTo": 113,
+               "powerKwFrom": 83,
+               "powerKwTo": 83,
+               "typeName": "318 i",
+               "typeNumber": 44,
+               "valves": 2,
+               "yearOfConstrFrom": 198904,
+               "yearOfConstrTo": 199406,
+               "rmiTypeId": 40
+            },
+            "vehicleDocId": "DR44"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 12106,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 12106,
+               "ccmTech": 4973,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4973,
+               "cylinderCapacityLiter": 500,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 65,
+               "modelName": "CLASSE G (W463)",
+               "motorType": "Essence",
+               "powerHpFrom": 241,
+               "powerHpTo": 241,
+               "powerKwFrom": 177,
+               "powerKwTo": 177,
+               "typeName": "500 GE (463.228)",
+               "typeNumber": 12106,
+               "valves": 2,
+               "yearOfConstrFrom": 199309,
+               "yearOfConstrTo": 199412,
+               "rmiTypeId": 9362
+            },
+            "vehicleDocId": "DR12106"
+         }
+      ]
+   },
+   "status": 200
+}

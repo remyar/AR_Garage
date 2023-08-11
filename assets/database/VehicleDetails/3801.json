@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3801,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3801,
+               "ccmTech": 1242,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1242,
+               "cylinderCapacityLiter": 120,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 35,
+               "manuName": "FIAT",
+               "modId": 458,
+               "modelName": "PUNTO (176_)",
+               "motorType": "Essence",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "60 1.2 (176AP, 176AR, 176AQ, 176BB)",
+               "typeNumber": 3801,
+               "valves": 2,
+               "yearOfConstrFrom": 199309,
+               "yearOfConstrTo": 199909,
+               "rmiTypeId": 3491
+            },
+            "vehicleDocId": "DR3801"
+         }
+      ]
+   },
+   "status": 200
+}

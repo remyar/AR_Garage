@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7920,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7920,
+               "ccmTech": 1587,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1587,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 1513,
+               "modelName": "S40 I (644)",
+               "motorType": "Essence",
+               "powerHpFrom": 105,
+               "powerHpTo": 105,
+               "powerKwFrom": 77,
+               "powerKwTo": 77,
+               "typeName": "1.6",
+               "typeNumber": 7920,
+               "valves": 4,
+               "yearOfConstrFrom": 199509,
+               "yearOfConstrTo": 199908,
+               "rmiTypeId": 7082
+            },
+            "vehicleDocId": "DR7920"
+         }
+      ]
+   },
+   "status": 200
+}

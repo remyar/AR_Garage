@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1235,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1235,
+               "ccmTech": 2969,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2969,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 354,
+               "modelName": "OMEGA A (V87)",
+               "motorType": "Essence",
+               "powerHpFrom": 200,
+               "powerHpTo": 200,
+               "powerKwFrom": 147,
+               "powerKwTo": 147,
+               "typeName": "3.0 24V (3000) (F19, M19, N19)",
+               "typeNumber": 1235,
+               "valves": 4,
+               "yearOfConstrFrom": 198909,
+               "yearOfConstrTo": 199403,
+               "rmiTypeId": 1093
+            }
+         }
+      ]
+   },
+   "status": 200
+}

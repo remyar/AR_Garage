@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4098,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4098,
+               "ccmTech": 1232,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1232,
+               "cylinderCapacityLiter": 120,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 1267,
+               "modelName": "JAZZ I (AA)",
+               "motorType": "Essence",
+               "powerHpFrom": 56,
+               "powerHpTo": 56,
+               "powerKwFrom": 41,
+               "powerKwTo": 41,
+               "typeName": "56 1.2",
+               "typeNumber": 4098,
+               "valves": 2,
+               "yearOfConstrFrom": 198310,
+               "yearOfConstrTo": 198610,
+               "rmiTypeId": 3770
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 12101,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 12101,
+               "ccmTech": 3328,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 3328,
+               "cylinderCapacityLiter": 330,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 265,
+               "modelName": "A8 D2 (4D2, 4D8)",
+               "motorType": "Diesel",
+               "powerHpFrom": 224,
+               "powerHpTo": 224,
+               "powerKwFrom": 165,
+               "powerKwTo": 165,
+               "typeName": "3.3 TDI quattro",
+               "typeNumber": 12101,
+               "valves": 4,
+               "yearOfConstrFrom": 200006,
+               "yearOfConstrTo": 200209,
+               "rmiTypeId": 9358
+            },
+            "vehicleDocId": "DR12101"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5252,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5252,
+               "ccmTech": 1598,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1598,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 93,
+               "manuName": "RENAULT",
+               "modId": 1479,
+               "modelName": "MEGANE I (BA0/1_)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.6 e (BA0F, BA0S)",
+               "typeNumber": 5252,
+               "valves": 2,
+               "yearOfConstrFrom": 199601,
+               "yearOfConstrTo": 199903,
+               "rmiTypeId": 4850
+            },
+            "vehicleDocId": "DR5252"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 55601,
+            "vehicleDetails": {
+               "carId": 55601,
+               "ccmTech": 3456,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3456,
+               "cylinderCapacityLiter": 350,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 802,
+               "manuName": "LOTUS",
+               "modId": 11026,
+               "modelName": "EXIGE",
+               "motorType": "Essence",
+               "powerHpFrom": 350,
+               "powerHpTo": 350,
+               "powerKwFrom": 257,
+               "powerKwTo": 257,
+               "typeName": "3.5 350 S",
+               "typeNumber": 55601,
+               "valves": 4,
+               "yearOfConstrFrom": 201206,
+               "rmiTypeId": 76302
+            },
+            "vehicleDocId": "DR55601"
+         }
+      ]
+   },
+   "status": 200
+}

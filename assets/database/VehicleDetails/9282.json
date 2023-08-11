@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9282,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9282,
+               "ccmTech": 3956,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3956,
+               "cylinderCapacityLiter": 400,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 198,
+               "modelName": "LAND CRUISER 80 (_J8_)",
+               "motorType": "Essence",
+               "powerHpFrom": 156,
+               "powerHpTo": 156,
+               "powerKwFrom": 115,
+               "powerKwTo": 115,
+               "typeName": "4.0 (FJ80_)",
+               "typeNumber": 9282,
+               "valves": 2,
+               "yearOfConstrFrom": 199001,
+               "yearOfConstrTo": 199210,
+               "rmiTypeId": 8239
+            },
+            "vehicleDocId": "DR9282"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9091,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9091,
+               "ccmTech": 2494,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2494,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 3397,
+               "modelName": "3 (E46)",
+               "motorType": "Essence",
+               "powerHpFrom": 170,
+               "powerHpTo": 170,
+               "powerKwFrom": 125,
+               "powerKwTo": 125,
+               "typeName": "323 i",
+               "typeNumber": 9091,
+               "valves": 4,
+               "yearOfConstrFrom": 199803,
+               "yearOfConstrTo": 200009,
+               "rmiTypeId": 8126
+            },
+            "vehicleDocId": "DR9091"
+         }
+      ]
+   },
+   "status": 200
+}

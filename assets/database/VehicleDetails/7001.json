@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7001,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7001,
+               "ccmTech": 2498,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2498,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 112,
+               "manuName": "TRIUMPH",
+               "modId": 1777,
+               "modelName": "2500 Estate",
+               "motorType": "Essence",
+               "powerHpFrom": 108,
+               "powerHpTo": 108,
+               "powerKwFrom": 79,
+               "powerKwTo": 79,
+               "typeName": "S",
+               "typeNumber": 7001,
+               "valves": 2,
+               "yearOfConstrFrom": 197504,
+               "yearOfConstrTo": 197712,
+               "rmiTypeId": 6288
+            }
+         }
+      ]
+   },
+   "status": 200
+}

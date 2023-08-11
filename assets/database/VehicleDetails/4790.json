@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4790,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4790,
+               "ccmTech": 2255,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2255,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 72,
+               "manuName": "MAZDA",
+               "modId": 87,
+               "modelName": "XEDOS 9 (TA)",
+               "motorType": "Essence",
+               "powerHpFrom": 211,
+               "powerHpTo": 211,
+               "powerKwFrom": 155,
+               "powerKwTo": 155,
+               "typeName": "2.3 24V (TA3P)",
+               "typeNumber": 4790,
+               "valves": 4,
+               "yearOfConstrFrom": 199502,
+               "yearOfConstrTo": 200001,
+               "rmiTypeId": 4430
+            },
+            "vehicleDocId": "DR4790"
+         }
+      ]
+   },
+   "status": 200
+}

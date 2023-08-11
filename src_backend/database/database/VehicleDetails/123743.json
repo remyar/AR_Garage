@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123743,
+            "vehicleDetails": {
+               "carId": 123743,
+               "ccmTech": 3982,
+               "constructionType": "Coupé",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 3982,
+               "cylinderCapacityLiter": 400,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 13198,
+               "modelName": "AMG GT (C190)",
+               "motorType": "Essence",
+               "powerHpFrom": 585,
+               "powerHpTo": 585,
+               "powerKwFrom": 430,
+               "powerKwTo": 430,
+               "typeName": "GT R (190.379)",
+               "typeNumber": 123743,
+               "valves": 4,
+               "yearOfConstrFrom": 201611,
+               "rmiTypeId": 133744
+            },
+            "vehicleDocId": "DR123743"
+         }
+      ]
+   },
+   "status": 200
+}

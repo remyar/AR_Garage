@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3881,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3881,
+               "ccmTech": 4172,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4172,
+               "cylinderCapacityLiter": 420,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 265,
+               "modelName": "A8 D2 (4D2, 4D8)",
+               "motorType": "Essence",
+               "powerHpFrom": 299,
+               "powerHpTo": 299,
+               "powerKwFrom": 220,
+               "powerKwTo": 220,
+               "typeName": "4.2 quattro",
+               "typeNumber": 3881,
+               "valves": 4,
+               "yearOfConstrFrom": 199403,
+               "yearOfConstrTo": 199811,
+               "rmiTypeId": 3567
+            },
+            "vehicleDocId": "DR3881"
+         }
+      ]
+   },
+   "status": 200
+}

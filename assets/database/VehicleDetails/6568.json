@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6568,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6568,
+               "ccmTech": 2520,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2520,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 1680,
+               "modelName": "TAUNUS 26M XL Coupe (53F)",
+               "motorType": "Essence",
+               "powerHpFrom": 125,
+               "powerHpTo": 125,
+               "powerKwFrom": 92,
+               "powerKwTo": 92,
+               "typeName": "2.5",
+               "typeNumber": 6568,
+               "valves": 2,
+               "yearOfConstrFrom": 196910,
+               "yearOfConstrTo": 197404,
+               "rmiTypeId": 5902
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9798,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9798,
+               "ccmTech": 2295,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2295,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 175,
+               "manuName": "SSANGYONG",
+               "modId": 1905,
+               "modelName": "KORANDO (KJ)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.3",
+               "typeNumber": 9798,
+               "valves": 4,
+               "yearOfConstrFrom": 200201,
+               "yearOfConstrTo": 200606,
+               "rmiTypeId": 68477
+            },
+            "vehicleDocId": "DR9798"
+         }
+      ]
+   },
+   "status": 200
+}

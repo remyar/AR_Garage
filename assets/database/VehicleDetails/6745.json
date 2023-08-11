@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6745,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6745,
+               "ccmTech": 1587,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1587,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 151,
+               "modelName": "COROLLA Liftback (_E9_)",
+               "motorType": "Essence",
+               "powerHpFrom": 125,
+               "powerHpTo": 125,
+               "powerKwFrom": 92,
+               "powerKwTo": 92,
+               "typeName": "1.6 GTI (AE92_)",
+               "typeNumber": 6745,
+               "valves": 4,
+               "yearOfConstrFrom": 198707,
+               "yearOfConstrTo": 199306,
+               "rmiTypeId": 6052
+            },
+            "vehicleDocId": "DR6745"
+         }
+      ]
+   },
+   "status": 200
+}

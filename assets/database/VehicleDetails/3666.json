@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3666,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3666,
+               "ccmTech": 2184,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2184,
+               "cylinderCapacityLiter": 220,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 72,
+               "manuName": "MAZDA",
+               "modId": 521,
+               "modelName": "626 III (GD)",
+               "motorType": "Essence",
+               "powerHpFrom": 115,
+               "powerHpTo": 115,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "2.2 12V (GD102)",
+               "typeNumber": 3666,
+               "valves": 3,
+               "yearOfConstrFrom": 198711,
+               "yearOfConstrTo": 199107,
+               "rmiTypeId": 3364
+            },
+            "vehicleDocId": "DR3666"
+         }
+      ]
+   },
+   "status": 200
+}

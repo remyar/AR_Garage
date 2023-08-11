@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6926,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6926,
+               "ccmTech": 1697,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1697,
+               "cylinderCapacityLiter": 170,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 1746,
+               "modelName": "170 A trois volumes (W136, W191)",
+               "motorType": "Essence",
+               "powerHpFrom": 38,
+               "powerHpTo": 38,
+               "powerKwFrom": 28,
+               "powerKwTo": 28,
+               "typeName": "170 V (136.010)",
+               "typeNumber": 6926,
+               "valves": 2,
+               "yearOfConstrFrom": 194705,
+               "yearOfConstrTo": 195005,
+               "rmiTypeId": 6220
+            }
+         }
+      ]
+   },
+   "status": 200
+}

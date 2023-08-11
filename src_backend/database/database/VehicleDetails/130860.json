@@ -1,0 +1,34 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 130860,
+            "vehicleDetails": {
+               "carId": 130860,
+               "ccmTech": 50,
+               "constructionType": "Camionnette",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 50,
+               "cylinderCapacityLiter": 10,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 181,
+               "manuName": "PIAGGIO",
+               "modId": 38610,
+               "modelName": "APE 50 Camionnette",
+               "motorType": "Moteur à essence (à deux temps)",
+               "powerHpFrom": 3,
+               "powerHpTo": 3,
+               "powerKwFrom": 2,
+               "powerKwTo": 2,
+               "typeName": "0.1",
+               "typeNumber": 130860,
+               "yearOfConstrFrom": 201001,
+               "rmiTypeId": 143847
+            }
+         }
+      ]
+   },
+   "status": 200
+}

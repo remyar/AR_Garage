@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5968,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5968,
+               "ccmTech": 2954,
+               "constructionType": "Monospace",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2954,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 72,
+               "manuName": "MAZDA",
+               "modId": 1582,
+               "modelName": "MPV I (LV)",
+               "motorType": "Essence",
+               "powerHpFrom": 154,
+               "powerHpTo": 154,
+               "powerKwFrom": 113,
+               "powerKwTo": 113,
+               "typeName": "3.0 i V6 (LV10, LV12, LV521, LV321)",
+               "typeNumber": 5968,
+               "valves": 3,
+               "yearOfConstrFrom": 198811,
+               "yearOfConstrTo": 199905,
+               "rmiTypeId": 5385
+            },
+            "vehicleDocId": "DR5968"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8168,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8168,
+               "ccmTech": 2226,
+               "constructionType": "Break",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2226,
+               "cylinderCapacityLiter": 220,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 1940,
+               "modelName": "200 C3 Avant (447, 448)",
+               "motorType": "Essence",
+               "powerHpFrom": 165,
+               "powerHpTo": 165,
+               "powerKwFrom": 121,
+               "powerKwTo": 121,
+               "typeName": "2.2 Turbo",
+               "typeNumber": 8168,
+               "valves": 2,
+               "yearOfConstrFrom": 198508,
+               "yearOfConstrTo": 199109,
+               "rmiTypeId": 7298
+            },
+            "vehicleDocId": "DR8168"
+         }
+      ]
+   },
+   "status": 200
+}

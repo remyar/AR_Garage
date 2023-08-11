@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 480,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 480,
+               "ccmTech": 4973,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4973,
+               "cylinderCapacityLiter": 500,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 106,
+               "modelName": "CLASSE E (W124)",
+               "motorType": "Essence",
+               "powerHpFrom": 320,
+               "powerHpTo": 320,
+               "powerKwFrom": 235,
+               "powerKwTo": 235,
+               "typeName": "E 500 (124.036)",
+               "typeNumber": 480,
+               "valves": 4,
+               "yearOfConstrFrom": 199306,
+               "yearOfConstrTo": 199506,
+               "rmiTypeId": 416
+            },
+            "vehicleDocId": "DR480"
+         }
+      ]
+   },
+   "status": 200
+}

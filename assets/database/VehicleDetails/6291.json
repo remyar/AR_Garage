@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6291,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6291,
+               "ccmTech": 1493,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1493,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 1598,
+               "modelName": "TRANSPORTER T1 Autobus/Autocar (22, 24, 25, 28)",
+               "motorType": "Essence",
+               "powerHpFrom": 44,
+               "powerHpTo": 44,
+               "powerKwFrom": 32,
+               "powerKwTo": 32,
+               "typeName": "1.5",
+               "typeNumber": 6291,
+               "valves": 2,
+               "yearOfConstrFrom": 196607,
+               "yearOfConstrTo": 196707,
+               "rmiTypeId": 5657
+            },
+            "vehicleDocId": "DR6291"
+         }
+      ]
+   },
+   "status": 200
+}

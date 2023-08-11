@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4032,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4032,
+               "ccmTech": 1360,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1360,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 21,
+               "manuName": "CITROËN",
+               "modId": 3469,
+               "modelName": "ZX Break (N2)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.4 i",
+               "typeNumber": 4032,
+               "valves": 2,
+               "yearOfConstrFrom": 199310,
+               "yearOfConstrTo": 199710,
+               "rmiTypeId": 3705
+            },
+            "vehicleDocId": "DR4032"
+         }
+      ]
+   },
+   "status": 200
+}

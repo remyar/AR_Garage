@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5396,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5396,
+               "ccmTech": 1948,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1948,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 1514,
+               "modelName": "V40 Break (645)",
+               "motorType": "Essence",
+               "powerHpFrom": 136,
+               "powerHpTo": 136,
+               "powerKwFrom": 100,
+               "powerKwTo": 100,
+               "typeName": "2.0",
+               "typeNumber": 5396,
+               "valves": 4,
+               "yearOfConstrFrom": 199507,
+               "yearOfConstrTo": 200406,
+               "rmiTypeId": 4973
+            },
+            "vehicleDocId": "DR5396"
+         }
+      ]
+   },
+   "status": 200
+}

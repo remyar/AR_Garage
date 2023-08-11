@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8259,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8259,
+               "ccmTech": 1490,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1490,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 300,
+               "modelName": "33 Sportwagon (905_)",
+               "motorType": "Essence",
+               "powerHpFrom": 95,
+               "powerHpTo": 95,
+               "powerKwFrom": 70,
+               "powerKwTo": 70,
+               "typeName": "1.5 4x4 (905B1, 905A2S)",
+               "typeNumber": 8259,
+               "valves": 2,
+               "yearOfConstrFrom": 198409,
+               "yearOfConstrTo": 198712,
+               "rmiTypeId": 7377
+            },
+            "vehicleDocId": "DR8259"
+         }
+      ]
+   },
+   "status": 200
+}

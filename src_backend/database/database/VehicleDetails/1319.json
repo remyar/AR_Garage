@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1319,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1319,
+               "ccmTech": 2309,
+               "constructionType": "A trois volumes",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2309,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 13,
+               "modelName": "100 C3 A trois volumes (443, 444)",
+               "motorType": "Essence",
+               "powerHpFrom": 136,
+               "powerHpTo": 136,
+               "powerKwFrom": 100,
+               "powerKwTo": 100,
+               "typeName": "2.3 E",
+               "typeNumber": 1319,
+               "valves": 2,
+               "yearOfConstrFrom": 198610,
+               "yearOfConstrTo": 199011,
+               "rmiTypeId": 1176
+            },
+            "vehicleDocId": "DR1319"
+         }
+      ]
+   },
+   "status": 200
+}

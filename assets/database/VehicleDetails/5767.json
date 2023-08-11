@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5767,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5767,
+               "ccmTech": 1781,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1781,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 5,
+               "manuName": "AUDI",
+               "modId": 26,
+               "modelName": "80 B2 A trois volumes (811, 813, 814, 819, 853)",
+               "motorType": "Essence",
+               "powerHpFrom": 93,
+               "powerHpTo": 93,
+               "powerKwFrom": 68,
+               "powerKwTo": 68,
+               "typeName": "1.8 CC quattro (85Q)",
+               "typeNumber": 5767,
+               "valves": 2,
+               "yearOfConstrFrom": 198508,
+               "yearOfConstrTo": 198608,
+               "rmiTypeId": 5307
+            },
+            "vehicleDocId": "DR5767"
+         }
+      ]
+   },
+   "status": 200
+}

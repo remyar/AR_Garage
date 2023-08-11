@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1226,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1226,
+               "ccmTech": 2260,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2260,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 354,
+               "modelName": "OMEGA A (V87)",
+               "motorType": "Diesel",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "2.3 TD (F19, M19, N19)",
+               "typeNumber": 1226,
+               "valves": 2,
+               "yearOfConstrFrom": 198610,
+               "yearOfConstrTo": 198808,
+               "rmiTypeId": 1084
+            }
+         }
+      ]
+   },
+   "status": 200
+}

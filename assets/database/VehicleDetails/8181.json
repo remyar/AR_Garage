@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8181,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8181,
+               "ccmTech": 3995,
+               "constructionType": "Décapotable",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3995,
+               "cylinderCapacityLiter": 400,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 881,
+               "manuName": "ASTON MARTIN",
+               "modId": 1945,
+               "modelName": "DB6 Volante",
+               "motorType": "Essence",
+               "powerHpFrom": 286,
+               "powerHpTo": 286,
+               "powerKwFrom": 210,
+               "powerKwTo": 210,
+               "typeName": "4.0",
+               "typeNumber": 8181,
+               "valves": 2,
+               "yearOfConstrFrom": 196410,
+               "yearOfConstrTo": 197012,
+               "rmiTypeId": 7309
+            },
+            "vehicleDocId": "DR8181"
+         }
+      ]
+   },
+   "status": 200
+}
