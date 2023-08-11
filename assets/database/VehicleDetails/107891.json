@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 107891,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 107891,
+               "ccmTech": 1499,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1499,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 9157,
+               "modelName": "FOCUS III Turnier",
+               "motorType": "Diesel",
+               "powerHpFrom": 105,
+               "powerHpTo": 105,
+               "powerKwFrom": 77,
+               "powerKwTo": 77,
+               "typeName": "1.5 TDCi ECOnetic",
+               "typeNumber": 107891,
+               "valves": 2,
+               "yearOfConstrFrom": 201409,
+               "rmiTypeId": 92633
+            },
+            "vehicleDocId": "DR107891"
+         }
+      ]
+   },
+   "status": 200
+}

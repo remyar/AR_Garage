@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 940,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 940,
+               "ccmTech": 2298,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2298,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 4077,
+               "modelName": "CLASSE G (W461)",
+               "motorType": "Essence",
+               "powerHpFrom": 122,
+               "powerHpTo": 122,
+               "powerKwFrom": 90,
+               "powerKwTo": 90,
+               "typeName": "230 GE (461.238, 461.239)",
+               "typeNumber": 940,
+               "valves": 2,
+               "yearOfConstrFrom": 198909,
+               "yearOfConstrTo": 199607,
+               "rmiTypeId": 824
+            },
+            "vehicleDocId": "DR940"
+         }
+      ]
+   },
+   "status": 200
+}

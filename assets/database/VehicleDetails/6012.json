@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6012,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6012,
+               "ccmTech": 2316,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2316,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 3926,
+               "modelName": "940 Break (945)",
+               "motorType": "Essence",
+               "powerHpFrom": 155,
+               "powerHpTo": 155,
+               "powerKwFrom": 114,
+               "powerKwTo": 114,
+               "typeName": "2.3",
+               "typeNumber": 6012,
+               "valves": 4,
+               "yearOfConstrFrom": 199008,
+               "yearOfConstrTo": 199107,
+               "rmiTypeId": 5420
+            },
+            "vehicleDocId": "DR6012"
+         }
+      ]
+   },
+   "status": 200
+}

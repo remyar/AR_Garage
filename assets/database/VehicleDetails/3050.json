@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3050,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3050,
+               "ccmTech": 1452,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1452,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 63,
+               "manuName": "LADA",
+               "modId": 136,
+               "modelName": "KALINKA (2105)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1500 Special (VAZ2105, WAS21053)",
+               "typeNumber": 3050,
+               "valves": 2,
+               "yearOfConstrFrom": 198503,
+               "yearOfConstrTo": 201204,
+               "rmiTypeId": 2794
+            }
+         }
+      ]
+   },
+   "status": 200
+}

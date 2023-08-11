@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 833,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 833,
+               "ccmTech": 4196,
+               "constructionType": "Coupé",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4196,
+               "cylinderCapacityLiter": 410,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 35,
+               "modelName": "CLASSE S Coupé (C126)",
+               "motorType": "Essence",
+               "powerHpFrom": 218,
+               "powerHpTo": 218,
+               "powerKwFrom": 160,
+               "powerKwTo": 160,
+               "typeName": "420 SEC (126.046)",
+               "typeNumber": 833,
+               "valves": 2,
+               "yearOfConstrFrom": 198510,
+               "yearOfConstrTo": 198712,
+               "rmiTypeId": 730
+            },
+            "vehicleDocId": "DR833"
+         }
+      ]
+   },
+   "status": 200
+}

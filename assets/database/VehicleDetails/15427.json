@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 15427,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 15427,
+               "ccmTech": 4701,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4701,
+               "cylinderCapacityLiter": 470,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 882,
+               "manuName": "JEEP",
+               "modId": 4244,
+               "modelName": "GRAND CHEROKEE II (WJ, WG)",
+               "motorType": "Essence",
+               "powerHpFrom": 223,
+               "powerHpTo": 223,
+               "powerKwFrom": 164,
+               "powerKwTo": 164,
+               "typeName": "4.7 V8 4x4",
+               "typeNumber": 15427,
+               "valves": 2,
+               "yearOfConstrFrom": 199904,
+               "yearOfConstrTo": 200509,
+               "rmiTypeId": 11561
+            },
+            "vehicleDocId": "DR15427"
+         }
+      ]
+   },
+   "status": 200
+}

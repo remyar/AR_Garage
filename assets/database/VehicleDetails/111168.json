@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 111168,
+            "vehicleDetails": {
+               "carId": 111168,
+               "ccmTech": 5461,
+               "constructionType": "SUV",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 5461,
+               "cylinderCapacityLiter": 550,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 13831,
+               "modelName": "GLE Coupe (C292)",
+               "motorType": "Essence",
+               "powerHpFrom": 585,
+               "powerHpTo": 585,
+               "powerKwFrom": 430,
+               "powerKwTo": 430,
+               "typeName": "AMG 63 S 4-matic (292.375)",
+               "typeNumber": 111168,
+               "valves": 4,
+               "yearOfConstrFrom": 201503,
+               "yearOfConstrTo": 201910,
+               "rmiTypeId": 116571
+            },
+            "vehicleDocId": "DR111168"
+         }
+      ]
+   },
+   "status": 200
+}

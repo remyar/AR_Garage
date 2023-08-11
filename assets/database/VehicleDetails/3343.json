@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3343,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3343,
+               "ccmTech": 1795,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1795,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction avant",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 461,
+               "modelName": "GALANT V (E1_A)",
+               "motorType": "Diesel",
+               "powerHpFrom": 82,
+               "powerHpTo": 82,
+               "powerKwFrom": 60,
+               "powerKwTo": 60,
+               "typeName": "1.8 Turbo-D (E14A)",
+               "typeNumber": 3343,
+               "valves": 2,
+               "yearOfConstrFrom": 198406,
+               "yearOfConstrTo": 199004,
+               "rmiTypeId": 3059
+            },
+            "vehicleDocId": "DR3343"
+         }
+      ]
+   },
+   "status": 200
+}

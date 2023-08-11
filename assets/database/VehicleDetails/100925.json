@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 100925,
+            "vehicleDetails": {
+               "carId": 100925,
+               "ccmTech": 3696,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3696,
+               "cylinderCapacityLiter": 370,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 1526,
+               "manuName": "INFINITI",
+               "modId": 11905,
+               "modelName": "Q70 (Y51)",
+               "motorType": "Essence",
+               "powerHpFrom": 320,
+               "powerHpTo": 320,
+               "powerKwFrom": 235,
+               "powerKwTo": 235,
+               "typeName": "3.7",
+               "typeNumber": 100925,
+               "valves": 4,
+               "yearOfConstrFrom": 201303,
+               "rmiTypeId": 89361
+            },
+            "vehicleDocId": "DR100925"
+         }
+      ]
+   },
+   "status": 200
+}

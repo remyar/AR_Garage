@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101999,
+            "vehicleDetails": {
+               "carId": 101999,
+               "ccmTech": 1125,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 1125,
+               "cylinderCapacityLiter": 112,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Courroie",
+               "manuId": 4048,
+               "manuName": "BUELL",
+               "modId": 12113,
+               "modelName": "1125",
+               "motorType": "Essence",
+               "powerHpFrom": 148,
+               "powerHpTo": 148,
+               "powerKwFrom": 109,
+               "powerKwTo": 109,
+               "typeName": "1125 CR",
+               "typeNumber": 101999,
+               "valves": 4,
+               "yearOfConstrFrom": 200807,
+               "yearOfConstrTo": 200912
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10029,
+            "vehicleDetails": {
+               "carId": 10029,
+               "ccmTech": 1229,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1229,
+               "cylinderCapacityLiter": 120,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 138,
+               "manuName": "CHEVROLET",
+               "modId": 9592,
+               "modelName": "AVEO A trois volumes (T300)",
+               "motorType": "Essence",
+               "powerHpFrom": 86,
+               "powerHpTo": 86,
+               "powerKwFrom": 63,
+               "powerKwTo": 63,
+               "typeName": "1.2",
+               "typeNumber": 10029,
+               "valves": 4,
+               "yearOfConstrFrom": 201103,
+               "rmiTypeId": 68238
+            },
+            "vehicleDocId": "DR10029"
+         }
+      ]
+   },
+   "status": 200
+}

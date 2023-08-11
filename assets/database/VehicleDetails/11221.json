@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11221,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 11221,
+               "ccmTech": 2495,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2495,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 1360,
+               "manuName": "ARO",
+               "modId": 4079,
+               "modelName": "240-244",
+               "motorType": "Essence",
+               "powerHpFrom": 80,
+               "powerHpTo": 80,
+               "powerKwFrom": 59,
+               "powerKwTo": 59,
+               "typeName": "2.5",
+               "typeNumber": 11221,
+               "valves": 2,
+               "yearOfConstrFrom": 197804,
+               "yearOfConstrTo": 199812,
+               "rmiTypeId": 9019
+            }
+         }
+      ]
+   },
+   "status": 200
+}

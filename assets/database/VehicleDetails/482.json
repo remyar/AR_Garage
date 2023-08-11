@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 482,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 482,
+               "ccmTech": 1996,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1996,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 24,
+               "modelName": "124 Break (S124)",
+               "motorType": "Essence",
+               "powerHpFrom": 105,
+               "powerHpTo": 105,
+               "powerKwFrom": 77,
+               "powerKwTo": 77,
+               "typeName": "200 T (124.080)",
+               "typeNumber": 482,
+               "valves": 2,
+               "yearOfConstrFrom": 198601,
+               "yearOfConstrTo": 199005,
+               "rmiTypeId": 418
+            },
+            "vehicleDocId": "DR482"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 16002,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 16002,
+               "ccmTech": 2351,
+               "constructionType": "SUV",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2351,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 183,
+               "manuName": "HYUNDAI",
+               "modId": 4712,
+               "modelName": "SANTA FÉ I (SM)",
+               "motorType": "Essence",
+               "powerHpFrom": 136,
+               "powerHpTo": 136,
+               "powerKwFrom": 100,
+               "powerKwTo": 100,
+               "typeName": "2.4 16V 4x4",
+               "typeNumber": 16002,
+               "valves": 4,
+               "yearOfConstrFrom": 200102,
+               "yearOfConstrTo": 200603,
+               "rmiTypeId": 12081
+            },
+            "vehicleDocId": "DR16002"
+         }
+      ]
+   },
+   "status": 200
+}

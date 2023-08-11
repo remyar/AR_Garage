@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1213,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1213,
+               "ccmTech": 2784,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2784,
+               "cylinderCapacityLiter": 280,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 62,
+               "modelName": "COMMODORE B",
+               "motorType": "Essence",
+               "powerHpFrom": 155,
+               "powerHpTo": 155,
+               "powerKwFrom": 114,
+               "powerKwTo": 114,
+               "typeName": "2.8 GS/E",
+               "typeNumber": 1213,
+               "valves": 2,
+               "yearOfConstrFrom": 197503,
+               "yearOfConstrTo": 197807,
+               "rmiTypeId": 1071
+            },
+            "vehicleDocId": "DR1213"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3401,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3401,
+               "ccmTech": 1997,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1997,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 1813,
+               "modelName": "L 300 III Camionnette (P0_V, P1_V, P2_V)",
+               "motorType": "Essence",
+               "powerHpFrom": 87,
+               "powerHpTo": 87,
+               "powerKwFrom": 64,
+               "powerKwTo": 64,
+               "typeName": "2.0 (P03V, P13V)",
+               "typeNumber": 3401,
+               "valves": 2,
+               "yearOfConstrFrom": 198611,
+               "yearOfConstrTo": 199605,
+               "rmiTypeId": 3114
+            },
+            "vehicleDocId": "DR3401"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 32050,
+            "vehicleDetails": {
+               "carId": 32050,
+               "ccmTech": 2993,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2993,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 1820,
+               "manuName": "LAND ROVER",
+               "modId": 9015,
+               "modelName": "DISCOVERY IV (L319)",
+               "motorType": "Diesel",
+               "powerHpFrom": 245,
+               "powerHpTo": 245,
+               "powerKwFrom": 180,
+               "powerKwTo": 180,
+               "typeName": "3.0 TD 4x4",
+               "typeNumber": 32050,
+               "valves": 4,
+               "yearOfConstrFrom": 200909,
+               "yearOfConstrTo": 201812,
+               "rmiTypeId": 61521
+            },
+            "vehicleDocId": "DR32050"
+         }
+      ]
+   },
+   "status": 200
+}

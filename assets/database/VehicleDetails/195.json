@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 195,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 195,
+               "ccmTech": 1290,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1290,
+               "cylinderCapacityLiter": 130,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 345,
+               "modelName": "GIULIA (105_)",
+               "motorType": "Essence",
+               "powerHpFrom": 87,
+               "powerHpTo": 87,
+               "powerKwFrom": 64,
+               "powerKwTo": 64,
+               "typeName": "1300 Super (115)",
+               "typeNumber": 195,
+               "valves": 2,
+               "yearOfConstrFrom": 197401,
+               "yearOfConstrTo": 197812,
+               "rmiTypeId": 167
+            },
+            "vehicleDocId": "DR195"
+         }
+      ]
+   },
+   "status": 200
+}

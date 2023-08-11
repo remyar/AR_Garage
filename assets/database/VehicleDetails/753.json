@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 753,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 753,
+               "ccmTech": 2960,
+               "constructionType": "Décapotable",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2960,
+               "cylinderCapacityLiter": 290,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 570,
+               "modelName": "SL (R107)",
+               "motorType": "Essence",
+               "powerHpFrom": 188,
+               "powerHpTo": 188,
+               "powerKwFrom": 138,
+               "powerKwTo": 138,
+               "typeName": "300 SL (107.041)",
+               "typeNumber": 753,
+               "valves": 2,
+               "yearOfConstrFrom": 198509,
+               "yearOfConstrTo": 198908,
+               "rmiTypeId": 660
+            },
+            "vehicleDocId": "DR753"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5266,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5266,
+               "ccmTech": 1587,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1587,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 170,
+               "modelName": "COROLLA Break (_E10_)",
+               "motorType": "Essence",
+               "powerHpFrom": 114,
+               "powerHpTo": 114,
+               "powerKwFrom": 84,
+               "powerKwTo": 84,
+               "typeName": "1.6 Si (AE101_)",
+               "typeNumber": 5266,
+               "valves": 4,
+               "yearOfConstrFrom": 199207,
+               "yearOfConstrTo": 199704,
+               "rmiTypeId": 4861
+            },
+            "vehicleDocId": "DR5266"
+         }
+      ]
+   },
+   "status": 200
+}

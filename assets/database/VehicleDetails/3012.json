@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3012,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3012,
+               "ccmTech": 1985,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1985,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 99,
+               "manuName": "SAAB",
+               "modId": 129,
+               "modelName": "9000",
+               "motorType": "Essence",
+               "powerHpFrom": 163,
+               "powerHpTo": 163,
+               "powerKwFrom": 120,
+               "powerKwTo": 120,
+               "typeName": "2.0 -16 Turbo CD",
+               "typeNumber": 3012,
+               "valves": 4,
+               "yearOfConstrFrom": 198809,
+               "yearOfConstrTo": 199308,
+               "rmiTypeId": 2757
+            },
+            "vehicleDocId": "DR3012"
+         }
+      ]
+   },
+   "status": 200
+}

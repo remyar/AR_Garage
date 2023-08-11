@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 143416,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 143416,
+               "ccmTech": 4395,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4395,
+               "cylinderCapacityLiter": 440,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 37157,
+               "modelName": "5 (G30, F90)",
+               "motorType": "Essence",
+               "powerHpFrom": 635,
+               "powerHpTo": 635,
+               "powerKwFrom": 467,
+               "powerKwTo": 467,
+               "typeName": "M5 CS",
+               "typeNumber": 143416,
+               "valves": 4,
+               "yearOfConstrFrom": 202103,
+               "rmiTypeId": 182575
+            },
+            "vehicleDocId": "DR143416"
+         }
+      ]
+   },
+   "status": 200
+}

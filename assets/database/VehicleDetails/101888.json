@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101888,
+            "vehicleDetails": {
+               "carId": 101888,
+               "ccmTech": 641,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 641,
+               "cylinderCapacityLiter": 64,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 109,
+               "manuName": "SUZUKI",
+               "modId": 12622,
+               "modelName": "DR",
+               "motorType": "Essence",
+               "powerHpFrom": 45,
+               "powerHpTo": 45,
+               "powerKwFrom": 33,
+               "powerKwTo": 33,
+               "typeName": "DR 650 RSE (SP43B)",
+               "typeNumber": 101888,
+               "valves": 4,
+               "yearOfConstrFrom": 199101,
+               "yearOfConstrTo": 199612
+            }
+         }
+      ]
+   },
+   "status": 200
+}

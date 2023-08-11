@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5027,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5027,
+               "ccmTech": 2226,
+               "constructionType": "A trois volumes",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2226,
+               "cylinderCapacityLiter": 220,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 1447,
+               "modelName": "PASSAT B2 A trois volumes (32B)",
+               "motorType": "Essence",
+               "powerHpFrom": 115,
+               "powerHpTo": 115,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "2.2",
+               "typeNumber": 5027,
+               "valves": 2,
+               "yearOfConstrFrom": 198501,
+               "yearOfConstrTo": 198803,
+               "rmiTypeId": 4642
+            },
+            "vehicleDocId": "DR5027"
+         }
+      ]
+   },
+   "status": 200
+}

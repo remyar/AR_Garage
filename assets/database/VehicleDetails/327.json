@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 327,
+            "vehicleDetails": {
+               "carId": 327,
+               "ccmTech": 1598,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1598,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 9004,
+               "modelName": "PASSAT B7 Variant (365)",
+               "motorType": "Diesel",
+               "powerHpFrom": 105,
+               "powerHpTo": 105,
+               "powerKwFrom": 77,
+               "powerKwTo": 77,
+               "typeName": "1.6 TDI",
+               "typeNumber": 327,
+               "valves": 4,
+               "yearOfConstrFrom": 201008,
+               "yearOfConstrTo": 201412,
+               "rmiTypeId": 64621
+            },
+            "vehicleDocId": "DR327"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11800,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 11800,
+               "ccmTech": 2993,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2993,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 92,
+               "manuName": "PORSCHE",
+               "modId": 134,
+               "modelName": "911",
+               "motorType": "Essence",
+               "powerHpFrom": 260,
+               "powerHpTo": 260,
+               "powerKwFrom": 191,
+               "powerKwTo": 191,
+               "typeName": "3.0 Turbo",
+               "typeNumber": 11800,
+               "valves": 2,
+               "yearOfConstrFrom": 197501,
+               "yearOfConstrTo": 197712,
+               "rmiTypeId": 9279
+            }
+         }
+      ]
+   },
+   "status": 200
+}

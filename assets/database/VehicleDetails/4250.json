@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4250,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4250,
+               "ccmTech": 1590,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1590,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 1278,
+               "modelName": "CIVIC II Shuttle (EE)",
+               "motorType": "Essence",
+               "powerHpFrom": 109,
+               "powerHpTo": 109,
+               "powerKwFrom": 80,
+               "powerKwTo": 80,
+               "typeName": "1.6 i 16V 4WD (EE4)",
+               "typeNumber": 4250,
+               "valves": 4,
+               "yearOfConstrFrom": 198801,
+               "yearOfConstrTo": 198912,
+               "rmiTypeId": 3919
+            }
+         }
+      ]
+   },
+   "status": 200
+}

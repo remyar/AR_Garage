@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10786,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10786,
+               "ccmTech": 1995,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1995,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 54,
+               "manuName": "ISUZU",
+               "modId": 2057,
+               "modelName": "MIDI Camionnette (98000N)",
+               "motorType": "Essence",
+               "powerHpFrom": 83,
+               "powerHpTo": 83,
+               "powerKwFrom": 61,
+               "powerKwTo": 61,
+               "typeName": "2.0 4WD",
+               "typeNumber": 10786,
+               "valves": 2,
+               "yearOfConstrFrom": 198806,
+               "yearOfConstrTo": 199208,
+               "rmiTypeId": 8824
+            },
+            "vehicleDocId": "DR10786"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6821,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6821,
+               "ccmTech": 5993,
+               "constructionType": "A trois volumes",
+               "cylinder": 12,
+               "cylinderCapacityCcm": 5993,
+               "cylinderCapacityLiter": 600,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 26,
+               "manuName": "DAIMLER",
+               "modId": 1715,
+               "modelName": "XJ 40, 81",
+               "motorType": "Essence",
+               "powerHpFrom": 311,
+               "powerHpTo": 311,
+               "powerKwFrom": 229,
+               "powerKwTo": 229,
+               "typeName": "Double Six 6.0",
+               "typeNumber": 6821,
+               "valves": 2,
+               "yearOfConstrFrom": 199302,
+               "yearOfConstrTo": 199409,
+               "rmiTypeId": 6122
+            },
+            "vehicleDocId": "DR6821"
+         }
+      ]
+   },
+   "status": 200
+}

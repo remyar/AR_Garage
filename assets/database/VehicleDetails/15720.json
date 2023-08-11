@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 15720,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 15720,
+               "ccmTech": 3199,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3199,
+               "cylinderCapacityLiter": 320,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 4754,
+               "modelName": "CLASSE C T-Model (S203)",
+               "motorType": "Essence",
+               "powerHpFrom": 218,
+               "powerHpTo": 218,
+               "powerKwFrom": 160,
+               "powerKwTo": 160,
+               "typeName": "C 320 (203.264)",
+               "typeNumber": 15720,
+               "valves": 3,
+               "yearOfConstrFrom": 200103,
+               "yearOfConstrTo": 200708,
+               "rmiTypeId": 11831
+            },
+            "vehicleDocId": "DR15720"
+         }
+      ]
+   },
+   "status": 200
+}

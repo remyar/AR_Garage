@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 641,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 641,
+               "ccmTech": 1598,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1598,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 80,
+               "modelName": "KADETT E Break (T85)",
+               "motorType": "Diesel",
+               "powerHpFrom": 54,
+               "powerHpTo": 54,
+               "powerKwFrom": 40,
+               "powerKwTo": 40,
+               "typeName": "1.6 D (C15, C35, D15, D35)",
+               "typeNumber": 641,
+               "valves": 2,
+               "yearOfConstrFrom": 198409,
+               "yearOfConstrTo": 198901,
+               "rmiTypeId": 565
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 34772,
+            "vehicleDetails": {
+               "carId": 34772,
+               "ccmTech": 5000,
+               "constructionType": "Coupé",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 5000,
+               "cylinderCapacityLiter": 500,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 56,
+               "manuName": "JAGUAR",
+               "modId": 5480,
+               "modelName": "XK II Coupé (X150)",
+               "motorType": "Essence",
+               "powerHpFrom": 385,
+               "powerHpTo": 385,
+               "powerKwFrom": 283,
+               "powerKwTo": 283,
+               "typeName": "5.0 V8",
+               "typeNumber": 34772,
+               "valves": 4,
+               "yearOfConstrFrom": 200901,
+               "yearOfConstrTo": 201407,
+               "rmiTypeId": 65262
+            },
+            "vehicleDocId": "DR34772"
+         }
+      ]
+   },
+   "status": 200
+}

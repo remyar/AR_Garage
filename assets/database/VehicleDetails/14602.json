@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 14602,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 14602,
+               "ccmTech": 2990,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2990,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 304,
+               "modelName": "3 (E36)",
+               "motorType": "Essence",
+               "powerHpFrom": 286,
+               "powerHpTo": 286,
+               "powerKwFrom": 210,
+               "powerKwTo": 210,
+               "typeName": "M3 3.0",
+               "typeNumber": 14602,
+               "valves": 4,
+               "yearOfConstrFrom": 199410,
+               "yearOfConstrTo": 199507,
+               "rmiTypeId": 10785
+            },
+            "vehicleDocId": "DR14602"
+         }
+      ]
+   },
+   "status": 200
+}

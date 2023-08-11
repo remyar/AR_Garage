@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4309,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4309,
+               "ccmTech": 2977,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2977,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 1262,
+               "modelName": "NSX I Coupé (NA)",
+               "motorType": "Essence",
+               "powerHpFrom": 256,
+               "powerHpTo": 256,
+               "powerKwFrom": 188,
+               "powerKwTo": 188,
+               "typeName": "3.0 24V Vtec Automatik (NA1)",
+               "typeNumber": 4309,
+               "valves": 4,
+               "yearOfConstrFrom": 199006,
+               "yearOfConstrTo": 200509,
+               "rmiTypeId": 3978
+            },
+            "vehicleDocId": "DR4309"
+         }
+      ]
+   },
+   "status": 200
+}

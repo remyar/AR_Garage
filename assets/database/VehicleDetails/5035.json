@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5035,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5035,
+               "ccmTech": 2933,
+               "constructionType": "3/5 portes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2933,
+               "cylinderCapacityLiter": 290,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 218,
+               "modelName": "SCORPIO I (GAE, GGE)",
+               "motorType": "Essence",
+               "powerHpFrom": 145,
+               "powerHpTo": 145,
+               "powerKwFrom": 107,
+               "powerKwTo": 107,
+               "typeName": "2.9 i 4x4",
+               "typeNumber": 5035,
+               "valves": 2,
+               "yearOfConstrFrom": 198805,
+               "yearOfConstrTo": 199302,
+               "rmiTypeId": 4650
+            },
+            "vehicleDocId": "DR5035"
+         }
+      ]
+   },
+   "status": 200
+}

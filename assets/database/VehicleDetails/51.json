@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 51,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 51,
+               "ccmTech": 1796,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1796,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 304,
+               "modelName": "3 (E36)",
+               "motorType": "Essence",
+               "powerHpFrom": 113,
+               "powerHpTo": 113,
+               "powerKwFrom": 83,
+               "powerKwTo": 83,
+               "typeName": "318 i",
+               "typeNumber": 51,
+               "valves": 2,
+               "yearOfConstrFrom": 199009,
+               "yearOfConstrTo": 199308,
+               "rmiTypeId": 47
+            },
+            "vehicleDocId": "DR51"
+         }
+      ]
+   },
+   "status": 200
+}

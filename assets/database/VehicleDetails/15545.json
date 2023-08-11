@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 15545,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 15545,
+               "ccmTech": 1595,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1595,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 4125,
+               "modelName": "BORA Variant (1J6)",
+               "motorType": "Essence",
+               "powerHpFrom": 102,
+               "powerHpTo": 102,
+               "powerKwFrom": 75,
+               "powerKwTo": 75,
+               "typeName": "1.6",
+               "typeNumber": 15545,
+               "valves": 2,
+               "yearOfConstrFrom": 200008,
+               "yearOfConstrTo": 200505,
+               "rmiTypeId": 11674
+            },
+            "vehicleDocId": "DR15545"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1936,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1936,
+               "ccmTech": 1588,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1588,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 419,
+               "modelName": "PASSAT B2 Variant (33B)",
+               "motorType": "Diesel",
+               "powerHpFrom": 70,
+               "powerHpTo": 70,
+               "powerKwFrom": 51,
+               "powerKwTo": 51,
+               "typeName": "1.6 TD",
+               "typeNumber": 1936,
+               "valves": 2,
+               "yearOfConstrFrom": 198204,
+               "yearOfConstrTo": 198803,
+               "rmiTypeId": 1755
+            },
+            "vehicleDocId": "DR1936"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1761,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1761,
+               "ccmTech": 1795,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1795,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 455,
+               "modelName": "TRANSPORTER T2 Autobus/Autocar (22, 23, 24)",
+               "motorType": "Essence",
+               "powerHpFrom": 68,
+               "powerHpTo": 68,
+               "powerKwFrom": 50,
+               "powerKwTo": 50,
+               "typeName": "1.8",
+               "typeNumber": 1761,
+               "valves": 2,
+               "yearOfConstrFrom": 197311,
+               "yearOfConstrTo": 197507,
+               "rmiTypeId": 1589
+            },
+            "vehicleDocId": "DR1761"
+         }
+      ]
+   },
+   "status": 200
+}

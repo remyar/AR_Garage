@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1002,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1002,
+               "ccmTech": 2792,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2792,
+               "cylinderCapacityLiter": 280,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 3958,
+               "modelName": "CAPRI III (GECP)",
+               "motorType": "Essence",
+               "powerHpFrom": 160,
+               "powerHpTo": 160,
+               "powerKwFrom": 118,
+               "powerKwTo": 118,
+               "typeName": "2.8 Super Injection",
+               "typeNumber": 1002,
+               "valves": 2,
+               "yearOfConstrFrom": 198101,
+               "yearOfConstrTo": 198704,
+               "rmiTypeId": 884
+            },
+            "vehicleDocId": "DR1002"
+         }
+      ]
+   },
+   "status": 200
+}

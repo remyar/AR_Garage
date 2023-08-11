@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 19339,
+            "vehicleDetails": {
+               "carId": 19339,
+               "ccmTech": 3456,
+               "constructionType": "SUV",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3456,
+               "cylinderCapacityLiter": 350,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission, Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 842,
+               "manuName": "LEXUS",
+               "modId": 5001,
+               "modelName": "RX (_U3_)",
+               "motorType": "Essence",
+               "powerHpFrom": 276,
+               "powerHpTo": 276,
+               "powerKwFrom": 203,
+               "powerKwTo": 203,
+               "typeName": "350 AWD (GSU35_)",
+               "typeNumber": 19339,
+               "valves": 4,
+               "yearOfConstrFrom": 200602,
+               "yearOfConstrTo": 200812,
+               "rmiTypeId": 39976
+            },
+            "vehicleDocId": "DR19339"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 111066,
+            "vehicleDetails": {
+               "carId": 111066,
+               "ccmTech": 2261,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2261,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence/gaz naturel (GNC)",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 5572,
+               "modelName": "TRANSIT Camionnette (FA_ _)",
+               "motorType": "Essence",
+               "powerHpFrom": 136,
+               "powerHpTo": 136,
+               "powerKwFrom": 100,
+               "powerKwTo": 100,
+               "typeName": "2.3 16V CNG RWD",
+               "typeNumber": 111066,
+               "valves": 4,
+               "yearOfConstrFrom": 200604,
+               "yearOfConstrTo": 201408,
+               "rmiTypeId": 92876
+            },
+            "vehicleDocId": "DR111066"
+         }
+      ]
+   },
+   "status": 200
+}

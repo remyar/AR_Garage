@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 107440,
+            "vehicleDetails": {
+               "carId": 107440,
+               "ccmTech": 2287,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2287,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 55,
+               "manuName": "IVECO",
+               "modId": 13060,
+               "modelName": "DAILY VI Camionnette",
+               "motorType": "Diesel",
+               "powerHpFrom": 106,
+               "powerHpTo": 106,
+               "powerKwFrom": 78,
+               "powerKwTo": 78,
+               "typeName": "33S11, 35S11, 35C11",
+               "typeNumber": 107440,
+               "valves": 4,
+               "yearOfConstrFrom": 201403,
+               "rmiTypeId": 91274
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5727,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5727,
+               "ccmTech": 2324,
+               "constructionType": "A trois volumes",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2324,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 1568,
+               "modelName": "PASSAT B5 (3B2)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.3 VR5",
+               "typeNumber": 5727,
+               "valves": 2,
+               "yearOfConstrFrom": 199610,
+               "yearOfConstrTo": 200011,
+               "rmiTypeId": 5277
+            },
+            "vehicleDocId": "DR5727"
+         }
+      ]
+   },
+   "status": 200
+}

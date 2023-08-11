@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 120123,
+            "vehicleDetails": {
+               "carId": 120123,
+               "ccmTech": 1991,
+               "constructionType": "Décapotable",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1991,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 36610,
+               "modelName": "CLASSE C Décapotable (A205)",
+               "motorType": "Essence",
+               "powerHpFrom": 184,
+               "powerHpTo": 184,
+               "powerKwFrom": 135,
+               "powerKwTo": 135,
+               "typeName": "C 200 4-matic (205.443)",
+               "typeNumber": 120123,
+               "valves": 4,
+               "yearOfConstrFrom": 201606,
+               "yearOfConstrTo": 201805,
+               "rmiTypeId": 128454
+            },
+            "vehicleDocId": "DR120123"
+         }
+      ]
+   },
+   "status": 200
+}

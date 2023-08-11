@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1337,
+            "vehicleDetails": {
+               "carId": 1337,
+               "ccmTech": 2979,
+               "constructionType": "Décapotable",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2979,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 866,
+               "manuName": "ALPINA",
+               "modId": 9021,
+               "modelName": "B3 Décapotable (E93)",
+               "motorType": "Essence",
+               "powerHpFrom": 400,
+               "powerHpTo": 400,
+               "powerKwFrom": 294,
+               "powerKwTo": 294,
+               "typeName": "S Bi-Turbo",
+               "typeNumber": 1337,
+               "valves": 4,
+               "yearOfConstrFrom": 201004,
+               "yearOfConstrTo": 201305,
+               "rmiTypeId": 66153
+            },
+            "vehicleDocId": "DR1337"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101711,
+            "vehicleDetails": {
+               "carId": 101711,
+               "ccmTech": 654,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 654,
+               "cylinderCapacityLiter": 65,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 1021,
+               "manuName": "YAMAHA",
+               "modId": 12721,
+               "modelName": "XS",
+               "motorType": "Essence",
+               "powerHpFrom": 50,
+               "powerHpTo": 50,
+               "powerKwFrom": 37,
+               "powerKwTo": 37,
+               "typeName": "XS 650 (447)",
+               "typeNumber": 101711,
+               "valves": 2,
+               "yearOfConstrFrom": 197501,
+               "yearOfConstrTo": 198312
+            }
+         }
+      ]
+   },
+   "status": 200
+}

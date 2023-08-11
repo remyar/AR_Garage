@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1343,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1343,
+               "ccmTech": 1994,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1994,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 349,
+               "modelName": "ESCORT V (AAL, ABL)",
+               "motorType": "Essence",
+               "powerHpFrom": 220,
+               "powerHpTo": 220,
+               "powerKwFrom": 162,
+               "powerKwTo": 162,
+               "typeName": "RS Cosworth 4x4",
+               "typeNumber": 1343,
+               "valves": 4,
+               "yearOfConstrFrom": 199110,
+               "yearOfConstrTo": 199501,
+               "rmiTypeId": 1195
+            },
+            "vehicleDocId": "DR1343"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10175,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10175,
+               "ccmTech": 1390,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1390,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 3884,
+               "modelName": "BORA I (1J2)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.4 16V",
+               "typeNumber": 10175,
+               "valves": 4,
+               "yearOfConstrFrom": 200003,
+               "yearOfConstrTo": 200505,
+               "rmiTypeId": 8598
+            },
+            "vehicleDocId": "DR10175"
+         }
+      ]
+   },
+   "status": 200
+}

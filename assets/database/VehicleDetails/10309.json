@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10309,
+            "vehicleDetails": {
+               "carId": 10309,
+               "ccmTech": 2488,
+               "constructionType": "SUV",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2488,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 7870,
+               "modelName": "MURANO II (Z51)",
+               "motorType": "Diesel",
+               "powerHpFrom": 190,
+               "powerHpTo": 190,
+               "powerKwFrom": 140,
+               "powerKwTo": 140,
+               "typeName": "2.5 dCi 4x4",
+               "typeNumber": 10309,
+               "valves": 4,
+               "yearOfConstrFrom": 201001,
+               "yearOfConstrTo": 201409,
+               "rmiTypeId": 64660
+            },
+            "vehicleDocId": "DR10309"
+         }
+      ]
+   },
+   "status": 200
+}

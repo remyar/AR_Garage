@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3070,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3070,
+               "ccmTech": 4235,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 4235,
+               "cylinderCapacityLiter": 420,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 56,
+               "manuName": "JAGUAR",
+               "modId": 101,
+               "modelName": "XJ",
+               "motorType": "Essence",
+               "powerHpFrom": 169,
+               "powerHpTo": 169,
+               "powerKwFrom": 124,
+               "powerKwTo": 124,
+               "typeName": "6 4.2",
+               "typeNumber": 3070,
+               "valves": 2,
+               "yearOfConstrFrom": 197311,
+               "yearOfConstrTo": 198001,
+               "rmiTypeId": 2813
+            },
+            "vehicleDocId": "DR3070"
+         }
+      ]
+   },
+   "status": 200
+}

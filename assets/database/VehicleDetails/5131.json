@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5131,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5131,
+               "ccmTech": 2429,
+               "constructionType": "Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2429,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 20,
+               "manuName": "CHRYSLER",
+               "modId": 1456,
+               "modelName": "VOYAGER / GRAND VOYAGER III (GS_, NS_)",
+               "motorType": "Essence",
+               "powerHpFrom": 151,
+               "powerHpTo": 151,
+               "powerKwFrom": 111,
+               "powerKwTo": 111,
+               "typeName": "2.4 i",
+               "typeNumber": 5131,
+               "valves": 4,
+               "yearOfConstrFrom": 199501,
+               "yearOfConstrTo": 200103,
+               "rmiTypeId": 4739
+            },
+            "vehicleDocId": "DR5131"
+         }
+      ]
+   },
+   "status": 200
+}

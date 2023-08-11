@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 32,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 32,
+               "ccmTech": 2302,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2302,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 290,
+               "modelName": "3 (E30)",
+               "motorType": "Essence",
+               "powerHpFrom": 200,
+               "powerHpTo": 200,
+               "powerKwFrom": 147,
+               "powerKwTo": 147,
+               "typeName": "M3 2.3",
+               "typeNumber": 32,
+               "valves": 4,
+               "yearOfConstrFrom": 198702,
+               "yearOfConstrTo": 198905,
+               "rmiTypeId": 28
+            },
+            "vehicleDocId": "DR32"
+         }
+      ]
+   },
+   "status": 200
+}

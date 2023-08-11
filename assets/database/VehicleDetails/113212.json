@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 113212,
+            "vehicleDetails": {
+               "carId": 113212,
+               "ccmTech": 150,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 150,
+               "cylinderCapacityLiter": 15,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 2532,
+               "manuName": "BENELLI",
+               "modId": 12101,
+               "modelName": "ADIVA",
+               "motorType": "Essence",
+               "powerHpFrom": 12,
+               "powerHpTo": 12,
+               "powerKwFrom": 9,
+               "powerKwTo": 9,
+               "typeName": "Adiva 150",
+               "typeNumber": 113212,
+               "valves": 2,
+               "yearOfConstrFrom": 200101,
+               "yearOfConstrTo": 200612
+            }
+         }
+      ]
+   },
+   "status": 200
+}

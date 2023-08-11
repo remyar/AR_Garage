@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 112049,
+            "vehicleDetails": {
+               "carId": 112049,
+               "ccmTech": 124,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 124,
+               "cylinderCapacityLiter": 12,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 4241,
+               "manuName": "HUSQVARNA",
+               "modId": 13937,
+               "modelName": "WSM",
+               "motorType": "Essence",
+               "powerHpFrom": 11,
+               "powerHpTo": 11,
+               "powerKwFrom": 8,
+               "powerKwTo": 8,
+               "typeName": "WSM125",
+               "typeNumber": 112049,
+               "valves": 4,
+               "yearOfConstrFrom": 200501,
+               "yearOfConstrTo": 200712
+            }
+         }
+      ]
+   },
+   "status": 200
+}

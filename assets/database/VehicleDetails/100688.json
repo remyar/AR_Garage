@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 100688,
+            "vehicleDetails": {
+               "carId": 100688,
+               "ccmTech": 5000,
+               "constructionType": "Coupé",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 5000,
+               "cylinderCapacityLiter": 500,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 56,
+               "manuName": "JAGUAR",
+               "modId": 11839,
+               "modelName": "F-TYPE Coupé (X152)",
+               "motorType": "Essence",
+               "powerHpFrom": 551,
+               "powerHpTo": 551,
+               "powerKwFrom": 405,
+               "powerKwTo": 405,
+               "typeName": "5.0 SCV8 R",
+               "typeNumber": 100688,
+               "valves": 4,
+               "yearOfConstrFrom": 201310,
+               "rmiTypeId": 88009
+            },
+            "vehicleDocId": "DR100688"
+         }
+      ]
+   },
+   "status": 200
+}

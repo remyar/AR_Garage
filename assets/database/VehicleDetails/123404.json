@@ -1,0 +1,34 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123404,
+            "vehicleDetails": {
+               "carId": 123404,
+               "ccmTech": 999,
+               "constructionType": "Moto",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 999,
+               "cylinderCapacityLiter": 100,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 12112,
+               "modelName": "S",
+               "motorType": "Essence",
+               "powerHpFrom": 107,
+               "powerHpTo": 107,
+               "powerKwFrom": 79,
+               "powerKwTo": 79,
+               "typeName": "S 1000 R (2X10r, 2R10r)",
+               "typeNumber": 123404,
+               "valves": 4,
+               "yearOfConstrFrom": 201701
+            }
+         }
+      ]
+   },
+   "status": 200
+}

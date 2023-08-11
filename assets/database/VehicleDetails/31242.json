@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 31242,
+            "vehicleDetails": {
+               "carId": 31242,
+               "ccmTech": 1596,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1596,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 63,
+               "manuName": "LADA",
+               "modId": 4132,
+               "modelName": "111 (2111)",
+               "motorType": "Essence",
+               "powerHpFrom": 82,
+               "powerHpTo": 82,
+               "powerKwFrom": 60,
+               "powerKwTo": 60,
+               "typeName": "1.6",
+               "typeNumber": 31242,
+               "valves": 2,
+               "yearOfConstrFrom": 200409,
+               "yearOfConstrTo": 200902,
+               "rmiTypeId": 60254
+            },
+            "vehicleDocId": "DR31242"
+         }
+      ]
+   },
+   "status": 200
+}

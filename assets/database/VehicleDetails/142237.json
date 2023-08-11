@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 142237,
+            "vehicleDetails": {
+               "carId": 142237,
+               "ccmTech": 2498,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2498,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission, Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 107,
+               "manuName": "SUBARU",
+               "modId": 40680,
+               "modelName": "OUTBACK (BT)",
+               "motorType": "Essence",
+               "powerHpFrom": 175,
+               "powerHpTo": 175,
+               "powerKwFrom": 129,
+               "powerKwTo": 129,
+               "typeName": "2.5 AWD",
+               "typeNumber": 142237,
+               "valves": 4,
+               "yearOfConstrFrom": 202007,
+               "rmiTypeId": 176160
+            },
+            "vehicleDocId": "DR142237"
+         }
+      ]
+   },
+   "status": 200
+}

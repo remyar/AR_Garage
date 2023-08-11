@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5536,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5536,
+               "ccmTech": 1389,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1389,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 3440,
+               "modelName": "ASTRA F Break (T92)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.4 i 16V (F35, M35)",
+               "typeNumber": 5536,
+               "valves": 4,
+               "yearOfConstrFrom": 199602,
+               "yearOfConstrTo": 199801,
+               "rmiTypeId": 5101
+            },
+            "vehicleDocId": "DR5536"
+         }
+      ]
+   },
+   "status": 200
+}

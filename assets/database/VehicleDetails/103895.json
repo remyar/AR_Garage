@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 103895,
+            "vehicleDetails": {
+               "carId": 103895,
+               "ccmTech": 124,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 124,
+               "cylinderCapacityLiter": 12,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 181,
+               "manuName": "PIAGGIO",
+               "modId": 12533,
+               "modelName": "FLY",
+               "motorType": "Essence",
+               "powerHpFrom": 10,
+               "powerHpTo": 10,
+               "powerKwFrom": 8,
+               "powerKwTo": 8,
+               "typeName": "Fly 125 (M42)",
+               "typeNumber": 103895,
+               "valves": 2,
+               "yearOfConstrFrom": 200501,
+               "yearOfConstrTo": 201312
+            }
+         }
+      ]
+   },
+   "status": 200
+}

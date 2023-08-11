@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1503,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1503,
+               "ccmTech": 1593,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1593,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 355,
+               "modelName": "TAUNUS Turnier (GBNS)",
+               "motorType": "Essence",
+               "powerHpFrom": 72,
+               "powerHpTo": 72,
+               "powerKwFrom": 53,
+               "powerKwTo": 53,
+               "typeName": "1.6",
+               "typeNumber": 1503,
+               "valves": 2,
+               "yearOfConstrFrom": 197505,
+               "yearOfConstrTo": 197907,
+               "rmiTypeId": 1343
+            }
+         }
+      ]
+   },
+   "status": 200
+}

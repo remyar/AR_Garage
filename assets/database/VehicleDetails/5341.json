@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5341,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5341,
+               "ccmTech": 1998,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1998,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 1487,
+               "modelName": "VITO Autobus/Autocar (W638)",
+               "motorType": "Essence",
+               "powerHpFrom": 129,
+               "powerHpTo": 129,
+               "powerKwFrom": 95,
+               "powerKwTo": 95,
+               "typeName": "113 2.0 (638.114, 638.194)",
+               "typeNumber": 5341,
+               "valves": 4,
+               "yearOfConstrFrom": 199602,
+               "yearOfConstrTo": 200307,
+               "rmiTypeId": 4924
+            },
+            "vehicleDocId": "DR5341"
+         }
+      ]
+   },
+   "status": 200
+}

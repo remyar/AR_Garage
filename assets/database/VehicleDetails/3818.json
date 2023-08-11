@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3818,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3818,
+               "ccmTech": 1665,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1665,
+               "cylinderCapacityLiter": 170,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 304,
+               "modelName": "3 (E36)",
+               "motorType": "Diesel",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "318 tds",
+               "typeNumber": 3818,
+               "valves": 2,
+               "yearOfConstrFrom": 199501,
+               "yearOfConstrTo": 199802,
+               "rmiTypeId": 3508
+            },
+            "vehicleDocId": "DR3818"
+         }
+      ]
+   },
+   "status": 200
+}

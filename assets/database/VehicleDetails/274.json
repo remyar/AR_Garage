@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 274,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 274,
+               "ccmTech": 3453,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3453,
+               "cylinderCapacityLiter": 350,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 486,
+               "modelName": "6 (E24)",
+               "motorType": "Essence",
+               "powerHpFrom": 286,
+               "powerHpTo": 286,
+               "powerKwFrom": 210,
+               "powerKwTo": 210,
+               "typeName": "M 635 CSi",
+               "typeNumber": 274,
+               "valves": 4,
+               "yearOfConstrFrom": 198404,
+               "yearOfConstrTo": 198812,
+               "rmiTypeId": 242
+            },
+            "vehicleDocId": "DR274"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 930,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 930,
+               "ccmTech": 2960,
+               "constructionType": "Décapotable",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2960,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 39,
+               "modelName": "SL (R129)",
+               "motorType": "Essence",
+               "powerHpFrom": 231,
+               "powerHpTo": 231,
+               "powerKwFrom": 170,
+               "powerKwTo": 170,
+               "typeName": "300 SL-24 (129.061)",
+               "typeNumber": 930,
+               "valves": 4,
+               "yearOfConstrFrom": 198903,
+               "yearOfConstrTo": 199307,
+               "rmiTypeId": 814
+            },
+            "vehicleDocId": "DR930"
+         }
+      ]
+   },
+   "status": 200
+}

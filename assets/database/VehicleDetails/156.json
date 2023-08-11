@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 156,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 156,
+               "ccmTech": 2492,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2492,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 287,
+               "modelName": "164 (164_)",
+               "motorType": "Essence",
+               "powerHpFrom": 163,
+               "powerHpTo": 163,
+               "powerKwFrom": 120,
+               "powerKwTo": 120,
+               "typeName": "2.5 V6 (164A1C)",
+               "typeNumber": 156,
+               "valves": 2,
+               "yearOfConstrFrom": 199209,
+               "yearOfConstrTo": 199809,
+               "rmiTypeId": 128
+            },
+            "vehicleDocId": "DR156"
+         }
+      ]
+   },
+   "status": 200
+}

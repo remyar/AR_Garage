@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 103217,
+            "vehicleDetails": {
+               "carId": 103217,
+               "ccmTech": 1151,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 1151,
+               "cylinderCapacityLiter": 115,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Cardan",
+               "manuId": 4062,
+               "manuName": "MOTO GUZZI",
+               "modId": 12453,
+               "modelName": "1200",
+               "motorType": "Essence",
+               "powerHpFrom": 95,
+               "powerHpTo": 95,
+               "powerKwFrom": 70,
+               "powerKwTo": 70,
+               "typeName": "1200",
+               "typeNumber": 103217,
+               "valves": 2,
+               "yearOfConstrFrom": 200801,
+               "yearOfConstrTo": 201312
+            }
+         }
+      ]
+   },
+   "status": 200
+}

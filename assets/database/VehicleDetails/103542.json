@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 103542,
+            "vehicleDetails": {
+               "carId": 103542,
+               "ccmTech": 125,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 125,
+               "cylinderCapacityLiter": 12,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12257,
+               "modelName": "CA",
+               "motorType": "Essence",
+               "powerHpFrom": 11,
+               "powerHpTo": 11,
+               "powerKwFrom": 8,
+               "powerKwTo": 8,
+               "typeName": "CA 125 S Rebel (JC24)",
+               "typeNumber": 103542,
+               "valves": 2,
+               "yearOfConstrFrom": 199501,
+               "yearOfConstrTo": 199912
+            }
+         }
+      ]
+   },
+   "status": 200
+}

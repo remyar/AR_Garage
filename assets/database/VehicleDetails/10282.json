@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10282,
+            "vehicleDetails": {
+               "carId": 10282,
+               "ccmTech": 2400,
+               "constructionType": "A trois volumes",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2400,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 5520,
+               "modelName": "S80 II (124)",
+               "motorType": "Diesel",
+               "powerHpFrom": 215,
+               "powerHpTo": 215,
+               "powerKwFrom": 158,
+               "powerKwTo": 158,
+               "typeName": "D5",
+               "typeNumber": 10282,
+               "valves": 4,
+               "yearOfConstrFrom": 201106,
+               "yearOfConstrTo": 201504,
+               "rmiTypeId": 67244
+            },
+            "vehicleDocId": "DR10282"
+         }
+      ]
+   },
+   "status": 200
+}

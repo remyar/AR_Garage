@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10104,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10104,
+               "ccmTech": 3387,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3387,
+               "cylinderCapacityLiter": 340,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 92,
+               "manuName": "PORSCHE",
+               "modId": 2033,
+               "modelName": "911 (996)",
+               "motorType": "Essence",
+               "powerHpFrom": 301,
+               "powerHpTo": 301,
+               "powerKwFrom": 221,
+               "powerKwTo": 221,
+               "typeName": "3.4 Carrera 4",
+               "typeNumber": 10104,
+               "valves": 4,
+               "yearOfConstrFrom": 199708,
+               "yearOfConstrTo": 200107,
+               "rmiTypeId": 8571
+            },
+            "vehicleDocId": "DR10104"
+         }
+      ]
+   },
+   "status": 200
+}

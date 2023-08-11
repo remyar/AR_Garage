@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8495,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8495,
+               "ccmTech": 5002,
+               "constructionType": "Coupé",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 5002,
+               "cylinderCapacityLiter": 500,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 138,
+               "manuName": "CHEVROLET",
+               "modId": 1997,
+               "modelName": "CAMARO",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "5.0",
+               "typeNumber": 8495,
+               "valves": 2,
+               "yearOfConstrFrom": 197001,
+               "yearOfConstrTo": 198112,
+               "rmiTypeId": 7561
+            },
+            "vehicleDocId": "DR8495"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9502,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9502,
+               "ccmTech": 3199,
+               "constructionType": "Décapotable",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3199,
+               "cylinderCapacityLiter": 320,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 3558,
+               "modelName": "CLK Décapotable (A208)",
+               "motorType": "Essence",
+               "powerHpFrom": 218,
+               "powerHpTo": 218,
+               "powerKwFrom": 160,
+               "powerKwTo": 160,
+               "typeName": "CLK 320 (208.465)",
+               "typeNumber": 9502,
+               "valves": 3,
+               "yearOfConstrFrom": 199803,
+               "yearOfConstrTo": 200203,
+               "rmiTypeId": 8318
+            },
+            "vehicleDocId": "DR9502"
+         }
+      ]
+   },
+   "status": 200
+}

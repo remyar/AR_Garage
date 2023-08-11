@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 312,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 312,
+               "ccmTech": 1996,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1996,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 52,
+               "modelName": "190 (W201)",
+               "motorType": "Essence",
+               "powerHpFrom": 116,
+               "powerHpTo": 116,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "E 2.0 (201.024)",
+               "typeNumber": 312,
+               "valves": 2,
+               "yearOfConstrFrom": 198502,
+               "yearOfConstrTo": 198612,
+               "rmiTypeId": 275
+            },
+            "vehicleDocId": "DR312"
+         }
+      ]
+   },
+   "status": 200
+}

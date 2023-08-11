@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 111062,
+            "vehicleDetails": {
+               "carId": 111062,
+               "ccmTech": 999,
+               "constructionType": "3/5 portes",
+               "cylinder": 3,
+               "cylinderCapacityCcm": 999,
+               "cylinderCapacityLiter": 100,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 117,
+               "manuName": "VAUXHALL",
+               "modId": 13820,
+               "modelName": "VIVA (C16)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.0",
+               "typeNumber": 111062,
+               "valves": 4,
+               "yearOfConstrFrom": 201501,
+               "yearOfConstrTo": 201803,
+               "rmiTypeId": 116505
+            },
+            "vehicleDocId": "DR111062"
+         }
+      ]
+   },
+   "status": 200
+}

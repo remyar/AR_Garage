@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1020,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique-mécanique",
+               "carId": 1020,
+               "ccmTech": 2358,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2358,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 1690,
+               "modelName": "TRANSIT Autobus/Autocar (V_ _)",
+               "motorType": "Diesel",
+               "powerHpFrom": 63,
+               "powerHpTo": 63,
+               "powerKwFrom": 46,
+               "powerKwTo": 46,
+               "typeName": "2.4 D (VAS, VBL, VIL, VUL, VZS)",
+               "typeNumber": 1020,
+               "valves": 2,
+               "yearOfConstrFrom": 197712,
+               "yearOfConstrTo": 198610,
+               "rmiTypeId": 902
+            }
+         }
+      ]
+   },
+   "status": 200
+}

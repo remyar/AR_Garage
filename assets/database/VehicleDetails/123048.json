@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123048,
+            "vehicleDetails": {
+               "carId": 123048,
+               "ccmTech": 1598,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1598,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 37112,
+               "modelName": "ASTRA H CLASSIC Break (A04)",
+               "motorType": "Essence",
+               "powerHpFrom": 116,
+               "powerHpTo": 116,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "1.6 (L35)",
+               "typeNumber": 123048,
+               "valves": 4,
+               "yearOfConstrFrom": 200612,
+               "yearOfConstrTo": 201405,
+               "rmiTypeId": 74196
+            },
+            "vehicleDocId": "DR123048"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 12100,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 12100,
+               "ccmTech": 3901,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 3901,
+               "cylinderCapacityLiter": 390,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 549,
+               "modelName": "7 (E38)",
+               "motorType": "Diesel",
+               "powerHpFrom": 245,
+               "powerHpTo": 245,
+               "powerKwFrom": 180,
+               "powerKwTo": 180,
+               "typeName": "740 d",
+               "typeNumber": 12100,
+               "valves": 4,
+               "yearOfConstrFrom": 199905,
+               "yearOfConstrTo": 200111,
+               "rmiTypeId": 9357
+            },
+            "vehicleDocId": "DR12100"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101209,
+            "vehicleDetails": {
+               "carId": 101209,
+               "ccmTech": 239,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 239,
+               "cylinderCapacityLiter": 25,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 1021,
+               "manuName": "YAMAHA",
+               "modId": 12698,
+               "modelName": "SR",
+               "motorType": "Essence",
+               "powerHpFrom": 18,
+               "powerHpTo": 18,
+               "powerKwFrom": 13,
+               "powerKwTo": 13,
+               "typeName": "SR 250 (3Y8)",
+               "typeNumber": 101209,
+               "valves": 2,
+               "yearOfConstrFrom": 198001,
+               "yearOfConstrTo": 198412
+            }
+         }
+      ]
+   },
+   "status": 200
+}

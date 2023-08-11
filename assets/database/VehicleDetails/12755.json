@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 12755,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 12755,
+               "ccmTech": 4941,
+               "constructionType": "Décapotable",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4941,
+               "cylinderCapacityLiter": 490,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 4279,
+               "modelName": "Z8 Roadster (E52)",
+               "motorType": "Essence",
+               "powerHpFrom": 400,
+               "powerHpTo": 400,
+               "powerKwFrom": 294,
+               "powerKwTo": 294,
+               "typeName": "4.9",
+               "typeNumber": 12755,
+               "valves": 4,
+               "yearOfConstrFrom": 200001,
+               "yearOfConstrTo": 200312,
+               "rmiTypeId": 9629
+            },
+            "vehicleDocId": "DR12755"
+         }
+      ]
+   },
+   "status": 200
+}

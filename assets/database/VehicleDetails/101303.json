@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101303,
+            "vehicleDetails": {
+               "carId": 101303,
+               "ccmTech": 346,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 346,
+               "cylinderCapacityLiter": 34,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Cardan",
+               "manuId": 4062,
+               "manuName": "MOTO GUZZI",
+               "modId": 12015,
+               "modelName": "V 35",
+               "motorType": "Essence",
+               "powerHpFrom": 27,
+               "powerHpTo": 27,
+               "powerKwFrom": 20,
+               "powerKwTo": 20,
+               "typeName": "V 35 Imola",
+               "typeNumber": 101303,
+               "valves": 2,
+               "yearOfConstrFrom": 197901,
+               "yearOfConstrTo": 198412
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 85,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 85,
+               "ccmTech": 1490,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1490,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 329,
+               "modelName": "ALFASUD Sprint (902_)",
+               "motorType": "Essence",
+               "powerHpFrom": 95,
+               "powerHpTo": 95,
+               "powerKwFrom": 70,
+               "powerKwTo": 70,
+               "typeName": "1.5 (902.A5)",
+               "typeNumber": 85,
+               "valves": 2,
+               "yearOfConstrFrom": 197907,
+               "yearOfConstrTo": 198701,
+               "rmiTypeId": 63
+            },
+            "vehicleDocId": "DR85"
+         }
+      ]
+   },
+   "status": 200
+}

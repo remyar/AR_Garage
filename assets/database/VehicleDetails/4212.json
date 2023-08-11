@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4212,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4212,
+               "ccmTech": 2493,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2493,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 1255,
+               "modelName": "LEGEND I (HS, KA)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.5 i (HS)",
+               "typeNumber": 4212,
+               "valves": 4,
+               "yearOfConstrFrom": 198601,
+               "yearOfConstrTo": 198712,
+               "rmiTypeId": 3881
+            }
+         }
+      ]
+   },
+   "status": 200
+}

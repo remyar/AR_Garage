@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1293,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1293,
+               "ccmTech": 1979,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1979,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 255,
+               "modelName": "MANTA B (58_, 59_)",
+               "motorType": "Essence",
+               "powerHpFrom": 100,
+               "powerHpTo": 100,
+               "powerKwFrom": 74,
+               "powerKwTo": 74,
+               "typeName": "2.0 S",
+               "typeNumber": 1293,
+               "valves": 2,
+               "yearOfConstrFrom": 197708,
+               "yearOfConstrTo": 198408,
+               "rmiTypeId": 1151
+            }
+         }
+      ]
+   },
+   "status": 200
+}

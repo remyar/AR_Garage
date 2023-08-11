@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3234,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3234,
+               "ccmTech": 1590,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1590,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 95,
+               "manuName": "ROVER",
+               "modId": 137,
+               "modelName": "400 II (XW)",
+               "motorType": "Essence",
+               "powerHpFrom": 112,
+               "powerHpTo": 112,
+               "powerKwFrom": 82,
+               "powerKwTo": 82,
+               "typeName": "416 GSI",
+               "typeNumber": 3234,
+               "valves": 4,
+               "yearOfConstrFrom": 199004,
+               "yearOfConstrTo": 199504,
+               "rmiTypeId": 2959
+            },
+            "vehicleDocId": "DR3234"
+         }
+      ]
+   },
+   "status": 200
+}

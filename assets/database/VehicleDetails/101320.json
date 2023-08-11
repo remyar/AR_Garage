@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101320,
+            "vehicleDetails": {
+               "carId": 101320,
+               "ccmTech": 598,
+               "constructionType": "Moto",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 598,
+               "cylinderCapacityLiter": 60,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12261,
+               "modelName": "CBR",
+               "motorType": "Essence",
+               "powerHpFrom": 50,
+               "powerHpTo": 50,
+               "powerKwFrom": 37,
+               "powerKwTo": 37,
+               "typeName": "CBR 600 F (PC23)",
+               "typeNumber": 101320,
+               "valves": 4,
+               "yearOfConstrFrom": 198901,
+               "yearOfConstrTo": 199012
+            }
+         }
+      ]
+   },
+   "status": 200
+}

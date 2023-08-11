@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 103406,
+            "vehicleDetails": {
+               "carId": 103406,
+               "ccmTech": 124,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 124,
+               "cylinderCapacityLiter": 12,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 109,
+               "manuName": "SUZUKI",
+               "modId": 12612,
+               "modelName": "ADDRESS",
+               "motorType": "Essence",
+               "powerHpFrom": 10,
+               "powerHpTo": 10,
+               "powerKwFrom": 7,
+               "powerKwTo": 7,
+               "typeName": "Address 125 (WVCM)",
+               "typeNumber": 103406,
+               "valves": 2,
+               "yearOfConstrFrom": 200801,
+               "yearOfConstrTo": 200912
+            }
+         }
+      ]
+   },
+   "status": 200
+}

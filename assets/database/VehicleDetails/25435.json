@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 25435,
+            "vehicleDetails": {
+               "carId": 25435,
+               "ccmTech": 3653,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 3653,
+               "cylinderCapacityLiter": 370,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 1506,
+               "manuName": "HUMMER",
+               "modId": 5459,
+               "modelName": "HUMMER H3",
+               "motorType": "Essence",
+               "powerHpFrom": 245,
+               "powerHpTo": 245,
+               "powerKwFrom": 180,
+               "powerKwTo": 180,
+               "typeName": "3.7 4WD",
+               "typeNumber": 25435,
+               "valves": 4,
+               "yearOfConstrFrom": 200701,
+               "rmiTypeId": 81623
+            },
+            "vehicleDocId": "DR25435"
+         }
+      ]
+   },
+   "status": 200
+}

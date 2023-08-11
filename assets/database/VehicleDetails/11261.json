@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11261,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 11261,
+               "ccmTech": 3791,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3791,
+               "cylinderCapacityLiter": 380,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 138,
+               "manuName": "CHEVROLET",
+               "modId": 4082,
+               "modelName": "IMPALA A trois volumes",
+               "motorType": "Essence",
+               "powerHpFrom": 203,
+               "powerHpTo": 203,
+               "powerKwFrom": 149,
+               "powerKwTo": 149,
+               "typeName": "3.8 V6",
+               "typeNumber": 11261,
+               "valves": 2,
+               "yearOfConstrFrom": 199901,
+               "yearOfConstrTo": 200512,
+               "rmiTypeId": 9038
+            },
+            "vehicleDocId": "DR11261"
+         }
+      ]
+   },
+   "status": 200
+}

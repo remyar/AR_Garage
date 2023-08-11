@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7926,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7926,
+               "ccmTech": 1984,
+               "constructionType": "Break",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 1984,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 1820,
+               "modelName": "V70 I (875, 876)",
+               "motorType": "Essence",
+               "powerHpFrom": 180,
+               "powerHpTo": 180,
+               "powerKwFrom": 132,
+               "powerKwTo": 132,
+               "typeName": "2.0",
+               "typeNumber": 7926,
+               "valves": 4,
+               "yearOfConstrFrom": 199611,
+               "yearOfConstrTo": 200003,
+               "rmiTypeId": 7087
+            },
+            "vehicleDocId": "DR7926"
+         }
+      ]
+   },
+   "status": 200
+}

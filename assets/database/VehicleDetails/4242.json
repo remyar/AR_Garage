@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4242,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4242,
+               "ccmTech": 2259,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2259,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 1277,
+               "modelName": "PRELUDE IV (BB_)",
+               "motorType": "Essence",
+               "powerHpFrom": 160,
+               "powerHpTo": 160,
+               "powerKwFrom": 118,
+               "powerKwTo": 118,
+               "typeName": "2.3 i 16V (BB2)",
+               "typeNumber": 4242,
+               "valves": 4,
+               "yearOfConstrFrom": 199202,
+               "yearOfConstrTo": 199609,
+               "rmiTypeId": 3911
+            },
+            "vehicleDocId": "DR4242"
+         }
+      ]
+   },
+   "status": 200
+}

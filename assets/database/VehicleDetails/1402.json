@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1402,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1402,
+               "ccmTech": 1597,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1597,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 322,
+               "modelName": "ESCORT III (GAA)",
+               "motorType": "Essence",
+               "powerHpFrom": 79,
+               "powerHpTo": 79,
+               "powerKwFrom": 58,
+               "powerKwTo": 58,
+               "typeName": "1.6",
+               "typeNumber": 1402,
+               "valves": 2,
+               "yearOfConstrFrom": 198009,
+               "yearOfConstrTo": 198512,
+               "rmiTypeId": 1251
+            },
+            "vehicleDocId": "DR1402"
+         }
+      ]
+   },
+   "status": 200
+}

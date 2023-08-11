@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 15302,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 15302,
+               "ccmTech": 1796,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1796,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 117,
+               "manuName": "VAUXHALL",
+               "modId": 3383,
+               "modelName": "VECTRA (B) Break (J96)",
+               "motorType": "Essence",
+               "powerHpFrom": 125,
+               "powerHpTo": 125,
+               "powerKwFrom": 92,
+               "powerKwTo": 92,
+               "typeName": "1.8 i 16V (F35)",
+               "typeNumber": 15302,
+               "valves": 4,
+               "yearOfConstrFrom": 200009,
+               "yearOfConstrTo": 200203,
+               "rmiTypeId": 11439
+            },
+            "vehicleDocId": "DR15302"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123503,
+            "vehicleDetails": {
+               "carId": 123503,
+               "ccmTech": 2987,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2987,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 5455,
+               "modelName": "CLASSE S (W221)",
+               "motorType": "Diesel",
+               "powerHpFrom": 211,
+               "powerHpTo": 211,
+               "powerKwFrom": 155,
+               "powerKwTo": 155,
+               "typeName": "S 350 CDI 4-matic (221.080, 221.081)",
+               "typeNumber": 123503,
+               "valves": 4,
+               "yearOfConstrFrom": 200901,
+               "yearOfConstrTo": 201012,
+               "rmiTypeId": 70934
+            },
+            "vehicleDocId": "DR123503"
+         }
+      ]
+   },
+   "status": 200
+}

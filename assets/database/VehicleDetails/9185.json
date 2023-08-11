@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9185,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9185,
+               "ccmTech": 2933,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2933,
+               "cylinderCapacityLiter": 290,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 3446,
+               "modelName": "SCORPIO I Break (GGE)",
+               "motorType": "Essence",
+               "powerHpFrom": 145,
+               "powerHpTo": 145,
+               "powerKwFrom": 107,
+               "powerKwTo": 107,
+               "typeName": "2.9 i 4x4",
+               "typeNumber": 9185,
+               "valves": 2,
+               "yearOfConstrFrom": 198805,
+               "yearOfConstrTo": 199302,
+               "rmiTypeId": 8179
+            },
+            "vehicleDocId": "DR9185"
+         }
+      ]
+   },
+   "status": 200
+}

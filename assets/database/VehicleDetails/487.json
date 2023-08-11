@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 487,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 487,
+               "ccmTech": 2298,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2298,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 24,
+               "modelName": "124 Break (S124)",
+               "motorType": "Essence",
+               "powerHpFrom": 136,
+               "powerHpTo": 136,
+               "powerKwFrom": 100,
+               "powerKwTo": 100,
+               "typeName": "230 TE (124.083)",
+               "typeNumber": 487,
+               "valves": 2,
+               "yearOfConstrFrom": 198509,
+               "yearOfConstrTo": 199208,
+               "rmiTypeId": 423
+            },
+            "vehicleDocId": "DR487"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10028,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10028,
+               "ccmTech": 2156,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2156,
+               "cylinderCapacityLiter": 220,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 3896,
+               "modelName": "ACCORD VI (CK, CG, CH, CF)",
+               "motorType": "Essence",
+               "powerHpFrom": 212,
+               "powerHpTo": 212,
+               "powerKwFrom": 156,
+               "powerKwTo": 156,
+               "typeName": "2.2 Type-R (CH1)",
+               "typeNumber": 10028,
+               "valves": 4,
+               "yearOfConstrFrom": 199902,
+               "yearOfConstrTo": 200212,
+               "rmiTypeId": 8540
+            },
+            "vehicleDocId": "DR10028"
+         }
+      ]
+   },
+   "status": 200
+}

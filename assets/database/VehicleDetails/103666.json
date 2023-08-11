@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 103666,
+            "vehicleDetails": {
+               "carId": 103666,
+               "ccmTech": 192,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 192,
+               "cylinderCapacityLiter": 19,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12266,
+               "modelName": "CM",
+               "motorType": "Essence",
+               "powerHpFrom": 18,
+               "powerHpTo": 18,
+               "powerKwFrom": 13,
+               "powerKwTo": 13,
+               "typeName": "CM 200 T (MC01)",
+               "typeNumber": 103666,
+               "valves": 2,
+               "yearOfConstrFrom": 198001,
+               "yearOfConstrTo": 198212
+            }
+         }
+      ]
+   },
+   "status": 200
+}

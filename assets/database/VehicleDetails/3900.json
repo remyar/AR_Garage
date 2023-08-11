@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3900,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3900,
+               "ccmTech": 1597,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1597,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 411,
+               "modelName": "FIESTA III (GFJ)",
+               "motorType": "Essence",
+               "powerHpFrom": 88,
+               "powerHpTo": 88,
+               "powerKwFrom": 65,
+               "powerKwTo": 65,
+               "typeName": "1.6",
+               "typeNumber": 3900,
+               "valves": 2,
+               "yearOfConstrFrom": 198901,
+               "yearOfConstrTo": 199401,
+               "rmiTypeId": 3586
+            },
+            "vehicleDocId": "DR3900"
+         }
+      ]
+   },
+   "status": 200
+}

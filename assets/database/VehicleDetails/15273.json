@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 15273,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 15273,
+               "ccmTech": 2979,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2979,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 1892,
+               "modelName": "5 Touring (E39)",
+               "motorType": "Essence",
+               "powerHpFrom": 231,
+               "powerHpTo": 231,
+               "powerKwFrom": 170,
+               "powerKwTo": 170,
+               "typeName": "530 i",
+               "typeNumber": 15273,
+               "valves": 4,
+               "yearOfConstrFrom": 200009,
+               "yearOfConstrTo": 200312,
+               "rmiTypeId": 11416
+            },
+            "vehicleDocId": "DR15273"
+         }
+      ]
+   },
+   "status": 200
+}

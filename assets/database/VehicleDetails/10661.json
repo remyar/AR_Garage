@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10661,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10661,
+               "ccmTech": 1595,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1595,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 1826,
+               "modelName": "DATSUN 160J (710, A10)",
+               "motorType": "Essence",
+               "powerHpFrom": 72,
+               "powerHpTo": 72,
+               "powerKwFrom": 53,
+               "powerKwTo": 53,
+               "typeName": "1.6 (710)",
+               "typeNumber": 10661,
+               "valves": 2,
+               "yearOfConstrFrom": 197301,
+               "yearOfConstrTo": 197801,
+               "rmiTypeId": 8769
+            }
+         }
+      ]
+   },
+   "status": 200
+}

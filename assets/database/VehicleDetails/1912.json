@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1912,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1912,
+               "ccmTech": 1896,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1896,
+               "cylinderCapacityLiter": 190,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 423,
+               "modelName": "PASSAT B3/B4 Variant (3A5, 35I)",
+               "motorType": "Diesel",
+               "powerHpFrom": 68,
+               "powerHpTo": 68,
+               "powerKwFrom": 50,
+               "powerKwTo": 50,
+               "typeName": "1.9 D",
+               "typeNumber": 1912,
+               "valves": 2,
+               "yearOfConstrFrom": 198905,
+               "yearOfConstrTo": 199310,
+               "rmiTypeId": 1732
+            },
+            "vehicleDocId": "DR1912"
+         }
+      ]
+   },
+   "status": 200
+}

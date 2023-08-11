@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101205,
+            "vehicleDetails": {
+               "carId": 101205,
+               "ccmTech": 798,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 798,
+               "cylinderCapacityLiter": 80,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Cardan",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 12738,
+               "modelName": "R 80",
+               "motorType": "Essence",
+               "powerHpFrom": 34,
+               "powerHpTo": 34,
+               "powerKwFrom": 25,
+               "powerKwTo": 25,
+               "typeName": "R 80 G/S (247)",
+               "typeNumber": 101205,
+               "valves": 2,
+               "yearOfConstrFrom": 198003,
+               "yearOfConstrTo": 198709
+            }
+         }
+      ]
+   },
+   "status": 200
+}

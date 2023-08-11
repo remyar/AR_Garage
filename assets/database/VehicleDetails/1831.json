@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1831,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1831,
+               "ccmTech": 1998,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1998,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 3440,
+               "modelName": "ASTRA F Break (T92)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.0 i 16V (F35, M35)",
+               "typeNumber": 1831,
+               "valves": 4,
+               "yearOfConstrFrom": 199303,
+               "yearOfConstrTo": 199801,
+               "rmiTypeId": 1656
+            },
+            "vehicleDocId": "DR1831"
+         }
+      ]
+   },
+   "status": 200
+}

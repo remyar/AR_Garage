@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 23442,
+            "vehicleDetails": {
+               "carId": 23442,
+               "ccmTech": 3301,
+               "constructionType": "Monospace",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3301,
+               "cylinderCapacityLiter": 330,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 20,
+               "manuName": "CHRYSLER",
+               "modId": 6443,
+               "modelName": "GRAND VOYAGER V (RT)",
+               "motorType": "Essence",
+               "powerHpFrom": 170,
+               "powerHpTo": 170,
+               "powerKwFrom": 125,
+               "powerKwTo": 125,
+               "typeName": "3.3",
+               "typeNumber": 23442,
+               "valves": 2,
+               "yearOfConstrFrom": 200801,
+               "rmiTypeId": 52389
+            },
+            "vehicleDocId": "DR23442"
+         }
+      ]
+   },
+   "status": 200
+}

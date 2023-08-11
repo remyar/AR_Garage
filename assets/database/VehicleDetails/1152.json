@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1152,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1152,
+               "ccmTech": 1979,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1979,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 64,
+               "modelName": "REKORD D",
+               "motorType": "Essence",
+               "powerHpFrom": 100,
+               "powerHpTo": 100,
+               "powerKwFrom": 74,
+               "powerKwTo": 74,
+               "typeName": "2.0",
+               "typeNumber": 1152,
+               "valves": 2,
+               "yearOfConstrFrom": 197509,
+               "yearOfConstrTo": 197708,
+               "rmiTypeId": 1016
+            }
+         }
+      ]
+   },
+   "status": 200
+}

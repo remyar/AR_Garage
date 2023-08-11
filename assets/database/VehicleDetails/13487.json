@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 13487,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 13487,
+               "ccmTech": 2307,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2307,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 1580,
+               "manuName": "PUCH",
+               "modId": 4397,
+               "modelName": "G-MODELL (W460)",
+               "motorType": "Essence",
+               "powerHpFrom": 102,
+               "powerHpTo": 102,
+               "powerKwFrom": 75,
+               "powerKwTo": 75,
+               "typeName": "230 G (460.230, 460.231)",
+               "typeNumber": 13487,
+               "valves": 2,
+               "yearOfConstrFrom": 197903,
+               "yearOfConstrTo": 198508,
+               "rmiTypeId": 9968
+            }
+         }
+      ]
+   },
+   "status": 200
+}

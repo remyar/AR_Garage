@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101389,
+            "vehicleDetails": {
+               "carId": 101389,
+               "ccmTech": 599,
+               "constructionType": "Moto",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 599,
+               "cylinderCapacityLiter": 59,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 112,
+               "manuName": "TRIUMPH",
+               "modId": 12661,
+               "modelName": "DAYTONA",
+               "motorType": "Essence",
+               "powerHpFrom": 98,
+               "powerHpTo": 98,
+               "powerKwFrom": 72,
+               "powerKwTo": 72,
+               "typeName": "Daytona 600",
+               "typeNumber": 101389,
+               "valves": 4,
+               "yearOfConstrFrom": 200301,
+               "yearOfConstrTo": 200412
+            }
+         }
+      ]
+   },
+   "status": 200
+}

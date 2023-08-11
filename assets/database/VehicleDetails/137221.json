@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 137221,
+            "vehicleDetails": {
+               "carId": 137221,
+               "ccmTech": 1461,
+               "constructionType": "Camionnette/Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1461,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 10861,
+               "modelName": "CITAN Camionnette/Monospace (W415)",
+               "motorType": "Diesel",
+               "powerHpFrom": 95,
+               "powerHpTo": 95,
+               "powerKwFrom": 70,
+               "powerKwTo": 70,
+               "typeName": "109 CDI (415.603, 415.605)",
+               "typeNumber": 137221,
+               "valves": 2,
+               "yearOfConstrFrom": 201905,
+               "yearOfConstrTo": 202108,
+               "rmiTypeId": 157108
+            },
+            "vehicleDocId": "DR137221"
+         }
+      ]
+   },
+   "status": 200
+}

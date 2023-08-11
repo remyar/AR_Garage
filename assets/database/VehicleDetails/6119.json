@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6119,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6119,
+               "ccmTech": 1809,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1809,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 1205,
+               "modelName": "BLUEBIRD (U11)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.8",
+               "typeNumber": 6119,
+               "valves": 2,
+               "yearOfConstrFrom": 198311,
+               "yearOfConstrTo": 198806,
+               "rmiTypeId": 5510
+            }
+         }
+      ]
+   },
+   "status": 200
+}

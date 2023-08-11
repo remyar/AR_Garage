@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 755,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 755,
+               "ccmTech": 1753,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1753,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 246,
+               "modelName": "SIERRA II (GBG, GB4)",
+               "motorType": "Diesel",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.8 TD",
+               "typeNumber": 755,
+               "valves": 2,
+               "yearOfConstrFrom": 198808,
+               "yearOfConstrTo": 199302,
+               "rmiTypeId": 661
+            },
+            "vehicleDocId": "DR755"
+         }
+      ]
+   },
+   "status": 200
+}

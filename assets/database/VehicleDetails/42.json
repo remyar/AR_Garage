@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 42,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 42,
+               "ccmTech": 2443,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2443,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 290,
+               "modelName": "3 (E30)",
+               "motorType": "Diesel",
+               "powerHpFrom": 86,
+               "powerHpTo": 86,
+               "powerKwFrom": 63,
+               "powerKwTo": 63,
+               "typeName": "324 d",
+               "typeNumber": 42,
+               "valves": 2,
+               "yearOfConstrFrom": 198509,
+               "yearOfConstrTo": 199012,
+               "rmiTypeId": 38
+            },
+            "vehicleDocId": "DR42"
+         }
+      ]
+   },
+   "status": 200
+}

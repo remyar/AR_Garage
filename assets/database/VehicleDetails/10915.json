@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10915,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10915,
+               "ccmTech": 1598,
+               "constructionType": "Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1598,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 4044,
+               "modelName": "ZAFIRA A Monospace (T98)",
+               "motorType": "Essence",
+               "powerHpFrom": 101,
+               "powerHpTo": 101,
+               "powerKwFrom": 74,
+               "powerKwTo": 74,
+               "typeName": "1.6 16V (F75)",
+               "typeNumber": 10915,
+               "valves": 4,
+               "yearOfConstrFrom": 199904,
+               "yearOfConstrTo": 200506,
+               "rmiTypeId": 8899
+            },
+            "vehicleDocId": "DR10915"
+         }
+      ]
+   },
+   "status": 200
+}

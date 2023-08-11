@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 110020,
+            "vehicleDetails": {
+               "carId": 110020,
+               "ccmTech": 1995,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1995,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 11900,
+               "modelName": "4 Gran Coupe (F36)",
+               "motorType": "Diesel",
+               "powerHpFrom": 190,
+               "powerHpTo": 190,
+               "powerKwFrom": 140,
+               "powerKwTo": 140,
+               "typeName": "420 d",
+               "typeNumber": 110020,
+               "valves": 4,
+               "yearOfConstrFrom": 201503,
+               "rmiTypeId": 114954
+            },
+            "vehicleDocId": "DR110020"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3042,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3042,
+               "ccmTech": 1198,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1198,
+               "cylinderCapacityLiter": 120,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 63,
+               "manuName": "LADA",
+               "modId": 115,
+               "modelName": "1200-1500 Break",
+               "motorType": "Essence",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "1200 (2102)",
+               "typeNumber": 3042,
+               "valves": 2,
+               "yearOfConstrFrom": 197309,
+               "yearOfConstrTo": 198408,
+               "rmiTypeId": 2786
+            }
+         }
+      ]
+   },
+   "status": 200
+}

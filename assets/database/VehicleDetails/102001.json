@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 102001,
+            "vehicleDetails": {
+               "carId": 102001,
+               "ccmTech": 1198,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 1198,
+               "cylinderCapacityLiter": 120,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 2759,
+               "manuName": "DUCATI",
+               "modId": 12162,
+               "modelName": "1198",
+               "motorType": "Essence",
+               "powerHpFrom": 170,
+               "powerHpTo": 170,
+               "powerKwFrom": 125,
+               "powerKwTo": 125,
+               "typeName": "1198",
+               "typeNumber": 102001,
+               "valves": 4,
+               "yearOfConstrFrom": 200901,
+               "yearOfConstrTo": 201112
+            }
+         }
+      ]
+   },
+   "status": 200
+}

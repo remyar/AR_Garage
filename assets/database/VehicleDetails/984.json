@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 984,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 984,
+               "ccmTech": 3818,
+               "constructionType": "Coupé",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 3818,
+               "cylinderCapacityLiter": 380,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 3445,
+               "modelName": "SL Coupé (C107)",
+               "motorType": "Essence",
+               "powerHpFrom": 218,
+               "powerHpTo": 218,
+               "powerKwFrom": 160,
+               "powerKwTo": 160,
+               "typeName": "380 SLC (107.025)",
+               "typeNumber": 984,
+               "valves": 2,
+               "yearOfConstrFrom": 198007,
+               "yearOfConstrTo": 198108,
+               "rmiTypeId": 868
+            },
+            "vehicleDocId": "DR984"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 819,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 819,
+               "ccmTech": 3199,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3199,
+               "cylinderCapacityLiter": 320,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 3448,
+               "modelName": "CLASSE E Coupé (C124)",
+               "motorType": "Essence",
+               "powerHpFrom": 220,
+               "powerHpTo": 220,
+               "powerKwFrom": 162,
+               "powerKwTo": 162,
+               "typeName": "E 320 (124.052)",
+               "typeNumber": 819,
+               "valves": 4,
+               "yearOfConstrFrom": 199306,
+               "yearOfConstrTo": 199706,
+               "rmiTypeId": 716
+            },
+            "vehicleDocId": "DR819"
+         }
+      ]
+   },
+   "status": 200
+}

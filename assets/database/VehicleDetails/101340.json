@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101340,
+            "vehicleDetails": {
+               "carId": 101340,
+               "ccmTech": 249,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 249,
+               "cylinderCapacityLiter": 25,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12314,
+               "modelName": "XL",
+               "motorType": "Essence",
+               "powerHpFrom": 18,
+               "powerHpTo": 18,
+               "powerKwFrom": 13,
+               "powerKwTo": 13,
+               "typeName": "XL 250 R (L250S)",
+               "typeNumber": 101340,
+               "valves": 2,
+               "yearOfConstrFrom": 197801,
+               "yearOfConstrTo": 198112
+            }
+         }
+      ]
+   },
+   "status": 200
+}

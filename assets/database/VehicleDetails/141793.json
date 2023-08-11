@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 141793,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 141793,
+               "ccmTech": 2993,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2993,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 39027,
+               "modelName": "3 (G20, G80, G28)",
+               "motorType": "Essence",
+               "powerHpFrom": 480,
+               "powerHpTo": 480,
+               "powerKwFrom": 353,
+               "powerKwTo": 353,
+               "typeName": "M3",
+               "typeNumber": 141793,
+               "valves": 4,
+               "yearOfConstrFrom": 202011,
+               "rmiTypeId": 171918
+            },
+            "vehicleDocId": "DR141793"
+         }
+      ]
+   },
+   "status": 200
+}

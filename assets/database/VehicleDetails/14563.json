@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 14563,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 14563,
+               "ccmTech": 2324,
+               "constructionType": "Break",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2324,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 1995,
+               "modelName": "GOLF IV Variant (1J5)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.3 V5",
+               "typeNumber": 14563,
+               "valves": 2,
+               "yearOfConstrFrom": 199905,
+               "yearOfConstrTo": 200606,
+               "rmiTypeId": 10748
+            },
+            "vehicleDocId": "DR14563"
+         }
+      ]
+   },
+   "status": 200
+}

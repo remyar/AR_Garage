@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6105,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6105,
+               "ccmTech": 2935,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2935,
+               "cylinderCapacityLiter": 290,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 246,
+               "modelName": "SIERRA II (GBG, GB4)",
+               "motorType": "Essence",
+               "powerHpFrom": 145,
+               "powerHpTo": 145,
+               "powerKwFrom": 107,
+               "powerKwTo": 107,
+               "typeName": "2.9 i",
+               "typeNumber": 6105,
+               "valves": 2,
+               "yearOfConstrFrom": 198808,
+               "yearOfConstrTo": 199302,
+               "rmiTypeId": 5496
+            },
+            "vehicleDocId": "DR6105"
+         }
+      ]
+   },
+   "status": 200
+}

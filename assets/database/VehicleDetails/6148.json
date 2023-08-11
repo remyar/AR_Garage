@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6148,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6148,
+               "ccmTech": 2467,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2467,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 290,
+               "modelName": "3 (E30)",
+               "motorType": "Essence",
+               "powerHpFrom": 238,
+               "powerHpTo": 238,
+               "powerKwFrom": 175,
+               "powerKwTo": 175,
+               "typeName": "M3 EVO II 2.5",
+               "typeNumber": 6148,
+               "valves": 4,
+               "yearOfConstrFrom": 199001,
+               "yearOfConstrTo": 199201,
+               "rmiTypeId": 5536
+            },
+            "vehicleDocId": "DR6148"
+         }
+      ]
+   },
+   "status": 200
+}

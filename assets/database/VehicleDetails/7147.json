@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7147,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7147,
+               "ccmTech": 1475,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1475,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 110,
+               "manuName": "TALBOT",
+               "modId": 1808,
+               "modelName": "SIMCA 1501 Break",
+               "motorType": "Essence",
+               "powerHpFrom": 69,
+               "powerHpTo": 69,
+               "powerKwFrom": 51,
+               "powerKwTo": 51,
+               "typeName": "1.5",
+               "typeNumber": 7147,
+               "valves": 2,
+               "yearOfConstrFrom": 196610,
+               "yearOfConstrTo": 197203,
+               "rmiTypeId": 6410
+            }
+         }
+      ]
+   },
+   "status": 200
+}

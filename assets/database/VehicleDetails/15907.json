@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 15907,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 15907,
+               "ccmTech": 1997,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 1997,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 95,
+               "manuName": "ROVER",
+               "modId": 4772,
+               "modelName": "75 I Tourer (RJ)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.0 V6",
+               "typeNumber": 15907,
+               "valves": 4,
+               "yearOfConstrFrom": 200108,
+               "yearOfConstrTo": 200505,
+               "rmiTypeId": 12011
+            },
+            "vehicleDocId": "DR15907"
+         }
+      ]
+   },
+   "status": 200
+}

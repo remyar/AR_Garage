@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 501,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 501,
+               "ccmTech": 2996,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2996,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction intégrale",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 24,
+               "modelName": "124 Break (S124)",
+               "motorType": "Diesel",
+               "powerHpFrom": 143,
+               "powerHpTo": 143,
+               "powerKwFrom": 105,
+               "powerKwTo": 105,
+               "typeName": "300 T Turbo-D 4-matic (124.393)",
+               "typeNumber": 501,
+               "valves": 2,
+               "yearOfConstrFrom": 198609,
+               "yearOfConstrTo": 198901,
+               "rmiTypeId": 436
+            },
+            "vehicleDocId": "DR501"
+         }
+      ]
+   },
+   "status": 200
+}

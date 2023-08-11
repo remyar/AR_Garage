@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3283,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3283,
+               "ccmTech": 1597,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1597,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 162,
+               "modelName": "LANCER II (A17_)",
+               "motorType": "Essence",
+               "powerHpFrom": 82,
+               "powerHpTo": 82,
+               "powerKwFrom": 60,
+               "powerKwTo": 60,
+               "typeName": "1.6 (A174)",
+               "typeNumber": 3283,
+               "valves": 2,
+               "yearOfConstrFrom": 197909,
+               "yearOfConstrTo": 198302,
+               "rmiTypeId": 3001
+            }
+         }
+      ]
+   },
+   "status": 200
+}

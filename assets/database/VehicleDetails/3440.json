@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3440,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3440,
+               "ccmTech": 1999,
+               "constructionType": "3/5 portes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 1999,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 475,
+               "modelName": "GALANT VII (E5_A, E7_A, E8_A)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.0 V6-24 (E64A, E54A)",
+               "typeNumber": 3440,
+               "valves": 4,
+               "yearOfConstrFrom": 199211,
+               "yearOfConstrTo": 199608,
+               "rmiTypeId": 3151
+            },
+            "vehicleDocId": "DR3440"
+         }
+      ]
+   },
+   "status": 200
+}

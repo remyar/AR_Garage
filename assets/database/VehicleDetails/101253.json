@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101253,
+            "vehicleDetails": {
+               "carId": 101253,
+               "ccmTech": 245,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 245,
+               "cylinderCapacityLiter": 24,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12259,
+               "modelName": "CB (CB 1 - CB 500)",
+               "motorType": "Essence",
+               "powerHpFrom": 27,
+               "powerHpTo": 27,
+               "powerKwFrom": 20,
+               "powerKwTo": 20,
+               "typeName": "CB 250 RS (MC02)",
+               "typeNumber": 101253,
+               "valves": 2,
+               "yearOfConstrFrom": 198001,
+               "yearOfConstrTo": 198512
+            }
+         }
+      ]
+   },
+   "status": 200
+}

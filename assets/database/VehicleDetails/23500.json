@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 23500,
+            "vehicleDetails": {
+               "carId": 23500,
+               "ccmTech": 2464,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2464,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 3903,
+               "modelName": "MOVANO A Fourgon (X70)",
+               "motorType": "Diesel",
+               "powerHpFrom": 146,
+               "powerHpTo": 146,
+               "powerKwFrom": 107,
+               "powerKwTo": 107,
+               "typeName": "2.5 CDTI (FD)",
+               "typeNumber": 23500,
+               "valves": 4,
+               "yearOfConstrFrom": 200310,
+               "rmiTypeId": 52353
+            },
+            "vehicleDocId": "DR23500"
+         }
+      ]
+   },
+   "status": 200
+}

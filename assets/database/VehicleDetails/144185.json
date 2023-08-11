@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 144185,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 144185,
+               "ccmTech": 286,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 286,
+               "cylinderCapacityLiter": 30,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12269,
+               "modelName": "CRF",
+               "motorType": "Essence",
+               "powerHpFrom": 27,
+               "powerHpTo": 27,
+               "powerKwFrom": 20,
+               "powerKwTo": 20,
+               "typeName": "CRF 300 RALLY",
+               "typeNumber": 144185,
+               "valves": 4,
+               "yearOfConstrFrom": 202101
+            }
+         }
+      ]
+   },
+   "status": 200
+}

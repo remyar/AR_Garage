@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 117780,
+            "vehicleDetails": {
+               "carId": 117780,
+               "ccmTech": 3902,
+               "constructionType": "Décapotable",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 3902,
+               "cylinderCapacityLiter": 390,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 700,
+               "manuName": "FERRARI",
+               "modId": 14900,
+               "modelName": "488 Spider",
+               "motorType": "Essence",
+               "powerHpFrom": 670,
+               "powerHpTo": 670,
+               "powerKwFrom": 493,
+               "powerKwTo": 493,
+               "typeName": "3.9",
+               "typeNumber": 117780,
+               "valves": 4,
+               "yearOfConstrFrom": 201510,
+               "rmiTypeId": 124912
+            },
+            "vehicleDocId": "DR117780"
+         }
+      ]
+   },
+   "status": 200
+}

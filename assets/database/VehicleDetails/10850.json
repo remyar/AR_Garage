@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10850,
+            "vehicleDetails": {
+               "carId": 10850,
+               "ccmTech": 1698,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1698,
+               "cylinderCapacityLiter": 170,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 1811,
+               "modelName": "REKORD B",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.7",
+               "typeNumber": 10850,
+               "valves": 2,
+               "yearOfConstrFrom": 196508,
+               "yearOfConstrTo": 196612,
+               "rmiTypeId": 8853
+            }
+         }
+      ]
+   },
+   "status": 200
+}

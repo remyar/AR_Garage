@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6123,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6123,
+               "ccmTech": 1952,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1952,
+               "cylinderCapacityLiter": 190,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 4012,
+               "modelName": "BLUEBIRD A trois volumes (910)",
+               "motorType": "Essence",
+               "powerHpFrom": 109,
+               "powerHpTo": 109,
+               "powerKwFrom": 80,
+               "powerKwTo": 80,
+               "typeName": "1.9 i",
+               "typeNumber": 6123,
+               "valves": 2,
+               "yearOfConstrFrom": 198201,
+               "yearOfConstrTo": 198405,
+               "rmiTypeId": 5514
+            }
+         }
+      ]
+   },
+   "status": 200
+}

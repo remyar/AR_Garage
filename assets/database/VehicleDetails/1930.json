@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1930,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1930,
+               "ccmTech": 1921,
+               "constructionType": "Break",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 1921,
+               "cylinderCapacityLiter": 190,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 419,
+               "modelName": "PASSAT B2 Variant (33B)",
+               "motorType": "Essence",
+               "powerHpFrom": 115,
+               "powerHpTo": 115,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "1.9",
+               "typeNumber": 1930,
+               "valves": 2,
+               "yearOfConstrFrom": 198101,
+               "yearOfConstrTo": 198307,
+               "rmiTypeId": 1749
+            },
+            "vehicleDocId": "DR1930"
+         }
+      ]
+   },
+   "status": 200
+}

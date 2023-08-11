@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1807,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1807,
+               "ccmTech": 1598,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1598,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 376,
+               "modelName": "ASTRA F (T92)",
+               "motorType": "Essence",
+               "powerHpFrom": 71,
+               "powerHpTo": 71,
+               "powerKwFrom": 52,
+               "powerKwTo": 52,
+               "typeName": "1.6 i (F19, M19)",
+               "typeNumber": 1807,
+               "valves": 2,
+               "yearOfConstrFrom": 199305,
+               "yearOfConstrTo": 199607,
+               "rmiTypeId": 1632
+            },
+            "vehicleDocId": "DR1807"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1004,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1004,
+               "ccmTech": 2993,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2993,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 474,
+               "modelName": "CAPRI II (GECP)",
+               "motorType": "Essence",
+               "powerHpFrom": 138,
+               "powerHpTo": 138,
+               "powerKwFrom": 101,
+               "powerKwTo": 101,
+               "typeName": "3.0",
+               "typeNumber": 1004,
+               "valves": 2,
+               "yearOfConstrFrom": 197402,
+               "yearOfConstrTo": 197712,
+               "rmiTypeId": 886
+            },
+            "vehicleDocId": "DR1004"
+         }
+      ]
+   },
+   "status": 200
+}

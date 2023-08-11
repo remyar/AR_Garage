@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8250,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8250,
+               "ccmTech": 1712,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1712,
+               "cylinderCapacityLiter": 170,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 291,
+               "modelName": "33 (905_)",
+               "motorType": "Essence",
+               "powerHpFrom": 129,
+               "powerHpTo": 129,
+               "powerKwFrom": 95,
+               "powerKwTo": 95,
+               "typeName": "1.7 (905A2A)",
+               "typeNumber": 8250,
+               "valves": 2,
+               "yearOfConstrFrom": 198601,
+               "yearOfConstrTo": 198912,
+               "rmiTypeId": 7369
+            },
+            "vehicleDocId": "DR8250"
+         }
+      ]
+   },
+   "status": 200
+}

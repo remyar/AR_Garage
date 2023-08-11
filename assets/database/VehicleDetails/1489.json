@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1489,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1489,
+               "ccmTech": 1597,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1597,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 368,
+               "modelName": "ORION I (AFD)",
+               "motorType": "Essence",
+               "powerHpFrom": 105,
+               "powerHpTo": 105,
+               "powerKwFrom": 77,
+               "powerKwTo": 77,
+               "typeName": "1.6 i",
+               "typeNumber": 1489,
+               "valves": 2,
+               "yearOfConstrFrom": 198307,
+               "yearOfConstrTo": 198603,
+               "rmiTypeId": 1333
+            },
+            "vehicleDocId": "DR1489"
+         }
+      ]
+   },
+   "status": 200
+}

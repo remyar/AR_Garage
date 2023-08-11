@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 109291,
+            "vehicleDetails": {
+               "carId": 109291,
+               "ccmTech": 249,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 249,
+               "cylinderCapacityLiter": 25,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12286,
+               "modelName": "NSS",
+               "motorType": "Essence",
+               "powerHpFrom": 19,
+               "powerHpTo": 19,
+               "powerKwFrom": 14,
+               "powerKwTo": 14,
+               "typeName": "NSS 250 (MF06)",
+               "typeNumber": 109291,
+               "valves": 5,
+               "yearOfConstrFrom": 200001,
+               "yearOfConstrTo": 200412
+            }
+         }
+      ]
+   },
+   "status": 200
+}

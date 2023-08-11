@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 336,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 336,
+               "ccmTech": 2298,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2298,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 52,
+               "modelName": "190 (W201)",
+               "motorType": "Essence",
+               "powerHpFrom": 177,
+               "powerHpTo": 177,
+               "powerKwFrom": 130,
+               "powerKwTo": 130,
+               "typeName": "E 2.3-16",
+               "typeNumber": 336,
+               "valves": 4,
+               "yearOfConstrFrom": 198509,
+               "yearOfConstrTo": 198808,
+               "rmiTypeId": 294
+            },
+            "vehicleDocId": "DR336"
+         }
+      ]
+   },
+   "status": 200
+}

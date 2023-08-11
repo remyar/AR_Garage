@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 957,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 957,
+               "ccmTech": 5987,
+               "constructionType": "A trois volumes",
+               "cylinder": 12,
+               "cylinderCapacityCcm": 5987,
+               "cylinderCapacityLiter": 600,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 47,
+               "modelName": "CLASSE S (W140)",
+               "motorType": "Essence",
+               "powerHpFrom": 394,
+               "powerHpTo": 394,
+               "powerKwFrom": 290,
+               "powerKwTo": 290,
+               "typeName": "S 600 (140.056, 140.057)",
+               "typeNumber": 957,
+               "valves": 4,
+               "yearOfConstrFrom": 199301,
+               "yearOfConstrTo": 199810,
+               "rmiTypeId": 841
+            },
+            "vehicleDocId": "DR957"
+         }
+      ]
+   },
+   "status": 200
+}

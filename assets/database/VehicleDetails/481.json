@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 481,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 481,
+               "ccmTech": 4973,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4973,
+               "cylinderCapacityLiter": 500,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 18,
+               "modelName": "124 A trois volumes (W124)",
+               "motorType": "Essence",
+               "powerHpFrom": 326,
+               "powerHpTo": 326,
+               "powerKwFrom": 240,
+               "powerKwTo": 240,
+               "typeName": "500 E (124.036)",
+               "typeNumber": 481,
+               "valves": 4,
+               "yearOfConstrFrom": 199101,
+               "yearOfConstrTo": 199306,
+               "rmiTypeId": 417
+            },
+            "vehicleDocId": "DR481"
+         }
+      ]
+   },
+   "status": 200
+}

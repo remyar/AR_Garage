@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101142,
+            "vehicleDetails": {
+               "carId": 101142,
+               "ccmTech": 3436,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3436,
+               "cylinderCapacityLiter": 340,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 92,
+               "manuName": "PORSCHE",
+               "modId": 10864,
+               "modelName": "CAYMAN (981)",
+               "motorType": "Essence",
+               "powerHpFrom": 340,
+               "powerHpTo": 340,
+               "powerKwFrom": 250,
+               "powerKwTo": 250,
+               "typeName": "GTS 3.4",
+               "typeNumber": 101142,
+               "valves": 4,
+               "yearOfConstrFrom": 201402,
+               "rmiTypeId": 89650
+            },
+            "vehicleDocId": "DR101142"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 166,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 166,
+               "ccmTech": 1779,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1779,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 339,
+               "modelName": "ALFETTA (116_)",
+               "motorType": "Essence",
+               "powerHpFrom": 116,
+               "powerHpTo": 116,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "1.8 (11608, 11642)",
+               "typeNumber": 166,
+               "valves": 2,
+               "yearOfConstrFrom": 197407,
+               "yearOfConstrTo": 198204,
+               "rmiTypeId": 138
+            },
+            "vehicleDocId": "DR166"
+         }
+      ]
+   },
+   "status": 200
+}

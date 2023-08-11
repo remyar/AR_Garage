@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123161,
+            "vehicleDetails": {
+               "carId": 123161,
+               "ccmTech": 1995,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1995,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 5569,
+               "modelName": "3 Coupé (E92)",
+               "motorType": "Diesel",
+               "powerHpFrom": 200,
+               "powerHpTo": 200,
+               "powerKwFrom": 147,
+               "powerKwTo": 147,
+               "typeName": "320 d",
+               "typeNumber": 123161,
+               "valves": 4,
+               "yearOfConstrFrom": 201003,
+               "yearOfConstrTo": 201306,
+               "rmiTypeId": 72429
+            },
+            "vehicleDocId": "DR123161"
+         }
+      ]
+   },
+   "status": 200
+}

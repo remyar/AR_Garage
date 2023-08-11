@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 103606,
+            "vehicleDetails": {
+               "carId": 103606,
+               "ccmTech": 499,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 499,
+               "cylinderCapacityLiter": 50,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12260,
+               "modelName": "CBF",
+               "motorType": "Essence",
+               "powerHpFrom": 57,
+               "powerHpTo": 57,
+               "powerKwFrom": 42,
+               "powerKwTo": 42,
+               "typeName": "CBF 500 (PC39)",
+               "typeNumber": 103606,
+               "valves": 4,
+               "yearOfConstrFrom": 200401,
+               "yearOfConstrTo": 200812
+            }
+         }
+      ]
+   },
+   "status": 200
+}

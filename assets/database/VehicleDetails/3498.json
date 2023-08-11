@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3498,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3498,
+               "ccmTech": 1296,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1296,
+               "cylinderCapacityLiter": 130,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 125,
+               "modelName": "COROLLA Compact (_E9_)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.3 (EE90)",
+               "typeNumber": 3498,
+               "valves": 3,
+               "yearOfConstrFrom": 198708,
+               "yearOfConstrTo": 199204,
+               "rmiTypeId": 3204
+            },
+            "vehicleDocId": "DR3498"
+         }
+      ]
+   },
+   "status": 200
+}

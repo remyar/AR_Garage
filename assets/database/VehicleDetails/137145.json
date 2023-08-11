@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 137145,
+            "vehicleDetails": {
+               "carId": 137145,
+               "ccmTech": 5038,
+               "constructionType": "Décapotable",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 5038,
+               "cylinderCapacityLiter": 500,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission, Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 776,
+               "manuName": "FORD USA",
+               "modId": 13371,
+               "modelName": "MUSTANG Convertible",
+               "motorType": "Essence",
+               "powerHpFrom": 440,
+               "powerHpTo": 440,
+               "powerKwFrom": 324,
+               "powerKwTo": 324,
+               "typeName": "5.0 V8",
+               "typeNumber": 137145,
+               "valves": 4,
+               "yearOfConstrFrom": 201906,
+               "rmiTypeId": 157749
+            },
+            "vehicleDocId": "DR137145"
+         }
+      ]
+   },
+   "status": 200
+}

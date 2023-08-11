@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 583,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 583,
+               "ccmTech": 1196,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1196,
+               "cylinderCapacityLiter": 120,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 41,
+               "modelName": "KADETT C Break",
+               "motorType": "Essence",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "1.2 S",
+               "typeNumber": 583,
+               "valves": 2,
+               "yearOfConstrFrom": 197308,
+               "yearOfConstrTo": 197907,
+               "rmiTypeId": 507
+            }
+         }
+      ]
+   },
+   "status": 200
+}

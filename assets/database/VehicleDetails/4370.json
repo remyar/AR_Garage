@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4370,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4370,
+               "ccmTech": 1781,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1781,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 107,
+               "manuName": "SUBARU",
+               "modId": 1286,
+               "modelName": "LEONE II Break",
+               "motorType": "Essence",
+               "powerHpFrom": 80,
+               "powerHpTo": 80,
+               "powerKwFrom": 59,
+               "powerKwTo": 59,
+               "typeName": "1800 4WD (AM)",
+               "typeNumber": 4370,
+               "valves": 2,
+               "yearOfConstrFrom": 198009,
+               "yearOfConstrTo": 198410,
+               "rmiTypeId": 4037
+            }
+         }
+      ]
+   },
+   "status": 200
+}

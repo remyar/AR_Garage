@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 239,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 239,
+               "ccmTech": 2443,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2443,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 464,
+               "modelName": "5 (E34)",
+               "motorType": "Diesel",
+               "powerHpFrom": 115,
+               "powerHpTo": 115,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "524 td",
+               "typeNumber": 239,
+               "valves": 2,
+               "yearOfConstrFrom": 198803,
+               "yearOfConstrTo": 199108,
+               "rmiTypeId": 208
+            },
+            "vehicleDocId": "DR239"
+         }
+      ]
+   },
+   "status": 200
+}

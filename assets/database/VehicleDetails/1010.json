@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1010,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique-mécanique",
+               "carId": 1010,
+               "ccmTech": 1593,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1593,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 1690,
+               "modelName": "TRANSIT Autobus/Autocar (V_ _)",
+               "motorType": "Essence",
+               "powerHpFrom": 65,
+               "powerHpTo": 65,
+               "powerKwFrom": 48,
+               "powerKwTo": 48,
+               "typeName": "1.6 (VAS, VLS, VZS)",
+               "typeNumber": 1010,
+               "valves": 2,
+               "yearOfConstrFrom": 197712,
+               "yearOfConstrTo": 198610,
+               "rmiTypeId": 892
+            }
+         }
+      ]
+   },
+   "status": 200
+}

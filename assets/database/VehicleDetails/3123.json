@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3123,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3123,
+               "ccmTech": 1598,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1598,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 6,
+               "manuName": "AUSTIN",
+               "modId": 240,
+               "modelName": "MAESTRO Fastback (XC)",
+               "motorType": "Essence",
+               "powerHpFrom": 80,
+               "powerHpTo": 80,
+               "powerKwFrom": 59,
+               "powerKwTo": 59,
+               "typeName": "1.6",
+               "typeNumber": 3123,
+               "valves": 2,
+               "yearOfConstrFrom": 198303,
+               "yearOfConstrTo": 198410,
+               "rmiTypeId": 2853
+            },
+            "vehicleDocId": "DR3123"
+         }
+      ]
+   },
+   "status": 200
+}

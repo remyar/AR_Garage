@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 284,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 284,
+               "ccmTech": 3430,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3430,
+               "cylinderCapacityLiter": 340,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 539,
+               "modelName": "7 (E23)",
+               "motorType": "Essence",
+               "powerHpFrom": 252,
+               "powerHpTo": 252,
+               "powerKwFrom": 185,
+               "powerKwTo": 185,
+               "typeName": "745 i",
+               "typeNumber": 284,
+               "valves": 2,
+               "yearOfConstrFrom": 198305,
+               "yearOfConstrTo": 198608,
+               "rmiTypeId": 251
+            }
+         }
+      ]
+   },
+   "status": 200
+}

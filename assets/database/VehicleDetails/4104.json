@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4104,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4104,
+               "ccmTech": 1335,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1335,
+               "cylinderCapacityLiter": 130,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 3576,
+               "modelName": "CIVIC I A trois volumes (SF)",
+               "motorType": "Essence",
+               "powerHpFrom": 71,
+               "powerHpTo": 71,
+               "powerKwFrom": 52,
+               "powerKwTo": 52,
+               "typeName": "1300 S",
+               "typeNumber": 4104,
+               "valves": 2,
+               "yearOfConstrFrom": 197910,
+               "yearOfConstrTo": 198412,
+               "rmiTypeId": 3776
+            },
+            "vehicleDocId": "DR4104"
+         }
+      ]
+   },
+   "status": 200
+}

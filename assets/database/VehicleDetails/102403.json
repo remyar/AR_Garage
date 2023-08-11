@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 102403,
+            "vehicleDetails": {
+               "carId": 102403,
+               "ccmTech": 647,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 647,
+               "cylinderCapacityLiter": 65,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 4056,
+               "manuName": "HYOSUNG",
+               "modId": 12328,
+               "modelName": "GT",
+               "motorType": "Essence",
+               "powerHpFrom": 78,
+               "powerHpTo": 78,
+               "powerKwFrom": 57,
+               "powerKwTo": 57,
+               "typeName": "GT 650 R (GT650)",
+               "typeNumber": 102403,
+               "valves": 4,
+               "yearOfConstrFrom": 200501,
+               "yearOfConstrTo": 200912
+            }
+         }
+      ]
+   },
+   "status": 200
+}

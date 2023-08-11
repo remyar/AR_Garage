@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6365,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6365,
+               "ccmTech": 2384,
+               "constructionType": "Camionnette",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2384,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 1636,
+               "modelName": "LT 28-35 I Camionnette (281-363)",
+               "motorType": "Diesel",
+               "powerHpFrom": 102,
+               "powerHpTo": 102,
+               "powerKwFrom": 75,
+               "powerKwTo": 75,
+               "typeName": "2.4 TD",
+               "typeNumber": 6365,
+               "valves": 2,
+               "yearOfConstrFrom": 198602,
+               "yearOfConstrTo": 199208,
+               "rmiTypeId": 5717
+            },
+            "vehicleDocId": "DR6365"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3344,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3344,
+               "ccmTech": 1755,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1755,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 470,
+               "modelName": "GALANT VI A trois volumes (E3_A)",
+               "motorType": "Essence",
+               "powerHpFrom": 86,
+               "powerHpTo": 86,
+               "powerKwFrom": 63,
+               "powerKwTo": 63,
+               "typeName": "1.8 (E32A)",
+               "typeNumber": 3344,
+               "valves": 2,
+               "yearOfConstrFrom": 198711,
+               "yearOfConstrTo": 199008,
+               "rmiTypeId": 3060
+            },
+            "vehicleDocId": "DR3344"
+         }
+      ]
+   },
+   "status": 200
+}

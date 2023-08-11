@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1031,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique-mécanique",
+               "carId": 1031,
+               "ccmTech": 2496,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2496,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 444,
+               "modelName": "TRANSIT Autobus/Autocar (T_ _)",
+               "motorType": "Diesel",
+               "powerHpFrom": 68,
+               "powerHpTo": 68,
+               "powerKwFrom": 50,
+               "powerKwTo": 50,
+               "typeName": "2.5 D (TBS, TCL, TCS, TEL, TES)",
+               "typeNumber": 1031,
+               "valves": 2,
+               "yearOfConstrFrom": 198512,
+               "yearOfConstrTo": 198901,
+               "rmiTypeId": 910
+            }
+         }
+      ]
+   },
+   "status": 200
+}

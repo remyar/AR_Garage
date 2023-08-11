@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 103013,
+            "vehicleDetails": {
+               "carId": 103013,
+               "ccmTech": 643,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 643,
+               "cylinderCapacityLiter": 64,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Cardan",
+               "manuId": 4062,
+               "manuName": "MOTO GUZZI",
+               "modId": 12454,
+               "modelName": "V 65",
+               "motorType": "Essence",
+               "powerHpFrom": 50,
+               "powerHpTo": 50,
+               "powerKwFrom": 37,
+               "powerKwTo": 37,
+               "typeName": "V 65",
+               "typeNumber": 103013,
+               "valves": 2,
+               "yearOfConstrFrom": 198201,
+               "yearOfConstrTo": 198712
+            }
+         }
+      ]
+   },
+   "status": 200
+}

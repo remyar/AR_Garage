@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2771,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2771,
+               "ccmTech": 2316,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2316,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 215,
+               "modelName": "240 Break (P245)",
+               "motorType": "Essence",
+               "powerHpFrom": 110,
+               "powerHpTo": 110,
+               "powerKwFrom": 81,
+               "powerKwTo": 81,
+               "typeName": "2.3",
+               "typeNumber": 2771,
+               "valves": 2,
+               "yearOfConstrFrom": 198408,
+               "yearOfConstrTo": 198607,
+               "rmiTypeId": 2534
+            },
+            "vehicleDocId": "DR2771"
+         }
+      ]
+   },
+   "status": 200
+}

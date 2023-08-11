@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4007,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4007,
+               "ccmTech": 3980,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3980,
+               "cylinderCapacityLiter": 400,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 56,
+               "manuName": "JAGUAR",
+               "modId": 105,
+               "modelName": "XJ (X300, X330)",
+               "motorType": "Essence",
+               "powerHpFrom": 320,
+               "powerHpTo": 320,
+               "powerKwFrom": 235,
+               "powerKwTo": 235,
+               "typeName": "R Super Charged 4.0",
+               "typeNumber": 4007,
+               "valves": 4,
+               "yearOfConstrFrom": 199411,
+               "yearOfConstrTo": 199707,
+               "rmiTypeId": 3680
+            }
+         }
+      ]
+   },
+   "status": 200
+}

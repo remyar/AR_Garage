@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123925,
+            "vehicleDetails": {
+               "carId": 123925,
+               "ccmTech": 2979,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2979,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 771,
+               "manuName": "MASERATI",
+               "modId": 11569,
+               "modelName": "QUATTROPORTE VI",
+               "motorType": "Essence",
+               "powerHpFrom": 409,
+               "powerHpTo": 409,
+               "powerKwFrom": 301,
+               "powerKwTo": 301,
+               "typeName": "3.0 S",
+               "typeNumber": 123925,
+               "valves": 4,
+               "yearOfConstrFrom": 201611,
+               "rmiTypeId": 134001
+            },
+            "vehicleDocId": "DR123925"
+         }
+      ]
+   },
+   "status": 200
+}

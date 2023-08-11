@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101689,
+            "vehicleDetails": {
+               "carId": 101689,
+               "ccmTech": 653,
+               "constructionType": "Moto",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 653,
+               "cylinderCapacityLiter": 65,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Cardan",
+               "manuId": 1021,
+               "manuName": "YAMAHA",
+               "modId": 12718,
+               "modelName": "XJ",
+               "motorType": "Essence",
+               "powerHpFrom": 50,
+               "powerHpTo": 50,
+               "powerKwFrom": 37,
+               "powerKwTo": 37,
+               "typeName": "XJ 650 (4K0)",
+               "typeNumber": 101689,
+               "valves": 4,
+               "yearOfConstrFrom": 198201,
+               "yearOfConstrTo": 198412
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11299,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 11299,
+               "ccmTech": 1990,
+               "constructionType": "Décapotable",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 1990,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 3483,
+               "modelName": "Z3 Roadster (E36)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.0 i",
+               "typeNumber": 11299,
+               "valves": 4,
+               "yearOfConstrFrom": 199904,
+               "yearOfConstrTo": 200301,
+               "rmiTypeId": 9058
+            },
+            "vehicleDocId": "DR11299"
+         }
+      ]
+   },
+   "status": 200
+}

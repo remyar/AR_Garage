@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 12099,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 12099,
+               "ccmTech": 5439,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 5439,
+               "cylinderCapacityLiter": 550,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 3575,
+               "modelName": "CLASSE S (W220)",
+               "motorType": "Essence",
+               "powerHpFrom": 360,
+               "powerHpTo": 360,
+               "powerKwFrom": 265,
+               "powerKwTo": 265,
+               "typeName": "S 55 AMG (220.073, 220.173)",
+               "typeNumber": 12099,
+               "valves": 3,
+               "yearOfConstrFrom": 199904,
+               "yearOfConstrTo": 200508,
+               "rmiTypeId": 9356
+            },
+            "vehicleDocId": "DR12099"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 137022,
+            "vehicleDetails": {
+               "carId": 137022,
+               "ccmTech": 3604,
+               "constructionType": "Pick-up",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3604,
+               "cylinderCapacityLiter": 360,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 882,
+               "manuName": "JEEP",
+               "modId": 39785,
+               "modelName": "GLADIATOR Pick-up (JT_)",
+               "motorType": "Essence",
+               "powerHpFrom": 290,
+               "powerHpTo": 290,
+               "powerKwFrom": 213,
+               "powerKwTo": 213,
+               "typeName": "3.6 VVT",
+               "typeNumber": 137022,
+               "valves": 4,
+               "yearOfConstrFrom": 201904,
+               "rmiTypeId": 157443
+            },
+            "vehicleDocId": "DR137022"
+         }
+      ]
+   },
+   "status": 200
+}

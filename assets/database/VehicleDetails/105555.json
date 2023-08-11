@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 105555,
+            "vehicleDetails": {
+               "carId": 105555,
+               "ccmTech": 96,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 96,
+               "cylinderCapacityLiter": 10,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 181,
+               "manuName": "PIAGGIO",
+               "modId": 12557,
+               "modelName": "ZIP",
+               "motorType": "Essence",
+               "powerHpFrom": 6,
+               "powerHpTo": 6,
+               "powerKwFrom": 4,
+               "powerKwTo": 4,
+               "typeName": "Zip 100 (M25)",
+               "typeNumber": 105555,
+               "valves": 2,
+               "yearOfConstrFrom": 200604,
+               "yearOfConstrTo": 200712
+            }
+         }
+      ]
+   },
+   "status": 200
+}

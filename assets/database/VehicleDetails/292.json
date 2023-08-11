@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 292,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 292,
+               "ccmTech": 4988,
+               "constructionType": "Coupé",
+               "cylinder": 12,
+               "cylinderCapacityCcm": 4988,
+               "cylinderCapacityLiter": 500,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 67,
+               "modelName": "8 (E31)",
+               "motorType": "Essence",
+               "powerHpFrom": 300,
+               "powerHpTo": 300,
+               "powerKwFrom": 220,
+               "powerKwTo": 220,
+               "typeName": "850 i, Ci",
+               "typeNumber": 292,
+               "valves": 2,
+               "yearOfConstrFrom": 199001,
+               "yearOfConstrTo": 199408,
+               "rmiTypeId": 259
+            },
+            "vehicleDocId": "DR292"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 120566,
+            "vehicleDetails": {
+               "carId": 120566,
+               "ccmTech": 2987,
+               "constructionType": "SUV",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2987,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 771,
+               "manuName": "MASERATI",
+               "modId": 36390,
+               "modelName": "LEVANTE SUV (M161)",
+               "motorType": "Diesel",
+               "powerHpFrom": 250,
+               "powerHpTo": 250,
+               "powerKwFrom": 184,
+               "powerKwTo": 184,
+               "typeName": "3.0 D Q4",
+               "typeNumber": 120566,
+               "valves": 4,
+               "yearOfConstrFrom": 201606,
+               "rmiTypeId": 129455
+            },
+            "vehicleDocId": "DR120566"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 242,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 242,
+               "ccmTech": 2494,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2494,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 464,
+               "modelName": "5 (E34)",
+               "motorType": "Essence",
+               "powerHpFrom": 192,
+               "powerHpTo": 192,
+               "powerKwFrom": 141,
+               "powerKwTo": 141,
+               "typeName": "525 iX 24V",
+               "typeNumber": 242,
+               "valves": 4,
+               "yearOfConstrFrom": 199110,
+               "yearOfConstrTo": 199508,
+               "rmiTypeId": 211
+            },
+            "vehicleDocId": "DR242"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 102641,
+            "vehicleDetails": {
+               "carId": 102641,
+               "ccmTech": 805,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 805,
+               "cylinderCapacityLiter": 80,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Cardan",
+               "manuId": 4064,
+               "manuName": "SACHS",
+               "modId": 12579,
+               "modelName": "ROADSTER",
+               "motorType": "Essence",
+               "powerHpFrom": 34,
+               "powerHpTo": 34,
+               "powerKwFrom": 25,
+               "powerKwTo": 25,
+               "typeName": "Roadster 800",
+               "typeNumber": 102641,
+               "valves": 4,
+               "yearOfConstrFrom": 200001,
+               "yearOfConstrTo": 200412
+            }
+         }
+      ]
+   },
+   "status": 200
+}

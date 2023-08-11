@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 103300,
+            "vehicleDetails": {
+               "carId": 103300,
+               "ccmTech": 598,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 598,
+               "cylinderCapacityLiter": 60,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 2554,
+               "manuName": "CAGIVA",
+               "modId": 12134,
+               "modelName": "RIVER",
+               "motorType": "Essence",
+               "powerHpFrom": 34,
+               "powerHpTo": 34,
+               "powerKwFrom": 25,
+               "powerKwTo": 25,
+               "typeName": "River 600",
+               "typeNumber": 103300,
+               "valves": 4,
+               "yearOfConstrFrom": 200001,
+               "yearOfConstrTo": 200212
+            }
+         }
+      ]
+   },
+   "status": 200
+}

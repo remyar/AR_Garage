@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1172,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1172,
+               "ccmTech": 1698,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1698,
+               "cylinderCapacityLiter": 170,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 75,
+               "modelName": "REKORD E (17_, 11_, 14_, 16_, 18_, 19_)",
+               "motorType": "Essence",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "1.7",
+               "typeNumber": 1172,
+               "valves": 2,
+               "yearOfConstrFrom": 197709,
+               "yearOfConstrTo": 198210,
+               "rmiTypeId": 1034
+            },
+            "vehicleDocId": "DR1172"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11246,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 11246,
+               "ccmTech": 1994,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1994,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 107,
+               "manuName": "SUBARU",
+               "modId": 4080,
+               "modelName": "LEGACY III Break (BH)",
+               "motorType": "Essence",
+               "powerHpFrom": 125,
+               "powerHpTo": 125,
+               "powerKwFrom": 92,
+               "powerKwTo": 92,
+               "typeName": "2.0 AWD (BH5)",
+               "typeNumber": 11246,
+               "valves": 4,
+               "yearOfConstrFrom": 199812,
+               "yearOfConstrTo": 200308,
+               "rmiTypeId": 9033
+            },
+            "vehicleDocId": "DR11246"
+         }
+      ]
+   },
+   "status": 200
+}

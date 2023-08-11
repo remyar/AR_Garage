@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3230,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3230,
+               "ccmTech": 1994,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1994,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 95,
+               "manuName": "ROVER",
+               "modId": 3454,
+               "modelName": "200 Coupé (XW)",
+               "motorType": "Essence",
+               "powerHpFrom": 200,
+               "powerHpTo": 200,
+               "powerKwFrom": 147,
+               "powerKwTo": 147,
+               "typeName": "220 Turbo",
+               "typeNumber": 3230,
+               "valves": 4,
+               "yearOfConstrFrom": 199210,
+               "yearOfConstrTo": 199906,
+               "rmiTypeId": 2955
+            },
+            "vehicleDocId": "DR3230"
+         }
+      ]
+   },
+   "status": 200
+}

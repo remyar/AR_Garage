@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 15443,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 15443,
+               "ccmTech": 1798,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1798,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 4721,
+               "modelName": "MONDEO III A trois volumes (B4Y)",
+               "motorType": "Essence",
+               "powerHpFrom": 125,
+               "powerHpTo": 125,
+               "powerKwFrom": 92,
+               "powerKwTo": 92,
+               "typeName": "1.8 16V",
+               "typeNumber": 15443,
+               "valves": 4,
+               "yearOfConstrFrom": 200010,
+               "yearOfConstrTo": 200703,
+               "rmiTypeId": 11576
+            },
+            "vehicleDocId": "DR15443"
+         }
+      ]
+   },
+   "status": 200
+}

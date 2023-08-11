@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4314,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4314,
+               "ccmTech": 2664,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2664,
+               "cylinderCapacityLiter": 270,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction intégrale",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 1226,
+               "modelName": "TERRANO II (R20)",
+               "motorType": "Diesel",
+               "powerHpFrom": 101,
+               "powerHpTo": 101,
+               "powerKwFrom": 74,
+               "powerKwTo": 74,
+               "typeName": "2.7 TD 4WD",
+               "typeNumber": 4314,
+               "valves": 2,
+               "yearOfConstrFrom": 199302,
+               "yearOfConstrTo": 200201,
+               "rmiTypeId": 3983
+            },
+            "vehicleDocId": "DR4314"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101421,
+            "vehicleDetails": {
+               "carId": 101421,
+               "ccmTech": 865,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 865,
+               "cylinderCapacityLiter": 86,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 112,
+               "manuName": "TRIUMPH",
+               "modId": 12660,
+               "modelName": "BONNEVILLE",
+               "motorType": "Essence",
+               "powerHpFrom": 64,
+               "powerHpTo": 64,
+               "powerKwFrom": 47,
+               "powerKwTo": 47,
+               "typeName": "Bonneville T 100",
+               "typeNumber": 101421,
+               "valves": 4,
+               "yearOfConstrFrom": 200501,
+               "yearOfConstrTo": 200612
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 103105,
+            "vehicleDetails": {
+               "carId": 103105,
+               "ccmTech": 125,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 125,
+               "cylinderCapacityLiter": 12,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 4064,
+               "manuName": "SACHS",
+               "modId": 12592,
+               "modelName": "X-ROAD",
+               "motorType": "Essence",
+               "powerHpFrom": 15,
+               "powerHpTo": 15,
+               "powerKwFrom": 11,
+               "powerKwTo": 11,
+               "typeName": "X-Road (679)",
+               "typeNumber": 103105,
+               "valves": 2,
+               "yearOfConstrFrom": 200411,
+               "yearOfConstrTo": 200912
+            }
+         }
+      ]
+   },
+   "status": 200
+}

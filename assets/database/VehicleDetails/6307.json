@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6307,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6307,
+               "ccmTech": 2109,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2109,
+               "cylinderCapacityLiter": 210,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 1629,
+               "modelName": "TRANSPORTER T3 Camionnette (24_, 25_)",
+               "motorType": "Essence",
+               "powerHpFrom": 112,
+               "powerHpTo": 112,
+               "powerKwFrom": 82,
+               "powerKwTo": 82,
+               "typeName": "2.1 Syncro",
+               "typeNumber": 6307,
+               "valves": 2,
+               "yearOfConstrFrom": 198603,
+               "yearOfConstrTo": 199207,
+               "rmiTypeId": 5670
+            },
+            "vehicleDocId": "DR6307"
+         }
+      ]
+   },
+   "status": 200
+}

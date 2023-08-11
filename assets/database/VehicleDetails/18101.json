@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 18101,
+            "vehicleDetails": {
+               "carId": 18101,
+               "ccmTech": 2148,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2148,
+               "cylinderCapacityLiter": 220,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 5014,
+               "modelName": "VITO / MIXTO Camionnette (W639)",
+               "motorType": "Diesel",
+               "powerHpFrom": 88,
+               "powerHpTo": 88,
+               "powerKwFrom": 65,
+               "powerKwTo": 65,
+               "typeName": "109 CDI (639.601, 639.603, 639.605)",
+               "typeNumber": 18101,
+               "valves": 4,
+               "yearOfConstrFrom": 200309,
+               "rmiTypeId": 14223
+            },
+            "vehicleDocId": "DR18101"
+         }
+      ]
+   },
+   "status": 200
+}

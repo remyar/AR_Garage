@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10003,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10003,
+               "ccmTech": 1896,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1896,
+               "cylinderCapacityLiter": 190,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 3884,
+               "modelName": "BORA I (1J2)",
+               "motorType": "Diesel",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.9 TDI",
+               "typeNumber": 10003,
+               "valves": 2,
+               "yearOfConstrFrom": 199810,
+               "yearOfConstrTo": 200505,
+               "rmiTypeId": 8516
+            },
+            "vehicleDocId": "DR10003"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10,
+               "ccmTech": 1990,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1990,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 187,
+               "modelName": "1500-2000 (115, 116, 118, 121)",
+               "motorType": "Essence",
+               "powerHpFrom": 100,
+               "powerHpTo": 100,
+               "powerKwFrom": 74,
+               "powerKwTo": 74,
+               "typeName": "2000",
+               "typeNumber": 10,
+               "valves": 2,
+               "yearOfConstrFrom": 196809,
+               "yearOfConstrTo": 197207,
+               "rmiTypeId": 8
+            },
+            "vehicleDocId": "DR10"
+         }
+      ]
+   },
+   "status": 200
+}

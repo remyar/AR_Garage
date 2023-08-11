@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9987,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9987,
+               "ccmTech": 1995,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1995,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 3878,
+               "modelName": "ASTRA G A trois volumes (T98)",
+               "motorType": "Diesel",
+               "powerHpFrom": 82,
+               "powerHpTo": 82,
+               "powerKwFrom": 60,
+               "powerKwTo": 60,
+               "typeName": "2.0 DI (F69)",
+               "typeNumber": 9987,
+               "valves": 4,
+               "yearOfConstrFrom": 199809,
+               "yearOfConstrTo": 200501,
+               "rmiTypeId": 8503
+            },
+            "vehicleDocId": "DR9987"
+         }
+      ]
+   },
+   "status": 200
+}

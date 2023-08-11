@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 100404,
+            "vehicleDetails": {
+               "carId": 100404,
+               "ccmTech": 4593,
+               "constructionType": "Décapotable",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4593,
+               "cylinderCapacityLiter": 460,
+               "fuelType": "Essence/électrique",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 92,
+               "manuName": "PORSCHE",
+               "modId": 11740,
+               "modelName": "918 Spyder",
+               "motorType": "Hybride rechargeable",
+               "powerHpFrom": 887,
+               "powerHpTo": 887,
+               "powerKwFrom": 652,
+               "powerKwTo": 652,
+               "typeName": "4.6 Plug-in Hybrid",
+               "typeNumber": 100404,
+               "valves": 4,
+               "yearOfConstrFrom": 201311,
+               "rmiTypeId": 90041
+            },
+            "vehicleDocId": "DR100404"
+         }
+      ]
+   },
+   "status": 200
+}

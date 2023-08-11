@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3408,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3408,
+               "ccmTech": 2351,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2351,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 109,
+               "modelName": "L 300 III Autobus/Autocar (P0_W, P1_W, P2_W, P3_W)",
+               "motorType": "Essence",
+               "powerHpFrom": 112,
+               "powerHpTo": 112,
+               "powerKwFrom": 82,
+               "powerKwTo": 82,
+               "typeName": "2.4 4WD (P24W)",
+               "typeNumber": 3408,
+               "valves": 2,
+               "yearOfConstrFrom": 198608,
+               "yearOfConstrTo": 200405,
+               "rmiTypeId": 3119
+            }
+         }
+      ]
+   },
+   "status": 200
+}

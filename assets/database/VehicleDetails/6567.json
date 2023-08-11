@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6567,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6567,
+               "ccmTech": 2520,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2520,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 1679,
+               "modelName": "TAUNUS 26M XL (52F)",
+               "motorType": "Essence",
+               "powerHpFrom": 125,
+               "powerHpTo": 125,
+               "powerKwFrom": 92,
+               "powerKwTo": 92,
+               "typeName": "2.5",
+               "typeNumber": 6567,
+               "valves": 2,
+               "yearOfConstrFrom": 196910,
+               "yearOfConstrTo": 197404,
+               "rmiTypeId": 5901
+            }
+         }
+      ]
+   },
+   "status": 200
+}

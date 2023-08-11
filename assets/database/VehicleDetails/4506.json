@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4506,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4506,
+               "ccmTech": 1590,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1590,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 109,
+               "manuName": "SUZUKI",
+               "modId": 1237,
+               "modelName": "VITARA (ET, TA, TD)",
+               "motorType": "Essence",
+               "powerHpFrom": 97,
+               "powerHpTo": 97,
+               "powerKwFrom": 71,
+               "powerKwTo": 71,
+               "typeName": "1.6 i 16V Traction intégrale (ET, TA02, SE416)",
+               "typeNumber": 4506,
+               "valves": 4,
+               "yearOfConstrFrom": 199007,
+               "yearOfConstrTo": 199803,
+               "rmiTypeId": 4163
+            },
+            "vehicleDocId": "DR4506"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 33000,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 33000,
+               "ccmTech": 3210,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3210,
+               "cylinderCapacityLiter": 320,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 539,
+               "modelName": "7 (E23)",
+               "motorType": "Essence",
+               "powerHpFrom": 197,
+               "powerHpTo": 197,
+               "powerKwFrom": 145,
+               "powerKwTo": 145,
+               "typeName": "732 i",
+               "typeNumber": 33000,
+               "valves": 2,
+               "yearOfConstrFrom": 197909,
+               "yearOfConstrTo": 198608,
+               "rmiTypeId": 62509
+            }
+         }
+      ]
+   },
+   "status": 200
+}

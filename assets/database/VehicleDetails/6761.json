@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6761,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6761,
+               "ccmTech": 1998,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1998,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 3386,
+               "modelName": "HIACE IV Camionnette (_H1_)",
+               "motorType": "Essence",
+               "powerHpFrom": 101,
+               "powerHpTo": 101,
+               "powerKwFrom": 74,
+               "powerKwTo": 74,
+               "typeName": "2.0 (RZH102, RZH112)",
+               "typeNumber": 6761,
+               "valves": 2,
+               "yearOfConstrFrom": 199002,
+               "yearOfConstrTo": 200408,
+               "rmiTypeId": 6068
+            },
+            "vehicleDocId": "DR6761"
+         }
+      ]
+   },
+   "status": 200
+}

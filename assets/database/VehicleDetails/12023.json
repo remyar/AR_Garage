@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 12023,
+            "vehicleDetails": {
+               "carId": 12023,
+               "ccmTech": 3564,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3564,
+               "cylinderCapacityLiter": 360,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 819,
+               "manuName": "CADILLAC",
+               "modId": 6723,
+               "modelName": "CTS",
+               "motorType": "Essence",
+               "powerHpFrom": 322,
+               "powerHpTo": 322,
+               "powerKwFrom": 237,
+               "powerKwTo": 237,
+               "typeName": "3.6",
+               "typeNumber": 12023,
+               "valves": 4,
+               "yearOfConstrFrom": 201109,
+               "yearOfConstrTo": 201309,
+               "rmiTypeId": 70383
+            },
+            "vehicleDocId": "DR12023"
+         }
+      ]
+   },
+   "status": 200
+}

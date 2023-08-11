@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6115,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6115,
+               "ccmTech": 1998,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1998,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 72,
+               "manuName": "MAZDA",
+               "modId": 516,
+               "modelName": "626 III Break (GV)",
+               "motorType": "Essence",
+               "powerHpFrom": 110,
+               "powerHpTo": 110,
+               "powerKwFrom": 81,
+               "powerKwTo": 81,
+               "typeName": "2.0 12V (GVEW)",
+               "typeNumber": 6115,
+               "valves": 3,
+               "yearOfConstrFrom": 198709,
+               "yearOfConstrTo": 199001,
+               "rmiTypeId": 5506
+            },
+            "vehicleDocId": "DR6115"
+         }
+      ]
+   },
+   "status": 200
+}

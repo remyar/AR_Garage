@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3108,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3108,
+               "ccmTech": 1256,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1256,
+               "cylinderCapacityLiter": 130,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 6,
+               "manuName": "AUSTIN",
+               "modId": 83,
+               "modelName": "1000-Series MK II",
+               "motorType": "Essence",
+               "powerHpFrom": 68,
+               "powerHpTo": 68,
+               "powerKwFrom": 50,
+               "powerKwTo": 50,
+               "typeName": "1300 GT",
+               "typeNumber": 3108,
+               "valves": 2,
+               "yearOfConstrFrom": 197001,
+               "yearOfConstrTo": 197412,
+               "rmiTypeId": 2844
+            },
+            "vehicleDocId": "DR3108"
+         }
+      ]
+   },
+   "status": 200
+}

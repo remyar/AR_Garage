@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3625,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3625,
+               "ccmTech": 1587,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1587,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 492,
+               "modelName": "CARINA E VI A trois volumes (_T19_)",
+               "motorType": "Essence",
+               "powerHpFrom": 107,
+               "powerHpTo": 107,
+               "powerKwFrom": 79,
+               "powerKwTo": 79,
+               "typeName": "1.6 (AT190)",
+               "typeNumber": 3625,
+               "valves": 4,
+               "yearOfConstrFrom": 199301,
+               "yearOfConstrTo": 199709,
+               "rmiTypeId": 3323
+            },
+            "vehicleDocId": "DR3625"
+         }
+      ]
+   },
+   "status": 200
+}

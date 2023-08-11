@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 141795,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 141795,
+               "ccmTech": 2993,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2993,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 40742,
+               "modelName": "4 Coupé (G22, G82)",
+               "motorType": "Essence",
+               "powerHpFrom": 480,
+               "powerHpTo": 480,
+               "powerKwFrom": 353,
+               "powerKwTo": 353,
+               "typeName": "M4",
+               "typeNumber": 141795,
+               "valves": 4,
+               "yearOfConstrFrom": 202011,
+               "rmiTypeId": 171920
+            },
+            "vehicleDocId": "DR141795"
+         }
+      ]
+   },
+   "status": 200
+}

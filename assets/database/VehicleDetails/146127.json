@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 146127,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 146127,
+               "ccmTech": 999,
+               "constructionType": "Monospace",
+               "cylinder": 3,
+               "cylinderCapacityCcm": 999,
+               "cylinderCapacityLiter": 100,
+               "fuelType": "Essence/gaz de pétrole liquéfié (GPL)",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 139,
+               "manuName": "DACIA",
+               "modId": 42575,
+               "modelName": "JOGGER (RK_)",
+               "motorType": "Essence",
+               "powerHpFrom": 101,
+               "powerHpTo": 101,
+               "powerKwFrom": 74,
+               "powerKwTo": 74,
+               "typeName": "1.0 TCe 100 ECO-G (RKMT)",
+               "typeNumber": 146127,
+               "valves": 4,
+               "yearOfConstrFrom": 202109,
+               "rmiTypeId": 193016
+            },
+            "vehicleDocId": "DR146127"
+         }
+      ]
+   },
+   "status": 200
+}

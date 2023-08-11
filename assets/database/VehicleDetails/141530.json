@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 141530,
+            "vehicleDetails": {
+               "carId": 141530,
+               "ccmTech": 5038,
+               "constructionType": "Coupé",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 5038,
+               "cylinderCapacityLiter": 500,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission, Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 776,
+               "manuName": "FORD USA",
+               "modId": 13370,
+               "modelName": "MUSTANG Coupé",
+               "motorType": "Essence",
+               "powerHpFrom": 449,
+               "powerHpTo": 449,
+               "powerKwFrom": 330,
+               "powerKwTo": 330,
+               "typeName": "5.0 V8",
+               "typeNumber": 141530,
+               "valves": 4,
+               "yearOfConstrFrom": 201912,
+               "rmiTypeId": 170009
+            },
+            "vehicleDocId": "DR141530"
+         }
+      ]
+   },
+   "status": 200
+}

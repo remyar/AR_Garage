@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9210,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9210,
+               "ccmTech": 2494,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2494,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 1820,
+               "manuName": "LAND ROVER",
+               "modId": 38852,
+               "modelName": "90 I (LDV)",
+               "motorType": "Essence",
+               "powerHpFrom": 84,
+               "powerHpTo": 84,
+               "powerKwFrom": 62,
+               "powerKwTo": 62,
+               "typeName": "2.5 4x4",
+               "typeNumber": 9210,
+               "valves": 2,
+               "yearOfConstrFrom": 198509,
+               "yearOfConstrTo": 199008,
+               "rmiTypeId": 8204
+            },
+            "vehicleDocId": "DR9210"
+         }
+      ]
+   },
+   "status": 200
+}

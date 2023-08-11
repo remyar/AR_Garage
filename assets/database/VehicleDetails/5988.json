@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5988,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5988,
+               "ccmTech": 2389,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2389,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 1226,
+               "modelName": "TERRANO II (R20)",
+               "motorType": "Essence",
+               "powerHpFrom": 116,
+               "powerHpTo": 116,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "2.4 4WD",
+               "typeNumber": 5988,
+               "valves": 3,
+               "yearOfConstrFrom": 199605,
+               "yearOfConstrTo": 200201,
+               "rmiTypeId": 5401
+            },
+            "vehicleDocId": "DR5988"
+         }
+      ]
+   },
+   "status": 200
+}

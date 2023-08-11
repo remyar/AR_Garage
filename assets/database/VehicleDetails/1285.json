@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1285,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1285,
+               "ccmTech": 1796,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1796,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 255,
+               "modelName": "MANTA B (58_, 59_)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.8 S",
+               "typeNumber": 1285,
+               "valves": 2,
+               "yearOfConstrFrom": 198207,
+               "yearOfConstrTo": 198708,
+               "rmiTypeId": 1143
+            }
+         }
+      ]
+   },
+   "status": 200
+}

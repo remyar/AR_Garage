@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4888,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4888,
+               "ccmTech": 4943,
+               "constructionType": "Coupé",
+               "cylinder": 12,
+               "cylinderCapacityCcm": 4943,
+               "cylinderCapacityLiter": 490,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 700,
+               "manuName": "FERRARI",
+               "modId": 1412,
+               "modelName": "412 i",
+               "motorType": "Essence",
+               "powerHpFrom": 340,
+               "powerHpTo": 340,
+               "powerKwFrom": 250,
+               "powerKwTo": 250,
+               "typeName": "4.9",
+               "typeNumber": 4888,
+               "valves": 2,
+               "yearOfConstrFrom": 198504,
+               "yearOfConstrTo": 198812,
+               "rmiTypeId": 4515
+            },
+            "vehicleDocId": "DR4888"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3331,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3331,
+               "ccmTech": 1997,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1997,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 454,
+               "modelName": "GALANT IV (A16_)",
+               "motorType": "Essence",
+               "powerHpFrom": 170,
+               "powerHpTo": 170,
+               "powerKwFrom": 125,
+               "powerKwTo": 125,
+               "typeName": "2.0 Turbo ECi (A164)",
+               "typeNumber": 3331,
+               "valves": 2,
+               "yearOfConstrFrom": 198205,
+               "yearOfConstrTo": 198405,
+               "rmiTypeId": 3047
+            },
+            "vehicleDocId": "DR3331"
+         }
+      ]
+   },
+   "status": 200
+}

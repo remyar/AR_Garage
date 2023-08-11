@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3553,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3553,
+               "ccmTech": 2164,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2164,
+               "cylinderCapacityLiter": 220,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 460,
+               "modelName": "CAMRY Break (_V1_)",
+               "motorType": "Essence",
+               "powerHpFrom": 136,
+               "powerHpTo": 136,
+               "powerKwFrom": 100,
+               "powerKwTo": 100,
+               "typeName": "2.2 (SXV10_)",
+               "typeNumber": 3553,
+               "valves": 4,
+               "yearOfConstrFrom": 199109,
+               "yearOfConstrTo": 199607,
+               "rmiTypeId": 3254
+            },
+            "vehicleDocId": "DR3553"
+         }
+      ]
+   },
+   "status": 200
+}

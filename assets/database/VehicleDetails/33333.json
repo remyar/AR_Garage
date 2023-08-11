@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 33333,
+            "vehicleDetails": {
+               "carId": 33333,
+               "ccmTech": 1388,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1388,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence/gaz de pétrole liquéfié (GPL)",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 7585,
+               "modelName": "FIESTA VI (CB1, CCN)",
+               "motorType": "Essence",
+               "powerHpFrom": 97,
+               "powerHpTo": 97,
+               "powerKwFrom": 71,
+               "powerKwTo": 71,
+               "typeName": "1.4 LPG",
+               "typeNumber": 33333,
+               "valves": 4,
+               "yearOfConstrFrom": 200901,
+               "yearOfConstrTo": 201704,
+               "rmiTypeId": 63633
+            },
+            "vehicleDocId": "DR33333"
+         }
+      ]
+   },
+   "status": 200
+}

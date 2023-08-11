@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 102635,
+            "vehicleDetails": {
+               "carId": 102635,
+               "ccmTech": 125,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 125,
+               "cylinderCapacityLiter": 12,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 4064,
+               "manuName": "SACHS",
+               "modId": 12579,
+               "modelName": "ROADSTER",
+               "motorType": "Essence",
+               "powerHpFrom": 9,
+               "powerHpTo": 9,
+               "powerKwFrom": 7,
+               "powerKwTo": 7,
+               "typeName": "Roadster 125",
+               "typeNumber": 102635,
+               "valves": 2,
+               "yearOfConstrFrom": 200901,
+               "yearOfConstrTo": 201312
+            }
+         }
+      ]
+   },
+   "status": 200
+}

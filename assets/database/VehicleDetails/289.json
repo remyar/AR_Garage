@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 289,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 289,
+               "ccmTech": 3430,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3430,
+               "cylinderCapacityLiter": 340,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 544,
+               "modelName": "7 (E32)",
+               "motorType": "Essence",
+               "powerHpFrom": 220,
+               "powerHpTo": 220,
+               "powerKwFrom": 162,
+               "powerKwTo": 162,
+               "typeName": "735 i, iL",
+               "typeNumber": 289,
+               "valves": 2,
+               "yearOfConstrFrom": 198607,
+               "yearOfConstrTo": 198901,
+               "rmiTypeId": 256
+            },
+            "vehicleDocId": "DR289"
+         }
+      ]
+   },
+   "status": 200
+}

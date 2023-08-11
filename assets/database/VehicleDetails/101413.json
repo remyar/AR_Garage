@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101413,
+            "vehicleDetails": {
+               "carId": 101413,
+               "ccmTech": 125,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 125,
+               "cylinderCapacityLiter": 12,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12273,
+               "modelName": "FES",
+               "motorType": "Essence",
+               "powerHpFrom": 14,
+               "powerHpTo": 14,
+               "powerKwFrom": 10,
+               "powerKwTo": 10,
+               "typeName": "FES 125 S-Wing (JF12)",
+               "typeNumber": 101413,
+               "valves": 2,
+               "yearOfConstrFrom": 200701,
+               "yearOfConstrTo": 201412
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 13111,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 13111,
+               "ccmTech": 5439,
+               "constructionType": "Coupé",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 5439,
+               "cylinderCapacityLiter": 540,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 1981,
+               "modelName": "CLK (C208)",
+               "motorType": "Essence",
+               "powerHpFrom": 347,
+               "powerHpTo": 347,
+               "powerKwFrom": 255,
+               "powerKwTo": 255,
+               "typeName": "CLK 55 AMG (208.374)",
+               "typeNumber": 13111,
+               "valves": 3,
+               "yearOfConstrFrom": 199908,
+               "yearOfConstrTo": 200206,
+               "rmiTypeId": 9788
+            },
+            "vehicleDocId": "DR13111"
+         }
+      ]
+   },
+   "status": 200
+}

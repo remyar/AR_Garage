@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9411,
+            "vehicleDetails": {
+               "carId": 9411,
+               "ccmTech": 4601,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4601,
+               "cylinderCapacityLiter": 460,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 95,
+               "manuName": "ROVER",
+               "modId": 3989,
+               "modelName": "75 (RJ)",
+               "motorType": "Essence",
+               "powerHpFrom": 260,
+               "powerHpTo": 260,
+               "powerKwFrom": 191,
+               "powerKwTo": 191,
+               "typeName": "4.6 V8",
+               "typeNumber": 9411,
+               "valves": 2,
+               "yearOfConstrFrom": 200410,
+               "yearOfConstrTo": 200505,
+               "rmiTypeId": 68591
+            },
+            "vehicleDocId": "DR9411"
+         }
+      ]
+   },
+   "status": 200
+}

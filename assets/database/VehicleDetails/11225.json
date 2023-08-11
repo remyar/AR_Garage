@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11225,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 11225,
+               "ccmTech": 1753,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1753,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 1464,
+               "modelName": "ESCORT VI A trois volumes (GAL, AFL)",
+               "motorType": "Diesel",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.8 TD",
+               "typeNumber": 11225,
+               "valves": 2,
+               "yearOfConstrFrom": 199501,
+               "yearOfConstrTo": 199902,
+               "rmiTypeId": 9023
+            },
+            "vehicleDocId": "DR11225"
+         }
+      ]
+   },
+   "status": 200
+}

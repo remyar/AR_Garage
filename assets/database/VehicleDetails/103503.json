@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 103503,
+            "vehicleDetails": {
+               "carId": 103503,
+               "ccmTech": 865,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 865,
+               "cylinderCapacityLiter": 86,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 112,
+               "manuName": "TRIUMPH",
+               "modId": 12660,
+               "modelName": "BONNEVILLE",
+               "motorType": "Essence",
+               "powerHpFrom": 68,
+               "powerHpTo": 68,
+               "powerKwFrom": 50,
+               "powerKwTo": 50,
+               "typeName": "Bonneville 100 SE",
+               "typeNumber": 103503,
+               "valves": 4,
+               "yearOfConstrFrom": 200901,
+               "yearOfConstrTo": 201212
+            }
+         }
+      ]
+   },
+   "status": 200
+}

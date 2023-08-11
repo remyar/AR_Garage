@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1496,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1496,
+               "ccmTech": 1593,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1593,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 346,
+               "modelName": "TAUNUS (GBTK)",
+               "motorType": "Essence",
+               "powerHpFrom": 68,
+               "powerHpTo": 68,
+               "powerKwFrom": 50,
+               "powerKwTo": 50,
+               "typeName": "1600",
+               "typeNumber": 1496,
+               "valves": 2,
+               "yearOfConstrFrom": 197401,
+               "yearOfConstrTo": 197505,
+               "rmiTypeId": 1338
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10226,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10226,
+               "ccmTech": 7990,
+               "constructionType": "Décapotable",
+               "cylinder": 10,
+               "cylinderCapacityCcm": 7990,
+               "cylinderCapacityLiter": 800,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 20,
+               "manuName": "CHRYSLER",
+               "modId": 3946,
+               "modelName": "VIPER Convertible",
+               "motorType": "Essence",
+               "powerHpFrom": 384,
+               "powerHpTo": 384,
+               "powerKwFrom": 282,
+               "powerKwTo": 282,
+               "typeName": "8.0",
+               "typeNumber": 10226,
+               "valves": 2,
+               "yearOfConstrFrom": 199807,
+               "yearOfConstrTo": 199812,
+               "rmiTypeId": 8611
+            },
+            "vehicleDocId": "DR10226"
+         }
+      ]
+   },
+   "status": 200
+}

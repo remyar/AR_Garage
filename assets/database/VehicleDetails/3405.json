@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3405,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3405,
+               "ccmTech": 1997,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1997,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 109,
+               "modelName": "L 300 III Autobus/Autocar (P0_W, P1_W, P2_W, P3_W)",
+               "motorType": "Essence",
+               "powerHpFrom": 87,
+               "powerHpTo": 87,
+               "powerKwFrom": 64,
+               "powerKwTo": 64,
+               "typeName": "2.0 (P03W, P13W)",
+               "typeNumber": 3405,
+               "valves": 2,
+               "yearOfConstrFrom": 198611,
+               "yearOfConstrTo": 200405,
+               "rmiTypeId": 3116
+            },
+            "vehicleDocId": "DR3405"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 227,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 227,
+               "ccmTech": 2443,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2443,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 452,
+               "modelName": "5 (E28)",
+               "motorType": "Diesel",
+               "powerHpFrom": 115,
+               "powerHpTo": 115,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "524 td",
+               "typeNumber": 227,
+               "valves": 2,
+               "yearOfConstrFrom": 198309,
+               "yearOfConstrTo": 198712,
+               "rmiTypeId": 196
+            },
+            "vehicleDocId": "DR227"
+         }
+      ]
+   },
+   "status": 200
+}

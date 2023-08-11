@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 232,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 232,
+               "ccmTech": 2788,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2788,
+               "cylinderCapacityLiter": 280,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 452,
+               "modelName": "5 (E28)",
+               "motorType": "Essence",
+               "powerHpFrom": 184,
+               "powerHpTo": 184,
+               "powerKwFrom": 135,
+               "powerKwTo": 135,
+               "typeName": "528 i",
+               "typeNumber": 232,
+               "valves": 2,
+               "yearOfConstrFrom": 198106,
+               "yearOfConstrTo": 198712,
+               "rmiTypeId": 201
+            },
+            "vehicleDocId": "DR232"
+         }
+      ]
+   },
+   "status": 200
+}

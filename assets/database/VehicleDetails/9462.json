@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9462,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9462,
+               "ccmTech": 2435,
+               "constructionType": "A trois volumes",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2435,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 3550,
+               "modelName": "S80 I (184)",
+               "motorType": "Essence",
+               "powerHpFrom": 140,
+               "powerHpTo": 140,
+               "powerKwFrom": 103,
+               "powerKwTo": 103,
+               "typeName": "2.4",
+               "typeNumber": 9462,
+               "valves": 4,
+               "yearOfConstrFrom": 199901,
+               "yearOfConstrTo": 200607,
+               "rmiTypeId": 8295
+            },
+            "vehicleDocId": "DR9462"
+         }
+      ]
+   },
+   "status": 200
+}

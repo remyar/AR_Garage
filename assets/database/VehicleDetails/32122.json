@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 32122,
+            "vehicleDetails": {
+               "carId": 32122,
+               "ccmTech": 2457,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2457,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 107,
+               "manuName": "SUBARU",
+               "modId": 8278,
+               "modelName": "OUTBACK (BR)",
+               "motorType": "Essence",
+               "powerHpFrom": 167,
+               "powerHpTo": 167,
+               "powerKwFrom": 123,
+               "powerKwTo": 123,
+               "typeName": "2.5 i AWD (BR9)",
+               "typeNumber": 32122,
+               "valves": 4,
+               "yearOfConstrFrom": 200909,
+               "rmiTypeId": 61514
+            },
+            "vehicleDocId": "DR32122"
+         }
+      ]
+   },
+   "status": 200
+}

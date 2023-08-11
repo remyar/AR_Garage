@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6738,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6738,
+               "ccmTech": 1839,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1839,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction avant",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 108,
+               "modelName": "COROLLA (_E8_)",
+               "motorType": "Diesel",
+               "powerHpFrom": 64,
+               "powerHpTo": 64,
+               "powerKwFrom": 47,
+               "powerKwTo": 47,
+               "typeName": "1.8 D (CE80_)",
+               "typeNumber": 6738,
+               "valves": 2,
+               "yearOfConstrFrom": 198306,
+               "yearOfConstrTo": 198906,
+               "rmiTypeId": 6045
+            },
+            "vehicleDocId": "DR6738"
+         }
+      ]
+   },
+   "status": 200
+}

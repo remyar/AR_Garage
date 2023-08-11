@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 56001,
+            "vehicleDetails": {
+               "carId": 56001,
+               "ccmTech": 2995,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2995,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 56,
+               "manuName": "JAGUAR",
+               "modId": 8797,
+               "modelName": "XJ (X351)",
+               "motorType": "Essence",
+               "powerHpFrom": 340,
+               "powerHpTo": 340,
+               "powerKwFrom": 250,
+               "powerKwTo": 250,
+               "typeName": "3.0 SCV6",
+               "typeNumber": 56001,
+               "valves": 4,
+               "yearOfConstrFrom": 201203,
+               "rmiTypeId": 73941
+            },
+            "vehicleDocId": "DR56001"
+         }
+      ]
+   },
+   "status": 200
+}

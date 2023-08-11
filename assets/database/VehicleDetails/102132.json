@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 102132,
+            "vehicleDetails": {
+               "carId": 102132,
+               "ccmTech": 250,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 250,
+               "cylinderCapacityLiter": 25,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 4056,
+               "manuName": "HYOSUNG",
+               "modId": 12320,
+               "modelName": "AQUILA",
+               "motorType": "Essence",
+               "powerHpFrom": 27,
+               "powerHpTo": 27,
+               "powerKwFrom": 20,
+               "powerKwTo": 20,
+               "typeName": "Aquila 250",
+               "typeNumber": 102132,
+               "valves": 4,
+               "yearOfConstrFrom": 200001,
+               "yearOfConstrTo": 200712
+            }
+         }
+      ]
+   },
+   "status": 200
+}

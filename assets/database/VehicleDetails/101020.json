@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101020,
+            "vehicleDetails": {
+               "carId": 101020,
+               "ccmTech": 1984,
+               "constructionType": "A trois volumes",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 1984,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 8616,
+               "modelName": "S60 II (134)",
+               "motorType": "Essence",
+               "powerHpFrom": 180,
+               "powerHpTo": 180,
+               "powerKwFrom": 132,
+               "powerKwTo": 132,
+               "typeName": "2.0 T",
+               "typeNumber": 101020,
+               "valves": 4,
+               "yearOfConstrFrom": 201205,
+               "yearOfConstrTo": 201512,
+               "rmiTypeId": 76217
+            },
+            "vehicleDocId": "DR101020"
+         }
+      ]
+   },
+   "status": 200
+}

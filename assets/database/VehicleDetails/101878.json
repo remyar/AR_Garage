@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101878,
+            "vehicleDetails": {
+               "carId": 101878,
+               "ccmTech": 805,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 805,
+               "cylinderCapacityLiter": 80,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Cardan",
+               "manuId": 109,
+               "manuName": "SUZUKI",
+               "modId": 12040,
+               "modelName": "C",
+               "motorType": "Essence",
+               "powerHpFrom": 48,
+               "powerHpTo": 48,
+               "powerKwFrom": 35,
+               "powerKwTo": 35,
+               "typeName": "C 800 Intruder",
+               "typeNumber": 101878,
+               "valves": 4,
+               "yearOfConstrFrom": 200501,
+               "yearOfConstrTo": 200812
+            }
+         }
+      ]
+   },
+   "status": 200
+}

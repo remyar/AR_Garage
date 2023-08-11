@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1255,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1255,
+               "ccmTech": 2490,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2490,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 232,
+               "modelName": "SENATOR A (29_)",
+               "motorType": "Essence",
+               "powerHpFrom": 136,
+               "powerHpTo": 136,
+               "powerKwFrom": 100,
+               "powerKwTo": 100,
+               "typeName": "2.5 E",
+               "typeNumber": 1255,
+               "valves": 2,
+               "yearOfConstrFrom": 198301,
+               "yearOfConstrTo": 198408,
+               "rmiTypeId": 1113
+            }
+         }
+      ]
+   },
+   "status": 200
+}

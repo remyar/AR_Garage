@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 309,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 309,
+               "ccmTech": 1797,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1797,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 52,
+               "modelName": "190 (W201)",
+               "motorType": "Essence",
+               "powerHpFrom": 109,
+               "powerHpTo": 109,
+               "powerKwFrom": 80,
+               "powerKwTo": 80,
+               "typeName": "E 1.8 (201.018)",
+               "typeNumber": 309,
+               "valves": 2,
+               "yearOfConstrFrom": 199004,
+               "yearOfConstrTo": 199308,
+               "rmiTypeId": 272
+            },
+            "vehicleDocId": "DR309"
+         }
+      ]
+   },
+   "status": 200
+}

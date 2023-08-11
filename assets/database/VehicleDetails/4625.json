@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4625,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4625,
+               "ccmTech": 1665,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1665,
+               "cylinderCapacityLiter": 170,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 1311,
+               "modelName": "3 Touring (E36)",
+               "motorType": "Diesel",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "318 tds",
+               "typeNumber": 4625,
+               "valves": 2,
+               "yearOfConstrFrom": 199503,
+               "yearOfConstrTo": 199904,
+               "rmiTypeId": 4272
+            },
+            "vehicleDocId": "DR4625"
+         }
+      ]
+   },
+   "status": 200
+}

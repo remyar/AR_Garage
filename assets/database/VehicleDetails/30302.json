@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 30302,
+            "vehicleDetails": {
+               "carId": 30302,
+               "ccmTech": 3496,
+               "constructionType": "Pick-up",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3496,
+               "cylinderCapacityLiter": 350,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 776,
+               "manuName": "FORD USA",
+               "modId": 7007,
+               "modelName": "F-150",
+               "motorType": "Essence",
+               "powerHpFrom": 370,
+               "powerHpTo": 370,
+               "powerKwFrom": 272,
+               "powerKwTo": 272,
+               "typeName": "3.5 4x4",
+               "typeNumber": 30302,
+               "valves": 4,
+               "yearOfConstrFrom": 201101,
+               "rmiTypeId": 120672
+            },
+            "vehicleDocId": "DR30302"
+         }
+      ]
+   },
+   "status": 200
+}

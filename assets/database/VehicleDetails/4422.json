@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4422,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4422,
+               "ccmTech": 2212,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2212,
+               "cylinderCapacityLiter": 220,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 107,
+               "manuName": "SUBARU",
+               "modId": 1289,
+               "modelName": "LEGACY I (BC)",
+               "motorType": "Essence",
+               "powerHpFrom": 136,
+               "powerHpTo": 136,
+               "powerKwFrom": 100,
+               "powerKwTo": 100,
+               "typeName": "2200 4WD (BC7)",
+               "typeNumber": 4422,
+               "valves": 4,
+               "yearOfConstrFrom": 198901,
+               "yearOfConstrTo": 199407,
+               "rmiTypeId": 4087
+            },
+            "vehicleDocId": "DR4422"
+         }
+      ]
+   },
+   "status": 200
+}

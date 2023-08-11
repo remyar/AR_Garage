@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 111981,
+            "vehicleDetails": {
+               "carId": 111981,
+               "ccmTech": 2359,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2359,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 183,
+               "manuName": "HYUNDAI",
+               "modId": 9626,
+               "modelName": "GRANDEUR (HG)",
+               "motorType": "Essence",
+               "powerHpFrom": 201,
+               "powerHpTo": 201,
+               "powerKwFrom": 148,
+               "powerKwTo": 148,
+               "typeName": "2.4 16V",
+               "typeNumber": 111981,
+               "valves": 4,
+               "yearOfConstrFrom": 201101,
+               "yearOfConstrTo": 201610,
+               "rmiTypeId": 117630
+            },
+            "vehicleDocId": "DR111981"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3410,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3410,
+               "ccmTech": 2477,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2477,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction intégrale",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 109,
+               "modelName": "L 300 III Autobus/Autocar (P0_W, P1_W, P2_W, P3_W)",
+               "motorType": "Diesel",
+               "powerHpFrom": 87,
+               "powerHpTo": 87,
+               "powerKwFrom": 64,
+               "powerKwTo": 64,
+               "typeName": "2.5 TD 4WD (P25W, P35W)",
+               "typeNumber": 3410,
+               "valves": 2,
+               "yearOfConstrFrom": 198712,
+               "yearOfConstrTo": 200405,
+               "rmiTypeId": 3121
+            }
+         }
+      ]
+   },
+   "status": 200
+}

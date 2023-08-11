@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 15532,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 15532,
+               "ccmTech": 1781,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1781,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 4736,
+               "modelName": "PASSAT B5.5 (3B3)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "1.8 T 20V",
+               "typeNumber": 15532,
+               "valves": 5,
+               "yearOfConstrFrom": 200011,
+               "yearOfConstrTo": 200505,
+               "rmiTypeId": 11662
+            },
+            "vehicleDocId": "DR15532"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 103500,
+            "vehicleDetails": {
+               "carId": 103500,
+               "ccmTech": 790,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 790,
+               "cylinderCapacityLiter": 79,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 112,
+               "manuName": "TRIUMPH",
+               "modId": 12660,
+               "modelName": "BONNEVILLE",
+               "motorType": "Essence",
+               "powerHpFrom": 61,
+               "powerHpTo": 61,
+               "powerKwFrom": 45,
+               "powerKwTo": 45,
+               "typeName": "Bonneville 800 (908MD)",
+               "typeNumber": 103500,
+               "valves": 4,
+               "yearOfConstrFrom": 200101,
+               "yearOfConstrTo": 200612
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,34 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101661,
+            "vehicleDetails": {
+               "carId": 101661,
+               "ccmTech": 125,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 125,
+               "cylinderCapacityLiter": 12,
+               "fuelType": "Mélange",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 1021,
+               "manuName": "YAMAHA",
+               "modId": 12683,
+               "modelName": "DT",
+               "motorType": "Moteur à essence (à deux temps)",
+               "powerHpFrom": 10,
+               "powerHpTo": 10,
+               "powerKwFrom": 7,
+               "powerKwTo": 7,
+               "typeName": "DT 125 RE (DE06)",
+               "typeNumber": 101661,
+               "yearOfConstrFrom": 200301,
+               "yearOfConstrTo": 200612
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 27567,
+            "vehicleDetails": {
+               "carId": 27567,
+               "ccmTech": 5328,
+               "constructionType": "Pick-up",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 5328,
+               "cylinderCapacityLiter": 530,
+               "fuelType": "Essence / éthanol",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 138,
+               "manuName": "CHEVROLET",
+               "modId": 7535,
+               "modelName": "AVALANCHE",
+               "motorType": "Essence",
+               "powerHpFrom": 314,
+               "powerHpTo": 314,
+               "powerKwFrom": 231,
+               "powerKwTo": 231,
+               "typeName": "5.3 Flex-Fuel AWD",
+               "typeNumber": 27567,
+               "valves": 2,
+               "yearOfConstrFrom": 200701,
+               "yearOfConstrTo": 201312,
+               "rmiTypeId": 55904
+            },
+            "vehicleDocId": "DR27567"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 17055,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 17055,
+               "ccmTech": 2685,
+               "constructionType": "Camionnette",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2685,
+               "cylinderCapacityLiter": 270,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 3906,
+               "modelName": "SPRINTER 3-t Camionnette (B903)",
+               "motorType": "Diesel",
+               "powerHpFrom": 156,
+               "powerHpTo": 156,
+               "powerKwFrom": 115,
+               "powerKwTo": 115,
+               "typeName": "316 CDI 4x4 (903.662, 903.663)",
+               "typeNumber": 17055,
+               "valves": 4,
+               "yearOfConstrFrom": 200102,
+               "yearOfConstrTo": 200605,
+               "rmiTypeId": 13099
+            },
+            "vehicleDocId": "DR17055"
+         }
+      ]
+   },
+   "status": 200
+}

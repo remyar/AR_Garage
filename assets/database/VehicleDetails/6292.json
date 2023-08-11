@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6292,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6292,
+               "ccmTech": 1584,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1584,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 1598,
+               "modelName": "TRANSPORTER T1 Autobus/Autocar (22, 24, 25, 28)",
+               "motorType": "Essence",
+               "powerHpFrom": 48,
+               "powerHpTo": 48,
+               "powerKwFrom": 35,
+               "powerKwTo": 35,
+               "typeName": "1.6",
+               "typeNumber": 6292,
+               "valves": 2,
+               "yearOfConstrFrom": 196606,
+               "yearOfConstrTo": 196707,
+               "rmiTypeId": 5658
+            },
+            "vehicleDocId": "DR6292"
+         }
+      ]
+   },
+   "status": 200
+}

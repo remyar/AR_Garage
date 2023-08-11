@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 100807,
+            "vehicleDetails": {
+               "carId": 100807,
+               "ccmTech": 1999,
+               "constructionType": "SUV",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1999,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 183,
+               "manuName": "HYUNDAI",
+               "modId": 8260,
+               "modelName": "ix35 (LM, EL, ELH)",
+               "motorType": "Essence",
+               "powerHpFrom": 166,
+               "powerHpTo": 166,
+               "powerKwFrom": 122,
+               "powerKwTo": 122,
+               "typeName": "2.0 GDi",
+               "typeNumber": 100807,
+               "valves": 4,
+               "yearOfConstrFrom": 201308,
+               "rmiTypeId": 80135
+            },
+            "vehicleDocId": "DR100807"
+         }
+      ]
+   },
+   "status": 200
+}

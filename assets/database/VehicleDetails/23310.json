@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 23310,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 23310,
+               "ccmTech": 2476,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2476,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction intégrale",
+               "manuId": 183,
+               "manuName": "HYUNDAI",
+               "modId": 1988,
+               "modelName": "SATELLITE Autobus/Autocar (A1)",
+               "motorType": "Diesel",
+               "powerHpFrom": 99,
+               "powerHpTo": 99,
+               "powerKwFrom": 73,
+               "powerKwTo": 73,
+               "typeName": "2.5 TD 4WD",
+               "typeNumber": 23310,
+               "valves": 2,
+               "yearOfConstrFrom": 200103,
+               "yearOfConstrTo": 200404,
+               "rmiTypeId": 52371
+            },
+            "vehicleDocId": "DR23310"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 255,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 255,
+               "ccmTech": 2997,
+               "constructionType": "Break",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 2997,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 459,
+               "modelName": "5 Touring (E34)",
+               "motorType": "Essence",
+               "powerHpFrom": 218,
+               "powerHpTo": 218,
+               "powerKwFrom": 160,
+               "powerKwTo": 160,
+               "typeName": "530 i",
+               "typeNumber": 255,
+               "valves": 4,
+               "yearOfConstrFrom": 199209,
+               "yearOfConstrTo": 199607,
+               "rmiTypeId": 224
+            },
+            "vehicleDocId": "DR255"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 141807,
+            "vehicleDetails": {
+               "carId": 141807,
+               "ccmTech": 3456,
+               "constructionType": "SUV",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3456,
+               "cylinderCapacityLiter": 350,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission, Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 40421,
+               "modelName": "HIGHLANDER (GSU7_, AXUH7_, TXUA7_)",
+               "motorType": "Essence",
+               "powerHpFrom": 249,
+               "powerHpTo": 249,
+               "powerKwFrom": 183,
+               "powerKwTo": 183,
+               "typeName": "3.5 VVTi AWD (GSU75)",
+               "typeNumber": 141807,
+               "valves": 4,
+               "yearOfConstrFrom": 201912,
+               "rmiTypeId": 171924
+            },
+            "vehicleDocId": "DR141807"
+         }
+      ]
+   },
+   "status": 200
+}

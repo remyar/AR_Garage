@@ -1,0 +1,34 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 104385,
+            "vehicleDetails": {
+               "carId": 104385,
+               "ccmTech": 125,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 125,
+               "cylinderCapacityLiter": 12,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12279,
+               "modelName": "MSX",
+               "motorType": "Essence",
+               "powerHpFrom": 10,
+               "powerHpTo": 10,
+               "powerKwFrom": 7,
+               "powerKwTo": 7,
+               "typeName": "MSX 125 Grom (JC61, JC75, JC92)",
+               "typeNumber": 104385,
+               "valves": 2,
+               "yearOfConstrFrom": 201301
+            }
+         }
+      ]
+   },
+   "status": 200
+}

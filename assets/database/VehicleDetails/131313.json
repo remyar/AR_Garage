@@ -1,0 +1,34 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 131313,
+            "vehicleDetails": {
+               "carId": 131313,
+               "ccmTech": 125,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 125,
+               "cylinderCapacityLiter": 13,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 5065,
+               "manuName": "YIBEN",
+               "modId": 38721,
+               "modelName": "YB",
+               "motorType": "Essence",
+               "powerHpFrom": 6,
+               "powerHpTo": 6,
+               "powerKwFrom": 4,
+               "powerKwTo": 4,
+               "typeName": "YB 125 T-22",
+               "typeNumber": 131313,
+               "valves": 2,
+               "yearOfConstrFrom": 200401
+            }
+         }
+      ]
+   },
+   "status": 200
+}

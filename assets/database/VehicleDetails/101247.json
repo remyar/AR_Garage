@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101247,
+            "vehicleDetails": {
+               "carId": 101247,
+               "ccmTech": 395,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 395,
+               "cylinderCapacityLiter": 40,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12266,
+               "modelName": "CM",
+               "motorType": "Essence",
+               "powerHpFrom": 44,
+               "powerHpTo": 44,
+               "powerKwFrom": 32,
+               "powerKwTo": 32,
+               "typeName": "CM 400 T (NC01)",
+               "typeNumber": 101247,
+               "valves": 2,
+               "yearOfConstrFrom": 198001,
+               "yearOfConstrTo": 198412
+            }
+         }
+      ]
+   },
+   "status": 200
+}

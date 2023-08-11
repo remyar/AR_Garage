@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101241,
+            "vehicleDetails": {
+               "carId": 101241,
+               "ccmTech": 50,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 50,
+               "cylinderCapacityLiter": 5,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12259,
+               "modelName": "CB (CB 1 - CB 500)",
+               "motorType": "Essence",
+               "powerHpFrom": 2,
+               "powerHpTo": 2,
+               "powerKwFrom": 1,
+               "powerKwTo": 1,
+               "typeName": "CB 50 J (J)",
+               "typeNumber": 101241,
+               "valves": 2,
+               "yearOfConstrFrom": 197801,
+               "yearOfConstrTo": 198112
+            }
+         }
+      ]
+   },
+   "status": 200
+}

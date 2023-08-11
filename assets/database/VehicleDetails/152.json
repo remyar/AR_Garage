@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 152,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 152,
+               "ccmTech": 1962,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1962,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 287,
+               "modelName": "164 (164_)",
+               "motorType": "Essence",
+               "powerHpFrom": 148,
+               "powerHpTo": 148,
+               "powerKwFrom": 109,
+               "powerKwTo": 109,
+               "typeName": "2.0 Twin Spark (164.A2H, 164.A2)",
+               "typeNumber": 152,
+               "valves": 2,
+               "yearOfConstrFrom": 198706,
+               "yearOfConstrTo": 199209,
+               "rmiTypeId": 124
+            },
+            "vehicleDocId": "DR152"
+         }
+      ]
+   },
+   "status": 200
+}

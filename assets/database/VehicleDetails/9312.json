@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9312,
+            "vehicleDetails": {
+               "carId": 9312,
+               "ccmTech": 2995,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2995,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 1820,
+               "manuName": "LAND ROVER",
+               "modId": 9015,
+               "modelName": "DISCOVERY IV (L319)",
+               "motorType": "Essence",
+               "powerHpFrom": 340,
+               "powerHpTo": 340,
+               "powerKwFrom": 250,
+               "powerKwTo": 250,
+               "typeName": "3.0 4x4",
+               "typeNumber": 9312,
+               "valves": 4,
+               "yearOfConstrFrom": 201308,
+               "yearOfConstrTo": 201812,
+               "rmiTypeId": 80137
+            },
+            "vehicleDocId": "DR9312"
+         }
+      ]
+   },
+   "status": 200
+}

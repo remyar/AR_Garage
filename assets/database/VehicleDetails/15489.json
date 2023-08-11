@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 15489,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 15489,
+               "ccmTech": 2495,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2495,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 4726,
+               "modelName": "MONDEO III Clipper (BWY)",
+               "motorType": "Essence",
+               "powerHpFrom": 170,
+               "powerHpTo": 170,
+               "powerKwFrom": 125,
+               "powerKwTo": 125,
+               "typeName": "2.5 V6 24V",
+               "typeNumber": 15489,
+               "valves": 4,
+               "yearOfConstrFrom": 200010,
+               "yearOfConstrTo": 200703,
+               "rmiTypeId": 11622
+            },
+            "vehicleDocId": "DR15489"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 202,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 202,
+               "ccmTech": 1779,
+               "constructionType": "Décapotable",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1779,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 289,
+               "modelName": "SPIDER (105_)",
+               "motorType": "Essence",
+               "powerHpFrom": 113,
+               "powerHpTo": 113,
+               "powerKwFrom": 83,
+               "powerKwTo": 83,
+               "typeName": "1750 (10557)",
+               "typeNumber": 202,
+               "valves": 2,
+               "yearOfConstrFrom": 196701,
+               "yearOfConstrTo": 197112,
+               "rmiTypeId": 174
+            },
+            "vehicleDocId": "DR202"
+         }
+      ]
+   },
+   "status": 200
+}

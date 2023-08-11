@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 111791,
+            "vehicleDetails": {
+               "carId": 111791,
+               "ccmTech": 1999,
+               "constructionType": "Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1999,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 13884,
+               "modelName": "S-MAX (CJ, WA6)",
+               "motorType": "Essence",
+               "powerHpFrom": 240,
+               "powerHpTo": 240,
+               "powerKwFrom": 176,
+               "powerKwTo": 176,
+               "typeName": "2.0 EcoBoost",
+               "typeNumber": 111791,
+               "valves": 4,
+               "yearOfConstrFrom": 201501,
+               "rmiTypeId": 117494
+            },
+            "vehicleDocId": "DR111791"
+         }
+      ]
+   },
+   "status": 200
+}

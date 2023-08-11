@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 825,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 825,
+               "ccmTech": 1796,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1796,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 366,
+               "modelName": "ASCONA C (J82)",
+               "motorType": "Essence",
+               "powerHpFrom": 84,
+               "powerHpTo": 84,
+               "powerKwFrom": 62,
+               "powerKwTo": 62,
+               "typeName": "1.8 (F11, M11, F68, M68)",
+               "typeNumber": 825,
+               "valves": 2,
+               "yearOfConstrFrom": 198709,
+               "yearOfConstrTo": 198808,
+               "rmiTypeId": 722
+            }
+         }
+      ]
+   },
+   "status": 200
+}

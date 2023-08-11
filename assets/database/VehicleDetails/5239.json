@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5239,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5239,
+               "ccmTech": 3600,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3600,
+               "cylinderCapacityLiter": 360,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 92,
+               "manuName": "PORSCHE",
+               "modId": 160,
+               "modelName": "911 (993)",
+               "motorType": "Essence",
+               "powerHpFrom": 430,
+               "powerHpTo": 430,
+               "powerKwFrom": 316,
+               "powerKwTo": 316,
+               "typeName": "3.6 Turbo GT2 4",
+               "typeNumber": 5239,
+               "valves": 2,
+               "yearOfConstrFrom": 199508,
+               "yearOfConstrTo": 199709,
+               "rmiTypeId": 4840
+            }
+         }
+      ]
+   },
+   "status": 200
+}

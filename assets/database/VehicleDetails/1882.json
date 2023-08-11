@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1882,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1882,
+               "ccmTech": 1390,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1390,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 3886,
+               "modelName": "VENTO (1H2)",
+               "motorType": "Essence",
+               "powerHpFrom": 55,
+               "powerHpTo": 55,
+               "powerKwFrom": 40,
+               "powerKwTo": 40,
+               "typeName": "1.4",
+               "typeNumber": 1882,
+               "valves": 2,
+               "yearOfConstrFrom": 199111,
+               "yearOfConstrTo": 199809,
+               "rmiTypeId": 1703
+            },
+            "vehicleDocId": "DR1882"
+         }
+      ]
+   },
+   "status": 200
+}

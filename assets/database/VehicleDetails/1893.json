@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1893,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1893,
+               "ccmTech": 2384,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2384,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 236,
+               "modelName": "LT 28-35 I Autobus/Autocar (281-363)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "2.4",
+               "typeNumber": 1893,
+               "valves": 2,
+               "yearOfConstrFrom": 198212,
+               "yearOfConstrTo": 199207,
+               "rmiTypeId": 1713
+            },
+            "vehicleDocId": "DR1893"
+         }
+      ]
+   },
+   "status": 200
+}

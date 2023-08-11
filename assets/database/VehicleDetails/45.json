@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 45,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 45,
+               "ccmTech": 1991,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 1991,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 294,
+               "modelName": "3 Touring (E30)",
+               "motorType": "Essence",
+               "powerHpFrom": 129,
+               "powerHpTo": 129,
+               "powerKwFrom": 95,
+               "powerKwTo": 95,
+               "typeName": "320 i",
+               "typeNumber": 45,
+               "valves": 2,
+               "yearOfConstrFrom": 198801,
+               "yearOfConstrTo": 199112,
+               "rmiTypeId": 41
+            },
+            "vehicleDocId": "DR45"
+         }
+      ]
+   },
+   "status": 200
+}

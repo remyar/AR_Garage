@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 222,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 222,
+               "ccmTech": 1490,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1490,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 291,
+               "modelName": "33 (905_)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.5 4x4 (905.A2F)",
+               "typeNumber": 222,
+               "valves": 2,
+               "yearOfConstrFrom": 198501,
+               "yearOfConstrTo": 198609,
+               "rmiTypeId": 191
+            },
+            "vehicleDocId": "DR222"
+         }
+      ]
+   },
+   "status": 200
+}

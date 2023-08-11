@@ -1,0 +1,34 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 111207,
+            "vehicleDetails": {
+               "carId": 111207,
+               "ccmTech": 1690,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 1690,
+               "cylinderCapacityLiter": 169,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Courroie",
+               "manuId": 4055,
+               "manuName": "HARLEY-DAVIDSON",
+               "modId": 12231,
+               "modelName": "STREET GLIDE",
+               "motorType": "Essence",
+               "powerHpFrom": 45,
+               "powerHpTo": 45,
+               "powerKwFrom": 33,
+               "powerKwTo": 33,
+               "typeName": "1700 Street Glide (FLHX)",
+               "typeNumber": 111207,
+               "valves": 4,
+               "yearOfConstrFrom": 201306
+            }
+         }
+      ]
+   },
+   "status": 200
+}

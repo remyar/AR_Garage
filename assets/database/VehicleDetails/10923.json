@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10923,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10923,
+               "ccmTech": 2753,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2753,
+               "cylinderCapacityLiter": 280,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 2038,
+               "modelName": "PATROL III/2 Hardtop (K260)",
+               "motorType": "Essence",
+               "powerHpFrom": 120,
+               "powerHpTo": 120,
+               "powerKwFrom": 88,
+               "powerKwTo": 88,
+               "typeName": "2.8",
+               "typeNumber": 10923,
+               "valves": 2,
+               "yearOfConstrFrom": 198605,
+               "yearOfConstrTo": 199006,
+               "rmiTypeId": 8906
+            },
+            "vehicleDocId": "DR10923"
+         }
+      ]
+   },
+   "status": 200
+}

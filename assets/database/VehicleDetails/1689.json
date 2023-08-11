@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1689,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1689,
+               "ccmTech": 1471,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1471,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 403,
+               "modelName": "PASSAT B1 (32)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.5",
+               "typeNumber": 1689,
+               "valves": 2,
+               "yearOfConstrFrom": 197307,
+               "yearOfConstrTo": 197512,
+               "rmiTypeId": 1519
+            },
+            "vehicleDocId": "DR1689"
+         }
+      ]
+   },
+   "status": 200
+}

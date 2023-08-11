@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11099,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 11099,
+               "ccmTech": 1998,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1998,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 4058,
+               "modelName": "VITO Camionnette (W638)",
+               "motorType": "Essence",
+               "powerHpFrom": 129,
+               "powerHpTo": 129,
+               "powerKwFrom": 95,
+               "powerKwTo": 95,
+               "typeName": "113 2.0 (638.014, 638.094)",
+               "typeNumber": 11099,
+               "valves": 4,
+               "yearOfConstrFrom": 199703,
+               "yearOfConstrTo": 200307,
+               "rmiTypeId": 8974
+            },
+            "vehicleDocId": "DR11099"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 213,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 213,
+               "ccmTech": 2494,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2494,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 456,
+               "modelName": "5 (E12)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "525",
+               "typeNumber": 213,
+               "valves": 2,
+               "yearOfConstrFrom": 197508,
+               "yearOfConstrTo": 198106,
+               "rmiTypeId": 183
+            }
+         }
+      ]
+   },
+   "status": 200
+}

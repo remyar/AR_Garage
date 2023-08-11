@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 422,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 422,
+               "ccmTech": 1997,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1997,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 9,
+               "modelName": "123 Break (S123)",
+               "motorType": "Essence",
+               "powerHpFrom": 109,
+               "powerHpTo": 109,
+               "powerKwFrom": 80,
+               "powerKwTo": 80,
+               "typeName": "200 T",
+               "typeNumber": 422,
+               "valves": 2,
+               "yearOfConstrFrom": 198011,
+               "yearOfConstrTo": 198511,
+               "rmiTypeId": 367
+            }
+         }
+      ]
+   },
+   "status": 200
+}

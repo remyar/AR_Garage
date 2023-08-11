@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 141108,
+            "vehicleDetails": {
+               "carId": 141108,
+               "ccmTech": 2993,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2993,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Diesel/électrique",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 37535,
+               "modelName": "5 Touring (G31)",
+               "motorType": "Hybride léger",
+               "powerHpFrom": 249,
+               "powerHpTo": 249,
+               "powerKwFrom": 183,
+               "powerKwTo": 183,
+               "typeName": "530 d Mild-Hybrid",
+               "typeNumber": 141108,
+               "valves": 4,
+               "yearOfConstrFrom": 202007,
+               "rmiTypeId": 168885
+            },
+            "vehicleDocId": "DR141108"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5304,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5304,
+               "ccmTech": 1598,
+               "constructionType": "Camionnette/Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1598,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 4003,
+               "modelName": "CADDY II Camionnette/Monospace (9K9A)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "75 1.6",
+               "typeNumber": 5304,
+               "valves": 2,
+               "yearOfConstrFrom": 199511,
+               "yearOfConstrTo": 200009,
+               "rmiTypeId": 4890
+            },
+            "vehicleDocId": "DR5304"
+         }
+      ]
+   },
+   "status": 200
+}

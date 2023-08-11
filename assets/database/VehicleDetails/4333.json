@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4333,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4333,
+               "ccmTech": 2389,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2389,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 1230,
+               "modelName": "VANETTE Autobus/Autocar (C22)",
+               "motorType": "Essence",
+               "powerHpFrom": 101,
+               "powerHpTo": 101,
+               "powerKwFrom": 74,
+               "powerKwTo": 74,
+               "typeName": "2.4 i (SLC22)",
+               "typeNumber": 4333,
+               "valves": 2,
+               "yearOfConstrFrom": 198610,
+               "yearOfConstrTo": 199512,
+               "rmiTypeId": 4002
+            },
+            "vehicleDocId": "DR4333"
+         }
+      ]
+   },
+   "status": 200
+}

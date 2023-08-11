@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4989,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4989,
+               "ccmTech": 1584,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1584,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 1443,
+               "modelName": "ASCONA A Voyage (84_, 89_)",
+               "motorType": "Essence",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "1.6 N",
+               "typeNumber": 4989,
+               "valves": 2,
+               "yearOfConstrFrom": 197503,
+               "yearOfConstrTo": 197508,
+               "rmiTypeId": 4610
+            }
+         }
+      ]
+   },
+   "status": 200
+}

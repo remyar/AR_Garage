@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 109732,
+            "vehicleDetails": {
+               "carId": 109732,
+               "ccmTech": 150,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 150,
+               "cylinderCapacityLiter": 15,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 13561,
+               "modelName": "NES",
+               "motorType": "Essence",
+               "powerHpFrom": 15,
+               "powerHpTo": 15,
+               "powerKwFrom": 11,
+               "powerKwTo": 11,
+               "typeName": "NES 150 (KF03)",
+               "typeNumber": 109732,
+               "valves": 2,
+               "yearOfConstrFrom": 200001,
+               "yearOfConstrTo": 200612
+            }
+         }
+      ]
+   },
+   "status": 200
+}

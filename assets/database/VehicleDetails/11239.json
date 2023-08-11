@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11239,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 11239,
+               "ccmTech": 2493,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2493,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 109,
+               "manuName": "SUZUKI",
+               "modId": 4097,
+               "modelName": "GRAND VITARA I (FT, HT)",
+               "motorType": "Essence",
+               "powerHpFrom": 144,
+               "powerHpTo": 144,
+               "powerKwFrom": 106,
+               "powerKwTo": 106,
+               "typeName": "2.5 V6 24V 4x4 (TD62, SQ 625)",
+               "typeNumber": 11239,
+               "valves": 4,
+               "yearOfConstrFrom": 199804,
+               "yearOfConstrTo": 200307,
+               "rmiTypeId": 9026
+            },
+            "vehicleDocId": "DR11239"
+         }
+      ]
+   },
+   "status": 200
+}

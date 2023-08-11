@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101217,
+            "vehicleDetails": {
+               "carId": 101217,
+               "ccmTech": 652,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 652,
+               "cylinderCapacityLiter": 65,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 12108,
+               "modelName": "F",
+               "motorType": "Essence",
+               "powerHpFrom": 34,
+               "powerHpTo": 34,
+               "powerKwFrom": 25,
+               "powerKwTo": 25,
+               "typeName": "F 650 (169)",
+               "typeNumber": 101217,
+               "valves": 4,
+               "yearOfConstrFrom": 199611,
+               "yearOfConstrTo": 200304
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 105368,
+            "vehicleDetails": {
+               "carId": 105368,
+               "ccmTech": 339,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 339,
+               "cylinderCapacityLiter": 34,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12314,
+               "modelName": "XL",
+               "motorType": "Essence",
+               "powerHpFrom": 27,
+               "powerHpTo": 27,
+               "powerKwFrom": 20,
+               "powerKwTo": 20,
+               "typeName": "XL 350 R (ND03)",
+               "typeNumber": 105368,
+               "valves": 2,
+               "yearOfConstrFrom": 198501,
+               "yearOfConstrTo": 198712
+            }
+         }
+      ]
+   },
+   "status": 200
+}

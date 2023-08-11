@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 22527,
+            "vehicleDetails": {
+               "carId": 22527,
+               "ccmTech": 1999,
+               "constructionType": "Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1999,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 6240,
+               "modelName": "C-MAX (DM2)",
+               "motorType": "Essence",
+               "powerHpFrom": 145,
+               "powerHpTo": 145,
+               "powerKwFrom": 107,
+               "powerKwTo": 107,
+               "typeName": "2.0",
+               "typeNumber": 22527,
+               "valves": 4,
+               "yearOfConstrFrom": 200702,
+               "yearOfConstrTo": 201009,
+               "rmiTypeId": 49231
+            },
+            "vehicleDocId": "DR22527"
+         }
+      ]
+   },
+   "status": 200
+}

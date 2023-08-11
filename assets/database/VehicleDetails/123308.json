@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123308,
+            "vehicleDetails": {
+               "carId": 123308,
+               "ccmTech": 2982,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2982,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 4978,
+               "modelName": "LAND CRUISER PRADO (_J12_)",
+               "motorType": "Diesel",
+               "powerHpFrom": 204,
+               "powerHpTo": 204,
+               "powerKwFrom": 150,
+               "powerKwTo": 150,
+               "typeName": "3.0 D-4D (KDJ120_)",
+               "typeNumber": 123308,
+               "valves": 4,
+               "yearOfConstrFrom": 200608,
+               "yearOfConstrTo": 200907,
+               "rmiTypeId": 133236
+            },
+            "vehicleDocId": "DR123308"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 105246,
+            "vehicleDetails": {
+               "carId": 105246,
+               "ccmTech": 745,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 745,
+               "cylinderCapacityLiter": 74,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12308,
+               "modelName": "VT",
+               "motorType": "Essence",
+               "powerHpFrom": 44,
+               "powerHpTo": 44,
+               "powerKwFrom": 32,
+               "powerKwTo": 32,
+               "typeName": "VT 750 S (RC58)",
+               "typeNumber": 105246,
+               "valves": 3,
+               "yearOfConstrFrom": 200911,
+               "yearOfConstrTo": 201112
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5235,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5235,
+               "ccmTech": 3600,
+               "constructionType": "Décapotable",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3600,
+               "cylinderCapacityLiter": 360,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 92,
+               "manuName": "PORSCHE",
+               "modId": 3470,
+               "modelName": "911 Décapotable (993)",
+               "motorType": "Essence",
+               "powerHpFrom": 286,
+               "powerHpTo": 286,
+               "powerKwFrom": 210,
+               "powerKwTo": 210,
+               "typeName": "3.6 Carrera",
+               "typeNumber": 5235,
+               "valves": 2,
+               "yearOfConstrFrom": 199508,
+               "yearOfConstrTo": 199709,
+               "rmiTypeId": 4836
+            },
+            "vehicleDocId": "DR5235"
+         }
+      ]
+   },
+   "status": 200
+}

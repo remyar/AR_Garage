@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 310,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 310,
+               "ccmTech": 1996,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1996,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 52,
+               "modelName": "190 (W201)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "2.0 (201.022)",
+               "typeNumber": 310,
+               "valves": 2,
+               "yearOfConstrFrom": 198210,
+               "yearOfConstrTo": 198410,
+               "rmiTypeId": 273
+            },
+            "vehicleDocId": "DR310"
+         }
+      ]
+   },
+   "status": 200
+}

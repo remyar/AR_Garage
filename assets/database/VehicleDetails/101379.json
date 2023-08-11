@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101379,
+            "vehicleDetails": {
+               "carId": 101379,
+               "ccmTech": 745,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 745,
+               "cylinderCapacityLiter": 75,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12282,
+               "modelName": "NC",
+               "motorType": "Essence",
+               "powerHpFrom": 54,
+               "powerHpTo": 54,
+               "powerKwFrom": 40,
+               "powerKwTo": 40,
+               "typeName": "NC 750 X (RC72)",
+               "typeNumber": 101379,
+               "valves": 4,
+               "yearOfConstrFrom": 201309,
+               "yearOfConstrTo": 201512
+            }
+         }
+      ]
+   },
+   "status": 200
+}

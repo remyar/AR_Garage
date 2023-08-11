@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123826,
+            "vehicleDetails": {
+               "carId": 123826,
+               "ccmTech": 898,
+               "constructionType": "3/5 portes",
+               "cylinder": 3,
+               "cylinderCapacityCcm": 898,
+               "cylinderCapacityLiter": 90,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 37261,
+               "modelName": "MICRA V (K14)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "0.9 IG-T",
+               "typeNumber": 123826,
+               "valves": 4,
+               "yearOfConstrFrom": 201612,
+               "rmiTypeId": 133919
+            },
+            "vehicleDocId": "DR123826"
+         }
+      ]
+   },
+   "status": 200
+}

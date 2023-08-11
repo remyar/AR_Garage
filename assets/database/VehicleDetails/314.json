@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 314,
+            "vehicleDetails": {
+               "carId": 314,
+               "ccmTech": 1968,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1968,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 9003,
+               "modelName": "PASSAT B7 (362)",
+               "motorType": "Diesel",
+               "powerHpFrom": 170,
+               "powerHpTo": 170,
+               "powerKwFrom": 125,
+               "powerKwTo": 125,
+               "typeName": "2.0 TDI 4motion",
+               "typeNumber": 314,
+               "valves": 4,
+               "yearOfConstrFrom": 201008,
+               "yearOfConstrTo": 201301,
+               "rmiTypeId": 64612
+            },
+            "vehicleDocId": "DR314"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 271,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 271,
+               "ccmTech": 2986,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2986,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 486,
+               "modelName": "6 (E24)",
+               "motorType": "Essence",
+               "powerHpFrom": 185,
+               "powerHpTo": 185,
+               "powerKwFrom": 136,
+               "powerKwTo": 136,
+               "typeName": "630 CS",
+               "typeNumber": 271,
+               "valves": 2,
+               "yearOfConstrFrom": 197604,
+               "yearOfConstrTo": 197908,
+               "rmiTypeId": 239
+            },
+            "vehicleDocId": "DR271"
+         }
+      ]
+   },
+   "status": 200
+}

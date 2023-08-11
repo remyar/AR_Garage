@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3292,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3292,
+               "ccmTech": 1468,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1468,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 3456,
+               "modelName": "LANCER III Break (C1_V, C3_V)",
+               "motorType": "Essence",
+               "powerHpFrom": 70,
+               "powerHpTo": 70,
+               "powerKwFrom": 51,
+               "powerKwTo": 51,
+               "typeName": "1.5 (C12V)",
+               "typeNumber": 3292,
+               "valves": 2,
+               "yearOfConstrFrom": 198509,
+               "yearOfConstrTo": 198908,
+               "rmiTypeId": 3010
+            },
+            "vehicleDocId": "DR3292"
+         }
+      ]
+   },
+   "status": 200
+}

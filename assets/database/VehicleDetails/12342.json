@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 12342,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 12342,
+               "ccmTech": 3199,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3199,
+               "cylinderCapacityLiter": 320,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 24,
+               "modelName": "124 Break (S124)",
+               "motorType": "Essence",
+               "powerHpFrom": 220,
+               "powerHpTo": 220,
+               "powerKwFrom": 162,
+               "powerKwTo": 162,
+               "typeName": "320 TE (124.092)",
+               "typeNumber": 12342,
+               "valves": 4,
+               "yearOfConstrFrom": 199210,
+               "yearOfConstrTo": 199306,
+               "rmiTypeId": 9419
+            },
+            "vehicleDocId": "DR12342"
+         }
+      ]
+   },
+   "status": 200
+}

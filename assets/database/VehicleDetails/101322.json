@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101322,
+            "vehicleDetails": {
+               "carId": 101322,
+               "ccmTech": 1151,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 1151,
+               "cylinderCapacityLiter": 115,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Cardan",
+               "manuId": 4062,
+               "manuName": "MOTO GUZZI",
+               "modId": 12455,
+               "modelName": "BREVA",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "Breva 1200",
+               "typeNumber": 101322,
+               "valves": 2,
+               "yearOfConstrFrom": 200701,
+               "yearOfConstrTo": 200912
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 143030,
+            "vehicleDetails": {
+               "carId": 143030,
+               "ccmTech": 2998,
+               "constructionType": "SUV",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2998,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence/électrique",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 39650,
+               "modelName": "X6 (G06, F96)",
+               "motorType": "Hybride léger",
+               "powerHpFrom": 333,
+               "powerHpTo": 333,
+               "powerKwFrom": 245,
+               "powerKwTo": 245,
+               "typeName": "xDrive 40 i Mild-Hybrid",
+               "typeNumber": 143030,
+               "valves": 4,
+               "yearOfConstrFrom": 202012,
+               "rmiTypeId": 179095
+            },
+            "vehicleDocId": "DR143030"
+         }
+      ]
+   },
+   "status": 200
+}

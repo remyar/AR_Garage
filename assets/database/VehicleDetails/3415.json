@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3415,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3415,
+               "ccmTech": 2972,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2972,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 394,
+               "modelName": "PAJERO II (V3_W, V2_W, V4_W, V5_W)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "3.0 V6 4WD (V23W, V43W, V23C)",
+               "typeNumber": 3415,
+               "valves": 2,
+               "yearOfConstrFrom": 199012,
+               "yearOfConstrTo": 199712,
+               "rmiTypeId": 3126
+            },
+            "vehicleDocId": "DR3415"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123313,
+            "vehicleDetails": {
+               "carId": 123313,
+               "ccmTech": 2993,
+               "constructionType": "SUV",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2993,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 1820,
+               "manuName": "LAND ROVER",
+               "modId": 37152,
+               "modelName": "DISCOVERY V (L462)",
+               "motorType": "Diesel",
+               "powerHpFrom": 258,
+               "powerHpTo": 258,
+               "powerKwFrom": 190,
+               "powerKwTo": 190,
+               "typeName": "3.0 Td6 4x4",
+               "typeNumber": 123313,
+               "valves": 4,
+               "yearOfConstrFrom": 201609,
+               "rmiTypeId": 133237
+            },
+            "vehicleDocId": "DR123313"
+         }
+      ]
+   },
+   "status": 200
+}

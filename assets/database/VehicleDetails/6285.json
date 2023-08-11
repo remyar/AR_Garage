@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6285,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6285,
+               "ccmTech": 2664,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2664,
+               "cylinderCapacityLiter": 270,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 1633,
+               "modelName": "260 Break (P265)",
+               "motorType": "Essence",
+               "powerHpFrom": 140,
+               "powerHpTo": 140,
+               "powerKwFrom": 103,
+               "powerKwTo": 103,
+               "typeName": "2.7",
+               "typeNumber": 6285,
+               "valves": 2,
+               "yearOfConstrFrom": 197507,
+               "yearOfConstrTo": 198207,
+               "rmiTypeId": 5651
+            },
+            "vehicleDocId": "DR6285"
+         }
+      ]
+   },
+   "status": 200
+}

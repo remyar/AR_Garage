@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 803,
+            "vehicleDetails": {
+               "carId": 803,
+               "ccmTech": 2488,
+               "constructionType": "Pick-up",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2488,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 9016,
+               "modelName": "NP300 PICKUP (D22)",
+               "motorType": "Diesel",
+               "powerHpFrom": 133,
+               "powerHpTo": 133,
+               "powerKwFrom": 98,
+               "powerKwTo": 98,
+               "typeName": "2.5 dCi 4x4",
+               "typeNumber": 803,
+               "valves": 4,
+               "yearOfConstrFrom": 200804,
+               "rmiTypeId": 66133
+            },
+            "vehicleDocId": "DR803"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1171,
+            "vehicleDetails": {
+               "carId": 1171,
+               "ccmTech": 6162,
+               "constructionType": "Coupé",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 6162,
+               "cylinderCapacityLiter": 620,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 819,
+               "manuName": "CADILLAC",
+               "modId": 9018,
+               "modelName": "CTS Coupé",
+               "motorType": "Essence",
+               "powerHpFrom": 564,
+               "powerHpTo": 564,
+               "powerKwFrom": 415,
+               "powerKwTo": 415,
+               "typeName": "6.2 V",
+               "typeNumber": 1171,
+               "valves": 2,
+               "yearOfConstrFrom": 200801,
+               "yearOfConstrTo": 201407,
+               "rmiTypeId": 66190
+            },
+            "vehicleDocId": "DR1171"
+         }
+      ]
+   },
+   "status": 200
+}

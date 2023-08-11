@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 16001,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 16001,
+               "ccmTech": 1599,
+               "constructionType": "Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1599,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 183,
+               "manuName": "HYUNDAI",
+               "modId": 4789,
+               "modelName": "MATRIX (FC)",
+               "motorType": "Essence",
+               "powerHpFrom": 103,
+               "powerHpTo": 103,
+               "powerKwFrom": 76,
+               "powerKwTo": 76,
+               "typeName": "1.6",
+               "typeNumber": 16001,
+               "valves": 4,
+               "yearOfConstrFrom": 200106,
+               "yearOfConstrTo": 201008,
+               "rmiTypeId": 12080
+            },
+            "vehicleDocId": "DR16001"
+         }
+      ]
+   },
+   "status": 200
+}

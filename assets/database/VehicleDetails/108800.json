@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 108800,
+            "vehicleDetails": {
+               "carId": 108800,
+               "ccmTech": 998,
+               "constructionType": "Camionnette/Monospace",
+               "cylinder": 3,
+               "cylinderCapacityCcm": 998,
+               "cylinderCapacityLiter": 100,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 13361,
+               "modelName": "B-MAX Van (JK)",
+               "motorType": "Essence",
+               "powerHpFrom": 125,
+               "powerHpTo": 125,
+               "powerKwFrom": 92,
+               "powerKwTo": 92,
+               "typeName": "1.0 EcoBoost",
+               "typeNumber": 108800,
+               "valves": 4,
+               "yearOfConstrFrom": 201210,
+               "rmiTypeId": 93776
+            },
+            "vehicleDocId": "DR108800"
+         }
+      ]
+   },
+   "status": 200
+}

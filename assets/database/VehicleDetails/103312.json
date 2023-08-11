@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 103312,
+            "vehicleDetails": {
+               "carId": 103312,
+               "ccmTech": 625,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 625,
+               "cylinderCapacityLiter": 61,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 2760,
+               "manuName": "KTM",
+               "modId": 12023,
+               "modelName": "ADVENTURE",
+               "motorType": "Essence",
+               "powerHpFrom": 50,
+               "powerHpTo": 50,
+               "powerKwFrom": 37,
+               "powerKwTo": 37,
+               "typeName": "640 LC4 Adventure R",
+               "typeNumber": 103312,
+               "valves": 4,
+               "yearOfConstrFrom": 199801,
+               "yearOfConstrTo": 200412
+            }
+         }
+      ]
+   },
+   "status": 200
+}

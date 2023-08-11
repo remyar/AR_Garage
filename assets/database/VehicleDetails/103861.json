@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 103861,
+            "vehicleDetails": {
+               "carId": 103861,
+               "ccmTech": 652,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 652,
+               "cylinderCapacityLiter": 65,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Courroie",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 12108,
+               "modelName": "F",
+               "motorType": "Essence",
+               "powerHpFrom": 50,
+               "powerHpTo": 50,
+               "powerKwFrom": 37,
+               "powerKwTo": 37,
+               "typeName": "F 650 CS (K14)",
+               "typeNumber": 103861,
+               "valves": 4,
+               "yearOfConstrFrom": 200012,
+               "yearOfConstrTo": 200507
+            }
+         }
+      ]
+   },
+   "status": 200
+}

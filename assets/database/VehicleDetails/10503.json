@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10503,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10503,
+               "ccmTech": 2793,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2793,
+               "cylinderCapacityLiter": 280,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 3999,
+               "modelName": "3 Coupé (E46)",
+               "motorType": "Essence",
+               "powerHpFrom": 193,
+               "powerHpTo": 193,
+               "powerKwFrom": 142,
+               "powerKwTo": 142,
+               "typeName": "328 Ci",
+               "typeNumber": 10503,
+               "valves": 4,
+               "yearOfConstrFrom": 199812,
+               "yearOfConstrTo": 200005,
+               "rmiTypeId": 8729
+            },
+            "vehicleDocId": "DR10503"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8150,
+            "vehicleDetails": {
+               "carId": 8150,
+               "ccmTech": 1596,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1596,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence / éthanol",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 9157,
+               "modelName": "FOCUS III Turnier",
+               "motorType": "Essence",
+               "powerHpFrom": 120,
+               "powerHpTo": 120,
+               "powerKwFrom": 88,
+               "powerKwTo": 88,
+               "typeName": "1.6 Flexifuel",
+               "typeNumber": 8150,
+               "valves": 4,
+               "yearOfConstrFrom": 201007,
+               "rmiTypeId": 65769
+            },
+            "vehicleDocId": "DR8150"
+         }
+      ]
+   },
+   "status": 200
+}

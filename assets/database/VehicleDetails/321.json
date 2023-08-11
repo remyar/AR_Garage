@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 321,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 321,
+               "ccmTech": 957,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 957,
+               "cylinderCapacityLiter": 90,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 402,
+               "modelName": "FIESTA I (GFBT)",
+               "motorType": "Essence",
+               "powerHpFrom": 45,
+               "powerHpTo": 45,
+               "powerKwFrom": 33,
+               "powerKwTo": 33,
+               "typeName": "0.9",
+               "typeNumber": 321,
+               "valves": 2,
+               "yearOfConstrFrom": 197605,
+               "yearOfConstrTo": 198308,
+               "rmiTypeId": 281
+            },
+            "vehicleDocId": "DR321"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6320,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6320,
+               "ccmTech": 2461,
+               "constructionType": "Camionnette",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2461,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 1631,
+               "modelName": "TRANSPORTER T4 Camionnette (70A, 70H, 7DA, 7DH)",
+               "motorType": "Essence",
+               "powerHpFrom": 110,
+               "powerHpTo": 110,
+               "powerKwFrom": 81,
+               "powerKwTo": 81,
+               "typeName": "2.5 Syncro",
+               "typeNumber": 6320,
+               "valves": 2,
+               "yearOfConstrFrom": 199211,
+               "yearOfConstrTo": 200111,
+               "rmiTypeId": 5682
+            },
+            "vehicleDocId": "DR6320"
+         }
+      ]
+   },
+   "status": 200
+}

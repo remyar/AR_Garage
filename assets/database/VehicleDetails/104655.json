@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 104655,
+            "vehicleDetails": {
+               "carId": 104655,
+               "ccmTech": 848,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 848,
+               "cylinderCapacityLiter": 85,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Cardan",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 12734,
+               "modelName": "R 850",
+               "motorType": "Essence",
+               "powerHpFrom": 34,
+               "powerHpTo": 34,
+               "powerKwFrom": 25,
+               "powerKwTo": 25,
+               "typeName": "R 850 C (R259C)",
+               "typeNumber": 104655,
+               "valves": 4,
+               "yearOfConstrFrom": 199903,
+               "yearOfConstrTo": 200412
+            }
+         }
+      ]
+   },
+   "status": 200
+}

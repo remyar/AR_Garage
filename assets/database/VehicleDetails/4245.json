@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4245,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4245,
+               "ccmTech": 2393,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2393,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 1198,
+               "modelName": "LAUREL (JC31)",
+               "motorType": "Essence",
+               "powerHpFrom": 113,
+               "powerHpTo": 113,
+               "powerKwFrom": 83,
+               "powerKwTo": 83,
+               "typeName": "2.4",
+               "typeNumber": 4245,
+               "valves": 2,
+               "yearOfConstrFrom": 198101,
+               "yearOfConstrTo": 198401,
+               "rmiTypeId": 3914
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1156,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1156,
+               "ccmTech": 2068,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2068,
+               "cylinderCapacityLiter": 210,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 64,
+               "modelName": "REKORD D",
+               "motorType": "Diesel",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "2.1 D",
+               "typeNumber": 1156,
+               "valves": 2,
+               "yearOfConstrFrom": 197209,
+               "yearOfConstrTo": 197708,
+               "rmiTypeId": 1020
+            }
+         }
+      ]
+   },
+   "status": 200
+}

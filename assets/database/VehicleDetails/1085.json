@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1085,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1085,
+               "ccmTech": 1753,
+               "constructionType": "Camionnette/Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1753,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 3449,
+               "modelName": "COURIER Camionnette/Monospace (F3L, F5L)",
+               "motorType": "Diesel",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "1.8 D",
+               "typeNumber": 1085,
+               "valves": 2,
+               "yearOfConstrFrom": 199109,
+               "yearOfConstrTo": 199602,
+               "rmiTypeId": 955
+            },
+            "vehicleDocId": "DR1085"
+         }
+      ]
+   },
+   "status": 200
+}

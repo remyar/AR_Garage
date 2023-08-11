@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 357,
+            "vehicleDetails": {
+               "carId": 357,
+               "ccmTech": 1968,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1968,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 9004,
+               "modelName": "PASSAT B7 Variant (365)",
+               "motorType": "Diesel",
+               "powerHpFrom": 140,
+               "powerHpTo": 140,
+               "powerKwFrom": 103,
+               "powerKwTo": 103,
+               "typeName": "2.0 TDI 4motion",
+               "typeNumber": 357,
+               "valves": 4,
+               "yearOfConstrFrom": 201008,
+               "yearOfConstrTo": 201412,
+               "rmiTypeId": 64617
+            },
+            "vehicleDocId": "DR357"
+         }
+      ]
+   },
+   "status": 200
+}

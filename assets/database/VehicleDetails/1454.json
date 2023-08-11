@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1454,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1454,
+               "ccmTech": 1117,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1117,
+               "cylinderCapacityLiter": 110,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 330,
+               "modelName": "ESCORT III Break (AWA)",
+               "motorType": "Essence",
+               "powerHpFrom": 50,
+               "powerHpTo": 50,
+               "powerKwFrom": 37,
+               "powerKwTo": 37,
+               "typeName": "1.1",
+               "typeNumber": 1454,
+               "valves": 2,
+               "yearOfConstrFrom": 198308,
+               "yearOfConstrTo": 198512,
+               "rmiTypeId": 1301
+            },
+            "vehicleDocId": "DR1454"
+         }
+      ]
+   },
+   "status": 200
+}

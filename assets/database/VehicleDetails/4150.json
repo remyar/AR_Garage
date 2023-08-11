@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4150,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4150,
+               "ccmTech": 1488,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1488,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 3472,
+               "modelName": "SUNNY I Break (B11)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.5",
+               "typeNumber": 4150,
+               "valves": 2,
+               "yearOfConstrFrom": 198203,
+               "yearOfConstrTo": 198610,
+               "rmiTypeId": 3820
+            },
+            "vehicleDocId": "DR4150"
+         }
+      ]
+   },
+   "status": 200
+}

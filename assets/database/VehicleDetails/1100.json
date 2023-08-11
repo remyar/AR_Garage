@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1100,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1100,
+               "ccmTech": 1597,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1597,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 378,
+               "modelName": "ORION III (GAL)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.6 i 16V",
+               "typeNumber": 1100,
+               "valves": 4,
+               "yearOfConstrFrom": 199207,
+               "yearOfConstrTo": 199312,
+               "rmiTypeId": 968
+            },
+            "vehicleDocId": "DR1100"
+         }
+      ]
+   },
+   "status": 200
+}

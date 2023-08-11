@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 13443,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 13443,
+               "ccmTech": 3606,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3606,
+               "cylinderCapacityLiter": 360,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 65,
+               "modelName": "CLASSE G (W463)",
+               "motorType": "Essence",
+               "powerHpFrom": 272,
+               "powerHpTo": 272,
+               "powerKwFrom": 200,
+               "powerKwTo": 200,
+               "typeName": "G 36 AMG (463.230)",
+               "typeNumber": 13443,
+               "valves": 4,
+               "yearOfConstrFrom": 199501,
+               "yearOfConstrTo": 199807,
+               "rmiTypeId": 9956
+            },
+            "vehicleDocId": "DR13443"
+         }
+      ]
+   },
+   "status": 200
+}

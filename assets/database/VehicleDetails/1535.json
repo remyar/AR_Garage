@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1535,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1535,
+               "ccmTech": 1769,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1769,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 260,
+               "modelName": "SIERRA II Turnier (BNG)",
+               "motorType": "Essence",
+               "powerHpFrom": 87,
+               "powerHpTo": 87,
+               "powerKwFrom": 64,
+               "powerKwTo": 64,
+               "typeName": "1.8",
+               "typeNumber": 1535,
+               "valves": 2,
+               "yearOfConstrFrom": 198805,
+               "yearOfConstrTo": 199302,
+               "rmiTypeId": 1375
+            },
+            "vehicleDocId": "DR1535"
+         }
+      ]
+   },
+   "status": 200
+}

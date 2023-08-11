@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3522,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3522,
+               "ccmTech": 1832,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1832,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 482,
+               "modelName": "CARINA IV A trois volumes (_T15_)",
+               "motorType": "Essence",
+               "powerHpFrom": 101,
+               "powerHpTo": 101,
+               "powerKwFrom": 74,
+               "powerKwTo": 74,
+               "typeName": "1.8 GLI (ST150)",
+               "typeNumber": 3522,
+               "valves": 2,
+               "yearOfConstrFrom": 198310,
+               "yearOfConstrTo": 198711,
+               "rmiTypeId": 3225
+            }
+         }
+      ]
+   },
+   "status": 200
+}

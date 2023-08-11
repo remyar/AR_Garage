@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 126543,
+            "vehicleDetails": {
+               "carId": 126543,
+               "ccmTech": 249,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 249,
+               "cylinderCapacityLiter": 25,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 1021,
+               "manuName": "YAMAHA",
+               "modId": 12724,
+               "modelName": "XV",
+               "motorType": "Essence",
+               "powerHpFrom": 29,
+               "powerHpTo": 29,
+               "powerKwFrom": 21,
+               "powerKwTo": 21,
+               "typeName": "XV 250 S Virago",
+               "typeNumber": 126543,
+               "valves": 2,
+               "yearOfConstrFrom": 199901,
+               "yearOfConstrTo": 201512
+            }
+         }
+      ]
+   },
+   "status": 200
+}

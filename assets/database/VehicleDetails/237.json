@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 237,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 237,
+               "ccmTech": 1990,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 1990,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 464,
+               "modelName": "5 (E34)",
+               "motorType": "Essence",
+               "powerHpFrom": 129,
+               "powerHpTo": 129,
+               "powerKwFrom": 95,
+               "powerKwTo": 95,
+               "typeName": "520 i",
+               "typeNumber": 237,
+               "valves": 2,
+               "yearOfConstrFrom": 198706,
+               "yearOfConstrTo": 199009,
+               "rmiTypeId": 206
+            },
+            "vehicleDocId": "DR237"
+         }
+      ]
+   },
+   "status": 200
+}

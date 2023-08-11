@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 442,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 442,
+               "ccmTech": 2597,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2597,
+               "cylinderCapacityLiter": 260,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 18,
+               "modelName": "124 A trois volumes (W124)",
+               "motorType": "Essence",
+               "powerHpFrom": 160,
+               "powerHpTo": 160,
+               "powerKwFrom": 118,
+               "powerKwTo": 118,
+               "typeName": "260 E (124.026)",
+               "typeNumber": 442,
+               "valves": 2,
+               "yearOfConstrFrom": 198509,
+               "yearOfConstrTo": 199208,
+               "rmiTypeId": 385
+            },
+            "vehicleDocId": "DR442"
+         }
+      ]
+   },
+   "status": 200
+}

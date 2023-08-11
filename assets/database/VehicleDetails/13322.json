@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 13322,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 13322,
+               "ccmTech": 5379,
+               "constructionType": "A trois volumes",
+               "cylinder": 12,
+               "cylinderCapacityCcm": 5379,
+               "cylinderCapacityLiter": 540,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 705,
+               "manuName": "ROLLS-ROYCE",
+               "modId": 4376,
+               "modelName": "SILVER SERAPH",
+               "motorType": "Essence",
+               "powerHpFrom": 326,
+               "powerHpTo": 326,
+               "powerKwFrom": 240,
+               "powerKwTo": 240,
+               "typeName": "5.4",
+               "typeNumber": 13322,
+               "valves": 2,
+               "yearOfConstrFrom": 199803,
+               "yearOfConstrTo": 200209,
+               "rmiTypeId": 9897
+            },
+            "vehicleDocId": "DR13322"
+         }
+      ]
+   },
+   "status": 200
+}

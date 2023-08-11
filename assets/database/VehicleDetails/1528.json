@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1528,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1528,
+               "ccmTech": 1796,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1796,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 256,
+               "modelName": "SIERRA Break (BNC)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.8",
+               "typeNumber": 1528,
+               "valves": 2,
+               "yearOfConstrFrom": 198410,
+               "yearOfConstrTo": 198612,
+               "rmiTypeId": 1368
+            },
+            "vehicleDocId": "DR1528"
+         }
+      ]
+   },
+   "status": 200
+}

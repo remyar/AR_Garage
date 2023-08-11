@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4110,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4110,
+               "ccmTech": 1235,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1235,
+               "cylinderCapacityLiter": 120,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 1190,
+               "modelName": "MICRA I (K10)",
+               "motorType": "Essence",
+               "powerHpFrom": 54,
+               "powerHpTo": 54,
+               "powerKwFrom": 40,
+               "powerKwTo": 40,
+               "typeName": "1.2",
+               "typeNumber": 4110,
+               "valves": 2,
+               "yearOfConstrFrom": 198607,
+               "yearOfConstrTo": 199207,
+               "rmiTypeId": 3782
+            }
+         }
+      ]
+   },
+   "status": 200
+}

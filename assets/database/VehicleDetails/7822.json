@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7822,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7822,
+               "ccmTech": 3179,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3179,
+               "cylinderCapacityLiter": 320,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 1262,
+               "modelName": "NSX I Coupé (NA)",
+               "motorType": "Essence",
+               "powerHpFrom": 280,
+               "powerHpTo": 280,
+               "powerKwFrom": 206,
+               "powerKwTo": 206,
+               "typeName": "3.2 24V Vtec (NA2)",
+               "typeNumber": 7822,
+               "valves": 4,
+               "yearOfConstrFrom": 199701,
+               "yearOfConstrTo": 200509,
+               "rmiTypeId": 6991
+            },
+            "vehicleDocId": "DR7822"
+         }
+      ]
+   },
+   "status": 200
+}

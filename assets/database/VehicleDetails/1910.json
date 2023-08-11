@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1910,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1910,
+               "ccmTech": 1984,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1984,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 423,
+               "modelName": "PASSAT B3/B4 Variant (3A5, 35I)",
+               "motorType": "Essence",
+               "powerHpFrom": 115,
+               "powerHpTo": 115,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "2.0",
+               "typeNumber": 1910,
+               "valves": 2,
+               "yearOfConstrFrom": 199002,
+               "yearOfConstrTo": 199705,
+               "rmiTypeId": 1730
+            },
+            "vehicleDocId": "DR1910"
+         }
+      ]
+   },
+   "status": 200
+}

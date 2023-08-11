@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 105166,
+            "vehicleDetails": {
+               "carId": 105166,
+               "ccmTech": 124,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 124,
+               "cylinderCapacityLiter": 12,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 109,
+               "manuName": "SUZUKI",
+               "modId": 12651,
+               "modelName": "VL",
+               "motorType": "Essence",
+               "powerHpFrom": 11,
+               "powerHpTo": 11,
+               "powerKwFrom": 8,
+               "powerKwTo": 8,
+               "typeName": "VL 125 (A4)",
+               "typeNumber": 105166,
+               "valves": 3,
+               "yearOfConstrFrom": 200001,
+               "yearOfConstrTo": 200512
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 33012,
+            "vehicleDetails": {
+               "carId": 33012,
+               "ccmTech": 2993,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2993,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 8541,
+               "modelName": "5 (F10)",
+               "motorType": "Diesel",
+               "powerHpFrom": 245,
+               "powerHpTo": 245,
+               "powerKwFrom": 180,
+               "powerKwTo": 180,
+               "typeName": "530 d",
+               "typeNumber": 33012,
+               "valves": 4,
+               "yearOfConstrFrom": 201001,
+               "yearOfConstrTo": 201108,
+               "rmiTypeId": 62317
+            },
+            "vehicleDocId": "DR33012"
+         }
+      ]
+   },
+   "status": 200
+}

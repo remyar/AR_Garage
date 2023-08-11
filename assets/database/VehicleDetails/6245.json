@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6245,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6245,
+               "ccmTech": 1471,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1471,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 415,
+               "modelName": "PASSAT B1 Variant (33)",
+               "motorType": "Essence",
+               "powerHpFrom": 86,
+               "powerHpTo": 86,
+               "powerKwFrom": 63,
+               "powerKwTo": 63,
+               "typeName": "1.5",
+               "typeNumber": 6245,
+               "valves": 2,
+               "yearOfConstrFrom": 197310,
+               "yearOfConstrTo": 197512,
+               "rmiTypeId": 5620
+            }
+         }
+      ]
+   },
+   "status": 200
+}

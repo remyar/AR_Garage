@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 20006,
+            "vehicleDetails": {
+               "carId": 20006,
+               "ccmTech": 5403,
+               "constructionType": "Coupé",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 5403,
+               "cylinderCapacityLiter": 540,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 776,
+               "manuName": "FORD USA",
+               "modId": 5633,
+               "modelName": "MUSTANG Coupé",
+               "motorType": "Essence",
+               "powerHpFrom": 483,
+               "powerHpTo": 483,
+               "powerKwFrom": 355,
+               "powerKwTo": 355,
+               "typeName": "5.4 V8",
+               "typeNumber": 20006,
+               "valves": 4,
+               "yearOfConstrFrom": 200601,
+               "rmiTypeId": 46055
+            },
+            "vehicleDocId": "DR20006"
+         }
+      ]
+   },
+   "status": 200
+}

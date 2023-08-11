@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5164,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5164,
+               "ccmTech": 1970,
+               "constructionType": "Décapotable",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1970,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 1461,
+               "modelName": "SPIDER (916_)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.0 T.SPARK 16V (916S2C00)",
+               "typeNumber": 5164,
+               "valves": 4,
+               "yearOfConstrFrom": 199506,
+               "yearOfConstrTo": 200504,
+               "rmiTypeId": 4768
+            },
+            "vehicleDocId": "DR5164"
+         }
+      ]
+   },
+   "status": 200
+}

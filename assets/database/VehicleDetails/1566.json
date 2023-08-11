@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1566,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1566,
+               "ccmTech": 1285,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1285,
+               "cylinderCapacityLiter": 130,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 90,
+               "modelName": "COCCINELLE",
+               "motorType": "Essence",
+               "powerHpFrom": 44,
+               "powerHpTo": 44,
+               "powerKwFrom": 32,
+               "powerKwTo": 32,
+               "typeName": "1303 1.3 (13)",
+               "typeNumber": 1566,
+               "valves": 2,
+               "yearOfConstrFrom": 197208,
+               "yearOfConstrTo": 197507,
+               "rmiTypeId": 1404
+            },
+            "vehicleDocId": "DR1566"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 109266,
+            "vehicleDetails": {
+               "carId": 109266,
+               "ccmTech": 153,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 153,
+               "cylinderCapacityLiter": 15,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12298,
+               "modelName": "SH",
+               "motorType": "Essence",
+               "powerHpFrom": 16,
+               "powerHpTo": 16,
+               "powerKwFrom": 12,
+               "powerKwTo": 12,
+               "typeName": "SH 150 i (KF10)",
+               "typeNumber": 109266,
+               "valves": 2,
+               "yearOfConstrFrom": 200501,
+               "yearOfConstrTo": 201212
+            }
+         }
+      ]
+   },
+   "status": 200
+}

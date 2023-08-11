@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 145705,
+            "vehicleDetails": {
+               "carId": 145705,
+               "ccmTech": 1482,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1482,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Essence/électrique",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 184,
+               "manuName": "KIA",
+               "modId": 39253,
+               "modelName": "PROCEED (CD)",
+               "motorType": "Hybride léger",
+               "powerHpFrom": 160,
+               "powerHpTo": 160,
+               "powerKwFrom": 118,
+               "powerKwTo": 118,
+               "typeName": "1.5 T-GDI Eco-Dynamics+",
+               "typeNumber": 145705,
+               "valves": 4,
+               "yearOfConstrFrom": 202101,
+               "rmiTypeId": 191110
+            },
+            "vehicleDocId": "DR145705"
+         }
+      ]
+   },
+   "status": 200
+}

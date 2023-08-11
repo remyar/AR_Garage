@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 12331,
+            "vehicleDetails": {
+               "carId": 12331,
+               "ccmTech": 2987,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2987,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 65,
+               "modelName": "CLASSE G (W463)",
+               "motorType": "Diesel",
+               "powerHpFrom": 211,
+               "powerHpTo": 211,
+               "powerKwFrom": 155,
+               "powerKwTo": 155,
+               "typeName": "G 350 CDI",
+               "typeNumber": 12331,
+               "valves": 4,
+               "yearOfConstrFrom": 201107,
+               "rmiTypeId": 64701
+            },
+            "vehicleDocId": "DR12331"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 105406,
+            "vehicleDetails": {
+               "carId": 105406,
+               "ccmTech": 124,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 124,
+               "cylinderCapacityLiter": 12,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 1021,
+               "manuName": "YAMAHA",
+               "modId": 12722,
+               "modelName": "XT",
+               "motorType": "Essence",
+               "powerHpFrom": 10,
+               "powerHpTo": 10,
+               "powerKwFrom": 7,
+               "powerKwTo": 7,
+               "typeName": "XT 125 X",
+               "typeNumber": 105406,
+               "valves": 2,
+               "yearOfConstrFrom": 200401,
+               "yearOfConstrTo": 201112
+            }
+         }
+      ]
+   },
+   "status": 200
+}

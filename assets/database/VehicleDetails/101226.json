@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101226,
+            "vehicleDetails": {
+               "carId": 101226,
+               "ccmTech": 124,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 124,
+               "cylinderCapacityLiter": 12,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 4069,
+               "manuName": "VESPA",
+               "modId": 12525,
+               "modelName": "GT",
+               "motorType": "Essence",
+               "powerHpFrom": 15,
+               "powerHpTo": 15,
+               "powerKwFrom": 11,
+               "powerKwTo": 11,
+               "typeName": "GT 125 L",
+               "typeNumber": 101226,
+               "valves": 4,
+               "yearOfConstrFrom": 200304,
+               "yearOfConstrTo": 200612
+            }
+         }
+      ]
+   },
+   "status": 200
+}

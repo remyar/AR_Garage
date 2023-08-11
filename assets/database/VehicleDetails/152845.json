@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 152845,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique-mécanique",
+               "carId": 152845,
+               "ccmTech": 895,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 895,
+               "cylinderCapacityLiter": 90,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 12108,
+               "modelName": "F",
+               "motorType": "Essence",
+               "powerHpFrom": 99,
+               "powerHpTo": 99,
+               "powerKwFrom": 73,
+               "powerKwTo": 73,
+               "typeName": "F 900 R (4R90)",
+               "typeNumber": 152845,
+               "valves": 4,
+               "yearOfConstrFrom": 202001
+            }
+         }
+      ]
+   },
+   "status": 200
+}

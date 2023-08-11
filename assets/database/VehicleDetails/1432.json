@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1432,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1432,
+               "ccmTech": 1597,
+               "constructionType": "Décapotable",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1597,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 326,
+               "modelName": "ESCORT III Décapotable (ALD)",
+               "motorType": "Essence",
+               "powerHpFrom": 105,
+               "powerHpTo": 105,
+               "powerKwFrom": 77,
+               "powerKwTo": 77,
+               "typeName": "1.6 i",
+               "typeNumber": 1432,
+               "valves": 2,
+               "yearOfConstrFrom": 198309,
+               "yearOfConstrTo": 198512,
+               "rmiTypeId": 1279
+            },
+            "vehicleDocId": "DR1432"
+         }
+      ]
+   },
+   "status": 200
+}

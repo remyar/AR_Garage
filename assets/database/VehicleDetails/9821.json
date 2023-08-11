@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9821,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9821,
+               "ccmTech": 3494,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3494,
+               "cylinderCapacityLiter": 350,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 3683,
+               "modelName": "MONTEREY B (M98)",
+               "motorType": "Essence",
+               "powerHpFrom": 215,
+               "powerHpTo": 215,
+               "powerKwFrom": 158,
+               "powerKwTo": 158,
+               "typeName": "3.5 V6 24V (UBS26D, UBS26G)",
+               "typeNumber": 9821,
+               "valves": 4,
+               "yearOfConstrFrom": 199807,
+               "yearOfConstrTo": 199908,
+               "rmiTypeId": 8442
+            },
+            "vehicleDocId": "DR9821"
+         }
+      ]
+   },
+   "status": 200
+}

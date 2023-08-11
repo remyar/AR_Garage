@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 127,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 127,
+               "ccmTech": 1962,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1962,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 312,
+               "modelName": "75 (162_)",
+               "motorType": "Essence",
+               "powerHpFrom": 146,
+               "powerHpTo": 146,
+               "powerKwFrom": 107,
+               "powerKwTo": 107,
+               "typeName": "2.0 T.S. (162.4CB, 162.B4, 162.B4A)",
+               "typeNumber": 127,
+               "valves": 2,
+               "yearOfConstrFrom": 198701,
+               "yearOfConstrTo": 199202,
+               "rmiTypeId": 100
+            },
+            "vehicleDocId": "DR127"
+         }
+      ]
+   },
+   "status": 200
+}

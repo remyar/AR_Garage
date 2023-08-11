@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1928,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1928,
+               "ccmTech": 1781,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1781,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 419,
+               "modelName": "PASSAT B2 Variant (33B)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.8 Syncro",
+               "typeNumber": 1928,
+               "valves": 2,
+               "yearOfConstrFrom": 198601,
+               "yearOfConstrTo": 198803,
+               "rmiTypeId": 1747
+            },
+            "vehicleDocId": "DR1928"
+         }
+      ]
+   },
+   "status": 200
+}

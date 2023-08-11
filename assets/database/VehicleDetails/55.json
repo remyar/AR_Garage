@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 55,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 55,
+               "ccmTech": 1990,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 1990,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 308,
+               "modelName": "3 Coupé (E36)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "320 i",
+               "typeNumber": 55,
+               "valves": 4,
+               "yearOfConstrFrom": 199112,
+               "yearOfConstrTo": 199811,
+               "rmiTypeId": 51
+            },
+            "vehicleDocId": "DR55"
+         }
+      ]
+   },
+   "status": 200
+}

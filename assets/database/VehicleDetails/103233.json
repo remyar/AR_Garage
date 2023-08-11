@@ -1,0 +1,34 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 103233,
+            "vehicleDetails": {
+               "carId": 103233,
+               "ccmTech": 125,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 125,
+               "cylinderCapacityLiter": 12,
+               "fuelType": "Mélange",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 2760,
+               "manuName": "KTM",
+               "modId": 12024,
+               "modelName": "SUPERMOTO",
+               "motorType": "Moteur à essence (à deux temps)",
+               "powerHpFrom": 15,
+               "powerHpTo": 15,
+               "powerKwFrom": 11,
+               "powerKwTo": 11,
+               "typeName": "125 Supermoto",
+               "typeNumber": 103233,
+               "yearOfConstrFrom": 200001,
+               "yearOfConstrTo": 200112
+            }
+         }
+      ]
+   },
+   "status": 200
+}

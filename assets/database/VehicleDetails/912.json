@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 912,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 912,
+               "ccmTech": 2404,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2404,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 473,
+               "modelName": "T1 Autobus/Autocar (B601)",
+               "motorType": "Diesel",
+               "powerHpFrom": 65,
+               "powerHpTo": 65,
+               "powerKwFrom": 48,
+               "powerKwTo": 48,
+               "typeName": "207 D 2.4 (601.371, 601.372, 601.376, 601.377)",
+               "typeNumber": 912,
+               "valves": 2,
+               "yearOfConstrFrom": 197705,
+               "yearOfConstrTo": 198212,
+               "rmiTypeId": 798
+            }
+         }
+      ]
+   },
+   "status": 200
+}

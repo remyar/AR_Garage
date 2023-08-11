@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 221,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 221,
+               "ccmTech": 1766,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1766,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 452,
+               "modelName": "5 (E28)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "518",
+               "typeNumber": 221,
+               "valves": 2,
+               "yearOfConstrFrom": 198106,
+               "yearOfConstrTo": 198409,
+               "rmiTypeId": 190
+            },
+            "vehicleDocId": "DR221"
+         }
+      ]
+   },
+   "status": 200
+}

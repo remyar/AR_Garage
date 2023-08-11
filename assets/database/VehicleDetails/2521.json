@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2521,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2521,
+               "ccmTech": 1490,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1490,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 321,
+               "modelName": "ALFASUD (901_)",
+               "motorType": "Essence",
+               "powerHpFrom": 83,
+               "powerHpTo": 83,
+               "powerKwFrom": 61,
+               "powerKwTo": 61,
+               "typeName": "1.5 ti (901.F1, 901.F4, 901.G1)",
+               "typeNumber": 2521,
+               "valves": 2,
+               "yearOfConstrFrom": 197901,
+               "yearOfConstrTo": 198409,
+               "rmiTypeId": 2294
+            },
+            "vehicleDocId": "DR2521"
+         }
+      ]
+   },
+   "status": 200
+}

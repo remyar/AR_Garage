@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 104820,
+            "vehicleDetails": {
+               "carId": 104820,
+               "ccmTech": 50,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 50,
+               "cylinderCapacityLiter": 5,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 4069,
+               "manuName": "VESPA",
+               "modId": 12546,
+               "modelName": "S",
+               "motorType": "Essence",
+               "powerHpFrom": 4,
+               "powerHpTo": 4,
+               "powerKwFrom": 3,
+               "powerKwTo": 3,
+               "typeName": "S 50 4T 4V College",
+               "typeNumber": 104820,
+               "valves": 4,
+               "yearOfConstrFrom": 201002,
+               "yearOfConstrTo": 201312
+            }
+         }
+      ]
+   },
+   "status": 200
+}

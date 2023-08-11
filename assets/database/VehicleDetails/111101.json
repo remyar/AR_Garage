@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 111101,
+            "vehicleDetails": {
+               "carId": 111101,
+               "ccmTech": 1207,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 1207,
+               "cylinderCapacityLiter": 120,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 4055,
+               "manuName": "HARLEY-DAVIDSON",
+               "modId": 12219,
+               "modelName": "ELECTRA GLIDE",
+               "motorType": "Essence",
+               "powerHpFrom": 57,
+               "powerHpTo": 57,
+               "powerKwFrom": 42,
+               "powerKwTo": 42,
+               "typeName": "1200 Electra Glide (FL)",
+               "typeNumber": 111101,
+               "valves": 2,
+               "yearOfConstrFrom": 196501,
+               "yearOfConstrTo": 196512
+            }
+         }
+      ]
+   },
+   "status": 200
+}

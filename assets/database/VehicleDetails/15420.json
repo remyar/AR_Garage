@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 15420,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 15420,
+               "ccmTech": 1984,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1984,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 4736,
+               "modelName": "PASSAT B5.5 (3B3)",
+               "motorType": "Essence",
+               "powerHpFrom": 115,
+               "powerHpTo": 115,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "2.0",
+               "typeNumber": 15420,
+               "valves": 2,
+               "yearOfConstrFrom": 200011,
+               "yearOfConstrTo": 200505,
+               "rmiTypeId": 11554
+            },
+            "vehicleDocId": "DR15420"
+         }
+      ]
+   },
+   "status": 200
+}

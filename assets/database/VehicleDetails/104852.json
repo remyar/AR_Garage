@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 104852,
+            "vehicleDetails": {
+               "carId": 104852,
+               "ccmTech": 279,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 279,
+               "cylinderCapacityLiter": 28,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12298,
+               "modelName": "SH",
+               "motorType": "Essence",
+               "powerHpFrom": 27,
+               "powerHpTo": 27,
+               "powerKwFrom": 20,
+               "powerKwTo": 20,
+               "typeName": "SH 300 i (NF02)",
+               "typeNumber": 104852,
+               "valves": 4,
+               "yearOfConstrFrom": 200701,
+               "yearOfConstrTo": 201312
+            }
+         }
+      ]
+   },
+   "status": 200
+}

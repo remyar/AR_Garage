@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 576,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 576,
+               "ccmTech": 1584,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1584,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 55,
+               "modelName": "KADETT C",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.6 S",
+               "typeNumber": 576,
+               "valves": 2,
+               "yearOfConstrFrom": 197609,
+               "yearOfConstrTo": 197907,
+               "rmiTypeId": 500
+            }
+         }
+      ]
+   },
+   "status": 200
+}

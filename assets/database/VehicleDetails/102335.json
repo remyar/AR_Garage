@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 102335,
+            "vehicleDetails": {
+               "carId": 102335,
+               "ccmTech": 124,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 124,
+               "cylinderCapacityLiter": 12,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 4061,
+               "manuName": "MBK",
+               "modId": 12443,
+               "modelName": "FLAME",
+               "motorType": "Essence",
+               "powerHpFrom": 10,
+               "powerHpTo": 10,
+               "powerKwFrom": 7,
+               "powerKwTo": 7,
+               "typeName": "Flame 125 R",
+               "typeNumber": 102335,
+               "valves": 2,
+               "yearOfConstrFrom": 200001,
+               "yearOfConstrTo": 200012
+            }
+         }
+      ]
+   },
+   "status": 200
+}

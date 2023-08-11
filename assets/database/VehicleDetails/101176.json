@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101176,
+            "vehicleDetails": {
+               "carId": 101176,
+               "ccmTech": 3799,
+               "constructionType": "Coupé",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 3799,
+               "cylinderCapacityLiter": 380,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 1518,
+               "manuName": "MCLAREN",
+               "modId": 11958,
+               "modelName": "650S Coupé",
+               "motorType": "Essence",
+               "powerHpFrom": 650,
+               "powerHpTo": 650,
+               "powerKwFrom": 478,
+               "powerKwTo": 478,
+               "typeName": "3.8",
+               "typeNumber": 101176,
+               "valves": 4,
+               "yearOfConstrFrom": 201404,
+               "rmiTypeId": 89953
+            },
+            "vehicleDocId": "DR101176"
+         }
+      ]
+   },
+   "status": 200
+}

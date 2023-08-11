@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3208,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3208,
+               "ccmTech": 3528,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 3528,
+               "cylinderCapacityLiter": 350,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 1820,
+               "manuName": "LAND ROVER",
+               "modId": 4669,
+               "modelName": "RANGE ROVER I",
+               "motorType": "Essence",
+               "powerHpFrom": 126,
+               "powerHpTo": 126,
+               "powerKwFrom": 93,
+               "powerKwTo": 93,
+               "typeName": "3.5 Vogue 4x4",
+               "typeNumber": 3208,
+               "valves": 2,
+               "yearOfConstrFrom": 198108,
+               "yearOfConstrTo": 199009,
+               "rmiTypeId": 2933
+            },
+            "vehicleDocId": "DR3208"
+         }
+      ]
+   },
+   "status": 200
+}

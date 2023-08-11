@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3986,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3986,
+               "ccmTech": 2473,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2473,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 225,
+               "modelName": "960 II Break (965)",
+               "motorType": "Essence",
+               "powerHpFrom": 170,
+               "powerHpTo": 170,
+               "powerKwFrom": 125,
+               "powerKwTo": 125,
+               "typeName": "2.5",
+               "typeNumber": 3986,
+               "valves": 4,
+               "yearOfConstrFrom": 199408,
+               "yearOfConstrTo": 199612,
+               "rmiTypeId": 3660
+            },
+            "vehicleDocId": "DR3986"
+         }
+      ]
+   },
+   "status": 200
+}

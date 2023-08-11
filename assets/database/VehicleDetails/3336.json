@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3336,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3336,
+               "ccmTech": 1997,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1997,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 3458,
+               "modelName": "GALANT IV Break (A16_V)",
+               "motorType": "Essence",
+               "powerHpFrom": 102,
+               "powerHpTo": 102,
+               "powerKwFrom": 75,
+               "powerKwTo": 75,
+               "typeName": "2.0 GLX (A163V)",
+               "typeNumber": 3336,
+               "valves": 2,
+               "yearOfConstrFrom": 198009,
+               "yearOfConstrTo": 198306,
+               "rmiTypeId": 3052
+            },
+            "vehicleDocId": "DR3336"
+         }
+      ]
+   },
+   "status": 200
+}

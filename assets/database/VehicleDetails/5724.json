@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5724,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5724,
+               "ccmTech": 1595,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1595,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 1568,
+               "modelName": "PASSAT B5 (3B2)",
+               "motorType": "Essence",
+               "powerHpFrom": 101,
+               "powerHpTo": 101,
+               "powerKwFrom": 74,
+               "powerKwTo": 74,
+               "typeName": "1.6",
+               "typeNumber": 5724,
+               "valves": 2,
+               "yearOfConstrFrom": 199610,
+               "yearOfConstrTo": 200011,
+               "rmiTypeId": 5274
+            },
+            "vehicleDocId": "DR5724"
+         }
+      ]
+   },
+   "status": 200
+}

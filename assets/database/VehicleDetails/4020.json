@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4020,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4020,
+               "ccmTech": 1120,
+               "constructionType": "Décapotable",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1120,
+               "cylinderCapacityLiter": 110,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 95,
+               "manuName": "ROVER",
+               "modId": 100,
+               "modelName": "100 Décapotable (XP)",
+               "motorType": "Essence",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "111",
+               "typeNumber": 4020,
+               "valves": 2,
+               "yearOfConstrFrom": 199404,
+               "yearOfConstrTo": 199710,
+               "rmiTypeId": 3693
+            },
+            "vehicleDocId": "DR4020"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 13285,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 13285,
+               "ccmTech": 1820,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1820,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 107,
+               "manuName": "SUBARU",
+               "modId": 1289,
+               "modelName": "LEGACY I (BC)",
+               "motorType": "Essence",
+               "powerHpFrom": 103,
+               "powerHpTo": 103,
+               "powerKwFrom": 76,
+               "powerKwTo": 76,
+               "typeName": "1800 (BC2)",
+               "typeNumber": 13285,
+               "valves": 4,
+               "yearOfConstrFrom": 198901,
+               "yearOfConstrTo": 199312,
+               "rmiTypeId": 9871
+            },
+            "vehicleDocId": "DR13285"
+         }
+      ]
+   },
+   "status": 200
+}

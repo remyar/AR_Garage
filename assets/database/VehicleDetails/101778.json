@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101778,
+            "vehicleDetails": {
+               "carId": 101778,
+               "ccmTech": 567,
+               "constructionType": "Moto",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 567,
+               "cylinderCapacityLiter": 56,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 109,
+               "manuName": "SUZUKI",
+               "modId": 12629,
+               "modelName": "GSX",
+               "motorType": "Essence",
+               "powerHpFrom": 64,
+               "powerHpTo": 64,
+               "powerKwFrom": 47,
+               "powerKwTo": 47,
+               "typeName": "GSX 550 ES",
+               "typeNumber": 101778,
+               "valves": 4,
+               "yearOfConstrFrom": 198201,
+               "yearOfConstrTo": 198412
+            }
+         }
+      ]
+   },
+   "status": 200
+}

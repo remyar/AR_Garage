@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 148227,
+            "vehicleDetails": {
+               "carId": 148227,
+               "ccmTech": 3456,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3456,
+               "cylinderCapacityLiter": 350,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 802,
+               "manuName": "LOTUS",
+               "modId": 42544,
+               "modelName": "EMIRA",
+               "motorType": "Essence",
+               "powerHpFrom": 405,
+               "powerHpTo": 405,
+               "powerKwFrom": 298,
+               "powerKwTo": 298,
+               "typeName": "3.5",
+               "typeNumber": 148227,
+               "valves": 4,
+               "yearOfConstrFrom": 202207,
+               "rmiTypeId": 200109
+            }
+         }
+      ]
+   },
+   "status": 200
+}

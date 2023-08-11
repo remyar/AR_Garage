@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3141,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3141,
+               "ccmTech": 5343,
+               "constructionType": "Coupé",
+               "cylinder": 12,
+               "cylinderCapacityCcm": 5343,
+               "cylinderCapacityLiter": 530,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 56,
+               "manuName": "JAGUAR",
+               "modId": 111,
+               "modelName": "XJ Coupé",
+               "motorType": "Essence",
+               "powerHpFrom": 264,
+               "powerHpTo": 264,
+               "powerKwFrom": 194,
+               "powerKwTo": 194,
+               "typeName": "5.3 H.E.",
+               "typeNumber": 3141,
+               "valves": 2,
+               "yearOfConstrFrom": 198509,
+               "yearOfConstrTo": 199209,
+               "rmiTypeId": 2871
+            },
+            "vehicleDocId": "DR3141"
+         }
+      ]
+   },
+   "status": 200
+}

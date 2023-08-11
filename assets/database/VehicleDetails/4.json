@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4,
+               "ccmTech": 1573,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1573,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 164,
+               "modelName": "1502-2002 (E10)",
+               "motorType": "Essence",
+               "powerHpFrom": 85,
+               "powerHpTo": 85,
+               "powerKwFrom": 63,
+               "powerKwTo": 63,
+               "typeName": "1602",
+               "typeNumber": 4,
+               "valves": 2,
+               "yearOfConstrFrom": 197104,
+               "yearOfConstrTo": 197507,
+               "rmiTypeId": 2
+            }
+         }
+      ]
+   },
+   "status": 200
+}

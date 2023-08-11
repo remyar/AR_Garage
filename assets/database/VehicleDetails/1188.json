@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1188,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1188,
+               "ccmTech": 1796,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1796,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 70,
+               "modelName": "REKORD E Break (61_, 66_, 67_)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.8 S",
+               "typeNumber": 1188,
+               "valves": 2,
+               "yearOfConstrFrom": 198211,
+               "yearOfConstrTo": 198608,
+               "rmiTypeId": 1050
+            },
+            "vehicleDocId": "DR1188"
+         }
+      ]
+   },
+   "status": 200
+}

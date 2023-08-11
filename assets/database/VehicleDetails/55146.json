@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 55146,
+            "vehicleDetails": {
+               "carId": 55146,
+               "ccmTech": 5654,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 5654,
+               "cylinderCapacityLiter": 570,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 29,
+               "manuName": "DODGE",
+               "modId": 10272,
+               "modelName": "CHARGER",
+               "motorType": "Essence",
+               "powerHpFrom": 375,
+               "powerHpTo": 375,
+               "powerKwFrom": 276,
+               "powerKwTo": 276,
+               "typeName": "5.7 R/T",
+               "typeNumber": 55146,
+               "valves": 2,
+               "yearOfConstrFrom": 201009,
+               "rmiTypeId": 74732
+            },
+            "vehicleDocId": "DR55146"
+         }
+      ]
+   },
+   "status": 200
+}

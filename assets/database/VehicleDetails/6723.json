@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6723,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6723,
+               "ccmTech": 1166,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1166,
+               "cylinderCapacityLiter": 120,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 2061,
+               "modelName": "COROLLA Coupé (KE)",
+               "motorType": "Essence",
+               "powerHpFrom": 54,
+               "powerHpTo": 54,
+               "powerKwFrom": 40,
+               "powerKwTo": 40,
+               "typeName": "1.2 (KE35)",
+               "typeNumber": 6723,
+               "valves": 2,
+               "yearOfConstrFrom": 197507,
+               "yearOfConstrTo": 198001,
+               "rmiTypeId": 6030
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 31210,
+            "vehicleDetails": {
+               "carId": 31210,
+               "ccmTech": 3696,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3696,
+               "cylinderCapacityLiter": 370,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 8052,
+               "modelName": "370Z Coupé (Z34)",
+               "motorType": "Essence",
+               "powerHpFrom": 330,
+               "powerHpTo": 330,
+               "powerKwFrom": 243,
+               "powerKwTo": 243,
+               "typeName": "3.7 V6 VVEL",
+               "typeNumber": 31210,
+               "valves": 4,
+               "yearOfConstrFrom": 200906,
+               "rmiTypeId": 60228
+            },
+            "vehicleDocId": "DR31210"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8182,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8182,
+               "ccmTech": 3995,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3995,
+               "cylinderCapacityLiter": 400,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 881,
+               "manuName": "ASTON MARTIN",
+               "modId": 1946,
+               "modelName": "DBS Vantage",
+               "motorType": "Essence",
+               "powerHpFrom": 286,
+               "powerHpTo": 286,
+               "powerKwFrom": 210,
+               "powerKwTo": 210,
+               "typeName": "4.0",
+               "typeNumber": 8182,
+               "valves": 2,
+               "yearOfConstrFrom": 196601,
+               "yearOfConstrTo": 197212,
+               "rmiTypeId": 7310
+            },
+            "vehicleDocId": "DR8182"
+         }
+      ]
+   },
+   "status": 200
+}

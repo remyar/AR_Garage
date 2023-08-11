@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4521,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4521,
+               "ccmTech": 2501,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2501,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 20,
+               "manuName": "CHRYSLER",
+               "modId": 1292,
+               "modelName": "LE BARON A trois volumes",
+               "motorType": "Essence",
+               "powerHpFrom": 101,
+               "powerHpTo": 101,
+               "powerKwFrom": 75,
+               "powerKwTo": 75,
+               "typeName": "2.5 i",
+               "typeNumber": 4521,
+               "valves": 2,
+               "yearOfConstrFrom": 198901,
+               "yearOfConstrTo": 199412,
+               "rmiTypeId": 4175
+            }
+         }
+      ]
+   },
+   "status": 200
+}

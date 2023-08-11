@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1531,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1531,
+               "ccmTech": 1993,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1993,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 256,
+               "modelName": "SIERRA Break (BNC)",
+               "motorType": "Essence",
+               "powerHpFrom": 115,
+               "powerHpTo": 115,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "2.0",
+               "typeNumber": 1531,
+               "valves": 2,
+               "yearOfConstrFrom": 198503,
+               "yearOfConstrTo": 198612,
+               "rmiTypeId": 1371
+            },
+            "vehicleDocId": "DR1531"
+         }
+      ]
+   },
+   "status": 200
+}

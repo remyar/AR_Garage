@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101393,
+            "vehicleDetails": {
+               "carId": 101393,
+               "ccmTech": 675,
+               "constructionType": "Moto",
+               "cylinder": 3,
+               "cylinderCapacityCcm": 675,
+               "cylinderCapacityLiter": 67,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 112,
+               "manuName": "TRIUMPH",
+               "modId": 12661,
+               "modelName": "DAYTONA",
+               "motorType": "Essence",
+               "powerHpFrom": 34,
+               "powerHpTo": 34,
+               "powerKwFrom": 25,
+               "powerKwTo": 25,
+               "typeName": "Daytona 675",
+               "typeNumber": 101393,
+               "valves": 4,
+               "yearOfConstrFrom": 200601,
+               "yearOfConstrTo": 200812
+            }
+         }
+      ]
+   },
+   "status": 200
+}

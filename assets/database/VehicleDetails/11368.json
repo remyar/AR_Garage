@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11368,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 11368,
+               "ccmTech": 1990,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 1990,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 3999,
+               "modelName": "3 Coupé (E46)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "320 Ci",
+               "typeNumber": 11368,
+               "valves": 4,
+               "yearOfConstrFrom": 199902,
+               "yearOfConstrTo": 200108,
+               "rmiTypeId": 9086
+            },
+            "vehicleDocId": "DR11368"
+         }
+      ]
+   },
+   "status": 200
+}

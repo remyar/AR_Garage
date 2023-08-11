@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4543,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4543,
+               "ccmTech": 1341,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1341,
+               "cylinderCapacityLiter": 130,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 183,
+               "manuName": "HYUNDAI",
+               "modId": 3864,
+               "modelName": "PONY A trois volumes (X-3)",
+               "motorType": "Essence",
+               "powerHpFrom": 84,
+               "powerHpTo": 84,
+               "powerKwFrom": 62,
+               "powerKwTo": 62,
+               "typeName": "1.3 i 12V",
+               "typeNumber": 4543,
+               "valves": 3,
+               "yearOfConstrFrom": 199410,
+               "yearOfConstrTo": 200001,
+               "rmiTypeId": 4194
+            },
+            "vehicleDocId": "DR4543"
+         }
+      ]
+   },
+   "status": 200
+}

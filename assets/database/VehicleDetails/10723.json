@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10723,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10723,
+               "ccmTech": 1699,
+               "constructionType": "Camionnette/Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1699,
+               "cylinderCapacityLiter": 170,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 4017,
+               "modelName": "ASTRA F Camionnette/Break (T92)",
+               "motorType": "Diesel",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "1.7 D (F70)",
+               "typeNumber": 10723,
+               "valves": 2,
+               "yearOfConstrFrom": 199207,
+               "yearOfConstrTo": 199901,
+               "rmiTypeId": 8793
+            },
+            "vehicleDocId": "DR10723"
+         }
+      ]
+   },
+   "status": 200
+}

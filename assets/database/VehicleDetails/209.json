@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 209,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 209,
+               "ccmTech": 1990,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1990,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 456,
+               "modelName": "5 (E12)",
+               "motorType": "Essence",
+               "powerHpFrom": 115,
+               "powerHpTo": 115,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "520",
+               "typeNumber": 209,
+               "valves": 2,
+               "yearOfConstrFrom": 197206,
+               "yearOfConstrTo": 197901,
+               "rmiTypeId": 180
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 105142,
+            "vehicleDetails": {
+               "carId": 105142,
+               "ccmTech": 748,
+               "constructionType": "Moto",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 748,
+               "cylinderCapacityLiter": 75,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Cardan",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12306,
+               "modelName": "VF",
+               "motorType": "Essence",
+               "powerHpFrom": 86,
+               "powerHpTo": 86,
+               "powerKwFrom": 63,
+               "powerKwTo": 63,
+               "typeName": "VF 750 C (RC09)",
+               "typeNumber": 105142,
+               "valves": 4,
+               "yearOfConstrFrom": 198201,
+               "yearOfConstrTo": 198412
+            }
+         }
+      ]
+   },
+   "status": 200
+}

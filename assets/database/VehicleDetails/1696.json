@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1696,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1696,
+               "ccmTech": 1588,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1588,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 408,
+               "modelName": "PASSAT B2 (32B)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.6",
+               "typeNumber": 1696,
+               "valves": 2,
+               "yearOfConstrFrom": 197909,
+               "yearOfConstrTo": 198803,
+               "rmiTypeId": 1526
+            },
+            "vehicleDocId": "DR1696"
+         }
+      ]
+   },
+   "status": 200
+}

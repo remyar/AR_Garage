@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 104021,
+            "vehicleDetails": {
+               "carId": 104021,
+               "ccmTech": 487,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 487,
+               "cylinderCapacityLiter": 49,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 109,
+               "manuName": "SUZUKI",
+               "modId": 12627,
+               "modelName": "GS",
+               "motorType": "Essence",
+               "powerHpFrom": 45,
+               "powerHpTo": 45,
+               "powerKwFrom": 33,
+               "powerKwTo": 33,
+               "typeName": "GS 500 F (BK)",
+               "typeNumber": 104021,
+               "valves": 2,
+               "yearOfConstrFrom": 200401,
+               "yearOfConstrTo": 200812
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9649,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9649,
+               "ccmTech": 2290,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2290,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 99,
+               "manuName": "SAAB",
+               "modId": 3591,
+               "modelName": "9-5 Break (YS3E)",
+               "motorType": "Essence",
+               "powerHpFrom": 170,
+               "powerHpTo": 170,
+               "powerKwFrom": 125,
+               "powerKwTo": 125,
+               "typeName": "2.3 t",
+               "typeNumber": 9649,
+               "valves": 4,
+               "yearOfConstrFrom": 199810,
+               "yearOfConstrTo": 200912,
+               "rmiTypeId": 8400
+            },
+            "vehicleDocId": "DR9649"
+         }
+      ]
+   },
+   "status": 200
+}
