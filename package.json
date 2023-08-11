@@ -12,6 +12,12 @@
             "output": "out",
             "buildResources": "assets"
         },
+        "extraResources": [
+            {
+                "from": "assets",
+                "to": "./"
+            }
+        ],
         "extraMetadata": {
             "main": "main.js"
         },
