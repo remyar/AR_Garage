@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 699,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 699,
+               "ccmTech": 4973,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4973,
+               "cylinderCapacityLiter": 490,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 29,
+               "modelName": "CLASSE S (W126)",
+               "motorType": "Essence",
+               "powerHpFrom": 231,
+               "powerHpTo": 231,
+               "powerKwFrom": 170,
+               "powerKwTo": 170,
+               "typeName": "500 SE, SEL (126.036)",
+               "typeNumber": 699,
+               "valves": 2,
+               "yearOfConstrFrom": 197912,
+               "yearOfConstrTo": 198508,
+               "rmiTypeId": 618
+            },
+            "vehicleDocId": "DR699"
+         }
+      ]
+   },
+   "status": 200
+}

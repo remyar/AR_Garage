@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11121,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 11121,
+               "ccmTech": 1590,
+               "constructionType": "SUV",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1590,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 4060,
+               "modelName": "HR-V (GH)",
+               "motorType": "Essence",
+               "powerHpFrom": 105,
+               "powerHpTo": 105,
+               "powerKwFrom": 77,
+               "powerKwTo": 77,
+               "typeName": "1.6 16V 4WD (GH2, GH4)",
+               "typeNumber": 11121,
+               "valves": 4,
+               "yearOfConstrFrom": 199903,
+               "rmiTypeId": 8978
+            },
+            "vehicleDocId": "DR11121"
+         }
+      ]
+   },
+   "status": 200
+}

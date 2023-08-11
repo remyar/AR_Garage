@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3321,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3321,
+               "ccmTech": 1755,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1755,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 467,
+               "modelName": "TREDIA (A21_)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.8 GLS (A215)",
+               "typeNumber": 3321,
+               "valves": 2,
+               "yearOfConstrFrom": 198408,
+               "yearOfConstrTo": 198607,
+               "rmiTypeId": 3037
+            }
+         }
+      ]
+   },
+   "status": 200
+}

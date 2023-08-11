@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 103863,
+            "vehicleDetails": {
+               "carId": 103863,
+               "ccmTech": 798,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 798,
+               "cylinderCapacityLiter": 80,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Courroie",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 12108,
+               "modelName": "F",
+               "motorType": "Essence",
+               "powerHpFrom": 34,
+               "powerHpTo": 34,
+               "powerKwFrom": 25,
+               "powerKwTo": 25,
+               "typeName": "F 800 ST (K71)",
+               "typeNumber": 103863,
+               "valves": 4,
+               "yearOfConstrFrom": 200410,
+               "yearOfConstrTo": 201207
+            }
+         }
+      ]
+   },
+   "status": 200
+}

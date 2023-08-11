@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 129783,
+            "vehicleDetails": {
+               "carId": 129783,
+               "ccmTech": 5000,
+               "constructionType": "SUV",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 5000,
+               "cylinderCapacityLiter": 500,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 1820,
+               "manuName": "LAND ROVER",
+               "modId": 10810,
+               "modelName": "RANGE ROVER IV (L405)",
+               "motorType": "Essence",
+               "powerHpFrom": 525,
+               "powerHpTo": 525,
+               "powerKwFrom": 386,
+               "powerKwTo": 386,
+               "typeName": "5.0 SCV8 4x4",
+               "typeNumber": 129783,
+               "valves": 4,
+               "yearOfConstrFrom": 201711,
+               "rmiTypeId": 142403
+            },
+            "vehicleDocId": "DR129783"
+         }
+      ]
+   },
+   "status": 200
+}

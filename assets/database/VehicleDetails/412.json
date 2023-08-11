@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 412,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 412,
+               "ccmTech": 2399,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2399,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 571,
+               "modelName": "123 A trois volumes (W123)",
+               "motorType": "Diesel",
+               "powerHpFrom": 72,
+               "powerHpTo": 72,
+               "powerKwFrom": 53,
+               "powerKwTo": 53,
+               "typeName": "240 D (123.123)",
+               "typeNumber": 412,
+               "valves": 2,
+               "yearOfConstrFrom": 197903,
+               "yearOfConstrTo": 198511,
+               "rmiTypeId": 360
+            }
+         }
+      ]
+   },
+   "status": 200
+}

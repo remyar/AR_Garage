@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 102640,
+            "vehicleDetails": {
+               "carId": 102640,
+               "ccmTech": 644,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 644,
+               "cylinderCapacityLiter": 64,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 4064,
+               "manuName": "SACHS",
+               "modId": 12579,
+               "modelName": "ROADSTER",
+               "motorType": "Essence",
+               "powerHpFrom": 50,
+               "powerHpTo": 50,
+               "powerKwFrom": 37,
+               "powerKwTo": 37,
+               "typeName": "Roadster 650",
+               "typeNumber": 102640,
+               "valves": 4,
+               "yearOfConstrFrom": 200001,
+               "yearOfConstrTo": 200712
+            }
+         }
+      ]
+   },
+   "status": 200
+}

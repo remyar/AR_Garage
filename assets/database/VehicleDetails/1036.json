@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1036,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1036,
+               "ccmTech": 1698,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1698,
+               "cylinderCapacityLiter": 170,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 51,
+               "modelName": "REKORD C",
+               "motorType": "Essence",
+               "powerHpFrom": 66,
+               "powerHpTo": 66,
+               "powerKwFrom": 49,
+               "powerKwTo": 49,
+               "typeName": "1.7",
+               "typeNumber": 1036,
+               "valves": 2,
+               "yearOfConstrFrom": 196802,
+               "yearOfConstrTo": 197112,
+               "rmiTypeId": 915
+            }
+         }
+      ]
+   },
+   "status": 200
+}

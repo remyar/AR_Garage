@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 681,
+            "vehicleDetails": {
+               "carId": 681,
+               "ccmTech": 3799,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3799,
+               "cylinderCapacityLiter": 380,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 7532,
+               "modelName": "GT-R (R35)",
+               "motorType": "Essence",
+               "powerHpFrom": 530,
+               "powerHpTo": 530,
+               "powerKwFrom": 390,
+               "powerKwTo": 390,
+               "typeName": "V6",
+               "typeNumber": 681,
+               "valves": 4,
+               "yearOfConstrFrom": 201010,
+               "yearOfConstrTo": 201109,
+               "rmiTypeId": 66171
+            },
+            "vehicleDocId": "DR681"
+         }
+      ]
+   },
+   "status": 200
+}

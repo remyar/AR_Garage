@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 302,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 302,
+               "ccmTech": 1990,
+               "constructionType": "Décapotable",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 1990,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 434,
+               "modelName": "3 Décapotable (E36)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "320 i",
+               "typeNumber": 302,
+               "valves": 4,
+               "yearOfConstrFrom": 199312,
+               "yearOfConstrTo": 199911,
+               "rmiTypeId": 265
+            },
+            "vehicleDocId": "DR302"
+         }
+      ]
+   },
+   "status": 200
+}

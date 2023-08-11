@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3063,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3063,
+               "ccmTech": 1569,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1569,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 63,
+               "manuName": "LADA",
+               "modId": 131,
+               "modelName": "NIVA Véhicule tout terrain fermé (2121, 2131)",
+               "motorType": "Essence",
+               "powerHpFrom": 73,
+               "powerHpTo": 73,
+               "powerKwFrom": 54,
+               "powerKwTo": 54,
+               "typeName": "1600 4x4",
+               "typeNumber": 3063,
+               "valves": 2,
+               "yearOfConstrFrom": 198701,
+               "yearOfConstrTo": 199503,
+               "rmiTypeId": 2806
+            },
+            "vehicleDocId": "DR3063"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4327,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4327,
+               "ccmTech": 1809,
+               "constructionType": "Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1809,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 1201,
+               "modelName": "PRAIRIE (M10, NM10)",
+               "motorType": "Essence",
+               "powerHpFrom": 88,
+               "powerHpTo": 88,
+               "powerKwFrom": 65,
+               "powerKwTo": 65,
+               "typeName": "1.8 SGL (M10)",
+               "typeNumber": 4327,
+               "valves": 2,
+               "yearOfConstrFrom": 198307,
+               "yearOfConstrTo": 198512,
+               "rmiTypeId": 3996
+            }
+         }
+      ]
+   },
+   "status": 200
+}

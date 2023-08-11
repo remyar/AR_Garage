@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10880,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10880,
+               "ccmTech": 993,
+               "constructionType": "Camionnette",
+               "cylinder": 3,
+               "cylinderCapacityCcm": 993,
+               "cylinderCapacityLiter": 100,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 25,
+               "manuName": "DAIHATSU",
+               "modId": 3517,
+               "modelName": "HIJET Camionnette (S85)",
+               "motorType": "Essence",
+               "powerHpFrom": 45,
+               "powerHpTo": 45,
+               "powerKwFrom": 33,
+               "powerKwTo": 33,
+               "typeName": "1.0",
+               "typeNumber": 10880,
+               "valves": 2,
+               "yearOfConstrFrom": 199212,
+               "yearOfConstrTo": 199805,
+               "rmiTypeId": 8867
+            },
+            "vehicleDocId": "DR10880"
+         }
+      ]
+   },
+   "status": 200
+}

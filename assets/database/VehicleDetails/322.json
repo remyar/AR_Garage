@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 322,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 322,
+               "ccmTech": 1117,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1117,
+               "cylinderCapacityLiter": 110,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 407,
+               "modelName": "FIESTA II (FBD)",
+               "motorType": "Essence",
+               "powerHpFrom": 49,
+               "powerHpTo": 49,
+               "powerKwFrom": 36,
+               "powerKwTo": 36,
+               "typeName": "1.1 (FBD)",
+               "typeNumber": 322,
+               "valves": 2,
+               "yearOfConstrFrom": 198605,
+               "yearOfConstrTo": 198902,
+               "rmiTypeId": 282
+            },
+            "vehicleDocId": "DR322"
+         }
+      ]
+   },
+   "status": 200
+}

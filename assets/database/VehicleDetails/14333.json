@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 14333,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 14333,
+               "ccmTech": 3996,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 3996,
+               "cylinderCapacityLiter": 400,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 26,
+               "manuName": "DAIMLER",
+               "modId": 10785,
+               "modelName": "DAIMLER XJ (X30_)",
+               "motorType": "Essence",
+               "powerHpFrom": 363,
+               "powerHpTo": 363,
+               "powerKwFrom": 267,
+               "powerKwTo": 267,
+               "typeName": "V8 Super 4.0",
+               "typeNumber": 14333,
+               "valves": 4,
+               "yearOfConstrFrom": 199707,
+               "yearOfConstrTo": 200306,
+               "rmiTypeId": 10536
+            },
+            "vehicleDocId": "DR14333"
+         }
+      ]
+   },
+   "status": 200
+}

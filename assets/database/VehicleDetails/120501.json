@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 120501,
+            "vehicleDetails": {
+               "carId": 120501,
+               "ccmTech": 2979,
+               "constructionType": "SUV",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2979,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 6414,
+               "modelName": "X5 (E70)",
+               "motorType": "Essence",
+               "powerHpFrom": 306,
+               "powerHpTo": 306,
+               "powerKwFrom": 225,
+               "powerKwTo": 225,
+               "typeName": "xDrive 40 i",
+               "typeNumber": 120501,
+               "valves": 4,
+               "yearOfConstrFrom": 201201,
+               "yearOfConstrTo": 201306,
+               "rmiTypeId": 129270
+            },
+            "vehicleDocId": "DR120501"
+         }
+      ]
+   },
+   "status": 200
+}

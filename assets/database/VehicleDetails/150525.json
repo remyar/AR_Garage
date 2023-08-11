@@ -1,0 +1,34 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 150525,
+            "vehicleDetails": {
+               "carId": 150525,
+               "ccmTech": 999,
+               "constructionType": "Moto",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 999,
+               "cylinderCapacityLiter": 100,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 12112,
+               "modelName": "S",
+               "motorType": "Essence",
+               "powerHpFrom": 209,
+               "powerHpTo": 209,
+               "powerKwFrom": 154,
+               "powerKwTo": 154,
+               "typeName": "S 1000 RR (2R99)",
+               "typeNumber": 150525,
+               "valves": 4,
+               "yearOfConstrFrom": 202301
+            }
+         }
+      ]
+   },
+   "status": 200
+}

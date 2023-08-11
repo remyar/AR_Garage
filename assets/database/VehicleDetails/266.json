@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 266,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 266,
+               "ccmTech": 2788,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2788,
+               "cylinderCapacityLiter": 280,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 224,
+               "modelName": "2.5-3.2 Coupé (E9)",
+               "motorType": "Essence",
+               "powerHpFrom": 170,
+               "powerHpTo": 170,
+               "powerKwFrom": 125,
+               "powerKwTo": 125,
+               "typeName": "2800 CS",
+               "typeNumber": 266,
+               "valves": 2,
+               "yearOfConstrFrom": 196901,
+               "yearOfConstrTo": 197104,
+               "rmiTypeId": 235
+            }
+         }
+      ]
+   },
+   "status": 200
+}

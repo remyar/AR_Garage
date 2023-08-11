@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 760,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 760,
+               "ccmTech": 3499,
+               "constructionType": "Décapotable",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 3499,
+               "cylinderCapacityLiter": 350,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 570,
+               "modelName": "SL (R107)",
+               "motorType": "Essence",
+               "powerHpFrom": 195,
+               "powerHpTo": 195,
+               "powerKwFrom": 143,
+               "powerKwTo": 143,
+               "typeName": "350 SL (107.043)",
+               "typeNumber": 760,
+               "valves": 2,
+               "yearOfConstrFrom": 197105,
+               "yearOfConstrTo": 198002,
+               "rmiTypeId": 665
+            },
+            "vehicleDocId": "DR760"
+         }
+      ]
+   },
+   "status": 200
+}

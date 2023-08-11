@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 16,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 16,
+               "ccmTech": 1990,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1990,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 286,
+               "modelName": "3 (E21)",
+               "motorType": "Essence",
+               "powerHpFrom": 109,
+               "powerHpTo": 109,
+               "powerKwFrom": 80,
+               "powerKwTo": 80,
+               "typeName": "320",
+               "typeNumber": 16,
+               "valves": 2,
+               "yearOfConstrFrom": 197506,
+               "yearOfConstrTo": 197907,
+               "rmiTypeId": 14
+            },
+            "vehicleDocId": "DR16"
+         }
+      ]
+   },
+   "status": 200
+}

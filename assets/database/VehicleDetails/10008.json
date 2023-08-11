@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10008,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10008,
+               "ccmTech": 2959,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2959,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 3891,
+               "modelName": "166 (936_)",
+               "motorType": "Essence",
+               "powerHpFrom": 226,
+               "powerHpTo": 226,
+               "powerKwFrom": 166,
+               "powerKwTo": 166,
+               "typeName": "3.0 V6 24V (936A1000, 936A1001)",
+               "typeNumber": 10008,
+               "valves": 4,
+               "yearOfConstrFrom": 199809,
+               "yearOfConstrTo": 200706,
+               "rmiTypeId": 8521
+            },
+            "vehicleDocId": "DR10008"
+         }
+      ]
+   },
+   "status": 200
+}

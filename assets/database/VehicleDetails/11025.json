@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11025,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 11025,
+               "ccmTech": 1593,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1593,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 469,
+               "modelName": "CAPRI I (ECJ)",
+               "motorType": "Essence",
+               "powerHpFrom": 88,
+               "powerHpTo": 88,
+               "powerKwFrom": 65,
+               "powerKwTo": 65,
+               "typeName": "1600",
+               "typeNumber": 11025,
+               "valves": 2,
+               "yearOfConstrFrom": 197208,
+               "yearOfConstrTo": 197402,
+               "rmiTypeId": 8936
+            },
+            "vehicleDocId": "DR11025"
+         }
+      ]
+   },
+   "status": 200
+}

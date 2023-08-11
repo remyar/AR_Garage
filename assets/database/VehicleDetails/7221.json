@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7221,
+            "vehicleDetails": {
+               "carId": 7221,
+               "ccmTech": 1329,
+               "constructionType": "Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1329,
+               "cylinderCapacityLiter": 133,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 9138,
+               "modelName": "VERSO S (_P12_)",
+               "motorType": "Essence",
+               "powerHpFrom": 99,
+               "powerHpTo": 99,
+               "powerKwFrom": 73,
+               "powerKwTo": 73,
+               "typeName": "1.33 (NSP120_)",
+               "typeNumber": 7221,
+               "valves": 4,
+               "yearOfConstrFrom": 201011,
+               "yearOfConstrTo": 201610,
+               "rmiTypeId": 65626
+            },
+            "vehicleDocId": "DR7221"
+         }
+      ]
+   },
+   "status": 200
+}

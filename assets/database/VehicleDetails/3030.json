@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3030,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3030,
+               "ccmTech": 1289,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1289,
+               "cylinderCapacityLiter": 130,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 106,
+               "manuName": "SKODA",
+               "modId": 398,
+               "modelName": "FAVORIT (781)",
+               "motorType": "Essence",
+               "powerHpFrom": 58,
+               "powerHpTo": 58,
+               "powerKwFrom": 43,
+               "powerKwTo": 43,
+               "typeName": "1.3 135L (781)",
+               "typeNumber": 3030,
+               "valves": 2,
+               "yearOfConstrFrom": 198905,
+               "yearOfConstrTo": 199409,
+               "rmiTypeId": 2775
+            },
+            "vehicleDocId": "DR3030"
+         }
+      ]
+   },
+   "status": 200
+}

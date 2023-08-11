@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10751,
+            "vehicleDetails": {
+               "carId": 10751,
+               "ccmTech": 1595,
+               "constructionType": "Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1595,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence/gaz de pétrole liquéfié (GPL)",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 5084,
+               "modelName": "CADDY III Monospace (2KB, 2KJ, 2CB, 2CJ)",
+               "motorType": "Essence",
+               "powerHpFrom": 102,
+               "powerHpTo": 102,
+               "powerKwFrom": 75,
+               "powerKwTo": 75,
+               "typeName": "1.6 BiFuel",
+               "typeNumber": 10751,
+               "valves": 2,
+               "yearOfConstrFrom": 201105,
+               "yearOfConstrTo": 201505,
+               "rmiTypeId": 67416
+            },
+            "vehicleDocId": "DR10751"
+         }
+      ]
+   },
+   "status": 200
+}

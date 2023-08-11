@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1014,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique-mécanique",
+               "carId": 1014,
+               "ccmTech": 1993,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1993,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 1690,
+               "modelName": "TRANSIT Autobus/Autocar (V_ _)",
+               "motorType": "Essence",
+               "powerHpFrom": 78,
+               "powerHpTo": 78,
+               "powerKwFrom": 57,
+               "powerKwTo": 57,
+               "typeName": "2.0 (VAS, VIL, VLS, VUL, VZS)",
+               "typeNumber": 1014,
+               "valves": 2,
+               "yearOfConstrFrom": 197711,
+               "yearOfConstrTo": 198610,
+               "rmiTypeId": 896
+            }
+         }
+      ]
+   },
+   "status": 200
+}

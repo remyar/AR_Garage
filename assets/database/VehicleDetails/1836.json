@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1836,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1836,
+               "ccmTech": 3165,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3165,
+               "cylinderCapacityLiter": 320,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 3684,
+               "modelName": "MONTEREY A (M92)",
+               "motorType": "Essence",
+               "powerHpFrom": 177,
+               "powerHpTo": 177,
+               "powerKwFrom": 130,
+               "powerKwTo": 130,
+               "typeName": "3.2 (UBS25D, UBS25G)",
+               "typeNumber": 1836,
+               "valves": 4,
+               "yearOfConstrFrom": 199108,
+               "yearOfConstrTo": 199403,
+               "rmiTypeId": 1661
+            },
+            "vehicleDocId": "DR1836"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2803,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2803,
+               "ccmTech": 2383,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2383,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 562,
+               "modelName": "760 (704, 764)",
+               "motorType": "Diesel",
+               "powerHpFrom": 112,
+               "powerHpTo": 112,
+               "powerKwFrom": 82,
+               "powerKwTo": 82,
+               "typeName": "2.4 Turbo Diesel",
+               "typeNumber": 2803,
+               "valves": 2,
+               "yearOfConstrFrom": 198208,
+               "yearOfConstrTo": 198707,
+               "rmiTypeId": 2565
+            },
+            "vehicleDocId": "DR2803"
+         }
+      ]
+   },
+   "status": 200
+}

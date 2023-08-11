@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7059,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7059,
+               "ccmTech": 3453,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3453,
+               "cylinderCapacityLiter": 350,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 452,
+               "modelName": "5 (E28)",
+               "motorType": "Essence",
+               "powerHpFrom": 286,
+               "powerHpTo": 286,
+               "powerKwFrom": 210,
+               "powerKwTo": 210,
+               "typeName": "M5",
+               "typeNumber": 7059,
+               "valves": 4,
+               "yearOfConstrFrom": 198508,
+               "yearOfConstrTo": 198712,
+               "rmiTypeId": 6335
+            },
+            "vehicleDocId": "DR7059"
+         }
+      ]
+   },
+   "status": 200
+}

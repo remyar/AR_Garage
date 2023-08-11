@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 405,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 405,
+               "ccmTech": 2746,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2746,
+               "cylinderCapacityLiter": 270,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 571,
+               "modelName": "123 A trois volumes (W123)",
+               "motorType": "Essence",
+               "powerHpFrom": 156,
+               "powerHpTo": 156,
+               "powerKwFrom": 115,
+               "powerKwTo": 115,
+               "typeName": "280 (123.030)",
+               "typeNumber": 405,
+               "valves": 2,
+               "yearOfConstrFrom": 197602,
+               "yearOfConstrTo": 198108,
+               "rmiTypeId": 353
+            }
+         }
+      ]
+   },
+   "status": 200
+}

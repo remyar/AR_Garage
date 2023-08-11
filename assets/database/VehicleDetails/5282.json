@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5282,
+            "vehicleDetails": {
+               "carId": 5282,
+               "ccmTech": 2736,
+               "constructionType": "Monospace",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2736,
+               "cylinderCapacityLiter": 270,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 29,
+               "manuName": "DODGE",
+               "modId": 7572,
+               "modelName": "JOURNEY",
+               "motorType": "Essence",
+               "powerHpFrom": 185,
+               "powerHpTo": 185,
+               "powerKwFrom": 136,
+               "powerKwTo": 136,
+               "typeName": "2.7",
+               "typeNumber": 5282,
+               "valves": 4,
+               "yearOfConstrFrom": 200901,
+               "rmiTypeId": 66135
+            },
+            "vehicleDocId": "DR5282"
+         }
+      ]
+   },
+   "status": 200
+}

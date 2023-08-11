@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10301,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10301,
+               "ccmTech": 3217,
+               "constructionType": "Coupé",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 3217,
+               "cylinderCapacityLiter": 320,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 771,
+               "manuName": "MASERATI",
+               "modId": 3957,
+               "modelName": "3200 GT Coupé",
+               "motorType": "Essence",
+               "powerHpFrom": 369,
+               "powerHpTo": 369,
+               "powerKwFrom": 271,
+               "powerKwTo": 271,
+               "typeName": "3.2 Biturbo V8 32V",
+               "typeNumber": 10301,
+               "valves": 4,
+               "yearOfConstrFrom": 199810,
+               "yearOfConstrTo": 200203,
+               "rmiTypeId": 8645
+            },
+            "vehicleDocId": "DR10301"
+         }
+      ]
+   },
+   "status": 200
+}

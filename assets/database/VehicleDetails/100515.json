@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 100515,
+            "vehicleDetails": {
+               "carId": 100515,
+               "ccmTech": 1461,
+               "constructionType": "SUV",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1461,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 139,
+               "manuName": "DACIA",
+               "modId": 8547,
+               "modelName": "DUSTER (HS_)",
+               "motorType": "Diesel",
+               "powerHpFrom": 109,
+               "powerHpTo": 109,
+               "powerKwFrom": 80,
+               "powerKwTo": 80,
+               "typeName": "1.5 dCi 4x4",
+               "typeNumber": 100515,
+               "valves": 2,
+               "yearOfConstrFrom": 201308,
+               "yearOfConstrTo": 201801,
+               "rmiTypeId": 84929
+            },
+            "vehicleDocId": "DR100515"
+         }
+      ]
+   },
+   "status": 200
+}

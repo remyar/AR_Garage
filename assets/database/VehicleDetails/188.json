@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 188,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 188,
+               "ccmTech": 1779,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1779,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 536,
+               "modelName": "GT (105_)",
+               "motorType": "Essence",
+               "powerHpFrom": 113,
+               "powerHpTo": 113,
+               "powerKwFrom": 83,
+               "powerKwTo": 83,
+               "typeName": "V 1750 (105)",
+               "typeNumber": 188,
+               "valves": 2,
+               "yearOfConstrFrom": 196701,
+               "yearOfConstrTo": 197212,
+               "rmiTypeId": 160
+            },
+            "vehicleDocId": "DR188"
+         }
+      ]
+   },
+   "status": 200
+}

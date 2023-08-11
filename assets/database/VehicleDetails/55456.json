@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 55456,
+            "vehicleDetails": {
+               "carId": 55456,
+               "ccmTech": 1499,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1499,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Essence/gaz de pétrole liquéfié (GPL)",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 6741,
+               "modelName": "LANCER VIII (CY_A, CZ_A)",
+               "motorType": "Essence",
+               "powerHpFrom": 109,
+               "powerHpTo": 109,
+               "powerKwFrom": 80,
+               "powerKwTo": 80,
+               "typeName": "1.5 Bifuel",
+               "typeNumber": 55456,
+               "valves": 4,
+               "yearOfConstrFrom": 201002,
+               "rmiTypeId": 74566
+            },
+            "vehicleDocId": "DR55456"
+         }
+      ]
+   },
+   "status": 200
+}

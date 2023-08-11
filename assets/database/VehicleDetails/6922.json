@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6922,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6922,
+               "ccmTech": 2849,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2849,
+               "cylinderCapacityLiter": 280,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 567,
+               "modelName": "760 Break (704, 765)",
+               "motorType": "Essence",
+               "powerHpFrom": 156,
+               "powerHpTo": 156,
+               "powerKwFrom": 115,
+               "powerKwTo": 115,
+               "typeName": "2.8 (765)",
+               "typeNumber": 6922,
+               "valves": 2,
+               "yearOfConstrFrom": 198608,
+               "yearOfConstrTo": 199008,
+               "rmiTypeId": 6216
+            },
+            "vehicleDocId": "DR6922"
+         }
+      ]
+   },
+   "status": 200
+}

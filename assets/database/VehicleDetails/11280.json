@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11280,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 11280,
+               "ccmTech": 3199,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3199,
+               "cylinderCapacityLiter": 320,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 185,
+               "manuName": "DAEWOO",
+               "modId": 4086,
+               "modelName": "KORANDO (KJ)",
+               "motorType": "Essence",
+               "powerHpFrom": 212,
+               "powerHpTo": 212,
+               "powerKwFrom": 156,
+               "powerKwTo": 156,
+               "typeName": "3.2 4x4",
+               "typeNumber": 11280,
+               "valves": 4,
+               "yearOfConstrFrom": 199901,
+               "rmiTypeId": 9049
+            },
+            "vehicleDocId": "DR11280"
+         }
+      ]
+   },
+   "status": 200
+}

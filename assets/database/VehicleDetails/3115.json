@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3115,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3115,
+               "ccmTech": 1485,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1485,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 6,
+               "manuName": "AUSTIN",
+               "modId": 267,
+               "modelName": "MAXI I Fastback",
+               "motorType": "Essence",
+               "powerHpFrom": 68,
+               "powerHpTo": 68,
+               "powerKwFrom": 50,
+               "powerKwTo": 50,
+               "typeName": "1500",
+               "typeNumber": 3115,
+               "valves": 2,
+               "yearOfConstrFrom": 196904,
+               "yearOfConstrTo": 198007,
+               "rmiTypeId": 2845
+            },
+            "vehicleDocId": "DR3115"
+         }
+      ]
+   },
+   "status": 200
+}

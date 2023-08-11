@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123799,
+            "vehicleDetails": {
+               "carId": 123799,
+               "ccmTech": 1598,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1598,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 37038,
+               "modelName": "NV300 Kombi (X82)",
+               "motorType": "Diesel",
+               "powerHpFrom": 95,
+               "powerHpTo": 95,
+               "powerKwFrom": 70,
+               "powerKwTo": 70,
+               "typeName": "1.6 dci 95",
+               "typeNumber": 123799,
+               "valves": 4,
+               "yearOfConstrFrom": 201609,
+               "rmiTypeId": 134095
+            },
+            "vehicleDocId": "DR123799"
+         }
+      ]
+   },
+   "status": 200
+}

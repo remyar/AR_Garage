@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1915,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1915,
+               "ccmTech": 1781,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1781,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 423,
+               "modelName": "PASSAT B3/B4 Variant (3A5, 35I)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.8",
+               "typeNumber": 1915,
+               "valves": 2,
+               "yearOfConstrFrom": 199008,
+               "yearOfConstrTo": 199705,
+               "rmiTypeId": 1735
+            },
+            "vehicleDocId": "DR1915"
+         }
+      ]
+   },
+   "status": 200
+}

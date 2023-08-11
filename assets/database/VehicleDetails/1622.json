@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1622,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1622,
+               "ccmTech": 1297,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1297,
+               "cylinderCapacityLiter": 130,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 351,
+               "modelName": "TAUNUS (GBTS, GBFS, CBTS)",
+               "motorType": "Essence",
+               "powerHpFrom": 55,
+               "powerHpTo": 55,
+               "powerKwFrom": 40,
+               "powerKwTo": 40,
+               "typeName": "1.3",
+               "typeNumber": 1622,
+               "valves": 2,
+               "yearOfConstrFrom": 197505,
+               "yearOfConstrTo": 197907,
+               "rmiTypeId": 1457
+            }
+         }
+      ]
+   },
+   "status": 200
+}

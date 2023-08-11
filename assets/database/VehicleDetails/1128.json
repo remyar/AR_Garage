@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1128,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1128,
+               "ccmTech": 1698,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1698,
+               "cylinderCapacityLiter": 170,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 42,
+               "modelName": "REKORD C Break",
+               "motorType": "Essence",
+               "powerHpFrom": 66,
+               "powerHpTo": 66,
+               "powerKwFrom": 49,
+               "powerKwTo": 49,
+               "typeName": "1.7",
+               "typeNumber": 1128,
+               "valves": 2,
+               "yearOfConstrFrom": 196802,
+               "yearOfConstrTo": 197112,
+               "rmiTypeId": 992
+            }
+         }
+      ]
+   },
+   "status": 200
+}

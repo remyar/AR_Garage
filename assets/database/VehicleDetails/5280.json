@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5280,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5280,
+               "ccmTech": 1598,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1598,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 1482,
+               "modelName": "FLIGHT III CLASSIC (6V2)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "75 1.6",
+               "typeNumber": 5280,
+               "valves": 2,
+               "yearOfConstrFrom": 199511,
+               "yearOfConstrTo": 200109,
+               "rmiTypeId": 4874
+            },
+            "vehicleDocId": "DR5280"
+         }
+      ]
+   },
+   "status": 200
+}

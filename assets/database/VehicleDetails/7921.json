@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7921,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7921,
+               "ccmTech": 1587,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1587,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 1514,
+               "modelName": "V40 Break (645)",
+               "motorType": "Essence",
+               "powerHpFrom": 105,
+               "powerHpTo": 105,
+               "powerKwFrom": 77,
+               "powerKwTo": 77,
+               "typeName": "1.6",
+               "typeNumber": 7921,
+               "valves": 4,
+               "yearOfConstrFrom": 199512,
+               "yearOfConstrTo": 199908,
+               "rmiTypeId": 7083
+            },
+            "vehicleDocId": "DR7921"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 12800,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 12800,
+               "ccmTech": 5707,
+               "constructionType": "Coupé",
+               "cylinder": 12,
+               "cylinderCapacityCcm": 5707,
+               "cylinderCapacityLiter": 570,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 701,
+               "manuName": "LAMBORGHINI",
+               "modId": 4288,
+               "modelName": "DIABLO",
+               "motorType": "Essence",
+               "powerHpFrom": 640,
+               "powerHpTo": 640,
+               "powerKwFrom": 470,
+               "powerKwTo": 470,
+               "typeName": "GT 2",
+               "typeNumber": 12800,
+               "valves": 4,
+               "yearOfConstrFrom": 199801,
+               "rmiTypeId": 9642
+            },
+            "vehicleDocId": "DR12800"
+         }
+      ]
+   },
+   "status": 200
+}

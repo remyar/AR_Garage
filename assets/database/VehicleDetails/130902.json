@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 130902,
+            "vehicleDetails": {
+               "carId": 130902,
+               "ccmTech": 152,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 152,
+               "cylinderCapacityLiter": 15,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 4633,
+               "manuName": "GARELLI",
+               "modId": 38623,
+               "modelName": "MOSQUITO",
+               "motorType": "Essence",
+               "powerHpFrom": 12,
+               "powerHpTo": 12,
+               "powerKwFrom": 9,
+               "powerKwTo": 9,
+               "typeName": "Mosquito 150",
+               "typeNumber": 130902,
+               "valves": 4,
+               "yearOfConstrFrom": 200701,
+               "yearOfConstrTo": 201012
+            }
+         }
+      ]
+   },
+   "status": 200
+}

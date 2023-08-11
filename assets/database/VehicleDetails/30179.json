@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 30179,
+            "vehicleDetails": {
+               "carId": 30179,
+               "ccmTech": 3700,
+               "constructionType": "Pick-up",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3700,
+               "cylinderCapacityLiter": 370,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 29,
+               "manuName": "DODGE",
+               "modId": 10951,
+               "modelName": "RAM 1500 Pick-up (D1, DC, DH, DM, DR)",
+               "motorType": "Essence",
+               "powerHpFrom": 213,
+               "powerHpTo": 213,
+               "powerKwFrom": 157,
+               "powerKwTo": 157,
+               "typeName": "3.7",
+               "typeNumber": 30179,
+               "valves": 2,
+               "yearOfConstrFrom": 200106,
+               "yearOfConstrTo": 200809,
+               "rmiTypeId": 75636
+            },
+            "vehicleDocId": "DR30179"
+         }
+      ]
+   },
+   "status": 200
+}

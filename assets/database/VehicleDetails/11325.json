@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11325,
+            "vehicleDetails": {
+               "carId": 11325,
+               "ccmTech": 1364,
+               "constructionType": "Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1364,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 9717,
+               "modelName": "ZAFIRA TOURER C (P12)",
+               "motorType": "Essence",
+               "powerHpFrom": 140,
+               "powerHpTo": 140,
+               "powerKwFrom": 103,
+               "powerKwTo": 103,
+               "typeName": "1.4 (75)",
+               "typeNumber": 11325,
+               "valves": 4,
+               "yearOfConstrFrom": 201110,
+               "rmiTypeId": 70253
+            },
+            "vehicleDocId": "DR11325"
+         }
+      ]
+   },
+   "status": 200
+}

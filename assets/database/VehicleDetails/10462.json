@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10462,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10462,
+               "ccmTech": 2497,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2497,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 95,
+               "manuName": "ROVER",
+               "modId": 3989,
+               "modelName": "75 (RJ)",
+               "motorType": "Essence",
+               "powerHpFrom": 175,
+               "powerHpTo": 175,
+               "powerKwFrom": 129,
+               "powerKwTo": 129,
+               "typeName": "2.5 V6",
+               "typeNumber": 10462,
+               "valves": 4,
+               "yearOfConstrFrom": 199902,
+               "yearOfConstrTo": 200110,
+               "rmiTypeId": 8711
+            },
+            "vehicleDocId": "DR10462"
+         }
+      ]
+   },
+   "status": 200
+}

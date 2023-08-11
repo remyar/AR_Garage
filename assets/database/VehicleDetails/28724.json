@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 28724,
+            "vehicleDetails": {
+               "carId": 28724,
+               "ccmTech": 5403,
+               "constructionType": "SUV",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 5403,
+               "cylinderCapacityLiter": 540,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 776,
+               "manuName": "FORD USA",
+               "modId": 11335,
+               "modelName": "EXPEDITION",
+               "motorType": "Essence",
+               "powerHpFrom": 305,
+               "powerHpTo": 305,
+               "powerKwFrom": 224,
+               "powerKwTo": 224,
+               "typeName": "5.4 XLT 4x4",
+               "typeNumber": 28724,
+               "valves": 3,
+               "yearOfConstrFrom": 200701,
+               "rmiTypeId": 98825
+            },
+            "vehicleDocId": "DR28724"
+         }
+      ]
+   },
+   "status": 200
+}

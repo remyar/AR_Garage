@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 111965,
+            "vehicleDetails": {
+               "carId": 111965,
+               "ccmTech": 124,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 124,
+               "cylinderCapacityLiter": 12,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 4288,
+               "manuName": "ECM",
+               "modId": 13918,
+               "modelName": "EPPELLA",
+               "motorType": "Essence",
+               "powerHpFrom": 10,
+               "powerHpTo": 10,
+               "powerKwFrom": 7,
+               "powerKwTo": 7,
+               "typeName": "Eppella 125",
+               "typeNumber": 111965,
+               "valves": 2,
+               "yearOfConstrFrom": 199701,
+               "yearOfConstrTo": 199712
+            }
+         }
+      ]
+   },
+   "status": 200
+}

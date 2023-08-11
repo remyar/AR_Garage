@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 153714,
+            "vehicleDetails": {
+               "carId": 153714,
+               "ccmTech": 4395,
+               "constructionType": "SUV",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4395,
+               "cylinderCapacityLiter": 440,
+               "fuelType": "Essence/électrique",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 38751,
+               "modelName": "X5 (G05, F95)",
+               "motorType": "Hybride léger",
+               "powerHpFrom": 625,
+               "powerHpTo": 625,
+               "powerKwFrom": 460,
+               "powerKwTo": 460,
+               "typeName": "M Competition Mild Hybrid",
+               "typeNumber": 153714,
+               "valves": 4,
+               "yearOfConstrFrom": 202304,
+               "rmiTypeId": 212754
+            }
+         }
+      ]
+   },
+   "status": 200
+}

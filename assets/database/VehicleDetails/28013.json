@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 28013,
+            "vehicleDetails": {
+               "carId": 28013,
+               "ccmTech": 3564,
+               "constructionType": "SUV",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3564,
+               "cylinderCapacityLiter": 360,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 819,
+               "manuName": "CADILLAC",
+               "modId": 5161,
+               "modelName": "SRX",
+               "motorType": "Essence",
+               "powerHpFrom": 258,
+               "powerHpTo": 258,
+               "powerKwFrom": 190,
+               "powerKwTo": 190,
+               "typeName": "3.6",
+               "typeNumber": 28013,
+               "valves": 4,
+               "yearOfConstrFrom": 200401,
+               "yearOfConstrTo": 200812,
+               "rmiTypeId": 55888
+            },
+            "vehicleDocId": "DR28013"
+         }
+      ]
+   },
+   "status": 200
+}

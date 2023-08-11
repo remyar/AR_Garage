@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1601,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1601,
+               "ccmTech": 1272,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1272,
+               "cylinderCapacityLiter": 130,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 436,
+               "modelName": "POLO II (86C, 80)",
+               "motorType": "Essence",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "1.3",
+               "typeNumber": 1601,
+               "valves": 2,
+               "yearOfConstrFrom": 198110,
+               "yearOfConstrTo": 198307,
+               "rmiTypeId": 1439
+            },
+            "vehicleDocId": "DR1601"
+         }
+      ]
+   },
+   "status": 200
+}

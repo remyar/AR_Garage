@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 146128,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 146128,
+               "ccmTech": 999,
+               "constructionType": "Monospace",
+               "cylinder": 3,
+               "cylinderCapacityCcm": 999,
+               "cylinderCapacityLiter": 100,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 139,
+               "manuName": "DACIA",
+               "modId": 42575,
+               "modelName": "JOGGER (RK_)",
+               "motorType": "Essence",
+               "powerHpFrom": 110,
+               "powerHpTo": 110,
+               "powerKwFrom": 81,
+               "powerKwTo": 81,
+               "typeName": "1.0 TCe 110 (RKMD)",
+               "typeNumber": 146128,
+               "valves": 4,
+               "yearOfConstrFrom": 202109,
+               "rmiTypeId": 193017
+            },
+            "vehicleDocId": "DR146128"
+         }
+      ]
+   },
+   "status": 200
+}

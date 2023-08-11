@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5695,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5695,
+               "ccmTech": 3378,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3378,
+               "cylinderCapacityLiter": 340,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 1566,
+               "modelName": "LAND CRUISER 90 (_J9_)",
+               "motorType": "Essence",
+               "powerHpFrom": 178,
+               "powerHpTo": 178,
+               "powerKwFrom": 131,
+               "powerKwTo": 131,
+               "typeName": "3.4 i 24V (VZJ90_, VZJ95_)",
+               "typeNumber": 5695,
+               "valves": 4,
+               "yearOfConstrFrom": 199603,
+               "yearOfConstrTo": 200208,
+               "rmiTypeId": 5250
+            },
+            "vehicleDocId": "DR5695"
+         }
+      ]
+   },
+   "status": 200
+}

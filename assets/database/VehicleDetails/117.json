@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 117,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 117,
+               "ccmTech": 1567,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1567,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 312,
+               "modelName": "75 (162_)",
+               "motorType": "Essence",
+               "powerHpFrom": 110,
+               "powerHpTo": 110,
+               "powerKwFrom": 81,
+               "powerKwTo": 81,
+               "typeName": "1.6 Cat (162.B2B, 162.B2C)",
+               "typeNumber": 117,
+               "valves": 2,
+               "yearOfConstrFrom": 198905,
+               "yearOfConstrTo": 199202,
+               "rmiTypeId": 91
+            },
+            "vehicleDocId": "DR117"
+         }
+      ]
+   },
+   "status": 200
+}

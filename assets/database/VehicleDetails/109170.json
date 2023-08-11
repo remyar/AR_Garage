@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 109170,
+            "vehicleDetails": {
+               "carId": 109170,
+               "ccmTech": 625,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 625,
+               "cylinderCapacityLiter": 62,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 2760,
+               "manuName": "KTM",
+               "modId": 13460,
+               "modelName": "SXC",
+               "motorType": "Essence",
+               "powerHpFrom": 33,
+               "powerHpTo": 33,
+               "powerKwFrom": 24,
+               "powerKwTo": 24,
+               "typeName": "SXC 625",
+               "typeNumber": 109170,
+               "valves": 4,
+               "yearOfConstrFrom": 200301,
+               "yearOfConstrTo": 200612
+            }
+         }
+      ]
+   },
+   "status": 200
+}

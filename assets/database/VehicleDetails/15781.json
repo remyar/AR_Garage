@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 15781,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 15781,
+               "ccmTech": 2496,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2496,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 4736,
+               "modelName": "PASSAT B5.5 (3B3)",
+               "motorType": "Diesel",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.5 TDI 4motion",
+               "typeNumber": 15781,
+               "valves": 4,
+               "yearOfConstrFrom": 200011,
+               "yearOfConstrTo": 200505,
+               "rmiTypeId": 11890
+            },
+            "vehicleDocId": "DR15781"
+         }
+      ]
+   },
+   "status": 200
+}

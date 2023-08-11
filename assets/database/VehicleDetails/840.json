@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 840,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 840,
+               "ccmTech": 4973,
+               "constructionType": "Coupé",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4973,
+               "cylinderCapacityLiter": 490,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 35,
+               "modelName": "CLASSE S Coupé (C126)",
+               "motorType": "Essence",
+               "powerHpFrom": 231,
+               "powerHpTo": 231,
+               "powerKwFrom": 170,
+               "powerKwTo": 170,
+               "typeName": "500 SEC (126.044)",
+               "typeNumber": 840,
+               "valves": 2,
+               "yearOfConstrFrom": 198110,
+               "yearOfConstrTo": 198508,
+               "rmiTypeId": 734
+            },
+            "vehicleDocId": "DR840"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3475,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3475,
+               "ccmTech": 1587,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1587,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 130,
+               "modelName": "COROLLA Coupé (AE86)",
+               "motorType": "Essence",
+               "powerHpFrom": 124,
+               "powerHpTo": 124,
+               "powerKwFrom": 91,
+               "powerKwTo": 91,
+               "typeName": "1.6 GT 16V (AE86)",
+               "typeNumber": 3475,
+               "valves": 4,
+               "yearOfConstrFrom": 198308,
+               "yearOfConstrTo": 198707,
+               "rmiTypeId": 3184
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10779,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10779,
+               "ccmTech": 2446,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2446,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 4022,
+               "modelName": "HIACE IV Camionnette (__H1_, __H2_)",
+               "motorType": "Diesel",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "2.4 TD (LXH12, LXH22)",
+               "typeNumber": 10779,
+               "valves": 2,
+               "yearOfConstrFrom": 199508,
+               "yearOfConstrTo": 200108,
+               "rmiTypeId": 8818
+            },
+            "vehicleDocId": "DR10779"
+         }
+      ]
+   },
+   "status": 200
+}

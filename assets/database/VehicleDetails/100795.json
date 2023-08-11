@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 100795,
+            "vehicleDetails": {
+               "carId": 100795,
+               "ccmTech": 999,
+               "constructionType": "3/5 portes",
+               "cylinder": 3,
+               "cylinderCapacityCcm": 999,
+               "cylinderCapacityLiter": 100,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 8025,
+               "modelName": "POLO V (6R1, 6C1)",
+               "motorType": "Essence",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "1.0",
+               "typeNumber": 100795,
+               "valves": 4,
+               "yearOfConstrFrom": 201401,
+               "rmiTypeId": 88162
+            },
+            "vehicleDocId": "DR100795"
+         }
+      ]
+   },
+   "status": 200
+}

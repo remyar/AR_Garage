@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 100745,
+            "vehicleDetails": {
+               "carId": 100745,
+               "ccmTech": 1364,
+               "constructionType": "SUV",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1364,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence/gaz de pétrole liquéfié (GPL)",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 138,
+               "manuName": "CHEVROLET",
+               "modId": 10819,
+               "modelName": "TRAX",
+               "motorType": "Essence",
+               "powerHpFrom": 140,
+               "powerHpTo": 140,
+               "powerKwFrom": 103,
+               "powerKwTo": 103,
+               "typeName": "1.4 LPG",
+               "typeNumber": 100745,
+               "valves": 4,
+               "yearOfConstrFrom": 201304,
+               "rmiTypeId": 88146
+            },
+            "vehicleDocId": "DR100745"
+         }
+      ]
+   },
+   "status": 200
+}

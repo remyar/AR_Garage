@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11319,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 11319,
+               "ccmTech": 1990,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 1990,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 4088,
+               "modelName": "3 Touring (E46)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "320 i",
+               "typeNumber": 11319,
+               "valves": 4,
+               "yearOfConstrFrom": 199910,
+               "yearOfConstrTo": 200009,
+               "rmiTypeId": 9061
+            },
+            "vehicleDocId": "DR11319"
+         }
+      ]
+   },
+   "status": 200
+}

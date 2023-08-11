@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101630,
+            "vehicleDetails": {
+               "carId": 101630,
+               "ccmTech": 449,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 449,
+               "cylinderCapacityLiter": 44,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 2760,
+               "manuName": "KTM",
+               "modId": 12030,
+               "modelName": "SX",
+               "motorType": "Essence",
+               "powerHpFrom": 53,
+               "powerHpTo": 53,
+               "powerKwFrom": 39,
+               "powerKwTo": 39,
+               "typeName": "SX 450",
+               "typeNumber": 101630,
+               "valves": 4,
+               "yearOfConstrFrom": 200601,
+               "yearOfConstrTo": 200612
+            }
+         }
+      ]
+   },
+   "status": 200
+}

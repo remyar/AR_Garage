@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 131,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 131,
+               "ccmTech": 2492,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2492,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 312,
+               "modelName": "75 (162_)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.5 V6 (162.B3)",
+               "typeNumber": 131,
+               "valves": 2,
+               "yearOfConstrFrom": 198505,
+               "yearOfConstrTo": 198608,
+               "rmiTypeId": 103
+            },
+            "vehicleDocId": "DR131"
+         }
+      ]
+   },
+   "status": 200
+}

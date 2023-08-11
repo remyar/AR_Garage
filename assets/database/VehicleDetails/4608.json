@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4608,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4608,
+               "ccmTech": 3301,
+               "constructionType": "Monospace",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3301,
+               "cylinderCapacityLiter": 330,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 20,
+               "manuName": "CHRYSLER",
+               "modId": 9703,
+               "modelName": "VOYAGER II (ES)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "3.3 i",
+               "typeNumber": 4608,
+               "valves": 2,
+               "yearOfConstrFrom": 199008,
+               "yearOfConstrTo": 199509,
+               "rmiTypeId": 4256
+            }
+         }
+      ]
+   },
+   "status": 200
+}

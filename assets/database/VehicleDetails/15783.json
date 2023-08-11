@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 15783,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 15783,
+               "ccmTech": 1984,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1984,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 4736,
+               "modelName": "PASSAT B5.5 (3B3)",
+               "motorType": "Essence",
+               "powerHpFrom": 115,
+               "powerHpTo": 115,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "2.0 4motion",
+               "typeNumber": 15783,
+               "valves": 2,
+               "yearOfConstrFrom": 200011,
+               "yearOfConstrTo": 200505,
+               "rmiTypeId": 11892
+            },
+            "vehicleDocId": "DR15783"
+         }
+      ]
+   },
+   "status": 200
+}

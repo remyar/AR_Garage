@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1506,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1506,
+               "ccmTech": 1593,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1593,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 360,
+               "modelName": "TAUNUS III Turnier (GBNS)",
+               "motorType": "Essence",
+               "powerHpFrom": 69,
+               "powerHpTo": 69,
+               "powerKwFrom": 51,
+               "powerKwTo": 51,
+               "typeName": "1.6",
+               "typeNumber": 1506,
+               "valves": 2,
+               "yearOfConstrFrom": 197907,
+               "yearOfConstrTo": 198207,
+               "rmiTypeId": 1346
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101121,
+            "vehicleDetails": {
+               "carId": 101121,
+               "ccmTech": 2835,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2835,
+               "cylinderCapacityLiter": 280,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction intégrale",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 394,
+               "modelName": "PAJERO II (V3_W, V2_W, V4_W, V5_W)",
+               "motorType": "Diesel",
+               "powerHpFrom": 140,
+               "powerHpTo": 140,
+               "powerKwFrom": 103,
+               "powerKwTo": 103,
+               "typeName": "2.8 D (V46W, V26W)",
+               "typeNumber": 101121,
+               "valves": 2,
+               "yearOfConstrFrom": 199311,
+               "yearOfConstrTo": 199910,
+               "rmiTypeId": 111725
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101706,
+            "vehicleDetails": {
+               "carId": 101706,
+               "ccmTech": 399,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 399,
+               "cylinderCapacityLiter": 40,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 1021,
+               "manuName": "YAMAHA",
+               "modId": 12721,
+               "modelName": "XS",
+               "motorType": "Essence",
+               "powerHpFrom": 45,
+               "powerHpTo": 45,
+               "powerKwFrom": 33,
+               "powerKwTo": 33,
+               "typeName": "XS 400 (12E)",
+               "typeNumber": 101706,
+               "valves": 4,
+               "yearOfConstrFrom": 198201,
+               "yearOfConstrTo": 199012
+            }
+         }
+      ]
+   },
+   "status": 200
+}

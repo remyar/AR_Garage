@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 758,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 758,
+               "ccmTech": 2304,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2304,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 246,
+               "modelName": "SIERRA II (GBG, GB4)",
+               "motorType": "Diesel",
+               "powerHpFrom": 67,
+               "powerHpTo": 67,
+               "powerKwFrom": 49,
+               "powerKwTo": 49,
+               "typeName": "2.3 D",
+               "typeNumber": 758,
+               "valves": 2,
+               "yearOfConstrFrom": 198701,
+               "yearOfConstrTo": 198909,
+               "rmiTypeId": 663
+            },
+            "vehicleDocId": "DR758"
+         }
+      ]
+   },
+   "status": 200
+}

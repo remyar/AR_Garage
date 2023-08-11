@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 55101,
+            "vehicleDetails": {
+               "carId": 55101,
+               "ccmTech": 1956,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1956,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 138,
+               "manuName": "CHEVROLET",
+               "modId": 10003,
+               "modelName": "MALIBU (V300)",
+               "motorType": "Diesel",
+               "powerHpFrom": 160,
+               "powerHpTo": 160,
+               "powerKwFrom": 118,
+               "powerKwTo": 118,
+               "typeName": "2.0 D",
+               "typeNumber": 55101,
+               "valves": 4,
+               "yearOfConstrFrom": 201204,
+               "rmiTypeId": 72568
+            },
+            "vehicleDocId": "DR55101"
+         }
+      ]
+   },
+   "status": 200
+}

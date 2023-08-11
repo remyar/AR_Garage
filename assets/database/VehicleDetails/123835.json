@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123835,
+            "vehicleDetails": {
+               "carId": 123835,
+               "ccmTech": 998,
+               "constructionType": "3/5 portes",
+               "cylinder": 3,
+               "cylinderCapacityCcm": 998,
+               "cylinderCapacityLiter": 100,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 37261,
+               "modelName": "MICRA V (K14)",
+               "motorType": "Essence",
+               "powerHpFrom": 73,
+               "powerHpTo": 73,
+               "powerKwFrom": 54,
+               "powerKwTo": 54,
+               "typeName": "1.0",
+               "typeNumber": 123835,
+               "valves": 4,
+               "yearOfConstrFrom": 201612,
+               "rmiTypeId": 133926
+            },
+            "vehicleDocId": "DR123835"
+         }
+      ]
+   },
+   "status": 200
+}

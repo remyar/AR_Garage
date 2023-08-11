@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 125812,
+            "vehicleDetails": {
+               "carId": 125812,
+               "ccmTech": 2967,
+               "constructionType": "SUV",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2967,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 4641,
+               "modelName": "MAVERICK",
+               "motorType": "Essence",
+               "powerHpFrom": 197,
+               "powerHpTo": 197,
+               "powerKwFrom": 145,
+               "powerKwTo": 145,
+               "typeName": "3.0 V6 24V FWD",
+               "typeNumber": 125812,
+               "valves": 4,
+               "yearOfConstrFrom": 200102,
+               "rmiTypeId": 136783
+            },
+            "vehicleDocId": "DR125812"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6062,
+            "vehicleDetails": {
+               "carId": 6062,
+               "ccmTech": 1584,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1584,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 1626,
+               "modelName": "TRANSPORTER T1 Camionnette (21, 23)",
+               "motorType": "Essence",
+               "powerHpFrom": 48,
+               "powerHpTo": 48,
+               "powerKwFrom": 35,
+               "powerKwTo": 35,
+               "typeName": "1.6",
+               "typeNumber": 6062,
+               "valves": 2,
+               "yearOfConstrFrom": 196408,
+               "yearOfConstrTo": 196812,
+               "rmiTypeId": 5458
+            }
+         }
+      ]
+   },
+   "status": 200
+}

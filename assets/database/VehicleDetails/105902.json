@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 105902,
+            "vehicleDetails": {
+               "carId": 105902,
+               "ccmTech": 2979,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2979,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 11599,
+               "modelName": "2 Coupé (F22, F87)",
+               "motorType": "Essence",
+               "powerHpFrom": 326,
+               "powerHpTo": 326,
+               "powerKwFrom": 240,
+               "powerKwTo": 240,
+               "typeName": "M 235 i xDrive",
+               "typeNumber": 105902,
+               "valves": 4,
+               "yearOfConstrFrom": 201407,
+               "yearOfConstrTo": 201606,
+               "rmiTypeId": 90008
+            },
+            "vehicleDocId": "DR105902"
+         }
+      ]
+   },
+   "status": 200
+}

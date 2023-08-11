@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 17222,
+            "vehicleDetails": {
+               "carId": 17222,
+               "ccmTech": 2362,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2362,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission, Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 4975,
+               "modelName": "AVENSIS A trois volumes (_T25_)",
+               "motorType": "Essence",
+               "powerHpFrom": 170,
+               "powerHpTo": 170,
+               "powerKwFrom": 125,
+               "powerKwTo": 125,
+               "typeName": "2.4 VVT-i (AZT251_)",
+               "typeNumber": 17222,
+               "valves": 4,
+               "yearOfConstrFrom": 200309,
+               "yearOfConstrTo": 200811,
+               "rmiTypeId": 13264
+            },
+            "vehicleDocId": "DR17222"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11234,
+            "vehicleDetails": {
+               "carId": 11234,
+               "ccmTech": 2148,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2148,
+               "cylinderCapacityLiter": 210,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 4947,
+               "modelName": "CLASSE E T-Model (S211)",
+               "motorType": "Diesel",
+               "powerHpFrom": 163,
+               "powerHpTo": 163,
+               "powerKwFrom": 120,
+               "powerKwTo": 120,
+               "typeName": "E 220 T CDI",
+               "typeNumber": 11234,
+               "valves": 4,
+               "yearOfConstrFrom": 200303,
+               "yearOfConstrTo": 200907,
+               "rmiTypeId": 68632
+            },
+            "vehicleDocId": "DR11234"
+         }
+      ]
+   },
+   "status": 200
+}

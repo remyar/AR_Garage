@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3241,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3241,
+               "ccmTech": 1120,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1120,
+               "cylinderCapacityLiter": 110,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 95,
+               "manuName": "ROVER",
+               "modId": 94,
+               "modelName": "100 / METRO 3/5 portes (XP)",
+               "motorType": "Essence",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "111 C/L/S",
+               "typeNumber": 3241,
+               "valves": 2,
+               "yearOfConstrFrom": 199003,
+               "yearOfConstrTo": 199812,
+               "rmiTypeId": 2966
+            },
+            "vehicleDocId": "DR3241"
+         }
+      ]
+   },
+   "status": 200
+}

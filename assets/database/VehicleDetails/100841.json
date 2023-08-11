@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 100841,
+            "vehicleDetails": {
+               "carId": 100841,
+               "ccmTech": 5204,
+               "constructionType": "Décapotable",
+               "cylinder": 10,
+               "cylinderCapacityCcm": 5204,
+               "cylinderCapacityLiter": 520,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 701,
+               "manuName": "LAMBORGHINI",
+               "modId": 5527,
+               "modelName": "GALLARDO SPYDER",
+               "motorType": "Essence",
+               "powerHpFrom": 551,
+               "powerHpTo": 551,
+               "powerKwFrom": 405,
+               "powerKwTo": 405,
+               "typeName": "5.2",
+               "typeNumber": 100841,
+               "valves": 4,
+               "yearOfConstrFrom": 201109,
+               "rmiTypeId": 88812
+            },
+            "vehicleDocId": "DR100841"
+         }
+      ]
+   },
+   "status": 200
+}

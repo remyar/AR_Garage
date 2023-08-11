@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4341,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4341,
+               "ccmTech": 547,
+               "constructionType": "3/5 portes",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 547,
+               "cylinderCapacityLiter": 50,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 25,
+               "manuName": "DAIHATSU",
+               "modId": 1180,
+               "modelName": "CUORE I (L55, L60)",
+               "motorType": "Essence",
+               "powerHpFrom": 27,
+               "powerHpTo": 27,
+               "powerKwFrom": 20,
+               "powerKwTo": 20,
+               "typeName": "0.5 (L55)",
+               "typeNumber": 4341,
+               "valves": 2,
+               "yearOfConstrFrom": 198010,
+               "yearOfConstrTo": 198509,
+               "rmiTypeId": 4010
+            },
+            "vehicleDocId": "DR4341"
+         }
+      ]
+   },
+   "status": 200
+}

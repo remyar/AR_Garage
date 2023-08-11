@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4290,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4290,
+               "ccmTech": 2753,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2753,
+               "cylinderCapacityLiter": 280,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 1193,
+               "modelName": "280ZX,ZXT (HGS130)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.8",
+               "typeNumber": 4290,
+               "valves": 2,
+               "yearOfConstrFrom": 198201,
+               "yearOfConstrTo": 198402,
+               "rmiTypeId": 3959
+            }
+         }
+      ]
+   },
+   "status": 200
+}

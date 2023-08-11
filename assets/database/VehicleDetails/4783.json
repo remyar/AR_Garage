@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4783,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4783,
+               "ccmTech": 2351,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2351,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 4485,
+               "modelName": "L400 Autobus/Autocar (PD_W, PC_W, PA_V, PB_V, PA_W)",
+               "motorType": "Essence",
+               "powerHpFrom": 132,
+               "powerHpTo": 132,
+               "powerKwFrom": 97,
+               "powerKwTo": 97,
+               "typeName": "2.4 i 4WD (PD4V/W)",
+               "typeNumber": 4783,
+               "valves": 4,
+               "yearOfConstrFrom": 199505,
+               "yearOfConstrTo": 200005,
+               "rmiTypeId": 4423
+            },
+            "vehicleDocId": "DR4783"
+         }
+      ]
+   },
+   "status": 200
+}

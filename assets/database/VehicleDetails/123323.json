@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123323,
+            "vehicleDetails": {
+               "carId": 123323,
+               "ccmTech": 2995,
+               "constructionType": "SUV",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2995,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 1820,
+               "manuName": "LAND ROVER",
+               "modId": 37152,
+               "modelName": "DISCOVERY V (L462)",
+               "motorType": "Essence",
+               "powerHpFrom": 340,
+               "powerHpTo": 340,
+               "powerKwFrom": 250,
+               "powerKwTo": 250,
+               "typeName": "3.0 SCV6 4x4",
+               "typeNumber": 123323,
+               "valves": 4,
+               "yearOfConstrFrom": 201609,
+               "rmiTypeId": 133247
+            },
+            "vehicleDocId": "DR123323"
+         }
+      ]
+   },
+   "status": 200
+}

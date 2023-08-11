@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101401,
+            "vehicleDetails": {
+               "carId": 101401,
+               "ccmTech": 599,
+               "constructionType": "Moto",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 599,
+               "cylinderCapacityLiter": 60,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 112,
+               "manuName": "TRIUMPH",
+               "modId": 12665,
+               "modelName": "SPEED",
+               "motorType": "Essence",
+               "powerHpFrom": 34,
+               "powerHpTo": 34,
+               "powerKwFrom": 25,
+               "powerKwTo": 25,
+               "typeName": "Speed Four (806LB)",
+               "typeNumber": 101401,
+               "valves": 4,
+               "yearOfConstrFrom": 200201,
+               "yearOfConstrTo": 200512
+            }
+         }
+      ]
+   },
+   "status": 200
+}

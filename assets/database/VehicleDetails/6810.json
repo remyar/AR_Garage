@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6810,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6810,
+               "ccmTech": 3980,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3980,
+               "cylinderCapacityLiter": 400,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 26,
+               "manuName": "DAIMLER",
+               "modId": 10785,
+               "modelName": "DAIMLER XJ (X30_)",
+               "motorType": "Essence",
+               "powerHpFrom": 241,
+               "powerHpTo": 241,
+               "powerKwFrom": 177,
+               "powerKwTo": 177,
+               "typeName": "Six 4.0",
+               "typeNumber": 6810,
+               "valves": 4,
+               "yearOfConstrFrom": 199410,
+               "yearOfConstrTo": 200306,
+               "rmiTypeId": 6111
+            },
+            "vehicleDocId": "DR6810"
+         }
+      ]
+   },
+   "status": 200
+}

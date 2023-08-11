@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 55401,
+            "vehicleDetails": {
+               "carId": 55401,
+               "ccmTech": 3760,
+               "constructionType": "Camion plate-forme/Châssis",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 3760,
+               "cylinderCapacityLiter": 380,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 148,
+               "manuName": "GAZ",
+               "modId": 10353,
+               "modelName": "VALDAJ",
+               "motorType": "Diesel",
+               "powerHpFrom": 141,
+               "powerHpTo": 141,
+               "powerKwFrom": 104,
+               "powerKwTo": 104,
+               "typeName": "3.8 D",
+               "typeNumber": 55401,
+               "valves": 4,
+               "yearOfConstrFrom": 201009,
+               "rmiTypeId": 74702
+            }
+         }
+      ]
+   },
+   "status": 200
+}

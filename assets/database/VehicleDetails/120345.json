@@ -1,0 +1,34 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 120345,
+            "vehicleDetails": {
+               "carId": 120345,
+               "ccmTech": 349,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 349,
+               "cylinderCapacityLiter": 34,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 2760,
+               "manuName": "KTM",
+               "modId": 13462,
+               "modelName": "EXC",
+               "motorType": "Essence",
+               "powerHpFrom": 20,
+               "powerHpTo": 20,
+               "powerKwFrom": 15,
+               "powerKwTo": 15,
+               "typeName": "EXC-F 350 Six Days",
+               "typeNumber": 120345,
+               "valves": 4,
+               "yearOfConstrFrom": 201601
+            }
+         }
+      ]
+   },
+   "status": 200
+}

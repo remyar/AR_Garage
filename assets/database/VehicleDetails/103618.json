@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 103618,
+            "vehicleDetails": {
+               "carId": 103618,
+               "ccmTech": 598,
+               "constructionType": "Moto",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 598,
+               "cylinderCapacityLiter": 60,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12261,
+               "modelName": "CBR",
+               "motorType": "Essence",
+               "powerHpFrom": 50,
+               "powerHpTo": 50,
+               "powerKwFrom": 37,
+               "powerKwTo": 37,
+               "typeName": "CBR 600 F (PC19)",
+               "typeNumber": 103618,
+               "valves": 4,
+               "yearOfConstrFrom": 198601,
+               "yearOfConstrTo": 198812
+            }
+         }
+      ]
+   },
+   "status": 200
+}

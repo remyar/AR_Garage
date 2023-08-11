@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1534,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1534,
+               "ccmTech": 2304,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2304,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 256,
+               "modelName": "SIERRA Break (BNC)",
+               "motorType": "Diesel",
+               "powerHpFrom": 67,
+               "powerHpTo": 67,
+               "powerKwFrom": 49,
+               "powerKwTo": 49,
+               "typeName": "2.3 D",
+               "typeNumber": 1534,
+               "valves": 2,
+               "yearOfConstrFrom": 198208,
+               "yearOfConstrTo": 198612,
+               "rmiTypeId": 1374
+            },
+            "vehicleDocId": "DR1534"
+         }
+      ]
+   },
+   "status": 200
+}

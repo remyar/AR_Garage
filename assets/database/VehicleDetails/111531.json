@@ -1,0 +1,34 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 111531,
+            "vehicleDetails": {
+               "carId": 111531,
+               "ccmTech": 1804,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 1804,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Courroie",
+               "manuId": 4055,
+               "manuName": "HARLEY-DAVIDSON",
+               "modId": 13844,
+               "modelName": "ROAD GLIDE",
+               "motorType": "Essence",
+               "powerHpFrom": 101,
+               "powerHpTo": 101,
+               "powerKwFrom": 74,
+               "powerKwTo": 74,
+               "typeName": "1800 Road Glide CVO (FLTRSE)",
+               "typeNumber": 111531,
+               "valves": 2,
+               "yearOfConstrFrom": 200801
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 102459,
+            "vehicleDetails": {
+               "carId": 102459,
+               "ccmTech": 805,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 805,
+               "cylinderCapacityLiter": 80,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Cardan",
+               "manuId": 109,
+               "manuName": "SUZUKI",
+               "modId": 12634,
+               "modelName": "M",
+               "motorType": "Essence",
+               "powerHpFrom": 53,
+               "powerHpTo": 53,
+               "powerKwFrom": 39,
+               "powerKwTo": 39,
+               "typeName": "M 800 Intruder",
+               "typeNumber": 102459,
+               "valves": 4,
+               "yearOfConstrFrom": 200501,
+               "yearOfConstrTo": 200812
+            }
+         }
+      ]
+   },
+   "status": 200
+}

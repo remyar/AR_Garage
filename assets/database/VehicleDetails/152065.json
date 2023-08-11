@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 152065,
+            "vehicleDetails": {
+               "carId": 152065,
+               "ccmTech": 2993,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2993,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 39027,
+               "modelName": "3 (G20, G80, G28)",
+               "motorType": "Essence",
+               "powerHpFrom": 551,
+               "powerHpTo": 551,
+               "powerKwFrom": 405,
+               "powerKwTo": 405,
+               "typeName": "M3 CS xDrive",
+               "typeNumber": 152065,
+               "valves": 4,
+               "yearOfConstrFrom": 202303,
+               "rmiTypeId": 210403
+            }
+         }
+      ]
+   },
+   "status": 200
+}

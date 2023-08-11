@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6340,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6340,
+               "ccmTech": 1986,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1986,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 370,
+               "modelName": "340-360 A trois volumes (344)",
+               "motorType": "Essence",
+               "powerHpFrom": 109,
+               "powerHpTo": 109,
+               "powerKwFrom": 80,
+               "powerKwTo": 80,
+               "typeName": "2.0",
+               "typeNumber": 6340,
+               "valves": 2,
+               "yearOfConstrFrom": 198808,
+               "yearOfConstrTo": 198907,
+               "rmiTypeId": 5700
+            },
+            "vehicleDocId": "DR6340"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 142,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 142,
+               "ccmTech": 1773,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1773,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 282,
+               "modelName": "155 (167_)",
+               "motorType": "Essence",
+               "powerHpFrom": 129,
+               "powerHpTo": 129,
+               "powerKwFrom": 95,
+               "powerKwTo": 95,
+               "typeName": "1.8 T.S. (167A4)",
+               "typeNumber": 142,
+               "valves": 2,
+               "yearOfConstrFrom": 199202,
+               "yearOfConstrTo": 199405,
+               "rmiTypeId": 114
+            },
+            "vehicleDocId": "DR142"
+         }
+      ]
+   },
+   "status": 200
+}

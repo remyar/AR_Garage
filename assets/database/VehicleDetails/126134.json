@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 126134,
+            "vehicleDetails": {
+               "carId": 126134,
+               "ccmTech": 249,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 249,
+               "cylinderCapacityLiter": 25,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12269,
+               "modelName": "CRF",
+               "motorType": "Essence",
+               "powerHpFrom": 20,
+               "powerHpTo": 20,
+               "powerKwFrom": 15,
+               "powerKwTo": 15,
+               "typeName": "CRF 250 F",
+               "typeNumber": 126134,
+               "valves": 4,
+               "yearOfConstrFrom": 201001,
+               "yearOfConstrTo": 201512
+            }
+         }
+      ]
+   },
+   "status": 200
+}

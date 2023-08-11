@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9095,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9095,
+               "ccmTech": 2254,
+               "constructionType": "Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2254,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 1323,
+               "modelName": "SHUTTLE (RA)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.3 16V (RA3, RA5)",
+               "typeNumber": 9095,
+               "valves": 4,
+               "yearOfConstrFrom": 199710,
+               "yearOfConstrTo": 200406,
+               "rmiTypeId": 8130
+            },
+            "vehicleDocId": "DR9095"
+         }
+      ]
+   },
+   "status": 200
+}

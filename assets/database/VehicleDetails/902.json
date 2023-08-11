@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 902,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 902,
+               "ccmTech": 2298,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2298,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 473,
+               "modelName": "T1 Autobus/Autocar (B601)",
+               "motorType": "Essence",
+               "powerHpFrom": 105,
+               "powerHpTo": 105,
+               "powerKwFrom": 77,
+               "powerKwTo": 77,
+               "typeName": "210 2.3",
+               "typeNumber": 902,
+               "valves": 2,
+               "yearOfConstrFrom": 198905,
+               "yearOfConstrTo": 199602,
+               "rmiTypeId": 789
+            }
+         }
+      ]
+   },
+   "status": 200
+}

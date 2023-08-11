@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7265,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7265,
+               "ccmTech": 2922,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2922,
+               "cylinderCapacityLiter": 290,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 1822,
+               "modelName": "V90 I Break (965)",
+               "motorType": "Essence",
+               "powerHpFrom": 180,
+               "powerHpTo": 180,
+               "powerKwFrom": 132,
+               "powerKwTo": 132,
+               "typeName": "2.9",
+               "typeNumber": 7265,
+               "valves": 4,
+               "yearOfConstrFrom": 199701,
+               "yearOfConstrTo": 199812,
+               "rmiTypeId": 6500
+            },
+            "vehicleDocId": "DR7265"
+         }
+      ]
+   },
+   "status": 200
+}

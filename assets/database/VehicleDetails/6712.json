@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6712,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6712,
+               "ccmTech": 1588,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1588,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 550,
+               "modelName": "CELICA Coupé (_A4_)",
+               "motorType": "Essence",
+               "powerHpFrom": 109,
+               "powerHpTo": 109,
+               "powerKwFrom": 80,
+               "powerKwTo": 80,
+               "typeName": "1.6 GT (TA4C)",
+               "typeNumber": 6712,
+               "valves": 2,
+               "yearOfConstrFrom": 197804,
+               "yearOfConstrTo": 198107,
+               "rmiTypeId": 6020
+            },
+            "vehicleDocId": "DR6712"
+         }
+      ]
+   },
+   "status": 200
+}

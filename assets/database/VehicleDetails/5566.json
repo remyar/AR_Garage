@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5566,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5566,
+               "ccmTech": 1747,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1747,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 64,
+               "manuName": "LANCIA",
+               "modId": 3465,
+               "modelName": "DEDRA SW (835_)",
+               "motorType": "Essence",
+               "powerHpFrom": 131,
+               "powerHpTo": 131,
+               "powerKwFrom": 96,
+               "powerKwTo": 96,
+               "typeName": "1.8 GT 16V (835EH)",
+               "typeNumber": 5566,
+               "valves": 4,
+               "yearOfConstrFrom": 199603,
+               "yearOfConstrTo": 199907,
+               "rmiTypeId": 5129
+            },
+            "vehicleDocId": "DR5566"
+         }
+      ]
+   },
+   "status": 200
+}

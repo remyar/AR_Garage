@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 55800,
+            "vehicleDetails": {
+               "carId": 55800,
+               "ccmTech": 1796,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1796,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 138,
+               "manuName": "CHEVROLET",
+               "modId": 10516,
+               "modelName": "CRUZE Station Wagon (J308)",
+               "motorType": "Essence",
+               "powerHpFrom": 141,
+               "powerHpTo": 141,
+               "powerKwFrom": 104,
+               "powerKwTo": 104,
+               "typeName": "1.8",
+               "typeNumber": 55800,
+               "valves": 4,
+               "yearOfConstrFrom": 201208,
+               "rmiTypeId": 74097
+            },
+            "vehicleDocId": "DR55800"
+         }
+      ]
+   },
+   "status": 200
+}

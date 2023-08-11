@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10002,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10002,
+               "ccmTech": 2324,
+               "constructionType": "A trois volumes",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2324,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 3884,
+               "modelName": "BORA I (1J2)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.3 V5",
+               "typeNumber": 10002,
+               "valves": 2,
+               "yearOfConstrFrom": 199810,
+               "yearOfConstrTo": 200010,
+               "rmiTypeId": 8515
+            },
+            "vehicleDocId": "DR10002"
+         }
+      ]
+   },
+   "status": 200
+}

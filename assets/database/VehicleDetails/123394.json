@@ -1,0 +1,34 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123394,
+            "vehicleDetails": {
+               "carId": 123394,
+               "ccmTech": 1649,
+               "constructionType": "Moto",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 1649,
+               "cylinderCapacityLiter": 165,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Cardan",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 12111,
+               "modelName": "K",
+               "motorType": "Essence",
+               "powerHpFrom": 107,
+               "powerHpTo": 107,
+               "powerKwFrom": 79,
+               "powerKwTo": 79,
+               "typeName": "K 1600 GT (2T16R, ST16R)",
+               "typeNumber": 123394,
+               "valves": 4,
+               "yearOfConstrFrom": 201612
+            }
+         }
+      ]
+   },
+   "status": 200
+}

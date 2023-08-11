@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 130056,
+            "vehicleDetails": {
+               "carId": 130056,
+               "ccmTech": 153,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 153,
+               "cylinderCapacityLiter": 15,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12273,
+               "modelName": "FES",
+               "motorType": "Essence",
+               "powerHpFrom": 15,
+               "powerHpTo": 15,
+               "powerKwFrom": 11,
+               "powerKwTo": 11,
+               "typeName": "FES 150 S-Wing",
+               "typeNumber": 130056,
+               "valves": 4,
+               "yearOfConstrFrom": 200701,
+               "yearOfConstrTo": 201012
+            }
+         }
+      ]
+   },
+   "status": 200
+}

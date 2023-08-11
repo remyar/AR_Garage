@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9090,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9090,
+               "ccmTech": 2793,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2793,
+               "cylinderCapacityLiter": 280,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 1892,
+               "modelName": "5 Touring (E39)",
+               "motorType": "Essence",
+               "powerHpFrom": 193,
+               "powerHpTo": 193,
+               "powerKwFrom": 142,
+               "powerKwTo": 142,
+               "typeName": "528 i",
+               "typeNumber": 9090,
+               "valves": 4,
+               "yearOfConstrFrom": 199611,
+               "yearOfConstrTo": 200008,
+               "rmiTypeId": 8125
+            },
+            "vehicleDocId": "DR9090"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 30332,
+            "vehicleDetails": {
+               "carId": 30332,
+               "ccmTech": 1586,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1586,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 109,
+               "manuName": "SUZUKI",
+               "modId": 4890,
+               "modelName": "LIANA (ER, RH_)",
+               "motorType": "Essence",
+               "powerHpFrom": 107,
+               "powerHpTo": 107,
+               "powerKwFrom": 79,
+               "powerKwTo": 79,
+               "typeName": "1.6 (RH 416)",
+               "typeNumber": 30332,
+               "valves": 4,
+               "yearOfConstrFrom": 200501,
+               "rmiTypeId": 57556
+            },
+            "vehicleDocId": "DR30332"
+         }
+      ]
+   },
+   "status": 200
+}

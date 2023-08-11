@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3130,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3130,
+               "ccmTech": 1598,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1598,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 6,
+               "manuName": "AUSTIN",
+               "modId": 297,
+               "modelName": "MONTEGO (XE)",
+               "motorType": "Essence",
+               "powerHpFrom": 83,
+               "powerHpTo": 83,
+               "powerKwFrom": 61,
+               "powerKwTo": 61,
+               "typeName": "1.6 LS, HL",
+               "typeNumber": 3130,
+               "valves": 2,
+               "yearOfConstrFrom": 198404,
+               "yearOfConstrTo": 198808,
+               "rmiTypeId": 2860
+            },
+            "vehicleDocId": "DR3130"
+         }
+      ]
+   },
+   "status": 200
+}

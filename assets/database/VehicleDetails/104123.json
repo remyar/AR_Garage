@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 104123,
+            "vehicleDetails": {
+               "carId": 104123,
+               "ccmTech": 124,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 124,
+               "cylinderCapacityLiter": 12,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 2524,
+               "manuName": "APRILIA",
+               "modId": 12066,
+               "modelName": "HABANA",
+               "motorType": "Essence",
+               "powerHpFrom": 10,
+               "powerHpTo": 10,
+               "powerKwFrom": 8,
+               "powerKwTo": 8,
+               "typeName": "Habana 125 (PM)",
+               "typeNumber": 104123,
+               "valves": 2,
+               "yearOfConstrFrom": 200001,
+               "yearOfConstrTo": 200112
+            }
+         }
+      ]
+   },
+   "status": 200
+}

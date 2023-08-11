@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8760,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8760,
+               "ccmTech": 2461,
+               "constructionType": "Camion plate-forme/Châssis",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2461,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 1632,
+               "modelName": "TRANSPORTER T4 Camion plate-forme/Châssis (70E, 70L, 70M, 7D",
+               "motorType": "Essence",
+               "powerHpFrom": 110,
+               "powerHpTo": 110,
+               "powerKwFrom": 81,
+               "powerKwTo": 81,
+               "typeName": "2.5 Syncro",
+               "typeNumber": 8760,
+               "valves": 2,
+               "yearOfConstrFrom": 199211,
+               "yearOfConstrTo": 200111,
+               "rmiTypeId": 7806
+            },
+            "vehicleDocId": "DR8760"
+         }
+      ]
+   },
+   "status": 200
+}

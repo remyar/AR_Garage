@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3499,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3499,
+               "ccmTech": 1587,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1587,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 156,
+               "modelName": "COROLLA Station Wagon (_E9_)",
+               "motorType": "Essence",
+               "powerHpFrom": 105,
+               "powerHpTo": 105,
+               "powerKwFrom": 77,
+               "powerKwTo": 77,
+               "typeName": "1.6 4WD (AE95)",
+               "typeNumber": 3499,
+               "valves": 4,
+               "yearOfConstrFrom": 198804,
+               "yearOfConstrTo": 199510,
+               "rmiTypeId": 3205
+            },
+            "vehicleDocId": "DR3499"
+         }
+      ]
+   },
+   "status": 200
+}

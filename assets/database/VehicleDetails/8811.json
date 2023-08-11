@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8811,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8811,
+               "ccmTech": 2492,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2492,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 2053,
+               "modelName": "156 (932_)",
+               "motorType": "Essence",
+               "powerHpFrom": 190,
+               "powerHpTo": 190,
+               "powerKwFrom": 140,
+               "powerKwTo": 140,
+               "typeName": "2.5 V6 24V (932A1)",
+               "typeNumber": 8811,
+               "valves": 4,
+               "yearOfConstrFrom": 199709,
+               "yearOfConstrTo": 200209,
+               "rmiTypeId": 7855
+            },
+            "vehicleDocId": "DR8811"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1895,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1895,
+               "ccmTech": 2383,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2383,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 236,
+               "modelName": "LT 28-35 I Autobus/Autocar (281-363)",
+               "motorType": "Diesel",
+               "powerHpFrom": 70,
+               "powerHpTo": 70,
+               "powerKwFrom": 51,
+               "powerKwTo": 51,
+               "typeName": "2.4 D",
+               "typeNumber": 1895,
+               "valves": 2,
+               "yearOfConstrFrom": 198908,
+               "yearOfConstrTo": 199606,
+               "rmiTypeId": 1715
+            },
+            "vehicleDocId": "DR1895"
+         }
+      ]
+   },
+   "status": 200
+}

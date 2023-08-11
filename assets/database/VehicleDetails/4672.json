@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4672,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4672,
+               "ccmTech": 3600,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3600,
+               "cylinderCapacityLiter": 360,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 92,
+               "manuName": "PORSCHE",
+               "modId": 160,
+               "modelName": "911 (993)",
+               "motorType": "Essence",
+               "powerHpFrom": 408,
+               "powerHpTo": 408,
+               "powerKwFrom": 300,
+               "powerKwTo": 300,
+               "typeName": "3.6 Turbo 4",
+               "typeNumber": 4672,
+               "valves": 2,
+               "yearOfConstrFrom": 199503,
+               "yearOfConstrTo": 199709,
+               "rmiTypeId": 4318
+            }
+         }
+      ]
+   },
+   "status": 200
+}

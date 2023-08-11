@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 23101,
+            "vehicleDetails": {
+               "carId": 23101,
+               "ccmTech": 3531,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 3531,
+               "cylinderCapacityLiter": 350,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 1820,
+               "manuName": "LAND ROVER",
+               "modId": 4671,
+               "modelName": "DISCOVERY I (LJ)",
+               "motorType": "Essence",
+               "powerHpFrom": 166,
+               "powerHpTo": 166,
+               "powerKwFrom": 122,
+               "powerKwTo": 122,
+               "typeName": "3.5 4x4",
+               "typeNumber": 23101,
+               "valves": 2,
+               "yearOfConstrFrom": 198906,
+               "yearOfConstrTo": 199406,
+               "rmiTypeId": 81276
+            },
+            "vehicleDocId": "DR23101"
+         }
+      ]
+   },
+   "status": 200
+}

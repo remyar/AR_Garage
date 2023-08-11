@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101768,
+            "vehicleDetails": {
+               "carId": 101768,
+               "ccmTech": 249,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 249,
+               "cylinderCapacityLiter": 24,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 109,
+               "manuName": "SUZUKI",
+               "modId": 12629,
+               "modelName": "GSX",
+               "motorType": "Essence",
+               "powerHpFrom": 27,
+               "powerHpTo": 27,
+               "powerKwFrom": 20,
+               "powerKwTo": 20,
+               "typeName": "GSX 250 ES",
+               "typeNumber": 101768,
+               "valves": 4,
+               "yearOfConstrFrom": 198201,
+               "yearOfConstrTo": 198312
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 113123,
+            "vehicleDetails": {
+               "carId": 113123,
+               "ccmTech": 2497,
+               "constructionType": "Camion plate-forme/Châssis",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2497,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 183,
+               "manuName": "HYUNDAI",
+               "modId": 14150,
+               "modelName": "H350 Camion plate-forme/Châssis",
+               "motorType": "Diesel",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.5 CRDI",
+               "typeNumber": 113123,
+               "valves": 4,
+               "yearOfConstrFrom": 201504,
+               "rmiTypeId": 118762
+            },
+            "vehicleDocId": "DR113123"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 161,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 161,
+               "ccmTech": 2959,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2959,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 287,
+               "modelName": "164 (164_)",
+               "motorType": "Essence",
+               "powerHpFrom": 184,
+               "powerHpTo": 184,
+               "powerKwFrom": 135,
+               "powerKwTo": 135,
+               "typeName": "3.0 V6 (164.AD, 164.AH, 164.AB)",
+               "typeNumber": 161,
+               "valves": 2,
+               "yearOfConstrFrom": 198706,
+               "yearOfConstrTo": 199209,
+               "rmiTypeId": 133
+            },
+            "vehicleDocId": "DR161"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 109268,
+            "vehicleDetails": {
+               "carId": 109268,
+               "ccmTech": 125,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 125,
+               "cylinderCapacityLiter": 12,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12298,
+               "modelName": "SH",
+               "motorType": "Essence",
+               "powerHpFrom": 14,
+               "powerHpTo": 14,
+               "powerKwFrom": 10,
+               "powerKwTo": 10,
+               "typeName": "SH 125 i (JF23)",
+               "typeNumber": 109268,
+               "valves": 2,
+               "yearOfConstrFrom": 200801,
+               "yearOfConstrTo": 201212
+            }
+         }
+      ]
+   },
+   "status": 200
+}

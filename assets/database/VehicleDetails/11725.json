@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11725,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 11725,
+               "ccmTech": 4619,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4619,
+               "cylinderCapacityLiter": 460,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 866,
+               "manuName": "ALPINA",
+               "modId": 4123,
+               "modelName": "B10 (E39)",
+               "motorType": "Essence",
+               "powerHpFrom": 340,
+               "powerHpTo": 340,
+               "powerKwFrom": 250,
+               "powerKwTo": 250,
+               "typeName": "4.6 V8",
+               "typeNumber": 11725,
+               "valves": 4,
+               "yearOfConstrFrom": 199612,
+               "yearOfConstrTo": 199810,
+               "rmiTypeId": 9236
+            },
+            "vehicleDocId": "DR11725"
+         }
+      ]
+   },
+   "status": 200
+}

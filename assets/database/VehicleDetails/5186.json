@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5186,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5186,
+               "ccmTech": 1597,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1597,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 1465,
+               "modelName": "ESCORT VI Clipper (GAL, ANL)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.6 16V",
+               "typeNumber": 5186,
+               "valves": 4,
+               "yearOfConstrFrom": 199501,
+               "yearOfConstrTo": 199902,
+               "rmiTypeId": 4788
+            },
+            "vehicleDocId": "DR5186"
+         }
+      ]
+   },
+   "status": 200
+}

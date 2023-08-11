@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 246,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 246,
+               "ccmTech": 3430,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3430,
+               "cylinderCapacityLiter": 340,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 464,
+               "modelName": "5 (E34)",
+               "motorType": "Essence",
+               "powerHpFrom": 211,
+               "powerHpTo": 211,
+               "powerKwFrom": 155,
+               "powerKwTo": 155,
+               "typeName": "535 i",
+               "typeNumber": 246,
+               "valves": 2,
+               "yearOfConstrFrom": 198711,
+               "yearOfConstrTo": 199302,
+               "rmiTypeId": 215
+            },
+            "vehicleDocId": "DR246"
+         }
+      ]
+   },
+   "status": 200
+}

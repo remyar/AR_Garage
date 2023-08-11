@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4213,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4213,
+               "ccmTech": 1974,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1974,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 1203,
+               "modelName": "BLUEBIRD (T72 , T12, U12)",
+               "motorType": "Essence",
+               "powerHpFrom": 105,
+               "powerHpTo": 105,
+               "powerKwFrom": 77,
+               "powerKwTo": 77,
+               "typeName": "2.0 i (HLT72, T12)",
+               "typeNumber": 4213,
+               "valves": 2,
+               "yearOfConstrFrom": 198512,
+               "yearOfConstrTo": 199012,
+               "rmiTypeId": 3882
+            }
+         }
+      ]
+   },
+   "status": 200
+}

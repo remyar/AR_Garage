@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 23141,
+            "vehicleDetails": {
+               "carId": 23141,
+               "ccmTech": 2521,
+               "constructionType": "3/5 portes",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2521,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 5610,
+               "modelName": "C30 (533)",
+               "motorType": "Essence",
+               "powerHpFrom": 230,
+               "powerHpTo": 230,
+               "powerKwFrom": 169,
+               "powerKwTo": 169,
+               "typeName": "T5",
+               "typeNumber": 23141,
+               "valves": 4,
+               "yearOfConstrFrom": 200703,
+               "yearOfConstrTo": 201212,
+               "rmiTypeId": 52417
+            },
+            "vehicleDocId": "DR23141"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101055,
+            "vehicleDetails": {
+               "carId": 101055,
+               "ccmTech": 1499,
+               "constructionType": "Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1499,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 11947,
+               "modelName": "TRANSIT COURIER B460 Monospace",
+               "motorType": "Diesel",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.5 TDCi",
+               "typeNumber": 101055,
+               "valves": 2,
+               "yearOfConstrFrom": 201402,
+               "rmiTypeId": 89872
+            },
+            "vehicleDocId": "DR101055"
+         }
+      ]
+   },
+   "status": 200
+}

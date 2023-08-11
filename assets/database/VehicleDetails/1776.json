@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1776,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1776,
+               "ccmTech": 2969,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2969,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 314,
+               "modelName": "MONZA A (22_)",
+               "motorType": "Essence",
+               "powerHpFrom": 180,
+               "powerHpTo": 180,
+               "powerKwFrom": 132,
+               "powerKwTo": 132,
+               "typeName": "3.0 GSE",
+               "typeNumber": 1776,
+               "valves": 2,
+               "yearOfConstrFrom": 197802,
+               "yearOfConstrTo": 198608,
+               "rmiTypeId": 1604
+            }
+         }
+      ]
+   },
+   "status": 200
+}

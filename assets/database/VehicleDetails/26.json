@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 26,
+            "vehicleDetails": {
+               "carId": 26,
+               "ccmTech": 1242,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1242,
+               "cylinderCapacityLiter": 120,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 109,
+               "manuName": "SUZUKI",
+               "modId": 8994,
+               "modelName": "SWIFT IV (FZ, NZ)",
+               "motorType": "Essence",
+               "powerHpFrom": 94,
+               "powerHpTo": 94,
+               "powerKwFrom": 69,
+               "powerKwTo": 69,
+               "typeName": "1.2 (AZH 412, ZC72S)",
+               "typeNumber": 26,
+               "valves": 4,
+               "yearOfConstrFrom": 201010,
+               "rmiTypeId": 64579
+            },
+            "vehicleDocId": "DR26"
+         }
+      ]
+   },
+   "status": 200
+}

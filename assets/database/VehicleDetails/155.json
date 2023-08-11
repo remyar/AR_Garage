@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 155,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 155,
+               "ccmTech": 1996,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 1996,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 287,
+               "modelName": "164 (164_)",
+               "motorType": "Essence",
+               "powerHpFrom": 204,
+               "powerHpTo": 204,
+               "powerKwFrom": 150,
+               "powerKwTo": 150,
+               "typeName": "2.0 V6 Turbo (164.A2G, 164.A2F)",
+               "typeNumber": 155,
+               "valves": 2,
+               "yearOfConstrFrom": 199103,
+               "yearOfConstrTo": 199209,
+               "rmiTypeId": 127
+            },
+            "vehicleDocId": "DR155"
+         }
+      ]
+   },
+   "status": 200
+}

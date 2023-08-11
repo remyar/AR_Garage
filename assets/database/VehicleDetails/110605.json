@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 110605,
+            "vehicleDetails": {
+               "carId": 110605,
+               "ccmTech": 4497,
+               "constructionType": "Décapotable",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4497,
+               "cylinderCapacityLiter": 450,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 700,
+               "manuName": "FERRARI",
+               "modId": 10175,
+               "modelName": "458 Spider",
+               "motorType": "Essence",
+               "powerHpFrom": 600,
+               "powerHpTo": 600,
+               "powerKwFrom": 441,
+               "powerKwTo": 441,
+               "typeName": "4.5",
+               "typeNumber": 110605,
+               "valves": 4,
+               "yearOfConstrFrom": 201409,
+               "rmiTypeId": 113929
+            },
+            "vehicleDocId": "DR110605"
+         }
+      ]
+   },
+   "status": 200
+}

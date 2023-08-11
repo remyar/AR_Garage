@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3341,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3341,
+               "ccmTech": 1997,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1997,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 461,
+               "modelName": "GALANT V (E1_A)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.0 Turbo ECi (E15A)",
+               "typeNumber": 3341,
+               "valves": 2,
+               "yearOfConstrFrom": 198406,
+               "yearOfConstrTo": 199004,
+               "rmiTypeId": 3057
+            },
+            "vehicleDocId": "DR3341"
+         }
+      ]
+   },
+   "status": 200
+}

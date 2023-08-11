@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 102,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 102,
+               "ccmTech": 1351,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1351,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 295,
+               "modelName": "33 (907_)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.4 i.e. (907.A3A, 907.A3B)",
+               "typeNumber": 102,
+               "valves": 2,
+               "yearOfConstrFrom": 199106,
+               "yearOfConstrTo": 199409,
+               "rmiTypeId": 79
+            },
+            "vehicleDocId": "DR102"
+         }
+      ]
+   },
+   "status": 200
+}

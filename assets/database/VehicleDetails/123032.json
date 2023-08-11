@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123032,
+            "vehicleDetails": {
+               "carId": 123032,
+               "ccmTech": 1995,
+               "constructionType": "Camion plate-forme/Châssis",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1995,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 11954,
+               "modelName": "TRANSIT V363 Camion plate-forme/Châssis (FED, FFD)",
+               "motorType": "Diesel",
+               "powerHpFrom": 170,
+               "powerHpTo": 170,
+               "powerKwFrom": 125,
+               "powerKwTo": 125,
+               "typeName": "2.0 EcoBlue 4x4",
+               "typeNumber": 123032,
+               "valves": 4,
+               "yearOfConstrFrom": 201701,
+               "rmiTypeId": 132911
+            },
+            "vehicleDocId": "DR123032"
+         }
+      ]
+   },
+   "status": 200
+}

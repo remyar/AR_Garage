@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3542,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3542,
+               "ccmTech": 1998,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1998,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 453,
+               "modelName": "CAMRY (_V2_)",
+               "motorType": "Essence",
+               "powerHpFrom": 128,
+               "powerHpTo": 128,
+               "powerKwFrom": 94,
+               "powerKwTo": 94,
+               "typeName": "2.0 (SV21_)",
+               "typeNumber": 3542,
+               "valves": 4,
+               "yearOfConstrFrom": 198611,
+               "yearOfConstrTo": 199105,
+               "rmiTypeId": 3243
+            },
+            "vehicleDocId": "DR3542"
+         }
+      ]
+   },
+   "status": 200
+}

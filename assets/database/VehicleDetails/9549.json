@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9549,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9549,
+               "ccmTech": 3275,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3275,
+               "cylinderCapacityLiter": 330,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 3563,
+               "modelName": "PATHFINDER II (R50)",
+               "motorType": "Essence",
+               "powerHpFrom": 170,
+               "powerHpTo": 170,
+               "powerKwFrom": 125,
+               "powerKwTo": 125,
+               "typeName": "3.3 V6 4WD",
+               "typeNumber": 9549,
+               "valves": 2,
+               "yearOfConstrFrom": 199709,
+               "yearOfConstrTo": 200412,
+               "rmiTypeId": 8351
+            },
+            "vehicleDocId": "DR9549"
+         }
+      ]
+   },
+   "status": 200
+}

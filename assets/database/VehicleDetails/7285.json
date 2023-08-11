@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7285,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7285,
+               "ccmTech": 1982,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1982,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 2088,
+               "modelName": "URVAN Camionnette (E23)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "2.0",
+               "typeNumber": 7285,
+               "valves": 2,
+               "yearOfConstrFrom": 198107,
+               "yearOfConstrTo": 198211,
+               "rmiTypeId": 6518
+            }
+         }
+      ]
+   },
+   "status": 200
+}

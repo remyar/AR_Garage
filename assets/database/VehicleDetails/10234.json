@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10234,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10234,
+               "ccmTech": 2171,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2171,
+               "cylinderCapacityLiter": 220,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 117,
+               "manuName": "VAUXHALL",
+               "modId": 3947,
+               "modelName": "FRONTERA Mk II (B) (U99)",
+               "motorType": "Diesel",
+               "powerHpFrom": 116,
+               "powerHpTo": 116,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "2.2 DTI",
+               "typeNumber": 10234,
+               "valves": 4,
+               "yearOfConstrFrom": 199810,
+               "yearOfConstrTo": 200409,
+               "rmiTypeId": 8619
+            },
+            "vehicleDocId": "DR10234"
+         }
+      ]
+   },
+   "status": 200
+}

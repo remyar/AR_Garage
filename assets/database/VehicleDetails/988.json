@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 988,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 988,
+               "ccmTech": 4520,
+               "constructionType": "Coupé",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4520,
+               "cylinderCapacityLiter": 450,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 3445,
+               "modelName": "SL Coupé (C107)",
+               "motorType": "Essence",
+               "powerHpFrom": 225,
+               "powerHpTo": 225,
+               "powerKwFrom": 165,
+               "powerKwTo": 165,
+               "typeName": "450 SLC (107.024)",
+               "typeNumber": 988,
+               "valves": 2,
+               "yearOfConstrFrom": 197301,
+               "yearOfConstrTo": 197511,
+               "rmiTypeId": 871
+            },
+            "vehicleDocId": "DR988"
+         }
+      ]
+   },
+   "status": 200
+}

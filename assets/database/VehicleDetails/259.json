@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 259,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 259,
+               "ccmTech": 2985,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2985,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 219,
+               "modelName": "2500-3.3 (E3)",
+               "motorType": "Essence",
+               "powerHpFrom": 180,
+               "powerHpTo": 180,
+               "powerKwFrom": 132,
+               "powerKwTo": 132,
+               "typeName": "3.0 S",
+               "typeNumber": 259,
+               "valves": 2,
+               "yearOfConstrFrom": 197105,
+               "yearOfConstrTo": 197704,
+               "rmiTypeId": 228
+            }
+         }
+      ]
+   },
+   "status": 200
+}

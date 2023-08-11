@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10899,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10899,
+               "ccmTech": 2490,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2490,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 4036,
+               "modelName": "COMMODORE A",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.5 GS/E",
+               "typeNumber": 10899,
+               "valves": 2,
+               "yearOfConstrFrom": 196908,
+               "yearOfConstrTo": 197201,
+               "rmiTypeId": 8884
+            }
+         }
+      ]
+   },
+   "status": 200
+}

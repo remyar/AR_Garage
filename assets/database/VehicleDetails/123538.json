@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123538,
+            "vehicleDetails": {
+               "carId": 123538,
+               "ccmTech": 1968,
+               "constructionType": "Camion plate-forme/Châssis",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1968,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 37201,
+               "modelName": "CRAFTER Camion plate-forme/Châssis (SZ_)",
+               "motorType": "Diesel",
+               "powerHpFrom": 102,
+               "powerHpTo": 102,
+               "powerKwFrom": 75,
+               "powerKwTo": 75,
+               "typeName": "2.0 TDI",
+               "typeNumber": 123538,
+               "valves": 4,
+               "yearOfConstrFrom": 201611,
+               "rmiTypeId": 133472
+            },
+            "vehicleDocId": "DR123538"
+         }
+      ]
+   },
+   "status": 200
+}

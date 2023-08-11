@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1272,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1272,
+               "ccmTech": 1584,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1584,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 250,
+               "modelName": "MANTA A (58_, 59_)",
+               "motorType": "Essence",
+               "powerHpFrom": 80,
+               "powerHpTo": 80,
+               "powerKwFrom": 59,
+               "powerKwTo": 59,
+               "typeName": "1.6 S",
+               "typeNumber": 1272,
+               "valves": 2,
+               "yearOfConstrFrom": 197009,
+               "yearOfConstrTo": 197508,
+               "rmiTypeId": 1130
+            }
+         }
+      ]
+   },
+   "status": 200
+}

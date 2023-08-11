@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 14730,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 14730,
+               "ccmTech": 2402,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2402,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 4620,
+               "modelName": "TRANSIT Autobus/Autocar (FD_ _, FB_ _, FS_ _, FZ_ _, FC_ _)",
+               "motorType": "Diesel",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "2.4 DI (F_B_, F_C_, F_A_)",
+               "typeNumber": 14730,
+               "valves": 4,
+               "yearOfConstrFrom": 200001,
+               "yearOfConstrTo": 200605,
+               "rmiTypeId": 10900
+            },
+            "vehicleDocId": "DR14730"
+         }
+      ]
+   },
+   "status": 200
+}

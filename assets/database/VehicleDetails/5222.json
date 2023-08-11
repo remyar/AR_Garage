@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5222,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5222,
+               "ccmTech": 1597,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1597,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 1475,
+               "modelName": "ALMERA I Hatchback (N15)",
+               "motorType": "Essence",
+               "powerHpFrom": 99,
+               "powerHpTo": 99,
+               "powerKwFrom": 73,
+               "powerKwTo": 73,
+               "typeName": "1.6",
+               "typeNumber": 5222,
+               "valves": 4,
+               "yearOfConstrFrom": 199509,
+               "yearOfConstrTo": 200003,
+               "rmiTypeId": 4823
+            },
+            "vehicleDocId": "DR5222"
+         }
+      ]
+   },
+   "status": 200
+}

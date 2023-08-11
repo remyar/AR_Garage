@@ -1,0 +1,34 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 111600,
+            "vehicleDetails": {
+               "carId": 111600,
+               "ccmTech": 1690,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 1690,
+               "cylinderCapacityLiter": 169,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Courroie",
+               "manuId": 4055,
+               "manuName": "HARLEY-DAVIDSON",
+               "modId": 12218,
+               "modelName": "DYNA",
+               "motorType": "Essence",
+               "powerHpFrom": 78,
+               "powerHpTo": 78,
+               "powerKwFrom": 57,
+               "powerKwTo": 57,
+               "typeName": "1700 Dyna Super Glide Custom (FXDC)",
+               "typeNumber": 111600,
+               "valves": 4,
+               "yearOfConstrFrom": 201306
+            }
+         }
+      ]
+   },
+   "status": 200
+}

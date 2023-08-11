@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1851,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1851,
+               "ccmTech": 1913,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1913,
+               "cylinderCapacityLiter": 190,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 1629,
+               "modelName": "TRANSPORTER T3 Camionnette (24_, 25_)",
+               "motorType": "Essence",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "1.9",
+               "typeNumber": 1851,
+               "valves": 2,
+               "yearOfConstrFrom": 198210,
+               "yearOfConstrTo": 199207,
+               "rmiTypeId": 1675
+            },
+            "vehicleDocId": "DR1851"
+         }
+      ]
+   },
+   "status": 200
+}

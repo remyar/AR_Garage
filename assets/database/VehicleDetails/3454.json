@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3454,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3454,
+               "ccmTech": 1166,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1166,
+               "cylinderCapacityLiter": 120,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 2063,
+               "modelName": "COROLLA (KE_, TE_)",
+               "motorType": "Essence",
+               "powerHpFrom": 54,
+               "powerHpTo": 54,
+               "powerKwFrom": 40,
+               "powerKwTo": 40,
+               "typeName": "1.2 (KE20, KE25, KE30)",
+               "typeNumber": 3454,
+               "valves": 2,
+               "yearOfConstrFrom": 197408,
+               "yearOfConstrTo": 198012,
+               "rmiTypeId": 3165
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1819,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1819,
+               "ccmTech": 1998,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1998,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 388,
+               "modelName": "ASTRA F 3/5 portes (T92)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.0 GSI 16V (F08, M08, F68, M68)",
+               "typeNumber": 1819,
+               "valves": 4,
+               "yearOfConstrFrom": 199109,
+               "yearOfConstrTo": 199801,
+               "rmiTypeId": 1644
+            },
+            "vehicleDocId": "DR1819"
+         }
+      ]
+   },
+   "status": 200
+}

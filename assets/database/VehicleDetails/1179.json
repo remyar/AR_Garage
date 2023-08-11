@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1179,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1179,
+               "ccmTech": 1979,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1979,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 75,
+               "modelName": "REKORD E (17_, 11_, 14_, 16_, 18_, 19_)",
+               "motorType": "Essence",
+               "powerHpFrom": 110,
+               "powerHpTo": 110,
+               "powerKwFrom": 81,
+               "powerKwTo": 81,
+               "typeName": "2.0 E",
+               "typeNumber": 1179,
+               "valves": 2,
+               "yearOfConstrFrom": 197709,
+               "yearOfConstrTo": 198410,
+               "rmiTypeId": 1041
+            },
+            "vehicleDocId": "DR1179"
+         }
+      ]
+   },
+   "status": 200
+}

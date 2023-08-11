@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6739,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6739,
+               "ccmTech": 1587,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1587,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 108,
+               "modelName": "COROLLA (_E8_)",
+               "motorType": "Essence",
+               "powerHpFrom": 73,
+               "powerHpTo": 73,
+               "powerKwFrom": 54,
+               "powerKwTo": 54,
+               "typeName": "1.6 (AE82_)",
+               "typeNumber": 6739,
+               "valves": 2,
+               "yearOfConstrFrom": 198512,
+               "yearOfConstrTo": 198805,
+               "rmiTypeId": 6046
+            },
+            "vehicleDocId": "DR6739"
+         }
+      ]
+   },
+   "status": 200
+}

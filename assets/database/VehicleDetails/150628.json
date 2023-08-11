@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 150628,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 150628,
+               "ccmTech": 5463,
+               "constructionType": "Coupé",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 5463,
+               "cylinderCapacityLiter": 550,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 138,
+               "manuName": "CHEVROLET",
+               "modId": 40419,
+               "modelName": "CORVETTE (C8)",
+               "motorType": "Essence",
+               "powerHpFrom": 680,
+               "powerHpTo": 680,
+               "powerKwFrom": 500,
+               "powerKwTo": 500,
+               "typeName": "Z06 5.5",
+               "typeNumber": 150628,
+               "valves": 4,
+               "yearOfConstrFrom": 202207,
+               "rmiTypeId": 204342
+            }
+         }
+      ]
+   },
+   "status": 200
+}

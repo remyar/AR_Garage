@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 102218,
+            "vehicleDetails": {
+               "carId": 102218,
+               "ccmTech": 1198,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 1198,
+               "cylinderCapacityLiter": 120,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 2759,
+               "manuName": "DUCATI",
+               "modId": 12183,
+               "modelName": "DIAVEL",
+               "motorType": "Essence",
+               "powerHpFrom": 162,
+               "powerHpTo": 162,
+               "powerKwFrom": 119,
+               "powerKwTo": 119,
+               "typeName": "Diavel AMG",
+               "typeNumber": 102218,
+               "valves": 4,
+               "yearOfConstrFrom": 201201,
+               "yearOfConstrTo": 201312
+            }
+         }
+      ]
+   },
+   "status": 200
+}

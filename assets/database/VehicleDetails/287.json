@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 287,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 287,
+               "ccmTech": 2997,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 2997,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 544,
+               "modelName": "7 (E32)",
+               "motorType": "Essence",
+               "powerHpFrom": 218,
+               "powerHpTo": 218,
+               "powerKwFrom": 160,
+               "powerKwTo": 160,
+               "typeName": "730 i, iL V8",
+               "typeNumber": 287,
+               "valves": 4,
+               "yearOfConstrFrom": 199204,
+               "yearOfConstrTo": 199409,
+               "rmiTypeId": 254
+            },
+            "vehicleDocId": "DR287"
+         }
+      ]
+   },
+   "status": 200
+}

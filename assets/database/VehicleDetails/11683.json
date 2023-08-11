@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11683,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 11683,
+               "ccmTech": 3430,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3430,
+               "cylinderCapacityLiter": 340,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 866,
+               "manuName": "ALPINA",
+               "modId": 4119,
+               "modelName": "B9 (E28)",
+               "motorType": "Essence",
+               "powerHpFrom": 245,
+               "powerHpTo": 245,
+               "powerKwFrom": 180,
+               "powerKwTo": 180,
+               "typeName": "3.4",
+               "typeNumber": 11683,
+               "valves": 2,
+               "yearOfConstrFrom": 198111,
+               "yearOfConstrTo": 198512,
+               "rmiTypeId": 9225
+            },
+            "vehicleDocId": "DR11683"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8203,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8203,
+               "ccmTech": 1490,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1490,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 291,
+               "modelName": "33 (905_)",
+               "motorType": "Essence",
+               "powerHpFrom": 95,
+               "powerHpTo": 95,
+               "powerKwFrom": 70,
+               "powerKwTo": 70,
+               "typeName": "1.5 4x4 (905.A2A)",
+               "typeNumber": 8203,
+               "valves": 2,
+               "yearOfConstrFrom": 198401,
+               "yearOfConstrTo": 198912,
+               "rmiTypeId": 7331
+            },
+            "vehicleDocId": "DR8203"
+         }
+      ]
+   },
+   "status": 200
+}

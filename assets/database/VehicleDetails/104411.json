@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 104411,
+            "vehicleDetails": {
+               "carId": 104411,
+               "ccmTech": 670,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 670,
+               "cylinderCapacityLiter": 67,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12282,
+               "modelName": "NC",
+               "motorType": "Essence",
+               "powerHpFrom": 48,
+               "powerHpTo": 48,
+               "powerKwFrom": 35,
+               "powerKwTo": 35,
+               "typeName": "NC 700 S (RC61)",
+               "typeNumber": 104411,
+               "valves": 4,
+               "yearOfConstrFrom": 201112,
+               "yearOfConstrTo": 201312
+            }
+         }
+      ]
+   },
+   "status": 200
+}

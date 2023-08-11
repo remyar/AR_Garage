@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5114,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5114,
+               "ccmTech": 3201,
+               "constructionType": "Décapotable",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3201,
+               "cylinderCapacityLiter": 320,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 434,
+               "modelName": "3 Décapotable (E36)",
+               "motorType": "Essence",
+               "powerHpFrom": 321,
+               "powerHpTo": 321,
+               "powerKwFrom": 236,
+               "powerKwTo": 236,
+               "typeName": "M3 3.2",
+               "typeNumber": 5114,
+               "valves": 4,
+               "yearOfConstrFrom": 199603,
+               "yearOfConstrTo": 199909,
+               "rmiTypeId": 4722
+            },
+            "vehicleDocId": "DR5114"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1713,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1713,
+               "ccmTech": 1588,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1588,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 412,
+               "modelName": "PASSAT B3/B4 (3A2, 35I)",
+               "motorType": "Diesel",
+               "powerHpFrom": 80,
+               "powerHpTo": 80,
+               "powerKwFrom": 59,
+               "powerKwTo": 59,
+               "typeName": "1.6 TD",
+               "typeNumber": 1713,
+               "valves": 2,
+               "yearOfConstrFrom": 198808,
+               "yearOfConstrTo": 199309,
+               "rmiTypeId": 1542
+            },
+            "vehicleDocId": "DR1713"
+         }
+      ]
+   },
+   "status": 200
+}

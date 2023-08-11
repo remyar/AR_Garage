@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101250,
+            "vehicleDetails": {
+               "carId": 101250,
+               "ccmTech": 179,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 179,
+               "cylinderCapacityLiter": 18,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12266,
+               "modelName": "CM",
+               "motorType": "Essence",
+               "powerHpFrom": 10,
+               "powerHpTo": 10,
+               "powerKwFrom": 7,
+               "powerKwTo": 7,
+               "typeName": "CM 185 T (CM185T)",
+               "typeNumber": 101250,
+               "valves": 2,
+               "yearOfConstrFrom": 197801,
+               "yearOfConstrTo": 198012
+            }
+         }
+      ]
+   },
+   "status": 200
+}

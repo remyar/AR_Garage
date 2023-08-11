@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5612,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5612,
+               "ccmTech": 2464,
+               "constructionType": "Véhicule tout terrain à carrosserie ouverte",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2464,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 882,
+               "manuName": "JEEP",
+               "modId": 4241,
+               "modelName": "WRANGLER II (TJ)",
+               "motorType": "Essence",
+               "powerHpFrom": 118,
+               "powerHpTo": 118,
+               "powerKwFrom": 87,
+               "powerKwTo": 87,
+               "typeName": "2.5",
+               "typeNumber": 5612,
+               "valves": 2,
+               "yearOfConstrFrom": 199608,
+               "yearOfConstrTo": 200704,
+               "rmiTypeId": 5171
+            },
+            "vehicleDocId": "DR5612"
+         }
+      ]
+   },
+   "status": 200
+}

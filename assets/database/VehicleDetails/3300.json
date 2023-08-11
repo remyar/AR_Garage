@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3300,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3300,
+               "ccmTech": 1755,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1755,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 3456,
+               "modelName": "LANCER III Break (C1_V, C3_V)",
+               "motorType": "Essence",
+               "powerHpFrom": 86,
+               "powerHpTo": 86,
+               "powerKwFrom": 63,
+               "powerKwTo": 63,
+               "typeName": "1.8 4WD (C37V)",
+               "typeNumber": 3300,
+               "valves": 2,
+               "yearOfConstrFrom": 198903,
+               "yearOfConstrTo": 199012,
+               "rmiTypeId": 3018
+            },
+            "vehicleDocId": "DR3300"
+         }
+      ]
+   },
+   "status": 200
+}

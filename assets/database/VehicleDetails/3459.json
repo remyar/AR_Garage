@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3459,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3459,
+               "ccmTech": 1588,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1588,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 135,
+               "modelName": "COROLLA 3/5 portes (_E7_)",
+               "motorType": "Essence",
+               "powerHpFrom": 73,
+               "powerHpTo": 73,
+               "powerKwFrom": 54,
+               "powerKwTo": 54,
+               "typeName": "1.6 (TE71)",
+               "typeNumber": 3459,
+               "valves": 2,
+               "yearOfConstrFrom": 197909,
+               "yearOfConstrTo": 198305,
+               "rmiTypeId": 3170
+            }
+         }
+      ]
+   },
+   "status": 200
+}

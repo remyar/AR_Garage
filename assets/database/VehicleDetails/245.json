@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 245,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 245,
+               "ccmTech": 2997,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 2997,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 464,
+               "modelName": "5 (E34)",
+               "motorType": "Essence",
+               "powerHpFrom": 218,
+               "powerHpTo": 218,
+               "powerKwFrom": 160,
+               "powerKwTo": 160,
+               "typeName": "530 i V8",
+               "typeNumber": 245,
+               "valves": 4,
+               "yearOfConstrFrom": 199209,
+               "yearOfConstrTo": 199512,
+               "rmiTypeId": 214
+            },
+            "vehicleDocId": "DR245"
+         }
+      ]
+   },
+   "status": 200
+}

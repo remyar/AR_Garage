@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6561,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6561,
+               "ccmTech": 2294,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2294,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 3491,
+               "modelName": "TAUNUS 20M II XL (51F)",
+               "motorType": "Essence",
+               "powerHpFrom": 107,
+               "powerHpTo": 107,
+               "powerKwFrom": 79,
+               "powerKwTo": 79,
+               "typeName": "2.3",
+               "typeNumber": 6561,
+               "valves": 2,
+               "yearOfConstrFrom": 196707,
+               "yearOfConstrTo": 197404,
+               "rmiTypeId": 5895
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3444,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3444,
+               "ccmTech": 1597,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1597,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 185,
+               "modelName": "LANCER V (CB_A, CD_A, CE_A)",
+               "motorType": "Essence",
+               "powerHpFrom": 113,
+               "powerHpTo": 113,
+               "powerKwFrom": 83,
+               "powerKwTo": 83,
+               "typeName": "1.6 16V (CB4A)",
+               "typeNumber": 3444,
+               "valves": 4,
+               "yearOfConstrFrom": 199206,
+               "yearOfConstrTo": 199612,
+               "rmiTypeId": 3155
+            },
+            "vehicleDocId": "DR3444"
+         }
+      ]
+   },
+   "status": 200
+}

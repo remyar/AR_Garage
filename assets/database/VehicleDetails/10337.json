@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10337,
+            "vehicleDetails": {
+               "carId": 10337,
+               "ccmTech": 2987,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2987,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 6224,
+               "modelName": "CLASSE C (W204)",
+               "motorType": "Diesel",
+               "powerHpFrom": 265,
+               "powerHpTo": 265,
+               "powerKwFrom": 195,
+               "powerKwTo": 195,
+               "typeName": "C 350 CDI (204.023)",
+               "typeNumber": 10337,
+               "valves": 4,
+               "yearOfConstrFrom": 201106,
+               "yearOfConstrTo": 201401,
+               "rmiTypeId": 67251
+            },
+            "vehicleDocId": "DR10337"
+         }
+      ]
+   },
+   "status": 200
+}

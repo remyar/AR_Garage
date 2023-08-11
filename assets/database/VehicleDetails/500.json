@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 500,
+            "vehicleDetails": {
+               "carId": 500,
+               "ccmTech": 2268,
+               "constructionType": "SUV",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2268,
+               "cylinderCapacityLiter": 220,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 6233,
+               "modelName": "OUTLANDER II (CW_W)",
+               "motorType": "Diesel",
+               "powerHpFrom": 177,
+               "powerHpTo": 177,
+               "powerKwFrom": 130,
+               "powerKwTo": 130,
+               "typeName": "2.2 DI-D 4WD",
+               "typeNumber": 500,
+               "valves": 4,
+               "yearOfConstrFrom": 200611,
+               "yearOfConstrTo": 201211,
+               "rmiTypeId": 64544
+            },
+            "vehicleDocId": "DR500"
+         }
+      ]
+   },
+   "status": 200
+}

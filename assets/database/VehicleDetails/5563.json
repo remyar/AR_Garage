@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5563,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5563,
+               "ccmTech": 1747,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1747,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 64,
+               "manuName": "LANCIA",
+               "modId": 254,
+               "modelName": "DEDRA (835_)",
+               "motorType": "Essence",
+               "powerHpFrom": 113,
+               "powerHpTo": 113,
+               "powerKwFrom": 83,
+               "powerKwTo": 83,
+               "typeName": "1.8 16V LE (835FG)",
+               "typeNumber": 5563,
+               "valves": 4,
+               "yearOfConstrFrom": 199603,
+               "yearOfConstrTo": 199907,
+               "rmiTypeId": 5126
+            },
+            "vehicleDocId": "DR5563"
+         }
+      ]
+   },
+   "status": 200
+}

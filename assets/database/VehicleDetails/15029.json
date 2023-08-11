@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 15029,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 15029,
+               "ccmTech": 2935,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2935,
+               "cylinderCapacityLiter": 290,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 260,
+               "modelName": "SIERRA II Turnier (BNG)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.9 i",
+               "typeNumber": 15029,
+               "valves": 2,
+               "yearOfConstrFrom": 198808,
+               "yearOfConstrTo": 199302,
+               "rmiTypeId": 11184
+            },
+            "vehicleDocId": "DR15029"
+         }
+      ]
+   },
+   "status": 200
+}

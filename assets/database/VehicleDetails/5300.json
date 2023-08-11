@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5300,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5300,
+               "ccmTech": 1896,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1896,
+               "cylinderCapacityLiter": 190,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 1482,
+               "modelName": "FLIGHT III CLASSIC (6V2)",
+               "motorType": "Diesel",
+               "powerHpFrom": 64,
+               "powerHpTo": 64,
+               "powerKwFrom": 47,
+               "powerKwTo": 47,
+               "typeName": "64 1.9 SDI",
+               "typeNumber": 5300,
+               "valves": 2,
+               "yearOfConstrFrom": 199512,
+               "yearOfConstrTo": 199908,
+               "rmiTypeId": 4886
+            },
+            "vehicleDocId": "DR5300"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 115101,
+            "vehicleDetails": {
+               "carId": 115101,
+               "ccmTech": 1998,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1998,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 13129,
+               "modelName": "MONDEO V A trois volumes (CD)",
+               "motorType": "Diesel",
+               "powerHpFrom": 210,
+               "powerHpTo": 210,
+               "powerKwFrom": 154,
+               "powerKwTo": 154,
+               "typeName": "2.0 TDCi Bi-Turbo",
+               "typeNumber": 115101,
+               "valves": 4,
+               "yearOfConstrFrom": 201505,
+               "rmiTypeId": 120723
+            },
+            "vehicleDocId": "DR115101"
+         }
+      ]
+   },
+   "status": 200
+}

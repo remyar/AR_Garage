@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 108802,
+            "vehicleDetails": {
+               "carId": 108802,
+               "ccmTech": 1596,
+               "constructionType": "Camionnette/Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1596,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 13361,
+               "modelName": "B-MAX Van (JK)",
+               "motorType": "Essence",
+               "powerHpFrom": 105,
+               "powerHpTo": 105,
+               "powerKwFrom": 77,
+               "powerKwTo": 77,
+               "typeName": "1.6 Ti",
+               "typeNumber": 108802,
+               "valves": 4,
+               "yearOfConstrFrom": 201210,
+               "rmiTypeId": 93778
+            },
+            "vehicleDocId": "DR108802"
+         }
+      ]
+   },
+   "status": 200
+}

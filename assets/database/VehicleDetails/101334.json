@@ -1,0 +1,34 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101334,
+            "vehicleDetails": {
+               "carId": 101334,
+               "ccmTech": 649,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 649,
+               "cylinderCapacityLiter": 64,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12316,
+               "modelName": "XR",
+               "motorType": "Essence",
+               "powerHpFrom": 61,
+               "powerHpTo": 61,
+               "powerKwFrom": 45,
+               "powerKwTo": 45,
+               "typeName": "XR 650 R (RE01)",
+               "typeNumber": 101334,
+               "valves": 2,
+               "yearOfConstrFrom": 200001
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4301,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4301,
+               "ccmTech": 1597,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1597,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 1195,
+               "modelName": "100NX (B13)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.6",
+               "typeNumber": 4301,
+               "valves": 4,
+               "yearOfConstrFrom": 199003,
+               "yearOfConstrTo": 199410,
+               "rmiTypeId": 3970
+            },
+            "vehicleDocId": "DR4301"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10101,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10101,
+               "ccmTech": 2799,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2799,
+               "cylinderCapacityLiter": 280,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 3903,
+               "modelName": "MOVANO A Fourgon (X70)",
+               "motorType": "Diesel",
+               "powerHpFrom": 114,
+               "powerHpTo": 114,
+               "powerKwFrom": 84,
+               "powerKwTo": 84,
+               "typeName": "2.8 DTI (FD)",
+               "typeNumber": 10101,
+               "valves": 2,
+               "yearOfConstrFrom": 199901,
+               "yearOfConstrTo": 200110,
+               "rmiTypeId": 8568
+            },
+            "vehicleDocId": "DR10101"
+         }
+      ]
+   },
+   "status": 200
+}

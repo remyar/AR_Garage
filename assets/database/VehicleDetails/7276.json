@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7276,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7276,
+               "ccmTech": 1397,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1397,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 1825,
+               "modelName": "DATSUN 140Y Break (HLB310)",
+               "motorType": "Essence",
+               "powerHpFrom": 67,
+               "powerHpTo": 67,
+               "powerKwFrom": 49,
+               "powerKwTo": 49,
+               "typeName": "1.4",
+               "typeNumber": 7276,
+               "valves": 2,
+               "yearOfConstrFrom": 197902,
+               "yearOfConstrTo": 198306,
+               "rmiTypeId": 6510
+            }
+         }
+      ]
+   },
+   "status": 200
+}

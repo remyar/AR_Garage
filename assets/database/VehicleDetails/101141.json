@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101141,
+            "vehicleDetails": {
+               "carId": 101141,
+               "ccmTech": 3436,
+               "constructionType": "Décapotable",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3436,
+               "cylinderCapacityLiter": 340,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 92,
+               "manuName": "PORSCHE",
+               "modId": 10119,
+               "modelName": "BOXSTER (981)",
+               "motorType": "Essence",
+               "powerHpFrom": 330,
+               "powerHpTo": 330,
+               "powerKwFrom": 243,
+               "powerKwTo": 243,
+               "typeName": "GTS 3.4",
+               "typeNumber": 101141,
+               "valves": 4,
+               "yearOfConstrFrom": 201402,
+               "rmiTypeId": 89649
+            },
+            "vehicleDocId": "DR101141"
+         }
+      ]
+   },
+   "status": 200
+}

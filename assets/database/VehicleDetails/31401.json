@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 31401,
+            "vehicleDetails": {
+               "carId": 31401,
+               "ccmTech": 5000,
+               "constructionType": "Décapotable",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 5000,
+               "cylinderCapacityLiter": 500,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 56,
+               "manuName": "JAGUAR",
+               "modId": 5481,
+               "modelName": "XK II Décapotable (X150)",
+               "motorType": "Essence",
+               "powerHpFrom": 510,
+               "powerHpTo": 510,
+               "powerKwFrom": 375,
+               "powerKwTo": 375,
+               "typeName": "5.0 XKR",
+               "typeNumber": 31401,
+               "valves": 4,
+               "yearOfConstrFrom": 200901,
+               "yearOfConstrTo": 201407,
+               "rmiTypeId": 60337
+            },
+            "vehicleDocId": "DR31401"
+         }
+      ]
+   },
+   "status": 200
+}

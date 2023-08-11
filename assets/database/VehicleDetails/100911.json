@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 100911,
+            "vehicleDetails": {
+               "carId": 100911,
+               "ccmTech": 4395,
+               "constructionType": "Décapotable",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4395,
+               "cylinderCapacityLiter": 440,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 9159,
+               "modelName": "6 Décapotable (F12)",
+               "motorType": "Essence",
+               "powerHpFrom": 575,
+               "powerHpTo": 575,
+               "powerKwFrom": 423,
+               "powerKwTo": 423,
+               "typeName": "M6 Competition",
+               "typeNumber": 100911,
+               "valves": 4,
+               "yearOfConstrFrom": 201307,
+               "yearOfConstrTo": 201502,
+               "rmiTypeId": 79001
+            },
+            "vehicleDocId": "DR100911"
+         }
+      ]
+   },
+   "status": 200
+}

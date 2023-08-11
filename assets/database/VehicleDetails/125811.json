@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 125811,
+            "vehicleDetails": {
+               "carId": 125811,
+               "ccmTech": 1989,
+               "constructionType": "SUV",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1989,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 4641,
+               "modelName": "MAVERICK",
+               "motorType": "Essence",
+               "powerHpFrom": 124,
+               "powerHpTo": 124,
+               "powerKwFrom": 91,
+               "powerKwTo": 91,
+               "typeName": "2.0 16V FWD",
+               "typeNumber": 125811,
+               "valves": 4,
+               "yearOfConstrFrom": 200102,
+               "rmiTypeId": 80076
+            },
+            "vehicleDocId": "DR125811"
+         }
+      ]
+   },
+   "status": 200
+}

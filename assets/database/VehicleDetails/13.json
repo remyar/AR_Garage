@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 13,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 13,
+               "ccmTech": 1766,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1766,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 286,
+               "modelName": "3 (E21)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "316",
+               "typeNumber": 13,
+               "valves": 2,
+               "yearOfConstrFrom": 198009,
+               "yearOfConstrTo": 198212,
+               "rmiTypeId": 11
+            },
+            "vehicleDocId": "DR13"
+         }
+      ]
+   },
+   "status": 200
+}

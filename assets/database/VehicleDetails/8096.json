@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8096,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8096,
+               "ccmTech": 1596,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1596,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 9157,
+               "modelName": "FOCUS III Turnier",
+               "motorType": "Essence",
+               "powerHpFrom": 105,
+               "powerHpTo": 105,
+               "powerKwFrom": 77,
+               "powerKwTo": 77,
+               "typeName": "1.6 Ti",
+               "typeNumber": 8096,
+               "valves": 4,
+               "yearOfConstrFrom": 201007,
+               "rmiTypeId": 65726
+            },
+            "vehicleDocId": "DR8096"
+         }
+      ]
+   },
+   "status": 200
+}

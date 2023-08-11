@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 116,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 116,
+               "ccmTech": 1712,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1712,
+               "cylinderCapacityLiter": 170,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 305,
+               "modelName": "33 Sportwagon (907_)",
+               "motorType": "Essence",
+               "powerHpFrom": 132,
+               "powerHpTo": 132,
+               "powerKwFrom": 97,
+               "powerKwTo": 97,
+               "typeName": "1.7 16V 4x4 (907.B1H)",
+               "typeNumber": 116,
+               "valves": 4,
+               "yearOfConstrFrom": 199001,
+               "yearOfConstrTo": 199203,
+               "rmiTypeId": 90
+            },
+            "vehicleDocId": "DR116"
+         }
+      ]
+   },
+   "status": 200
+}

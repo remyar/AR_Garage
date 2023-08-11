@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3853,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3853,
+               "ccmTech": 2446,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2446,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 541,
+               "modelName": "HIACE IV Autobus/Autocar (_H1_)",
+               "motorType": "Diesel",
+               "powerHpFrom": 78,
+               "powerHpTo": 78,
+               "powerKwFrom": 57,
+               "powerKwTo": 57,
+               "typeName": "2.4 D (LH100, LH110, LH104, LH114)",
+               "typeNumber": 3853,
+               "valves": 2,
+               "yearOfConstrFrom": 198908,
+               "yearOfConstrTo": 200412,
+               "rmiTypeId": 3541
+            },
+            "vehicleDocId": "DR3853"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9046,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9046,
+               "ccmTech": 3199,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3199,
+               "cylinderCapacityLiter": 320,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 65,
+               "modelName": "CLASSE G (W463)",
+               "motorType": "Essence",
+               "powerHpFrom": 215,
+               "powerHpTo": 215,
+               "powerKwFrom": 158,
+               "powerKwTo": 158,
+               "typeName": "G 320 (463.232, 463.233, 463.244, 463.245)",
+               "typeNumber": 9046,
+               "valves": 3,
+               "yearOfConstrFrom": 199707,
+               "yearOfConstrTo": 200408,
+               "rmiTypeId": 8084
+            },
+            "vehicleDocId": "DR9046"
+         }
+      ]
+   },
+   "status": 200
+}

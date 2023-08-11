@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1561,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1561,
+               "ccmTech": 1584,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1584,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 90,
+               "modelName": "COCCINELLE",
+               "motorType": "Essence",
+               "powerHpFrom": 50,
+               "powerHpTo": 50,
+               "powerKwFrom": 37,
+               "powerKwTo": 37,
+               "typeName": "1302 1.6 (11)",
+               "typeNumber": 1561,
+               "valves": 2,
+               "yearOfConstrFrom": 197001,
+               "yearOfConstrTo": 197301,
+               "rmiTypeId": 1399
+            },
+            "vehicleDocId": "DR1561"
+         }
+      ]
+   },
+   "status": 200
+}

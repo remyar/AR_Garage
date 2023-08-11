@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 298,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 298,
+               "ccmTech": 1796,
+               "constructionType": "Décapotable",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1796,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 430,
+               "modelName": "3 Décapotable (E30)",
+               "motorType": "Essence",
+               "powerHpFrom": 113,
+               "powerHpTo": 113,
+               "powerKwFrom": 83,
+               "powerKwTo": 83,
+               "typeName": "318 i",
+               "typeNumber": 298,
+               "valves": 2,
+               "yearOfConstrFrom": 199009,
+               "yearOfConstrTo": 199310,
+               "rmiTypeId": 261
+            },
+            "vehicleDocId": "DR298"
+         }
+      ]
+   },
+   "status": 200
+}

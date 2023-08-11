@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 15788,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 15788,
+               "ccmTech": 2324,
+               "constructionType": "Break",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2324,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 4737,
+               "modelName": "PASSAT B5.5 Variant (3B6)",
+               "motorType": "Essence",
+               "powerHpFrom": 170,
+               "powerHpTo": 170,
+               "powerKwFrom": 125,
+               "powerKwTo": 125,
+               "typeName": "2.3 VR5 4motion",
+               "typeNumber": 15788,
+               "valves": 4,
+               "yearOfConstrFrom": 200011,
+               "yearOfConstrTo": 200505,
+               "rmiTypeId": 11897
+            },
+            "vehicleDocId": "DR15788"
+         }
+      ]
+   },
+   "status": 200
+}

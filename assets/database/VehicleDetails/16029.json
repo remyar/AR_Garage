@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 16029,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 16029,
+               "ccmTech": 2493,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2493,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 184,
+               "manuName": "KIA",
+               "modId": 4792,
+               "modelName": "MAGENTIS I (GD, MS)",
+               "motorType": "Essence",
+               "powerHpFrom": 169,
+               "powerHpTo": 169,
+               "powerKwFrom": 124,
+               "powerKwTo": 124,
+               "typeName": "2.5 V6",
+               "typeNumber": 16029,
+               "valves": 4,
+               "yearOfConstrFrom": 200105,
+               "yearOfConstrTo": 200509,
+               "rmiTypeId": 12104
+            },
+            "vehicleDocId": "DR16029"
+         }
+      ]
+   },
+   "status": 200
+}

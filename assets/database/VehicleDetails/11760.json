@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11760,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 11760,
+               "ccmTech": 1984,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1984,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 4125,
+               "modelName": "BORA Variant (1J6)",
+               "motorType": "Essence",
+               "powerHpFrom": 115,
+               "powerHpTo": 115,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "2.0",
+               "typeNumber": 11760,
+               "valves": 2,
+               "yearOfConstrFrom": 199905,
+               "yearOfConstrTo": 200505,
+               "rmiTypeId": 9256
+            },
+            "vehicleDocId": "DR11760"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 104851,
+            "vehicleDetails": {
+               "carId": 104851,
+               "ccmTech": 125,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 125,
+               "cylinderCapacityLiter": 12,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12298,
+               "modelName": "SH",
+               "motorType": "Essence",
+               "powerHpFrom": 14,
+               "powerHpTo": 14,
+               "powerKwFrom": 10,
+               "powerKwTo": 10,
+               "typeName": "SH 125 i (JF14)",
+               "typeNumber": 104851,
+               "valves": 2,
+               "yearOfConstrFrom": 200501,
+               "yearOfConstrTo": 200712
+            }
+         }
+      ]
+   },
+   "status": 200
+}

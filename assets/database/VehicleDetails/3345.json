@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3345,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3345,
+               "ccmTech": 1997,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1997,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 470,
+               "modelName": "GALANT VI A trois volumes (E3_A)",
+               "motorType": "Essence",
+               "powerHpFrom": 144,
+               "powerHpTo": 144,
+               "powerKwFrom": 106,
+               "powerKwTo": 106,
+               "typeName": "2.0 GTi 16V (E39A, E38A, E33A)",
+               "typeNumber": 3345,
+               "valves": 4,
+               "yearOfConstrFrom": 198711,
+               "yearOfConstrTo": 199210,
+               "rmiTypeId": 3061
+            },
+            "vehicleDocId": "DR3345"
+         }
+      ]
+   },
+   "status": 200
+}

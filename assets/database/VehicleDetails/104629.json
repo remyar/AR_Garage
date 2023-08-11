@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 104629,
+            "vehicleDetails": {
+               "carId": 104629,
+               "ccmTech": 599,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 599,
+               "cylinderCapacityLiter": 60,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Cardan",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 12740,
+               "modelName": "R 60",
+               "motorType": "Essence",
+               "powerHpFrom": 39,
+               "powerHpTo": 39,
+               "powerKwFrom": 29,
+               "powerKwTo": 29,
+               "typeName": "R 60/5 (247)",
+               "typeNumber": 104629,
+               "valves": 2,
+               "yearOfConstrFrom": 196908,
+               "yearOfConstrTo": 197307
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 724,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 724,
+               "ccmTech": 1392,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1392,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 373,
+               "modelName": "ORION II (AFF)",
+               "motorType": "Essence",
+               "powerHpFrom": 73,
+               "powerHpTo": 73,
+               "powerKwFrom": 54,
+               "powerKwTo": 54,
+               "typeName": "1.4 Cat",
+               "typeNumber": 724,
+               "valves": 2,
+               "yearOfConstrFrom": 198702,
+               "yearOfConstrTo": 199007,
+               "rmiTypeId": 635
+            },
+            "vehicleDocId": "DR724"
+         }
+      ]
+   },
+   "status": 200
+}

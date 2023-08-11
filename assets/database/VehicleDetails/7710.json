@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7710,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7710,
+               "ccmTech": 2254,
+               "constructionType": "Pick-up",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2254,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 1881,
+               "modelName": "CAMPO (TF0, TF1)",
+               "motorType": "Essence",
+               "powerHpFrom": 98,
+               "powerHpTo": 98,
+               "powerKwFrom": 72,
+               "powerKwTo": 72,
+               "typeName": "2.3 (TFR16)",
+               "typeNumber": 7710,
+               "valves": 2,
+               "yearOfConstrFrom": 199408,
+               "yearOfConstrTo": 199609,
+               "rmiTypeId": 6895
+            }
+         }
+      ]
+   },
+   "status": 200
+}

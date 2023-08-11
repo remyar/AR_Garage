@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 34725,
+            "vehicleDetails": {
+               "carId": 34725,
+               "ccmTech": 1461,
+               "constructionType": "SUV",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1461,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 8922,
+               "modelName": "JUKE (F15)",
+               "motorType": "Diesel",
+               "powerHpFrom": 110,
+               "powerHpTo": 110,
+               "powerKwFrom": 81,
+               "powerKwTo": 81,
+               "typeName": "1.5 dCi",
+               "typeNumber": 34725,
+               "valves": 2,
+               "yearOfConstrFrom": 201006,
+               "rmiTypeId": 64290
+            },
+            "vehicleDocId": "DR34725"
+         }
+      ]
+   },
+   "status": 200
+}

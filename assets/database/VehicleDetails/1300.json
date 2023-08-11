@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1300,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1300,
+               "ccmTech": 1753,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1753,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 3447,
+               "modelName": "MONDEO I A trois volumes (GBP)",
+               "motorType": "Diesel",
+               "powerHpFrom": 88,
+               "powerHpTo": 88,
+               "powerKwFrom": 65,
+               "powerKwTo": 65,
+               "typeName": "1.8 TD",
+               "typeNumber": 1300,
+               "valves": 2,
+               "yearOfConstrFrom": 199306,
+               "yearOfConstrTo": 199608,
+               "rmiTypeId": 1158
+            },
+            "vehicleDocId": "DR1300"
+         }
+      ]
+   },
+   "status": 200
+}

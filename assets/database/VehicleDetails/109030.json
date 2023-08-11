@@ -1,0 +1,34 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 109030,
+            "vehicleDetails": {
+               "carId": 109030,
+               "ccmTech": 123,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 123,
+               "cylinderCapacityLiter": 12,
+               "fuelType": "Mélange",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 1021,
+               "manuName": "YAMAHA",
+               "modId": 13421,
+               "modelName": "TY",
+               "motorType": "Moteur à essence (à deux temps)",
+               "powerHpFrom": 10,
+               "powerHpTo": 10,
+               "powerKwFrom": 7,
+               "powerKwTo": 7,
+               "typeName": "TY 125 (1K6)",
+               "typeNumber": 109030,
+               "yearOfConstrFrom": 198001,
+               "yearOfConstrTo": 198012
+            }
+         }
+      ]
+   },
+   "status": 200
+}

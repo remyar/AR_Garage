@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 100902,
+            "vehicleDetails": {
+               "carId": 100902,
+               "ccmTech": 1592,
+               "constructionType": "SUV",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1592,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 8277,
+               "modelName": "X1 (E84)",
+               "motorType": "Essence",
+               "powerHpFrom": 143,
+               "powerHpTo": 143,
+               "powerKwFrom": 105,
+               "powerKwTo": 105,
+               "typeName": "sDrive 16 i",
+               "typeNumber": 100902,
+               "valves": 4,
+               "yearOfConstrFrom": 201303,
+               "yearOfConstrTo": 201506,
+               "rmiTypeId": 77544
+            },
+            "vehicleDocId": "DR100902"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6524,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6524,
+               "ccmTech": 1699,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1699,
+               "cylinderCapacityLiter": 170,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 1667,
+               "modelName": "TAUNUS 17M II (31F)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.7",
+               "typeNumber": 6524,
+               "valves": 2,
+               "yearOfConstrFrom": 196712,
+               "yearOfConstrTo": 197404,
+               "rmiTypeId": 5859
+            }
+         }
+      ]
+   },
+   "status": 200
+}

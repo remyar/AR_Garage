@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 59500,
+            "vehicleDetails": {
+               "carId": 59500,
+               "ccmTech": 3604,
+               "constructionType": "Monospace",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3604,
+               "cylinderCapacityLiter": 360,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 29,
+               "manuName": "DODGE",
+               "modId": 7417,
+               "modelName": "GRAND CARAVAN",
+               "motorType": "Essence",
+               "powerHpFrom": 287,
+               "powerHpTo": 287,
+               "powerKwFrom": 211,
+               "powerKwTo": 211,
+               "typeName": "3.6",
+               "typeNumber": 59500,
+               "valves": 4,
+               "yearOfConstrFrom": 201009,
+               "rmiTypeId": 110957
+            },
+            "vehicleDocId": "DR59500"
+         }
+      ]
+   },
+   "status": 200
+}

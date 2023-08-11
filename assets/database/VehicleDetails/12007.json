@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 12007,
+            "vehicleDetails": {
+               "carId": 12007,
+               "ccmTech": 1590,
+               "constructionType": "SUV",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1590,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 8631,
+               "modelName": "ASX (GA_W_)",
+               "motorType": "Essence",
+               "powerHpFrom": 116,
+               "powerHpTo": 116,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "1.6 MIVEC (GA1W)",
+               "typeNumber": 12007,
+               "valves": 4,
+               "yearOfConstrFrom": 201005,
+               "rmiTypeId": 70278
+            },
+            "vehicleDocId": "DR12007"
+         }
+      ]
+   },
+   "status": 200
+}

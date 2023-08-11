@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 111064,
+            "vehicleDetails": {
+               "carId": 111064,
+               "ccmTech": 2261,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2261,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence/gaz de pétrole liquéfié (GPL)",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 5572,
+               "modelName": "TRANSIT Camionnette (FA_ _)",
+               "motorType": "Essence",
+               "powerHpFrom": 145,
+               "powerHpTo": 145,
+               "powerKwFrom": 107,
+               "powerKwTo": 107,
+               "typeName": "2.3 16V LPG RWD",
+               "typeNumber": 111064,
+               "valves": 4,
+               "yearOfConstrFrom": 200604,
+               "yearOfConstrTo": 201408,
+               "rmiTypeId": 92875
+            },
+            "vehicleDocId": "DR111064"
+         }
+      ]
+   },
+   "status": 200
+}

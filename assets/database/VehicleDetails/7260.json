@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7260,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7260,
+               "ccmTech": 2435,
+               "constructionType": "Break",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2435,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 1820,
+               "modelName": "V70 I (875, 876)",
+               "motorType": "Essence",
+               "powerHpFrom": 193,
+               "powerHpTo": 193,
+               "powerKwFrom": 142,
+               "powerKwTo": 142,
+               "typeName": "2.4 Turbo AWD",
+               "typeNumber": 7260,
+               "valves": 4,
+               "yearOfConstrFrom": 199604,
+               "yearOfConstrTo": 200012,
+               "rmiTypeId": 6495
+            },
+            "vehicleDocId": "DR7260"
+         }
+      ]
+   },
+   "status": 200
+}

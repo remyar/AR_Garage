@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 14850,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 14850,
+               "ccmTech": 2402,
+               "constructionType": "Camion plate-forme/Châssis",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2402,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 4622,
+               "modelName": "TRANSIT Camion plate-forme/Châssis (FM_ _, FN_ _)",
+               "motorType": "Diesel",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "2.4 DI (F_A_, F_B_, F_C_, F_D_)",
+               "typeNumber": 14850,
+               "valves": 4,
+               "yearOfConstrFrom": 200001,
+               "yearOfConstrTo": 200605,
+               "rmiTypeId": 11013
+            },
+            "vehicleDocId": "DR14850"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2762,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2762,
+               "ccmTech": 2316,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2316,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 211,
+               "modelName": "240 (P242, P244)",
+               "motorType": "Essence",
+               "powerHpFrom": 140,
+               "powerHpTo": 140,
+               "powerKwFrom": 103,
+               "powerKwTo": 103,
+               "typeName": "2.3",
+               "typeNumber": 2762,
+               "valves": 2,
+               "yearOfConstrFrom": 197808,
+               "yearOfConstrTo": 198212,
+               "rmiTypeId": 2525
+            },
+            "vehicleDocId": "DR2762"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1230,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1230,
+               "ccmTech": 1998,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1998,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 354,
+               "modelName": "OMEGA A (V87)",
+               "motorType": "Essence",
+               "powerHpFrom": 99,
+               "powerHpTo": 99,
+               "powerKwFrom": 73,
+               "powerKwTo": 73,
+               "typeName": "2.0 (F19, M19, N19)",
+               "typeNumber": 1230,
+               "valves": 2,
+               "yearOfConstrFrom": 199009,
+               "yearOfConstrTo": 199403,
+               "rmiTypeId": 1088
+            }
+         }
+      ]
+   },
+   "status": 200
+}

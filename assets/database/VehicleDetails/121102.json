@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 121102,
+            "vehicleDetails": {
+               "carId": 121102,
+               "ccmTech": 2979,
+               "constructionType": "Décapotable",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2979,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 6241,
+               "modelName": "3 Décapotable (E93)",
+               "motorType": "Essence",
+               "powerHpFrom": 326,
+               "powerHpTo": 326,
+               "powerKwFrom": 240,
+               "powerKwTo": 240,
+               "typeName": "335 i",
+               "typeNumber": 121102,
+               "valves": 4,
+               "yearOfConstrFrom": 200605,
+               "yearOfConstrTo": 201310,
+               "rmiTypeId": 72521
+            },
+            "vehicleDocId": "DR121102"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 145800,
+            "vehicleDetails": {
+               "carId": 145800,
+               "ccmTech": 1998,
+               "constructionType": "SUV",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1998,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence/électrique",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 38487,
+               "modelName": "X4 (G02, F98)",
+               "motorType": "Hybride léger",
+               "powerHpFrom": 245,
+               "powerHpTo": 245,
+               "powerKwFrom": 180,
+               "powerKwTo": 180,
+               "typeName": "xDrive 30 i Mild Hybrid",
+               "typeNumber": 145800,
+               "valves": 4,
+               "yearOfConstrFrom": 202107,
+               "rmiTypeId": 192922
+            },
+            "vehicleDocId": "DR145800"
+         }
+      ]
+   },
+   "status": 200
+}

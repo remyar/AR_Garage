@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 112010,
+            "vehicleDetails": {
+               "carId": 112010,
+               "ccmTech": 501,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 501,
+               "cylinderCapacityLiter": 50,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 4241,
+               "manuName": "HUSQVARNA",
+               "modId": 13925,
+               "modelName": "TE",
+               "motorType": "Essence",
+               "powerHpFrom": 50,
+               "powerHpTo": 50,
+               "powerKwFrom": 37,
+               "powerKwTo": 37,
+               "typeName": "TE510",
+               "typeNumber": 112010,
+               "valves": 4,
+               "yearOfConstrFrom": 200401,
+               "yearOfConstrTo": 200712
+            }
+         }
+      ]
+   },
+   "status": 200
+}

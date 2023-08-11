@@ -1,0 +1,34 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 120223,
+            "vehicleDetails": {
+               "carId": 120223,
+               "ccmTech": 155,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 155,
+               "cylinderCapacityLiter": 15,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 4069,
+               "manuName": "VESPA",
+               "modId": 13437,
+               "modelName": "PRIMAVERA",
+               "motorType": "Essence",
+               "powerHpFrom": 13,
+               "powerHpTo": 13,
+               "powerKwFrom": 10,
+               "powerKwTo": 10,
+               "typeName": "150 Primavera (MA1B)",
+               "typeNumber": 120223,
+               "valves": 3,
+               "yearOfConstrFrom": 201501
+            }
+         }
+      ]
+   },
+   "status": 200
+}

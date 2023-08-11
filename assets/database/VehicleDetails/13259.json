@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 13259,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 13259,
+               "ccmTech": 1596,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1596,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 1311,
+               "modelName": "3 Touring (E36)",
+               "motorType": "Essence",
+               "powerHpFrom": 102,
+               "powerHpTo": 102,
+               "powerKwFrom": 75,
+               "powerKwTo": 75,
+               "typeName": "316 i",
+               "typeNumber": 13259,
+               "valves": 2,
+               "yearOfConstrFrom": 199703,
+               "yearOfConstrTo": 199905,
+               "rmiTypeId": 9864
+            },
+            "vehicleDocId": "DR13259"
+         }
+      ]
+   },
+   "status": 200
+}

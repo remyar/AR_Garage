@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 815,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 815,
+               "ccmTech": 2960,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2960,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 12,
+               "modelName": "124 Coupé (C124)",
+               "motorType": "Essence",
+               "powerHpFrom": 180,
+               "powerHpTo": 180,
+               "powerKwFrom": 132,
+               "powerKwTo": 132,
+               "typeName": "300 CE (124.050)",
+               "typeNumber": 815,
+               "valves": 2,
+               "yearOfConstrFrom": 198703,
+               "yearOfConstrTo": 199305,
+               "rmiTypeId": 713
+            },
+            "vehicleDocId": "DR815"
+         }
+      ]
+   },
+   "status": 200
+}

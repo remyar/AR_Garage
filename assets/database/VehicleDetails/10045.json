@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10045,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10045,
+               "ccmTech": 1390,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1390,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 3398,
+               "modelName": "LUPO I (6X1, 6E1)",
+               "motorType": "Essence",
+               "powerHpFrom": 100,
+               "powerHpTo": 100,
+               "powerKwFrom": 74,
+               "powerKwTo": 74,
+               "typeName": "1.4 16V",
+               "typeNumber": 10045,
+               "valves": 4,
+               "yearOfConstrFrom": 199908,
+               "yearOfConstrTo": 200507,
+               "rmiTypeId": 8547
+            },
+            "vehicleDocId": "DR10045"
+         }
+      ]
+   },
+   "status": 200
+}

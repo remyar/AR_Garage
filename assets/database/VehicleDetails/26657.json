@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 26657,
+            "vehicleDetails": {
+               "carId": 26657,
+               "ccmTech": 1597,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1597,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 63,
+               "manuName": "LADA",
+               "modId": 7381,
+               "modelName": "PRIORA 3/5 portes (2172)",
+               "motorType": "Essence",
+               "powerHpFrom": 98,
+               "powerHpTo": 98,
+               "powerKwFrom": 72,
+               "powerKwTo": 72,
+               "typeName": "1.6",
+               "typeNumber": 26657,
+               "valves": 4,
+               "yearOfConstrFrom": 200812,
+               "yearOfConstrTo": 201512,
+               "rmiTypeId": 53692
+            },
+            "vehicleDocId": "DR26657"
+         }
+      ]
+   },
+   "status": 200
+}

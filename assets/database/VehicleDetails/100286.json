@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 100286,
+            "vehicleDetails": {
+               "carId": 100286,
+               "ccmTech": 2435,
+               "constructionType": "Break",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2435,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Essence/gaz de pétrole liquéfié (GPL)",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 4600,
+               "modelName": "V70 II (285)",
+               "motorType": "Essence",
+               "powerHpFrom": 140,
+               "powerHpTo": 140,
+               "powerKwFrom": 103,
+               "powerKwTo": 103,
+               "typeName": "2.4 Bifuel (LPG)",
+               "typeNumber": 100286,
+               "valves": 4,
+               "yearOfConstrFrom": 200109,
+               "yearOfConstrTo": 200708,
+               "rmiTypeId": 74007
+            },
+            "vehicleDocId": "DR100286"
+         }
+      ]
+   },
+   "status": 200
+}

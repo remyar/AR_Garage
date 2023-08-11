@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 112000,
+            "vehicleDetails": {
+               "carId": 112000,
+               "ccmTech": 249,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 249,
+               "cylinderCapacityLiter": 25,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 4241,
+               "manuName": "HUSQVARNA",
+               "modId": 13925,
+               "modelName": "TE",
+               "motorType": "Essence",
+               "powerHpFrom": 31,
+               "powerHpTo": 31,
+               "powerKwFrom": 23,
+               "powerKwTo": 23,
+               "typeName": "TE250",
+               "typeNumber": 112000,
+               "valves": 4,
+               "yearOfConstrFrom": 200201,
+               "yearOfConstrTo": 200512
+            }
+         }
+      ]
+   },
+   "status": 200
+}

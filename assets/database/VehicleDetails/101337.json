@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101337,
+            "vehicleDetails": {
+               "carId": 101337,
+               "ccmTech": 195,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 195,
+               "cylinderCapacityLiter": 20,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12314,
+               "modelName": "XL",
+               "motorType": "Essence",
+               "powerHpFrom": 18,
+               "powerHpTo": 18,
+               "powerKwFrom": 13,
+               "powerKwTo": 13,
+               "typeName": "XL 200 R (MD06)",
+               "typeNumber": 101337,
+               "valves": 2,
+               "yearOfConstrFrom": 198301,
+               "yearOfConstrTo": 198412
+            }
+         }
+      ]
+   },
+   "status": 200
+}

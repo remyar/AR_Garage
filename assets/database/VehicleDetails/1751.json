@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1751,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1751,
+               "ccmTech": 1781,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1781,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 214,
+               "modelName": "SCIROCCO (53B)",
+               "motorType": "Essence",
+               "powerHpFrom": 139,
+               "powerHpTo": 139,
+               "powerKwFrom": 102,
+               "powerKwTo": 102,
+               "typeName": "1.8 16V",
+               "typeNumber": 1751,
+               "valves": 4,
+               "yearOfConstrFrom": 198510,
+               "yearOfConstrTo": 198907,
+               "rmiTypeId": 1580
+            },
+            "vehicleDocId": "DR1751"
+         }
+      ]
+   },
+   "status": 200
+}

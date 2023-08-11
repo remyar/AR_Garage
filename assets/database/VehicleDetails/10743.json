@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10743,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10743,
+               "ccmTech": 2188,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2188,
+               "cylinderCapacityLiter": 220,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 4021,
+               "modelName": "HIACE II Camionnette (_H11, _H2_, _H3_, _H4_)",
+               "motorType": "Diesel",
+               "powerHpFrom": 67,
+               "powerHpTo": 67,
+               "powerKwFrom": 49,
+               "powerKwTo": 49,
+               "typeName": "2.2 D (LH20, LH30)",
+               "typeNumber": 10743,
+               "valves": 2,
+               "yearOfConstrFrom": 197901,
+               "yearOfConstrTo": 198303,
+               "rmiTypeId": 8810
+            }
+         }
+      ]
+   },
+   "status": 200
+}

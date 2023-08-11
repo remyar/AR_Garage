@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 247,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 247,
+               "ccmTech": 3535,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3535,
+               "cylinderCapacityLiter": 360,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 464,
+               "modelName": "5 (E34)",
+               "motorType": "Essence",
+               "powerHpFrom": 315,
+               "powerHpTo": 315,
+               "powerKwFrom": 232,
+               "powerKwTo": 232,
+               "typeName": "M5",
+               "typeNumber": 247,
+               "valves": 4,
+               "yearOfConstrFrom": 198809,
+               "yearOfConstrTo": 199203,
+               "rmiTypeId": 216
+            },
+            "vehicleDocId": "DR247"
+         }
+      ]
+   },
+   "status": 200
+}

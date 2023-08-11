@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123356,
+            "vehicleDetails": {
+               "carId": 123356,
+               "ccmTech": 1499,
+               "constructionType": "Break",
+               "cylinder": 3,
+               "cylinderCapacityCcm": 1499,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 1523,
+               "manuName": "MINI",
+               "modId": 37158,
+               "modelName": "MINI COUNTRYMAN (F60)",
+               "motorType": "Essence",
+               "powerHpFrom": 136,
+               "powerHpTo": 136,
+               "powerKwFrom": 100,
+               "powerKwTo": 100,
+               "typeName": "Cooper ALL4",
+               "typeNumber": 123356,
+               "valves": 4,
+               "yearOfConstrFrom": 201610,
+               "rmiTypeId": 133277
+            },
+            "vehicleDocId": "DR123356"
+         }
+      ]
+   },
+   "status": 200
+}

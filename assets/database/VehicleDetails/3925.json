@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3925,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3925,
+               "ccmTech": 2861,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2861,
+               "cylinderCapacityLiter": 290,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 423,
+               "modelName": "PASSAT B3/B4 Variant (3A5, 35I)",
+               "motorType": "Essence",
+               "powerHpFrom": 184,
+               "powerHpTo": 184,
+               "powerKwFrom": 135,
+               "powerKwTo": 135,
+               "typeName": "2.9 VR6 Syncro",
+               "typeNumber": 3925,
+               "valves": 2,
+               "yearOfConstrFrom": 199401,
+               "yearOfConstrTo": 199705,
+               "rmiTypeId": 3606
+            }
+         }
+      ]
+   },
+   "status": 200
+}

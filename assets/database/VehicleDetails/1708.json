@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1708,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1708,
+               "ccmTech": 1595,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1595,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 412,
+               "modelName": "PASSAT B3/B4 (3A2, 35I)",
+               "motorType": "Essence",
+               "powerHpFrom": 72,
+               "powerHpTo": 72,
+               "powerKwFrom": 53,
+               "powerKwTo": 53,
+               "typeName": "1.6",
+               "typeNumber": 1708,
+               "valves": 2,
+               "yearOfConstrFrom": 198804,
+               "yearOfConstrTo": 198907,
+               "rmiTypeId": 1537
+            },
+            "vehicleDocId": "DR1708"
+         }
+      ]
+   },
+   "status": 200
+}

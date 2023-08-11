@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5103,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5103,
+               "ccmTech": 1895,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1895,
+               "cylinderCapacityLiter": 190,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 299,
+               "modelName": "3 Compact (E36)",
+               "motorType": "Essence",
+               "powerHpFrom": 140,
+               "powerHpTo": 140,
+               "powerKwFrom": 103,
+               "powerKwTo": 103,
+               "typeName": "318 ti",
+               "typeNumber": 5103,
+               "valves": 4,
+               "yearOfConstrFrom": 199601,
+               "yearOfConstrTo": 199908,
+               "rmiTypeId": 4712
+            },
+            "vehicleDocId": "DR5103"
+         }
+      ]
+   },
+   "status": 200
+}

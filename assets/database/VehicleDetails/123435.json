@@ -1,0 +1,34 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123435,
+            "vehicleDetails": {
+               "carId": 123435,
+               "ccmTech": 298,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 298,
+               "cylinderCapacityLiter": 30,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 4407,
+               "manuName": "SWM",
+               "modId": 14618,
+               "modelName": "RS",
+               "motorType": "Essence",
+               "powerHpFrom": 15,
+               "powerHpTo": 15,
+               "powerKwFrom": 11,
+               "powerKwTo": 11,
+               "typeName": "RS 300 R (A2)",
+               "typeNumber": 123435,
+               "valves": 4,
+               "yearOfConstrFrom": 201508
+            }
+         }
+      ]
+   },
+   "status": 200
+}

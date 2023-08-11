@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3554,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3554,
+               "ccmTech": 2507,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2507,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 465,
+               "modelName": "CAMRY Break (_V2_)",
+               "motorType": "Essence",
+               "powerHpFrom": 160,
+               "powerHpTo": 160,
+               "powerKwFrom": 118,
+               "powerKwTo": 118,
+               "typeName": "2.5 (VZV21_)",
+               "typeNumber": 3554,
+               "valves": 4,
+               "yearOfConstrFrom": 198611,
+               "yearOfConstrTo": 199105,
+               "rmiTypeId": 3255
+            },
+            "vehicleDocId": "DR3554"
+         }
+      ]
+   },
+   "status": 200
+}

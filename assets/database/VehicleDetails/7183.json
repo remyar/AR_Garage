@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7183,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7183,
+               "ccmTech": 1998,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1998,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 490,
+               "modelName": "VECTRA A (J89)",
+               "motorType": "Essence",
+               "powerHpFrom": 116,
+               "powerHpTo": 116,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "2.0 i Cat (F19, M19)",
+               "typeNumber": 7183,
+               "valves": 2,
+               "yearOfConstrFrom": 198809,
+               "yearOfConstrTo": 199511,
+               "rmiTypeId": 6443
+            },
+            "vehicleDocId": "DR7183"
+         }
+      ]
+   },
+   "status": 200
+}

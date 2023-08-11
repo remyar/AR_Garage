@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101064,
+            "vehicleDetails": {
+               "carId": 101064,
+               "ccmTech": 5461,
+               "constructionType": "Décapotable",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 5461,
+               "cylinderCapacityLiter": 550,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 10172,
+               "modelName": "SL (R231)",
+               "motorType": "Essence",
+               "powerHpFrom": 585,
+               "powerHpTo": 585,
+               "powerKwFrom": 430,
+               "powerKwTo": 430,
+               "typeName": "63 AMG (231.474)",
+               "typeNumber": 101064,
+               "valves": 4,
+               "yearOfConstrFrom": 201404,
+               "rmiTypeId": 89648
+            },
+            "vehicleDocId": "DR101064"
+         }
+      ]
+   },
+   "status": 200
+}

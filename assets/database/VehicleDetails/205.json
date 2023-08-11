@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 205,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 205,
+               "ccmTech": 1962,
+               "constructionType": "Décapotable",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1962,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 293,
+               "modelName": "SPIDER (115_)",
+               "motorType": "Essence",
+               "powerHpFrom": 126,
+               "powerHpTo": 126,
+               "powerKwFrom": 93,
+               "powerKwTo": 93,
+               "typeName": "2000 (11538, 115A1)",
+               "typeNumber": 205,
+               "valves": 2,
+               "yearOfConstrFrom": 197701,
+               "yearOfConstrTo": 199312,
+               "rmiTypeId": 177
+            },
+            "vehicleDocId": "DR205"
+         }
+      ]
+   },
+   "status": 200
+}

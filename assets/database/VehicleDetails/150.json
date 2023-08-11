@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 150,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 150,
+               "ccmTech": 2499,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2499,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction avant",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 282,
+               "modelName": "155 (167_)",
+               "motorType": "Diesel",
+               "powerHpFrom": 125,
+               "powerHpTo": 125,
+               "powerKwFrom": 92,
+               "powerKwTo": 92,
+               "typeName": "2.5 TD (167.A1A, 167.A1G)",
+               "typeNumber": 150,
+               "valves": 2,
+               "yearOfConstrFrom": 199304,
+               "yearOfConstrTo": 199712,
+               "rmiTypeId": 122
+            },
+            "vehicleDocId": "DR150"
+         }
+      ]
+   },
+   "status": 200
+}

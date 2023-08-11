@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3337,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3337,
+               "ccmTech": 2347,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2347,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 3458,
+               "modelName": "GALANT IV Break (A16_V)",
+               "motorType": "Diesel",
+               "powerHpFrom": 84,
+               "powerHpTo": 84,
+               "powerKwFrom": 62,
+               "powerKwTo": 62,
+               "typeName": "2.3 Turbo-D (A167V)",
+               "typeNumber": 3337,
+               "valves": 2,
+               "yearOfConstrFrom": 198307,
+               "yearOfConstrTo": 198405,
+               "rmiTypeId": 3053
+            },
+            "vehicleDocId": "DR3337"
+         }
+      ]
+   },
+   "status": 200
+}

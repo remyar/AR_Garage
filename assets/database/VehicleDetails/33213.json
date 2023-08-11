@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 33213,
+            "vehicleDetails": {
+               "carId": 33213,
+               "ccmTech": 6162,
+               "constructionType": "Décapotable",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 6162,
+               "cylinderCapacityLiter": 620,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 138,
+               "manuName": "CHEVROLET",
+               "modId": 5547,
+               "modelName": "CORVETTE Décapotable (C6)",
+               "motorType": "Essence",
+               "powerHpFrom": 437,
+               "powerHpTo": 437,
+               "powerKwFrom": 321,
+               "powerKwTo": 321,
+               "typeName": "6.2",
+               "typeNumber": 33213,
+               "valves": 2,
+               "yearOfConstrFrom": 200802,
+               "rmiTypeId": 63864
+            },
+            "vehicleDocId": "DR33213"
+         }
+      ]
+   },
+   "status": 200
+}

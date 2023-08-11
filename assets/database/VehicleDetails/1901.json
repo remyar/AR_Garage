@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1901,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1901,
+               "ccmTech": 1781,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1781,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 510,
+               "modelName": "GOLF III Variant (1H5)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.8",
+               "typeNumber": 1901,
+               "valves": 2,
+               "yearOfConstrFrom": 199307,
+               "yearOfConstrTo": 199904,
+               "rmiTypeId": 1721
+            },
+            "vehicleDocId": "DR1901"
+         }
+      ]
+   },
+   "status": 200
+}

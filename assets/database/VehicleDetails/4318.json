@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4318,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4318,
+               "ccmTech": 2753,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2753,
+               "cylinderCapacityLiter": 280,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 1228,
+               "modelName": "PATROL III/1 Station Wagon (W160)",
+               "motorType": "Essence",
+               "powerHpFrom": 120,
+               "powerHpTo": 120,
+               "powerKwFrom": 88,
+               "powerKwTo": 88,
+               "typeName": "2.8 (W160)",
+               "typeNumber": 4318,
+               "valves": 2,
+               "yearOfConstrFrom": 198007,
+               "yearOfConstrTo": 198808,
+               "rmiTypeId": 3987
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7100,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7100,
+               "ccmTech": 1195,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1195,
+               "cylinderCapacityLiter": 120,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 184,
+               "modelName": "CORSA A 3/5 portes (S83)",
+               "motorType": "Essence",
+               "powerHpFrom": 45,
+               "powerHpTo": 45,
+               "powerKwFrom": 33,
+               "powerKwTo": 33,
+               "typeName": "1.2 i (F08, M08, F68, M68)",
+               "typeNumber": 7100,
+               "valves": 2,
+               "yearOfConstrFrom": 198909,
+               "yearOfConstrTo": 199303,
+               "rmiTypeId": 6366
+            }
+         }
+      ]
+   },
+   "status": 200
+}

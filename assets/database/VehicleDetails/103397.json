@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 103397,
+            "vehicleDetails": {
+               "carId": 103397,
+               "ccmTech": 999,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 999,
+               "cylinderCapacityLiter": 100,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 2760,
+               "manuName": "KTM",
+               "modId": 12023,
+               "modelName": "ADVENTURE",
+               "motorType": "Essence",
+               "powerHpFrom": 106,
+               "powerHpTo": 106,
+               "powerKwFrom": 78,
+               "powerKwTo": 78,
+               "typeName": "990 Adventure ABS (LC8)",
+               "typeNumber": 103397,
+               "valves": 4,
+               "yearOfConstrFrom": 200901,
+               "yearOfConstrTo": 201112
+            }
+         }
+      ]
+   },
+   "status": 200
+}

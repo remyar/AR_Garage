@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 127092,
+            "vehicleDetails": {
+               "carId": 127092,
+               "ccmTech": 3456,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3456,
+               "cylinderCapacityLiter": 350,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 802,
+               "manuName": "LOTUS",
+               "modId": 11026,
+               "modelName": "EXIGE",
+               "motorType": "Essence",
+               "powerHpFrom": 380,
+               "powerHpTo": 380,
+               "powerKwFrom": 280,
+               "powerKwTo": 280,
+               "typeName": "3.5 380",
+               "typeNumber": 127092,
+               "valves": 4,
+               "yearOfConstrFrom": 201611,
+               "rmiTypeId": 138663
+            },
+            "vehicleDocId": "DR127092"
+         }
+      ]
+   },
+   "status": 200
+}

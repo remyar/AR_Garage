@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10427,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10427,
+               "ccmTech": 1597,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1597,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 1464,
+               "modelName": "ESCORT VI A trois volumes (GAL, AFL)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.6 i 16V",
+               "typeNumber": 10427,
+               "valves": 4,
+               "yearOfConstrFrom": 199501,
+               "yearOfConstrTo": 199902,
+               "rmiTypeId": 8706
+            },
+            "vehicleDocId": "DR10427"
+         }
+      ]
+   },
+   "status": 200
+}

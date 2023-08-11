@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 143001,
+            "vehicleDetails": {
+               "carId": 143001,
+               "ccmTech": 1598,
+               "constructionType": "SUV",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1598,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence/électrique",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 184,
+               "manuName": "KIA",
+               "modId": 40546,
+               "modelName": "SORENTO IV (MQ4, MQ4A)",
+               "motorType": "Hybride rechargeable",
+               "powerHpFrom": 265,
+               "powerHpTo": 265,
+               "powerKwFrom": 195,
+               "powerKwTo": 195,
+               "typeName": "1.6 T-GDi Hybrid AWD",
+               "typeNumber": 143001,
+               "valves": 4,
+               "yearOfConstrFrom": 202011,
+               "rmiTypeId": 179086
+            },
+            "vehicleDocId": "DR143001"
+         }
+      ]
+   },
+   "status": 200
+}

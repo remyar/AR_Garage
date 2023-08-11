@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9023,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9023,
+               "ccmTech": 1254,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1254,
+               "cylinderCapacityLiter": 130,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 1139,
+               "manuName": "ZAZ",
+               "modId": 3409,
+               "modelName": "TAVRIA (1102)",
+               "motorType": "Essence",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "1.3",
+               "typeNumber": 9023,
+               "valves": 2,
+               "yearOfConstrFrom": 198901,
+               "yearOfConstrTo": 200712,
+               "rmiTypeId": 8061
+            }
+         }
+      ]
+   },
+   "status": 200
+}

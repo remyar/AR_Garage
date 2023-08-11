@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6539,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6539,
+               "ccmTech": 1498,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1498,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 1670,
+               "modelName": "TAUNUS 17M II Turnier (35F)",
+               "motorType": "Essence",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "1.5",
+               "typeNumber": 6539,
+               "valves": 2,
+               "yearOfConstrFrom": 196709,
+               "yearOfConstrTo": 197404,
+               "rmiTypeId": 5873
+            }
+         }
+      ]
+   },
+   "status": 200
+}

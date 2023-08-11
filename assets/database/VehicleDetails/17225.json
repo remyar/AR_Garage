@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 17225,
+            "vehicleDetails": {
+               "carId": 17225,
+               "ccmTech": 3555,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 3555,
+               "cylinderCapacityLiter": 360,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 56,
+               "manuName": "JAGUAR",
+               "modId": 4977,
+               "modelName": "XJ (X350, X358)",
+               "motorType": "Essence",
+               "powerHpFrom": 258,
+               "powerHpTo": 258,
+               "powerKwFrom": 190,
+               "powerKwTo": 190,
+               "typeName": "3.6",
+               "typeNumber": 17225,
+               "valves": 4,
+               "yearOfConstrFrom": 200305,
+               "yearOfConstrTo": 200903,
+               "rmiTypeId": 13267
+            },
+            "vehicleDocId": "DR17225"
+         }
+      ]
+   },
+   "status": 200
+}

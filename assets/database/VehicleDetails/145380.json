@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 145380,
+            "vehicleDetails": {
+               "carId": 145380,
+               "ccmTech": 1477,
+               "constructionType": "Camionnette",
+               "cylinder": 3,
+               "cylinderCapacityCcm": 1477,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Essence/électrique",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 5194,
+               "manuName": "LEVC",
+               "modId": 41805,
+               "modelName": "VN5 Camionnette",
+               "motorType": "Extension d’autonomie",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "1.5 EREV (CRE)",
+               "typeNumber": 145380,
+               "valves": 4,
+               "yearOfConstrFrom": 202012,
+               "rmiTypeId": 186575
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 104510,
+            "vehicleDetails": {
+               "carId": 104510,
+               "ccmTech": 101,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 101,
+               "cylinderCapacityLiter": 10,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 4061,
+               "manuName": "MBK",
+               "modId": 12449,
+               "modelName": "OVETTO",
+               "motorType": "Essence",
+               "powerHpFrom": 7,
+               "powerHpTo": 7,
+               "powerKwFrom": 5,
+               "powerKwTo": 5,
+               "typeName": "Ovetto 100",
+               "typeNumber": 104510,
+               "valves": 2,
+               "yearOfConstrFrom": 200101,
+               "yearOfConstrTo": 200412
+            }
+         }
+      ]
+   },
+   "status": 200
+}

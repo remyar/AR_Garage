@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 460,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 460,
+               "ccmTech": 2996,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2996,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 18,
+               "modelName": "124 A trois volumes (W124)",
+               "motorType": "Diesel",
+               "powerHpFrom": 113,
+               "powerHpTo": 113,
+               "powerKwFrom": 83,
+               "powerKwTo": 83,
+               "typeName": "300 D (124.130)",
+               "typeNumber": 460,
+               "valves": 2,
+               "yearOfConstrFrom": 198908,
+               "yearOfConstrTo": 199306,
+               "rmiTypeId": 403
+            },
+            "vehicleDocId": "DR460"
+         }
+      ]
+   },
+   "status": 200
+}

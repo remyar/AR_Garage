@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 102612,
+            "vehicleDetails": {
+               "carId": 102612,
+               "ccmTech": 650,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 650,
+               "cylinderCapacityLiter": 65,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Cardan",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 12733,
+               "modelName": "R 65",
+               "motorType": "Essence",
+               "powerHpFrom": 27,
+               "powerHpTo": 27,
+               "powerKwFrom": 20,
+               "powerKwTo": 20,
+               "typeName": "R 65 G/S (247E)",
+               "typeNumber": 102612,
+               "valves": 2,
+               "yearOfConstrFrom": 198001,
+               "yearOfConstrTo": 198809
+            }
+         }
+      ]
+   },
+   "status": 200
+}

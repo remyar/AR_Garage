@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 215,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 215,
+               "ccmTech": 2788,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2788,
+               "cylinderCapacityLiter": 280,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 456,
+               "modelName": "5 (E12)",
+               "motorType": "Essence",
+               "powerHpFrom": 165,
+               "powerHpTo": 165,
+               "powerKwFrom": 121,
+               "powerKwTo": 121,
+               "typeName": "528",
+               "typeNumber": 215,
+               "valves": 2,
+               "yearOfConstrFrom": 197501,
+               "yearOfConstrTo": 197608,
+               "rmiTypeId": 184
+            }
+         }
+      ]
+   },
+   "status": 200
+}

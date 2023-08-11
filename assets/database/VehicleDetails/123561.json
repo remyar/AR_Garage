@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123561,
+            "vehicleDetails": {
+               "carId": 123561,
+               "ccmTech": 1984,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1984,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence/gaz naturel (GNC)",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 5004,
+               "modelName": "TRANSPORTER T5 Camionnette (7HA, 7HH, 7EA, 7EH)",
+               "motorType": "Essence",
+               "powerHpFrom": 115,
+               "powerHpTo": 115,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "2.0 BiFuel",
+               "typeNumber": 123561,
+               "valves": 2,
+               "yearOfConstrFrom": 201105,
+               "yearOfConstrTo": 201508,
+               "rmiTypeId": 133476
+            },
+            "vehicleDocId": "DR123561"
+         }
+      ]
+   },
+   "status": 200
+}

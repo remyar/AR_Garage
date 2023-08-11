@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 272,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 272,
+               "ccmTech": 3210,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3210,
+               "cylinderCapacityLiter": 320,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 486,
+               "modelName": "6 (E24)",
+               "motorType": "Essence",
+               "powerHpFrom": 200,
+               "powerHpTo": 200,
+               "powerKwFrom": 147,
+               "powerKwTo": 147,
+               "typeName": "633 CSi",
+               "typeNumber": 272,
+               "valves": 2,
+               "yearOfConstrFrom": 197510,
+               "yearOfConstrTo": 198112,
+               "rmiTypeId": 240
+            },
+            "vehicleDocId": "DR272"
+         }
+      ]
+   },
+   "status": 200
+}

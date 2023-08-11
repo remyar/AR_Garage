@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4319,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4319,
+               "ccmTech": 2753,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2753,
+               "cylinderCapacityLiter": 280,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 2037,
+               "modelName": "PATROL III/1 Hardtop (K160)",
+               "motorType": "Essence",
+               "powerHpFrom": 120,
+               "powerHpTo": 120,
+               "powerKwFrom": 88,
+               "powerKwTo": 88,
+               "typeName": "2.8 (K160)",
+               "typeNumber": 4319,
+               "valves": 2,
+               "yearOfConstrFrom": 198007,
+               "yearOfConstrTo": 198808,
+               "rmiTypeId": 3988
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101912,
+            "vehicleDetails": {
+               "carId": 101912,
+               "ccmTech": 748,
+               "constructionType": "Moto",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 748,
+               "cylinderCapacityLiter": 74,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Cardan",
+               "manuId": 109,
+               "manuName": "SUZUKI",
+               "modId": 12627,
+               "modelName": "GS",
+               "motorType": "Essence",
+               "powerHpFrom": 68,
+               "powerHpTo": 68,
+               "powerKwFrom": 50,
+               "powerKwTo": 50,
+               "typeName": "GS 750 GL",
+               "typeNumber": 101912,
+               "valves": 2,
+               "yearOfConstrFrom": 198101,
+               "yearOfConstrTo": 198112
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 344,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 344,
+               "ccmTech": 2498,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2498,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 52,
+               "modelName": "190 (W201)",
+               "motorType": "Essence",
+               "powerHpFrom": 204,
+               "powerHpTo": 204,
+               "powerKwFrom": 150,
+               "powerKwTo": 150,
+               "typeName": "E 2.5-16 (201.035)",
+               "typeNumber": 344,
+               "valves": 4,
+               "yearOfConstrFrom": 198809,
+               "yearOfConstrTo": 199308,
+               "rmiTypeId": 302
+            },
+            "vehicleDocId": "DR344"
+         }
+      ]
+   },
+   "status": 200
+}

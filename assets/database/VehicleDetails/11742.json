@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11742,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 11742,
+               "ccmTech": 3430,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3430,
+               "cylinderCapacityLiter": 340,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 866,
+               "manuName": "ALPINA",
+               "modId": 4114,
+               "modelName": "B7 Coupé (E24)",
+               "motorType": "Essence",
+               "powerHpFrom": 330,
+               "powerHpTo": 330,
+               "powerKwFrom": 243,
+               "powerKwTo": 243,
+               "typeName": "3.4",
+               "typeNumber": 11742,
+               "valves": 2,
+               "yearOfConstrFrom": 198205,
+               "yearOfConstrTo": 198708,
+               "rmiTypeId": 9252
+            }
+         }
+      ]
+   },
+   "status": 200
+}

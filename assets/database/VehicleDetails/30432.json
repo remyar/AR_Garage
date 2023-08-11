@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 30432,
+            "vehicleDetails": {
+               "carId": 30432,
+               "ccmTech": 2457,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2457,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 107,
+               "manuName": "SUBARU",
+               "modId": 5061,
+               "modelName": "LEGACY IV Break (BP)",
+               "motorType": "Essence",
+               "powerHpFrom": 173,
+               "powerHpTo": 173,
+               "powerKwFrom": 127,
+               "powerKwTo": 127,
+               "typeName": "2.5 i AWD (BP9)",
+               "typeNumber": 30432,
+               "valves": 4,
+               "yearOfConstrFrom": 200801,
+               "yearOfConstrTo": 200912,
+               "rmiTypeId": 57598
+            },
+            "vehicleDocId": "DR30432"
+         }
+      ]
+   },
+   "status": 200
+}

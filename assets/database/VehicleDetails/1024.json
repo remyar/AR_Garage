@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1024,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1024,
+               "ccmTech": 2498,
+               "constructionType": "3/5 portes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2498,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 3866,
+               "modelName": "VECTRA A 3/5 portes (J89)",
+               "motorType": "Essence",
+               "powerHpFrom": 170,
+               "powerHpTo": 170,
+               "powerKwFrom": 125,
+               "powerKwTo": 125,
+               "typeName": "2.5 V6 (F68, M68)",
+               "typeNumber": 1024,
+               "valves": 4,
+               "yearOfConstrFrom": 199302,
+               "yearOfConstrTo": 199511,
+               "rmiTypeId": 905
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4221,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4221,
+               "ccmTech": 1829,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1829,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 1258,
+               "modelName": "PRELUDE II (AB)",
+               "motorType": "Essence",
+               "powerHpFrom": 105,
+               "powerHpTo": 105,
+               "powerKwFrom": 77,
+               "powerKwTo": 77,
+               "typeName": "1.8 EX (AAB)",
+               "typeNumber": 4221,
+               "valves": 2,
+               "yearOfConstrFrom": 198311,
+               "yearOfConstrTo": 198704,
+               "rmiTypeId": 3890
+            },
+            "vehicleDocId": "DR4221"
+         }
+      ]
+   },
+   "status": 200
+}

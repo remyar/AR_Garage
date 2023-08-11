@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8007,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8007,
+               "ccmTech": 4942,
+               "constructionType": "SUV",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4942,
+               "cylinderCapacityLiter": 490,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 776,
+               "manuName": "FORD USA",
+               "modId": 2019,
+               "modelName": "EXPLORER (U2, U_)",
+               "motorType": "Essence",
+               "powerHpFrom": 213,
+               "powerHpTo": 213,
+               "powerKwFrom": 157,
+               "powerKwTo": 157,
+               "typeName": "4.9 4WD",
+               "typeNumber": 8007,
+               "valves": 2,
+               "yearOfConstrFrom": 199601,
+               "yearOfConstrTo": 200112,
+               "rmiTypeId": 7154
+            },
+            "vehicleDocId": "DR8007"
+         }
+      ]
+   },
+   "status": 200
+}

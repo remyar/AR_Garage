@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 14802,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 14802,
+               "ccmTech": 2979,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2979,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 3397,
+               "modelName": "3 (E46)",
+               "motorType": "Essence",
+               "powerHpFrom": 231,
+               "powerHpTo": 231,
+               "powerKwFrom": 170,
+               "powerKwTo": 170,
+               "typeName": "330 xi",
+               "typeNumber": 14802,
+               "valves": 4,
+               "yearOfConstrFrom": 200006,
+               "yearOfConstrTo": 200502,
+               "rmiTypeId": 10965
+            },
+            "vehicleDocId": "DR14802"
+         }
+      ]
+   },
+   "status": 200
+}

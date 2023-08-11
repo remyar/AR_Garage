@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 265,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 265,
+               "ccmTech": 2494,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2494,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 224,
+               "modelName": "2.5-3.2 Coupé (E9)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.5 CS",
+               "typeNumber": 265,
+               "valves": 2,
+               "yearOfConstrFrom": 197409,
+               "yearOfConstrTo": 197603,
+               "rmiTypeId": 234
+            }
+         }
+      ]
+   },
+   "status": 200
+}

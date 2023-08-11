@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 7279,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 7279,
+               "ccmTech": 1770,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1770,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 1827,
+               "modelName": "DATSUN 180B (PL810)",
+               "motorType": "Essence",
+               "powerHpFrom": 88,
+               "powerHpTo": 88,
+               "powerKwFrom": 65,
+               "powerKwTo": 65,
+               "typeName": "1.8",
+               "typeNumber": 7279,
+               "valves": 2,
+               "yearOfConstrFrom": 197705,
+               "yearOfConstrTo": 198101,
+               "rmiTypeId": 6513
+            }
+         }
+      ]
+   },
+   "status": 200
+}

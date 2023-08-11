@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3585,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3585,
+               "ccmTech": 2954,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2954,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 323,
+               "modelName": "SUPRA (_A7_)",
+               "motorType": "Essence",
+               "powerHpFrom": 204,
+               "powerHpTo": 204,
+               "powerKwFrom": 150,
+               "powerKwTo": 150,
+               "typeName": "3.0 24V (MA70_, MA70)",
+               "typeNumber": 3585,
+               "valves": 4,
+               "yearOfConstrFrom": 198601,
+               "yearOfConstrTo": 198808,
+               "rmiTypeId": 3283
+            },
+            "vehicleDocId": "DR3585"
+         }
+      ]
+   },
+   "status": 200
+}

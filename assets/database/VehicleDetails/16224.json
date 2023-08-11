@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 16224,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 16224,
+               "ccmTech": 3698,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3698,
+               "cylinderCapacityLiter": 370,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 882,
+               "manuName": "JEEP",
+               "modId": 4823,
+               "modelName": "CHEROKEE (KJ)",
+               "motorType": "Essence",
+               "powerHpFrom": 211,
+               "powerHpTo": 211,
+               "powerKwFrom": 155,
+               "powerKwTo": 155,
+               "typeName": "3.7 4x4",
+               "typeNumber": 16224,
+               "valves": 2,
+               "yearOfConstrFrom": 200109,
+               "yearOfConstrTo": 200801,
+               "rmiTypeId": 12283
+            },
+            "vehicleDocId": "DR16224"
+         }
+      ]
+   },
+   "status": 200
+}

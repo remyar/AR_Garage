@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101103,
+            "vehicleDetails": {
+               "carId": 101103,
+               "ccmTech": 2198,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2198,
+               "cylinderCapacityLiter": 220,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 11953,
+               "modelName": "TRANSIT V363 Camionnette (FCD, FDD)",
+               "motorType": "Diesel",
+               "powerHpFrom": 155,
+               "powerHpTo": 155,
+               "powerKwFrom": 114,
+               "powerKwTo": 114,
+               "typeName": "2.2 TDCi 4x4",
+               "typeNumber": 101103,
+               "valves": 4,
+               "yearOfConstrFrom": 201508,
+               "yearOfConstrTo": 201812,
+               "rmiTypeId": 88895
+            },
+            "vehicleDocId": "DR101103"
+         }
+      ]
+   },
+   "status": 200
+}

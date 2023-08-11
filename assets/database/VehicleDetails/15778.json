@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 15778,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 15778,
+               "ccmTech": 2198,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2198,
+               "cylinderCapacityLiter": 220,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 3406,
+               "modelName": "ASTRA G Break (T98)",
+               "motorType": "Essence",
+               "powerHpFrom": 147,
+               "powerHpTo": 147,
+               "powerKwFrom": 108,
+               "powerKwTo": 108,
+               "typeName": "2.2 16V (F35)",
+               "typeNumber": 15778,
+               "valves": 4,
+               "yearOfConstrFrom": 200103,
+               "yearOfConstrTo": 200407,
+               "rmiTypeId": 11889
+            },
+            "vehicleDocId": "DR15778"
+         }
+      ]
+   },
+   "status": 200
+}

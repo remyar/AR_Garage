@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 109678,
+            "vehicleDetails": {
+               "carId": 109678,
+               "ccmTech": 1499,
+               "constructionType": "Coupé",
+               "cylinder": 3,
+               "cylinderCapacityCcm": 1499,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Essence/électrique",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 11902,
+               "modelName": "i8 (I12)",
+               "motorType": "Hybride rechargeable",
+               "powerHpFrom": 362,
+               "powerHpTo": 362,
+               "powerKwFrom": 266,
+               "powerKwTo": 266,
+               "typeName": "hybrid",
+               "typeNumber": 109678,
+               "valves": 4,
+               "yearOfConstrFrom": 201403,
+               "yearOfConstrTo": 201802,
+               "rmiTypeId": 114199
+            },
+            "vehicleDocId": "DR109678"
+         }
+      ]
+   },
+   "status": 200
+}

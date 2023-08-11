@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 28,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 28,
+               "ccmTech": 1796,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1796,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 290,
+               "modelName": "3 (E30)",
+               "motorType": "Essence",
+               "powerHpFrom": 136,
+               "powerHpTo": 136,
+               "powerKwFrom": 100,
+               "powerKwTo": 100,
+               "typeName": "318 is",
+               "typeNumber": 28,
+               "valves": 4,
+               "yearOfConstrFrom": 198909,
+               "yearOfConstrTo": 199108,
+               "rmiTypeId": 24
+            },
+            "vehicleDocId": "DR28"
+         }
+      ]
+   },
+   "status": 200
+}

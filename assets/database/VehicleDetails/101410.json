@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101410,
+            "vehicleDetails": {
+               "carId": 101410,
+               "ccmTech": 865,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 865,
+               "cylinderCapacityLiter": 86,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 112,
+               "manuName": "TRIUMPH",
+               "modId": 12666,
+               "modelName": "SPEEDMASTER",
+               "motorType": "Essence",
+               "powerHpFrom": 34,
+               "powerHpTo": 34,
+               "powerKwFrom": 25,
+               "powerKwTo": 25,
+               "typeName": "Speedmaster (908ML)",
+               "typeNumber": 101410,
+               "valves": 4,
+               "yearOfConstrFrom": 200501,
+               "yearOfConstrTo": 200712
+            }
+         }
+      ]
+   },
+   "status": 200
+}

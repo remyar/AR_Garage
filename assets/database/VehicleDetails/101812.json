@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101812,
+            "vehicleDetails": {
+               "carId": 101812,
+               "ccmTech": 742,
+               "constructionType": "Moto",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 742,
+               "cylinderCapacityLiter": 74,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 109,
+               "manuName": "SUZUKI",
+               "modId": 12629,
+               "modelName": "GSX",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "GSX 750 EF",
+               "typeNumber": 101812,
+               "valves": 4,
+               "yearOfConstrFrom": 198501,
+               "yearOfConstrTo": 198812
+            }
+         }
+      ]
+   },
+   "status": 200
+}

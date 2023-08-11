@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1802,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1802,
+               "ccmTech": 2109,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2109,
+               "cylinderCapacityLiter": 210,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 3889,
+               "modelName": "TRANSPORTER T3 Autobus/Autocar (25_)",
+               "motorType": "Essence",
+               "powerHpFrom": 95,
+               "powerHpTo": 95,
+               "powerKwFrom": 70,
+               "powerKwTo": 70,
+               "typeName": "2.1",
+               "typeNumber": 1802,
+               "valves": 2,
+               "yearOfConstrFrom": 198508,
+               "yearOfConstrTo": 199207,
+               "rmiTypeId": 1627
+            },
+            "vehicleDocId": "DR1802"
+         }
+      ]
+   },
+   "status": 200
+}

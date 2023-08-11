@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11738,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 11738,
+               "ccmTech": 3430,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3430,
+               "cylinderCapacityLiter": 350,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 866,
+               "manuName": "ALPINA",
+               "modId": 4112,
+               "modelName": "B7 (E12)",
+               "motorType": "Essence",
+               "powerHpFrom": 330,
+               "powerHpTo": 330,
+               "powerKwFrom": 243,
+               "powerKwTo": 243,
+               "typeName": "3.5",
+               "typeNumber": 11738,
+               "valves": 2,
+               "yearOfConstrFrom": 198111,
+               "yearOfConstrTo": 198205,
+               "rmiTypeId": 9248
+            },
+            "vehicleDocId": "DR11738"
+         }
+      ]
+   },
+   "status": 200
+}

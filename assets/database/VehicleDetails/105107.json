@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 105107,
+            "vehicleDetails": {
+               "carId": 105107,
+               "ccmTech": 125,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 125,
+               "cylinderCapacityLiter": 12,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 109,
+               "manuName": "SUZUKI",
+               "modId": 12648,
+               "modelName": "UH",
+               "motorType": "Essence",
+               "powerHpFrom": 12,
+               "powerHpTo": 12,
+               "powerKwFrom": 9,
+               "powerKwTo": 9,
+               "typeName": "UH 125 Burgman (BP)",
+               "typeNumber": 105107,
+               "valves": 4,
+               "yearOfConstrFrom": 200201,
+               "yearOfConstrTo": 200612
+            }
+         }
+      ]
+   },
+   "status": 200
+}

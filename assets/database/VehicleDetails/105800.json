@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 105800,
+            "vehicleDetails": {
+               "carId": 105800,
+               "ccmTech": 4367,
+               "constructionType": "SUV",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4367,
+               "cylinderCapacityLiter": 440,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 1820,
+               "manuName": "LAND ROVER",
+               "modId": 10810,
+               "modelName": "RANGE ROVER IV (L405)",
+               "motorType": "Diesel",
+               "powerHpFrom": 313,
+               "powerHpTo": 313,
+               "powerKwFrom": 230,
+               "powerKwTo": 230,
+               "typeName": "4.4 SDV8 4x4",
+               "typeNumber": 105800,
+               "valves": 4,
+               "yearOfConstrFrom": 201308,
+               "rmiTypeId": 111912
+            },
+            "vehicleDocId": "DR105800"
+         }
+      ]
+   },
+   "status": 200
+}

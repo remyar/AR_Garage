@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 254,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 254,
+               "ccmTech": 2497,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2497,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 459,
+               "modelName": "5 Touring (E34)",
+               "motorType": "Diesel",
+               "powerHpFrom": 143,
+               "powerHpTo": 143,
+               "powerKwFrom": 105,
+               "powerKwTo": 105,
+               "typeName": "525 tds",
+               "typeNumber": 254,
+               "valves": 2,
+               "yearOfConstrFrom": 199112,
+               "yearOfConstrTo": 199607,
+               "rmiTypeId": 223
+            },
+            "vehicleDocId": "DR254"
+         }
+      ]
+   },
+   "status": 200
+}

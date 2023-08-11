@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 937,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 937,
+               "ccmTech": 2960,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2960,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 65,
+               "modelName": "CLASSE G (W463)",
+               "motorType": "Essence",
+               "powerHpFrom": 174,
+               "powerHpTo": 174,
+               "powerKwFrom": 128,
+               "powerKwTo": 128,
+               "typeName": "300 GE (463.227, 463.228)",
+               "typeNumber": 937,
+               "valves": 2,
+               "yearOfConstrFrom": 199006,
+               "yearOfConstrTo": 199708,
+               "rmiTypeId": 821
+            },
+            "vehicleDocId": "DR937"
+         }
+      ]
+   },
+   "status": 200
+}

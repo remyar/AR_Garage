@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 9225,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 9225,
+               "ccmTech": 2969,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2969,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 350,
+               "modelName": "OMEGA A Break (V87)",
+               "motorType": "Essence",
+               "powerHpFrom": 156,
+               "powerHpTo": 156,
+               "powerKwFrom": 115,
+               "powerKwTo": 115,
+               "typeName": "3.0 (F35, M35)",
+               "typeNumber": 9225,
+               "valves": 2,
+               "yearOfConstrFrom": 198703,
+               "yearOfConstrTo": 199403,
+               "rmiTypeId": 8219
+            }
+         }
+      ]
+   },
+   "status": 200
+}

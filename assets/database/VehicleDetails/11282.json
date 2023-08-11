@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11282,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 11282,
+               "ccmTech": 2295,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2295,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 185,
+               "manuName": "DAEWOO",
+               "modId": 4085,
+               "modelName": "MUSSO (FJ)",
+               "motorType": "Essence",
+               "powerHpFrom": 140,
+               "powerHpTo": 140,
+               "powerKwFrom": 103,
+               "powerKwTo": 103,
+               "typeName": "2.3",
+               "typeNumber": 11282,
+               "valves": 4,
+               "yearOfConstrFrom": 199901,
+               "rmiTypeId": 9051
+            },
+            "vehicleDocId": "DR11282"
+         }
+      ]
+   },
+   "status": 200
+}

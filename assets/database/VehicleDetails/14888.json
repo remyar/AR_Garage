@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 14888,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 14888,
+               "ccmTech": 2362,
+               "constructionType": "Monospace",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2362,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 4646,
+               "modelName": "PREVIA II (_R3_)",
+               "motorType": "Essence",
+               "powerHpFrom": 156,
+               "powerHpTo": 156,
+               "powerKwFrom": 115,
+               "powerKwTo": 115,
+               "typeName": "2.4 (ACR30)",
+               "typeNumber": 14888,
+               "valves": 4,
+               "yearOfConstrFrom": 200002,
+               "yearOfConstrTo": 200602,
+               "rmiTypeId": 11048
+            },
+            "vehicleDocId": "DR14888"
+         }
+      ]
+   },
+   "status": 200
+}

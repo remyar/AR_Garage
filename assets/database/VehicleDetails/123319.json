@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123319,
+            "vehicleDetails": {
+               "carId": 123319,
+               "ccmTech": 1781,
+               "constructionType": "Camionnette - 3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1781,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 37151,
+               "modelName": "GOLF II Van (19E, 1G1)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.8 i",
+               "typeNumber": 123319,
+               "valves": 2,
+               "yearOfConstrFrom": 198708,
+               "yearOfConstrTo": 199107,
+               "rmiTypeId": 133243
+            },
+            "vehicleDocId": "DR123319"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 103771,
+            "vehicleDetails": {
+               "carId": 103771,
+               "ccmTech": 125,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 125,
+               "cylinderCapacityLiter": 12,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12272,
+               "modelName": "SES",
+               "motorType": "Essence",
+               "powerHpFrom": 14,
+               "powerHpTo": 14,
+               "powerKwFrom": 10,
+               "powerKwTo": 10,
+               "typeName": "SES 125 Dylan (JF10)",
+               "typeNumber": 103771,
+               "valves": 2,
+               "yearOfConstrFrom": 200201,
+               "yearOfConstrTo": 200612
+            }
+         }
+      ]
+   },
+   "status": 200
+}

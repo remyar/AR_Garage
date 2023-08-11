@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 112810,
+            "vehicleDetails": {
+               "carId": 112810,
+               "ccmTech": 1599,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1599,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 107,
+               "manuName": "SUBARU",
+               "modId": 14083,
+               "modelName": "LEVORG",
+               "motorType": "Essence",
+               "powerHpFrom": 170,
+               "powerHpTo": 170,
+               "powerKwFrom": 125,
+               "powerKwTo": 125,
+               "typeName": "1.6 AWD (VM4)",
+               "typeNumber": 112810,
+               "valves": 4,
+               "yearOfConstrFrom": 201509,
+               "rmiTypeId": 118264
+            },
+            "vehicleDocId": "DR112810"
+         }
+      ]
+   },
+   "status": 200
+}

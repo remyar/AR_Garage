@@ -1,0 +1,34 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 111253,
+            "vehicleDetails": {
+               "carId": 111253,
+               "ccmTech": 1338,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 1338,
+               "cylinderCapacityLiter": 134,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Courroie",
+               "manuId": 4055,
+               "manuName": "HARLEY-DAVIDSON",
+               "modId": 12234,
+               "modelName": "TOUR GLIDE",
+               "motorType": "Essence",
+               "powerHpFrom": 71,
+               "powerHpTo": 71,
+               "powerKwFrom": 52,
+               "powerKwTo": 52,
+               "typeName": "1340 Tour Glide (FLT)",
+               "typeNumber": 111253,
+               "valves": 2,
+               "yearOfConstrFrom": 197901
+            }
+         }
+      ]
+   },
+   "status": 200
+}

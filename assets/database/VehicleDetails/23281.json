@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 23281,
+            "vehicleDetails": {
+               "carId": 23281,
+               "ccmTech": 4799,
+               "constructionType": "SUV",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4799,
+               "cylinderCapacityLiter": 480,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 6414,
+               "modelName": "X5 (E70)",
+               "motorType": "Essence",
+               "powerHpFrom": 355,
+               "powerHpTo": 355,
+               "powerKwFrom": 261,
+               "powerKwTo": 261,
+               "typeName": "4.8 i xDrive",
+               "typeNumber": 23281,
+               "valves": 4,
+               "yearOfConstrFrom": 200610,
+               "yearOfConstrTo": 200809,
+               "rmiTypeId": 52004
+            },
+            "vehicleDocId": "DR23281"
+         }
+      ]
+   },
+   "status": 200
+}

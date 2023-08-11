@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1760,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1760,
+               "ccmTech": 1584,
+               "constructionType": "Autobus/Autocar",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1584,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 455,
+               "modelName": "TRANSPORTER T2 Autobus/Autocar (22, 23, 24)",
+               "motorType": "Essence",
+               "powerHpFrom": 50,
+               "powerHpTo": 50,
+               "powerKwFrom": 37,
+               "powerKwTo": 37,
+               "typeName": "1.6",
+               "typeNumber": 1760,
+               "valves": 2,
+               "yearOfConstrFrom": 197008,
+               "yearOfConstrTo": 197904,
+               "rmiTypeId": 1588
+            },
+            "vehicleDocId": "DR1760"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 100821,
+            "vehicleDetails": {
+               "carId": 100821,
+               "ccmTech": 2979,
+               "constructionType": "Coupé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2979,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 11300,
+               "modelName": "4 Coupé (F32, F82)",
+               "motorType": "Essence",
+               "powerHpFrom": 431,
+               "powerHpTo": 431,
+               "powerKwFrom": 317,
+               "powerKwTo": 317,
+               "typeName": "M4",
+               "typeNumber": 100821,
+               "valves": 4,
+               "yearOfConstrFrom": 201403,
+               "rmiTypeId": 88732
+            },
+            "vehicleDocId": "DR100821"
+         }
+      ]
+   },
+   "status": 200
+}

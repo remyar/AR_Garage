@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5109,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5109,
+               "ccmTech": 1895,
+               "constructionType": "Décapotable",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1895,
+               "cylinderCapacityLiter": 190,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 3483,
+               "modelName": "Z3 Roadster (E36)",
+               "motorType": "Essence",
+               "powerHpFrom": 140,
+               "powerHpTo": 140,
+               "powerKwFrom": 103,
+               "powerKwTo": 103,
+               "typeName": "1.9 i",
+               "typeNumber": 5109,
+               "valves": 4,
+               "yearOfConstrFrom": 199511,
+               "yearOfConstrTo": 199903,
+               "rmiTypeId": 4717
+            },
+            "vehicleDocId": "DR5109"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 526,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 526,
+               "ccmTech": 2748,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2748,
+               "cylinderCapacityLiter": 270,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 524,
+               "modelName": "CLASSE S A trois volumes (W108, W109)",
+               "motorType": "Essence",
+               "powerHpFrom": 160,
+               "powerHpTo": 160,
+               "powerKwFrom": 118,
+               "powerKwTo": 118,
+               "typeName": "300 SEL (109.016)",
+               "typeNumber": 526,
+               "valves": 2,
+               "yearOfConstrFrom": 196801,
+               "yearOfConstrTo": 197208,
+               "rmiTypeId": 450
+            }
+         }
+      ]
+   },
+   "status": 200
+}

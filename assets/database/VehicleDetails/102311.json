@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 102311,
+            "vehicleDetails": {
+               "carId": 102311,
+               "ccmTech": 798,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 798,
+               "cylinderCapacityLiter": 80,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Courroie",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 12108,
+               "modelName": "F",
+               "motorType": "Essence",
+               "powerHpFrom": 87,
+               "powerHpTo": 87,
+               "powerKwFrom": 64,
+               "powerKwTo": 64,
+               "typeName": "F 800 R (K73)",
+               "typeNumber": 102311,
+               "valves": 4,
+               "yearOfConstrFrom": 200512,
+               "yearOfConstrTo": 201412
+            }
+         }
+      ]
+   },
+   "status": 200
+}

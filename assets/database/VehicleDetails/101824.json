@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 101824,
+            "vehicleDetails": {
+               "carId": 101824,
+               "ccmTech": 1402,
+               "constructionType": "Moto",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1402,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 109,
+               "manuName": "SUZUKI",
+               "modId": 12629,
+               "modelName": "GSX",
+               "motorType": "Essence",
+               "powerHpFrom": 106,
+               "powerHpTo": 106,
+               "powerKwFrom": 78,
+               "powerKwTo": 78,
+               "typeName": "GSX 1400",
+               "typeNumber": 101824,
+               "valves": 4,
+               "yearOfConstrFrom": 200101,
+               "yearOfConstrTo": 200412
+            }
+         }
+      ]
+   },
+   "status": 200
+}

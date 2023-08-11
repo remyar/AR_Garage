@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1786,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1786,
+               "ccmTech": 1998,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1998,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 84,
+               "manuName": "OPEL",
+               "modId": 442,
+               "modelName": "CALIBRA A (C89)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.0 i 16V (M07)",
+               "typeNumber": 1786,
+               "valves": 4,
+               "yearOfConstrFrom": 199006,
+               "yearOfConstrTo": 199402,
+               "rmiTypeId": 1614
+            },
+            "vehicleDocId": "DR1786"
+         }
+      ]
+   },
+   "status": 200
+}

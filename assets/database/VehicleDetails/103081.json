@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 103081,
+            "vehicleDetails": {
+               "carId": 103081,
+               "ccmTech": 805,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 805,
+               "cylinderCapacityLiter": 80,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Cardan",
+               "manuId": 109,
+               "manuName": "SUZUKI",
+               "modId": 12653,
+               "modelName": "VX",
+               "motorType": "Essence",
+               "powerHpFrom": 60,
+               "powerHpTo": 60,
+               "powerKwFrom": 44,
+               "powerKwTo": 44,
+               "typeName": "VX 800 (VS51B)",
+               "typeNumber": 103081,
+               "valves": 4,
+               "yearOfConstrFrom": 198901,
+               "yearOfConstrTo": 199712
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 837,
+            "vehicleDetails": {
+               "carId": 837,
+               "ccmTech": 3956,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3956,
+               "cylinderCapacityLiter": 400,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 8657,
+               "modelName": "LAND CRUISER PRADO (_J15_)",
+               "motorType": "Essence",
+               "powerHpFrom": 282,
+               "powerHpTo": 282,
+               "powerKwFrom": 207,
+               "powerKwTo": 207,
+               "typeName": "4.0 V6 VVT-i (GRJ150_, GRJ125_, GRJ150)",
+               "typeNumber": 837,
+               "valves": 4,
+               "yearOfConstrFrom": 200908,
+               "rmiTypeId": 62369
+            },
+            "vehicleDocId": "DR837"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8006,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 8006,
+               "ccmTech": 3797,
+               "constructionType": "Monospace",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3797,
+               "cylinderCapacityLiter": 380,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 776,
+               "manuName": "FORD USA",
+               "modId": 1920,
+               "modelName": "WINDSTAR (A3)",
+               "motorType": "Essence",
+               "powerHpFrom": 203,
+               "powerHpTo": 203,
+               "powerKwFrom": 149,
+               "powerKwTo": 149,
+               "typeName": "3.8 V6",
+               "typeNumber": 8006,
+               "valves": 2,
+               "yearOfConstrFrom": 199501,
+               "yearOfConstrTo": 199806,
+               "rmiTypeId": 7153
+            }
+         }
+      ]
+   },
+   "status": 200
+}

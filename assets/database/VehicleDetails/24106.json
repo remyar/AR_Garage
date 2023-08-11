@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 24106,
+            "vehicleDetails": {
+               "carId": 24106,
+               "ccmTech": 5000,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 5000,
+               "cylinderCapacityLiter": 500,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 56,
+               "manuName": "JAGUAR",
+               "modId": 8797,
+               "modelName": "XJ (X351)",
+               "motorType": "Essence",
+               "powerHpFrom": 550,
+               "powerHpTo": 550,
+               "powerKwFrom": 405,
+               "powerKwTo": 405,
+               "typeName": "5.0 SCV8",
+               "typeNumber": 24106,
+               "valves": 4,
+               "yearOfConstrFrom": 201306,
+               "rmiTypeId": 80049
+            },
+            "vehicleDocId": "DR24106"
+         }
+      ]
+   },
+   "status": 200
+}

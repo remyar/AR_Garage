@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 102150,
+            "vehicleDetails": {
+               "carId": 102150,
+               "ccmTech": 125,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 125,
+               "cylinderCapacityLiter": 12,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 4064,
+               "manuName": "SACHS",
+               "modId": 12567,
+               "modelName": "BEE",
+               "motorType": "Essence",
+               "powerHpFrom": 9,
+               "powerHpTo": 9,
+               "powerKwFrom": 7,
+               "powerKwTo": 7,
+               "typeName": "Bee 125",
+               "typeNumber": 102150,
+               "valves": 2,
+               "yearOfConstrFrom": 200701,
+               "yearOfConstrTo": 201012
+            }
+         }
+      ]
+   },
+   "status": 200
+}

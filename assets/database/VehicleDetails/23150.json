@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 23150,
+            "vehicleDetails": {
+               "carId": 23150,
+               "ccmTech": 2521,
+               "constructionType": "Break",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2521,
+               "cylinderCapacityLiter": 250,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 6390,
+               "modelName": "V70 III (135)",
+               "motorType": "Essence",
+               "powerHpFrom": 200,
+               "powerHpTo": 200,
+               "powerKwFrom": 147,
+               "powerKwTo": 147,
+               "typeName": "2.5 T",
+               "typeNumber": 23150,
+               "valves": 4,
+               "yearOfConstrFrom": 200708,
+               "yearOfConstrTo": 200912,
+               "rmiTypeId": 52370
+            },
+            "vehicleDocId": "DR23150"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1950,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1950,
+               "ccmTech": 1043,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1043,
+               "cylinderCapacityLiter": 100,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 440,
+               "modelName": "POLO Coupé (86C, 80)",
+               "motorType": "Essence",
+               "powerHpFrom": 40,
+               "powerHpTo": 40,
+               "powerKwFrom": 29,
+               "powerKwTo": 29,
+               "typeName": "1.0",
+               "typeNumber": 1950,
+               "valves": 2,
+               "yearOfConstrFrom": 198205,
+               "yearOfConstrTo": 198610,
+               "rmiTypeId": 1768
+            },
+            "vehicleDocId": "DR1950"
+         }
+      ]
+   },
+   "status": 200
+}

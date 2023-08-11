@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3211,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3211,
+               "ccmTech": 3947,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 3947,
+               "cylinderCapacityLiter": 390,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 1820,
+               "manuName": "LAND ROVER",
+               "modId": 4669,
+               "modelName": "RANGE ROVER I",
+               "motorType": "Essence",
+               "powerHpFrom": 173,
+               "powerHpTo": 173,
+               "powerKwFrom": 127,
+               "powerKwTo": 127,
+               "typeName": "3.9 Cat 4x4",
+               "typeNumber": 3211,
+               "valves": 2,
+               "yearOfConstrFrom": 198811,
+               "yearOfConstrTo": 199407,
+               "rmiTypeId": 2936
+            },
+            "vehicleDocId": "DR3211"
+         }
+      ]
+   },
+   "status": 200
+}

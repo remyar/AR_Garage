@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 123197,
+            "vehicleDetails": {
+               "carId": 123197,
+               "ccmTech": 1995,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1995,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction intégrale",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 8541,
+               "modelName": "5 (F10)",
+               "motorType": "Diesel",
+               "powerHpFrom": 211,
+               "powerHpTo": 211,
+               "powerKwFrom": 155,
+               "powerKwTo": 155,
+               "typeName": "520 d xDrive",
+               "typeNumber": 123197,
+               "valves": 4,
+               "yearOfConstrFrom": 201310,
+               "yearOfConstrTo": 201610,
+               "rmiTypeId": 133020
+            },
+            "vehicleDocId": "DR123197"
+         }
+      ]
+   },
+   "status": 200
+}

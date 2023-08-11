@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 117679,
+            "vehicleDetails": {
+               "carId": 117679,
+               "ccmTech": 1499,
+               "constructionType": "SUV",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1499,
+               "cylinderCapacityLiter": 150,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 3773,
+               "manuName": "BAIC",
+               "modId": 14847,
+               "modelName": "SENOVA X25",
+               "motorType": "Essence",
+               "powerHpFrom": 116,
+               "powerHpTo": 116,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "1.5",
+               "typeNumber": 117679,
+               "valves": 4,
+               "yearOfConstrFrom": 201511,
+               "rmiTypeId": 124120
+            }
+         }
+      ]
+   },
+   "status": 200
+}

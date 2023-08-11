@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 144362,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 144362,
+               "ccmTech": 500,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 500,
+               "cylinderCapacityLiter": 50,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 2532,
+               "manuName": "BENELLI",
+               "modId": 36267,
+               "modelName": "BN",
+               "motorType": "Essence",
+               "powerHpFrom": 48,
+               "powerHpTo": 48,
+               "powerKwFrom": 35,
+               "powerKwTo": 35,
+               "typeName": "BN 502 C",
+               "typeNumber": 144362,
+               "valves": 4,
+               "yearOfConstrFrom": 201901
+            }
+         }
+      ]
+   },
+   "status": 200
+}

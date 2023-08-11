@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 23448,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 23448,
+               "ccmTech": 3950,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 3950,
+               "cylinderCapacityLiter": 390,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 1200,
+               "manuName": "LINCOLN",
+               "modId": 3554,
+               "modelName": "LS",
+               "motorType": "Essence",
+               "powerHpFrom": 245,
+               "powerHpTo": 245,
+               "powerKwFrom": 180,
+               "powerKwTo": 180,
+               "typeName": "3.9 V8 32V",
+               "typeNumber": 23448,
+               "valves": 4,
+               "yearOfConstrFrom": 199805,
+               "rmiTypeId": 52397
+            },
+            "vehicleDocId": "DR23448"
+         }
+      ]
+   },
+   "status": 200
+}

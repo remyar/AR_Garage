@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 5098,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 5098,
+               "ccmTech": 1895,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1895,
+               "cylinderCapacityLiter": 190,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 308,
+               "modelName": "3 Coupé (E36)",
+               "motorType": "Essence",
+               "powerHpFrom": 140,
+               "powerHpTo": 140,
+               "powerKwFrom": 103,
+               "powerKwTo": 103,
+               "typeName": "318 is",
+               "typeNumber": 5098,
+               "valves": 4,
+               "yearOfConstrFrom": 199509,
+               "yearOfConstrTo": 199904,
+               "rmiTypeId": 4707
+            },
+            "vehicleDocId": "DR5098"
+         }
+      ]
+   },
+   "status": 200
+}

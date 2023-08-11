@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10125,
+            "vehicleDetails": {
+               "carId": 10125,
+               "ccmTech": 5663,
+               "constructionType": "Pick-up",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 5663,
+               "cylinderCapacityLiter": 570,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 9599,
+               "modelName": "TUNDRA Pick-up (_K5_, _K6_)",
+               "motorType": "Essence",
+               "powerHpFrom": 386,
+               "powerHpTo": 386,
+               "powerKwFrom": 284,
+               "powerKwTo": 284,
+               "typeName": "5.7 4WD (USK56_, USK57_, USK55_, USK75_)",
+               "typeNumber": 10125,
+               "valves": 4,
+               "yearOfConstrFrom": 200611,
+               "rmiTypeId": 68604
+            },
+            "vehicleDocId": "DR10125"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3340,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3340,
+               "ccmTech": 1997,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1997,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 77,
+               "manuName": "MITSUBISHI",
+               "modId": 461,
+               "modelName": "GALANT V (E1_A)",
+               "motorType": "Essence",
+               "powerHpFrom": 102,
+               "powerHpTo": 102,
+               "powerKwFrom": 75,
+               "powerKwTo": 75,
+               "typeName": "2.0 GLS (E15A)",
+               "typeNumber": 3340,
+               "valves": 2,
+               "yearOfConstrFrom": 198406,
+               "yearOfConstrTo": 199004,
+               "rmiTypeId": 3056
+            },
+            "vehicleDocId": "DR3340"
+         }
+      ]
+   },
+   "status": 200
+}

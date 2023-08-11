@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6261,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6261,
+               "ccmTech": 1994,
+               "constructionType": "Break",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 1994,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 419,
+               "modelName": "PASSAT B2 Variant (33B)",
+               "motorType": "Essence",
+               "powerHpFrom": 116,
+               "powerHpTo": 116,
+               "powerKwFrom": 85,
+               "powerKwTo": 85,
+               "typeName": "2.0 Syncro",
+               "typeNumber": 6261,
+               "valves": 2,
+               "yearOfConstrFrom": 198405,
+               "yearOfConstrTo": 198803,
+               "rmiTypeId": 5635
+            },
+            "vehicleDocId": "DR6261"
+         }
+      ]
+   },
+   "status": 200
+}

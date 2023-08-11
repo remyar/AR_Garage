@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11761,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 11761,
+               "ccmTech": 2324,
+               "constructionType": "Break",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2324,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 4125,
+               "modelName": "BORA Variant (1J6)",
+               "motorType": "Essence",
+               "powerHpFrom": 150,
+               "powerHpTo": 150,
+               "powerKwFrom": 110,
+               "powerKwTo": 110,
+               "typeName": "2.3 V5",
+               "typeNumber": 11761,
+               "valves": 2,
+               "yearOfConstrFrom": 199905,
+               "yearOfConstrTo": 200010,
+               "rmiTypeId": 9257
+            },
+            "vehicleDocId": "DR11761"
+         }
+      ]
+   },
+   "status": 200
+}

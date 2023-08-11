@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 104598,
+            "vehicleDetails": {
+               "carId": 104598,
+               "ccmTech": 125,
+               "constructionType": "Moto",
+               "cylinder": 1,
+               "cylinderCapacityCcm": 125,
+               "cylinderCapacityLiter": 12,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Vario",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12292,
+               "modelName": "PS",
+               "motorType": "Essence",
+               "powerHpFrom": 14,
+               "powerHpTo": 14,
+               "powerKwFrom": 10,
+               "powerKwTo": 10,
+               "typeName": "PS 125i (JF17)",
+               "typeNumber": 104598,
+               "valves": 2,
+               "yearOfConstrFrom": 200601,
+               "yearOfConstrTo": 201112
+            }
+         }
+      ]
+   },
+   "status": 200
+}

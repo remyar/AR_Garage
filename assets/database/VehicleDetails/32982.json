@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 32982,
+            "vehicleDetails": {
+               "carId": 32982,
+               "ccmTech": 1149,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1149,
+               "cylinderCapacityLiter": 120,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 80,
+               "manuName": "NISSAN",
+               "modId": 8531,
+               "modelName": "KUBISTAR Camionnette (X76)",
+               "motorType": "Essence",
+               "powerHpFrom": 75,
+               "powerHpTo": 75,
+               "powerKwFrom": 55,
+               "powerKwTo": 55,
+               "typeName": "1.2 16V",
+               "typeNumber": 32982,
+               "valves": 4,
+               "yearOfConstrFrom": 200604,
+               "rmiTypeId": 62416
+            },
+            "vehicleDocId": "DR32982"
+         }
+      ]
+   },
+   "status": 200
+}

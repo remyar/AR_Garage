@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3598,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3598,
+               "ccmTech": 2367,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2367,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 203,
+               "modelName": "LAND CRUISER (_J7_)",
+               "motorType": "Essence",
+               "powerHpFrom": 105,
+               "powerHpTo": 105,
+               "powerKwFrom": 77,
+               "powerKwTo": 77,
+               "typeName": "2.4 (RJ70_, RJ73_)",
+               "typeNumber": 3598,
+               "valves": 2,
+               "yearOfConstrFrom": 198411,
+               "yearOfConstrTo": 199305,
+               "rmiTypeId": 3296
+            },
+            "vehicleDocId": "DR3598"
+         }
+      ]
+   },
+   "status": 200
+}

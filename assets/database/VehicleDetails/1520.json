@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1520,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1520,
+               "ccmTech": 1999,
+               "constructionType": "3/5 portes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 1999,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 251,
+               "modelName": "SIERRA I 3/5 portes (GBC)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "2.0",
+               "typeNumber": 1520,
+               "valves": 2,
+               "yearOfConstrFrom": 198208,
+               "yearOfConstrTo": 198410,
+               "rmiTypeId": 1360
+            },
+            "vehicleDocId": "DR1520"
+         }
+      ]
+   },
+   "status": 200
+}

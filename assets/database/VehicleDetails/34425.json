@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 34425,
+            "vehicleDetails": {
+               "carId": 34425,
+               "ccmTech": 2287,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2287,
+               "cylinderCapacityLiter": 230,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 55,
+               "manuName": "IVECO",
+               "modId": 9523,
+               "modelName": "DAILY III Camionnette",
+               "motorType": "Diesel",
+               "powerHpFrom": 136,
+               "powerHpTo": 136,
+               "powerKwFrom": 100,
+               "powerKwTo": 100,
+               "typeName": "29 L 14",
+               "typeNumber": 34425,
+               "valves": 4,
+               "yearOfConstrFrom": 200501,
+               "yearOfConstrTo": 200604,
+               "rmiTypeId": 60420
+            },
+            "vehicleDocId": "DR34425"
+         }
+      ]
+   },
+   "status": 200
+}

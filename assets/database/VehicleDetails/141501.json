@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 141501,
+            "vehicleDetails": {
+               "carId": 141501,
+               "ccmTech": 1995,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1995,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel/électrique",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 39625,
+               "modelName": "3 Touring (G21, G81)",
+               "motorType": "Hybride léger",
+               "powerHpFrom": 136,
+               "powerHpTo": 136,
+               "powerKwFrom": 100,
+               "powerKwTo": 100,
+               "typeName": "318 d Mild-Hybrid",
+               "typeNumber": 141501,
+               "valves": 4,
+               "yearOfConstrFrom": 202008,
+               "rmiTypeId": 169921
+            },
+            "vehicleDocId": "DR141501"
+         }
+      ]
+   },
+   "status": 200
+}

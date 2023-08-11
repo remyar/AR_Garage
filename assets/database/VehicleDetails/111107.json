@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 111107,
+            "vehicleDetails": {
+               "carId": 111107,
+               "ccmTech": 1998,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1998,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 36,
+               "manuName": "FORD",
+               "modId": 13127,
+               "modelName": "MONDEO V Turnier (CF)",
+               "motorType": "Diesel",
+               "powerHpFrom": 210,
+               "powerHpTo": 210,
+               "powerKwFrom": 154,
+               "powerKwTo": 154,
+               "typeName": "2.0 TDCi Bi-Turbo",
+               "typeNumber": 111107,
+               "valves": 4,
+               "yearOfConstrFrom": 201503,
+               "rmiTypeId": 114655
+            },
+            "vehicleDocId": "DR111107"
+         }
+      ]
+   },
+   "status": 200
+}

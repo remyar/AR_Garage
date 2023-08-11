@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 104857,
+            "vehicleDetails": {
+               "carId": 104857,
+               "ccmTech": 745,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 745,
+               "cylinderCapacityLiter": 74,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12308,
+               "modelName": "VT",
+               "motorType": "Essence",
+               "powerHpFrom": 46,
+               "powerHpTo": 46,
+               "powerKwFrom": 34,
+               "powerKwTo": 34,
+               "typeName": "VT 750 Shadow (RC50)",
+               "typeNumber": 104857,
+               "valves": 3,
+               "yearOfConstrFrom": 200911,
+               "yearOfConstrTo": 201312
+            }
+         }
+      ]
+   },
+   "status": 200
+}

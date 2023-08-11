@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10722,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 10722,
+               "ccmTech": 2212,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 2212,
+               "cylinderCapacityLiter": 220,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 107,
+               "manuName": "SUBARU",
+               "modId": 4024,
+               "modelName": "LEGACY II Break (BG)",
+               "motorType": "Essence",
+               "powerHpFrom": 131,
+               "powerHpTo": 131,
+               "powerKwFrom": 96,
+               "powerKwTo": 96,
+               "typeName": "2.2 i 4WD (BG7)",
+               "typeNumber": 10722,
+               "valves": 4,
+               "yearOfConstrFrom": 199606,
+               "yearOfConstrTo": 199811,
+               "rmiTypeId": 8792
+            },
+            "vehicleDocId": "DR10722"
+         }
+      ]
+   },
+   "status": 200
+}

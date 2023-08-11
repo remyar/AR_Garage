@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 11780,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 11780,
+               "ccmTech": 1913,
+               "constructionType": "Camionnette",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1913,
+               "cylinderCapacityLiter": 190,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 1629,
+               "modelName": "TRANSPORTER T3 Camionnette (24_, 25_)",
+               "motorType": "Essence",
+               "powerHpFrom": 90,
+               "powerHpTo": 90,
+               "powerKwFrom": 66,
+               "powerKwTo": 66,
+               "typeName": "1.9",
+               "typeNumber": 11780,
+               "valves": 2,
+               "yearOfConstrFrom": 198308,
+               "yearOfConstrTo": 198902,
+               "rmiTypeId": 9276
+            },
+            "vehicleDocId": "DR11780"
+         }
+      ]
+   },
+   "status": 200
+}

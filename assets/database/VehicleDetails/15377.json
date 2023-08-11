@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 15377,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 15377,
+               "ccmTech": 2656,
+               "constructionType": "Monospace",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2656,
+               "cylinderCapacityLiter": 270,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 183,
+               "manuName": "HYUNDAI",
+               "modId": 4627,
+               "modelName": "TRAJET (FO)",
+               "motorType": "Essence",
+               "powerHpFrom": 173,
+               "powerHpTo": 173,
+               "powerKwFrom": 127,
+               "powerKwTo": 127,
+               "typeName": "2.7 V6",
+               "typeNumber": 15377,
+               "valves": 4,
+               "yearOfConstrFrom": 200009,
+               "yearOfConstrTo": 200807,
+               "rmiTypeId": 11511
+            },
+            "vehicleDocId": "DR15377"
+         }
+      ]
+   },
+   "status": 200
+}

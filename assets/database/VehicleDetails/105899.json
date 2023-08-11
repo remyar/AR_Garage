@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 105899,
+            "vehicleDetails": {
+               "carId": 105899,
+               "ccmTech": 2979,
+               "constructionType": "Décapotable",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2979,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 16,
+               "manuName": "BMW",
+               "modId": 11600,
+               "modelName": "4 Décapotable (F33, F83)",
+               "motorType": "Essence",
+               "powerHpFrom": 431,
+               "powerHpTo": 431,
+               "powerKwFrom": 317,
+               "powerKwTo": 317,
+               "typeName": "M4",
+               "typeNumber": 105899,
+               "valves": 4,
+               "yearOfConstrFrom": 201407,
+               "rmiTypeId": 90006
+            },
+            "vehicleDocId": "DR105899"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 497,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 497,
+               "ccmTech": 2996,
+               "constructionType": "Break",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2996,
+               "cylinderCapacityLiter": 300,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 24,
+               "modelName": "124 Break (S124)",
+               "motorType": "Diesel",
+               "powerHpFrom": 110,
+               "powerHpTo": 110,
+               "powerKwFrom": 81,
+               "powerKwTo": 81,
+               "typeName": "300 T D (124.190)",
+               "typeNumber": 497,
+               "valves": 2,
+               "yearOfConstrFrom": 198901,
+               "yearOfConstrTo": 199306,
+               "rmiTypeId": 433
+            },
+            "vehicleDocId": "DR497"
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,35 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 144189,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 144189,
+               "ccmTech": 745,
+               "constructionType": "Moto",
+               "cylinder": 2,
+               "cylinderCapacityCcm": 745,
+               "cylinderCapacityLiter": 75,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Chaîne",
+               "manuId": 45,
+               "manuName": "HONDA",
+               "modId": 12282,
+               "modelName": "NC",
+               "motorType": "Essence",
+               "powerHpFrom": 59,
+               "powerHpTo": 59,
+               "powerKwFrom": 43,
+               "powerKwTo": 43,
+               "typeName": "NC 750 X (RH09)",
+               "typeNumber": 144189,
+               "valves": 4,
+               "yearOfConstrFrom": 202101
+            }
+         }
+      ]
+   },
+   "status": 200
+}

@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 2801,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 2801,
+               "ccmTech": 2849,
+               "constructionType": "A trois volumes",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 2849,
+               "cylinderCapacityLiter": 280,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 562,
+               "modelName": "760 (704, 764)",
+               "motorType": "Essence",
+               "powerHpFrom": 143,
+               "powerHpTo": 143,
+               "powerKwFrom": 105,
+               "powerKwTo": 105,
+               "typeName": "2.8",
+               "typeNumber": 2801,
+               "valves": 2,
+               "yearOfConstrFrom": 198605,
+               "yearOfConstrTo": 199108,
+               "rmiTypeId": 2563
+            },
+            "vehicleDocId": "DR2801"
+         }
+      ]
+   },
+   "status": 200
+}

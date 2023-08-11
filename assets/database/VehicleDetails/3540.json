@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 3540,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 3540,
+               "ccmTech": 1995,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1995,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 111,
+               "manuName": "TOYOTA",
+               "modId": 449,
+               "modelName": "CAMRY A trois volumes (_V1_)",
+               "motorType": "Essence",
+               "powerHpFrom": 107,
+               "powerHpTo": 107,
+               "powerKwFrom": 79,
+               "powerKwTo": 79,
+               "typeName": "2.0 (SV11_)",
+               "typeNumber": 3540,
+               "valves": 2,
+               "yearOfConstrFrom": 198302,
+               "yearOfConstrTo": 198610,
+               "rmiTypeId": 3242
+            },
+            "vehicleDocId": "DR3540"
+         }
+      ]
+   },
+   "status": 200
+}

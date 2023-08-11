@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1698,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1698,
+               "ccmTech": 1781,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1781,
+               "cylinderCapacityLiter": 180,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 408,
+               "modelName": "PASSAT B2 (32B)",
+               "motorType": "Essence",
+               "powerHpFrom": 87,
+               "powerHpTo": 87,
+               "powerKwFrom": 64,
+               "powerKwTo": 64,
+               "typeName": "1.8",
+               "typeNumber": 1698,
+               "valves": 2,
+               "yearOfConstrFrom": 198605,
+               "yearOfConstrTo": 198803,
+               "rmiTypeId": 1528
+            },
+            "vehicleDocId": "DR1698"
+         }
+      ]
+   },
+   "status": 200
+}

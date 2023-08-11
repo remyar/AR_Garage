@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 130835,
+            "vehicleDetails": {
+               "carId": 130835,
+               "ccmTech": 1969,
+               "constructionType": "Break",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1969,
+               "cylinderCapacityLiter": 200,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 38603,
+               "modelName": "V60 II (225)",
+               "motorType": "Essence",
+               "powerHpFrom": 250,
+               "powerHpTo": 250,
+               "powerKwFrom": 184,
+               "powerKwTo": 184,
+               "typeName": "T5",
+               "typeNumber": 130835,
+               "valves": 4,
+               "yearOfConstrFrom": 201802,
+               "rmiTypeId": 143798
+            },
+            "vehicleDocId": "DR130835"
+         }
+      ]
+   },
+   "status": 200
+}

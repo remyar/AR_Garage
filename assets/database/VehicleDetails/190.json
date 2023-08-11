@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 190,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 190,
+               "ccmTech": 1570,
+               "constructionType": "Coupé",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1570,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 2,
+               "manuName": "ALFA ROMEO",
+               "modId": 334,
+               "modelName": "ALFETTA GT (116_)",
+               "motorType": "Essence",
+               "powerHpFrom": 107,
+               "powerHpTo": 107,
+               "powerKwFrom": 79,
+               "powerKwTo": 79,
+               "typeName": "1.6 (11604)",
+               "typeNumber": 190,
+               "valves": 2,
+               "yearOfConstrFrom": 197601,
+               "yearOfConstrTo": 198209,
+               "rmiTypeId": 162
+            },
+            "vehicleDocId": "DR190"
+         }
+      ]
+   },
+   "status": 200
+}

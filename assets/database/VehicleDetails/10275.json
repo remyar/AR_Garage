@@ -1,0 +1,37 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 10275,
+            "vehicleDetails": {
+               "carId": 10275,
+               "ccmTech": 2400,
+               "constructionType": "Break",
+               "cylinder": 5,
+               "cylinderCapacityCcm": 2400,
+               "cylinderCapacityLiter": 240,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Traction avant",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 9124,
+               "modelName": "V60 I (155)",
+               "motorType": "Diesel",
+               "powerHpFrom": 215,
+               "powerHpTo": 215,
+               "powerKwFrom": 158,
+               "powerKwTo": 158,
+               "typeName": "D5",
+               "typeNumber": 10275,
+               "valves": 4,
+               "yearOfConstrFrom": 201104,
+               "yearOfConstrTo": 201512,
+               "rmiTypeId": 68505
+            },
+            "vehicleDocId": "DR10275"
+         }
+      ]
+   },
+   "status": 200
+}

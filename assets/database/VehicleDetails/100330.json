@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 100330,
+            "vehicleDetails": {
+               "carId": 100330,
+               "ccmTech": 4663,
+               "constructionType": "A trois volumes",
+               "cylinder": 8,
+               "cylinderCapacityCcm": 4663,
+               "cylinderCapacityLiter": 470,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection directe",
+               "impulsionType": "Propulsion",
+               "manuId": 74,
+               "manuName": "MERCEDES-BENZ",
+               "modId": 11234,
+               "modelName": "CLASSE S (W222, V222, X222)",
+               "motorType": "Essence",
+               "powerHpFrom": 435,
+               "powerHpTo": 435,
+               "powerKwFrom": 320,
+               "powerKwTo": 320,
+               "typeName": "S 500 (222.082, 222.182)",
+               "typeNumber": 100330,
+               "valves": 4,
+               "yearOfConstrFrom": 201309,
+               "rmiTypeId": 111412
+            },
+            "vehicleDocId": "DR100330"
+         }
+      ]
+   },
+   "status": 200
+}

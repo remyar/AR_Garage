@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 6008,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 6008,
+               "ccmTech": 1397,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1397,
+               "cylinderCapacityLiter": 140,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Propulsion",
+               "manuId": 120,
+               "manuName": "VOLVO",
+               "modId": 370,
+               "modelName": "340-360 A trois volumes (344)",
+               "motorType": "Essence",
+               "powerHpFrom": 68,
+               "powerHpTo": 68,
+               "powerKwFrom": 50,
+               "powerKwTo": 50,
+               "typeName": "1.4",
+               "typeNumber": 6008,
+               "valves": 2,
+               "yearOfConstrFrom": 198608,
+               "yearOfConstrTo": 198812,
+               "rmiTypeId": 5417
+            },
+            "vehicleDocId": "DR6008"
+         }
+      ]
+   },
+   "status": 200
+}

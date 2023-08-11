@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 1602,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 1602,
+               "ccmTech": 1272,
+               "constructionType": "3/5 portes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1272,
+               "cylinderCapacityLiter": 130,
+               "fuelType": "Diesel",
+               "fuelTypeProcess": "Moteur à injection indirecte",
+               "impulsionType": "Traction avant",
+               "manuId": 121,
+               "manuName": "VW",
+               "modId": 436,
+               "modelName": "POLO II (86C, 80)",
+               "motorType": "Diesel",
+               "powerHpFrom": 45,
+               "powerHpTo": 45,
+               "powerKwFrom": 33,
+               "powerKwTo": 33,
+               "typeName": "1.3 D",
+               "typeNumber": 1602,
+               "valves": 2,
+               "yearOfConstrFrom": 198608,
+               "yearOfConstrTo": 199007,
+               "rmiTypeId": 1440
+            },
+            "vehicleDocId": "DR1602"
+         }
+      ]
+   },
+   "status": 200
+}

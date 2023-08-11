@@ -1,0 +1,38 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 4601,
+            "vehicleDetails": {
+               "brakeSystem": "hydraulique",
+               "carId": 4601,
+               "ccmTech": 3964,
+               "constructionType": "Véhicule tout terrain fermé",
+               "cylinder": 6,
+               "cylinderCapacityCcm": 3964,
+               "cylinderCapacityLiter": 400,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction intégrale",
+               "manuId": 882,
+               "manuName": "JEEP",
+               "modId": 4243,
+               "modelName": "GRAND CHEROKEE I (ZJ, ZG)",
+               "motorType": "Essence",
+               "powerHpFrom": 184,
+               "powerHpTo": 184,
+               "powerKwFrom": 135,
+               "powerKwTo": 135,
+               "typeName": "4.0 i 4x4 (ZJ)",
+               "typeNumber": 4601,
+               "valves": 2,
+               "yearOfConstrFrom": 199109,
+               "yearOfConstrTo": 199904,
+               "rmiTypeId": 4251
+            },
+            "vehicleDocId": "DR4601"
+         }
+      ]
+   },
+   "status": 200
+}

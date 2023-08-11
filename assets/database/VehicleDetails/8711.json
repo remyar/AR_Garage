@@ -1,0 +1,36 @@
+{
+   "data": {
+      "array": [
+         {
+            "carId": 8711,
+            "vehicleDetails": {
+               "carId": 8711,
+               "ccmTech": 1598,
+               "constructionType": "A trois volumes",
+               "cylinder": 4,
+               "cylinderCapacityCcm": 1598,
+               "cylinderCapacityLiter": 160,
+               "fuelType": "Essence",
+               "fuelTypeProcess": "Injection dans le collecteur d'admission/Carburateur",
+               "impulsionType": "Traction avant",
+               "manuId": 138,
+               "manuName": "CHEVROLET",
+               "modId": 8127,
+               "modelName": "CRUZE (J300)",
+               "motorType": "Essence",
+               "powerHpFrom": 124,
+               "powerHpTo": 124,
+               "powerKwFrom": 91,
+               "powerKwTo": 91,
+               "typeName": "1.6",
+               "typeNumber": 8711,
+               "valves": 4,
+               "yearOfConstrFrom": 200905,
+               "rmiTypeId": 67553
+            },
+            "vehicleDocId": "DR8711"
+         }
+      ]
+   },
+   "status": 200
+}
