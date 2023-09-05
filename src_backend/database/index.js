@@ -1,21 +1,23 @@
 const fs = require('fs');
 const path = require("path");
+const StreamZip = require('node-stream-zip');
 
 let dtabasePath = undefined;
 let id = 20754;
 
 async function setdbPath(_path, options) {
-    dtabasePath = _path;
+    const zip = new StreamZip.async({ file: _path });
+    dtabasePath = zip;
 }
 
 async function readFileSync(_databaseName) {
-    return new Promise((resolve, reject) => {
-        if (fs.existsSync(path.resolve(dtabasePath, _databaseName + ".json"))) {
-            let result = fs.readFileSync(path.resolve(dtabasePath, _databaseName + ".json"));
-            result = JSON.parse(result);
+    return new Promise(async (resolve, reject) => {
+        try{
+            const data = await dtabasePath.entryData(_databaseName+ ".json");
+            let result =  JSON.parse(data.toString());
             resolve(result);
-        } else {
-            reject();
+        } catch(err){
+            reject(err);
         }
     })
 }
@@ -26,7 +28,7 @@ async function getManufacturers() {
             let result = await readFileSync("Manufacturers/" + id);
             resolve(result?.data?.array || []);
         } catch (err) {
-            reject(err);
+            resolve([]);
         }
     });
 }
@@ -43,19 +45,19 @@ async function getModelSeries(manuId) {
 }
 
 async function getVehicle(modelId) {
-    return new Promise((resolve, reject) => {
-        let dir = fs.readdirSync(path.resolve(dtabasePath, "Vehicle"));
-        let result = undefined;
-        dir.forEach((_dir) => {
-            if (result == undefined) {
-                if (fs.existsSync(path.resolve(dtabasePath, "Vehicle", _dir, modelId + ".json"))) {
-                    result = fs.readFileSync(path.resolve(dtabasePath, "Vehicle", _dir, modelId + ".json"));
-                    result = JSON.parse(result);
+    return new Promise(async (resolve, reject) => {
+        try{
+            const entries = await dtabasePath.entries();
+            let result = undefined;
+            for (const entry of Object.values(entries)) {
+                if ( entry.name.startsWith("Vehicle/") && entry.name.endsWith(modelId + ".json") ){
+                    result = await readFileSync(entry.name.replace(".json", ""));
                 }
             }
-        });
-
-        resolve(result?.data?.array || []);
+            resolve(result?.data?.array || []);
+        }catch(err){
+            resolve([]);
+        }
     });
 }
 
