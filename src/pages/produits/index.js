@@ -68,6 +68,9 @@ function ProduitsPage(props) {
     ];
 
     let rows = [...produits];
+    
+    rows = rows.sort((a, b) => a.nom.toLowerCase() > b.nom.toLowerCase() ? -1 : 1);
+    rows = rows.filter((el) => el.nom.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(filter) || el.ref_fab.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(filter))
 
     return <Box>
 

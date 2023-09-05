@@ -61,9 +61,20 @@ async function getVehicle(modelId) {
     });
 }
 
+async function getVehicleDetails(id){
+    return new Promise(async (resolve, reject) => {
+        try {
+            let result = await readFileSync("VehicleDetails/" + id);
+            resolve(result?.data?.array || []);
+        } catch (err) {
+            resolve([]);
+        }
+    });
+}
 module.exports = {
     setdbPath,
     getManufacturers,
     getModelSeries,
-    getVehicle
+    getVehicle,
+    getVehicleDetails
 }

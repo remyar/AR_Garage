@@ -1,4 +1,5 @@
 import createAction from '../../middleware/actions';
+import { ipcRenderer } from 'electron';
 
 export async function getVehicule(id, { extra, getState }) {
 
@@ -7,8 +8,9 @@ export async function getVehicule(id, { extra, getState }) {
     try {
         let vehicule = {};
 
-        let vehicleDetails = await api.get("/data/VehicleDetails/" + id + ".json");
-        vehicleDetails = vehicleDetails?.data?.array[0]?.vehicleDetails || {};
+        let vehicleDetails = ipcRenderer.sendSync("database.getVehicleDetails", id);
+
+        vehicleDetails = vehicleDetails && vehicleDetails[0] && vehicleDetails[0].vehicleDetails || {};
         vehicule.brand = vehicleDetails?.manuName || "";
         vehicule.model = vehicleDetails?.modelName || "";
         vehicule.puissance = vehicleDetails?.powerHpFrom || "";
@@ -20,7 +22,6 @@ export async function getVehicule(id, { extra, getState }) {
         vehicule.vin = "";
         vehicule.energy = vehicleDetails?.fuelType ? vehicleDetails?.fuelType : "";
         vehicule.deleted= 0;
-      //  vehicule.plate= plate;
 
         return {
             vehicule: vehicule
