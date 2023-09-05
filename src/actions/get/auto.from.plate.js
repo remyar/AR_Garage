@@ -28,6 +28,24 @@ export async function getAutoFromPlate(plate = "AA-456-BB", { extra, getState })
 
         vehicule.tecdocId = reparCarInfos?.car_identification?.ktypnr || undefined;
 
+        if ( vehicule.tecdocId ) {
+            
+            let tecdocInformations = ipcRenderer.sendSync("database.getVehicleDetails", vehicule.tecdocId);
+
+            if ( tecdocInformations && tecdocInformations[0] && tecdocInformations[0].vehicleDetails ){
+                tecdocInformations = tecdocInformations[0].vehicleDetails;
+
+                vehicule.model =  tecdocInformations.modelName;
+
+                vehicule.designation = tecdocInformations.manuName || "";
+                vehicule.designation += " "
+                vehicule.designation += tecdocInformations.modelName || "";
+
+            }
+
+            console.log(tecdocInformations);
+        }
+
         vehicule.deleted = false;
 
         await database.saveVehicule(vehicule);
