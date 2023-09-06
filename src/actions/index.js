@@ -4,6 +4,7 @@ import del from "./del";
 import pdf from "./pdf";
 import electron from "./electron";
 import database from "./database";
+import debug from "./debug";
 
 export default {
     set,
@@ -11,5 +12,6 @@ export default {
     del,
     pdf,
     electron,
-    database
+    database,
+    debug
 }

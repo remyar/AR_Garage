@@ -382,7 +382,7 @@ function SettingsPage(props) {
                     <Grid item xs={2} />
                 </Grid>
             </ListItem>
-                        <br />
+            <br />
             {/*<ListItem disablePadding>
                 <Typography variant="h5" gutterBottom component="div">{intl.formatMessage({ id: 'settings.install.database' })}</Typography>
             </ListItem>
@@ -402,7 +402,7 @@ function SettingsPage(props) {
                     setDisplayAmBrandsSelector(true);
                 }}>Selectionner les Fabriquants</Button>
             </ListItem>}
-            <br />
+            <br />*/}
             <ListItem disablePadding>
                 <Typography variant="h5" gutterBottom component="div">{intl.formatMessage({ id: 'settings.debug' })}</Typography>
             </ListItem>
@@ -410,9 +410,9 @@ function SettingsPage(props) {
             <ListItem>
                 <ListItemText primary="Ouvrir la console" />
                 <Switch onChange={async (event) => {
-                    props.dispatch(actions.set.openConsole(event.target.checked));
+                    props.dispatch(actions.debug.toggleConsole(event.target.checked));
                 }} />
-            </ListItem>*/}
+            </ListItem>
         </List>
 
         <ChangeUUIDModal
