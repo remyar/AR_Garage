@@ -13,16 +13,16 @@ async function get(options) {
                 }
                 resolve(r);
             } else if (response.status == 404) {
-                reject({ message: "Not found" });
+                resolve({ message: "Not found" });
             } else if (response.status == 204) {
-                reject({ message: "Unknow Vehicule" });
+                resolve({ message: "Unknow Vehicule" });
             } else if (response.status == 500) {
-                reject({ message: "Temporary unavailable" });
+                resolve({ message: "Temporary unavailable" });
             } else {
-                reject({ message: "To many request" });
+                resolve({ message: "To many request" });
             }
         } catch (err) {
-            reject(err);
+            resolve(err);
         }
     });
 }
@@ -57,16 +57,16 @@ async function post(options) {
                 }
                 resolve(r)
             } else if (response.status == 404) {
-                reject({ message: "Not found" });
+                resolve({ message: "Not found" });
             } else if (response.status == 204) {
-                reject({ message: "Unknow Vehicule" });
+                resolve({ message: "Unknow Vehicule" });
             } else if (response.status == 500) {
-                reject({ message: "Temporary unavailable" });
+                resolve({ message: "Temporary unavailable" });
             } else {
-                reject({ message: "To many request" });
+                resolve({ message: "To many request" });
             }
         } catch (err) {
-            reject(err);
+            resolve(err);
         }
     });
 }
