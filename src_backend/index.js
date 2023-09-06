@@ -15,8 +15,11 @@ module.exports = {
     start: async () => {
         try {
             await database.setdbPath(isDev ? "./assets/database.zip" : path.join(process.resourcesPath, "database.zip"));
-
+            
             ipcMain.on('OPEN_DEV_TOOLS', (event, value) => {
+                
+                console.log("OPEN_DEV_TOOLS" , value)
+
                 if (value) {
                     mainWindow.webContents.openDevTools();
                 } else {

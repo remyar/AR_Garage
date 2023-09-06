@@ -2,8 +2,10 @@ const fetch = require('electron-fetch').default;
 
 async function get(options) {
     return new Promise(async (resolve, reject) => {
+        console.log("get" , options);
         try {
             let response = await fetch(options.url);
+            console.log(response);
             if (response.status == 200) {
                 let r = undefined;
                 if (response.headers.get('content-type').includes("text/html")) {
@@ -22,6 +24,7 @@ async function get(options) {
                 resolve({ message: "To many request" });
             }
         } catch (err) {
+            console.error(err);
             resolve(err);
         }
     });
@@ -29,6 +32,8 @@ async function get(options) {
 
 async function post(options) {
     return new Promise(async (resolve, reject) => {
+        console.log("post" , options);
+
         try {
             let headers = { ...options.headers };
             let config = { ...options.config };
@@ -41,6 +46,8 @@ async function post(options) {
                 body: JSON.stringify(options.data),
                 headers: new Headers(headers)
             });
+
+            console.log(response);
 
             if (response.status == 200) {
                 let r = undefined;
@@ -66,6 +73,7 @@ async function post(options) {
                 resolve({ message: "To many request" });
             }
         } catch (err) {
+            console.error(err);
             resolve(err);
         }
     });
