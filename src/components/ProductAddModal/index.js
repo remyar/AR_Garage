@@ -25,6 +25,10 @@ function ProductAddModal(props) {
         nom: '',
     }
 
+    if (props.editProduct?.id != undefined) {
+        initialValues = { ...props.editProduct };
+    }
+
     return <Modal display={props.display || false} >
 
         <Paper elevation={0}>

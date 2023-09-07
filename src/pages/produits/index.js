@@ -8,8 +8,9 @@ import SpeedDial from '@mui/material/SpeedDial';
 import Box from '@mui/material/Box';
 
 import SpeedDialIcon from '@mui/material/SpeedDialIcon';
-import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 
+import EditIcon from '@mui/icons-material/Edit';
+import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 import AddIcon from '@mui/icons-material/Add';
 
 import ProductAddModal from '../../components/ProductAddModal/index';
@@ -55,10 +56,10 @@ function ProduitsPage(props) {
         {
             label: '', maxWidth: 100, minWidth: 100, align: "right", render: (row) => {
                 return <span>
-                    {/*<EditIcon sx={{ cursor: 'pointer' }} onClick={() => {
-                        setDisplayProductEditModal(row);
+                    <EditIcon sx={{ cursor: 'pointer' }} onClick={() => {
                         setDisplayProductAddModal(true);
-                    }} />*/}
+                        setDisplayProductEditModal(row);
+                    }} />
                     <DeleteForeverIcon sx={{ color: 'red', cursor: 'pointer', marginLeft: '15px' }} onClick={() => {
                         setDisplayConfirmModal(row);
                     }} />
@@ -69,7 +70,7 @@ function ProduitsPage(props) {
 
     let rows = [...produits];
     
-    rows = rows.sort((a, b) => a.nom.toLowerCase() > b.nom.toLowerCase() ? -1 : 1);
+    rows = rows.sort((a, b) => a.id > b.id ? -1 : 1);
     rows = rows.filter((el) => el.nom.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(filter) || el.ref_fab.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(filter))
 
     return <Box>

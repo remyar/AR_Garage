@@ -9,6 +9,7 @@ import Box from '@mui/material/Box';
 
 import SpeedDialIcon from '@mui/material/SpeedDialIcon';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
+import EditIcon from '@mui/icons-material/Edit';
 
 import AddIcon from '@mui/icons-material/Add';
 
@@ -30,7 +31,7 @@ function ServicesPage(props) {
     const [services, setServices] = useState([]);
     const [displayConfirmModal, setDisplayConfirmModal] = useState(undefined);
     const [displayServiceAddModal, setDisplayServiceAddModal] = useState(false);
-    const [displayProductEditModal, setDisplayProductEditModal] = useState(undefined);
+    const [displayServiceEditModal, setDisplayServiceEditModal] = useState(undefined);
 
     const [filter, setFilter] = useState("");
 
@@ -54,8 +55,12 @@ function ServicesPage(props) {
         { id: 'ref_fab', label: 'Référence', minWidth: 100 },
         { id: 'nom', label: 'Désignation', minWidth: 100 },
         {
-            label: '', maxWidth: 100, minWidth: 100, align: "right" , render: (row) => {
+            label: '', maxWidth: 100, minWidth: 100, align: "right", render: (row) => {
                 return <span>
+                    <EditIcon sx={{ cursor: 'pointer' }} onClick={() => {
+                        setDisplayServiceAddModal(true);
+                        setDisplayServiceEditModal(row);
+                    }} />
                     <DeleteForeverIcon sx={{ color: 'red', cursor: 'pointer', marginLeft: '15px' }} onClick={() => {
                         setDisplayConfirmModal(row);
                     }} />
@@ -65,7 +70,7 @@ function ServicesPage(props) {
     ];
 
     let rows = [...services];
-    rows = rows.sort((a, b) => a.nom.toLowerCase() > b.nom.toLowerCase() ? -1 : 1);
+    rows = rows.sort((a, b) => a.id > b.id ? -1 : 1);
     rows = rows.filter((el) => el.nom.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(filter) || el.ref_fab.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(filter))
 
     return <Box>
@@ -89,19 +94,25 @@ function ServicesPage(props) {
         />}
 
         {displayServiceAddModal && <ServiceAddModal
-            editClient={displayProductEditModal}
+            editService={displayServiceEditModal}
             display={displayServiceAddModal}
             onClose={() => {
                 setDisplayServiceAddModal(false);
+                setDisplayServiceEditModal(undefined);
             }}
             onValidate={async (service, edit) => {
                 setDisplayLoader(true);
                 setDisplayServiceAddModal(false);
 
-                await props.dispatch(actions.set.saveService(service));
-                await fetchData();
-                
+                try {
+                    await props.dispatch(actions.set.saveService(service));
+                    await fetchData();
+                } catch (err) {
+
+                }
+
                 setDisplayLoader(false);
+                setDisplayServiceEditModal(undefined);
             }}
         />}
 
