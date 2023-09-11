@@ -1,4 +1,5 @@
 import saveSettings from "./save.settings";
+import tempSettings from "./temp.settings";
 import saveEntrepriseSettings from "./save.entreprise.settings";
 import savePaiementSettings from "./save.paiement.settings";
 import saveEntrepriseLogo from "./save.entreprise.logo";
@@ -14,6 +15,7 @@ import installationProgress from './installation.progress';
 
 export default {
     saveSettings,
+    tempSettings,
     saveEntrepriseSettings,
     savePaiementSettings,
     saveEntrepriseLogo,

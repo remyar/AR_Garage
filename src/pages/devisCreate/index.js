@@ -3,6 +3,7 @@ import { injectIntl } from 'react-intl';
 import { withStoreProvider } from '../../providers/StoreProvider';
 import { withNavigation } from '../../providers/navigation';
 import { withSnackBar } from '../../providers/snackBar';
+import { useParams } from "react-router-dom";
 
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
@@ -15,6 +16,7 @@ import SpeedDialIcon from '@mui/material/SpeedDialIcon';
 import SaveIcon from '@mui/icons-material/Save';
 import AddIcon from '@mui/icons-material/Add';
 import PrintIcon from '@mui/icons-material/Print';
+import PauseCircleFilledIcon from '@mui/icons-material/PauseCircleFilled';
 
 import DataTable from '../../components/DataTable';
 import PlaqueValue from '../../components/PlaqueValue';
@@ -29,6 +31,7 @@ import Loader from '../../components/Loader';
 
 function DevisCreatePage(props) {
     const intl = props.intl;
+    let params = useParams();
 
     const [displayLoader, setDisplayLoader] = useState(false);
 
@@ -59,10 +62,22 @@ function DevisCreatePage(props) {
         setProduits(result.products.filter((el) => ((el.deleted !== 1) && (el.deleted !== true))));
         result = await props.dispatch(actions.get.allServices());
         setServices(result.services.filter((el) => ((el.deleted !== 1) && (el.deleted !== true))));
-    }
 
+
+    }
+    
+    async function _fetchData(){
+        await fetchData();
+        if ( params.id != undefined ){
+            let result = await props.dispatch(actions.get.devis(params.id));
+            setSelectedClient(result.devis.client);
+            await props.dispatch(actions.set.selectedVehicule(result.devis.vehicule));
+            setSelectedVehicule(result.devis.vehicule);
+            setLines([...result.devis.products]);
+        }
+    }
     useEffect(() => {
-        fetchData();
+        _fetchData();
     }, []);
 
     const headers = [
@@ -239,17 +254,41 @@ function DevisCreatePage(props) {
                     setDisplayServiceAddToDevisModal(true);
                 }}
             />
+
+            <SpeedDialAction
+                key={'PendingDevis'} 
+                icon={<PauseCircleFilledIcon />}
+                tooltipTitle={intl.formatMessage({ id: 'devis.pending' })}
+                onClick={async () => {
+                    let devis = {
+                        id : params.id,
+                        client: { ...selectedClient },
+                        vehicule: { ...selectedVehicule },
+                        date: new Date().getTime(),
+                        expiration: expiration,
+                        products: [...lines],
+                        isPending : true,
+                    }
+
+                    await props.dispatch(actions.set.saveDevis(devis));
+                    props.snackbar.info('devis.pending.success');
+                    props.navigation.goBack();
+                }}
+            />
+
             <SpeedDialAction
                 key={'SaveDevis'}
                 icon={<SaveIcon />}
                 tooltipTitle={intl.formatMessage({ id: 'devis.save' })}
                 onClick={async () => {
                     let devis = {
-                        client : {...selectedClient},
-                        vehicule : {...selectedVehicule},
+                        id : params.id,
+                        client: { ...selectedClient },
+                        vehicule: { ...selectedVehicule },
                         date: new Date().getTime(),
                         expiration: expiration,
                         products: [...lines],
+                        isPending : false,
                     }
 
                     await props.dispatch(actions.set.saveDevis(devis));

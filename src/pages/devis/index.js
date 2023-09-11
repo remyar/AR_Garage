@@ -21,8 +21,11 @@ import SpeedDial from '@mui/material/SpeedDial';
 
 import routeMdw from '../../middleware/route';
 
+import NewReleasesIcon from '@mui/icons-material/NewReleases';
+import Tooltip from '@mui/material/Tooltip';
 function DevisPage(props) {
     const intl = props.intl;
+    const globalState = props.globalState;
 
     const [displayChangeDateModal, setDisplayChangeDateModal] = useState(undefined);
     const [displayLoader, setDisplayLoader] = useState(false);
@@ -50,21 +53,30 @@ function DevisPage(props) {
         { id: 'plate', label: 'Plaque', minWidth: 100 },
         { id: 'total', label: 'Total', minWidth: 100 },
         {
-            id: 'emission', label: 'Date emission', minWidth: 100, render: (row) => {
+            id: 'emission', label: intl.formatMessage({ id: 'Date.emission' }), minWidth: 100, render: (row) => {
 
                 return <span onClick={(e) => {
                     e.stopPropagation();
                 }}>
                     {row.emission.toLocaleDateString()}
-                    <EditIcon key={"editDevis_" + row.devis_number} sx={{ cursor: 'pointer', marginLeft: '5px', paddingTop: '10px' }} onClick={(e) => {
+                    {globalState.settings?.tempSettings?.godMode && <EditIcon key={"editDevis_" + row.devis_number} sx={{ cursor: 'pointer', marginLeft: '5px', paddingTop: '10px' }} onClick={(e) => {
                         e.stopPropagation();
                         setDisplayChangeDateModal(row.devis_number);
-                    }} />
+                    }} />}
 
                 </span>
             }
         },
-        { id: 'expiration', label: 'Date expiration', minWidth: 100 },
+        { id: 'expiration', label: intl.formatMessage({ id: 'Date.expiration' }), minWidth: 100 },
+        {
+            label: '', maxWidth: 100, minWidth: 100, align: "right", render: (row) => {
+                return <span>
+                    {row.isPending && <Tooltip title="Devis en cours">
+                        <NewReleasesIcon key={"pendingDevis_" + row.devis_number} sx={{ color: "orange", position: "relative", top: '5px', }} />
+                    </Tooltip>}
+                </span>
+            }
+        }
     ];
 
     let rows = devis.map((el) => {
@@ -73,12 +85,17 @@ function DevisPage(props) {
             devis_number: el.id,
             plate: el.vehicule?.plate,
             kilometrage: el.vehicule?.kilometrage,
+            isPending: el.isPending ? true : false,
             total: (el?.total?.toFixed(2) || "0.00") + ' €',
             client: el?.client?.nom + ' ' + el?.client?.prenom,
             emission: (el.date ? new Date(el.date) : new Date()),
             expiration: (el.expiration ? new Date(el.expiration) : new Date()).toLocaleDateString(),
             onClick: () => {
-                props.navigation.push(routeMdw.urlDevisDisplay(el?.id));
+                if (el.isPending) {
+                    props.navigation.push(routeMdw.urlDevisEdit(el.id));
+                } else {
+                    props.navigation.push(routeMdw.urlDevisDisplay(el?.id));
+                }
             },
             sx: {
                 cursor: 'pointer'
@@ -94,11 +111,13 @@ function DevisPage(props) {
         <Loader display={displayLoader} />
 
         <ChangeDateModal
+            title={intl.formatMessage({ id: 'Date.emission' })}
             display={displayChangeDateModal != undefined}
             value={devis.find((el) => el.id == displayChangeDateModal)?.date}
             onValid={async (value) => {
                 let devi = devis.find((el) => el.id == displayChangeDateModal)
                 devi.date = value.getTime();
+                devi.expiration = value.addMonths(1);
                 try {
                     await props.dispatch(actions.set.saveDevis(devi));
                     props.snackbar.success('devis.save.success');

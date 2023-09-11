@@ -27,6 +27,7 @@ function ChangeDateModal(props) {
             <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
                 <Grid item xs={12}>
                     < DatePicker
+                        title={props.title || ""}
                         value={newDate}
                         sx={{ width: '100%', minWidth: '100%' }}
                         onChange={(value) => {

@@ -1,4 +1,5 @@
 import createAction from '../../middleware/actions';
+import utils from '../../utils';
 
 export async function saveDevis(value = {}, { extra, getState }) {
     const database = extra.database;
@@ -6,9 +7,11 @@ export async function saveDevis(value = {}, { extra, getState }) {
     const settings = getState().settings;
 
     try {
-        
+        value.id = utils.isNaNOrNullOrUndefined(value.id) ? undefined : parseInt(value.id);
+        if ( value.id == undefined ){
+            delete value.id;
+        }
         await database.saveDevis(value);
-
         return {
             devi: value
         };

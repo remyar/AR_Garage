@@ -36,6 +36,8 @@ import { Buffer } from 'buffer';
 import Installation from '../../components/Installation';
 import database from '../../actions/database';
 
+import PasswordAsk from '../../components/PasswordAsk';
+
 const ValidationSchema = Yup.object().shape({
     nom: Yup.string().required(),
     adresse1: Yup.string().required(),
@@ -65,6 +67,9 @@ function SettingsPage(props) {
     const [displayAmBrandsSelector, setDisplayAmBrandsSelector] = useState(false);
     const [displayDatabaseInstaller, setDisplayDatabaseInstaller] = useState(false);
     const [uuidImg, setUuidImg] = useState("");
+
+    const [displayPasswordAskForDebug, setDisplayPasswordAskForDebug] = useState(false);
+    const [displayPasswordAskForGodMode , setDisplayPasswordAskForGodMode] = useState(false);
 
     async function UUID() {
         if (globalState?.settings?.uuid == undefined) {
@@ -404,13 +409,23 @@ function SettingsPage(props) {
             </ListItem>}
             <br />*/}
             <ListItem disablePadding>
-                <Typography variant="h5" gutterBottom component="div">{intl.formatMessage({ id: 'settings.debug' })}</Typography>
+                <Typography variant="h5" gutterBottom component="div">{intl.formatMessage({ id: 'settings.adminMode' })}</Typography>
             </ListItem>
             <Divider />
             <ListItem>
+                <ListItemText primary="Mode Admin" />
+                <Switch
+                    checked = {globalState?.settings?.tempSettings?.godMode}
+                    onChange={async (event) => {
+                        event.target.checked ? setDisplayPasswordAskForGodMode(event.target.checked) : props.dispatch(actions.set.tempSettings({ godMode: event.target.checked }));  
+                    }} />
+            </ListItem>
+            <ListItem>
                 <ListItemText primary="Ouvrir la console" />
-                <Switch onChange={async (event) => {
-                    props.dispatch(actions.debug.toggleConsole(event.target.checked));
+                <Switch 
+                checked = {globalState.debugConsole}
+                onChange={async (event) => {
+                    event.target.checked ? setDisplayPasswordAskForDebug(event.target.checked) : props.dispatch(actions.debug.toggleConsole(event.target.checked));
                 }} />
             </ListItem>
         </List>
@@ -436,6 +451,32 @@ function SettingsPage(props) {
             }}
         />}
 
+        {displayPasswordAskForGodMode && <PasswordAsk
+            title={intl.formatMessage({ id: 'settings.admin.password.title' })}
+            label={intl.formatMessage({ id: 'settings.admin.password.label' })}
+            password={process.env.REACT_APP_GODMODE_PASSWORD}
+            display={displayPasswordAskForGodMode}
+            onClose={()=> {
+                setDisplayPasswordAskForGodMode(false);
+            }}
+            onValidate={async (val)=>{
+                await props.dispatch(actions.set.tempSettings({ godMode: val }))
+                setDisplayPasswordAskForGodMode(false);
+            }}
+        />} 
+        {displayPasswordAskForDebug && <PasswordAsk
+            title={intl.formatMessage({ id: 'settings.admin.password.title' })}
+            label={intl.formatMessage({ id: 'settings.admin.password.label' })}
+            password={process.env.REACT_APP_DEBUG_PASSWORD}
+            display={displayPasswordAskForDebug}
+            onClose={()=> {
+                setDisplayPasswordAskForDebug(false);
+            }}
+            onValidate={async (val)=>{
+                await props.dispatch(actions.debug.toggleConsole(val));
+                setDisplayPasswordAskForDebug(false);
+            }}
+        />}
 
         {displayAmBrandsSelector && <AmBrandsSelectorForInstallationModal
             display={displayAmBrandsSelector}

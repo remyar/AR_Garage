@@ -48,6 +48,9 @@ async function startApp() {
     const root = createRoot(document.getElementById('root'));
 
     let _settings = {
+        tempSettings : {
+            godMode : false,
+        },
         entreprise: {},
         paiement: {},
         // logo: logo?.logo || "",

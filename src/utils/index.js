@@ -1,4 +1,5 @@
 import sleep from './sleep';
+import isNaNOrNullOrUndefined from './isNaNOrNullOrUndefined';
 
 Date.isLeapYear = function (year) { 
     return (((year % 4 === 0) && (year % 100 !== 0)) || (year % 400 === 0)); 
@@ -24,7 +25,6 @@ Date.prototype.addMonths = function (value) {
     return this;
 };
 
-
 Date.prototype.getFullDate = function(){
     var date = this.getDate();
     if ( date < 10 ){
@@ -43,4 +43,5 @@ Date.prototype.getFullMonth = function(){
 
 export default {
     sleep,
+    isNaNOrNullOrUndefined,
 }

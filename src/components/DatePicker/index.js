@@ -6,7 +6,7 @@ import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import locales from '../../locales';
 
 function MyDatePicker(props) {
-
+    const intl = props.intl;
     const [value, setValue] = useState(new Date());
 
     useEffect(() => {
@@ -18,7 +18,7 @@ function MyDatePicker(props) {
             sx={{ ...props.sx }}
             views={props.views || ['year', 'month', 'day'] }
             disabled={props.disabled ? props.disabled : false}
-            label={props.title || "Date échéance"}
+            label={props.title || intl.formatMessage({ id: 'Date.expiration' })}
             value={props.value || new Date().addMonths(1)}
             onChange={(newValue) => { setValue(new Date(newValue)) }}
         />

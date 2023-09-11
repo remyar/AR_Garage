@@ -14,7 +14,8 @@ function InputTextModal(props) {
 
     let title = props.title || "";
     let label = props.label || "";
-
+    let type = props.type || "text";
+    
     return <Modal display={props.display || false} >
         <Paper elevation={0}>
         <Grid container spacing={2}>
@@ -25,7 +26,7 @@ function InputTextModal(props) {
 
         <Grid container spacing={2} sx={{ paddingTop: '20px' }}>
             <Grid item xs={12} sx={{ textAlign: 'center' }}>
-                <TextField label={label} variant="outlined" sx={{ width: "100%", textAlign: "center" }} onChange={(event) => {
+                <TextField type={type} label={label} variant="outlined" sx={{ width: "100%", textAlign: "center" }} onChange={(event) => {
                     setInput(event.target.value);
                 }} />
             </Grid>

@@ -9,7 +9,12 @@ function PlaqueValue(props) {
     const value = props.value || "";
 
     const [plaque, setPlaque] = useState(value);
+    const [editMode , setEditMode] = useState(false);
     const [mask, setMask] = useState("*a-999-aa")
+
+    if ((editMode == false) &&  (plaque != value) ){
+        setPlaque(value);
+    }
 
     useEffect(() => {
         if (plaque.replace('-', '').charAt(0) >= '0' && plaque.replace('-', '').charAt(0) <= '9') {
@@ -35,11 +40,8 @@ function PlaqueValue(props) {
         }
     }, [plaque]);
 
-    if (plaque.length > 0) {
-
-    }
-
     return <InputMask value={plaque} mask={mask} maskChar="*" alwaysShowMask={false} onChange={(event) => {
+        setEditMode(true);
         setPlaque(event.target.value.toUpperCase());
     }}>
         {(inputProps) => <TextField label={mask} variant="outlined" sx={{ width: "100%", textAlign: "center" }} disableunderline />}
