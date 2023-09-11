@@ -8,7 +8,7 @@ const http = require('http');
 const isDev = require('electron-is-dev');
 const backend = require('./src_backend');
 
-let envVar = ".env";
+let envVar = isDev ? ".env.local" : ".env";
 require('dotenv').config({ path : envVar});
 require('@electron/remote/main').initialize();
 
