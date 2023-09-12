@@ -16,8 +16,14 @@ import Loader from '../../components/Loader';
 import DataTable from '../../components/DataTable';
 import ChangeDateModal from '../../components/ChangeDateModal';
 
+import NewReleasesIcon from '@mui/icons-material/NewReleases';
+import Tooltip from '@mui/material/Tooltip';
+import VerifiedIcon from '@mui/icons-material/Verified';
+import CreditScoreIcon from '@mui/icons-material/CreditScore';
+
 function Billingspage(props) {
     const intl = props.intl;
+    const globalState = props.globalState;
 
     const [displayChangeDateModal, setDisplayChangeDateModal] = useState(undefined);
     const [displayLoader, setDisplayLoader] = useState(false);
@@ -26,12 +32,12 @@ function Billingspage(props) {
 
     async function fetchData() {
         setDisplayLoader(true);
-        try{
+        try {
             let result = await props.dispatch(actions.get.allFactures());
             setFactures(result.factures);
-        }catch(err){
+        } catch (err) {
             props.snackbar.error(intl.formatMessage({ id: 'fetch.error' }));
-        }finally{
+        } finally {
             setDisplayLoader(false);
         }
     }
@@ -46,18 +52,31 @@ function Billingspage(props) {
         { id: 'plate', label: 'Plaque', minWidth: 100 },
         { id: 'kilometrage', label: 'Kilométrage', minWidth: 100 },
         { id: 'total', label: 'Total', minWidth: 100 },
-        { id: 'emission', label: 'Date emission', minWidth: 100 , render: (row) => {
-            return <span onClick={(e) => {
-                e.stopPropagation();
-            }}>
-                {row.emission.toLocaleDateString()}
-                <EditIcon key={"editFacture_" + row.facture_number} sx={{ cursor: 'pointer', marginLeft: '5px', paddingTop: '10px' }} onClick={(e) => {
+        {
+            id: 'emission', label: 'Date emission', minWidth: 100, render: (row) => {
+                return <span onClick={(e) => {
                     e.stopPropagation();
-                    setDisplayChangeDateModal(row.facture_number);
-                }} />
-
-            </span>
-        }}
+                }}>
+                    {row.emission.toLocaleDateString()}
+                    {globalState.settings?.tempSettings?.godMode && <EditIcon key={"editFacture_" + row.facture_number} sx={{ cursor: 'pointer', marginLeft: '5px', paddingTop: '10px' }} onClick={(e) => {
+                        e.stopPropagation();
+                        setDisplayChangeDateModal(row.facture_number);
+                    }} />}
+                </span>
+            }
+        },
+        {
+            label: '', maxWidth: 100, minWidth: 100, align: "right", render: (row) => {
+                return <span>
+                    {!row.paye && <Tooltip title="En attente de paiement">
+                        <NewReleasesIcon key={"pendingBill_" + row.facture_number} sx={{ color: "orange", position: "relative", top: '5px', }} />
+                    </Tooltip>}
+                    {row.paye && <Tooltip title="Payé">
+                        <VerifiedIcon key={"pendingBill_" + row.facture_number} sx={{ color: "green", position: "relative", top: '5px', }} />
+                    </Tooltip>}
+                </span>
+            }
+        }
     ];
 
     let rows = factures.map((el) => {
@@ -65,6 +84,7 @@ function Billingspage(props) {
         return {
             facture_number: el.id,
             plate: el?.vehicule?.plate || "",
+            paye : el.paye ? true : false,
             kilometrage: el?.vehicule?.kilometrage,
             total: el?.total?.toFixed(2) + ' €',
             client: el?.client?.nom + ' ' + el?.client?.prenom,

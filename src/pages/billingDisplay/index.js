@@ -3,6 +3,7 @@ import { injectIntl } from 'react-intl';
 import { withStoreProvider } from '../../providers/StoreProvider';
 import { withSnackBar } from '../../providers/snackBar';
 import { useParams } from "react-router-dom";
+import { withNavigation } from '../../providers/navigation';
 
 import actions from '../../actions';
 
@@ -21,6 +22,7 @@ import PrintIcon from '@mui/icons-material/Print';
 import SpeedDialIcon from '@mui/material/SpeedDialIcon';
 import SpeedDialAction from '@mui/material/SpeedDialAction';
 import SpeedDial from '@mui/material/SpeedDial';
+import CreditScoreIcon from '@mui/icons-material/CreditScore';
 
 
 function BillingsDisplayPage(props) {
@@ -151,9 +153,20 @@ function BillingsDisplayPage(props) {
                     props.dispatch(actions.pdf.facture(facture, true))
                 }}
             />
+            <SpeedDialAction
+                key={'ConvertToBilling'}
+                icon={<CreditScoreIcon />}
+                tooltipTitle={intl.formatMessage({ id: 'billing.payed' })}
+                onClick={async () => {
+                    facture.paye = true;
+                    await props.dispatch(actions.set.saveFacture(facture));
+                    props.snackbar.success('billing.payed');
+                    props.navigation.goBack();
+                }}
+            />
         </SpeedDial>
 
     </Box>;
 }
 
-export default withSnackBar(withStoreProvider(injectIntl(BillingsDisplayPage)));
+export default withNavigation(withSnackBar(withStoreProvider(injectIntl(BillingsDisplayPage))));

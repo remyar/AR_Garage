@@ -262,12 +262,14 @@ function DevisCreatePage(props) {
                 onClick={async () => {
                     let devis = {
                         id : params.id,
+                        facture_id : undefined,
                         client: { ...selectedClient },
                         vehicule: { ...selectedVehicule },
                         date: new Date().getTime(),
                         expiration: expiration,
                         products: [...lines],
                         isPending : true,
+                        paye : false,
                     }
 
                     await props.dispatch(actions.set.saveDevis(devis));
@@ -283,12 +285,14 @@ function DevisCreatePage(props) {
                 onClick={async () => {
                     let devis = {
                         id : params.id,
+                        facture_id : undefined,
                         client: { ...selectedClient },
                         vehicule: { ...selectedVehicule },
                         date: new Date().getTime(),
                         expiration: expiration,
                         products: [...lines],
                         isPending : false,
+                        paye : false,
                     }
 
                     await props.dispatch(actions.set.saveDevis(devis));

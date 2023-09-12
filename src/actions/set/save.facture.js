@@ -4,11 +4,9 @@ export async function saveFacture(value = {}, { extra, getState }) {
     const database = extra.database;
 
     try {
-        
-        await database.saveFacture({...value});
-
+        let result = await database.saveFacture({...value});
         return {
-            facture : value
+            facture : result
         };
     } catch (err) {
         throw { message: err.message };

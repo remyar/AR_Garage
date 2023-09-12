@@ -23,6 +23,9 @@ import routeMdw from '../../middleware/route';
 
 import NewReleasesIcon from '@mui/icons-material/NewReleases';
 import Tooltip from '@mui/material/Tooltip';
+import VerifiedIcon from '@mui/icons-material/Verified';
+import CreditScoreIcon from '@mui/icons-material/CreditScore';
+
 function DevisPage(props) {
     const intl = props.intl;
     const globalState = props.globalState;
@@ -74,6 +77,12 @@ function DevisPage(props) {
                     {row.isPending && <Tooltip title="Devis en cours">
                         <NewReleasesIcon key={"pendingDevis_" + row.devis_number} sx={{ color: "orange", position: "relative", top: '5px', }} />
                     </Tooltip>}
+                    {row?.isPending == false && <Tooltip title="Devis prét">
+                        <VerifiedIcon key={"pendingDevis_" + row.devis_number} sx={{ color: "green", position: "relative", top: '5px', }} />
+                    </Tooltip>}
+                    <Tooltip title={"Facturé : " + (row.facture_id ? "oui" : "non")}>
+                        <CreditScoreIcon color={row.facture_id ? "" : "disabled"} key={"pendingDevis_" + row.devis_number} sx={{ position: "relative", top: '5px', marginLeft: '10px' }} />
+                    </Tooltip>
                 </span>
             }
         }
@@ -86,6 +95,7 @@ function DevisPage(props) {
             plate: el.vehicule?.plate,
             kilometrage: el.vehicule?.kilometrage,
             isPending: el.isPending ? true : false,
+            facture_id : el.facture_id,
             total: (el?.total?.toFixed(2) || "0.00") + ' €',
             client: el?.client?.nom + ' ' + el?.client?.prenom,
             emission: (el.date ? new Date(el.date) : new Date()),
