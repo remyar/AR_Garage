@@ -68,9 +68,16 @@ function Billingspage(props) {
         { id: 'expiration', label: intl.formatMessage({ id: 'Date.expiration' }), minWidth: 100 },
         {
             label: '', maxWidth: 100, minWidth: 100, align: "right", render: (row) => {
+                let notPayed = false;
+                if (!row.paye) {
+                    if ((new Date(row.expiration).getTime() - new Date().getTime()) > 0) {
+                        notPayed = true;
+                    }
+                }
+
                 return <span>
                     {!row.paye && <Tooltip title="En attente de paiement">
-                        <NewReleasesIcon key={"pendingBill_" + row.facture_number} sx={{ color: "orange", position: "relative", top: '5px', }} />
+                        <NewReleasesIcon key={"pendingBill_" + row.facture_number} sx={{ color: notPayed ? "red" : "orange", position: "relative", top: '5px', }} />
                     </Tooltip>}
                     {row.paye && <Tooltip title="Payé">
                         <VerifiedIcon key={"pendingBill_" + row.facture_number} sx={{ color: "green", position: "relative", top: '5px', }} />
@@ -85,7 +92,7 @@ function Billingspage(props) {
         return {
             facture_number: el.id,
             plate: el?.vehicule?.plate || "",
-            paye : el.paye ? true : false,
+            paye: el.paye ? true : false,
             kilometrage: el?.vehicule?.kilometrage,
             total: el?.total?.toFixed(2) + ' €',
             client: el?.client?.nom + ' ' + el?.client?.prenom,
