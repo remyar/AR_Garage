@@ -176,6 +176,9 @@ function DevisDisplayPage(props) {
                     devi.devis_id = devi.id;
                     delete devi.id;
                     devi.paye = false;
+                    let now = new Date()
+                    devi.date = now.getTime();
+                    devi.expiration = now.addMonths(1).getTime();
                     let facture = (await props.dispatch(actions.set.saveFacture(devi)))?.facture || {};
                     devis.facture_id = facture.id;
                     await props.dispatch(actions.set.saveDevis(devis));

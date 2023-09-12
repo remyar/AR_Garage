@@ -53,7 +53,7 @@ function Billingspage(props) {
         { id: 'kilometrage', label: 'Kilométrage', minWidth: 100 },
         { id: 'total', label: 'Total', minWidth: 100 },
         {
-            id: 'emission', label: 'Date emission', minWidth: 100, render: (row) => {
+            id: 'emission', label: intl.formatMessage({ id: 'Date.emission' }), minWidth: 100, render: (row) => {
                 return <span onClick={(e) => {
                     e.stopPropagation();
                 }}>
@@ -65,6 +65,7 @@ function Billingspage(props) {
                 </span>
             }
         },
+        { id: 'expiration', label: intl.formatMessage({ id: 'Date.expiration' }), minWidth: 100 },
         {
             label: '', maxWidth: 100, minWidth: 100, align: "right", render: (row) => {
                 return <span>
@@ -89,6 +90,7 @@ function Billingspage(props) {
             total: el?.total?.toFixed(2) + ' €',
             client: el?.client?.nom + ' ' + el?.client?.prenom,
             emission: (el?.date ? new Date(el?.date) : new Date()),
+            expiration: (el?.expiration ? new Date(el?.expiration) : new Date()).toLocaleDateString(),
             onClick: () => {
                 props.navigation.push(routeMdw.urlBillingDisplay(el.id));
             },
@@ -111,6 +113,7 @@ function Billingspage(props) {
             onValid={async (value) => {
                 let facture = factures.find((el) => el.id == displayChangeDateModal)
                 facture.date = value.getTime();
+                facture.expiration = value.addMonths(1).getTime();
                 try {
                     await props.dispatch(actions.set.saveFacture(facture));
                     props.snackbar.success('facture.save.success');

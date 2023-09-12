@@ -19,7 +19,7 @@ function ChangeDateModal(props) {
     if (props.value != undefined) {
         newDate = new Date(props.value);
     }
-    const [value, setValue] = useState(new Date());
+    //const [value, setValue] = useState(new Date(newDate));
 
     return <Modal display={props.display || false} >
 
@@ -31,7 +31,8 @@ function ChangeDateModal(props) {
                         value={newDate}
                         sx={{ width: '100%', minWidth: '100%' }}
                         onChange={(value) => {
-                            setValue(value);
+                            //setValue(value);
+                            newDate = value;
                         }} />
                 </Grid>
             </Grid>
@@ -43,7 +44,7 @@ function ChangeDateModal(props) {
                         sx={{ width: '100%' }}
                         onClick={(e) => {
                             e.stopPropagation();
-                            props.onClose && props.onValid(value);
+                            props.onClose && props.onValid(newDate);
                         }}
                     >{intl.formatMessage({ id: 'button.validate' })}</Button>
                 </Grid>
