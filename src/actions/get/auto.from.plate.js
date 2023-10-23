@@ -6,76 +6,38 @@ export async function getAutoFromPlate(plate = "AA-456-BB", { extra, getState })
     const api = extra.api;
     const database = extra.database;
 
-
     try {
         let vehicule = await database.getVehiculeByPlate(plate);
 
         vehicule = { ...vehicule };
 
-        let reparCarInfos = ipcRenderer.sendSync("fetch.post", { url: process.env.REACT_APP_REPARCAR_API_URL_1 + "/0?immat=" + plate });
+        let vehiculeInfos = ipcRenderer.sendSync("fetch.get", { url: process.env.REACT_APP_REPARCAR_API_URL_2 + plate });
 
-        if (reparCarInfos.code != 'ERROR' && reparCarInfos.message == undefined) {
+        if (vehiculeInfos) {
+            
+            let vehicleDetails = ipcRenderer.sendSync("database.getVehicleDetails", vehiculeInfos?.vehicule[0]?.id );
+            vehicleDetails = vehicleDetails[0]?.vehicleDetails || {};
+
             vehicule.plate = plate;
-            vehicule.engineCode = reparCarInfos?.registration_info?.engine_code || vehicule.engineCode;
-            vehicule.immatriculationDate = reparCarInfos?.registration_info?.date_pme || vehicule.immatriculationDate;
-            vehicule.model = reparCarInfos?.car_identification?.model || vehicule?.model;
-            vehicule.brand = reparCarInfos?.car_identification?.brand || vehicule?.brand;
-            vehicule.vin = reparCarInfos?.car_identification?.vin || vehicule?.vin;
-            vehicule.puissance = reparCarInfos?.registration_info?.real_power || vehicule?.puissance;
-            vehicule.energy = reparCarInfos?.registration_info?.energy_name || vehicule?.energy;
-            vehicule.designation = reparCarInfos?.ms_vehicle?.version?.fullName ? reparCarInfos?.ms_vehicle?.version?.fullName : ((vehicule?.brand + " " + vehicule?.model) || "");
-            vehicule.designation += " ";
-            vehicule.designation += reparCarInfos?.registration_info?.version ? ("( " + reparCarInfos?.registration_info?.version + " )") : "";
-
-            vehicule.tecdocId = reparCarInfos?.car_identification?.ktypnr || undefined;
-
-            if (vehicule.tecdocId) {
-
-                let tecdocInformations = ipcRenderer.sendSync("database.getVehicleDetails", vehicule.tecdocId);
-
-                if (tecdocInformations && tecdocInformations[0] && tecdocInformations[0].vehicleDetails) {
-                    tecdocInformations = tecdocInformations[0].vehicleDetails;
-
-                    vehicule.model = tecdocInformations.modelName;
-
-                    vehicule.designation = tecdocInformations.manuName || "";
-                    vehicule.designation += " "
-                    vehicule.designation += tecdocInformations.modelName || "";
-
-                }
-            }
-
-            console.log(vehicule.engineCode);
-
-            if (vehicule.engineCode == undefined || vehicule.engineCode == "") {
-                let engineInfos = ipcRenderer.sendSync("fetch.get", { url: process.env.REACT_APP_REPARCAR_API_URL_2 + plate });
-                vehicule.engineCode = engineInfos && engineInfos.engineNumber && engineInfos.engineNumber[0] || "";
-            }
-
-            vehicule.deleted = false;
-
-            await database.saveVehicule(vehicule);
-
-            return {
-                vehicule: vehicule
-            }
-        }
-        else {
-            if (vehicule.plate) {
-
-                vehicule.deleted = false;
-
-                await database.saveVehicule(vehicule);
-
-                return {
-                    vehicule: vehicule
-                }
-            } else {
-                throw { message: reparCarInfos.error.message_texte || reparCarInfos.message || "fetch.error" };
-            }
+            vehicule.engineCode = vehiculeInfos.engineNumber[0] || vehicule.engineCode;
+            vehicule.immatriculationDate = vehiculeInfos.firstRegistrationDate || vehicule.immatriculationDate;
+            vehicule.model = vehicleDetails?.modelName || vehicule.model;
+            vehicule.brand = vehicleDetails?.manuName || vehicule.brand;
+            vehicule.vin = vehiculeInfos.vin || vehicule.vin;
+            vehicule.puissance = vehicleDetails?.powerHpTo || vehicule.puissance;
+            vehicule.energy = vehicleDetails?.fuelType || vehicule.energy;
+            vehicule.designation = vehicleDetails?.manuName + " " + vehicleDetails?.modelName + " " + vehicleDetails?.typeName;
+            vehicule.tecdocId = vehiculeInfos.vehicule[0]?.id;
+            vehicule.engineCode = vehiculeInfos.engineNumber[0] || "";
         }
 
+        vehicule.deleted = false;
 
+        await database.saveVehicule(vehicule);
+
+        return {
+            vehicule: vehicule
+        }
     } catch (err) {
         throw { message: err.message };
     }
