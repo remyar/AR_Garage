@@ -11,11 +11,15 @@ export async function getAutoFromPlate(plate = "AA-456-BB", { extra, getState })
 
         vehicule = { ...vehicule };
 
-        let vehiculeInfos = ipcRenderer.sendSync("fetch.get", { url: process.env.REACT_APP_REPARCAR_API_URL_2 + plate });
+        let vehiculeInfos = await ipcRenderer.invoke("fetch.get", { url: process.env.REACT_APP_REPARCAR_API_URL_2 + plate });
+
+        if ( vehiculeInfos.message && vehiculeInfos.stack){
+            throw Error(vehiculeInfos);
+        }
 
         if (vehiculeInfos) {
             
-            let vehicleDetails = ipcRenderer.sendSync("database.getVehicleDetails", vehiculeInfos?.vehicule[0]?.id );
+            let vehicleDetails = await ipcRenderer.invoke("database.getVehicleDetails", vehiculeInfos?.vehicule[0]?.id );
             vehicleDetails = vehicleDetails[0]?.vehicleDetails || {};
 
             vehicule.plate = plate;

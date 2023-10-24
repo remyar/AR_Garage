@@ -15,8 +15,8 @@ module.exports = {
     start: async () => {
         try {
             await database.setdbPath(isDev ? "./assets/database.zip" : path.join(process.resourcesPath, "database.zip"));
-            
-            ipcMain.on('OPEN_DEV_TOOLS', (event, value) => {
+
+            ipcMain.handle('OPEN_DEV_TOOLS', (event, value) => {
                 if (value) {
                     mainWindow.webContents.openDevTools();
                 } else {
@@ -25,20 +25,20 @@ module.exports = {
             });
 
             Object.keys(code_postaux).forEach((key) => {
-                ipcMain.on('code_postaux.' + key, async (event, value) => {
-                    event.returnValue = await code_postaux[key](value);
+                ipcMain.handle('code_postaux.' + key, async (event, value) => {
+                    return (await code_postaux[key](value));
                 });
             });
 
             Object.keys(database).forEach((key) => {
-                ipcMain.on('database.' + key, async (event, value) => {
-                    event.returnValue = await database[key](value);
+                ipcMain.handle('database.' + key, async (event, value) => {
+                    return (await database[key](value));
                 });
             });
 
             Object.keys(myfetch).forEach((key) => {
-                ipcMain.on('fetch.' + key, async (event, value) => {
-                    event.returnValue = await myfetch[key](value);
+                ipcMain.handle('fetch.' + key, async (event, value) => {
+                    return (await myfetch[key](value));
                 });
             });
         } catch (err) {

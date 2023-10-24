@@ -4,7 +4,7 @@ import { ipcRenderer } from 'electron';
 export async function getVillesFromCp(codePostale = "24660", { extra, getState }) {
     try {
 
-        let cp = ipcRenderer.sendSync("code_postaux.getAllCodePostaux");
+        let cp = await ipcRenderer.invoke("code_postaux.getAllCodePostaux");
 
         if ( codePostale.trim().length >= 2){
             let value = cp.map((el) => {

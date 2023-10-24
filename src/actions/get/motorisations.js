@@ -5,7 +5,7 @@ export async function getMotorisations(manuId, modelId, { extra, getState }) {
     const api = extra.api;
 
     try {
-        let vehicles = ipcRenderer.sendSync("database.getVehicle", modelId);
+        let vehicles = await ipcRenderer.invoke("database.getVehicle", modelId);
 
         return {
             motorisation: vehicles || []

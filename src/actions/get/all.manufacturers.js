@@ -5,7 +5,7 @@ export async function getAllManufacturers({ extra, getState }) {
     const api = extra.api;
 
     try {
-        let manufacturers = ipcRenderer.sendSync("database.getManufacturers");
+        let manufacturers = await ipcRenderer.invoke("database.getManufacturers");
 
         return {
             manufacturers: manufacturers || []

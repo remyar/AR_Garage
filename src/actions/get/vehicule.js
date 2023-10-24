@@ -8,7 +8,7 @@ export async function getVehicule(id, { extra, getState }) {
     try {
         let vehicule = {};
 
-        let vehicleDetails = ipcRenderer.sendSync("database.getVehicleDetails", id);
+        let vehicleDetails = await ipcRenderer.invoke("database.getVehicleDetails", id);
 
         vehicleDetails = vehicleDetails && vehicleDetails[0] && vehicleDetails[0].vehicleDetails || {};
         vehicule.brand = vehicleDetails?.manuName || "";

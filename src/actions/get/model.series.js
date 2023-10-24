@@ -6,7 +6,7 @@ export async function getModelSeries(id, { extra, getState }) {
     const api = extra.api;
 
     try {
-        let modelSeries = ipcRenderer.sendSync("database.getModelSeries", id);
+        let modelSeries = await ipcRenderer.invoke("database.getModelSeries", id);
 
         return {
             modelSeries: modelSeries || []
