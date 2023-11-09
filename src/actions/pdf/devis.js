@@ -31,7 +31,7 @@ export async function devis(devis, printAndSave, { extra, getState }) {
 
         const pdf = new jsPDF('p', 'pt');
 
-       
+
         pdf.addFileToVFS(robotoFont.name, robotoFont.font);
         pdf.addFileToVFS(robotoBoldFont.name, robotoBoldFont.font);
         pdf.addFont(robotoFont.name, "roboto", "normal");
@@ -50,7 +50,7 @@ export async function devis(devis, printAndSave, { extra, getState }) {
 
         for (let i = 0; i < totalPage; i++) {
 
-            if ( i != 0){
+            if (i != 0) {
                 numPage++;
                 pdf.addPage();
             }
@@ -170,9 +170,8 @@ export async function devis(devis, printAndSave, { extra, getState }) {
             lineOffset += pdf.getLineHeight() * 4;
 
             let _rows = [];
-            
-            for ( let j = 0 ; j< 9 ; j++ )
-            {
+            let restant = rows.length;
+            for (let j = 0; j < (Math.min(9, restant)); j++) {
                 _rows.push(rows.shift());
             }
 
@@ -201,7 +200,7 @@ export async function devis(devis, printAndSave, { extra, getState }) {
             pdf.setFontSize(12);
             pdf.setFont("roboto", "bold");
 
-            if (i == (totalPage-1)){
+            if (i == (totalPage - 1)) {
                 pdf.line((pdf.internal.pageSize.getWidth() / 2), lineOffset + 12, pdf.internal.pageSize.getWidth() - 30, lineOffset + 12); // vertical line
                 _pushText("Montant Total : ", (pdf.internal.pageSize.getWidth() / 4) * 2);
                 _pushText(totalMontant.toFixed(2) + ' €', ((pdf.internal.pageSize.getWidth() / 4) * 3) + 30);
