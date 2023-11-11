@@ -20,7 +20,8 @@ export async function devis(devis, printAndSave, { extra, getState }) {
             return { ...el, quantite: el.quantity, num_line: idx + 1, brand_name: ((el.marque ? (el.marque + ' -') : '') + ' ' + (el.nom ? el.nom : el.commentaire ? el.commentaire : ' ')).trim(), prix_vente: parseFloat(el.taux).toFixed(2) + " €", prix_total: (parseFloat(el.taux) * parseFloat(el.quantity)).toFixed(2) + ' €' };
         });
 
-        totalPage = Math.max(1, (rows.length / 9));
+        totalPage =  Math.ceil(Math.max(1, (rows.length / 9)));
+       
     } catch (err) {
         throw { message: err.message };
     }
@@ -253,7 +254,7 @@ export async function devis(devis, printAndSave, { extra, getState }) {
             pdf.setFontSize(10);
             _pushText("Page " + numPage + " / " + totalPage, pdf.internal.pageSize.getWidth() - 80);
         }
-        await pdf.save('Devis_' + devis.id.toString().padStart(5, "0") + '.pdf', { returnPromise: true });
+        await pdf.save('Devis_' + (devis.id || 0).toString().padStart(5, "0") + '.pdf', { returnPromise: true });
 
         return {};
     } catch (err) {

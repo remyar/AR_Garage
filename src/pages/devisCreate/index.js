@@ -308,18 +308,19 @@ function DevisCreatePage(props) {
                 onClick={async () => {
 
                     let devis = {
+                        id : params.id,
                         devis_number: devisNumber,
                         client: selectedClient,
                         client_id: selectedClient?.id,
-                        vehicule_id: selectedVehicule?.id,
+                        vehicule: { ...selectedVehicule },
                         kilometrage: selectedVehicule?.kilometrage,
                         date: new Date().getTime(),
                         expiration: expiration,
-                        products: [],
+                        products: [...lines],
                     }
-                    lines.forEach((line) => {
+                 /*   lines.forEach((line) => {
                         devis.products.push({ ...line, product_id: line.id, quantity: line.quantity });
-                    });
+                    });*/
                     props.dispatch(actions.pdf.devis(devis, true))
                 }}
             />
