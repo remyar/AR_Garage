@@ -30,7 +30,7 @@ export async function getAutoFromPlate(plate = "AA-456-BB", { extra, getState })
             vehicule.vin = vehiculeInfos.vin || vehicule.vin;
             vehicule.puissance = vehicleDetails?.powerHpTo || vehicule.puissance;
             vehicule.energy = vehicleDetails?.fuelType || vehicule.energy;
-            vehicule.designation = vehicleDetails?.manuName + " " + vehicleDetails?.modelName + " " + vehicleDetails?.typeName;
+            vehicule.designation = (vehicleDetails?.manuName || vehicule.brand)  + " " + (vehicleDetails?.modelName || vehicule.model) + " " + (vehicleDetails?.typeName || '');
             vehicule.tecdocId = vehiculeInfos.vehicule[0]?.id;
             vehicule.engineCode = vehiculeInfos.engineNumber[0] || "";
         }
