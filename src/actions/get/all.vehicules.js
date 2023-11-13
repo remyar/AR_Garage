@@ -9,9 +9,13 @@ export async function getAllVehicules({ dispatch , extra, getState }) {
         for (let vehicule of vehicules) {
             vehicule.hasTechnics = false;
             if (vehicule.tecdocId != undefined) {
-                let result = await dispatch(technics.getTechnicsEntry(vehicule.tecdocId));
-                if (result.technicsEntry.length > 0 ){
-                    vehicule.hasTechnics = true;
+                try{
+                    let result = await dispatch(technics.getTechnicsEntry(vehicule.tecdocId));
+                    if (result.technicsEntry.length > 0 ){
+                        vehicule.hasTechnics = true;
+                    }
+                } catch(err){
+                    vehicule.hasTechnics = false;
                 }
             }
         }
