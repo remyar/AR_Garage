@@ -18,7 +18,9 @@ import DevisCreatePage from './pages/devisCreate';
 import DevisDisplayPage from './pages/devisDisplay';
 import BillingsPage from './pages/billings';
 import BillingDisplayPage from './pages/billingDisplay';
-
+import TechnicsPage from './pages/technics';
+import TechnicsDetailsPage from './pages/technics/technics';
+import ModelSeriesPage from './pages/technics/modelSeries';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 
@@ -43,6 +45,9 @@ const routes = [
     { path: routeMdw.urlBillings(), name: 'BillingsPage', Component: <BillingsPage /> },
     { path: routeMdw.urlBillingDisplay(':id'), name: 'BillingDisplayPage', Component: <BillingDisplayPage /> },
 
+    { path: routeMdw.urlTechnics(), name: 'Technics', Component: <TechnicsPage /> },
+    { path: routeMdw.urlTechnics(':id'), name: 'Model Series', Component: <ModelSeriesPage /> },
+    { path: routeMdw.urlTechnicsDetails(':manuId', ':modelId', ':motorId'), name: 'Technics Details', Component: <TechnicsDetailsPage /> },
 ];
 
 function App(props) {
@@ -75,7 +80,7 @@ function App(props) {
     }, []);
 
 
-    return <Box>
+    return <Box >
         <AppBar onClick={() => { setDrawerState(true) }} title={(selectedVehicule?.plate && selectedVehicule?.designation) ? selectedVehicule?.plate + " : " + selectedVehicule?.designation : undefined} />
         <Box sx={{ paddingTop: '64px' }} >
             <Container maxWidth="xl" sx={{ paddingTop: "25px" }} >
@@ -83,7 +88,7 @@ function App(props) {
                     open={drawerState}
                     onClose={() => { setDrawerState(false) }}
                 />
-                <Routes>
+                <Routes >
                     {routes.map(({ path, Component }) => (
                         <Route path={path} key={path} element={Component} />
                     ))}

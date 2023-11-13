@@ -13,6 +13,8 @@ import urlBillings from './url.billings';
 import urlBillingDisplay from './url.billing.display';
 import urlServices from './url.services';
 import urlCatalog from './url.catalog';
+import urlTechnics from './url.technics';
+import urlTechnicsDetails from './url.technics.details';
 
 export default {
     urlIndex,
@@ -29,5 +31,8 @@ export default {
     urlBillings,
     urlBillingDisplay,
     urlServices,
-    urlCatalog
+    urlCatalog,
+
+    urlTechnics,
+    urlTechnicsDetails,
 }

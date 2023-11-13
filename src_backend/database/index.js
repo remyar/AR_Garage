@@ -71,6 +71,7 @@ async function getVehicleDetails(id){
         }
     });
 }
+
 module.exports = {
     setdbPath,
     getManufacturers,

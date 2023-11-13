@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { injectIntl } from 'react-intl';
 import { withStoreProvider } from '../../providers/StoreProvider';
 import { withSnackBar } from '../../providers/snackBar';
@@ -62,16 +62,19 @@ function VehiculesPage(props) {
         setDisplayLoader(true);
         try {
             let result = await props.dispatch(actions.get.allVehicules());
-            setVehicules(result.vehicules.filter((el) => ((el.deleted !== 1) && (el.deleted !== true))));
+            let vehicules = result.vehicules.filter((el) => ((el.deleted !== 1) && (el.deleted !== true)));
+            setVehicules(vehicules);
         } catch (err) {
             props.snackbar.error('fetch.error');
         }
+
         setDisplayLoader(false);
     }
 
     useEffect(() => {
         fetchData();
     }, []);
+
 
     const headers = [
         { id: 'plate', label: 'Plaque', minWidth: 100 },
@@ -136,7 +139,7 @@ function VehiculesPage(props) {
 
     rows = rows.filter((el) => el.plate?.toLowerCase().startsWith(filter));
 
-    return <Box sx={{ paddingBottom: '25px' }}>
+    return <Box sx={{ paddingBottom: '25px'}}>
 
         <Loader display={displayLoader} />
 
@@ -241,8 +244,9 @@ function VehiculesPage(props) {
         <SearchComponent onChange={(value) => {
             setFilter(value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""));
         }} />
-
-        <DataTable sx={{ marginTop: '25px' }} headers={headers} rows={rows}>
+        <br/>
+        <br />
+        <DataTable sx={{ height: (window.innerHeight - 200) + "px" }} headers={headers} rows={rows} >
 
         </DataTable>
 

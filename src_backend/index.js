@@ -1,6 +1,7 @@
 const { app, ipcMain } = require('electron');
 const code_postaux = require('./code_postaux');
 const database = require('./database');
+const technics = require('./technics');
 const path = require('path');
 const isDev = require('electron-is-dev');
 const myfetch = require('./fetch');
@@ -15,8 +16,11 @@ module.exports = {
     start: async () => {
         try {
             await database.setdbPath(isDev ? "./assets/database.zip" : path.join(process.resourcesPath, "database.zip"));
+            await technics.setdbPath(isDev ? "./assets/technics.zip" : path.join(process.resourcesPath, "technics.zip"));
 
-            ipcMain.handle('OPEN_DEV_TOOLS', (event, value) => {
+            await technics.getMaintenanceByTypeId(22410);
+            
+            ipcMain.on('OPEN_DEV_TOOLS', (event, value) => {
                 if (value) {
                     mainWindow.webContents.openDevTools();
                 } else {
@@ -33,6 +37,12 @@ module.exports = {
             Object.keys(database).forEach((key) => {
                 ipcMain.handle('database.' + key, async (event, value) => {
                     return (await database[key](value));
+                });
+            });
+
+            Object.keys(technics).forEach((key) => {
+                ipcMain.handle('technics.' + key, async (event, value) => {
+                    return await technics[key](value);
                 });
             });
 

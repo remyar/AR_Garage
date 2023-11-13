@@ -6,12 +6,10 @@ export async function tempSettings(value = {}, { extra, getState }) {
 
     settings = { ...settings };
     settings.tempSettings = { ...settings.tempSettings, ...value };
+    
     try {
-
         return { settings: settings };
-
     } catch (err) {
-
         throw { message: err.message };
     }
 }

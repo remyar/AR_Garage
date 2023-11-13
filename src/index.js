@@ -8,13 +8,12 @@ import StoreProvider from './providers/StoreProvider';
 import SnackBarGenerator from './providers/snackBar';
 import CssBaseline from '@mui/material/CssBaseline';
 import api from "./api";
+import GlobalStyles from '@mui/material/GlobalStyles';
+
 
 // i18n datas
 import localeData from './locales';
-import utils from "./utils";
 import database from "./database";
-
-import { validate, v4 } from 'uuid';
 
 const electron = require('@electron/remote');
 
@@ -53,13 +52,28 @@ async function startApp() {
         },
         entreprise: {},
         paiement: {},
-        // logo: logo?.logo || "",
         ...settings
     }
 
     root.render(
         <React.Fragment>
+            <GlobalStyles
+                styles={{
+                    h1: { color: 'grey' },
+                    '*::-webkit-scrollbar': {
+                        width: '0.4em',
+                    },
+                    '*::-webkit-scrollbar-track': {
+                        '-webkit-box-shadow': 'inset 0 0 6px rgba(0,0,0,0.00)',
+                    },
+                    '*::-webkit-scrollbar-thumb': {
+                        backgroundColor: 'rgba(0,0,0,.1)',
+                        outline: '0px solid slategrey',
+                    },
+                }}
+            />
             <CssBaseline />
+
             <StoreProvider extra={{ api, database , electron }} globalState={{
                 settings: { installed: false, locale: "fr", ..._settings },
             }}>

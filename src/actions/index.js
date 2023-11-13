@@ -5,6 +5,7 @@ import pdf from "./pdf";
 import electron from "./electron";
 import database from "./database";
 import debug from "./debug";
+import technics from "./technics";
 
 export default {
     set,
@@ -13,5 +14,6 @@ export default {
     pdf,
     electron,
     database,
-    debug
+    debug,
+    technics
 }

@@ -20,6 +20,8 @@ import InventoryIcon from '@mui/icons-material/Inventory';
 import AddCardIcon from '@mui/icons-material/AddCard';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 
+import ConstructionIcon from '@mui/icons-material/Construction';
+
 import routeMdw from '../../middleware/route';
 
 function MyDrawer(props) {
@@ -105,6 +107,17 @@ function MyDrawer(props) {
             </ListItem>
         </List>
         <List sx={{ position: "absolute", bottom: "0px", width: "100%" }}>
+
+            <ListItem button onClick={() => {
+                props.navigation.push(routeMdw.urlTechnics());
+                props.onClose && props.onClose();
+            }}>
+                <ListItemIcon>
+                    <ConstructionIcon />
+                </ListItemIcon>
+                <ListItemText primary={intl.formatMessage({ id: 'url.technics' })} secondary={intl.formatMessage({ id: 'url.technics.desc' })} />
+            </ListItem>
+
             <ListItem button onClick={() => {
                 props.navigation.push(routeMdw.urlSettings());
                 props.onClose && props.onClose();

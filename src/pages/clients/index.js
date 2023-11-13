@@ -124,9 +124,8 @@ function ClientsPage(props) {
             setFilter(value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""));
         }} />
 
-        <DataTable sx={{ marginTop: '25px' }} headers={headers} rows={rows}>
-
-        </DataTable>
+        <br/><br/>
+        <DataTable sx={{ height: (window.innerHeight - 200) + "px" }} headers={headers} rows={rows}/>
 
         <SpeedDial
             ariaLabel="SpeedDial basic example"

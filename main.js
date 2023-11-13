@@ -12,13 +12,8 @@ let envVar = isDev ? ".env.local" : ".env";
 require('dotenv').config({ path : envVar});
 require('@electron/remote/main').initialize();
 
-logger.transports.file.level = 'info';
-logger.transports.file.maxSize = 1048576;
-logger.transports.file.clear();
-
-console.log = logger.log;
-console.error = logger.error;
-console.warn = logger.warn;
+// It makes a renderer logger available trough a global electronLog instance
+logger.initialize({ spyRendererConsole: true });
 
 autoUpdater.logger = logger;
 
