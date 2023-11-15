@@ -43,18 +43,18 @@ function TechnicsPage(props) {
         return {
             ..._v,
             onClick: (row) => {
-                props.navigation.push(routeMdw.urlTechnics(parseInt(row.make_id.toString())));
+                props.navigation.push(routeMdw.urlTechnics(row.make_id));
             }
         }
     })
 
     rows = rows.sort((a, b) => (a.make_name?.toLowerCase() > b.make_name?.toLowerCase()) ? 1 : -1);
 
-    rows = rows.filter((el) => el.make_used == 1);
+    rows = rows.filter((el) => el.make_used == true);
 
     rows = rows.filter((el) => el.make_name?.toLowerCase().startsWith(filter));
 
-    return <Box sx={{ paddingBottom: '25px', overflow: 'hidden' }}>
+    return <Box sx={{ paddingBottom: '25px' }}>
 
         <Loader display={displayLoader} />
 

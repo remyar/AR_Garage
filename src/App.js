@@ -21,6 +21,7 @@ import BillingDisplayPage from './pages/billingDisplay';
 import TechnicsPage from './pages/technics';
 import TechnicsDetailsPage from './pages/technics/technics';
 import ModelSeriesPage from './pages/technics/modelSeries';
+import AdjustmentsPage from './pages/technics/adjustments';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 
@@ -48,6 +49,7 @@ const routes = [
     { path: routeMdw.urlTechnics(), name: 'Technics', Component: <TechnicsPage /> },
     { path: routeMdw.urlTechnics(':id'), name: 'Model Series', Component: <ModelSeriesPage /> },
     { path: routeMdw.urlTechnicsDetails(':manuId', ':modelId', ':motorId'), name: 'Technics Details', Component: <TechnicsDetailsPage /> },
+    { path: routeMdw.urlTechnicsAdjustments(':motorId'), name: 'Technics Adjustment', Component: <AdjustmentsPage /> },
 ];
 
 function App(props) {

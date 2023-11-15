@@ -15,6 +15,7 @@ import urlServices from './url.services';
 import urlCatalog from './url.catalog';
 import urlTechnics from './url.technics';
 import urlTechnicsDetails from './url.technics.details';
+import urlTechnicsAdjustments from './url.technics.adjustments';
 
 export default {
     urlIndex,
@@ -35,4 +36,5 @@ export default {
 
     urlTechnics,
     urlTechnicsDetails,
+    urlTechnicsAdjustments,
 }

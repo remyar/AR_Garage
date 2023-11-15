@@ -18,6 +18,7 @@ import routeMdw from '../../middleware/route';
 function ModelSeries(props) {
 
     let params = useParams();
+    params.id = parseInt(params.id);
 
     const [displayLoader, setDisplayLoader] = useState(false);
     const [manufacturer, setManufacturer] = useState(undefined);
@@ -37,7 +38,7 @@ function ModelSeries(props) {
             setManufacturer(result.manufacturer);
 
             if (selectedModel) {
-                result = await props.dispatch(actions.technics.getMotorByModelId(parseInt(selectedModel?.model_id?.toString())));
+                result = await props.dispatch(actions.technics.getMotorByModelId(selectedModel?.model_id));
                 setMotors(result.motors);
             }
 
@@ -54,7 +55,7 @@ function ModelSeries(props) {
     const headersModel = [
         {
             id: 'description', label: 'Modéle', minWidth: 100, render: (row) => {
-                return <span>{manufacturer?.make_name || ""} - {(row?.description + " " + (selectedModel?.additional_info ? selectedModel?.additional_info : "") + " ")|| ""} {row.model_code ? "(" + row.model_code + ")" : ""}</span>
+                return <span>{manufacturer?.make_name || ""} - {(row?.description + " " + (row?.additional_info ? row?.additional_info : "") + " ") || ""} {row.model_code ? "(" + row.model_code + ")" : ""}</span>
             }
         },
         {
@@ -75,14 +76,14 @@ function ModelSeries(props) {
 
     models = models.sort((a, b) => (a.description?.toLowerCase() > b.description?.toLowerCase()) ? 1 : -1);
 
-    models = models.filter((el) => el.model_used == 1);
+    //models = models.filter((el) => el.model_used == 1);
 
     models = models.filter((el) => el.description?.toLowerCase().startsWith(filter));
 
     const headersSelected = [
         {
             id: 'description', label: 'Modéle', minWidth: 100, render: (row) => {
-                return <span>{selectedModel?.description + " " + (selectedModel?.additional_info? selectedModel?.additional_info : "") + " (" + selectedModel?.model_code + ")"} - {row.description}</span>
+                return <span>{selectedModel?.description + " " + (selectedModel?.additional_info ? selectedModel?.additional_info : "") + " (" + selectedModel?.model_code + ")"} - {row.description}</span>
             }
         },
         {
@@ -111,7 +112,7 @@ function ModelSeries(props) {
         ,
         {
             id: 'puissancecv', label: 'Puissance cv', minWidth: 100, render: (row) => {
-                return <span>{(parseInt(row.output.toString()) * 1.36).toFixed(0) + " cv"}</span>
+                return <span>{(row.output * 1.36).toFixed(0) + " cv"}</span>
             }
         }
     ];
@@ -120,13 +121,12 @@ function ModelSeries(props) {
         return {
             ..._v,
             onClick: (row) => {
-                props.navigation.push(routeMdw.urlTechnicsDetails(manufacturer.make_id, row.model_id , row.type_id));
+                props.navigation.push(routeMdw.urlTechnicsAdjustments(row.type_id));
             }
         }
     })
 
     motorsList = motorsList.sort((a, b) => (a.description?.toLowerCase() > b.description?.toLowerCase()) ? 1 : -1);
-
 
     return <Box sx={{ paddingBottom: '25px', overflow: 'hidden' }}>
 

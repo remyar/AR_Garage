@@ -5,6 +5,9 @@ import getModelSeries from "./get.model.series";
 import getManufacturerById from "./get.manufacturer.by.id";
 import getModelSeriesById from "./get.model.series.by.id";
 import getMotorById from "./get.motor.by.id";
+import getAdjustmentsByTypeId from "./get.adjustments.by.typeId";
+import getAdjustmentsHeaders from './get.adjustments.headers';
+import getAdjustmentsSentences from './get.adjustments.sentences';
 
 export default {
     getTechnicsEntry,
@@ -13,5 +16,8 @@ export default {
     getModelSeriesById,
     getAllManufacturers,
     getModelSeries,
-    getMotorById
+    getMotorById,
+    getAdjustmentsHeaders,
+    getAdjustmentsByTypeId,
+    getAdjustmentsSentences
 };

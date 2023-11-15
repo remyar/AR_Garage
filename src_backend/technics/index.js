@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require("path");
 const StreamZip = require('node-stream-zip');
+const BigJSON = require('../big_json');
+
 
 let dtabasePath = undefined;
 
@@ -13,8 +15,15 @@ async function readFileSync(_databaseName) {
     return new Promise(async (resolve, reject) => {
         try {
             const data = await dtabasePath.entryData(_databaseName + ".json");
-            let result = JSON.parse(data.toString());
-            resolve(result);
+            BigJSON.createParseStream({
+                body: data,
+                onData: (result) => {
+                    resolve(result);
+                },
+                onError : (err)=>{
+                    reject(err);
+                }
+            });
         } catch (err) {
             reject(err);
         }
@@ -25,7 +34,7 @@ async function readFileSync(_databaseName) {
 async function getManufacturers() {
     return new Promise(async (resolve, reject) => {
         try {
-            let result = await readFileSync("101_ID_MAKES");
+            let result = await readFileSync("ar_makes");
             resolve(result || []);
         } catch (err) {
             resolve([]);
@@ -36,8 +45,8 @@ async function getManufacturers() {
 async function getManufacturerById(id) {
     return new Promise(async (resolve, reject) => {
         try {
-            let result = await readFileSync("101_ID_MAKES");
-            resolve(result.filter(e => e.make_id == parseInt(id.toString())) || []);
+            let result = await readFileSync("ar_makes");
+            resolve(result.filter(e => e.make_id == id) || []);
         } catch (err) {
             resolve([]);
         }
@@ -47,8 +56,8 @@ async function getManufacturerById(id) {
 async function getModelSeries(manuId) {
     return new Promise(async (resolve, reject) => {
         try {
-            let result = await readFileSync("102_ID_MODELS");
-            resolve(result.filter(e => e.make_id == parseInt(manuId.toString())) || []);
+            let result = await readFileSync("ar_models");
+            resolve(result.filter(e => e.make_id == manuId) || []);
         } catch (err) {
             resolve([]);
         }
@@ -58,13 +67,14 @@ async function getModelSeries(manuId) {
 async function getModelSeriesById(modelId) {
     return new Promise(async (resolve, reject) => {
         try {
-            let result = await readFileSync("102_ID_MODELS");
-            resolve(result.filter(e => e.model_id == parseInt(modelId.toString())) || []);
+            let result = await readFileSync("ar_models");
+            resolve(result.filter(e => e.model_id == modelId) || []);
         } catch (err) {
             resolve([]);
         }
     });
 }
+
 
 async function getTechnicsEntry(tecdocid){
     return new Promise(async (resolve, reject) => {
@@ -77,49 +87,66 @@ async function getTechnicsEntry(tecdocid){
     });
 }
 
-async function getMotorByModelId(modelId){
+async function getMotorByModelId(id){
     return new Promise(async (resolve, reject) => {
         try {
-            const data = await readFileSync("103_ID_TYPES");
-            resolve(data.filter((e) => parseInt(e.model_id.toString()) == modelId));
+            const data = await readFileSync("ar_types");
+            resolve(data.filter((e) => e.model_id == id));
         } catch (err) {
             reject(err);
         }
     });
 }
 
-async function getMotorById(motorId) {
+async function getMotorById(id) {
     return new Promise(async (resolve, reject) => {
         try {
-            const data = await readFileSync("103_ID_TYPES");
-            resolve(data.filter((e) => parseInt(e.type_id.toString()) == motorId));
+            const data = await readFileSync("ar_types");
+            resolve(data.filter((e) =>e.type_id == id));
         } catch (err) {
             reject(err);
         }
     });
 }
 
-async function getMaintenanceByTypeId(typeId){
+async function getAdjustmentByTypeId(id){
     return new Promise(async (resolve, reject) => {
         try {
-            let maintSystems = await readFileSync("200_MAINT_SYSTEMS");
-            let typesMaintenances = await readFileSync("201_TYPES_MAINTENANCE");
-            let maintSystemDescriptionBeforeCriteria = await readFileSync("202_BEFORE_CRITERIA");
-            let maintSystemDescription = await readFileSync("202_MAINT_SYSTEM_DESCRIPTION");
-            
-            typesMaintenances = typesMaintenances.filter((e) => parseInt(e.type_id.toString()) == typeId);
+            const data = await readFileSync("ar_adjustment_items");
+            resolve(data.filter((e) => e.type_id == id));
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
 
-            for (let tm of typesMaintenances){
-                tm.maintSystems = maintSystems.filter((e) => parseInt(e.maint_system_id.toString()) == parseInt(tm.maint_system_id.toString()));
-                for (let tmms of tm.maintSystems) {
-                    tmms.maintSystemDescription = maintSystemDescription.filter((e) => parseInt(e.maint_system_description_id.toString()) == parseInt(tmms.maint_system_description_id.toString()));
-                }
-                for (tmms of tm.maintSystems){
-                    tmms.maintSystemDescriptionBeforeCriteria = maintSystemDescriptionBeforeCriteria.filter((e) => parseInt(e.maint_system_description_id.toString()) == parseInt(tmms.maint_sys_desc_id_before_crit.toString()))
-                }
-            }
-            console.log(typesMaintenances);
-            resolve(typesMaintenances);
+async function getAdjustementsHeaders(){
+    return new Promise(async (resolve, reject) => {
+        try {
+            const data = await readFileSync("ar_adjustment_headers");
+            resolve(data);
+        } catch (err) {
+            reject(err);
+        }
+    });
+}
+
+async function getAdjustementHeaderById(id){
+    return new Promise(async (resolve, reject) => {
+        try {
+            const data = await readFileSync("ar_adjustment_headers");
+            resolve(data.filter((e) => e.adj_header_id == id));
+        } catch (err) {
+            reject(err);
+        }
+    });   
+}
+
+async function getAdjustementsSentences() {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const data = await readFileSync("ar_adjustment_sentences");
+            resolve(data);
         } catch (err) {
             reject(err);
         }
@@ -135,6 +162,8 @@ module.exports = {
     getManufacturerById,
     getModelSeries,
     getModelSeriesById,
-    getMaintenanceByTypeId
-
+    getAdjustmentByTypeId,
+    getAdjustementsHeaders,
+    getAdjustementHeaderById,
+    getAdjustementsSentences
 }

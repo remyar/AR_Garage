@@ -6,30 +6,36 @@ import { withNavigation } from '../../providers/navigation';
 import { useParams } from "react-router-dom";
 
 import Box from '@mui/material/Box';
+import Loader from '../../components/Loader';
 
 import actions from '../../actions';
 
 function TechnicsDetailsPage(props) {
 
     let params = useParams();
+    params.manuId = parseInt(params.manuId);
+    params.modelId = parseInt(params.modelId);
+    params.motorId = parseInt(params.motorId);
+
 
     const [displayLoader, setDisplayLoader] = useState(false);
-    const [manufacturer, setManufacturer] = useState(undefined);
-    const [modelSerie, setModelSerie] = useState(undefined);
-    const [engine, setEngine] = useState(undefined);
+    const [adjustment, setAdjustment] = useState(undefined);
+
 
 
     async function fetchData() {
         try{
             setDisplayLoader(true);
-
+            let result = await props.dispatch(actions.technics.getAdjustmentByTypeId(params.motorId));
+            setAdjustment(result.adjustment);
+            /*
             let result = await props.dispatch(actions.technics.getManufacturerById(params.manuId));
             setManufacturer(result.manufacturer);
             result = await props.dispatch(actions.technics.getModelSeriesById(params.modelId));
             setModelSerie(result.modelSeries);
             result = await props.dispatch(actions.technics.getMotorById(params.motorId));
             setEngine(result.motor);
-
+*/
             setDisplayLoader(false);
         }catch(err){
             props.snackbar.error('fetch.error');
@@ -41,7 +47,9 @@ function TechnicsDetailsPage(props) {
     }, []);
 
     return <Box sx={{ paddingBottom: '25px', overflow: 'hidden' }}>
-        dfsdfsd
+
+        <Loader display={displayLoader} />
+
     </Box>
 }
 

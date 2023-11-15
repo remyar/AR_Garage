@@ -18,7 +18,7 @@ module.exports = {
             await database.setdbPath(isDev ? "./assets/database.zip" : path.join(process.resourcesPath, "database.zip"));
             await technics.setdbPath(isDev ? "./assets/technics.zip" : path.join(process.resourcesPath, "technics.zip"));
 
-            await technics.getMaintenanceByTypeId(22410);
+            //await technics.getMaintenanceByTypeId(22410);
             
             ipcMain.on('OPEN_DEV_TOOLS', (event, value) => {
                 if (value) {
