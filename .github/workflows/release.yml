@@ -22,6 +22,10 @@ jobs:
           node-version: '20.9.0'
           registry-url: 'https://registry.npmjs.org'
 
+      - name: Bump Version
+        run: |
+          npm version patch -m "v%s"
+
       - name: Github Action
         run: |
           git config --local user.email "action@github.com"
@@ -41,10 +45,6 @@ jobs:
           REACT_APP_REPARCAR_API_URL_2: ${{ secrets.REACT_APP_REPARCAR_API_URL_2 }}
           REACT_APP_DEBUG_PASSWORD: ${{ secrets.REACT_APP_DEBUG_PASSWORD }}
           REACT_APP_GODMODE_PASSWORD: ${{ secrets.REACT_APP_GODMODE_PASSWORD }}
-
-      - name: Bump Version
-        run: |
-          npm version patch -m "v%s"
           
       - name: Push changes
         uses: ad-m/github-push-action@master
