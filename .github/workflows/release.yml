@@ -26,18 +26,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-
-      - name: Bump Version
-        run: |
-          npm version patch -m "v%s"
-
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.github_token }}
-          repository: 'remyar/AR_Garage'
-          directory: './'
-
+          
       - name: Build/release Electron app
         uses: samuelmeuli/action-electron-builder@v1
         with:
@@ -50,3 +39,14 @@ jobs:
           REACT_APP_REPARCAR_API_URL_2: ${{ secrets.REACT_APP_REPARCAR_API_URL_2 }}
           REACT_APP_DEBUG_PASSWORD: ${{ secrets.REACT_APP_DEBUG_PASSWORD }}
           REACT_APP_GODMODE_PASSWORD: ${{ secrets.REACT_APP_GODMODE_PASSWORD }}
+
+      - name: Bump Version
+        run: |
+          npm version patch -m "v%s"
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.github_token }}
+          repository: 'remyar/AR_Garage'
+          directory: './'
