@@ -16,16 +16,21 @@ jobs:
       - name: checkout
         uses: actions/checkout@v1
 
-      - name: Use Node.js 14.21.2
+      - name: Use Node.js 20.9.0
         uses: actions/setup-node@v1
         with:
-          node-version: '14.21.2'
+          node-version: '20.9.0'
           registry-url: 'https://registry.npmjs.org'
 
       - name: Github Action
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          
+      - name: Github Action
+        run: |
+          npm install -g pnpm
+          pnpm install
           
       - name: Build/release Electron app
         uses: samuelmeuli/action-electron-builder@v1
