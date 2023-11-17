@@ -10,6 +10,7 @@ Un petit utilitaire de generation de devis et de facture pour micro entreprise
 - Windows 10 / 11 - 64 Bits
 - Espace disque 1 Go
 - Connection internet ( pour la recherche par plaque et les mises a jours automatique )
+- Fichier d'installation windows : ![Telechargeable ICI](https://github.com/remyar/AR_Garage/releases/latest)
 
 ## Utilisation
 
