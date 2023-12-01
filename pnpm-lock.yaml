@@ -18,8 +18,8 @@ dependencies:
     specifier: ^11.11.0
     version: 11.11.0(@emotion/react@11.11.1)(react@18.2.0)
   '@mui/icons-material':
-    specifier: ^5.14.16
-    version: 5.14.16(@mui/material@5.14.17)(react@18.2.0)
+    specifier: ^5.14.18
+    version: 5.14.19(@mui/material@5.14.17)(react@18.2.0)
   '@mui/lab':
     specifier: ^5.0.0-alpha.152
     version: 5.0.0-alpha.152(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@mui/material@5.14.17)(react-dom@18.2.0)(react@18.2.0)
@@ -187,8 +187,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /@adobe/css-tools@4.3.1:
-    resolution: {integrity: sha512-/62yikz7NLScCGAAST5SHdnjaDJQBDq0M2muyRTpf2VQhw6StBg2ALiu73zSJQ4fMVLA+0uBhBHAle7Wg+2kSg==}
+  /@adobe/css-tools@4.3.2:
+    resolution: {integrity: sha512-DA5a1C0gD/pLOvhv33YMrbf2FK3oUzwNl9oOJqE4XVjuEtt6XIakRcsd7eLiOSPkp1kTRQGICTA8cKra/vFbjw==}
     dev: false
 
   /@alloc/quick-lru@5.2.0:
@@ -1622,6 +1622,13 @@ packages:
       regenerator-runtime: 0.14.0
     dev: false
 
+  /@babel/runtime@7.23.5:
+    resolution: {integrity: sha512-NdUTHcPe4C99WxPub+K9l9tK5/lV4UXIoaHSYgzco9BCyjKAAwzdBI+wWtYqHt7LJdbo74ZjRPJgzVweq1sz0w==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      regenerator-runtime: 0.14.0
+    dev: false
+
   /@babel/template@7.22.15:
     resolution: {integrity: sha512-QPErUVm4uyJa60rkI73qneDacvdvzxshT3kksGqlGWYdOTIUOwJ7RDUL8sGqslY1uXWSL6xMFKEXDS3ox2uF0w==}
     engines: {node: '>=6.9.0'}
@@ -2886,8 +2893,8 @@ packages:
     resolution: {integrity: sha512-eE0uxrpJAEL2ZXkeGLKg8HQDafsiXY+6eNpP4lcv3yIjFfGbU6Hj9/P7Adt8jpU+6JIhmxvILGj2r27pX+zdrQ==}
     dev: false
 
-  /@mui/icons-material@5.14.16(@mui/material@5.14.17)(react@18.2.0):
-    resolution: {integrity: sha512-wmOgslMEGvbHZjFLru8uH5E+pif/ciXAvKNw16q6joK6EWVWU5rDYWFknDaZhCvz8ZE/K8ZnJQ+lMG6GgHzXbg==}
+  /@mui/icons-material@5.14.19(@mui/material@5.14.17)(react@18.2.0):
+    resolution: {integrity: sha512-yjP8nluXxZGe3Y7pS+yxBV+hWZSsSBampCxkZwaw+1l+feL+rfP74vbEFbMrX/Kil9I/Y1tWfy5bs/eNvwNpWw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       '@mui/material': ^5.0.0
@@ -2897,7 +2904,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.2
+      '@babel/runtime': 7.23.5
       '@mui/material': 5.14.17(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
     dev: false
@@ -3437,7 +3444,7 @@ packages:
       vitest:
         optional: true
     dependencies:
-      '@adobe/css-tools': 4.3.1
+      '@adobe/css-tools': 4.3.2
       '@babel/runtime': 7.23.2
       aria-query: 5.3.0
       chalk: 3.0.0
@@ -4757,6 +4764,7 @@ packages:
 
   /base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
+    requiresBuild: true
 
   /batch@0.6.1:
     resolution: {integrity: sha512-x+VAiMRL6UPkx+kudNvxTl6hB2XNNCG2r+7wixVfIYwu/2HKRXimwQyaumLjMveWvT2Hkd/cAJw+QBMfJ/EKVw==}
