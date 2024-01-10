@@ -38,7 +38,7 @@ function DataTable(props) {
     let rows = props.rows || [];
     let sx = { ...props.sx }
 
-    return <TableContainer component={Paper} sx={{ minHeight: sx.height, maxHeight: sx.height }}>
+    return <TableContainer component={Paper} sx={{ ...sx , minHeight: sx.height, maxHeight: sx.height }}>
         <Table sx={{ minWidth: '100%' }} aria-label="simple table" stickyHeader >
             <TableHead>
                 <TableRow>

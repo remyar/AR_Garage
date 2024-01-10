@@ -49,7 +49,7 @@ function DevisCreatePage(props) {
     const [displayServiceAddToDevisModal, setDisplayServiceAddToDevisModal] = useState(false);
 
     const [lines, setLines] = useState([]);
-    const [expiration, setExpiration] = useState(new Date());
+    const [expiration, setExpiration] = useState((new Date()).addMonths(1));
 
     const [devisNumber, setDevisNumber] = useState(0);
 
@@ -65,10 +65,10 @@ function DevisCreatePage(props) {
 
 
     }
-    
-    async function _fetchData(){
+
+    async function _fetchData() {
         await fetchData();
-        if ( params.id != undefined ){
+        if (params.id != undefined) {
             let result = await props.dispatch(actions.get.devis(params.id));
             setSelectedClient(result.devis.client);
             await props.dispatch(actions.set.selectedVehicule(result.devis.vehicule));
@@ -164,7 +164,7 @@ function DevisCreatePage(props) {
                     </Grid>
                 </Grid>
             </Grid>
-            <Grid item xs={6}>
+            <Grid item xs={6} >
                 <Grid container spacing={2}>
                     <Grid item xs={12}>
                         <PlaqueValue
@@ -229,7 +229,7 @@ function DevisCreatePage(props) {
             }}
         />}
 
-        <DataTable sx={{ marginTop: '25px' }} headers={headers} rows={rows}>
+        <DataTable sx={{ marginTop: '15px' }} headers={headers} rows={rows}>
 
         </DataTable>
 
@@ -256,20 +256,20 @@ function DevisCreatePage(props) {
             />
 
             <SpeedDialAction
-                key={'PendingDevis'} 
+                key={'PendingDevis'}
                 icon={<PauseCircleFilledIcon />}
                 tooltipTitle={intl.formatMessage({ id: 'devis.pending' })}
                 onClick={async () => {
                     let devis = {
-                        id : params.id,
-                        facture_id : undefined,
+                        id: params.id,
+                        facture_id: undefined,
                         client: { ...selectedClient },
                         vehicule: { ...selectedVehicule },
                         date: new Date().getTime(),
                         expiration: expiration,
                         products: [...lines],
-                        isPending : true,
-                        paye : false,
+                        isPending: true,
+                        paye: false,
                     }
 
                     await props.dispatch(actions.set.saveDevis(devis));
@@ -284,15 +284,15 @@ function DevisCreatePage(props) {
                 tooltipTitle={intl.formatMessage({ id: 'devis.save' })}
                 onClick={async () => {
                     let devis = {
-                        id : params.id,
-                        facture_id : undefined,
+                        id: params.id,
+                        facture_id: undefined,
                         client: { ...selectedClient },
                         vehicule: { ...selectedVehicule },
                         date: new Date().getTime(),
                         expiration: expiration,
                         products: [...lines],
-                        isPending : false,
-                        paye : false,
+                        isPending: false,
+                        paye: false,
                     }
 
                     await props.dispatch(actions.set.saveDevis(devis));
@@ -308,7 +308,7 @@ function DevisCreatePage(props) {
                 onClick={async () => {
 
                     let devis = {
-                        id : params.id,
+                        id: params.id,
                         devis_number: devisNumber,
                         client: selectedClient,
                         client_id: selectedClient?.id,
@@ -318,9 +318,9 @@ function DevisCreatePage(props) {
                         expiration: expiration,
                         products: [...lines],
                     }
-                 /*   lines.forEach((line) => {
-                        devis.products.push({ ...line, product_id: line.id, quantity: line.quantity });
-                    });*/
+                    /*   lines.forEach((line) => {
+                           devis.products.push({ ...line, product_id: line.id, quantity: line.quantity });
+                       });*/
                     props.dispatch(actions.pdf.devis(devis, true))
                 }}
             />
