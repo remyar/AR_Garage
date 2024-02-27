@@ -20,7 +20,7 @@ function TechnicsDetailsPage(props) {
 
     const [displayLoader, setDisplayLoader] = useState(false);
     const [adjustment, setAdjustment] = useState(undefined);
-
+    
 
 
     async function fetchData() {

@@ -27,21 +27,28 @@ function ModelSeries(props) {
     const [motors, setMotors] = useState([]);
     const [filter, setFilter] = useState("");
 
+    const selectedVehicule = props.globalState.selectedVehicule;
+
     async function fetchData() {
         setDisplayLoader(true);
         try {
 
-            let result = await props.dispatch(actions.technics.getModelSeries(params.id));
-            setModelSeries(result.modelSeries);
-
-            result = await props.dispatch(actions.technics.getManufacturerById(params.id));
-            setManufacturer(result.manufacturer);
-
-            if (selectedModel) {
-                result = await props.dispatch(actions.technics.getMotorByModelId(selectedModel?.model_id));
-                setMotors(result.motors);
+            if (selectedVehicule) {
+                let result = (await props.dispatch(actions.technics.getModelByTecdocId(selectedVehicule.tecdocId)))?.model || undefined;
+                props.navigation.push(routeMdw.urlTechnicsAdjustments(result.type_id));
             }
+            else {
+                let result = await props.dispatch(actions.technics.getModelSeries(params.id));
+                setModelSeries(result.modelSeries);
 
+                result = await props.dispatch(actions.technics.getManufacturerById(params.id));
+                setManufacturer(result.manufacturer);
+
+                if (selectedModel) {
+                    result = await props.dispatch(actions.technics.getMotorByModelId(selectedModel?.model_id));
+                    setMotors(result.motors);
+                }
+            }
         } catch (err) {
             props.snackbar.error('fetch.error');
         }

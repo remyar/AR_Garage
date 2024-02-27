@@ -24,16 +24,24 @@ function TechnicsPage(props) {
 
     async function fetchData() {
         setDisplayLoader(true);
-        try {
-            let result = await props.dispatch(actions.technics.getAllManufacturers());
-            setManufacturers(result.manufacturers);
-        } catch (err) {
-            props.snackbar.error('fetch.error');
+        if (selectedVehicule == undefined){
+            try {
+                let result = await props.dispatch(actions.technics.getAllManufacturers());
+                setManufacturers(result.manufacturers);
+            } catch (err) {
+                props.snackbar.error('fetch.error');
+            }
+        } else {
+            let result = (await props.dispatch(actions.technics.getModelByTecdocId(selectedVehicule.tecdocId)))?.model || undefined;
+            if ( result ) {
+                props.navigation.push(routeMdw.urlTechnics(result.make_id));
+            }
         }
         setDisplayLoader(false);
     }
 
     useEffect(() => {
+        
         fetchData();
     }, []);
 

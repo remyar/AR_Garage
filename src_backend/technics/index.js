@@ -167,6 +167,10 @@ async function getModelFromTecdocId(_id) {
                     let type = types[0];
 
                     let models = await getModelSeriesById(type.model_id);
+                    models = models.map((m) => {
+                        m.type_id = type.type_id;
+                        return m;
+                    })
                     resolve(models);
                     return;
                 }
