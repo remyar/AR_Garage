@@ -5,16 +5,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Generate Catégories",
-            "program": "${workspaceFolder}/tools/index.js",
-            "request": "launch",
-            "console": "integratedTerminal",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "type": "node"
-        },
-        {
             "name": "Debug Main Process",
             "type": "node",
             "request": "launch",

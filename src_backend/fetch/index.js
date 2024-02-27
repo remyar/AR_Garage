@@ -3,7 +3,11 @@ const fetch = require('electron-fetch').default;
 async function get(options) {
     return new Promise(async (resolve, reject) => {
         try {
-            let response = await fetch(options.url);
+            let response = await fetch(options.url , {
+                method: 'GET',
+                redirect: 'follow',
+                headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0' }
+            });
             if (response.status == 200) {
                 let r = undefined;
                 if (response.headers.get('content-type').includes("text/html")) {
