@@ -5,6 +5,7 @@ const technics = require('./technics');
 const path = require('path');
 const isDev = require('electron-is-dev');
 const myfetch = require('./fetch');
+const images = require('./images');
 
 let mainWindow = undefined;
 
@@ -17,7 +18,7 @@ module.exports = {
         try {
             await database.setdbPath(isDev ? "./assets/database.zip" : path.join(process.resourcesPath, "database.zip"));
             await technics.setdbPath(isDev ? "./assets/technics.zip" : path.join(process.resourcesPath, "technics.zip"));
-
+            await images.setdbPath(isDev ? "./assets/images.zip" : path.join(process.resourcesPath, "images.zip"));
             //await technics.getMaintenanceByTypeId(22410);
             
             ipcMain.on('OPEN_DEV_TOOLS', (event, value) => {
@@ -51,6 +52,13 @@ module.exports = {
                     return (await myfetch[key](value));
                 });
             });
+
+            Object.keys(images).forEach((key) => {
+                ipcMain.handle('images.' + key, async (event, value) => {
+                    return (await images[key](value));
+                });
+            });
+
         } catch (err) {
             console.error(err);
         }

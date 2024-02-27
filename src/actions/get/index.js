@@ -12,6 +12,7 @@ import devis from './devis';
 import facture from './facture';
 import motorisations from './motorisations';
 import vehicule from './vehicule';
+import images from './images';
 
 export default {
     allClients,
@@ -27,5 +28,6 @@ export default {
     facture,
     modelSeries,
     motorisations,
-    vehicule
+    vehicule,
+    images
 }

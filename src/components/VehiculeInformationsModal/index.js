@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { injectIntl } from 'react-intl';
 import Modal from '../Modal';
 
@@ -7,10 +7,40 @@ import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 
+import { withStoreProvider } from '../../providers/StoreProvider';
+import actions from '../../actions';
+import Loader from '../../components/Loader';
+
+
 function VehiculeInformationModal(props) {
 
     const intl = props.intl;
     const vehicule = props.vehicule || {};
+
+    const [modelImage, setModelImage] = useState({});
+    const [displayLoader, setDisplayLoader] = useState(false);
+
+    async function fetchData() {
+        try {
+            setDisplayLoader(true);
+            let data = await props.dispatch(actions.technics.getModelByTecdocId(vehicule.tecdocId));
+            let model = data?.model || {};
+
+            if (model.imageId) {
+                let image = (await props.dispatch(actions.get.images(model.imageId)))?.image;
+                if (image) {
+                    setModelImage(image);
+                }
+            }
+            setDisplayLoader(false);
+        } catch (err) {
+
+        }
+    }
+
+    useEffect(() => {
+        fetchData();
+    }, []);
 
     function _generateEntry(name, value) {
         return <Grid container spacing={2} sx={{ paddingTop: '15px' }} key={name}>
@@ -39,7 +69,15 @@ function VehiculeInformationModal(props) {
         onClose={() => {
             //props.onClose && props.onClose();
         }}>
-        <Paper elevation={0}>
+
+        <Loader display={displayLoader} />
+
+        {!displayLoader && <Paper elevation={0}>
+            {modelImage?.extension && modelImage?.src && <Grid container spacing={2}>
+                <Grid item xs={12} sx={{ textAlign: 'center' }}>
+                    <img src={`data:${modelImage?.extension};base64,${modelImage?.src}`} width={120}/>
+                </Grid>
+            </Grid>}
 
             <Grid container spacing={2}>
                 <Grid item xs={12} sx={{ textAlign: 'center' }}>
@@ -76,10 +114,10 @@ function VehiculeInformationModal(props) {
                 </Grid>
             </Grid>
 
-        </Paper >
+        </Paper >}
 
     </Modal >;
 }
 
 
-export default injectIntl(VehiculeInformationModal);
+export default withStoreProvider(injectIntl(VehiculeInformationModal));
