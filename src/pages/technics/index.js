@@ -16,6 +16,8 @@ import routeMdw from '../../middleware/route';
 
 function TechnicsPage(props) {
 
+    const selectedVehicule = props.globalState.selectedVehicule;
+    
     const [displayLoader, setDisplayLoader] = useState(false);
     const [manufacturers, setManufacturers] = useState([]);
     const [filter, setFilter] = useState("");
