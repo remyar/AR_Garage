@@ -42,7 +42,7 @@ async function startApp() {
     window.userLocaleWithoutRegionCode = languageWithoutRegionCode;
     localeData.setLocale(languageWithoutRegionCode);
     // Try full locale, try locale without region code, fallback to 'en'
-    const messages = localeData[languageWithoutRegionCode] || localeData[language] || localeData.en;
+    const messages = localeData[languageWithoutRegionCode] || localeData[language] || localeData.fr;
 
     const root = createRoot(document.getElementById('root'));
 

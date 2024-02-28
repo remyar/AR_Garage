@@ -1,8 +1,8 @@
 import createAction from '../../middleware/actions';
 import { ipcRenderer } from 'electron';
+import actions from '../../actions';
 
-
-export async function getAutoFromPlate(plate = "AA-456-BB", { extra, getState }) {
+export async function getAutoFromPlate(plate = "AA-456-BB", { dispatch , extra, getState }) {
     const api = extra.api;
     const database = extra.database;
 
@@ -33,6 +33,19 @@ export async function getAutoFromPlate(plate = "AA-456-BB", { extra, getState })
             vehicule.designation = (vehicleDetails?.manuName || vehicule.brand)  + " " + (vehicleDetails?.modelName || vehicule.model) + " " + (vehicleDetails?.typeName || '');
             vehicule.tecdocId = vehiculeInfos.vehicule[0]?.id;
             vehicule.engineCode = vehiculeInfos.engineNumber[0] || "";
+        }
+
+        if (vehicule.tecdocId != undefined){
+            try {
+                let data = await dispatch(actions.technics.getModelByTecdocId(vehicule.tecdocId));
+                let model = data?.model || {};
+                if (model.imageId) {
+                    let image = await dispatch(actions.get.images(model.imageId));
+                    vehicule.image = { ...image.image }
+                }
+            } catch(err){
+                vehicule.image = undefined;
+            }
         }
 
         vehicule.deleted = false;
