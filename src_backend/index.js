@@ -21,7 +21,7 @@ module.exports = {
             await images.setdbPath(isDev ? "./assets/images.zip" : path.join(process.resourcesPath, "images.zip"));
             //await technics.getMaintenanceByTypeId(22410);
             
-            ipcMain.on('OPEN_DEV_TOOLS', (event, value) => {
+            ipcMain.handle('OPEN_DEV_TOOLS', (event, value) => {
                 if (value) {
                     mainWindow.webContents.openDevTools();
                 } else {
