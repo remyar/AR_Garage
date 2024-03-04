@@ -9,6 +9,8 @@ import getAdjustmentsByTypeId from "./get.adjustments.by.typeId";
 import getAdjustmentsHeaders from './get.adjustments.headers';
 import getAdjustmentsSentences from './get.adjustments.sentences';
 import getModelByTecdocId from "./get.model.by.tecdocId";
+import getAllComponents from "./get.all.components";
+import getAllComponentsByTypeId from "./get.all.components.by.typeId";
 export default {
     getTechnicsEntry,
     getMotorByModelId,
@@ -20,5 +22,7 @@ export default {
     getAdjustmentsHeaders,
     getAdjustmentsByTypeId,
     getAdjustmentsSentences,
-    getModelByTecdocId
+    getModelByTecdocId,
+    getAllComponents,
+    getAllComponentsByTypeId
 };

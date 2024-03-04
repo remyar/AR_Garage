@@ -160,7 +160,7 @@ async function getModelFromTecdocId(_id) {
             let data = await getTechnicsEntry(_id);
             let ids = data.filter((e) => (e.internal_ktypnr == 0));
 
-            if ( ids.length > 0){
+            if (ids.length > 0) {
                 let id = ids[0];
                 let types = await getMotorById(id.type_id);
                 if (types.length > 0) {
@@ -174,13 +174,38 @@ async function getModelFromTecdocId(_id) {
                     resolve(models);
                     return;
                 }
-            } 
+            }
             resolve([]);
         }
         catch (err) {
             reject(err);
         }
     });
+}
+
+async function getAllComponents() {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const data = await readFileSync("ar_components");
+            resolve(data);
+        }
+        catch (err) {
+            reject(err);
+        }
+    });
+}
+
+async function getAllComponentsByTypeId(_typeId){
+    return new Promise(async (resolve, reject) => {
+        try {
+            const data = await readFileSync("ar_components");
+            let components = data.filter((e) => (e.type_id == _typeId));
+            resolve(components);
+        }
+        catch (err) {
+            reject(err);
+        }
+    }); 
 }
 
 module.exports = {
@@ -196,5 +221,7 @@ module.exports = {
     getAdjustementsHeaders,
     getAdjustementHeaderById,
     getAdjustementsSentences,
-    getModelFromTecdocId
+    getModelFromTecdocId,
+    getAllComponents,
+    getAllComponentsByTypeId
 }

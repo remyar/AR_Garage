@@ -26,6 +26,7 @@ function TechnicsPage(props) {
         setDisplayLoader(true);
         if (selectedVehicule == undefined){
             try {
+                //let result = await props.dispatch(actions.technics.getAllComponents());
                 let result = await props.dispatch(actions.technics.getAllManufacturers());
                 setManufacturers(result.manufacturers);
             } catch (err) {
