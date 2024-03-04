@@ -20,7 +20,7 @@ module.exports = {
             await technics.setdbPath(isDev ? "./assets/technics.zip" : path.join(process.resourcesPath, "technics.zip"));
             await images.setdbPath(isDev ? "./assets/images.zip" : path.join(process.resourcesPath, "images.zip"));
             //await technics.getMaintenanceByTypeId(22410);
-            
+
             ipcMain.handle('OPEN_DEV_TOOLS', (event, value) => {
                 if (value) {
                     mainWindow.webContents.openDevTools();
