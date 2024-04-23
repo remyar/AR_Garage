@@ -166,7 +166,7 @@ export async function devis(devis, printAndSave, { extra, getState }) {
 
             _pushText(devis.vehicule?.plate || "", 30 + 10);
             _pushText(devis.vehicule?.designation || "", (pdf.internal.pageSize.getWidth() / 4));
-            //_pushText(devis.vehicule?.kilometrage ? (devis.vehicule?.kilometrage + " km") : "", (pdf.internal.pageSize.getWidth() / 3) * 2);
+            _pushText(devis.vehicule?.kilometrage ? (devis.vehicule?.kilometrage + " km") : "", (pdf.internal.pageSize.getWidth() / 3) * 2);
 
             lineOffset += pdf.getLineHeight() * 4;
 
