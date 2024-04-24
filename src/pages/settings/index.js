@@ -75,7 +75,6 @@ function SettingsPage(props) {
         if (globalState?.settings?.uuid == undefined) {
             await props.dispatch(actions.set.saveSettings({ uuid: v4() }));
         }
-        setUuidImg(await QRCode.toDataURL(globalState?.settings?.uuid));
     }
 
     useEffect(() => {

@@ -134,8 +134,8 @@ export async function facture(devis, printAndSave, { extra, getState }) {
         pdf.setTextColor(0, 0, 0);
 
         _pushText(devis.vehicule?.plate || "", 30 + 10);
-        _pushText(devis.vehicule?.designation || "", (pdf.internal.pageSize.getWidth() / 4));
-        _pushText(devis.vehicule?.kilometrage ? (devis.vehicule?.kilometrage + " km") : "", (pdf.internal.pageSize.getWidth() / 3) * 2);
+        _pushText(devis.vehicule?.designation || "", (pdf.internal.pageSize.getWidth() / 5));
+        _pushText(devis.vehicule?.kilometrage ? (devis.vehicule?.kilometrage + " km") : "", (pdf.internal.pageSize.getWidth() - 150));
 
         lineOffset += pdf.getLineHeight() * 4;
 
