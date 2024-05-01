@@ -16,10 +16,10 @@ jobs:
       - name: checkout
         uses: actions/checkout@v1
 
-      - name: Use Node.js 20.9.0
+      - name: Use Node.js 20.12.2
         uses: actions/setup-node@v1
         with:
-          node-version: '20.9.0'
+          node-version: '20.12.2'
           registry-url: 'https://registry.npmjs.org'
 
       - name: Github Action
