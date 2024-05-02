@@ -3,8 +3,7 @@ import { injectIntl } from 'react-intl';
 import { withStoreProvider } from '../../providers/StoreProvider';
 import { withSnackBar } from '../../providers/snackBar';
 import InputMask from 'react-input-mask';
-import { validate, v4 } from 'uuid';
-import QRCode from 'qrcode';
+import { v4 } from 'uuid';
 
 import Box from '@mui/material/Box';
 import List from '@mui/material/List';
@@ -14,7 +13,6 @@ import Divider from '@mui/material/Divider';
 import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
-import EditIcon from '@mui/icons-material/Edit';
 
 import Switch from '@mui/material/Switch';
 
@@ -34,7 +32,6 @@ import { Formik, Form } from 'formik';
 
 import { Buffer } from 'buffer';
 import Installation from '../../components/Installation';
-import database from '../../actions/database';
 
 import PasswordAsk from '../../components/PasswordAsk';
 
@@ -290,50 +287,6 @@ function SettingsPage(props) {
                 </Grid>
             </ListItem>
             <br />
-            {/*<ListItem disablePadding>
-                <Typography variant="h5" gutterBottom component="div">{intl.formatMessage({ id: 'settings.online.mode' })}</Typography>
-            </ListItem>
-            <Divider />
-            <ListItem>
-                <ListItemText primary="Synchronisation en ligne" />
-                <Switch checked={globalState?.settings?.onlineMode} onChange={async (event) => {
-                    await props.dispatch(actions.set.saveSettings({ onlineMode: event.target.checked }));
-                }} />
-            </ListItem>
-            {globalState?.settings?.onlineMode && <ListItem>
-                <Grid container spacing={2}>
-                    <Grid item xs={6} >
-                        {"Identifiant unique du compte"}
-                    </Grid>
-                    <Grid item xs={6} style={{ textAlign: "right" }}>
-                        {globalState?.settings?.uuid}
-                        <EditIcon sx={{ cursor: 'pointer', marginLeft: "15px" }} onClick={() => {
-                            setDisplayChangeUUIDModal(true);
-                        }} />
-                    </Grid>
-                </Grid>
-            </ListItem>}
-            {globalState?.settings?.onlineMode && <ListItem>
-                <Grid container spacing={2}>
-                    <Grid item xs={6} >
-                        {"QRCode unique du compte"}
-                    </Grid>
-                    <Grid item xs={6} style={{ textAlign: "right" }}>
-                        <img src={uuidImg} alt="" />
-                    </Grid>
-                </Grid>
-            </ListItem>}
-            <br />
-            <ListItem disablePadding>
-                <Typography variant="h5" gutterBottom component="div">{intl.formatMessage({ id: 'settings.install.database' })}</Typography>
-            </ListItem>
-            <Divider />
-            <ListItem>
-                <ListItemText primary="Installer la base de données" />
-                <Button variant="contained" style={{ textAlign: "right" }} onClick={() => {
-                    setDisplayDatabaseInstaller(true);
-                }}>Installation</Button>
-            </ListItem>*/}
             <ListItem disablePadding>
                 <Typography variant="h5" gutterBottom component="div">{intl.formatMessage({ id: 'settings.database.title' })}</Typography>
             </ListItem>
@@ -387,26 +340,6 @@ function SettingsPage(props) {
                 </Grid>
             </ListItem>
             <br />
-            {/*<ListItem disablePadding>
-                <Typography variant="h5" gutterBottom component="div">{intl.formatMessage({ id: 'settings.install.database' })}</Typography>
-            </ListItem>
-            <Divider />
-            <ListItem>
-                <ListItemText primary="Installer la base de donnée" />
-                <Switch checked={globalState.settings.useDatabase ? globalState.settings.useDatabase : false} onChange={async (event) => {
-                    await props.dispatch(actions.set.saveSettings({useDatabase : event.target.checked}));
-                    // if ( event.target.checked == true ){
-                     //    await props.dispatch(actions.database.installTecdocDatabase());
-                     //}
-                }} />
-            </ListItem>*/}
-            {/*((globalState.settings?.useCatalog == 1) || (globalState.settings?.useCatalog == true)) && <ListItem>
-                <ListItemText primary="Selectionner les Fabriquants" />
-                <Button variant="contained" style={{ textAlign: "right" }} onClick={() => {
-                    setDisplayAmBrandsSelector(true);
-                }}>Selectionner les Fabriquants</Button>
-            </ListItem>}
-            <br />*/}
             <ListItem disablePadding>
                 <Typography variant="h5" gutterBottom component="div">{intl.formatMessage({ id: 'settings.adminMode' })}</Typography>
             </ListItem>
