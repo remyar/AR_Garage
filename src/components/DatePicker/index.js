@@ -7,7 +7,7 @@ import locales from '../../locales';
 
 function MyDatePicker(props) {
     const intl = props.intl;
-    const [value, setValue] = useState(new Date());
+    const [value, setValue] = useState(props.value || new Date());
 
     useEffect(() => {
         props.onChange && props.onChange(value);

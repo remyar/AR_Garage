@@ -158,9 +158,13 @@ function DevisCreatePage(props) {
                 </Grid>
                 <Grid container spacing={2} sx={{ paddingTop: '15px' }}>
                     <Grid item xs={12}>
-                        < DatePicker sx={{ width: '100%', minWidth: '100%' }} onChange={(value) => {
-                            setExpiration(value.getTime());
-                        }} />
+                        < DatePicker
+                            value={expiration}
+                            sx={{ width: '100%', minWidth: '100%' }}
+                            onChange={(value) => {
+                                setExpiration(value.getTime());
+                            }}
+                        />
                     </Grid>
                 </Grid>
             </Grid>
