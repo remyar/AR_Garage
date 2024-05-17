@@ -1,6 +1,6 @@
 const { JsonStreamStringify } = require('json-stream-stringify');
 const JSONStream = require('JSONStream');
-const intoStream = require('into-stream');
+const intoStream = require('./into-stream');
 const through2 = require('through2');
 
 module.exports = {

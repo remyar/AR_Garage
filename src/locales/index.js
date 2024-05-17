@@ -2,10 +2,10 @@
  * Load locales, send back object
  */
  import { registerLocale, setDefaultLocale } from "react-datepicker";
- import frDatepicker from 'date-fns/esm/locale/fr';
- import enDatepicker from 'date-fns/esm/locale/en-US';
- import esDatepicker from 'date-fns/esm/locale/es';
- import itDatepicker from 'date-fns/esm/locale/it';
+import frDatepicker from 'date-fns/locale/fr';
+import enDatepicker from 'date-fns/locale/en-US';
+import esDatepicker from 'date-fns/locale/es';
+import itDatepicker from 'date-fns/locale/it';
  
  //import en from './en.json';
  import fr from './fr.json';

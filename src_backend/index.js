@@ -3,10 +3,10 @@ const code_postaux = require('./code_postaux');
 const database = require('./database');
 const technics = require('./technics');
 const path = require('path');
-const isDev = require('electron-is-dev');
+
 const myfetch = require('./fetch');
 const images = require('./images');
-
+let isDev = !app.isPackaged;
 let mainWindow = undefined;
 
 module.exports = {
